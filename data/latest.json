@@ -80,9 +80,9 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "link": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 281293,
-      "stars_today": 3,
-      "trend_score": 6.12,
+      "stars": 281294,
+      "stars_today": 1,
+      "trend_score": 6.03,
       "why_it_matters": "Propone una metodología estructurada para construir habilidades agénticas reutilizables en flujos de desarrollo con IA."
     },
     {
@@ -106,9 +106,9 @@
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "link": "https://github.com/github/spec-kit",
       "language": "Python",
-      "stars": 133303,
-      "stars_today": 156,
-      "trend_score": 13.48,
+      "stars": 133315,
+      "stars_today": 3,
+      "trend_score": 6.12,
       "why_it_matters": "Impulsa el desarrollo dirigido por especificaciones, una práctica cada vez más central en flujos de trabajo con agentes de código."
     },
     {
@@ -119,9 +119,9 @@
       "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "link": "https://github.com/JuliusBrussee/caveman",
       "language": "Go",
-      "stars": 103051,
-      "stars_today": 5,
-      "trend_score": 6.22,
+      "stars": 103054,
+      "stars_today": 3,
+      "trend_score": 6.13,
       "why_it_matters": "Una skill de Claude Code que reduce significativamente el uso de tokens, útil para optimizar costos en agentes de coding."
     },
     {
@@ -132,9 +132,9 @@
       "description": "The agent that grows with you",
       "link": "https://github.com/NousResearch/hermes-agent",
       "language": "Python",
-      "stars": 240776,
-      "stars_today": 4,
-      "trend_score": 6.18,
+      "stars": 240779,
+      "stars_today": 3,
+      "trend_score": 6.13,
       "why_it_matters": "Un framework de agentes en rápido crecimiento que apunta a la personalización y adaptación continua del agente al usuario."
     }
   ],
