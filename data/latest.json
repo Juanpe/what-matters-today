@@ -14,12 +14,9 @@
       "link": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
       "newsId": "fd88d0179e89951f",
       "storyKey": "fd88d0179e89951f",
-      "text": "",
       "topic": "tech",
-      "sourceName": "Wired",
       "image": null,
-      "score": null,
-      "author": ""
+      "score": null
     },
     {
       "id": "24c9728bbd4c9fa3",
@@ -29,12 +26,9 @@
       "link": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
       "newsId": "24c9728bbd4c9fa3",
       "storyKey": "24c9728bbd4c9fa3",
-      "text": "",
       "topic": "tech",
-      "sourceName": "Wired",
       "image": null,
-      "score": null,
-      "author": ""
+      "score": null
     },
     {
       "id": "aa7126551aaa2ad3",
@@ -44,12 +38,9 @@
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
       "newsId": "aa7126551aaa2ad3",
       "storyKey": "aa7126551aaa2ad3",
-      "text": "",
       "topic": "ai_software",
-      "sourceName": "GitHub Blog",
       "image": null,
-      "score": null,
-      "author": ""
+      "score": null
     },
     {
       "id": "f9ddd9bdea401e4e",
@@ -59,12 +50,9 @@
       "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
       "newsId": "f9ddd9bdea401e4e",
       "storyKey": "f9ddd9bdea401e4e",
-      "text": "",
       "topic": "ai_general",
-      "sourceName": "Google DeepMind",
       "image": null,
-      "score": null,
-      "author": ""
+      "score": null
     },
     {
       "id": "b933f32527a8033d",
@@ -74,12 +62,9 @@
       "link": "https://9to5mac.com/2026/09/03/apple-vision-pro-was-just-used-in-a-first-of-its-kind-surgery/",
       "newsId": "b933f32527a8033d",
       "storyKey": "b933f32527a8033d",
-      "text": "",
       "topic": "apple",
-      "sourceName": "9to5Mac",
       "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/ssv_press-release-hero.jpeg?quality=82&strip=all&w=1278",
-      "score": null,
-      "author": ""
+      "score": null
     }
   ],
   "trending_repos": [
@@ -91,9 +76,9 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "link": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 281273,
-      "stars_today": 7,
-      "trend_score": 6.32,
+      "stars": 281289,
+      "stars_today": 16,
+      "trend_score": 6.75,
       "why_it_matters": "Propone una metodología estructurada para construir habilidades agénticas reutilizables en flujos de desarrollo con IA."
     },
     {
@@ -104,9 +89,9 @@
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
       "link": "https://github.com/headroomlabs-ai/headroom",
       "language": "Python",
-      "stars": 68801,
+      "stars": 68804,
       "stars_today": 3,
-      "trend_score": 6.07,
+      "trend_score": 6.06,
       "why_it_matters": "Ofrece un servidor MCP para reducir drásticamente el consumo de tokens en agentes de coding, clave para escalar costos."
     },
     {
@@ -117,9 +102,9 @@
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "link": "https://github.com/github/spec-kit",
       "language": "Python",
-      "stars": 133306,
-      "stars_today": 1,
-      "trend_score": 6.03,
+      "stars": 133311,
+      "stars_today": 5,
+      "trend_score": 6.22,
       "why_it_matters": "Impulsa el desarrollo dirigido por especificaciones, una práctica cada vez más central en flujos de trabajo con agentes de código."
     },
     {
@@ -130,9 +115,9 @@
       "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "link": "https://github.com/JuliusBrussee/caveman",
       "language": "Go",
-      "stars": 103035,
-      "stars_today": 5,
-      "trend_score": 6.23,
+      "stars": 103044,
+      "stars_today": 9,
+      "trend_score": 6.42,
       "why_it_matters": "Una skill de Claude Code que reduce significativamente el uso de tokens, útil para optimizar costos en agentes de coding."
     },
     {
@@ -143,9 +128,9 @@
       "description": "The agent that grows with you",
       "link": "https://github.com/NousResearch/hermes-agent",
       "language": "Python",
-      "stars": 240750,
-      "stars_today": 7,
-      "trend_score": 6.33,
+      "stars": 240768,
+      "stars_today": 18,
+      "trend_score": 6.86,
       "why_it_matters": "Un framework de agentes en rápido crecimiento que apunta a la personalización y adaptación continua del agente al usuario."
     }
   ],
@@ -158,12 +143,9 @@
       "link": "https://www.macrumors.com/2026/09/03/iphone-ultra-features-price-specs/",
       "newsId": "8cc5e5e7f77f41b2",
       "storyKey": "8cc5e5e7f77f41b2",
-      "body": "TrendForce estima que el primer iPhone plegable de Apple podría costar entre 2.099 y más de 3.000 dólares.",
       "topic": "apple",
-      "sourceName": "MacRumors",
       "image": "https://images.macrumors.com/article-new/2025/08/Apple-Foldable-Thumb.jpg",
-      "score": null,
-      "author": ""
+      "score": null
     },
     {
       "id": "cb18426cba87ee19",
@@ -173,12 +155,9 @@
       "link": "https://www.macrumors.com/2026/09/03/apple-hit-with-lawsuit-over-app-tracking/",
       "newsId": "cb18426cba87ee19",
       "storyKey": "cb18426cba87ee19",
-      "body": "Una demanda en Londres acusa a Apple de aplicar reglas de seguimiento más estrictas a desarrolladores externos que a sí misma.",
       "topic": "apple",
-      "sourceName": "MacRumors",
       "image": "https://images.macrumors.com/article-new/2021/04/generic-tracking-prompt-orange.jpg",
-      "score": null,
-      "author": ""
+      "score": null
     },
     {
       "id": "1d6c3fcda52fd0ac",
@@ -188,12 +167,9 @@
       "link": "https://9to5mac.com/2026/09/03/chatgpt-and-codex-are-experiencing-an-outage-for-many-users/",
       "newsId": "1d6c3fcda52fd0ac",
       "storyKey": "1d6c3fcda52fd0ac",
-      "body": "Los tres principales asistentes de IA experimentaron una interrupción de servicio que afectó a numerosos usuarios.",
       "topic": "apple",
-      "sourceName": "9to5Mac",
       "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/ai-outage.webp?w=1600",
-      "score": null,
-      "author": ""
+      "score": null
     },
     {
       "id": "4c04a5e796da2466",
@@ -203,12 +179,9 @@
       "link": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox",
       "newsId": "4c04a5e796da2466",
       "storyKey": "4c04a5e796da2466",
-      "body": "Los agentes de Cursor ahora pueden ejecutarse en microVMs aisladas de Vercel en lugar de máquinas propias de Cursor.",
       "topic": "ai_software",
-      "sourceName": "Vercel AI",
       "image": null,
-      "score": null,
-      "author": "Allen Zhou"
+      "score": null
     },
     {
       "id": "adbbc60505409306",
@@ -218,12 +191,9 @@
       "link": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
       "newsId": "adbbc60505409306",
       "storyKey": "adbbc60505409306",
-      "body": "GitHub vuelve a permitir altas de Copilot Business y Enterprise pagadas con tarjeta o PayPal tras una pausa.",
       "topic": "ai_software",
-      "sourceName": "GitHub Changelog",
       "image": null,
-      "score": null,
-      "author": ""
+      "score": null
     }
   ],
   "developer_signals": [
@@ -234,8 +204,6 @@
       "source": "X",
       "link": "https://x.com/steipete/status/2095540654151721075",
       "signal_type": "tool_or_update",
-      "topic": "ai_general",
-      "image": null,
       "contentType": "developer_signal"
     },
     {
@@ -245,25 +213,19 @@
       "source": "X",
       "link": "https://x.com/lateinteraction/status/2095558964968673438",
       "signal_type": "tool_or_update",
-      "topic": "ai_general",
-      "image": null,
       "contentType": "developer_signal"
     },
     {
       "id": "2095538162869363109",
       "text": "Love @aiDotEngineer but can't watch 1000s of videos on YouTube? Someone built a website that indexes them.",
       "author": "HamelHusain",
-      "source": "X · @HamelHusain",
+      "source": "X",
       "link": "https://x.com/HamelHusain/status/2095538162869363109",
       "signal_type": "tool_or_update",
       "newsId": "2095538162869363109",
       "storyKey": null,
-      "title": "RT @htahir111: Love @aiDotEngineer but can't watch 1000s of videos on YouTube? Me neither.",
-      "body": "Love @aiDotEngineer but can't watch 1000s of videos on YouTube? Someone built a website that indexes them.",
       "topic": "ai_general",
-      "sourceName": "X · @HamelHusain",
       "image": null,
-      "score": null,
       "contentType": "developer_signal"
     },
     {
@@ -273,25 +235,19 @@
       "source": "X",
       "link": "https://x.com/lateinteraction/status/2095552906724290812",
       "signal_type": "developer_share",
-      "topic": "ai_general",
-      "image": null,
       "contentType": "developer_signal"
     },
     {
       "id": "2095548603544547525",
       "text": "With grok down I switched back to codex. It's pretty good too. I'm not sure which is better.",
       "author": "unclebobmartin",
-      "source": "X · @unclebobmartin",
+      "source": "X",
       "link": "https://x.com/unclebobmartin/status/2095548603544547525",
       "signal_type": "developer_share",
       "newsId": "2095548603544547525",
       "storyKey": null,
-      "title": "With grok down I switched back to codex.  It's pretty good too.  I'm not sure which is better.",
-      "body": "With grok down I switched back to codex. It's pretty good too. I'm not sure which is better.",
       "topic": "ai_general",
-      "sourceName": "X · @unclebobmartin",
       "image": null,
-      "score": null,
       "contentType": "developer_signal"
     }
   ],
