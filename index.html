@@ -224,10 +224,18 @@ function unwrapDigest(raw) {
   return Array.isArray(raw) ? raw[0] : raw;
 }
 function unwrapDates(raw) {
-  if (Array.isArray(raw) && raw.length && raw[0] && Array.isArray(raw[0].dates)) {
-    return raw[0].dates;
+  if (Array.isArray(raw)) {
+    if (raw.length && raw[0] && Array.isArray(raw[0].dates)) {
+      return raw[0].dates;
+    }
+    return raw;
   }
-  return raw;
+
+  if (raw && Array.isArray(raw.dates)) {
+    return raw.dates;
+  }
+
+  return [];
 }
 
 function formatLabel(dateStr) {
