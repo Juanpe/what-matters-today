@@ -251,7 +251,8 @@ async function loadArchiveIndex() {
     const res = await fetch('data/archive-index.json?_=' + Date.now());
     if (!res.ok) throw new Error('No archive index');
     const raw = await res.json();
-    const dates = unwrapDates(raw);
+    const datesRaw = unwrapDates(raw);
+    const dates = Array.isArray(datesRaw) ? datesRaw : (datesRaw && Array.isArray(datesRaw.dates) ? datesRaw.dates : []);
     return dates.map((date, i) => ({
       date,
       label: formatLabel(date),
