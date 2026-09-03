@@ -15,8 +15,9 @@
       "newsId": "fd88d0179e89951f",
       "storyKey": "fd88d0179e89951f",
       "topic": "tech",
-      "image": null,
-      "score": null
+      "image": "https://media.wired.com/photos/6a99abf8b2409d6188eae980/191:100/w_1280,c_limit/GPT-6-Can-Use-Computer-Better-Than-Human-Business-1015939026.jpg",
+      "score": null,
+      "imageSource": "scraped_article"
     },
     {
       "id": "24c9728bbd4c9fa3",
@@ -27,8 +28,9 @@
       "newsId": "24c9728bbd4c9fa3",
       "storyKey": "24c9728bbd4c9fa3",
       "topic": "tech",
-      "image": null,
-      "score": null
+      "image": "https://media.wired.com/photos/6a9996ebd275abfc723b2792/191:100/w_1280,c_limit/Model-Behavior-Elon-Musk-Costs-OpenAI-Billion-Dollar-Customer-Business.jpg",
+      "score": null,
+      "imageSource": "scraped_article"
     },
     {
       "id": "aa7126551aaa2ad3",
@@ -39,8 +41,9 @@
       "newsId": "aa7126551aaa2ad3",
       "storyKey": "aa7126551aaa2ad3",
       "topic": "ai_software",
-      "image": null,
-      "score": null
+      "image": "https://github.blog/wp-content/uploads/2024/06/AI-DarkMode-4.png?resize=800%2C425",
+      "score": null,
+      "imageSource": "scraped_article"
     },
     {
       "id": "f9ddd9bdea401e4e",
@@ -51,8 +54,9 @@
       "newsId": "f9ddd9bdea401e4e",
       "storyKey": "f9ddd9bdea401e4e",
       "topic": "ai_general",
-      "image": null,
-      "score": null
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WeatherNext3_Title.width-200.format-webp.webp",
+      "score": null,
+      "imageSource": "scraped_article"
     },
     {
       "id": "b933f32527a8033d",
@@ -76,9 +80,9 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "link": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 281290,
-      "stars_today": 1,
-      "trend_score": 6.03,
+      "stars": 281293,
+      "stars_today": 3,
+      "trend_score": 6.12,
       "why_it_matters": "Propone una metodología estructurada para construir habilidades agénticas reutilizables en flujos de desarrollo con IA."
     },
     {
@@ -102,9 +106,9 @@
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "link": "https://github.com/github/spec-kit",
       "language": "Python",
-      "stars": 133312,
-      "stars_today": 1,
-      "trend_score": 6.02,
+      "stars": 133303,
+      "stars_today": 156,
+      "trend_score": 13.48,
       "why_it_matters": "Impulsa el desarrollo dirigido por especificaciones, una práctica cada vez más central en flujos de trabajo con agentes de código."
     },
     {
@@ -115,9 +119,9 @@
       "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "link": "https://github.com/JuliusBrussee/caveman",
       "language": "Go",
-      "stars": 103046,
-      "stars_today": 2,
-      "trend_score": 6.08,
+      "stars": 103051,
+      "stars_today": 5,
+      "trend_score": 6.22,
       "why_it_matters": "Una skill de Claude Code que reduce significativamente el uso de tokens, útil para optimizar costos en agentes de coding."
     },
     {
@@ -128,7 +132,7 @@
       "description": "The agent that grows with you",
       "link": "https://github.com/NousResearch/hermes-agent",
       "language": "Python",
-      "stars": 240772,
+      "stars": 240776,
       "stars_today": 4,
       "trend_score": 6.18,
       "why_it_matters": "Un framework de agentes en rápido crecimiento que apunta a la personalización y adaptación continua del agente al usuario."
@@ -180,8 +184,9 @@
       "newsId": "4c04a5e796da2466",
       "storyKey": "4c04a5e796da2466",
       "topic": "ai_software",
-      "image": null,
-      "score": null
+      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/5KmgvmWZwaaPFGskgNOJAu/6b3659ba24e56f6bf4fe2c181d6d95e5/run_cursor_cloud_agents_in_vercel_sandbox_og_card.jpg",
+      "score": null,
+      "imageSource": "scraped_article"
     },
     {
       "id": "adbbc60505409306",
@@ -192,8 +197,9 @@
       "newsId": "adbbc60505409306",
       "storyKey": "adbbc60505409306",
       "topic": "ai_software",
-      "image": null,
-      "score": null
+      "image": "https://github.blog/wp-content/uploads/2026/09/642300912-4d6b72f4-e34d-4f12-8021-be5d1d83dc93.jpg",
+      "score": null,
+      "imageSource": "scraped_article"
     }
   ],
   "developer_signals": [
