@@ -1,0 +1,1095 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Daily Digest — What matters today</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="AI Digest">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+  <meta name="theme-color" content="#111110">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #ffffff;
+      --text: #151515;
+      --muted: #6f6f6b;
+      --line: #e4e4e0;
+      --hover: #f3f3f0;
+    }
+    [data-theme="dark"] {
+      --bg: #111110;
+      --surface: #1a1a18;
+      --text: #f4f4f0;
+      --muted: #a5a59f;
+      --line: #30302d;
+      --hover: #252522;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+                   "SF Pro Text", "Inter", sans-serif;
+      transition: background .2s ease, color .2s ease;
+    }
+    a { color: inherit; }
+    button { font: inherit; }
+
+    .page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px 36px 80px;
+    }
+
+    /* Header */
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 52px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line);
+    }
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .14em;
+    }
+    .logo::before {
+      content: "";
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 0 4px rgba(16,185,129,.12);
+    }
+    .theme-toggle {
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 18px;
+      display: grid;
+      place-items: center;
+      transition: transform .15s ease, background .2s ease;
+    }
+    .theme-toggle:hover { transform: scale(1.04); }
+
+    /* Hero */
+    .hero {
+      margin-top: 56px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: end;
+      gap: 32px;
+    }
+    .eyebrow {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: .16em;
+    }
+    h1 {
+      margin: 14px 0 18px;
+      max-width: 780px;
+      font-size: clamp(48px, 7.5vw, 76px);
+      line-height: .94;
+      letter-spacing: -.06em;
+      font-weight: 850;
+    }
+    .hero-subtitle {
+      max-width: 480px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.45;
+    }
+    .hero-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 20px;
+    }
+    .hero-stat {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 6px;
+      padding: 7px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+    }
+    .hero-stat strong {
+      color: var(--text);
+      font-size: 14px;
+    }
+
+    /* Date */
+    .date-selector { position: relative; }
+    .date-button {
+      display: inline-block;
+      color: var(--muted);
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-decoration-color: var(--line);
+      text-underline-offset: 5px;
+      transition: color .15s ease;
+      cursor: pointer;
+    }
+    .date-button:hover {
+      color: var(--text);
+      text-decoration-color: var(--muted);
+    }
+
+    /* Filters */
+    .filters {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 36px 0 28px;
+      position: sticky;
+      top: 0;
+      z-index: 15;
+      padding: 12px 0;
+      background: var(--bg);
+      border-bottom: 1px solid transparent;
+      transition: border-color .2s ease, box-shadow .2s ease;
+    }
+    .filters.is-stuck {
+      border-bottom-color: var(--line);
+      box-shadow: 0 4px 16px rgba(0,0,0,.04);
+    }
+    .filter {
+      border: 1px solid var(--line);
+      background: transparent;
+      color: var(--muted);
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all .15s ease;
+      white-space: nowrap;
+    }
+    .filter:hover {
+      background: var(--hover);
+      color: var(--text);
+    }
+    .filter.active {
+      background: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
+    }
+
+    .divider {
+      border: 0;
+      border-top: 1px solid var(--line);
+      margin: 0 0 32px;
+    }
+
+    /* Section titles */
+    .section-title {
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: .16em;
+    }
+    .section-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+    .section-heading .section-title { margin-bottom: 0; }
+    .section-caption {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: right;
+    }
+
+    /* Signals */
+    .signals {
+      display: grid;
+      grid-template-columns: repeat(var(--signal-cols, 3), 1fr);
+      padding-top:50px;
+    }
+    .signal {
+      padding: 22px 24px 24px 0;
+      margin-right: 24px;
+      border-right: 1px solid var(--line);
+    }
+    .signal:last-child {
+      border-right: 0;
+      margin-right: 0;
+      padding-right: 0;
+    }
+    .signal-number {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: .12em;
+    }
+    .signal-topic {
+      margin: 10px 0 6px;
+      font-size: 19px;
+      line-height: 1.15;
+      letter-spacing: -.02em;
+      font-weight: 800;
+    }
+    .signal-text {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
+    }
+    .signal-link {
+      display: inline-block;
+      margin-top: 14px;
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 800;
+      background: none;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+    }
+    .signal-link:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    /* Stories — simplified */
+    .stories-section { margin-top: 44px; }
+    #stories { border-top: 1px solid var(--line); }
+
+    .story-featured {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+      gap: 28px 36px;
+      padding: 28px 0 32px;
+      border-bottom: 1px solid var(--line);
+      align-items: start;
+    }
+    .story-featured .story-image {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      height: auto;
+      min-height: 220px;
+      max-height: 320px;
+      border-radius: 14px;
+    }
+    .story-featured .story-content { display: flex; flex-direction: column; gap: 0; }
+    .story-featured .story-title {
+      font-size: clamp(26px, 3.4vw, 40px);
+      line-height: 1.08;
+      margin: 10px 0 12px;
+      font-weight: 850;
+      letter-spacing: -.04em;
+    }
+    .story-featured .story-summary {
+      font-size: 17px;
+      line-height: 1.5;
+      max-width: 560px;
+    }
+    .story-featured .story-footer { margin-top: 18px; }
+
+    .stories-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 28px 24px;
+      padding: 28px 0 8px;
+    }
+
+    .story {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .story-image {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #232320 0%, #59594f 100%);
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 12px;
+      display: flex;
+      align-items: flex-end;
+      font-size: 12px;
+      line-height: 1.1;
+      letter-spacing: -.02em;
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+    .story-image.has-photo { font-size: 0; }
+    .story-content { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+    .story-meta {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .story-meta::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--muted);
+      flex-shrink: 0;
+    }
+    .story[data-topic="apple"] .story-meta::before { background: #0071e3; }
+    .story[data-topic="ai_software"] .story-meta::before { background: #8b5cf6; }
+    .story[data-topic="ai_general"] .story-meta::before { background: #10b981; }
+    .story[data-topic="tech"] .story-meta::before { background: #f59e0b; }
+
+    .story-title {
+      margin: 8px 0 8px;
+      font-size: 18px;
+      line-height: 1.25;
+      letter-spacing: -.03em;
+      font-weight: 750;
+    }
+    .story-title a { text-decoration: none; }
+    .story-title a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .story-summary {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14.5px;
+      line-height: 1.45;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .story-footer {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-top: auto;
+      padding-top: 14px;
+    }
+    .read-source {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 13px;
+    }
+    .read-source:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .score {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .06em;
+    }
+
+    .story.hidden,
+    .signal.hidden,
+    .developer-item.hidden,
+    .repo-item.hidden { display: none !important; }
+
+    /* Empty state inside stories */
+    .stories-empty {
+      padding: 36px 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* Developer signals */
+    .developer-section {
+      margin-top: 48px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+    }
+    .developer-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+    .developer-heading .section-title { margin-bottom: 0; }
+    .developer-intro {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: right;
+    }
+    .developer-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 12px;
+    }
+    .developer-item {
+      display: block;
+      padding: 16px 18px 14px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--surface);
+      color: var(--text);
+      text-decoration: none;
+      transition: background .15s ease, border-color .15s ease;
+    }
+    .developer-item:hover {
+      border-color: #8b8b84;
+      background: var(--hover);
+    }
+    .developer-card-top {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+    .developer-avatar {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: #151515;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 850;
+    }
+    [data-theme="dark"] .developer-avatar {
+      background: #f4f4f0;
+      color: #151515;
+    }
+    .developer-author-block {
+      display: flex;
+      flex: 1;
+      align-items: baseline;
+      min-width: 0;
+      gap: 5px;
+    }
+    .developer-author-name,
+    .developer-handle {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .developer-author-name { font-size: 14px; font-weight: 850; }
+    .developer-handle { color: var(--muted); font-size: 13px; }
+    .developer-badge {
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 850;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .developer-arrow { color: var(--muted); font-size: 18px; }
+    .developer-text {
+      margin: 12px 0 12px 48px;
+      font-size: 15px;
+      line-height: 1.45;
+    }
+    .developer-footer {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-left: 48px;
+      padding-top: 11px;
+      border-top: 1px solid var(--line);
+    }
+    .developer-type,
+    .developer-author {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    /* Trending Repos */
+    .repos-section {
+      margin-top: 48px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+    }
+    .repos-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+    .repos-heading .section-title { margin-bottom: 0; }
+    .repos-intro {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: right;
+    }
+    .repos-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }
+    .repo-item {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--surface);
+      color: var(--text);
+      text-decoration: none;
+      transition: background .15s ease, border-color .15s ease;
+    }
+    .repo-item:hover {
+      border-color: #8b8b84;
+      background: var(--hover);
+    }
+    .repo-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .repo-name {
+      font-size: 14px;
+      font-weight: 850;
+      line-height: 1.3;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .repo-stars {
+      flex-shrink: 0;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .repo-description {
+      margin: 8px 0 12px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .repo-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: auto;
+      padding-top: 11px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+    }
+    .repo-language {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .repo-language-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--muted);
+      flex-shrink: 0;
+    }
+    .repo-item[data-topic="apple"] .repo-language-dot { background: #0071e3; }
+    .repo-item[data-topic="ai_software"] .repo-language-dot { background: #8b5cf6; }
+    .repo-item[data-topic="ai_general"] .repo-language-dot { background: #10b981; }
+    .repo-item[data-topic="tech"] .repo-language-dot { background: #f59e0b; }
+
+    .empty-state { color: var(--muted); padding: 28px 0; }
+    .hidden { display: none !important; }
+
+    /* Mobile */
+    @media (max-width: 800px) {
+      .page { padding: 24px 20px 64px; }
+      .hero {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        margin-top: 40px;
+      }
+      h1 { font-size: clamp(42px, 14vw, 56px); }
+      .hero-subtitle { font-size: 15px; }
+      .hero-stats { gap: 6px; margin-top: 16px; }
+      .filters {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin: 28px -20px 24px;
+        padding: 10px 20px;
+        scrollbar-width: none;
+      }
+      .filters::-webkit-scrollbar { display: none; }
+      .date-button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+        text-align: left;
+      }
+      .date-selector { width: 100%; }
+      .signals { grid-template-columns: 1fr !important; }
+      .signal,
+      .signal:last-child {
+        margin: 0;
+        padding: 20px 0;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .signal:last-child { border-bottom: 0; }
+
+      .story-featured {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 22px 0;
+      }
+      .story-featured .story-image {
+        min-height: 0;
+        max-height: 220px;
+        aspect-ratio: 16 / 9;
+      }
+      .story-featured .story-title { font-size: 22px; margin-top: 4px; }
+      .stories-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding-top: 20px;
+      }
+      .developer-list { grid-template-columns: 1fr; }
+      .developer-heading,
+      .repos-heading { display: block; }
+      .developer-intro,
+      .repos-intro { margin-top: 6px; text-align: left; }
+      .developer-text,
+      .developer-footer { margin-left: 0; }
+      .developer-card-top { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div class="logo">AI DAILY DIGEST</div>
+      <button class="theme-toggle" type="button" aria-label="Cambiar tema" onclick="toggleTheme()">◐</button>
+    </header>
+
+    <section class="hero">
+      <div>
+        <div class="eyebrow">IA · TECH · SEÑALES DE DESARROLLADORES</div>
+        <h1>What matters today.</h1>
+        <p class="hero-subtitle">Las señales más relevantes en IA, software y herramientas para desarrolladores.</p>
+        
+      </div>
+      <div class="date-selector">
+        <a class="date-button" href="archive.html" id="date-button">
+          Cargando…
+        </a>
+      </div>
+    </section>
+
+    <nav class="filters" aria-label="Filtrar por tema">
+      <button class="filter active" data-topic="all">Todo</button>
+      <button class="filter" data-topic="apple">Apple</button>
+      <button class="filter" data-topic="ai_software">IA + Software</button>
+      <button class="filter" data-topic="ai_general">IA</button>
+      <button class="filter" data-topic="tech">Tech</button>
+    </nav>
+
+    <section>
+      <div class="signals" id="signals"></div>
+    </section>
+
+    <section class="stories-section" id="stories-section">
+      <div id="stories"></div>
+    </section>
+
+    <section class="developer-section hidden" id="developer-section">
+      <div class="developer-heading">
+        <div class="section-title">DESARROLLADORES EN X</div>
+        <div class="developer-intro"><span id="developer-heading-count">0</span> señales sin puntuar que vale la pena abrir</div>
+      </div>
+      <div class="developer-list" id="developer-list"></div>
+    </section>
+
+    <section class="repos-section hidden" id="repos-section">
+      <div class="repos-heading">
+        <div class="section-title">REPOS EN TENDENCIA</div>
+        <div class="repos-intro"><span id="repos-heading-count">0</span> repos ganando tracción</div>
+      </div>
+      <div class="repos-list" id="repos-list"></div>
+    </section>
+  </main>
+
+  <script>
+    /* Theme */
+    function setTheme(theme) {
+      document.documentElement.dataset.theme = theme;
+      localStorage.setItem("digest-theme", theme);
+    }
+    function toggleTheme() {
+      const current = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+      setTheme(current === "dark" ? "light" : "dark");
+    }
+    const savedTheme = localStorage.getItem("digest-theme");
+    if (savedTheme) setTheme(savedTheme);
+    else if (window.matchMedia?.("(prefers-color-scheme: dark)").matches) setTheme("dark");
+
+
+    /* Helpers */
+    function escapeHTML(value) {
+      const div = document.createElement("div");
+      div.textContent = value ?? "";
+      return div.innerHTML;
+    }
+    function normalizeTopic(topic) {
+      const value = String(topic || "").toLowerCase();
+      if (value === "apple") return "apple";
+      if (value === "ai_software" || value.includes("software") || value.includes("application") || value.includes("agent") || value.includes("framework") || value.includes("coding") || value.includes("developer")) return "ai_software";
+      if (value === "ai_general" || value.includes("research") || value.includes("model") || value.includes("machine learning")) return "ai_general";
+      if (value === "tech") return "tech";
+      return "tech";
+    }
+    function topicLabel(topic) {
+      return { apple: "Apple", ai_software: "IA + Software", ai_general: "IA", tech: "Tech" }[topic] || topic;
+    }
+    function unwrapDigest(raw) {
+      const item = Array.isArray(raw) ? raw[0] : raw;
+      return item && item.output ? item.output : item;
+    }
+    function unwrapDates(raw) {
+      if (Array.isArray(raw) && raw.length && raw[0] && Array.isArray(raw[0].dates)) return raw[0].dates;
+      return raw;
+    }
+    function formatLabel(dateStr) {
+      const d = new Date(dateStr + "T00:00:00");
+      return d.toLocaleDateString("es-ES", { day: "numeric", month: "short", year: "numeric" });
+    }
+    function firstSentence(text, maxLen) {
+      if (!text) return "";
+      const match = text.match(/^.*?[.!?](?=\s|$)/);
+      const sentence = match ? match[0] : text;
+      return sentence.length > maxLen ? sentence.slice(0, maxLen - 1).trim() + "…" : sentence;
+    }
+    function cleanDigestText(text) {
+      return String(text || "").replace(/\s*\[ID:[^\]]+\]/gi, "").replace(/\s+/g, " ").trim();
+    }
+    function compactHeadline(text, maxLen = 92) {
+      const clean = cleanDigestText(text);
+      if (!clean) return "Noticia sin título";
+      const sentence = firstSentence(clean, maxLen);
+      if (sentence.length <= maxLen) return sentence.replace(/[.!?]+$/, "");
+      return sentence.slice(0, maxLen - 1).replace(/\s+\S*$/, "").trim() + "…";
+    }
+    function storyImageLabel(title) {
+      const words = (title || "").split(/\s+/).filter(Boolean).slice(0, 2);
+      return words.map(w => escapeHTML(w.toUpperCase())).join("<br>");
+    }
+
+    /* Archive */
+    let ARCHIVE = [];
+    async function loadArchiveIndex() {
+      try {
+        const res = await fetch("data/archive-index.json?_=" + Date.now());
+        if (!res.ok) throw new Error("No archive index");
+        const dates = unwrapDates(await res.json());
+        return dates.map((date, i) => ({
+          date,
+          label: formatLabel(date),
+          file: i === 0 ? "data/latest.json" : `data/archive/${date}.json`
+        }));
+      } catch (e) {
+        console.warn("Archive index fallback:", e);
+        return [{ date: null, label: "Hoy", file: "data/latest.json" }];
+      }
+    }
+
+    /* Signals */
+    const TOPIC_ORDER = ["apple", "ai_software", "ai_general", "tech"];
+    function renderSignals(data) {
+      const topStories = data.top_stories || [];
+      const summaries = data.topic_summaries || {};
+      const byTopic = {};
+      TOPIC_ORDER.forEach(t => (byTopic[t] = []));
+      topStories.forEach(s => {
+        const t = normalizeTopic(s.topic);
+        byTopic[t].push(s);
+      });
+      const activeTopics = TOPIC_ORDER.filter(t => byTopic[t].length > 0);
+      const container = document.getElementById("signals");
+      container.style.setProperty("--signal-cols", Math.max(activeTopics.length, 1));
+      if (!activeTopics.length) {
+        container.innerHTML = '<p class="empty-state">No hay suficientes noticias hoy para un resumen por tema.</p>';
+        return;
+      }
+      container.innerHTML = activeTopics.map((topic, i) => {
+        const items = byTopic[topic];
+        const teaser = cleanDigestText(summaries[topic]) || firstSentence(items[0].body, 110);
+        const count = items.length;
+        const label = count === 1 ? "1 noticia →" : `${count} noticias →`;
+        return `
+          <article class="signal" data-topic="${escapeHTML(topic)}">
+            <div class="signal-number">${String(i + 1).padStart(2, "0")}</div>
+            <h2 class="signal-topic">${escapeHTML(topicLabel(topic))}</h2>
+            <p class="signal-text">${escapeHTML(teaser)}</p>
+            <button class="signal-link" data-jump-topic="${escapeHTML(topic)}">${label}</button>
+          </article>`;
+      }).join("");
+      container.querySelectorAll("[data-jump-topic]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          applyFilter(btn.dataset.jumpTopic);
+          document.getElementById("stories-section").scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    }
+
+    /* Stories — featured + uniform grid */
+    function renderStoryCard(story, isFeatured = false) {
+      const topic = normalizeTopic(story.topic || "tech");
+      const hasPhoto = Boolean(story.image);
+      const imageStyle = hasPhoto
+        ? `style="background-image: linear-gradient(0deg, rgba(0,0,0,.5), rgba(0,0,0,0) 55%), url('${escapeHTML(story.image)}');"`
+        : "";
+      const scoreHTML = (story.score !== undefined && story.score !== null)
+        ? `<span class="score">PUNTUACIÓN ${escapeHTML(story.score)}/10</span>`
+        : "";
+      const summary = cleanDigestText(story.body) || "";
+      const classes = ["story", isFeatured ? "story-featured" : ""].filter(Boolean).join(" ");
+      return `
+        <article class="${classes}" data-topic="${escapeHTML(topic)}">
+          <div class="story-image ${hasPhoto ? "has-photo" : ""}" ${imageStyle}>
+            ${hasPhoto ? "" : storyImageLabel(story.title)}
+          </div>
+          <div class="story-content">
+            <div class="story-meta">${escapeHTML(story.source)} · ${escapeHTML(topicLabel(topic))}</div>
+            <h2 class="story-title">
+              <a href="${escapeHTML(story.link)}" target="_blank" rel="noopener noreferrer">${escapeHTML(story.title)}</a>
+            </h2>
+            ${summary ? `<p class="story-summary">${escapeHTML(summary)}</p>` : ""}
+            <div class="story-footer">
+              <a class="read-source" href="${escapeHTML(story.link)}" target="_blank" rel="noopener noreferrer">Ver fuente →</a>
+              ${scoreHTML}
+            </div>
+          </div>
+        </article>`;
+    }
+
+    function renderStories(topStories, quickReads = []) {
+      const container = document.getElementById("stories");
+      const news = [
+        ...topStories.map(s => ({ ...s, isQuick: false })),
+        ...quickReads.map(item => ({
+          ...item,
+          title: item.title || compactHeadline(item.text),
+          body: item.title ? (item.summary || item.text || "") : (item.text || ""),
+          isQuick: true
+        }))
+      ];
+      if (!news.length) {
+        container.innerHTML = '<p class="empty-state">No hay noticias hoy.</p>';
+        return;
+      }
+      const featured = news[0];
+      const rest = news.slice(1);
+      let html = renderStoryCard(featured, true);
+      if (rest.length) {
+        html += `<div class="stories-grid">${rest.map(s => renderStoryCard(s, false)).join("")}</div>`;
+      }
+      container.innerHTML = html;
+    }
+
+    /* Developer signals */
+    function renderDeveloperSignals(signals) {
+      const section = document.getElementById("developer-section");
+      const list = document.getElementById("developer-list");
+      if (!signals?.length) {
+        section.classList.add("hidden");
+        return;
+      }
+      section.classList.remove("hidden");
+      document.getElementById("developer-heading-count").textContent = signals.length;
+      list.innerHTML = signals.map(signal => {
+        const topic = normalizeTopic(signal.topic || "ai_software");
+        const typeLabels = {
+          technical_share: "aporte técnico",
+          developer_share: "aporte de desarrollador"
+        };
+        const rawType = String(signal.signal_type || "developer_share");
+        const type = typeLabels[rawType] || rawType.replace(/_/g, " ");
+        const author = signal.author || signal.source || "X";
+        const handle = String(author).replace(/^@/, "");
+        return `
+          <a class="developer-item" href="${escapeHTML(signal.link)}" target="_blank" rel="noopener noreferrer" data-topic="${escapeHTML(topic)}">
+            <div class="developer-card-top">
+              <span class="developer-avatar" aria-hidden="true">X</span>
+              <span class="developer-author-block">
+                <span class="developer-author-name">${escapeHTML(handle)}</span>
+                <span class="developer-handle">@${escapeHTML(handle)}</span>
+              </span>
+              <span class="developer-badge">${escapeHTML(topicLabel(topic))}</span>
+              <span class="developer-arrow" aria-hidden="true">↗</span>
+            </div>
+            <p class="developer-text">${escapeHTML(signal.text)}</p>
+            <div class="developer-footer">
+              <span class="developer-type">${escapeHTML(type)}</span>
+              <span class="developer-author">Ver en X ↗</span>
+            </div>
+          </a>`;
+      }).join("");
+    }
+
+    /* Trending repos */
+    function formatCompactNumber(n) {
+      const num = Number(n);
+      if (!Number.isFinite(num)) return "0";
+      if (num >= 1000) return (num / 1000).toFixed(num >= 10000 ? 0 : 1).replace(/\.0$/, "") + "k";
+      return String(num);
+    }
+    function renderTrendingRepos(repos) {
+      const section = document.getElementById("repos-section");
+      const list = document.getElementById("repos-list");
+      if (!repos?.length) {
+        section.classList.add("hidden");
+        return;
+      }
+      section.classList.remove("hidden");
+      document.getElementById("repos-heading-count").textContent = repos.length;
+      list.innerHTML = repos.map(repo => {
+        const topic = normalizeTopic(repo.topic || "ai_software");
+        const name = repo.full_name || repo.name || "";
+        const stars = formatCompactNumber(repo.stars);
+        const forks = formatCompactNumber(repo.forks);
+        return `
+          <a class="repo-item" href="${escapeHTML(repo.link)}" target="_blank" rel="noopener noreferrer" data-topic="${escapeHTML(topic)}">
+            <div class="repo-top">
+              <span class="repo-name">${escapeHTML(name)}</span>
+              <span class="repo-stars">★ ${escapeHTML(stars)}</span>
+            </div>
+            <p class="repo-description">${escapeHTML(repo.description || "")}</p>
+            <div class="repo-footer">
+              <span class="repo-language">
+                <span class="repo-language-dot" aria-hidden="true"></span>
+                ${escapeHTML(repo.language || topicLabel(topic))}
+              </span>
+              <span>${escapeHTML(forks)} forks</span>
+            </div>
+          </a>`;
+      }).join("");
+    }
+
+    /* Filtering + empty state for stories */
+    let currentTopic = new URLSearchParams(location.search).get("topic") || "all";
+    function applyFilter(topic) {
+      currentTopic = topic;
+      document.querySelectorAll(".filter").forEach(f => {
+        f.classList.toggle("active", f.dataset.topic === topic);
+      });
+      document.querySelectorAll(".story, .signal, .developer-item, .repo-item").forEach(el => {
+        el.classList.toggle("hidden", topic !== "all" && el.dataset.topic !== topic);
+      });
+
+      // Empty state for stories when filter yields nothing
+      const storiesContainer = document.getElementById("stories");
+      const visibleStories = storiesContainer.querySelectorAll(".story:not(.hidden)");
+      let emptyEl = storiesContainer.querySelector(".stories-empty");
+      if (topic !== "all" && visibleStories.length === 0) {
+        if (!emptyEl) {
+          emptyEl = document.createElement("p");
+          emptyEl.className = "stories-empty";
+          storiesContainer.appendChild(emptyEl);
+        }
+        emptyEl.textContent = `No hay noticias de "${topicLabel(topic)}" hoy.`;
+        emptyEl.classList.remove("hidden");
+      } else if (emptyEl) {
+        emptyEl.classList.add("hidden");
+      }
+
+      const url = new URL(location.href);
+      if (topic === "all") url.searchParams.delete("topic");
+      else url.searchParams.set("topic", topic);
+      history.replaceState(null, "", url);
+    }
+    document.querySelectorAll(".filter").forEach(filter => {
+      filter.addEventListener("click", () => applyFilter(filter.dataset.topic));
+    });
+
+    /* Full render */
+    function renderDigest(data) {
+      const topStories = data.top_stories || [];
+      const quickReads = data.quick_reads || [];
+      const developerSignals = data.developer_signals || [];
+      const trendingRepos = data.trending_repos || [];
+      const news = [...topStories, ...quickReads];
+      const topics = new Set([
+        ...news.map(item => normalizeTopic(item.topic)),
+        ...developerSignals.map(item => normalizeTopic(item.topic)),
+        ...trendingRepos.map(item => normalizeTopic(item.topic))
+      ]);
+      // document.getElementById("story-count").textContent = news.length;
+      // document.getElementById("signal-count").textContent = developerSignals.length;
+      // document.getElementById("repo-count").textContent = trendingRepos.length;
+      // document.getElementById("topic-count").textContent = topics.size;
+      renderSignals(data);
+      renderStories(topStories, quickReads);
+      renderDeveloperSignals(developerSignals);
+      renderTrendingRepos(trendingRepos);
+      applyFilter(currentTopic);
+    }
+
+    async function loadAndRender(entry) {
+      try {
+        const res = await fetch(entry.file + "?_=" + Date.now());
+        if (!res.ok) throw new Error("Unable to load digest");
+        renderDigest(unwrapDigest(await res.json()));
+      } catch (err) {
+        document.getElementById("stories").innerHTML =
+          `<p class="empty-state">No se pudo cargar este digest.<br>${escapeHTML(err.message)}</p>`;
+        console.error(err);
+      }
+    }
+
+    /* Init */
+    async function init() {
+      ARCHIVE = await loadArchiveIndex();
+      const requestedDate = new URLSearchParams(location.search).get("date");
+      const entry = (requestedDate && ARCHIVE.find(a => a.date === requestedDate)) || ARCHIVE[0];
+      document.getElementById("date-button").textContent = entry.label;
+      await loadAndRender(entry);
+    }
+    init();
+  </script>
+</body>
+</html>

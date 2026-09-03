@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archivo — AI Daily Digest</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="AI Digest">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+  <meta name="theme-color" content="#111110">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #ffffff;
+      --text: #151515;
+      --muted: #6f6f6b;
+      --line: #e4e4e0;
+      --hover: #f3f3f0;
+    }
+    [data-theme="dark"] {
+      --bg: #111110;
+      --surface: #1a1a18;
+      --text: #f4f4f0;
+      --muted: #a5a59f;
+      --line: #30302d;
+      --hover: #252522;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+                   "SF Pro Text", "Inter", sans-serif;
+      transition: background .2s ease, color .2s ease;
+    }
+    a { color: inherit; }
+    button { font: inherit; }
+
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 24px 36px 80px;
+    }
+
+    /* Header */
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 52px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line);
+    }
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .14em;
+    }
+    .logo::before {
+      content: "";
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 0 4px rgba(16,185,129,.12);
+    }
+    .theme-toggle {
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 18px;
+      display: grid;
+      place-items: center;
+      transition: transform .15s ease, background .2s ease;
+    }
+    .theme-toggle:hover { transform: scale(1.04); }
+
+    /* Hero */
+    .hero { margin-top: 56px; }
+    .eyebrow {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: .16em;
+    }
+    h1 {
+      margin: 14px 0 8px;
+      font-size: clamp(40px, 7vw, 60px);
+      line-height: .96;
+      letter-spacing: -.05em;
+      font-weight: 850;
+    }
+    .hero-subtitle {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 40px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-decoration-color: var(--line);
+      text-underline-offset: 5px;
+    }
+    .back-link:hover {
+      color: var(--text);
+      text-decoration-color: var(--muted);
+    }
+
+    /* Archive list */
+    .archive-list {
+      display: flex;
+      flex-direction: column;
+      border-top: 1px solid var(--line);
+    }
+    .archive-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--line);
+      color: var(--text);
+      text-decoration: none;
+      transition: color .15s ease;
+    }
+    .archive-item:hover { color: var(--muted); }
+    .archive-item.is-current .archive-date { font-weight: 850; }
+    .archive-date { font-size: 16px; }
+    .archive-badge {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .empty-state {
+      color: var(--muted);
+      padding: 30px 0;
+    }
+
+    @media (max-width: 700px) {
+      .page { padding: 20px 20px 60px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div class="logo">AI DAILY DIGEST</div>
+      <button class="theme-toggle" type="button" aria-label="Cambiar tema" onclick="toggleTheme()">◐</button>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow">HISTORIAL</div>
+      <h1>Archivo</h1>
+      <p class="hero-subtitle">Todas las ediciones anteriores del digest.</p>
+      <a class="back-link" href="index.html">← Volver a hoy</a>
+    </section>
+
+    <div class="archive-list" id="archive-list"></div>
+  </main>
+
+  <script>
+    /* Theme */
+    function setTheme(theme) {
+      document.documentElement.dataset.theme = theme;
+      localStorage.setItem("digest-theme", theme);
+    }
+    function toggleTheme() {
+      const current = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+      setTheme(current === "dark" ? "light" : "dark");
+    }
+    const savedTheme = localStorage.getItem("digest-theme");
+    if (savedTheme) setTheme(savedTheme);
+    else if (window.matchMedia?.("(prefers-color-scheme: dark)").matches) setTheme("dark");
+
+    /* Helpers */
+    function escapeHTML(value) {
+      const div = document.createElement("div");
+      div.textContent = value ?? "";
+      return div.innerHTML;
+    }
+    function unwrapDates(raw) {
+      if (Array.isArray(raw) && raw.length && raw[0] && Array.isArray(raw[0].dates)) return raw[0].dates;
+      return raw;
+    }
+    function formatLabel(dateStr) {
+      const d = new Date(dateStr + "T00:00:00");
+      return d.toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+    }
+
+    async function loadArchiveIndex() {
+      try {
+        const res = await fetch("data/archive-index.json?_=" + Date.now());
+        if (!res.ok) throw new Error("No archive index");
+        const dates = unwrapDates(await res.json());
+        return dates;
+      } catch (e) {
+        console.warn("Archive index fallback:", e);
+        return [];
+      }
+    }
+
+    async function init() {
+      const dates = await loadArchiveIndex();
+      const list = document.getElementById("archive-list");
+
+      if (!dates.length) {
+        list.innerHTML = '<p class="empty-state">Todavía no hay ediciones en el archivo.</p>';
+        return;
+      }
+
+      list.innerHTML = dates.map((date, i) => `
+        <a class="archive-item ${i === 0 ? "is-current" : ""}" href="index.html?date=${encodeURIComponent(date)}">
+          <span class="archive-date">${escapeHTML(formatLabel(date))}</span>
+          ${i === 0 ? '<span class="archive-badge">Hoy</span>' : ""}
+        </a>
+      `).join("");
+    }
+
+    init();
+  </script>
+</body>
+</html>
