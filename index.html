@@ -224,7 +224,7 @@
       text-align: right;
     }
 
-    /* Signals */
+    /* Topic summaries */
     .signals {
       display: grid;
       grid-template-columns: repeat(var(--signal-cols, 3), 1fr);
@@ -422,7 +422,78 @@
       font-size: 15px;
     }
 
-    /* Developer signals */
+
+    /* Quick reads */
+    .quick-reads-section {
+      margin-top: 52px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+    }
+
+    .quick-reads-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .quick-read {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      min-width: 0;
+      padding: 17px 18px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--surface);
+      color: var(--text);
+      text-decoration: none;
+      transition: background .15s ease, border-color .15s ease, transform .15s ease;
+    }
+
+    .quick-read:hover {
+      border-color: #8b8b84;
+      background: var(--hover);
+      transform: translateY(-1px);
+    }
+
+    .quick-read-main { min-width: 0; }
+
+    .quick-read-meta {
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 850;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    .quick-read-title {
+      margin: 7px 0 5px;
+      font-size: 15px;
+      line-height: 1.3;
+      letter-spacing: -.02em;
+      font-weight: 800;
+    }
+
+    .quick-read-summary {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .quick-read-arrow {
+      flex: 0 0 auto;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1;
+    }
+
+    /* Developer picks */
     .developer-section {
       margin-top: 48px;
       padding-top: 28px;
@@ -689,6 +760,7 @@
         gap: 24px;
         padding-top: 20px;
       }
+      .quick-reads-list { grid-template-columns: 1fr; }
       .developer-list { grid-template-columns: 1fr; }
       .developer-heading,
       .repos-heading { display: block; }
@@ -709,9 +781,9 @@
 
     <section class="hero">
       <div>
-        <div class="eyebrow">IA · TECH · SEÑALES DE DESARROLLADORES</div>
+        <div class="eyebrow">IA · TECH · DESARROLLO</div>
         <h1>What matters today.</h1>
-        <p class="hero-subtitle">Las señales más relevantes en IA, software y herramientas para desarrolladores.</p>
+        <p class="hero-subtitle">Una selección editorial de las noticias, ideas y herramientas que realmente importan.</p>
         
       </div>
       <div class="date-selector">
@@ -739,16 +811,16 @@
 
     <section class="developer-section hidden" id="developer-section">
       <div class="developer-heading">
-        <div class="section-title">DESARROLLADORES EN X</div>
-        <div class="developer-intro"><span id="developer-heading-count">0</span> señales sin puntuar que vale la pena abrir</div>
+        <div class="section-title">LO QUE COMPARTEN LOS DESARROLLADORES</div>
+        <div class="developer-intro"><span id="developer-heading-count">0</span> ideas y hallazgos que merece la pena ver</div>
       </div>
       <div class="developer-list" id="developer-list"></div>
     </section>
 
     <section class="repos-section hidden" id="repos-section">
       <div class="repos-heading">
-        <div class="section-title">REPOS EN TENDENCIA</div>
-        <div class="repos-intro"><span id="repos-heading-count">0</span> repos ganando tracción</div>
+        <div class="section-title">PROYECTOS A SEGUIR</div>
+        <div class="repos-intro"><span id="repos-heading-count">0</span> repositorios que están ganando tracción</div>
       </div>
       <div class="repos-list" id="repos-list"></div>
     </section>
@@ -837,11 +909,11 @@
       }
     }
 
-    /* Signals */
+    /* Topic summaries */
     const TOPIC_ORDER = ["apple", "ai_software", "ai_general", "tech"];
     function renderSignals(data) {
       const topStories = data.top_stories || [];
-      const summaries = data.topic_summaries || {};
+      const summaries = data.summary || data.topic_summaries || {};
       const byTopic = {};
       TOPIC_ORDER.forEach(t => (byTopic[t] = []));
       topStories.forEach(s => {
@@ -859,7 +931,7 @@
         const items = byTopic[topic];
         const teaser = cleanDigestText(summaries[topic]) || firstSentence(items[0].body, 110);
         const count = items.length;
-        const label = count === 1 ? "1 noticia →" : `${count} noticias →`;
+        const label = count === 1 ? "Ver noticia →" : `Ver ${count} noticias →`;
         return `
           <article class="signal" data-topic="${escapeHTML(topic)}">
             <div class="signal-number">${String(i + 1).padStart(2, "0")}</div>
@@ -876,62 +948,103 @@
       });
     }
 
-    /* Stories — featured + uniform grid */
+    /* Top stories + quick reads */
     function renderStoryCard(story, isFeatured = false) {
       const topic = normalizeTopic(story.topic || "tech");
       const hasPhoto = Boolean(story.image);
       const imageStyle = hasPhoto
-        ? `style="background-image: linear-gradient(0deg, rgba(0,0,0,.5), rgba(0,0,0,0) 55%), url('${escapeHTML(story.image)}');"`
+        ? `style="background-image: linear-gradient(0deg, rgba(0,0,0,.52), rgba(0,0,0,0) 58%), url('${escapeHTML(story.image)}');"`
         : "";
       const scoreHTML = (story.score !== undefined && story.score !== null)
-        ? `<span class="score">PUNTUACIÓN ${escapeHTML(story.score)}/10</span>`
+        ? `<span class="score">${escapeHTML(story.score)}/10</span>`
         : "";
-      const summary = cleanDigestText(story.body) || "";
+      const summary = cleanDigestText(story.body || story.summary || "");
       const classes = ["story", isFeatured ? "story-featured" : ""].filter(Boolean).join(" ");
+
       return `
         <article class="${classes}" data-topic="${escapeHTML(topic)}">
           <div class="story-image ${hasPhoto ? "has-photo" : ""}" ${imageStyle}>
             ${hasPhoto ? "" : storyImageLabel(story.title)}
           </div>
           <div class="story-content">
-            <div class="story-meta">${escapeHTML(story.source)} · ${escapeHTML(topicLabel(topic))}</div>
+            <div class="story-meta">${escapeHTML(story.source || "Fuente")} · ${escapeHTML(topicLabel(topic))}</div>
             <h2 class="story-title">
-              <a href="${escapeHTML(story.link)}" target="_blank" rel="noopener noreferrer">${escapeHTML(story.title)}</a>
+              <a href="${escapeHTML(story.link || "#")}" target="_blank" rel="noopener noreferrer">${escapeHTML(story.title || "Noticia sin título")}</a>
             </h2>
             ${summary ? `<p class="story-summary">${escapeHTML(summary)}</p>` : ""}
             <div class="story-footer">
-              <a class="read-source" href="${escapeHTML(story.link)}" target="_blank" rel="noopener noreferrer">Ver fuente →</a>
+              <a class="read-source" href="${escapeHTML(story.link || "#")}" target="_blank" rel="noopener noreferrer">Leer más →</a>
               ${scoreHTML}
             </div>
           </div>
         </article>`;
     }
 
+    function renderQuickRead(item) {
+      const topic = normalizeTopic(item.topic || "tech");
+      const title = item.title || compactHeadline(item.text || item.summary || "");
+      const summary = cleanDigestText(item.summary || item.text || "");
+
+      return `
+        <a class="quick-read" href="${escapeHTML(item.link || "#")}" target="_blank" rel="noopener noreferrer" data-topic="${escapeHTML(topic)}">
+          <div class="quick-read-main">
+            <div class="quick-read-meta">${escapeHTML(item.source || "Fuente")} · ${escapeHTML(topicLabel(topic))}</div>
+            <h3 class="quick-read-title">${escapeHTML(title)}</h3>
+            ${summary ? `<p class="quick-read-summary">${escapeHTML(summary)}</p>` : ""}
+          </div>
+          <span class="quick-read-arrow">↗</span>
+        </a>`;
+    }
+
     function renderStories(topStories, quickReads = []) {
       const container = document.getElementById("stories");
-      const news = [
-        ...topStories.map(s => ({ ...s, isQuick: false })),
-        ...quickReads.map(item => ({
-          ...item,
-          title: item.title || compactHeadline(item.text),
-          body: item.title ? (item.summary || item.text || "") : (item.text || ""),
-          isQuick: true
-        }))
-      ];
-      if (!news.length) {
+
+      if (!topStories.length && !quickReads.length) {
         container.innerHTML = '<p class="empty-state">No hay noticias hoy.</p>';
         return;
       }
-      const featured = news[0];
-      const rest = news.slice(1);
-      let html = renderStoryCard(featured, true);
-      if (rest.length) {
-        html += `<div class="stories-grid">${rest.map(s => renderStoryCard(s, false)).join("")}</div>`;
+
+      const featuredIndex = topStories.findIndex(story => story.featured === true);
+      const selectedIndex = featuredIndex >= 0 ? featuredIndex : 0;
+      const featured = topStories[selectedIndex];
+      const rest = topStories.filter((_, index) => index !== selectedIndex);
+
+      let html = `
+        <div class="stories-header">
+          <div class="section-heading">
+            <div class="section-title">LO MÁS IMPORTANTE</div>
+            <div class="section-caption">${topStories.length} historias seleccionadas</div>
+          </div>
+        </div>
+      `;
+
+      if (featured) {
+        html += renderStoryCard(featured, true);
       }
+
+      if (rest.length) {
+        html += `<div class="stories-grid">${rest.map(story => renderStoryCard(story, false)).join("")}</div>`;
+      }
+
+      if (quickReads.length) {
+        html += `
+          <section class="quick-reads-section">
+            <div class="section-heading">
+              <div class="section-title">PARA LEER EN UN MINUTO</div>
+              <div class="section-caption">${quickReads.length} lecturas rápidas</div>
+            </div>
+            <div class="quick-reads-list">
+              ${quickReads.map(renderQuickRead).join("")}
+            </div>
+          </section>
+        `;
+      }
+
       container.innerHTML = html;
     }
 
-    /* Developer signals */
+
+    /* Developer picks */
     function renderDeveloperSignals(signals) {
       const section = document.getElementById("developer-section");
       const list = document.getElementById("developer-list");
@@ -945,19 +1058,20 @@
         const topic = normalizeTopic(signal.topic || "ai_software");
         const typeLabels = {
           technical_share: "aporte técnico",
-          developer_share: "aporte de desarrollador"
+          developer_share: "idea de desarrollador"
         };
         const rawType = String(signal.signal_type || "developer_share");
         const type = typeLabels[rawType] || rawType.replace(/_/g, " ");
-        const author = signal.author || signal.source || "X";
-        const handle = String(author).replace(/^@/, "");
+        const author = signal.author || "Developer";
+        const handle = String(signal.handle || "").replace(/^@/, "");
+        const displayHandle = handle ? `@${escapeHTML(handle)}` : "";
         return `
-          <a class="developer-item" href="${escapeHTML(signal.link)}" target="_blank" rel="noopener noreferrer" data-topic="${escapeHTML(topic)}">
+          <a class="developer-item" href="${escapeHTML(signal.link || "#")}" target="_blank" rel="noopener noreferrer" data-topic="${escapeHTML(topic)}">
             <div class="developer-card-top">
               <span class="developer-avatar" aria-hidden="true">X</span>
               <span class="developer-author-block">
-                <span class="developer-author-name">${escapeHTML(handle)}</span>
-                <span class="developer-handle">@${escapeHTML(handle)}</span>
+                <span class="developer-author-name">${escapeHTML(author)}</span>
+                ${displayHandle ? `<span class="developer-handle">${displayHandle}</span>` : ""}
               </span>
               <span class="developer-badge">${escapeHTML(topicLabel(topic))}</span>
               <span class="developer-arrow" aria-hidden="true">↗</span>
@@ -991,7 +1105,7 @@
         const topic = normalizeTopic(repo.topic || "ai_software");
         const name = repo.full_name || repo.name || "";
         const stars = formatCompactNumber(repo.stars);
-        const forks = formatCompactNumber(repo.forks);
+        const starsToday = formatCompactNumber(repo.stars_today);
         return `
           <a class="repo-item" href="${escapeHTML(repo.link)}" target="_blank" rel="noopener noreferrer" data-topic="${escapeHTML(topic)}">
             <div class="repo-top">
@@ -1004,7 +1118,7 @@
                 <span class="repo-language-dot" aria-hidden="true"></span>
                 ${escapeHTML(repo.language || topicLabel(topic))}
               </span>
-              <span>${escapeHTML(forks)} forks</span>
+              <span>${repo.stars_today != null ? "+" + escapeHTML(starsToday) + " hoy" : "En tendencia"}</span>
             </div>
           </a>`;
       }).join("");
