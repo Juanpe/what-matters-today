@@ -339,21 +339,7 @@
       font-weight: 800;
       margin-bottom: 14px;
     }
-    .story-image.has-photo { font-size: 0; padding: 0; overflow: hidden; position: relative; }
-    .story-image.has-photo img {
-      width: 100%;
-      height: 100%;
-      display: block;
-      object-fit: cover;
-      object-position: center;
-    }
-    .story-image.has-photo::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(0deg, rgba(0,0,0,.52), rgba(0,0,0,0) 58%);
-      pointer-events: none;
-    }
+    .story-image.has-photo { font-size: 0; }
     .story-content { display: flex; flex-direction: column; flex: 1; min-width: 0; }
     .story-meta {
       display: inline-flex;
@@ -796,7 +782,7 @@
     <section class="hero">
       <div>
         <div class="eyebrow">IA · TECH · DESARROLLO</div>
-        <h1>What matters today.</h1>
+        <h1>Lo que merece tu atención.</h1>
         <p class="hero-subtitle">Una selección editorial de las noticias, ideas y herramientas que realmente importan.</p>
         
       </div>
@@ -877,12 +863,8 @@
       return item && item.output ? item.output : item;
     }
     function unwrapDates(raw) {
-      if (Array.isArray(raw)) {
-        if (raw.length && raw[0] && Array.isArray(raw[0].dates)) return raw[0].dates;
-        return raw;
-      }
-      if (raw && Array.isArray(raw.dates)) return raw.dates;
-      return [];
+      if (Array.isArray(raw) && raw.length && raw[0] && Array.isArray(raw[0].dates)) return raw[0].dates;
+      return raw;
     }
     function formatLabel(dateStr) {
       const d = new Date(dateStr + "T00:00:00");
@@ -913,17 +895,17 @@
     let ARCHIVE = [];
     async function loadArchiveIndex() {
       try {
-        const res = await fetch("./data/archive-index.json?_=" + Date.now());
+        const res = await fetch("data/archive-index.json?_=" + Date.now());
         if (!res.ok) throw new Error("No archive index");
         const dates = unwrapDates(await res.json());
         return dates.map((date, i) => ({
           date,
           label: formatLabel(date),
-          file: i === 0 ? "./data/latest.json" : `./data/archive/${date}.json`
+          file: i === 0 ? "data/latest.json" : `data/archive/${date}.json`
         }));
       } catch (e) {
         console.warn("Archive index fallback:", e);
-        return [{ date: null, label: "Hoy", file: "./data/latest.json" }];
+        return [{ date: null, label: "Hoy", file: "data/latest.json" }];
       }
     }
 
@@ -969,11 +951,10 @@
     /* Top stories + quick reads */
     function renderStoryCard(story, isFeatured = false) {
       const topic = normalizeTopic(story.topic || "tech");
-      const image = String(story.image || "").trim();
-      const hasPhoto = /^https?:\/\//i.test(image);
-      const imageHTML = hasPhoto
-        ? `<img src="${escapeHTML(image)}" alt="" loading="${isFeatured ? "eager" : "lazy"}" onerror="this.style.display='none'; this.parentElement.classList.remove('has-photo'); this.parentElement.innerHTML='${storyImageLabel(story.title).replace(/'/g, "\\'")}';">`
-        : storyImageLabel(story.title);
+      const hasPhoto = Boolean(story.image);
+      const imageStyle = hasPhoto
+        ? `style="background-image: linear-gradient(0deg, rgba(0,0,0,.52), rgba(0,0,0,0) 58%), url('${escapeHTML(story.image)}');"`
+        : "";
       const scoreHTML = (story.score !== undefined && story.score !== null)
         ? `<span class="score">${escapeHTML(story.score)}/10</span>`
         : "";
@@ -982,8 +963,8 @@
 
       return `
         <article class="${classes}" data-topic="${escapeHTML(topic)}">
-          <div class="story-image ${hasPhoto ? "has-photo" : ""}">
-            ${imageHTML}
+          <div class="story-image ${hasPhoto ? "has-photo" : ""}" ${imageStyle}>
+            ${hasPhoto ? "" : storyImageLabel(story.title)}
           </div>
           <div class="story-content">
             <div class="story-meta">${escapeHTML(story.source || "Fuente")} · ${escapeHTML(topicLabel(topic))}</div>
@@ -1150,7 +1131,7 @@
       document.querySelectorAll(".filter").forEach(f => {
         f.classList.toggle("active", f.dataset.topic === topic);
       });
-      document.querySelectorAll(".story, .quick-read, .signal, .developer-item, .repo-item").forEach(el => {
+      document.querySelectorAll(".story, .signal, .developer-item, .repo-item").forEach(el => {
         el.classList.toggle("hidden", topic !== "all" && el.dataset.topic !== topic);
       });
 
@@ -1208,12 +1189,9 @@
         if (!res.ok) throw new Error("Unable to load digest");
         renderDigest(unwrapDigest(await res.json()));
       } catch (err) {
-        const message = err?.message || String(err);
-        document.getElementById("signals").innerHTML =
-          `<p class="empty-state">No se pudo cargar el contenido.</p>`;
         document.getElementById("stories").innerHTML =
-          `<p class="empty-state">No se pudo cargar este digest.<br>${escapeHTML(message)}</p>`;
-        console.error("Digest load error:", err);
+          `<p class="empty-state">No se pudo cargar este digest.<br>${escapeHTML(err.message)}</p>`;
+        console.error(err);
       }
     }
 
