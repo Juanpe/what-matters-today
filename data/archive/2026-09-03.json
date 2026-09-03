@@ -76,9 +76,9 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "link": "https://github.com/obra/superpowers",
       "language": "Shell",
-      "stars": 281289,
-      "stars_today": 16,
-      "trend_score": 6.75,
+      "stars": 281290,
+      "stars_today": 1,
+      "trend_score": 6.03,
       "why_it_matters": "Propone una metodología estructurada para construir habilidades agénticas reutilizables en flujos de desarrollo con IA."
     },
     {
@@ -89,9 +89,9 @@
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
       "link": "https://github.com/headroomlabs-ai/headroom",
       "language": "Python",
-      "stars": 68804,
-      "stars_today": 3,
-      "trend_score": 6.06,
+      "stars": 68796,
+      "stars_today": 149,
+      "trend_score": 13.08,
       "why_it_matters": "Ofrece un servidor MCP para reducir drásticamente el consumo de tokens en agentes de coding, clave para escalar costos."
     },
     {
@@ -102,9 +102,9 @@
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "link": "https://github.com/github/spec-kit",
       "language": "Python",
-      "stars": 133311,
-      "stars_today": 5,
-      "trend_score": 6.22,
+      "stars": 133312,
+      "stars_today": 1,
+      "trend_score": 6.02,
       "why_it_matters": "Impulsa el desarrollo dirigido por especificaciones, una práctica cada vez más central en flujos de trabajo con agentes de código."
     },
     {
@@ -115,9 +115,9 @@
       "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "link": "https://github.com/JuliusBrussee/caveman",
       "language": "Go",
-      "stars": 103044,
-      "stars_today": 9,
-      "trend_score": 6.42,
+      "stars": 103046,
+      "stars_today": 2,
+      "trend_score": 6.08,
       "why_it_matters": "Una skill de Claude Code que reduce significativamente el uso de tokens, útil para optimizar costos en agentes de coding."
     },
     {
@@ -128,9 +128,9 @@
       "description": "The agent that grows with you",
       "link": "https://github.com/NousResearch/hermes-agent",
       "language": "Python",
-      "stars": 240768,
-      "stars_today": 18,
-      "trend_score": 6.86,
+      "stars": 240772,
+      "stars_today": 4,
+      "trend_score": 6.18,
       "why_it_matters": "Un framework de agentes en rápido crecimiento que apunta a la personalización y adaptación continua del agente al usuario."
     }
   ],
