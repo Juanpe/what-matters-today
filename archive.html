@@ -199,19 +199,24 @@
       return div.innerHTML;
     }
     function unwrapDates(raw) {
-      if (Array.isArray(raw)) {
-        if (raw.length && raw[0] && Array.isArray(raw[0].dates)) {
-          return raw[0].dates;
-        }
-        return raw;
-      }
-
-      if (raw && Array.isArray(raw.dates)) {
-        return raw.dates;
-      }
-
-      return [];
+  if (Array.isArray(raw)) {
+    if (
+      raw.length &&
+      raw[0] &&
+      Array.isArray(raw[0].dates)
+    ) {
+      return raw[0].dates;
     }
+
+    return raw;
+  }
+
+  if (raw && Array.isArray(raw.dates)) {
+    return raw.dates;
+  }
+
+  return [];
+}
     function formatLabel(dateStr) {
       const d = new Date(dateStr + "T00:00:00");
       return d.toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
