@@ -329,14 +329,10 @@
  function renderDigest(data) {
   currentDigest = data || {};
 
-  // Current digest schema:
-  // summary: { apple, ai_software, ai_general, tech }
-  // daily_summary
-  // top_stories: { title, body, source, link, image, topic }
-  // quick_reads: { title, text, source, link, image, topic }
-
+  // Support both the current English schema and the older Spanish schema.
   const summaryText =
     data.daily_summary ||
+    data.resumen_ejecutivo ||
     Object.values(data.summary || {}).filter(Boolean).join(" ") ||
     "";
 
@@ -347,24 +343,29 @@
 
   storyContainer.innerHTML = stories.map(story => {
     const topic = story.topic || "tech";
-    const image = story.image
-      ? `<img src="${escapeHTML(story.image)}" alt="" loading="lazy">`
+    const title = story.title || story.titulo || "";
+    const body = story.body || story.cuerpo || "";
+    const source = story.source || story.fuente || "";
+    const link = story.link || story.enlace || "";
+    const image = story.image || story.imagen || "";
+
+    const imageHTML = image
+      ? `<img src="${escapeHTML(image)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'), {className:'image-placeholder'}))">`
       : `<div class="image-placeholder"></div>`;
 
     return `
       <article class="story" data-topic="${escapeHTML(topic)}">
-        ${image}
+        ${imageHTML}
         <div class="story-content">
           <div class="story-meta">
-            <span>${escapeHTML(story.source || "")}</span>
+            <span>${escapeHTML(source)}</span>
             <span class="dot">·</span>
             <span>${escapeHTML(topicLabel(topic))}</span>
           </div>
-          <h2>${escapeHTML(story.title || "")}</h2>
-          <p>${escapeHTML(story.body || "")}</p>
-          ${story.link ? `
-            <a class="read" href="${escapeHTML(story.link)}"
-               target="_blank" rel="noopener noreferrer">
+          <h2>${escapeHTML(title)}</h2>
+          <p>${escapeHTML(body)}</p>
+          ${link ? `
+            <a class="read" href="${escapeHTML(link)}" target="_blank" rel="noopener noreferrer">
               Read source <span>→</span>
             </a>
           ` : ""}
@@ -374,25 +375,29 @@
   }).join("");
 
   if (!stories.length) {
-    storyContainer.innerHTML =
-      '<p class="empty">No stories available for this digest.</p>';
+    storyContainer.innerHTML = '<p class="empty">No stories available for this digest.</p>';
   }
 
   const quickContainer = document.getElementById("quickReads");
   const quickReads = Array.isArray(data.quick_reads) ? data.quick_reads : [];
 
   quickContainer.innerHTML = quickReads.map(item => {
-    const image = item.image
-      ? `<img src="${escapeHTML(item.image)}" alt="" loading="lazy">`
+    const title = item.title || item.titulo || "";
+    const text = item.text || item.texto || title;
+    const source = item.source || item.fuente || "";
+    const link = item.link || item.enlace || "#";
+    const image = item.image || item.imagen || "";
+
+    const imageHTML = image
+      ? `<img src="${escapeHTML(image)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'), {className:'quick-placeholder'}))">`
       : `<div class="quick-placeholder"></div>`;
 
     return `
-      <a class="quick" href="${escapeHTML(item.link || "#")}"
-         target="_blank" rel="noopener noreferrer">
-        ${image}
+      <a class="quick" href="${escapeHTML(link)}" target="_blank" rel="noopener noreferrer">
+        ${imageHTML}
         <div class="quick-content">
-          <div class="meta">${escapeHTML(item.source || "")}</div>
-          <p>${escapeHTML(item.text || item.title || "")}</p>
+          <div class="meta">${escapeHTML(source)}</div>
+          <p>${escapeHTML(text)}</p>
         </div>
       </a>
     `;
@@ -400,7 +405,6 @@
 
   applyTopicFilter(currentTopic);
 }
-
 
 function applyTopicFilter(topic) {
  currentTopic = topic;
@@ -463,14 +467,21 @@ function applyTopicFilter(topic) {
  async function loadSelectedDigest(item) {
  if (!item || !item.file) throw new Error("Invalid digest selection");
 
- const response = await fetch(item.file + "?_=" + Date.now());
- if (!response.ok) throw new Error("Unable to load digest");
+ const response = await fetch(item.file + (item.file.includes("?") ? "&" : "?") + "_=" + Date.now(), {
+   cache: "no-store"
+ });
+ if (!response.ok) throw new Error(`Unable to load digest (${response.status})`);
 
- const data = unwrapDigest(await response.json());
+ const raw = await response.json();
+ const data = unwrapDigest(raw);
+ if (!data || (!Array.isArray(data.top_stories) && !data.daily_summary && !data.summary)) {
+   throw new Error("Digest JSON has an unexpected shape");
+ }
+
  renderDigest(data);
  dateButton.textContent = item.label + " ▾";
  updateDateUrl(item.date);
- }
+}
 
  dateMenu.addEventListener("click", async event => {
  const option = event.target.closest(".date-option");
@@ -493,36 +504,37 @@ function applyTopicFilter(topic) {
  // -----------------------------------------------------------------------------
 
  async function init() {
- ARCHIVE = await loadArchiveIndex();
+ try {
+   ARCHIVE = await loadArchiveIndex();
+ } catch (error) {
+   console.warn(error);
+   ARCHIVE = [];
+ }
 
+ // Always have a direct latest.json fallback.
  if (!ARCHIVE.length) {
- document.getElementById("stories").innerHTML =
- '<p class="empty">Unable to load the archive.</p>';
- return;
+   ARCHIVE = [{ date: null, label: "Today", file: "data/latest.json" }];
  }
 
  dateMenu.innerHTML = ARCHIVE.map(item => `
- <button class="date-option"
- data-file="${escapeHTML(item.file)}"
- data-date="${escapeHTML(item.date || '')}">
- ${escapeHTML(item.label)}
- </button>
+   <button class="date-option"
+     data-date="${escapeHTML(item.date || '')}">
+     ${escapeHTML(item.label)}
+   </button>
  `).join("");
 
  const requestedDate = getRequestedDate();
  const selected = ARCHIVE.find(item => item.date === requestedDate) || ARCHIVE[0];
 
  try {
- await loadSelectedDigest(selected);
-
- // If the requested date was invalid/missing, keep the canonical URL clean.
- if (!requestedDate) updateDateUrl(selected.date);
+   await loadSelectedDigest(selected);
+   if (!requestedDate && selected.date) updateDateUrl(selected.date);
  } catch (error) {
- document.getElementById("stories").innerHTML =
- '<p class="empty">Unable to load the selected digest.</p>';
- console.error(error);
+   console.error("Digest load failed:", error);
+   document.getElementById("stories").innerHTML =
+     '<p class="empty">Unable to load the digest. Check that data/latest.json is available.</p>';
  }
- }
+}
 
  init();
  </script>
