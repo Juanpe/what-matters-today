@@ -802,7 +802,7 @@
         </a>
       </div>
       <div class="topbar-actions">
-        <button class="lang-toggle" type="button" id="lang-toggle" aria-label="Cambiar idioma / Switch language" onclick="toggleLang()">ES</button>
+        <button class="lang-toggle" type="button" id="lang-toggle" onclick="toggleLang()">ES</button>
         <button class="theme-toggle" type="button" aria-label="Cambiar tema" onclick="toggleTheme()">◐</button>
       </div>
     </header>
@@ -892,7 +892,8 @@
         developerType: { technical_share: "aporte técnico", developer_share: "idea de desarrollador" },
         filtersAria: "Filtrar por tema",
         themeAria: "Cambiar tema",
-        locale: "es-ES"
+        locale: "es-ES",
+        langToggleLabel: "Switch to English"
       },
       en: {
         filterAll: "All",
@@ -922,7 +923,8 @@
         developerType: { technical_share: "technical share", developer_share: "developer idea" },
         filtersAria: "Filter by topic",
         themeAria: "Toggle theme",
-        locale: "en-US"
+        locale: "en-US",
+        langToggleLabel: "Cambiar a español"
       }
     };
 
@@ -954,7 +956,9 @@
 
     function updateStaticText() {
       document.documentElement.lang = currentLang;
-      document.getElementById("lang-toggle").textContent = currentLang.toUpperCase();
+      const langBtn = document.getElementById("lang-toggle");
+      langBtn.textContent = currentLang === "es" ? "EN" : "ES";
+      langBtn.setAttribute("aria-label", t("langToggleLabel"));
       document.getElementById("hero-eyebrow").textContent = t("eyebrow");
       document.getElementById("hero-subtitle").textContent = t("heroSubtitle");
       document.querySelector(".filters").setAttribute("aria-label", t("filtersAria"));

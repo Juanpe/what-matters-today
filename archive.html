@@ -242,8 +242,7 @@
     function detectLang() {
       const saved = localStorage.getItem("digest-lang");
       if (saved === "es" || saved === "en") return saved;
-      const nav = (navigator.language || "es").toLowerCase();
-      return nav.startsWith("es") ? "es" : "en";
+      return (navigator.language || "").toLowerCase().startsWith("en") ? "en" : "es";
     }
 
     let currentLang = detectLang();
