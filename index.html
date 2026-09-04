@@ -1257,7 +1257,7 @@
               <span class="repo-name">${escapeHTML(name)}</span>
               <span class="repo-stars">★ ${escapeHTML(stars)}</span>
             </div>
-            <p class="repo-description">${escapeHTML(repo.description || "")}</p>
+            <p class="repo-description">${escapeHTML(repo.description || pickLang(repo.why_it_matters) || "")}</p>
             <div class="repo-footer">
               <span class="repo-language">
                 <span class="repo-language-dot" aria-hidden="true"></span>
