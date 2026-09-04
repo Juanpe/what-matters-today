@@ -52,6 +52,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 16px;
       min-height: 52px;
       padding-bottom: 16px;
       border-bottom: 1px solid var(--line);
@@ -90,10 +91,6 @@
     /* Hero */
     .hero {
       margin-top: 56px;
-      display: grid;
-      grid-template-columns: 1fr auto;
-      align-items: end;
-      gap: 32px;
     }
     .eyebrow {
       color: var(--muted);
@@ -139,7 +136,7 @@
     }
 
     /* Date */
-    .date-selector { position: relative; }
+    .date-selector { position: relative; flex-shrink: 0; }
     .date-button {
       display: inline-block;
       color: var(--muted);
@@ -709,14 +706,13 @@
     /* Mobile */
     @media (max-width: 800px) {
       .page { padding: 24px 20px 64px; }
-      .hero {
-        grid-template-columns: 1fr;
-        gap: 8px;
-        margin-top: 40px;
-      }
+      .hero { margin-top: 40px; }
       h1 { font-size: clamp(42px, 14vw, 56px); }
       .hero-subtitle { font-size: 15px; }
       .hero-stats { gap: 6px; margin-top: 16px; }
+      .topbar { flex-wrap: wrap; row-gap: 10px; }
+      .logo { order: 1; }
+      .theme-toggle { order: 2; }
       .filters {
         flex-wrap: nowrap;
         overflow-x: auto;
@@ -730,10 +726,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 10px 0;
+        padding: 6px 0 0;
         text-align: left;
       }
-      .date-selector { width: 100%; }
+      .date-selector { order: 3; width: 100%; }
       .signals { grid-template-columns: 1fr !important; }
       .signal,
       .signal:last-child {
@@ -776,6 +772,11 @@
   <main class="page">
     <header class="topbar">
       <div class="logo">AI DAILY DIGEST</div>
+      <div class="date-selector">
+        <a class="date-button" href="archive.html" id="date-button">
+          Cargando…
+        </a>
+      </div>
       <button class="theme-toggle" type="button" aria-label="Cambiar tema" onclick="toggleTheme()">◐</button>
     </header>
 
@@ -784,12 +785,6 @@
         <div class="eyebrow">IA · TECH · DESARROLLO</div>
         <h1>What matters today.</h1>
         <p class="hero-subtitle">Una selección editorial de las noticias, ideas y herramientas que realmente importan.</p>
-        
-      </div>
-      <div class="date-selector">
-        <a class="date-button" href="archive.html" id="date-button">
-          Cargando…
-        </a>
       </div>
     </section>
 
