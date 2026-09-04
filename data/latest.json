@@ -1,24 +1,24 @@
 {
   "daily_summary": {
-    "es": "Hoy destacan [object Object]; [object Object]; [object Object].",
-    "en": "Hoy destacan [object Object]; [object Object]; [object Object]."
+    "es": "El lanzamiento de GPT-6 Astra de OpenAI sacude el ecosistema de coding agents justo cuando una caída simultánea de ChatGPT, Claude y Grok expone la fragilidad de la infraestructura de IA en la que ahora dependen millones de developers.",
+    "en": "OpenAI's GPT-6 Astra launch is reshaping the coding-agent landscape just as a simultaneous outage across ChatGPT, Claude, and Grok exposed how fragile the AI infrastructure millions of developers now depend on really is."
   },
   "topic_summaries": {
     "apple": {
-      "es": "",
-      "en": ""
+      "es": "Apple avanza en varios frentes discretos: pruebas de un sistema HomePod envolvente, una cirugía pionera con Vision Pro y una guía práctica entre los nuevos Mac mini con chip M6 o M5 Pro.",
+      "en": "Apple is quietly moving on several fronts: testing a surround HomePod system, a first-of-its-kind Vision Pro surgery, and a practical buyer's guide between the new M6 and M5 Pro Mac mini chips."
     },
     "ai_software": {
-      "es": "",
-      "en": ""
+      "es": "GPT-6 Astra domina la conversación técnica como el lanzamiento de modelo más importante del año para coding y computer use, mientras GitHub reorganiza su oferta de Copilot con nuevas funciones y deprecaciones de modelos.",
+      "en": "GPT-6 Astra dominates technical conversation as the year's most important model launch for coding and computer use, while GitHub reshuffles its Copilot lineup with new features and model deprecations."
     },
     "ai_general": {
-      "es": "",
-      "en": ""
+      "es": "Google DeepMind presenta WeatherNext 3, su modelo climático más preciso hasta la fecha, y Legora demuestra con GPT-6 Astra cómo la IA ya está transformando flujos de trabajo profesionales concretos.",
+      "en": "Google DeepMind unveils WeatherNext 3, its most accurate weather model yet, while Legora shows with GPT-6 Astra how AI is already transforming concrete professional workflows."
     },
     "tech": {
-      "es": "",
-      "en": ""
+      "es": "Una caída simultánea de ChatGPT, Claude, Grok y Gemini pone en evidencia lo interconectada —y vulnerable— que se ha vuelto la infraestructura de IA sobre la que se apoya buena parte del trabajo técnico diario.",
+      "en": "A simultaneous outage across ChatGPT, Claude, Grok, and Gemini highlights just how interconnected—and fragile—the AI infrastructure underpinning daily technical work has become."
     }
   },
   "top_stories": [
@@ -161,16 +161,16 @@
   ],
   "trending_repos": [
     {
-      "id": "NousResearch/hermes-agent",
-      "repoKey": "NousResearch/hermes-agent",
+      "id": "nousresearch/hermes-agent",
+      "repoKey": "nousresearch/hermes-agent",
       "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "link": "https://github.com/NousResearch/hermes-agent",
-      "language": "Python",
-      "stars": 241167,
-      "stars_today": 114,
-      "trend_score": 11.47,
+      "full_name": "nousresearch/hermes-agent",
+      "description": "",
+      "link": "https://github.com/nousresearch/hermes-agent",
+      "language": "",
+      "stars": 0,
+      "stars_today": 0,
+      "trend_score": 0,
       "why_it_matters": {
         "es": "Un agente diseñado para evolucionar con el usuario, uno de los proyectos de agentes de IA con más tracción reciente en GitHub.",
         "en": "An agent designed to grow with the user, one of the fastest-growing AI agent projects on GitHub right now."
@@ -181,12 +181,12 @@
       "repoKey": "obra/superpowers",
       "name": "superpowers",
       "full_name": "obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
+      "description": "",
       "link": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 281602,
-      "stars_today": 108,
-      "trend_score": 11.09,
+      "language": "",
+      "stars": 0,
+      "stars_today": 0,
+      "trend_score": 0,
       "why_it_matters": {
         "es": "Framework de habilidades agénticas y metodología de desarrollo de software que está ganando adopción rápida entre equipos que usan agentes de coding.",
         "en": "An agentic skills framework and software development methodology gaining rapid adoption among teams building with coding agents."
@@ -197,12 +197,12 @@
       "repoKey": "firecrawl/firecrawl",
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
-      "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+      "description": "",
       "link": "https://github.com/firecrawl/firecrawl",
-      "language": "TypeScript",
-      "stars": 176314,
-      "stars_today": 64,
-      "trend_score": 9.07,
+      "language": "",
+      "stars": 0,
+      "stars_today": 0,
+      "trend_score": 0,
       "why_it_matters": {
         "es": "API de contexto para buscar y scrapear la web a escala, pieza clave de infraestructura para agentes de IA que necesitan datos web en tiempo real.",
         "en": "A context API for searching and scraping the web at scale, key infrastructure for AI agents that need real-time web data."
@@ -213,28 +213,28 @@
       "repoKey": "github/spec-kit",
       "name": "spec-kit",
       "full_name": "github/spec-kit",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "description": "",
       "link": "https://github.com/github/spec-kit",
-      "language": "Python",
-      "stars": 133410,
-      "stars_today": 44,
-      "trend_score": 8.04,
+      "language": "",
+      "stars": 0,
+      "stars_today": 0,
+      "trend_score": 0,
       "why_it_matters": {
         "es": "Toolkit oficial de GitHub para desarrollo guiado por especificaciones, relevante para equipos que estandarizan flujos de trabajo con agentes.",
         "en": "GitHub's official toolkit for spec-driven development, relevant for teams standardizing agent-based workflows."
       }
     },
     {
-      "id": "Fission-AI/OpenSpec",
-      "repoKey": "Fission-AI/OpenSpec",
-      "name": "OpenSpec",
-      "full_name": "Fission-AI/OpenSpec",
-      "description": "Spec-driven development (SDD) for AI coding assistants.",
-      "link": "https://github.com/Fission-AI/OpenSpec",
-      "language": "TypeScript",
-      "stars": 67265,
-      "stars_today": 30,
-      "trend_score": 7.36,
+      "id": "fission-ai/openspec",
+      "repoKey": "fission-ai/openspec",
+      "name": "openspec",
+      "full_name": "fission-ai/openspec",
+      "description": "",
+      "link": "https://github.com/fission-ai/openspec",
+      "language": "",
+      "stars": 0,
+      "stars_today": 0,
+      "trend_score": 0,
       "why_it_matters": {
         "es": "Alternativa open source para desarrollo guiado por especificaciones diseñada específicamente para asistentes de coding con IA.",
         "en": "An open-source alternative for spec-driven development built specifically for AI coding assistants."
@@ -474,20 +474,20 @@
   ],
   "summary": {
     "apple": {
-      "es": "",
-      "en": ""
+      "es": "Apple avanza en varios frentes discretos: pruebas de un sistema HomePod envolvente, una cirugía pionera con Vision Pro y una guía práctica entre los nuevos Mac mini con chip M6 o M5 Pro.",
+      "en": "Apple is quietly moving on several fronts: testing a surround HomePod system, a first-of-its-kind Vision Pro surgery, and a practical buyer's guide between the new M6 and M5 Pro Mac mini chips."
     },
     "ai_software": {
-      "es": "",
-      "en": ""
+      "es": "GPT-6 Astra domina la conversación técnica como el lanzamiento de modelo más importante del año para coding y computer use, mientras GitHub reorganiza su oferta de Copilot con nuevas funciones y deprecaciones de modelos.",
+      "en": "GPT-6 Astra dominates technical conversation as the year's most important model launch for coding and computer use, while GitHub reshuffles its Copilot lineup with new features and model deprecations."
     },
     "ai_general": {
-      "es": "",
-      "en": ""
+      "es": "Google DeepMind presenta WeatherNext 3, su modelo climático más preciso hasta la fecha, y Legora demuestra con GPT-6 Astra cómo la IA ya está transformando flujos de trabajo profesionales concretos.",
+      "en": "Google DeepMind unveils WeatherNext 3, its most accurate weather model yet, while Legora shows with GPT-6 Astra how AI is already transforming concrete professional workflows."
     },
     "tech": {
-      "es": "",
-      "en": ""
+      "es": "Una caída simultánea de ChatGPT, Claude, Grok y Gemini pone en evidencia lo interconectada —y vulnerable— que se ha vuelto la infraestructura de IA sobre la que se apoya buena parte del trabajo técnico diario.",
+      "en": "A simultaneous outage across ChatGPT, Claude, Grok, and Gemini highlights just how interconnected—and fragile—the AI infrastructure underpinning daily technical work has become."
     }
   },
   "date": "2026-09-04",
