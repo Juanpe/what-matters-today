@@ -324,6 +324,7 @@
       aspect-ratio: 16 / 10;
       border-radius: 12px;
       background: linear-gradient(135deg, #232320 0%, #59594f 100%);
+      background-color: #e8e8e3;
       background-size: cover;
       background-position: center;
       color: #fff;
@@ -336,7 +337,9 @@
       font-weight: 800;
       margin-bottom: 14px;
     }
-    .story-image.has-photo { font-size: 0; }
+    /* Fixed light backdrop (not theme-dependent) so transparent PNGs
+       stay legible regardless of light/dark mode */
+    .story-image.has-photo { font-size: 0; background-color: #e8e8e3; }
     .story-content { display: flex; flex-direction: column; flex: 1; min-width: 0; }
     .story-meta {
       display: inline-flex;
