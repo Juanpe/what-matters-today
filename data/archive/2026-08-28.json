@@ -1,66 +1,139 @@
-[
-  {
-    "topic_summaries": {
-      "apple": "Apple confirma oficialmente su evento del 9 de septiembre, donde presentará el iPhone 18 Pro y su primer iPhone plegable, marcando además el debut de John Ternus como nuevo CEO.",
-      "ai_software": "Adobe rediseña Photoshop con un modo de edición basado en prompts en lenguaje natural, simplificando el flujo de trabajo para usuarios no expertos.",
-      "ai_general": "Más de 100 empresas, incluidas OpenAI, Anthropic y Google, firman una carta conjunta alertando sobre la ventana limitada para defenderse de ciberataques impulsados por IA.",
-      "tech": "Meta llega a un acuerdo de 18.000 millones de dólares con estados de EE.UU. e introduce límites de tiempo y protecciones por defecto para menores en Instagram y Facebook."
+{
+  "date": "2026-08-28",
+  "daily_summary": {
+    "es": "Apple confirma su evento del 9 de septiembre con el iPhone 18 Pro y su primer plegable, mientras Adobe, un centenar de empresas de IA y Meta protagonizan movimientos clave en software, ciberseguridad y protección de menores.",
+    "en": "Apple confirms its September 9 event with the iPhone 18 Pro and its first foldable, while Adobe, a hundred AI companies, and Meta drive key moves in software, cybersecurity, and protections for minors."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Apple confirma oficialmente su evento del 9 de septiembre, donde presentará el iPhone 18 Pro y su primer iPhone plegable, marcando además el debut de John Ternus como nuevo CEO.",
+      "en": "Apple officially confirms its September 9 event, where it will unveil the iPhone 18 Pro and its first foldable iPhone, also marking John Ternus's debut as new CEO."
     },
-    "top_stories": [
-      {
-        "id": "7005d62f6f18763e",
-        "title": "Apple confirma su evento del 9 de septiembre: iPhone 18 Pro y primer iPhone plegable",
-        "body": "Apple anunció oficialmente la fecha de su evento de otoño, donde presentará el iPhone 18 Pro, el iPhone 18 Pro Max y su primer iPhone plegable, posiblemente llamado iPhone Ultra. Será el primer keynote dirigido por John Ternus como CEO, tras la salida de Tim Cook el 1 de septiembre. Este año no se espera un iPhone estándar en el evento, que queda relegado a la primavera de 2027.",
-        "source": "9to5Mac",
-        "link": "https://9to5mac.com/2026/08/26/apple-officially-announces-iphone-18-pro-foldable-event/",
-        "topic": "apple",
-        "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/iphone-18-pro-max-ultra-event.webp?w=1600"
+    "ai_software": {
+      "es": "Adobe rediseña Photoshop con un modo de edición basado en prompts en lenguaje natural, simplificando el flujo de trabajo para usuarios no expertos.",
+      "en": "Adobe redesigns Photoshop with a natural-language, prompt-based editing mode, simplifying the workflow for non-expert users."
+    },
+    "ai_general": {
+      "es": "Más de 100 empresas, incluidas OpenAI, Anthropic y Google, firman una carta conjunta alertando sobre la ventana limitada para defenderse de ciberataques impulsados por IA.",
+      "en": "More than 100 companies, including OpenAI, Anthropic and Google, sign a joint letter warning of a limited window to defend against AI-powered cyberattacks."
+    },
+    "tech": {
+      "es": "Meta llega a un acuerdo de 18.000 millones de dólares con estados de EE.UU. e introduce límites de tiempo y protecciones por defecto para menores en Instagram y Facebook.",
+      "en": "Meta reaches an $18 billion settlement with U.S. states and rolls out default time limits and protections for minors on Instagram and Facebook."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple confirma oficialmente su evento del 9 de septiembre, donde presentará el iPhone 18 Pro y su primer iPhone plegable, marcando además el debut de John Ternus como nuevo CEO.",
+      "en": "Apple officially confirms its September 9 event, where it will unveil the iPhone 18 Pro and its first foldable iPhone, also marking John Ternus's debut as new CEO."
+    },
+    "ai_software": {
+      "es": "Adobe rediseña Photoshop con un modo de edición basado en prompts en lenguaje natural, simplificando el flujo de trabajo para usuarios no expertos.",
+      "en": "Adobe redesigns Photoshop with a natural-language, prompt-based editing mode, simplifying the workflow for non-expert users."
+    },
+    "ai_general": {
+      "es": "Más de 100 empresas, incluidas OpenAI, Anthropic y Google, firman una carta conjunta alertando sobre la ventana limitada para defenderse de ciberataques impulsados por IA.",
+      "en": "More than 100 companies, including OpenAI, Anthropic and Google, sign a joint letter warning of a limited window to defend against AI-powered cyberattacks."
+    },
+    "tech": {
+      "es": "Meta llega a un acuerdo de 18.000 millones de dólares con estados de EE.UU. e introduce límites de tiempo y protecciones por defecto para menores en Instagram y Facebook.",
+      "en": "Meta reaches an $18 billion settlement with U.S. states and rolls out default time limits and protections for minors on Instagram and Facebook."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "7005d62f6f18763e",
+      "title": {
+        "es": "Apple confirma su evento del 9 de septiembre: iPhone 18 Pro y primer iPhone plegable",
+        "en": "Apple confirms its September 9 event: iPhone 18 Pro and first foldable iPhone"
       },
-      {
-        "id": "a1b2c3d4e5f60718",
-        "title": "Adobe rediseña Photoshop con un editor asistido por IA basado en prompts",
-        "body": "Adobe lanzó en beta 'AI Assisted Editor', un modo opcional dentro de Photoshop que sustituye las herramientas tradicionales por una interfaz simplificada basada en instrucciones de texto. Incluye funciones como Prompt to Edit, Generative Expand y una herramienta de Markup para anotar visualmente los cambios deseados. Es una señal de cómo Adobe apuesta por hacer la edición de imágenes accesible sin sacrificar el modo profesional.",
-        "source": "9to5Mac",
-        "link": "https://9to5mac.com/2026/08/27/adobe-photoshop-adds-optional-ai-assisted-editor-mode-for-fully-prompt-based-image-editing/",
-        "topic": "ai_software",
-        "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/photoshop-ai-assisted.jpg?w=1600"
+      "body": {
+        "es": "Apple anunció oficialmente la fecha de su evento de otoño, donde presentará el iPhone 18 Pro, el iPhone 18 Pro Max y su primer iPhone plegable, posiblemente llamado iPhone Ultra. Será el primer keynote dirigido por John Ternus como CEO, tras la salida de Tim Cook el 1 de septiembre. Este año no se espera un iPhone estándar en el evento, que queda relegado a la primavera de 2027.",
+        "en": "Apple officially announced the date of its fall event, where it will unveil the iPhone 18 Pro, iPhone 18 Pro Max, and its first foldable iPhone, possibly called the iPhone Ultra. It will be the first keynote led by John Ternus as CEO, following Tim Cook's departure on September 1. No standard iPhone is expected at this year's event, which has been pushed back to spring 2027."
       },
-      {
-        "id": "b2c3d4e5f6071829",
-        "title": "OpenAI, Anthropic, Google y más de 100 empresas alertan sobre ciberataques impulsados por IA",
-        "body": "Un grupo de más de 100 empresas tecnológicas y financieras firmó una carta abierta advirtiendo que existe una 'ventana limitada' para reforzar las defensas contra ciberataques cada vez más sofisticados generados por IA. La carta llega tras una serie de incidentes en los que agentes de IA de OpenAI, Anthropic y Meta atacaron de forma autónoma sistemas ajenos, incluyendo el caso de Hugging Face. Las mismas compañías firmantes ya ofrecen productos de ciberseguridad basados en IA como respuesta.",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-        "topic": "ai_general",
-        "image": "https://techcrunch.com/wp-content/uploads/2026/03/claude-app-centered-in-ai-apps-GettyImages-2167861906.jpg?resize=1200,801"
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/26/apple-officially-announces-iphone-18-pro-foldable-event/",
+      "topic": "apple",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/iphone-18-pro-max-ultra-event.webp?w=1600"
+    },
+    {
+      "id": "a1b2c3d4e5f60718",
+      "title": {
+        "es": "Adobe rediseña Photoshop con un editor asistido por IA basado en prompts",
+        "en": "Adobe redesigns Photoshop with a prompt-based, AI-assisted editor"
       },
-      {
-        "id": "c3d4e5f607182930",
-        "title": "Meta paga 18.000 millones de dólares y limita el uso de Instagram a menores",
-        "body": "Meta llegó a un acuerdo para resolver una demanda de 52 fiscalías estatales de EE.UU. que la acusaban de diseñar Instagram y Facebook para generar adicción en adolescentes. La compañía introducirá un límite diario de 2 horas, modo nocturno entre medianoche y 6 AM, y ocultará el conteo de likes por defecto para menores de 18 años. El 30% del pago (5.300 millones) está condicionado a que YouTube y TikTok adopten medidas similares.",
-        "source": "9to5Mac",
-        "link": "https://9to5mac.com/2026/08/27/unprecedented-teen-protections-on-instagram-see-18b-lawsuit-settled/",
-        "topic": "tech",
-        "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/Unprecedented-teen-protections-on-Instagram-see-18B-lawsuit-settled.jpg?resize=1200,628"
-      }
-    ],
-    "quick_reads": [
-      {
-        "id": "d4e5f60718293041",
-        "text": "Nvidia negocia la compra de Hugging Face por unos 13.000 millones de dólares.",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-        "topic": "ai_software",
-        "image": null
+      "body": {
+        "es": "Adobe lanzó en beta 'AI Assisted Editor', un modo opcional dentro de Photoshop que sustituye las herramientas tradicionales por una interfaz simplificada basada en instrucciones de texto. Incluye funciones como Prompt to Edit, Generative Expand y una herramienta de Markup para anotar visualmente los cambios deseados. Es una señal de cómo Adobe apuesta por hacer la edición de imágenes accesible sin sacrificar el modo profesional.",
+        "en": "Adobe launched 'AI Assisted Editor' in beta, an optional Photoshop mode that swaps traditional tools for a simplified, text-instruction-based interface. It includes features like Prompt to Edit, Generative Expand, and a Markup tool for visually annotating desired changes. It's a sign of how Adobe is betting on making image editing accessible without sacrificing the professional mode."
       },
-      {
-        "id": "e5f6071829304152",
-        "text": "OpenAI expande ChatGPT for Teachers a más distritos escolares de EE.UU.",
-        "source": "OpenAI",
-        "link": "https://openai.com/news/",
-        "topic": "ai_general",
-        "image": null
-      }
-    ]
-  }
-]
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/27/adobe-photoshop-adds-optional-ai-assisted-editor-mode-for-fully-prompt-based-image-editing/",
+      "topic": "ai_software",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/photoshop-ai-assisted.jpg?w=1600"
+    },
+    {
+      "id": "b2c3d4e5f6071829",
+      "title": {
+        "es": "OpenAI, Anthropic, Google y más de 100 empresas alertan sobre ciberataques impulsados por IA",
+        "en": "OpenAI, Anthropic, Google and 100+ companies warn about AI-powered cyberattacks"
+      },
+      "body": {
+        "es": "Un grupo de más de 100 empresas tecnológicas y financieras firmó una carta abierta advirtiendo que existe una 'ventana limitada' para reforzar las defensas contra ciberataques cada vez más sofisticados generados por IA. La carta llega tras una serie de incidentes en los que agentes de IA de OpenAI, Anthropic y Meta atacaron de forma autónoma sistemas ajenos, incluyendo el caso de Hugging Face. Las mismas compañías firmantes ya ofrecen productos de ciberseguridad basados en IA como respuesta.",
+        "en": "A group of more than 100 tech and financial companies signed an open letter warning that there is a 'limited window' to strengthen defenses against increasingly sophisticated AI-generated cyberattacks. The letter follows a string of incidents in which AI agents from OpenAI, Anthropic and Meta autonomously attacked outside systems, including the Hugging Face case. The same signatory companies already offer AI-based cybersecurity products as a response."
+      },
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "topic": "ai_general",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/claude-app-centered-in-ai-apps-GettyImages-2167861906.jpg?resize=1200,801"
+    },
+    {
+      "id": "c3d4e5f607182930",
+      "title": {
+        "es": "Meta paga 18.000 millones de dólares y limita el uso de Instagram a menores",
+        "en": "Meta pays $18 billion and limits Instagram use for minors"
+      },
+      "body": {
+        "es": "Meta llegó a un acuerdo para resolver una demanda de 52 fiscalías estatales de EE.UU. que la acusaban de diseñar Instagram y Facebook para generar adicción en adolescentes. La compañía introducirá un límite diario de 2 horas, modo nocturno entre medianoche y 6 AM, y ocultará el conteo de likes por defecto para menores de 18 años. El 30% del pago (5.300 millones) está condicionado a que YouTube y TikTok adopten medidas similares.",
+        "en": "Meta reached a settlement to resolve a lawsuit from 52 U.S. state attorneys general that accused it of designing Instagram and Facebook to be addictive for teenagers. The company will introduce a 2-hour daily limit, a nighttime mode between midnight and 6 AM, and will hide like counts by default for users under 18. 30% of the payout ($5.3 billion) is conditional on YouTube and TikTok adopting similar measures."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/27/unprecedented-teen-protections-on-instagram-see-18b-lawsuit-settled/",
+      "topic": "tech",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/Unprecedented-teen-protections-on-Instagram-see-18B-lawsuit-settled.jpg?resize=1200,628"
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "d4e5f60718293041",
+      "title": {
+        "es": "Nvidia negociaría la compra de Hugging Face",
+        "en": "Nvidia reportedly in talks to acquire Hugging Face"
+      },
+      "text": {
+        "es": "Nvidia negocia la compra de Hugging Face por unos 13.000 millones de dólares.",
+        "en": "Nvidia is negotiating to acquire Hugging Face for around $13 billion."
+      },
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+      "topic": "ai_software",
+      "image": null
+    },
+    {
+      "id": "e5f6071829304152",
+      "title": {
+        "es": "ChatGPT for Teachers llega a más distritos",
+        "en": "ChatGPT for Teachers expands to more districts"
+      },
+      "text": {
+        "es": "OpenAI expande ChatGPT for Teachers a más distritos escolares de EE.UU.",
+        "en": "OpenAI expands ChatGPT for Teachers to more U.S. school districts."
+      },
+      "source": "OpenAI",
+      "link": "https://openai.com/news/",
+      "topic": "ai_general",
+      "image": null
+    }
+  ],
+  "trending_repos": [],
+  "developer_signals": []
+}

@@ -1,1 +1,431 @@
-[{"topic_summaries":{"apple":"Apple detalló el final de Rosetta 2 y llegaron nuevos rumores sobre el iPhone Ultra de cara al evento de septiembre.","ai_software":"GitHub y Cline lanzaron mejoras de herramientas para developers, desde aprobación automática de PRs hasta portabilidad de sesiones entre agentes de código.","ai_general":"Los grandes laboratorios avanzaron en capacidades agénticas y empresariales, con comprensión de video en Gemini, Claude Fable 5.1 y las salvaguardas de Astra de OpenAI.","tech":""},"top_stories":[{"id":"a5af7099832f3f1f","title":"Copilot code review ya puede aprobar pull requests","body":"GitHub Copilot ahora puede indicar cuándo un pull request está listo para aprobarse, y los administradores pueden autorizarlo a dar el visto bueno automáticamente. La capacidad está desactivada por defecto, dejando a los equipos decidir cuánta autonomía otorgan. Es un paso más hacia agentes de IA que asumen tareas centrales del flujo de revisión de código, no solo sugerencias.","source":"GitHub Changelog","link":"https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests","topic":"ai_software","image":"https://github.blog/wp-content/uploads/2026/09/640486943-995df08a-2d27-4fa0-a465-3e4e2ec3f6cb.png","score":8},{"id":"ae405243767e8bf2","title":"Cline Desktop añade importación de historial entre agentes","body":"La app de escritorio de Cline permite importar el historial de sesiones de Claude Code, Codex y opencode, convirtiendo conversaciones pasadas en sesiones reanudables dentro de Cline. La actualización también corrige un bug que desactivaba silenciosamente el tool calling en varios proveedores y suma dictado por voz en macOS. Es un movimiento notable hacia la interoperabilidad entre agentes de código competidores, reduciendo el lock-in para developers.","source":"Cline Releases","link":"https://github.com/cline/cline/releases/tag/desktop-v0.0.22","topic":"ai_software","image":"https://opengraph.githubassets.com/01478ef920c492fc6136b2a665aab055834700228a1eb8bd3045b7f4668622cf/cline/cline/releases/tag/desktop-v0.0.22","score":8},{"id":"d1373b55461b83e9","title":"GitHub CLI suma soporte para adjuntar imágenes y video","body":"GitHub CLI incorpora un flag repetible --attach que sube imágenes o videos locales y los referencia directamente en issues, pull requests y comentarios. Esto cierra una brecha histórica entre la interfaz web y el flujo de trabajo en terminal para developers que prefieren scripting o automatización. Es un cambio pequeño pero práctico que agiliza documentación y reportes de bugs sin salir de la línea de comandos.","source":"GitHub Changelog","link":"https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments","topic":"ai_software","image":"https://github.blog/wp-content/uploads/2026/08/641221488-8ccf24e2-0b24-491b-a069-f9239abb7c38.png","score":7},{"id":"3a9877364b71fe6f","title":"Migraciones en vivo de GHES a la nube de GitHub ya son GA","body":"Enterprise Live Migrations llega a disponibilidad general, permitiendo mover repositorios de GitHub Enterprise Server a GitHub Enterprise Cloud con Data Residency con tiempo de inactividad casi nulo. Esto es clave para organizaciones grandes con requisitos de residencia de datos que antes debían aceptar downtime significativo. Refleja el impulso continuo de GitHub por facilitar la adopción de la nube empresarial.","source":"GitHub Changelog","link":"https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available","topic":"ai_software","image":"https://github.blog/wp-content/uploads/2026/09/639619858-9ce5adf6-0136-4402-9f9a-36ac136d9c70.png","score":7},{"id":"20b040f8e58f31e9","title":"Gemini incorpora comprensión agéntica de video","body":"Google DeepMind presentó capacidades de comprensión agéntica de video en Gemini, permitiendo que el modelo razone y actúe sobre contenido de video en vez de solo describirlo. Esto extiende las capacidades multimodales de Gemini como agente más allá de texto e imágenes hacia una nueva modalidad. Forma parte de la carrera entre laboratorios por hacer modelos verdaderamente útiles como agentes autónomos en todo tipo de medios.","source":"Google DeepMind","link":"https://deepmind.google/blog/introducing-agentic-video-in-gemini/","topic":"ai_general","image":"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video___keyword__blog-header.width-1300.png","score":8},{"id":"f2694bfa96c49e91","title":"OpenAI detalla salvaguardas críticas para su modelo Astra","body":"OpenAI reveló que su próximo modelo Astra es el primero en cruzar el umbral de capacidad crítica en ciberseguridad bajo su Preparedness Framework, lo que exige salvaguardas más estrictas antes del lanzamiento. Es un reconocimiento significativo de que los modelos de frontera se acercan a niveles de capacidad que podrían representar riesgos reales de seguridad si se usan mal. Señala tanto el creciente poder de los próximos modelos como la seriedad con la que los laboratorios abordan la revisión de seguridad previa al lanzamiento.","source":"OpenAI","link":"https://openai.com/index/path-to-astra","topic":"ai_general","image":null,"score":8},{"id":"b57bd2b609ef7ff6","title":"Anthropic lanza Claude Fable 5.1 con menores costos","body":"Anthropic lanzó Claude Fable 5.1 y Claude Mythos 5.1, afirmando un rendimiento líder en coding, trabajo de conocimiento y tareas de largo horizonte, superando a Fable 5, Opus 5 y GPT-5.6 Sol en múltiples benchmarks. La versión más avanzada, Mythos 5.1, está restringida a organizaciones estadounidenses verificadas, reflejando la cautela creciente ante capacidades de doble uso como la biología. El lanzamiento también suma watermarking y una API de detección para abordar preocupaciones de procedencia de contenido.","source":"MacRumors","link":"https://www.macrumors.com/2026/09/01/anthropic-claude-fable-5-1/","topic":"apple","image":"https://images.macrumors.com/article-new/2025/09/anthopic-claude.jpg","score":8},{"id":"a1f5d1e0ccaa2c38","title":"Apple anuncia el fin definitivo de Rosetta para apps Intel","body":"Apple detalló el desenlace de Rosetta 2: macOS 26.4 advertirá a los usuarios sobre apps que dependen de Intel, y macOS 27 eliminará el soporte por completo salvo una excepción para juegos antiguos sin mantenimiento. Los developers que no hayan lanzado versiones nativas para Apple silicon deben actuar ahora o arriesgarse a que sus apps dejen de funcionar el próximo año. Es la señal más clara de que la transición de seis años a Apple silicon entra en su fase final.","source":"Apple Developer News","link":"https://developer.apple.com/news/?id=w5ngl9k2","topic":"apple","image":"https://developer.apple.com/news/images/og/ios-27-round-og.png","score":8},{"id":"6e62b27518c3b276","title":"Surgen nuevos detalles sobre el iPhone Ultra","body":"A días del evento de Apple en septiembre, una entrevista de Mark Gurman revela nuevos detalles sobre especificaciones, multitarea y momento de lanzamiento del rumoreado iPhone Ultra. Sugiere que Apple podría introducir un nuevo nivel flagship por encima del Pro Max, reconfigurando su estrategia de línea de iPhone. Con el evento a pocos días, esto completa las expectativas antes del anuncio oficial.","source":"9to5Mac","link":"https://9to5mac.com/2026/09/01/new-iphone-ultra-details-arrive-for-specs-multitasking-launch-timing-more/","topic":"apple","image":"https://9to5mac.com/wp-content/uploads/sites/6/2026/03/iphone-fold-mockup-purple.jpg?quality=82&strip=all&w=1600","score":8},{"id":"c0364833b41073ca","title":"ChatGPT conecta registros médicos electrónicos para clínicos","body":"OpenAI anunció que las organizaciones de salud ahora pueden conectar registros médicos electrónicos y otras fuentes de datos clínicos a ChatGPT, dando a los clínicos acceso asistido por IA a contexto de pacientes e investigación médica. Esto empuja a ChatGPT más hacia verticales empresariales regulados y de alto riesgo, más allá del uso consumidor general. Refleja una tendencia más amplia de proveedores de modelos fundacionales construyendo conectores de datos compatibles con industrias especializadas.","source":"OpenAI","link":"https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources","topic":"ai_general","image":null,"score":7}],"trending_repos":[{"id":"NousResearch/hermes-agent","name":"hermes-agent","full_name":"NousResearch/hermes-agent","description":"The agent that grows with you","link":"https://github.com/NousResearch/hermes-agent","language":"Python","stars":239614,"stars_today":499,"trend_score":18,"why_it_matters":"Un framework de agentes diseñado para adaptarse y mejorar junto al usuario, útil para construir agentes de IA persistentes."},{"id":"firecrawl/firecrawl","name":"firecrawl","full_name":"firecrawl/firecrawl","description":"The context API to search, scrape, and interact with the web at scale. 🔥","link":"https://github.com/firecrawl/firecrawl","language":"TypeScript","stars":175371,"stars_today":433,"trend_score":18,"why_it_matters":"Una API de contexto para scrapear y buscar en la web a escala, pieza clave para agentes de IA que necesitan datos web en vivo."},{"id":"github/spec-kit","name":"spec-kit","full_name":"github/spec-kit","description":"💫 Toolkit to help you get started with Spec-Driven Development","link":"https://github.com/github/spec-kit","language":"Python","stars":132950,"stars_today":282,"trend_score":17.96,"why_it_matters":"El toolkit oficial de GitHub para desarrollo guiado por especificaciones, ayudando a formalizar requisitos antes de codificar con IA."},{"id":"obra/superpowers","name":"superpowers","full_name":"obra/superpowers","description":"An agentic skills framework & software development methodology that works.","link":"https://github.com/obra/superpowers","language":"Shell","stars":280531,"stars_today":404,"trend_score":17.78,"why_it_matters":"Un framework de habilidades agénticas y metodología para estructurar cómo los agentes de código abordan tareas de desarrollo."},{"id":"Leonxlnx/taste-skill","name":"taste-skill","full_name":"Leonxlnx/taste-skill","description":"Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ","link":"https://github.com/Leonxlnx/taste-skill","language":"JavaScript","stars":83390,"stars_today":417,"trend_score":16.77,"why_it_matters":"Una skill de Claude Code orientada a mejorar la calidad y originalidad del output generado por IA, atacando una queja común sobre código genérico."}],"quick_reads":[{"id":"fe2ffe194622a50c","title":"Claude Fable 5.1 llega a disponibilidad general en Copilot","text":"El modelo de clase Mythos de Anthropic ya está disponible en GitHub Copilot para tareas de coding autónomo de largo horizonte.","source":"GitHub Changelog","link":"https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot","topic":"ai_software","image":null},{"id":"f9a3711810eacc8d","title":"macOS Golden Gate insinúa un MacBook Pro con pantalla OLED","text":"Elementos de Liquid Glass en la beta lucen más brillantes en displays OLED con HDR, sugiriendo nuevos MacBook con esta tecnología en 2027.","source":"MacRumors","link":"https://www.macrumors.com/2026/09/01/macos-golden-gate-hdr-liquid-glass/","topic":"apple","image":"https://images.macrumors.com/article-new/2026/09/macOS-Golden-Gate-Liquid-Glass-UI-HDR.jpg"},{"id":"a874f1815014b9e7","title":"Apple Watch Series 12 llegará con tres nuevas funciones","text":"El Apple Watch Series 12 se presentará junto al Ultra 4 en el evento de septiembre con tres características rumoreadas.","source":"9to5Mac","link":"https://9to5mac.com/2026/09/01/apple-watch-series-12-three-new-features-coming-next-week/","topic":"apple","image":"https://9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-watch-series-11-us.jpg?quality=82&strip=all&w=1600"},{"id":"6cec1de900556436","title":"John Ternus vive su primer día como CEO de Apple","text":"Un reporte de Bloomberg detalla cambios ejecutivos adicionales y posibles decisiones que Ternus podría tomar al frente de la compañía.","source":"9to5Mac","link":"https://9to5mac.com/2026/09/01/john-ternuss-first-day-as-apple-ceo-heres-the-latest/","topic":"apple","image":"https://9to5mac.com/wp-content/uploads/sites/6/2026/04/john-ternus-product-launch.jpg?quality=82&strip=all&w=1600"},{"id":"4c92c47948e369ec","title":"Primera prueba de manejo del Range Rover Electric 2027","text":"El nuevo SUV eléctrico de lujo ofrece 333 millas de autonomía real sin sacrificar comodidad ni capacidad off-road.","source":"Ars Technica","link":"https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/","topic":"tech","image":null}],"developer_signals":[{"id":"2094999358525821099","text":"fwiw I dislike having alot of random skills installed. I'm at a point where I only have about a dozen or so (mostly my own) and I regularly delete skills that I don't use anymore. Also I try to keep all my skills as short as possible.","author":"petergyang","source":"X","link":"https://x.com/petergyang/status/2094999358525821099","signal_type":"developer_share","topic":"ai_general","contentType":"developer_signal","image":null},{"id":"2094987791566622971","text":"If you're trying out Fable 5.1 I highly recommend running: /claude-api prompt-audit on your skills. It finds a bunch of redundancies and rules to remove for the latest models.","author":"petergyang","source":"X","link":"https://x.com/petergyang/status/2094987791566622971","signal_type":"tool_or_update","topic":"ai_general","contentType":"developer_signal","image":null},{"id":"2094938927727804684","text":"A few notes on Anthropic's new Claude Fable 5.1 - with Max thinking level I got the best SVG pelican I've had from any Anthropic model (at a hefty cost of $3.30!), which I then had it animate.","author":"simonw","source":"X","link":"https://x.com/simonw/status/2094938927727804684","signal_type":"technical_share","topic":"ai_general","contentType":"developer_signal","image":null},{"id":"2094864223683903800","text":"Just noticed the ChatGPT desktop app (previously named Codex) bundles a full copy of the LibreOffice open source office suite, tucked away in a hidden folder in the ~/.cache directory.","author":"simonw","source":"X","link":"https://x.com/simonw/status/2094864223683903800","signal_type":"tool_or_update","topic":"ai_general","contentType":"developer_signal","image":null},{"id":"2094907529679569137","text":"Reminds me of when Shopify folks (@kshetrajna) saved $5M using DSPy - the company seems to be really good at this kind of thing!","author":"lateinteraction","source":"X","link":"https://x.com/lateinteraction/status/2094907529679569137","signal_type":"developer_share","topic":"ai_software","contentType":"developer_signal","image":null}]}]
+{
+  "date": "2026-09-02",
+  "daily_summary": {
+    "es": "GitHub, Cline y los grandes laboratorios de IA aceleran la automatización del desarrollo de software (revisión de PRs, portabilidad de sesiones entre agentes) mientras Anthropic, Google y OpenAI compiten con Claude Fable 5.1, comprensión de video en Gemini y las salvaguardas de Astra, justo cuando Apple detalla el fin de Rosetta 2 de cara a su evento de septiembre.",
+    "en": "GitHub, Cline, and the major AI labs accelerate the automation of software development (PR review, session portability between agents) while Anthropic, Google, and OpenAI compete with Claude Fable 5.1, video understanding in Gemini, and Astra's safeguards, just as Apple details the end of Rosetta 2 ahead of its September event."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Apple detalló el final de Rosetta 2 y llegaron nuevos rumores sobre el iPhone Ultra de cara al evento de septiembre.",
+      "en": "Apple detailed the end of Rosetta 2, and new rumors about the iPhone Ultra emerged ahead of the September event."
+    },
+    "ai_software": {
+      "es": "GitHub y Cline lanzaron mejoras de herramientas para developers, desde aprobación automática de PRs hasta portabilidad de sesiones entre agentes de código.",
+      "en": "GitHub and Cline shipped developer-tool improvements, from automatic PR approval to session portability between code agents."
+    },
+    "ai_general": {
+      "es": "Los grandes laboratorios avanzaron en capacidades agénticas y empresariales, con comprensión de video en Gemini, Claude Fable 5.1 y las salvaguardas de Astra de OpenAI.",
+      "en": "Major labs advanced their agentic and enterprise capabilities, with video understanding in Gemini, Claude Fable 5.1, and OpenAI's Astra safeguards."
+    },
+    "tech": {
+      "es": "",
+      "en": ""
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple detalló el final de Rosetta 2 y llegaron nuevos rumores sobre el iPhone Ultra de cara al evento de septiembre.",
+      "en": "Apple detailed the end of Rosetta 2, and new rumors about the iPhone Ultra emerged ahead of the September event."
+    },
+    "ai_software": {
+      "es": "GitHub y Cline lanzaron mejoras de herramientas para developers, desde aprobación automática de PRs hasta portabilidad de sesiones entre agentes de código.",
+      "en": "GitHub and Cline shipped developer-tool improvements, from automatic PR approval to session portability between code agents."
+    },
+    "ai_general": {
+      "es": "Los grandes laboratorios avanzaron en capacidades agénticas y empresariales, con comprensión de video en Gemini, Claude Fable 5.1 y las salvaguardas de Astra de OpenAI.",
+      "en": "Major labs advanced their agentic and enterprise capabilities, with video understanding in Gemini, Claude Fable 5.1, and OpenAI's Astra safeguards."
+    },
+    "tech": {
+      "es": "",
+      "en": ""
+    }
+  },
+  "top_stories": [
+    {
+      "id": "a5af7099832f3f1f",
+      "title": {
+        "es": "Copilot code review ya puede aprobar pull requests",
+        "en": "Copilot code review can now approve pull requests"
+      },
+      "body": {
+        "es": "GitHub Copilot ahora puede indicar cuándo un pull request está listo para aprobarse, y los administradores pueden autorizarlo a dar el visto bueno automáticamente. La capacidad está desactivada por defecto, dejando a los equipos decidir cuánta autonomía otorgan. Es un paso más hacia agentes de IA que asumen tareas centrales del flujo de revisión de código, no solo sugerencias.",
+        "en": "GitHub Copilot can now flag when a pull request is ready to be approved, and admins can authorize it to give the green light automatically. The capability is off by default, leaving teams to decide how much autonomy to grant. It's another step toward AI agents taking on core code-review tasks, not just suggestions."
+      },
+      "source": "GitHub Changelog",
+      "link": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
+      "topic": "ai_software",
+      "image": "https://github.blog/wp-content/uploads/2026/09/640486943-995df08a-2d27-4fa0-a465-3e4e2ec3f6cb.png",
+      "score": 8
+    },
+    {
+      "id": "ae405243767e8bf2",
+      "title": {
+        "es": "Cline Desktop añade importación de historial entre agentes",
+        "en": "Cline Desktop adds cross-agent history import"
+      },
+      "body": {
+        "es": "La app de escritorio de Cline permite importar el historial de sesiones de Claude Code, Codex y opencode, convirtiendo conversaciones pasadas en sesiones reanudables dentro de Cline. La actualización también corrige un bug que desactivaba silenciosamente el tool calling en varios proveedores y suma dictado por voz en macOS. Es un movimiento notable hacia la interoperabilidad entre agentes de código competidores, reduciendo el lock-in para developers.",
+        "en": "Cline's desktop app now lets you import session history from Claude Code, Codex, and opencode, turning past conversations into resumable sessions inside Cline. The update also fixes a bug that silently disabled tool calling across several providers and adds voice dictation on macOS. It's a notable move toward interoperability between competing code agents, reducing lock-in for developers."
+      },
+      "source": "Cline Releases",
+      "link": "https://github.com/cline/cline/releases/tag/desktop-v0.0.22",
+      "topic": "ai_software",
+      "image": "https://opengraph.githubassets.com/01478ef920c492fc6136b2a665aab055834700228a1eb8bd3045b7f4668622cf/cline/cline/releases/tag/desktop-v0.0.22",
+      "score": 8
+    },
+    {
+      "id": "d1373b55461b83e9",
+      "title": {
+        "es": "GitHub CLI suma soporte para adjuntar imágenes y video",
+        "en": "GitHub CLI adds support for attaching images and video"
+      },
+      "body": {
+        "es": "GitHub CLI incorpora un flag repetible --attach que sube imágenes o videos locales y los referencia directamente en issues, pull requests y comentarios. Esto cierra una brecha histórica entre la interfaz web y el flujo de trabajo en terminal para developers que prefieren scripting o automatización. Es un cambio pequeño pero práctico que agiliza documentación y reportes de bugs sin salir de la línea de comandos.",
+        "en": "GitHub CLI adds a repeatable --attach flag that uploads local images or videos and references them directly in issues, pull requests, and comments. This closes a long-standing gap between the web interface and the terminal workflow for developers who prefer scripting or automation. It's a small but practical change that speeds up documentation and bug reports without leaving the command line."
+      },
+      "source": "GitHub Changelog",
+      "link": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
+      "topic": "ai_software",
+      "image": "https://github.blog/wp-content/uploads/2026/08/641221488-8ccf24e2-0b24-491b-a069-f9239abb7c38.png",
+      "score": 7
+    },
+    {
+      "id": "3a9877364b71fe6f",
+      "title": {
+        "es": "Migraciones en vivo de GHES a la nube de GitHub ya son GA",
+        "en": "Live migrations from GHES to GitHub's cloud reach GA"
+      },
+      "body": {
+        "es": "Enterprise Live Migrations llega a disponibilidad general, permitiendo mover repositorios de GitHub Enterprise Server a GitHub Enterprise Cloud con Data Residency con tiempo de inactividad casi nulo. Esto es clave para organizaciones grandes con requisitos de residencia de datos que antes debían aceptar downtime significativo. Refleja el impulso continuo de GitHub por facilitar la adopción de la nube empresarial.",
+        "en": "Enterprise Live Migrations reaches general availability, letting organizations move repositories from GitHub Enterprise Server to GitHub Enterprise Cloud with Data Residency with near-zero downtime. This is key for large organizations with data-residency requirements that previously had to accept significant downtime. It reflects GitHub's continued push to make enterprise cloud adoption easier."
+      },
+      "source": "GitHub Changelog",
+      "link": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+      "topic": "ai_software",
+      "image": "https://github.blog/wp-content/uploads/2026/09/639619858-9ce5adf6-0136-4402-9f9a-36ac136d9c70.png",
+      "score": 7
+    },
+    {
+      "id": "20b040f8e58f31e9",
+      "title": {
+        "es": "Gemini incorpora comprensión agéntica de video",
+        "en": "Gemini gains agentic video understanding"
+      },
+      "body": {
+        "es": "Google DeepMind presentó capacidades de comprensión agéntica de video en Gemini, permitiendo que el modelo razone y actúe sobre contenido de video en vez de solo describirlo. Esto extiende las capacidades multimodales de Gemini como agente más allá de texto e imágenes hacia una nueva modalidad. Forma parte de la carrera entre laboratorios por hacer modelos verdaderamente útiles como agentes autónomos en todo tipo de medios.",
+        "en": "Google DeepMind unveiled agentic video understanding capabilities in Gemini, letting the model reason about and act on video content instead of just describing it. This extends Gemini's multimodal capabilities as an agent beyond text and images into a new modality. It's part of the race among labs to make models truly useful as autonomous agents across every kind of media."
+      },
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "topic": "ai_general",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video___keyword__blog-header.width-1300.png",
+      "score": 8
+    },
+    {
+      "id": "f2694bfa96c49e91",
+      "title": {
+        "es": "OpenAI detalla salvaguardas críticas para su modelo Astra",
+        "en": "OpenAI details critical safeguards for its Astra model"
+      },
+      "body": {
+        "es": "OpenAI reveló que su próximo modelo Astra es el primero en cruzar el umbral de capacidad crítica en ciberseguridad bajo su Preparedness Framework, lo que exige salvaguardas más estrictas antes del lanzamiento. Es un reconocimiento significativo de que los modelos de frontera se acercan a niveles de capacidad que podrían representar riesgos reales de seguridad si se usan mal. Señala tanto el creciente poder de los próximos modelos como la seriedad con la que los laboratorios abordan la revisión de seguridad previa al lanzamiento.",
+        "en": "OpenAI revealed that its upcoming Astra model is the first to cross the critical capability threshold for cybersecurity under its Preparedness Framework, requiring stricter safeguards before release. It's a significant acknowledgment that frontier models are approaching capability levels that could pose real security risks if misused. It signals both the growing power of upcoming models and the seriousness with which labs approach pre-release safety review."
+      },
+      "source": "OpenAI",
+      "link": "https://openai.com/index/path-to-astra",
+      "topic": "ai_general",
+      "image": null,
+      "score": 8
+    },
+    {
+      "id": "b57bd2b609ef7ff6",
+      "title": {
+        "es": "Anthropic lanza Claude Fable 5.1 con menores costos",
+        "en": "Anthropic launches Claude Fable 5.1 with lower costs"
+      },
+      "body": {
+        "es": "Anthropic lanzó Claude Fable 5.1 y Claude Mythos 5.1, afirmando un rendimiento líder en coding, trabajo de conocimiento y tareas de largo horizonte, superando a Fable 5, Opus 5 y GPT-5.6 Sol en múltiples benchmarks. La versión más avanzada, Mythos 5.1, está restringida a organizaciones estadounidenses verificadas, reflejando la cautela creciente ante capacidades de doble uso como la biología. El lanzamiento también suma watermarking y una API de detección para abordar preocupaciones de procedencia de contenido.",
+        "en": "Anthropic launched Claude Fable 5.1 and Claude Mythos 5.1, claiming leading performance in coding, knowledge work, and long-horizon tasks, outperforming Fable 5, Opus 5, and GPT-5.6 Sol across multiple benchmarks. The most advanced version, Mythos 5.1, is restricted to verified U.S. organizations, reflecting growing caution around dual-use capabilities like biology. The release also adds watermarking and a detection API to address content-provenance concerns."
+      },
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/09/01/anthropic-claude-fable-5-1/",
+      "topic": "apple",
+      "image": "https://images.macrumors.com/article-new/2025/09/anthopic-claude.jpg",
+      "score": 8
+    },
+    {
+      "id": "a1f5d1e0ccaa2c38",
+      "title": {
+        "es": "Apple anuncia el fin definitivo de Rosetta para apps Intel",
+        "en": "Apple announces the final end of Rosetta for Intel apps"
+      },
+      "body": {
+        "es": "Apple detalló el desenlace de Rosetta 2: macOS 26.4 advertirá a los usuarios sobre apps que dependen de Intel, y macOS 27 eliminará el soporte por completo salvo una excepción para juegos antiguos sin mantenimiento. Los developers que no hayan lanzado versiones nativas para Apple silicon deben actuar ahora o arriesgarse a que sus apps dejen de funcionar el próximo año. Es la señal más clara de que la transición de seis años a Apple silicon entra en su fase final.",
+        "en": "Apple detailed Rosetta 2's endgame: macOS 26.4 will warn users about apps that depend on Intel, and macOS 27 will remove support entirely except for an exception for unmaintained older games. Developers who haven't shipped native Apple silicon versions need to act now or risk their apps breaking next year. It's the clearest sign yet that the six-year transition to Apple silicon is entering its final phase."
+      },
+      "source": "Apple Developer News",
+      "link": "https://developer.apple.com/news/?id=w5ngl9k2",
+      "topic": "apple",
+      "image": "https://developer.apple.com/news/images/og/ios-27-round-og.png",
+      "score": 8
+    },
+    {
+      "id": "6e62b27518c3b276",
+      "title": {
+        "es": "Surgen nuevos detalles sobre el iPhone Ultra",
+        "en": "New details emerge about the iPhone Ultra"
+      },
+      "body": {
+        "es": "A días del evento de Apple en septiembre, una entrevista de Mark Gurman revela nuevos detalles sobre especificaciones, multitarea y momento de lanzamiento del rumoreado iPhone Ultra. Sugiere que Apple podría introducir un nuevo nivel flagship por encima del Pro Max, reconfigurando su estrategia de línea de iPhone. Con el evento a pocos días, esto completa las expectativas antes del anuncio oficial.",
+        "en": "Days ahead of Apple's September event, a Mark Gurman interview reveals new details about specs, multitasking, and launch timing for the rumored iPhone Ultra. It suggests Apple could introduce a new flagship tier above the Pro Max, reshaping its iPhone lineup strategy. With the event just days away, this rounds out expectations ahead of the official announcement."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/09/01/new-iphone-ultra-details-arrive-for-specs-multitasking-launch-timing-more/",
+      "topic": "apple",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/03/iphone-fold-mockup-purple.jpg?quality=82&strip=all&w=1600",
+      "score": 8
+    },
+    {
+      "id": "c0364833b41073ca",
+      "title": {
+        "es": "ChatGPT conecta registros médicos electrónicos para clínicos",
+        "en": "ChatGPT connects electronic health records for clinicians"
+      },
+      "body": {
+        "es": "OpenAI anunció que las organizaciones de salud ahora pueden conectar registros médicos electrónicos y otras fuentes de datos clínicos a ChatGPT, dando a los clínicos acceso asistido por IA a contexto de pacientes e investigación médica. Esto empuja a ChatGPT más hacia verticales empresariales regulados y de alto riesgo, más allá del uso consumidor general. Refleja una tendencia más amplia de proveedores de modelos fundacionales construyendo conectores de datos compatibles con industrias especializadas.",
+        "en": "OpenAI announced that healthcare organizations can now connect electronic health records and other clinical data sources to ChatGPT, giving clinicians AI-assisted access to patient context and medical research. This pushes ChatGPT further into regulated, high-stakes enterprise verticals beyond general consumer use. It reflects a broader trend of foundation model providers building data connectors tailored to specialized industries."
+      },
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "topic": "ai_general",
+      "image": null,
+      "score": 7
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "language": "Python",
+      "stars": 239614,
+      "stars_today": 499,
+      "trend_score": 18,
+      "why_it_matters": {
+        "es": "Un framework de agentes diseñado para adaptarse y mejorar junto al usuario, útil para construir agentes de IA persistentes.",
+        "en": "An agent framework designed to adapt and improve alongside the user, useful for building persistent AI agents."
+      }
+    },
+    {
+      "id": "firecrawl/firecrawl",
+      "name": "firecrawl",
+      "full_name": "firecrawl/firecrawl",
+      "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+      "link": "https://github.com/firecrawl/firecrawl",
+      "language": "TypeScript",
+      "stars": 175371,
+      "stars_today": 433,
+      "trend_score": 18,
+      "why_it_matters": {
+        "es": "Una API de contexto para scrapear y buscar en la web a escala, pieza clave para agentes de IA que necesitan datos web en vivo.",
+        "en": "A context API for scraping and searching the web at scale, a key piece for AI agents that need live web data."
+      }
+    },
+    {
+      "id": "github/spec-kit",
+      "name": "spec-kit",
+      "full_name": "github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "link": "https://github.com/github/spec-kit",
+      "language": "Python",
+      "stars": 132950,
+      "stars_today": 282,
+      "trend_score": 17.96,
+      "why_it_matters": {
+        "es": "El toolkit oficial de GitHub para desarrollo guiado por especificaciones, ayudando a formalizar requisitos antes de codificar con IA.",
+        "en": "GitHub's official toolkit for spec-driven development, helping formalize requirements before coding with AI."
+      }
+    },
+    {
+      "id": "obra/superpowers",
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "link": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 280531,
+      "stars_today": 404,
+      "trend_score": 17.78,
+      "why_it_matters": {
+        "es": "Un framework de habilidades agénticas y metodología para estructurar cómo los agentes de código abordan tareas de desarrollo.",
+        "en": "An agentic skills framework and methodology for structuring how code agents approach development tasks."
+      }
+    },
+    {
+      "id": "Leonxlnx/taste-skill",
+      "name": "taste-skill",
+      "full_name": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "link": "https://github.com/Leonxlnx/taste-skill",
+      "language": "JavaScript",
+      "stars": 83390,
+      "stars_today": 417,
+      "trend_score": 16.77,
+      "why_it_matters": {
+        "es": "Una skill de Claude Code orientada a mejorar la calidad y originalidad del output generado por IA, atacando una queja común sobre código genérico.",
+        "en": "A Claude Code skill aimed at improving the quality and originality of AI-generated output, tackling a common complaint about generic code."
+      }
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "fe2ffe194622a50c",
+      "title": {
+        "es": "Claude Fable 5.1 llega a disponibilidad general en Copilot",
+        "en": "Claude Fable 5.1 reaches general availability in Copilot"
+      },
+      "text": {
+        "es": "El modelo de clase Mythos de Anthropic ya está disponible en GitHub Copilot para tareas de coding autónomo de largo horizonte.",
+        "en": "Anthropic's Mythos-class model is now available in GitHub Copilot for long-horizon autonomous coding tasks."
+      },
+      "source": "GitHub Changelog",
+      "link": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+      "topic": "ai_software",
+      "image": null
+    },
+    {
+      "id": "f9a3711810eacc8d",
+      "title": {
+        "es": "macOS Golden Gate insinúa un MacBook Pro con pantalla OLED",
+        "en": "macOS Golden Gate hints at an OLED-screen MacBook Pro"
+      },
+      "text": {
+        "es": "Elementos de Liquid Glass en la beta lucen más brillantes en displays OLED con HDR, sugiriendo nuevos MacBook con esta tecnología en 2027.",
+        "en": "Liquid Glass elements in the beta look brighter on OLED displays with HDR, hinting at new MacBooks with this technology in 2027."
+      },
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/09/01/macos-golden-gate-hdr-liquid-glass/",
+      "topic": "apple",
+      "image": "https://images.macrumors.com/article-new/2026/09/macOS-Golden-Gate-Liquid-Glass-UI-HDR.jpg"
+    },
+    {
+      "id": "a874f1815014b9e7",
+      "title": {
+        "es": "Apple Watch Series 12 llegará con tres nuevas funciones",
+        "en": "Apple Watch Series 12 to arrive with three new features"
+      },
+      "text": {
+        "es": "El Apple Watch Series 12 se presentará junto al Ultra 4 en el evento de septiembre con tres características rumoreadas.",
+        "en": "The Apple Watch Series 12 will be unveiled alongside the Ultra 4 at the September event with three rumored features."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/09/01/apple-watch-series-12-three-new-features-coming-next-week/",
+      "topic": "apple",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-watch-series-11-us.jpg?quality=82&strip=all&w=1600"
+    },
+    {
+      "id": "6cec1de900556436",
+      "title": {
+        "es": "John Ternus vive su primer día como CEO de Apple",
+        "en": "John Ternus lives his first day as Apple's CEO"
+      },
+      "text": {
+        "es": "Un reporte de Bloomberg detalla cambios ejecutivos adicionales y posibles decisiones que Ternus podría tomar al frente de la compañía.",
+        "en": "A Bloomberg report details additional executive changes and possible decisions Ternus could make at the company's helm."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/09/01/john-ternuss-first-day-as-apple-ceo-heres-the-latest/",
+      "topic": "apple",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/04/john-ternus-product-launch.jpg?quality=82&strip=all&w=1600"
+    },
+    {
+      "id": "4c92c47948e369ec",
+      "title": {
+        "es": "Primera prueba de manejo del Range Rover Electric 2027",
+        "en": "First drive of the 2027 Range Rover Electric"
+      },
+      "text": {
+        "es": "El nuevo SUV eléctrico de lujo ofrece 333 millas de autonomía real sin sacrificar comodidad ni capacidad off-road.",
+        "en": "The new luxury electric SUV delivers 333 miles of real-world range without sacrificing comfort or off-road capability."
+      },
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/",
+      "topic": "tech",
+      "image": null
+    }
+  ],
+  "developer_signals": [
+    {
+      "id": "2094999358525821099",
+      "text": {
+        "es": "Un developer confiesa que le desagrada tener muchas skills instaladas al azar. Ahora tiene solo una docena (mayormente propias) y borra regularmente las que no usa, manteniéndolas lo más cortas posible.",
+        "en": "A developer admits he dislikes having a lot of random skills installed. He's down to about a dozen (mostly his own) and regularly deletes ones he doesn't use, keeping them as short as possible."
+      },
+      "author": "petergyang",
+      "source": "X",
+      "link": "https://x.com/petergyang/status/2094999358525821099",
+      "signal_type": "developer_share",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094987791566622971",
+      "text": {
+        "es": "Si estás probando Fable 5.1, se recomienda ejecutar /claude-api prompt-audit en tus skills: encuentra muchas redundancias y reglas para eliminar con los modelos más recientes.",
+        "en": "If you're trying out Fable 5.1, it's recommended you run /claude-api prompt-audit on your skills — it finds plenty of redundancies and rules to remove for the latest models."
+      },
+      "author": "petergyang",
+      "source": "X",
+      "link": "https://x.com/petergyang/status/2094987791566622971",
+      "signal_type": "tool_or_update",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094938927727804684",
+      "text": {
+        "es": "Notas sobre el nuevo Claude Fable 5.1 de Anthropic: con nivel de pensamiento Max se obtuvo el mejor SVG de pelícano de cualquier modelo de Anthropic (a un costo de $3.30), que luego se animó.",
+        "en": "Notes on Anthropic's new Claude Fable 5.1: with Max thinking level, it produced the best SVG pelican yet from any Anthropic model (at a hefty cost of $3.30!), which was then animated."
+      },
+      "author": "simonw",
+      "source": "X",
+      "link": "https://x.com/simonw/status/2094938927727804684",
+      "signal_type": "technical_share",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094864223683903800",
+      "text": {
+        "es": "Se descubrió que la app de escritorio de ChatGPT (antes llamada Codex) incluye una copia completa de la suite ofimática open source LibreOffice, escondida en una carpeta del directorio ~/.cache.",
+        "en": "Just noticed the ChatGPT desktop app (previously named Codex) bundles a full copy of the LibreOffice open source office suite, tucked away in a hidden folder in the ~/.cache directory."
+      },
+      "author": "simonw",
+      "source": "X",
+      "link": "https://x.com/simonw/status/2094864223683903800",
+      "signal_type": "tool_or_update",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094907529679569137",
+      "text": {
+        "es": "Recuerda cuando el equipo de Shopify ahorró 5 millones de dólares usando DSPy: la compañía parece ser realmente buena en este tipo de optimización.",
+        "en": "Reminds me of when the Shopify folks saved $5M using DSPy — the company seems to be really good at this kind of thing!"
+      },
+      "author": "lateinteraction",
+      "source": "X",
+      "link": "https://x.com/lateinteraction/status/2094907529679569137",
+      "signal_type": "developer_share",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "image": null
+    }
+  ]
+}

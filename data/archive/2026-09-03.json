@@ -1,18 +1,58 @@
 {
-  "daily_summary": "OpenAI sacude el tablero con el lanzamiento de GPT-6 Astra justo cuando Apple encara una semana clave de anuncios y rumores de hardware, mientras un apagón simultáneo de Claude, ChatGPT y Grok expone cuán dependiente se ha vuelto el ecosistema developer de estos servicios.",
+  "date": "2026-09-03",
+  "daily_summary": {
+    "es": "OpenAI sacude el tablero con el lanzamiento de GPT-6 Astra justo cuando Apple encara una semana clave de anuncios y rumores de hardware, mientras un apagón simultáneo de Claude, ChatGPT y Grok expone cuán dependiente se ha vuelto el ecosistema developer de estos servicios.",
+    "en": "OpenAI shakes up the board with the launch of GPT-6 Astra just as Apple faces a key week of announcements and hardware rumors, while a simultaneous outage of Claude, ChatGPT, and Grok exposes just how dependent the developer ecosystem has become on these services."
+  },
   "topic_summaries": {
-    "apple": "Apple vive una semana de transición con el ascenso de John Ternus a CEO, la salida de Phil Schiller de su rol clásico y una avalancha de rumores sobre MacBooks, iPhone Ultra e iPhone 18 Pro antes del evento de la próxima semana.",
-    "ai_software": "OpenAI lanza GPT-6 Astra como su respuesta directa a Claude, con cifras récord en seguridad, contexto largo y eficiencia de coste en tareas de coding agent, redefiniendo la competencia entre labs frontera.",
-    "ai_general": "",
-    "tech": ""
+    "apple": {
+      "es": "Apple vive una semana de transición con el ascenso de John Ternus a CEO, la salida de Phil Schiller de su rol clásico y una avalancha de rumores sobre MacBooks, iPhone Ultra e iPhone 18 Pro antes del evento de la próxima semana.",
+      "en": "Apple is going through a transition week with John Ternus's rise to CEO, Phil Schiller stepping down from his classic role, and a flood of rumors about MacBooks, the iPhone Ultra, and the iPhone 18 Pro ahead of next week's event."
+    },
+    "ai_software": {
+      "es": "OpenAI lanza GPT-6 Astra como su respuesta directa a Claude, con cifras récord en seguridad, contexto largo y eficiencia de coste en tareas de coding agent, redefiniendo la competencia entre labs frontera.",
+      "en": "OpenAI launches GPT-6 Astra as its direct answer to Claude, with record numbers in safety, long context, and cost efficiency for coding-agent tasks, redefining competition among frontier labs."
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "",
+      "en": ""
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple vive una semana de transición con el ascenso de John Ternus a CEO, la salida de Phil Schiller de su rol clásico y una avalancha de rumores sobre MacBooks, iPhone Ultra e iPhone 18 Pro antes del evento de la próxima semana.",
+      "en": "Apple is going through a transition week with John Ternus's rise to CEO, Phil Schiller stepping down from his classic role, and a flood of rumors about MacBooks, the iPhone Ultra, and the iPhone 18 Pro ahead of next week's event."
+    },
+    "ai_software": {
+      "es": "OpenAI lanza GPT-6 Astra como su respuesta directa a Claude, con cifras récord en seguridad, contexto largo y eficiencia de coste en tareas de coding agent, redefiniendo la competencia entre labs frontera.",
+      "en": "OpenAI launches GPT-6 Astra as its direct answer to Claude, with record numbers in safety, long context, and cost efficiency for coding-agent tasks, redefining competition among frontier labs."
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "",
+      "en": ""
+    }
   },
   "top_stories": [
     {
       "id": "3997c15cbf2e4c16",
-      "title": "OpenAI lanza GPT-6 Astra, su gran salto para ChatGPT y Codex",
-      "body": "OpenAI comenzó a desplegar GPT-6 Astra, un modelo que compite directamente con Claude en precio y capacidades, con resultados destacados en benchmarks de seguridad y contexto largo. Astra llega a ChatGPT, Codex, la API de OpenAI y AWS, y ya se anuncia su integración en herramientas como Devin. Es el movimiento más importante del día en la carrera de modelos frontera.",
       "newsId": "3997c15cbf2e4c16",
       "storyKey": "3997c15cbf2e4c16",
+      "title": {
+        "es": "OpenAI lanza GPT-6 Astra, su gran salto para ChatGPT y Codex",
+        "en": "OpenAI launches GPT-6 Astra, its big leap for ChatGPT and Codex"
+      },
+      "body": {
+        "es": "OpenAI comenzó a desplegar GPT-6 Astra, un modelo que compite directamente con Claude en precio y capacidades, con resultados destacados en benchmarks de seguridad y contexto largo. Astra llega a ChatGPT, Codex, la API de OpenAI y AWS, y ya se anuncia su integración en herramientas como Devin. Es el movimiento más importante del día en la carrera de modelos frontera.",
+        "en": "OpenAI began rolling out GPT-6 Astra, a model that competes directly with Claude on price and capabilities, with standout results on safety and long-context benchmarks. Astra is arriving on ChatGPT, Codex, the OpenAI API, and AWS, and its integration into tools like Devin has already been announced. It's the day's biggest move in the frontier-model race."
+      },
       "topic": "apple",
       "source": "9to5Mac",
       "link": "https://9to5mac.com/2026/09/03/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here/",
@@ -21,10 +61,16 @@
     },
     {
       "id": "8ac230c6ff7a9255",
-      "title": "John Ternus asume como CEO de Apple en medio de cambios de liderazgo",
-      "body": "Apple confirma a John Ternus como su nuevo CEO, marcando un relevo generacional en la compañía justo antes de un evento cargado de lanzamientos. La noticia coincide con rumores de última hora sobre el próximo evento del iPhone y una subida de precio en Apple TV, evidenciando movimientos internos de gran calado.",
       "newsId": "8ac230c6ff7a9255",
       "storyKey": "8ac230c6ff7a9255",
+      "title": {
+        "es": "John Ternus asume como CEO de Apple en medio de cambios de liderazgo",
+        "en": "John Ternus takes over as Apple's CEO amid leadership changes"
+      },
+      "body": {
+        "es": "Apple confirma a John Ternus como su nuevo CEO, marcando un relevo generacional en la compañía justo antes de un evento cargado de lanzamientos. La noticia coincide con rumores de última hora sobre el próximo evento del iPhone y una subida de precio en Apple TV, evidenciando movimientos internos de gran calado.",
+        "en": "Apple confirms John Ternus as its new CEO, marking a generational handover at the company right before an event packed with launches. The news coincides with last-minute rumors about the upcoming iPhone event and a price increase for Apple TV, underscoring far-reaching internal moves."
+      },
       "topic": "apple",
       "source": "9to5Mac",
       "link": "https://9to5mac.com/2026/09/03/happy-hour-606/",
@@ -33,10 +79,16 @@
     },
     {
       "id": "1d6c3fcda52fd0ac",
-      "title": "Claude, ChatGPT y Grok caen simultáneamente para muchos usuarios",
-      "body": "Un apagón afectó al mismo tiempo a tres de los asistentes de IA más usados del mundo, dejando sin servicio a millones de usuarios y desarrolladores que dependen de ellos a diario. El incidente reaviva el debate sobre la concentración de infraestructura crítica de IA en pocos proveedores.",
       "newsId": "1d6c3fcda52fd0ac",
       "storyKey": "1d6c3fcda52fd0ac",
+      "title": {
+        "es": "Claude, ChatGPT y Grok caen simultáneamente para muchos usuarios",
+        "en": "Claude, ChatGPT, and Grok go down simultaneously for many users"
+      },
+      "body": {
+        "es": "Un apagón afectó al mismo tiempo a tres de los asistentes de IA más usados del mundo, dejando sin servicio a millones de usuarios y desarrolladores que dependen de ellos a diario. El incidente reaviva el debate sobre la concentración de infraestructura crítica de IA en pocos proveedores.",
+        "en": "An outage hit three of the world's most-used AI assistants at the same time, leaving millions of users and developers who rely on them daily without service. The incident reignites the debate over the concentration of critical AI infrastructure among a handful of providers."
+      },
       "topic": "apple",
       "source": "9to5Mac",
       "link": "https://9to5mac.com/2026/09/03/chatgpt-and-codex-are-experiencing-an-outage-for-many-users/",
@@ -45,10 +97,16 @@
     },
     {
       "id": "de6208647dfe3623",
-      "title": "Phil Schiller deja la dirección de la App Store y los eventos de producto",
-      "body": "Phil Schiller, figura histórica de Apple, abandona su rol al frente de la App Store y de la organización de eventos de producto, según Bloomberg. El cambio se enmarca en una reestructuración más amplia de liderazgo que incluye el ascenso de Ternus a CEO.",
       "newsId": "de6208647dfe3623",
       "storyKey": "de6208647dfe3623",
+      "title": {
+        "es": "Phil Schiller deja la dirección de la App Store y los eventos de producto",
+        "en": "Phil Schiller steps down from leading the App Store and product events"
+      },
+      "body": {
+        "es": "Phil Schiller, figura histórica de Apple, abandona su rol al frente de la App Store y de la organización de eventos de producto, según Bloomberg. El cambio se enmarca en una reestructuración más amplia de liderazgo que incluye el ascenso de Ternus a CEO.",
+        "en": "Phil Schiller, a historic Apple figure, is stepping down from leading the App Store and product-event organization, according to Bloomberg. The change is part of a broader leadership reshuffle that includes Ternus's rise to CEO."
+      },
       "topic": "apple",
       "source": "Daring Fireball",
       "link": "https://www.bloomberg.com/news/articles/2026-08-31/apple-s-phil-schiller-steps-down-from-running-app-store-and-product-events?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4ODE5Mzk5NywiZXhwIjoxNzg4Nzk4Nzk3LCJhcnRpY2xlSWQiOiJUS0VDTE1LSkg2VjQwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.G1fAbZQH31AQBLUajPYPUJ7BqRyeIUN7SbxQZFAqMXE",
@@ -57,10 +115,16 @@
     },
     {
       "id": "3af436bfadf687b3",
-      "title": "Apple cancela un producto innovador que era prioridad de Ternus",
-      "body": "Según fuentes citadas por 9to5Mac, Apple ha cancelado un producto considerado prioritario para John Ternus antes de su ascenso a CEO. La decisión sugiere ajustes de estrategia en la hoja de ruta de hardware justo en un momento de transición de liderazgo.",
       "newsId": "3af436bfadf687b3",
       "storyKey": "3af436bfadf687b3",
+      "title": {
+        "es": "Apple cancela un producto innovador que era prioridad de Ternus",
+        "en": "Apple cancels an innovative product that was a Ternus priority"
+      },
+      "body": {
+        "es": "Según fuentes citadas por 9to5Mac, Apple ha cancelado un producto considerado prioritario para John Ternus antes de su ascenso a CEO. La decisión sugiere ajustes de estrategia en la hoja de ruta de hardware justo en un momento de transición de liderazgo.",
+        "en": "According to sources cited by 9to5Mac, Apple has canceled a product considered a priority for John Ternus before his rise to CEO. The decision suggests strategy adjustments to the hardware roadmap right at a moment of leadership transition."
+      },
       "topic": "apple",
       "source": "9to5Mac",
       "link": "https://9to5mac.com/2026/09/03/apple-has-reportedly-canceled-innovative-product-that-was-ternus-priority/",
@@ -69,10 +133,16 @@
     },
     {
       "id": "e68736e1ff0c6d52",
-      "title": "Apple enfrenta demanda colectiva de $2.700 millones por App Tracking Transparency",
-      "body": "Una demanda colectiva acusa a Apple de usar sus reglas de App Tracking Transparency para perjudicar a la competencia mientras se beneficia de sus propios datos publicitarios. El caso podría tener implicaciones significativas para las políticas de privacidad de la App Store.",
       "newsId": "e68736e1ff0c6d52",
       "storyKey": "e68736e1ff0c6d52",
+      "title": {
+        "es": "Apple enfrenta demanda colectiva de $2.700 millones por App Tracking Transparency",
+        "en": "Apple faces $2.7 billion class action over App Tracking Transparency"
+      },
+      "body": {
+        "es": "Una demanda colectiva acusa a Apple de usar sus reglas de App Tracking Transparency para perjudicar a la competencia mientras se beneficia de sus propios datos publicitarios. El caso podría tener implicaciones significativas para las políticas de privacidad de la App Store.",
+        "en": "A class-action lawsuit accuses Apple of using its App Tracking Transparency rules to hurt competitors while benefiting from its own advertising data. The case could have significant implications for the App Store's privacy policies."
+      },
       "topic": "apple",
       "source": "AppleInsider",
       "link": "https://appleinsider.com/articles/26/09/03/apple-sued-over-app-tracking-transparency-in-27-billion-class-action?utm_source=rss",
@@ -81,10 +151,16 @@
     },
     {
       "id": "e5fa0ea188296cd1",
-      "title": "Macs con chip M4 podrán compartir trabajo de IA local con PCs vía Nvidia PAIR",
-      "body": "Una nueva integración permite que Macs con Apple Silicon colaboren con PCs con GPU Nvidia para tareas de IA local, ampliando las opciones de cómputo híbrido para desarrolladores. Es una señal de interoperabilidad inusual entre los ecosistemas de Apple y Nvidia en el espacio de IA on-device.",
       "newsId": "e5fa0ea188296cd1",
       "storyKey": "e5fa0ea188296cd1",
+      "title": {
+        "es": "Macs con chip M4 podrán compartir trabajo de IA local con PCs vía Nvidia PAIR",
+        "en": "M4 Macs will be able to share local AI work with PCs via Nvidia PAIR"
+      },
+      "body": {
+        "es": "Una nueva integración permite que Macs con Apple Silicon colaboren con PCs con GPU Nvidia para tareas de IA local, ampliando las opciones de cómputo híbrido para desarrolladores. Es una señal de interoperabilidad inusual entre los ecosistemas de Apple y Nvidia en el espacio de IA on-device.",
+        "en": "A new integration lets Apple Silicon Macs collaborate with Nvidia GPU-equipped PCs on local AI tasks, expanding hybrid-compute options for developers. It's a sign of unusual interoperability between the Apple and Nvidia ecosystems in the on-device AI space."
+      },
       "topic": "apple",
       "source": "AppleInsider",
       "link": "https://appleinsider.com/articles/26/09/03/m4-macs-can-share-local-ai-work-with-pcs-using-nvidia-pair?utm_source=rss",
@@ -104,7 +180,10 @@
       "stars": 388776,
       "stars_today": 10,
       "trend_score": 6.48,
-      "why_it_matters": "Agente de IA multiplataforma con actualización reciente (v2026.9.1) y gran tracción, relevante para quienes buscan automatización real de tareas más allá del chat."
+      "why_it_matters": {
+        "es": "Agente de IA multiplataforma con actualización reciente (v2026.9.1) y gran tracción, relevante para quienes buscan automatización real de tareas más allá del chat.",
+        "en": "A cross-platform AI agent with a recent update (v2026.9.1) and strong traction, relevant for anyone looking for real task automation beyond chat."
+      }
     },
     {
       "id": "obra/superpowers",
@@ -117,7 +196,10 @@
       "stars": 281317,
       "stars_today": 18,
       "trend_score": 6.83,
-      "why_it_matters": "Framework de habilidades agénticas y metodología de desarrollo con enorme adopción, útil como referencia para construir agentes de coding robustos."
+      "why_it_matters": {
+        "es": "Framework de habilidades agénticas y metodología de desarrollo con enorme adopción, útil como referencia para construir agentes de coding robustos.",
+        "en": "An agentic skills framework and development methodology with huge adoption, useful as a reference for building robust coding agents."
+      }
     },
     {
       "id": "github/spec-kit",
@@ -130,7 +212,10 @@
       "stars": 133330,
       "stars_today": 10,
       "trend_score": 6.47,
-      "why_it_matters": "Toolkit oficial de GitHub para Spec-Driven Development, una tendencia creciente para estructurar mejor el trabajo de agentes de código."
+      "why_it_matters": {
+        "es": "Toolkit oficial de GitHub para Spec-Driven Development, una tendencia creciente para estructurar mejor el trabajo de agentes de código.",
+        "en": "GitHub's official toolkit for Spec-Driven Development, a growing trend for better structuring the work of code agents."
+      }
     },
     {
       "id": "firecrawl/firecrawl",
@@ -143,7 +228,10 @@
       "stars": 176139,
       "stars_today": 14,
       "trend_score": 6.67,
-      "why_it_matters": "API de scraping y búsqueda web a escala pensada para alimentar agentes con contexto, pieza clave en pipelines de RAG y agentes autónomos."
+      "why_it_matters": {
+        "es": "API de scraping y búsqueda web a escala pensada para alimentar agentes con contexto, pieza clave en pipelines de RAG y agentes autónomos.",
+        "en": "A web scraping and search API built at scale to feed agents with context, a key piece in RAG pipelines and autonomous agents."
+      }
     },
     {
       "id": "unslothai/unsloth",
@@ -156,16 +244,25 @@
       "stars": 75567,
       "stars_today": 4,
       "trend_score": 6.19,
-      "why_it_matters": "Herramienta local para entrenar y ejecutar LLMs y modelos de difusión con soporte amplio de formatos, útil para developers que quieren fine-tuning eficiente."
+      "why_it_matters": {
+        "es": "Herramienta local para entrenar y ejecutar LLMs y modelos de difusión con soporte amplio de formatos, útil para developers que quieren fine-tuning eficiente.",
+        "en": "A local tool for training and running LLMs and diffusion models with broad format support, useful for developers who want efficient fine-tuning."
+      }
     }
   ],
   "quick_reads": [
     {
       "id": "6723fb3d70cba561",
-      "title": "Apple lanzará seis productos importantes la próxima semana",
-      "text": "Apple prepara un evento cargado con seis lanzamientos importantes de hardware para la semana próxima.",
       "newsId": "6723fb3d70cba561",
       "storyKey": "6723fb3d70cba561",
+      "title": {
+        "es": "Apple lanzará seis productos importantes la próxima semana",
+        "en": "Apple to launch six major products next week"
+      },
+      "text": {
+        "es": "Apple prepara un evento cargado con seis lanzamientos importantes de hardware para la semana próxima.",
+        "en": "Apple is gearing up for a packed event with six major hardware launches next week."
+      },
       "topic": "apple",
       "source": "9to5Mac",
       "link": "https://9to5mac.com/2026/09/03/apple-will-launch-six-major-new-products-next-week-heres-whats-coming/",
@@ -175,10 +272,16 @@
     },
     {
       "id": "4c86f7505fdefe22",
-      "title": "iPhone 18 Pro y Pro Max tendrán dos mejoras de pantalla",
-      "text": "Filtraciones apuntan a dos actualizaciones clave de pantalla en los próximos iPhone 18 Pro y Pro Max.",
       "newsId": "4c86f7505fdefe22",
       "storyKey": "4c86f7505fdefe22",
+      "title": {
+        "es": "iPhone 18 Pro y Pro Max tendrán dos mejoras de pantalla",
+        "en": "iPhone 18 Pro and Pro Max to get two display upgrades"
+      },
+      "text": {
+        "es": "Filtraciones apuntan a dos actualizaciones clave de pantalla en los próximos iPhone 18 Pro y Pro Max.",
+        "en": "Leaks point to two key display upgrades coming in the next iPhone 18 Pro and Pro Max."
+      },
       "topic": "apple",
       "source": "9to5Mac",
       "link": "https://9to5mac.com/2026/09/03/iphone-18-pro-new-display-upgrades-are-coming-in-two-ways/",
@@ -188,10 +291,16 @@
     },
     {
       "id": "8cc5e5e7f77f41b2",
-      "title": "Se revelan precio elevado y características del iPhone Ultra",
-      "text": "Un nuevo informe detalla el precio muy alto y las características esperadas del rumoreado iPhone Ultra plegable.",
       "newsId": "8cc5e5e7f77f41b2",
       "storyKey": "8cc5e5e7f77f41b2",
+      "title": {
+        "es": "Se revelan precio elevado y características del iPhone Ultra",
+        "en": "High price and specs of the iPhone Ultra revealed"
+      },
+      "text": {
+        "es": "Un nuevo informe detalla el precio muy alto y las características esperadas del rumoreado iPhone Ultra plegable.",
+        "en": "A new report details the very high price and expected specs of the rumored foldable iPhone Ultra."
+      },
       "topic": "apple",
       "source": "MacRumors",
       "link": "https://www.macrumors.com/2026/09/03/iphone-ultra-features-price-specs/",
@@ -201,10 +310,16 @@
     },
     {
       "id": "d6147e591e575908",
-      "title": "Apple cancela planes para dos nuevos modelos de MacBook",
-      "text": "Reportes indican que Apple ha descartado el desarrollo de dos modelos de MacBook que estaban en marcha.",
       "newsId": "d6147e591e575908",
       "storyKey": "d6147e591e575908",
+      "title": {
+        "es": "Apple cancela planes para dos nuevos modelos de MacBook",
+        "en": "Apple cancels plans for two new MacBook models"
+      },
+      "text": {
+        "es": "Reportes indican que Apple ha descartado el desarrollo de dos modelos de MacBook que estaban en marcha.",
+        "en": "Reports indicate Apple has scrapped development of two MacBook models that were already underway."
+      },
       "topic": "apple",
       "source": "MacRumors",
       "link": "https://www.macrumors.com/2026/09/03/apple-cancels-plans-for-two-new-macbooks/",
@@ -214,10 +329,16 @@
     },
     {
       "id": "b933f32527a8033d",
-      "title": "Apple Vision Pro se usa por primera vez en una cirugía",
-      "text": "El visor Apple Vision Pro fue empleado en una cirugía pionera, mostrando nuevas aplicaciones médicas de la realidad mixta.",
       "newsId": "b933f32527a8033d",
       "storyKey": "b933f32527a8033d",
+      "title": {
+        "es": "Apple Vision Pro se usa por primera vez en una cirugía",
+        "en": "Apple Vision Pro used in surgery for the first time"
+      },
+      "text": {
+        "es": "El visor Apple Vision Pro fue empleado en una cirugía pionera, mostrando nuevas aplicaciones médicas de la realidad mixta.",
+        "en": "The Apple Vision Pro headset was used in a pioneering surgery, showcasing new medical applications for mixed reality."
+      },
       "topic": "apple",
       "source": "9to5Mac",
       "link": "https://9to5mac.com/2026/09/03/apple-vision-pro-was-just-used-in-a-first-of-its-kind-surgery/",
@@ -227,10 +348,16 @@
     },
     {
       "id": "cb18426cba87ee19",
-      "title": "Apple enfrenta demanda de $2.700 millones por reglas de tracking",
-      "text": "Una nueva demanda acusa a Apple de perjudicar a competidores con sus políticas de seguimiento de apps.",
       "newsId": "cb18426cba87ee19",
       "storyKey": "cb18426cba87ee19",
+      "title": {
+        "es": "Apple enfrenta demanda de $2.700 millones por reglas de tracking",
+        "en": "Apple hit with $2.7 billion lawsuit over tracking rules"
+      },
+      "text": {
+        "es": "Una nueva demanda acusa a Apple de perjudicar a competidores con sus políticas de seguimiento de apps.",
+        "en": "A new lawsuit accuses Apple of harming competitors with its app-tracking policies."
+      },
       "topic": "apple",
       "source": "MacRumors",
       "link": "https://www.macrumors.com/2026/09/03/apple-hit-with-lawsuit-over-app-tracking/",
@@ -240,10 +367,16 @@
     },
     {
       "id": "7250d7f6b530b7d4",
-      "title": "BASF demanda a Apple por tecnología de Face ID",
-      "text": "El gigante químico alemán BASF presentó una demanda contra Apple relacionada con la tecnología Face ID.",
       "newsId": "7250d7f6b530b7d4",
       "storyKey": "7250d7f6b530b7d4",
+      "title": {
+        "es": "BASF demanda a Apple por tecnología de Face ID",
+        "en": "BASF sues Apple over Face ID technology"
+      },
+      "text": {
+        "es": "El gigante químico alemán BASF presentó una demanda contra Apple relacionada con la tecnología Face ID.",
+        "en": "German chemical giant BASF filed a lawsuit against Apple related to Face ID technology."
+      },
       "topic": "apple",
       "source": "AppleInsider",
       "link": "https://appleinsider.com/articles/26/09/03/apples-face-id-technology-target-of-latest-lawsuit-from-german-company-basf?utm_source=rss",
@@ -252,10 +385,16 @@
     },
     {
       "id": "4cb3065212521592",
-      "title": "Gemini 3.8 Flash ya está disponible en GitHub Copilot",
-      "text": "GitHub añadió el modelo Gemini 3.8 Flash como nueva opción dentro de Copilot para desarrolladores.",
       "newsId": "4cb3065212521592",
       "storyKey": "4cb3065212521592",
+      "title": {
+        "es": "Gemini 3.8 Flash ya está disponible en GitHub Copilot",
+        "en": "Gemini 3.8 Flash now available in GitHub Copilot"
+      },
+      "text": {
+        "es": "GitHub añadió el modelo Gemini 3.8 Flash como nueva opción dentro de Copilot para desarrolladores.",
+        "en": "GitHub added the Gemini 3.8 Flash model as a new option within Copilot for developers."
+      },
       "topic": "ai_software",
       "source": "GitHub Changelog",
       "link": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
@@ -267,9 +406,12 @@
   "developer_signals": [
     {
       "id": "2095641052447445346",
-      "text": "Perplexity evaluó GPT-6 Astra en su benchmark WANDR y obtuvo la puntuación más alta de todos los modelos probados, a $11.98 por tarea.",
       "newsId": "2095641052447445346",
       "storyKey": null,
+      "text": {
+        "es": "Perplexity evaluó GPT-6 Astra en su benchmark WANDR y obtuvo la puntuación más alta de todos los modelos probados, a $11.98 por tarea.",
+        "en": "Perplexity evaluated GPT-6 Astra on its WANDR benchmark and it scored the highest of all models tested, at $11.98 per task."
+      },
       "topic": "ai_software",
       "image": null,
       "link": "https://x.com/jxnlco/status/2095641052447445346",
@@ -279,9 +421,12 @@
     },
     {
       "id": "2095621113367900223",
-      "text": "Cognition confirma que GPT-6 Astra llegará a Devin, sumándose a la ola de integraciones del nuevo modelo en herramientas de coding agent.",
       "newsId": "2095621113367900223",
       "storyKey": null,
+      "text": {
+        "es": "Cognition confirma que GPT-6 Astra llegará a Devin, sumándose a la ola de integraciones del nuevo modelo en herramientas de coding agent.",
+        "en": "Cognition confirms GPT-6 Astra will come to Devin, joining the wave of integrations of the new model into coding-agent tools."
+      },
       "topic": "ai_software",
       "image": null,
       "link": "https://x.com/jxnlco/status/2095621113367900223",
@@ -291,9 +436,12 @@
     },
     {
       "id": "2095640803595227532",
-      "text": "Junto al lanzamiento de GPT-6 Astra, OpenAI anuncia mil millones de dólares para subsidiar acceso a capacidades de frontera.",
       "newsId": "2095640803595227532",
       "storyKey": null,
+      "text": {
+        "es": "Junto al lanzamiento de GPT-6 Astra, OpenAI anuncia mil millones de dólares para subsidiar acceso a capacidades de frontera.",
+        "en": "Alongside the GPT-6 Astra launch, OpenAI announces a billion dollars to subsidize access to frontier capabilities."
+      },
       "topic": "ai_software",
       "image": null,
       "link": "https://x.com/jxnlco/status/2095640803595227532",
@@ -303,9 +451,12 @@
     },
     {
       "id": "2095647194640773619",
-      "text": "OpenClaw v2026.9.1 ya está disponible, con nuevas mejoras para su agente de IA multiplataforma.",
       "newsId": "2095647194640773619",
       "storyKey": null,
+      "text": {
+        "es": "OpenClaw v2026.9.1 ya está disponible, con nuevas mejoras para su agente de IA multiplataforma.",
+        "en": "OpenClaw v2026.9.1 is now available, with new improvements to its cross-platform AI agent."
+      },
       "topic": "ai_software",
       "image": null,
       "link": "https://x.com/steipete/status/2095647194640773619",
@@ -315,9 +466,12 @@
     },
     {
       "id": "2095621221010551142",
-      "text": "Un desarrollador destaca una reducción del 64% en el coste por tarea, reflejo de la presión competitiva en precios entre modelos frontera.",
       "newsId": "2095621221010551142",
       "storyKey": null,
+      "text": {
+        "es": "Un desarrollador destaca una reducción del 64% en el coste por tarea, reflejo de la presión competitiva en precios entre modelos frontera.",
+        "en": "A developer highlights a 64% reduction in cost per task, reflecting the competitive pricing pressure among frontier models."
+      },
       "topic": "ai_software",
       "image": null,
       "link": "https://x.com/jxnlco/status/2095621221010551142",
@@ -325,12 +479,5 @@
       "source": "X · @jxnlco",
       "contentType": "developer_signal"
     }
-  ],
-  "summary": {
-    "apple": "Apple vive una semana de transición con el ascenso de John Ternus a CEO, la salida de Phil Schiller de su rol clásico y una avalancha de rumores sobre MacBooks, iPhone Ultra e iPhone 18 Pro antes del evento de la próxima semana.",
-    "ai_software": "OpenAI lanza GPT-6 Astra como su respuesta directa a Claude, con cifras récord en seguridad, contexto largo y eficiencia de coste en tareas de coding agent, redefiniendo la competencia entre labs frontera.",
-    "ai_general": "",
-    "tech": ""
-  },
-  "date": "2026-09-03"
+  ]
 }

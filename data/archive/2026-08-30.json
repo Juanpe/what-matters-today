@@ -1,1 +1,218 @@
-[{"topic_summaries":{"apple":"Los rumores de Gurman sobre el Apple Watch Series 12 y Ultra 4 se refinan de cara al evento del 9 de septiembre, con foco en salud y no en cambios de diseño.","ai_software":"Apple prepara una oleada de lanzamientos de hardware (AirPods 5, iPad mini OLED) que acompañarán al iPhone 18 Pro, aunque sin novedades relevantes en IA como tal.","tech":"La demanda empresarial de IA sorprendió a Apple y aceleró el lanzamiento del Mac Studio y Mac mini, mientras se acumulan filtraciones sobre el iPad mini y otros productos de cara al otoño."},"top_stories":[{"id":3,"title":"Apple Watch Series 12 apuntaría a monitorización cardíaca continua y nueva app Fitness","body":"Según Mark Gurman, Apple está probando un seguimiento de frecuencia cardíaca que funcionaría de forma continua durante todo el día, además de una revisión de las apps de Salud y Fitness inspirada en Whoop y Oura. También se testean acabados de cerámica blanca y gris oscuro para una versión premium. No se esperan cambios de diseño mayores, sino mejoras de rendimiento con un nuevo chip, tras varias generaciones sin salto de potencia.","source":"9to5Mac","link":"https://9to5mac.com/2026/08/30/apple-watch-series-12-last-minute-leaks-new-fitness-app-heart-rate/","topic":"tech","image":"https://9to5mac.com/wp-content/uploads/sites/6/2023/07/apple-watch-heart-rate-app-watchos-10.jpeg?quality=82&strip=all&resize=1200,628","score":null},{"id":7,"title":"Apple prepara AirPods 5 para septiembre y iPad mini OLED para octubre","body":"Gurman confirma que las AirPods 5 llegarían junto al iPhone 18 Pro, el iPhone 18 Pro Max, un iPhone plegable y los nuevos Apple Watch en el evento del 9 de septiembre. El iPad mini con pantalla OLED se reservaría para finales de octubre. Es la hoja de ruta más completa hasta ahora del otoño de Apple, marcando uno de los lanzamientos más cargados de la compañía en años.","source":"MacRumors","link":"https://www.macrumors.com/2026/08/30/iphone-18-pro-airpods-5-ipad-mini-oled/","topic":"tech","image":"https://images.macrumors.com/t/fYjVcXVY5VPjzwT55r9PcKFUJVY=/2500x/article-new/2026/03/airpods-4-new-new-orange.jpg","score":null},{"id":4,"title":"La demanda empresarial de IA obligó a Apple a adelantar el Mac Studio y Mac mini","body":"Según The Information, el lanzamiento inusualmente temprano de los nuevos Mac mini y Mac Studio se debió a un apetito corporativo inesperado por hardware de IA, especialmente para encadenar varios Mac Studio y ejecutar modelos de IA frontera. Apple, que carecía de un equipo dedicado a clientes empresariales o de una estrategia de IA corporativa, rechazó peticiones de acceso a su Private Cloud Compute y ahora depende de socios externos como WebAI y Mount Thor. Es una señal clara de que el negocio de IA empresarial está reconfigurando la estrategia de hardware de Apple.","source":"MacRumors","link":"https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/","topic":"tech","image":"https://images.macrumors.com/t/OsRlBLMFhQf-DlTIBvCnu2Opj54=/2500x/article-new/2026/04/Mac-mini-vs-Studio-Feature-Sans-Text-1.jpg","score":null},{"id":2,"title":"El nuevo iPad mini llegaría en octubre","body":"Un nuevo informe adelanta que Apple lanzará su próximo iPad mini en octubre, en medio de un otoño cargado que incluye el iPhone Ultra y el iPhone 18 Pro. El dispositivo se sumaría a la ya extensa lista de anuncios previstos para los próximos meses, reforzando la estrategia de renovación simultánea de múltiples líneas de producto.","source":"9to5Mac","link":"https://9to5mac.com/2026/08/30/apples-next-ipad-mini-is-almost-here-heres-what-to-expect/","topic":"tech","image":"https://9to5mac.com/wp-content/uploads/sites/6/2026/07/ipad-mini-6-jb.jpg?quality=82&strip=all&resize=1200,628","score":null}],"quick_reads":[{"id":1,"text":"Gurman detalla más filtraciones sobre el Apple Watch Series 12 y Ultra 4 antes del evento del 9 de septiembre.","source":"MacRumors","link":"https://www.macrumors.com/2026/08/30/apple-watch-series-12-ultra-4-features/","topic":"tech","image":null},{"id":5,"text":"Una carcasa con pilas AA multiplica por diez la autonomía del AirTag por unos 20 euros.","source":"Applesfera","link":"https://www.applesfera.com/seleccion/hay-manera-multiplicar-10-autonomia-airtag-puedes-comprar-amazon","topic":"tech","image":null},{"id":6,"text":"El Storm Radar de The Weather Channel ya funciona en Apple CarPlay.","source":"9to5Mac","link":"https://9to5mac.com/2026/08/30/apple-carplay-just-added-a-major-weather-app/","topic":"tech","image":null},{"id":8,"text":"Apple habría considerado un Apple Pencil exclusivo para el iPhone Ultra, aunque no llegaría al mercado.","source":"9to5Mac","link":"https://9to5mac.com/2026/08/30/iphone-ultra-apple-pencil-support-tested/","topic":"tech","image":null},{"id":9,"text":"Un documento interno de 1980 muestra cómo Apple prohibió las máquinas de escribir entre sus empleados.","source":"Applesfera","link":"https://www.applesfera.com/curiosidades/empleados-apple-pasaban-usar-sus-ordenadores-preferian-maquinas-escribir-que-este-documento-interno-prohibio","topic":"tech","image":null},{"id":10,"text":"Ofertas de fin de semana en Apple incluyen descuentos en Mac mini M6, AirPods Pro 3 y AirTag 2.","source":"9to5Mac","link":"https://9to5mac.com/2026/08/30/apple-weekend-deals-m6-mac-mini-airpods-airtag-2/","topic":"tech","image":null},{"id":11,"text":"Applesfera recopila frases de 'Ted Lasso' mientras la temporada 4 sigue en emisión en Apple TV.","source":"Applesfera","link":"https://www.applesfera.com/apple-tv/siete-frases-ted-lasso-para-vivir-mucho-feliz","topic":"tech","image":null}]}]
+{
+  "date": "2026-08-30",
+  "daily_summary": {
+    "es": "Apple ultima los detalles de su otoño más cargado, entre filtraciones del Apple Watch Series 12, AirPods 5, iPad mini OLED y un adelanto del Mac Studio y Mac mini impulsado por la demanda empresarial de IA.",
+    "en": "Apple is finalizing details for its busiest fall yet, with leaks about the Apple Watch Series 12, AirPods 5, OLED iPad mini, and an early Mac Studio and Mac mini launch driven by enterprise AI demand."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Los rumores de Gurman sobre el Apple Watch Series 12 y Ultra 4 se refinan de cara al evento del 9 de septiembre, con foco en salud y no en cambios de diseño.",
+      "en": "Gurman's rumors about the Apple Watch Series 12 and Ultra 4 get more refined ahead of the September 9 event, focused on health rather than design changes."
+    },
+    "ai_software": {
+      "es": "Apple prepara una oleada de lanzamientos de hardware (AirPods 5, iPad mini OLED) que acompañarán al iPhone 18 Pro, aunque sin novedades relevantes en IA como tal.",
+      "en": "Apple is preparing a wave of hardware launches (AirPods 5, OLED iPad mini) to accompany the iPhone 18 Pro, though without notable AI news as such."
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "La demanda empresarial de IA sorprendió a Apple y aceleró el lanzamiento del Mac Studio y Mac mini, mientras se acumulan filtraciones sobre el iPad mini y otros productos de cara al otoño.",
+      "en": "Enterprise demand for AI caught Apple off guard and sped up the launch of the Mac Studio and Mac mini, while leaks pile up about the iPad mini and other products ahead of fall."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Los rumores de Gurman sobre el Apple Watch Series 12 y Ultra 4 se refinan de cara al evento del 9 de septiembre, con foco en salud y no en cambios de diseño.",
+      "en": "Gurman's rumors about the Apple Watch Series 12 and Ultra 4 get more refined ahead of the September 9 event, focused on health rather than design changes."
+    },
+    "ai_software": {
+      "es": "Apple prepara una oleada de lanzamientos de hardware (AirPods 5, iPad mini OLED) que acompañarán al iPhone 18 Pro, aunque sin novedades relevantes en IA como tal.",
+      "en": "Apple is preparing a wave of hardware launches (AirPods 5, OLED iPad mini) to accompany the iPhone 18 Pro, though without notable AI news as such."
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "La demanda empresarial de IA sorprendió a Apple y aceleró el lanzamiento del Mac Studio y Mac mini, mientras se acumulan filtraciones sobre el iPad mini y otros productos de cara al otoño.",
+      "en": "Enterprise demand for AI caught Apple off guard and sped up the launch of the Mac Studio and Mac mini, while leaks pile up about the iPad mini and other products ahead of fall."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "3",
+      "title": {
+        "es": "Apple Watch Series 12 apuntaría a monitorización cardíaca continua y nueva app Fitness",
+        "en": "Apple Watch Series 12 said to target continuous heart-rate monitoring and a new Fitness app"
+      },
+      "body": {
+        "es": "Según Mark Gurman, Apple está probando un seguimiento de frecuencia cardíaca que funcionaría de forma continua durante todo el día, además de una revisión de las apps de Salud y Fitness inspirada en Whoop y Oura. También se testean acabados de cerámica blanca y gris oscuro para una versión premium. No se esperan cambios de diseño mayores, sino mejoras de rendimiento con un nuevo chip, tras varias generaciones sin salto de potencia.",
+        "en": "According to Mark Gurman, Apple is testing heart-rate tracking that would run continuously throughout the day, along with a revamp of the Health and Fitness apps inspired by Whoop and Oura. White and dark-gray ceramic finishes are also being tested for a premium version. No major design changes are expected, but rather performance gains from a new chip after several generations without a real power jump."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/30/apple-watch-series-12-last-minute-leaks-new-fitness-app-heart-rate/",
+      "topic": "tech",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2023/07/apple-watch-heart-rate-app-watchos-10.jpeg?quality=82&strip=all&resize=1200,628",
+      "score": null
+    },
+    {
+      "id": "7",
+      "title": {
+        "es": "Apple prepara AirPods 5 para septiembre y iPad mini OLED para octubre",
+        "en": "Apple readies AirPods 5 for September and an OLED iPad mini for October"
+      },
+      "body": {
+        "es": "Gurman confirma que las AirPods 5 llegarían junto al iPhone 18 Pro, el iPhone 18 Pro Max, un iPhone plegable y los nuevos Apple Watch en el evento del 9 de septiembre. El iPad mini con pantalla OLED se reservaría para finales de octubre. Es la hoja de ruta más completa hasta ahora del otoño de Apple, marcando uno de los lanzamientos más cargados de la compañía en años.",
+        "en": "Gurman confirms the AirPods 5 would arrive alongside the iPhone 18 Pro, iPhone 18 Pro Max, a foldable iPhone, and the new Apple Watches at the September 9 event. The OLED-screen iPad mini would be held back for late October. It's the most complete roadmap yet of Apple's fall, marking one of the company's busiest launch seasons in years."
+      },
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/08/30/iphone-18-pro-airpods-5-ipad-mini-oled/",
+      "topic": "tech",
+      "image": "https://images.macrumors.com/t/fYjVcXVY5VPjzwT55r9PcKFUJVY=/2500x/article-new/2026/03/airpods-4-new-new-orange.jpg",
+      "score": null
+    },
+    {
+      "id": "4",
+      "title": {
+        "es": "La demanda empresarial de IA obligó a Apple a adelantar el Mac Studio y Mac mini",
+        "en": "Enterprise AI demand forced Apple to move up the Mac Studio and Mac mini launch"
+      },
+      "body": {
+        "es": "Según The Information, el lanzamiento inusualmente temprano de los nuevos Mac mini y Mac Studio se debió a un apetito corporativo inesperado por hardware de IA, especialmente para encadenar varios Mac Studio y ejecutar modelos de IA frontera. Apple, que carecía de un equipo dedicado a clientes empresariales o de una estrategia de IA corporativa, rechazó peticiones de acceso a su Private Cloud Compute y ahora depende de socios externos como WebAI y Mount Thor. Es una señal clara de que el negocio de IA empresarial está reconfigurando la estrategia de hardware de Apple.",
+        "en": "According to The Information, the unusually early launch of the new Mac mini and Mac Studio was due to unexpected corporate appetite for AI hardware, especially for chaining multiple Mac Studios together to run frontier AI models. Apple, which lacked a dedicated enterprise sales team or a corporate AI strategy, turned down requests for access to its Private Cloud Compute and now relies on outside partners like WebAI and Mount Thor. It's a clear sign that enterprise AI business is reshaping Apple's hardware strategy."
+      },
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "topic": "tech",
+      "image": "https://images.macrumors.com/t/OsRlBLMFhQf-DlTIBvCnu2Opj54=/2500x/article-new/2026/04/Mac-mini-vs-Studio-Feature-Sans-Text-1.jpg",
+      "score": null
+    },
+    {
+      "id": "2",
+      "title": {
+        "es": "El nuevo iPad mini llegaría en octubre",
+        "en": "New iPad mini said to arrive in October"
+      },
+      "body": {
+        "es": "Un nuevo informe adelanta que Apple lanzará su próximo iPad mini en octubre, en medio de un otoño cargado que incluye el iPhone Ultra y el iPhone 18 Pro. El dispositivo se sumaría a la ya extensa lista de anuncios previstos para los próximos meses, reforzando la estrategia de renovación simultánea de múltiples líneas de producto.",
+        "en": "A new report says Apple will launch its next iPad mini in October, amid a packed fall season that includes the iPhone Ultra and iPhone 18 Pro. The device would join an already extensive list of announcements planned for the coming months, reinforcing Apple's strategy of refreshing multiple product lines at once."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/30/apples-next-ipad-mini-is-almost-here-heres-what-to-expect/",
+      "topic": "tech",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/ipad-mini-6-jb.jpg?quality=82&strip=all&resize=1200,628",
+      "score": null
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "1",
+      "title": {
+        "es": "Más filtraciones del Apple Watch Series 12 y Ultra 4",
+        "en": "More Apple Watch Series 12 and Ultra 4 leaks"
+      },
+      "text": {
+        "es": "Gurman detalla más filtraciones sobre el Apple Watch Series 12 y Ultra 4 antes del evento del 9 de septiembre.",
+        "en": "Gurman details more leaks about the Apple Watch Series 12 and Ultra 4 ahead of the September 9 event."
+      },
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/08/30/apple-watch-series-12-ultra-4-features/",
+      "topic": "tech",
+      "image": null
+    },
+    {
+      "id": "5",
+      "title": {
+        "es": "Carcasa con pilas AA multiplica la autonomía del AirTag",
+        "en": "AA-battery case multiplies AirTag battery life"
+      },
+      "text": {
+        "es": "Una carcasa con pilas AA multiplica por diez la autonomía del AirTag por unos 20 euros.",
+        "en": "A case powered by AA batteries multiplies AirTag battery life tenfold for around 20 euros."
+      },
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/seleccion/hay-manera-multiplicar-10-autonomia-airtag-puedes-comprar-amazon",
+      "topic": "tech",
+      "image": null
+    },
+    {
+      "id": "6",
+      "title": {
+        "es": "Storm Radar llega a Apple CarPlay",
+        "en": "Storm Radar arrives on Apple CarPlay"
+      },
+      "text": {
+        "es": "El Storm Radar de The Weather Channel ya funciona en Apple CarPlay.",
+        "en": "The Weather Channel's Storm Radar now works on Apple CarPlay."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/30/apple-carplay-just-added-a-major-weather-app/",
+      "topic": "tech",
+      "image": null
+    },
+    {
+      "id": "8",
+      "title": {
+        "es": "Apple habría probado un Apple Pencil para el iPhone Ultra",
+        "en": "Apple reportedly tested an Apple Pencil for the iPhone Ultra"
+      },
+      "text": {
+        "es": "Apple habría considerado un Apple Pencil exclusivo para el iPhone Ultra, aunque no llegaría al mercado.",
+        "en": "Apple reportedly considered an Apple Pencil exclusive to the iPhone Ultra, though it likely won't reach the market."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/30/iphone-ultra-apple-pencil-support-tested/",
+      "topic": "tech",
+      "image": null
+    },
+    {
+      "id": "9",
+      "title": {
+        "es": "Apple prohibió las máquinas de escribir en 1980",
+        "en": "Apple banned typewriters back in 1980"
+      },
+      "text": {
+        "es": "Un documento interno de 1980 muestra cómo Apple prohibió las máquinas de escribir entre sus empleados.",
+        "en": "A 1980 internal document shows how Apple banned typewriters among its employees."
+      },
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/curiosidades/empleados-apple-pasaban-usar-sus-ordenadores-preferian-maquinas-escribir-que-este-documento-interno-prohibio",
+      "topic": "tech",
+      "image": null
+    },
+    {
+      "id": "10",
+      "title": {
+        "es": "Ofertas de fin de semana en productos Apple",
+        "en": "Weekend deals on Apple products"
+      },
+      "text": {
+        "es": "Ofertas de fin de semana en Apple incluyen descuentos en Mac mini M6, AirPods Pro 3 y AirTag 2.",
+        "en": "Weekend Apple deals include discounts on the M6 Mac mini, AirPods Pro 3, and AirTag 2."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/30/apple-weekend-deals-m6-mac-mini-airpods-airtag-2/",
+      "topic": "tech",
+      "image": null
+    },
+    {
+      "id": "11",
+      "title": {
+        "es": "Frases de 'Ted Lasso' mientras sigue la temporada 4",
+        "en": "'Ted Lasso' quotes as season 4 continues"
+      },
+      "text": {
+        "es": "Applesfera recopila frases de 'Ted Lasso' mientras la temporada 4 sigue en emisión en Apple TV.",
+        "en": "Applesfera rounds up 'Ted Lasso' quotes as season 4 continues airing on Apple TV."
+      },
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/apple-tv/siete-frases-ted-lasso-para-vivir-mucho-feliz",
+      "topic": "tech",
+      "image": null
+    }
+  ],
+  "trending_repos": [],
+  "developer_signals": []
+}

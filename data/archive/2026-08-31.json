@@ -1,1 +1,321 @@
-[{"topic_summaries":{"apple":"Apple sigue moviéndose entre litigios por reparaciones y rumores de hardware de cara al lanzamiento de septiembre.","ai_software":"Las herramientas de coding con IA siguen refinándose, desde fixes de diagnósticos en editores hasta el crecimiento acelerado de agentes como OpenClaw.","tech":"OpenClaw se consolida como un fenómeno inesperado en la comunidad de desarrolladores."},"top_stories":[{"id":"c685cc47dba2ea8c","title":"Zed corrige un bug de diagnósticos mal subrayados en Python","body":"Zed lanzó un fix nightly que corrige cómo se subrayan errores de sintaxis cuyo rango solo cubre el salto de línea, un problema común con errores de indentación en Python. El equipo verificó el comportamiento contra varios language servers reales como ruff, ty y pyrefly. Es un ajuste pequeño pero relevante para la experiencia diaria de developers que usan Zed con Python.","source":"Zed Releases","link":"https://github.com/zed-industries/zed/releases/tag/nightly","topic":"ai_software","image":"https://opengraph.githubassets.com/c5d6efbae24c786c604a10e76d81a06e1e4ae351443f97b10ff381b9a1eb06ba/zed-industries/zed","score":7},{"id":"2d1b66aa667332ad","title":"OpenClaw explica cómo llegó 'accidentalmente' a su versión 2.0","body":"El equipo de OpenClaw publicó un post explicando cómo terminaron lanzando una versión 2.0 sin planearlo, generando gran discusión en Hacker News. El proyecto se ha convertido en uno de los entornos de agentes más comentados entre developers, con múltiples menciones espontáneas en X sobre su UI y su rol como agente principal de trabajo. Es una señal más de la rápida consolidación de OpenClaw como herramienta de referencia para coding agéntico.","source":"Hacker News","link":"https://openclaw.ai/blog/openclaw-2-accidentally","topic":"tech","image":"https://openclaw.ai/blog/openclaw-2-accidentally/openclaw-2-hero.jpg","score":7},{"id":"136c3446b79a7c71","title":"Una corte de California revive demanda contra Apple por reparaciones","body":"Un tribunal de apelaciones de California reactivó una demanda de 2022 que acusa a Apple de haber disuadido a clientes de usar servicios de reparación independientes para pantallas de iPhone. El caso había sido desestimado previamente, pero un panel de tres jueces decidió reabrirlo. Es relevante porque toca directamente las políticas históricas de Apple sobre 'derecho a reparación', un tema con implicaciones legales y regulatorias más amplias.","source":"AppleInsider","link":"https://appleinsider.com/articles/26/08/30/california-court-revives-lawsuit-accusing-apple-of-blocking-independent-repairs?utm_source=rss","topic":"apple","image":"https://media.appleinsider.com/gallery/68771-144903-63867-132882-60177-123602-43331-84158-210722-Repair-xl-xl-xl-xl.jpg","score":7},{"id":"b235dd2b43e5e897","title":"Filtran características del Apple Watch Series 12 y Ultra 4","body":"Mark Gurman detalla que el Apple Watch Series 12 y Ultra 4, esperados para el 9 de septiembre, no tendrán cambios de diseño importantes pero sí mejoras de rendimiento con un nuevo chip S11 y monitoreo continuo de frecuencia cardíaca. También se explora una opción de caja de cerámica y una revisión de las apps de salud inspirada en Whoop y Oura. Importa porque marca la primera mejora real de rendimiento en varias generaciones de Apple Watch.","source":"MacRumors","link":"https://www.macrumors.com/2026/08/30/apple-watch-series-12-ultra-4-features/","topic":"apple","image":"https://images.macrumors.com/article-new/2026/05/Apple-Watch-Ultra-2-Black-Titanium.jpg","score":7},{"id":"0fb72879f8366de7","title":"El nuevo iPad mini de Apple llegaría en octubre","body":"Un nuevo reporte indica que Apple lanzaría un iPad mini renovado en octubre, como parte de una temporada de otoño cargada junto al iPhone Ultra y el iPhone 18 Pro. Aún hay pocos detalles concretos sobre especificaciones. Es relevante porque confirma que Apple sigue invirtiendo en el segmento de tablets pequeñas pese a los rumores recurrentes de descontinuación.","source":"9to5Mac","link":"https://9to5mac.com/2026/08/30/apples-next-ipad-mini-is-almost-here-heres-what-to-expect/","topic":"apple","image":"https://9to5mac.com/wp-content/uploads/sites/6/2026/07/ipad-mini-6-jb.jpg?quality=82&strip=all&w=1600","score":7}],"trending_repos":[{"id":"openclaw/openclaw","name":"openclaw","full_name":"openclaw/openclaw","description":"Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞","link":"https://github.com/openclaw/openclaw","language":"TypeScript","stars":388167,"stars_today":0,"trend_score":12,"why_it_matters":"Es el asistente de IA personal más comentado del momento y ya se está usando como driver principal por muchos developers."},{"id":"code-yeongyu/oh-my-openagent","name":"oh-my-openagent","full_name":"code-yeongyu/oh-my-openagent","description":"omo/lazycodex: The coding agent for tokenmaxxers; the one and only agent harness for complex codebases. For your Codex, for your OpenCode","link":"https://github.com/code-yeongyu/oh-my-openagent","language":"TypeScript","stars":68543,"stars_today":0,"trend_score":12,"why_it_matters":"Ofrece un harness de agente pensado para codebases complejas, útil para quienes buscan optimizar el uso de tokens en coding agéntico."},{"id":"headroomlabs-ai/headroom","name":"headroom","full_name":"headroomlabs-ai/headroom","description":"Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.","link":"https://github.com/headroomlabs-ai/headroom","language":"Python","stars":68147,"stars_today":0,"trend_score":12,"why_it_matters":"Reduce drásticamente el consumo de tokens en agentes de coding, con soporte directo como servidor MCP."},{"id":"NousResearch/hermes-agent","name":"hermes-agent","full_name":"NousResearch/hermes-agent","description":"The agent that grows with you","link":"https://github.com/NousResearch/hermes-agent","language":"Python","stars":238697,"stars_today":0,"trend_score":11.99,"why_it_matters":"Un agente de propósito general con fuerte tracción que compite directamente en el espacio de asistentes personalizables."},{"id":"thedotmack/claude-mem","name":"claude-mem","full_name":"thedotmack/claude-mem","description":"Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More","link":"https://github.com/thedotmack/claude-mem","language":"JavaScript","stars":92705,"stars_today":0,"trend_score":11.97,"why_it_matters":"Resuelve un problema clave de los agentes de coding: mantener contexto persistente entre sesiones, compatible con casi todos los harnesses populares."}],"quick_reads":[{"id":"004832d934b6ac44","title":"Apple habría considerado un nuevo Apple Pencil para iPhone Ultra","text":"Apple exploró internamente un Apple Pencil compatible con el iPhone Ultra, aunque probablemente no llegue al mercado.","source":"9to5Mac","link":"https://9to5mac.com/2026/08/30/iphone-ultra-apple-pencil-support-tested/","topic":"apple","image":"https://9to5mac.com/wp-content/uploads/sites/6/2026/07/iphone-ultra-concept-orange.jpg?quality=82&strip=all&w=1600"},{"id":"f0d3f476db9b2619","title":"Ofertas de fin de semana en Mac mini, AirPods Pro y AirTag","text":"9to5Mac recopila descuentos destacados del fin de semana en productos Apple aprovechando el Labor Day sale de Amazon.","source":"9to5Mac","link":"https://9to5mac.com/2026/08/30/apple-weekend-deals-m6-mac-mini-airpods-airtag-2/","topic":"apple","image":"https://9to5mac.com/wp-content/uploads/sites/6/2026/08/Apple-weekend-deals-late-August-2026.jpg?quality=82&strip=all&w=1600"},{"id":"2fc6e165ff3e7847","title":"CarPlay suma la app de radar de tormentas de The Weather Channel","text":"Storm Radar, la app meteorológica de The Weather Channel, ya funciona en CarPlay a partir de hoy.","source":"9to5Mac","link":"https://9to5mac.com/2026/08/30/apple-carplay-just-added-a-major-weather-app/","topic":"apple","image":"https://9to5mac.com/wp-content/uploads/sites/6/2026/08/storm-radar-carplay-app.webp?w=1600"}],"developer_signals":[{"id":"2094270573841199249","text":"RT @OpenAIDevs: The WebMCP Challenge is here. We've teamed up con @ChromiumDev, @CloudflareDev, @ShopifyDevs, @vercel, @render y @Netlify.","author":"jxnlco","source":"X","link":"https://x.com/jxnlco/status/2094270573841199249","signal_type":"tool_or_update","topic":"ai_software","contentType":"developer_signal","image":null},{"id":"2094290652649636173","text":"OpenClaw pasó de ser un harness local a un agente compartido que orquesta el trabajo de todo un equipo: 'multiplayer coding'.","author":"steipete","source":"X","link":"https://x.com/steipete/status/2094290652649636173","signal_type":"technical_share","topic":"ai_software","contentType":"developer_signal","image":null},{"id":"2094296255577100582","text":"Gráficos de Artificial Analysis muestran por qué GPT-5.6 Sol (med) domina en modelos para coding agéntico interactivo.","author":"steipete","source":"X","link":"https://x.com/steipete/status/2094296255577100582","signal_type":"technical_share","topic":"ai_software","contentType":"developer_signal","image":null},{"id":"2094279669696582111","text":"Un prompt de Molmo optimizado con GEPA aumentó el rendimiento un 122%.","author":"lateinteraction","source":"X","link":"https://x.com/lateinteraction/status/2094279669696582111","signal_type":"technical_share","topic":"ai_software","contentType":"developer_signal","image":null},{"id":"2094214737957691854","text":"Simon Willison explica qué puede hacer realmente ChatGPT Work, describiéndolo como confuso pero muy potente.","author":"simonw","source":"X","link":"https://x.com/simonw/status/2094214737957691854","signal_type":"tool_or_update","topic":"ai_general","contentType":"developer_signal","image":null}]}]
+{
+  "date": "2026-08-31",
+  "daily_summary": {
+    "es": "OpenClaw se consolida como el agente de IA del momento entre developers mientras Apple encara nuevos litigios por reparaciones y se acumulan filtraciones del Apple Watch Series 12 y el iPad mini de cara a septiembre.",
+    "en": "OpenClaw cements itself as the AI agent of the moment among developers, while Apple faces fresh repair-related litigation and leaks about the Apple Watch Series 12 and iPad mini pile up ahead of September."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Apple sigue moviéndose entre litigios por reparaciones y rumores de hardware de cara al lanzamiento de septiembre.",
+      "en": "Apple continues navigating repair-related litigation and hardware rumors ahead of its September launch."
+    },
+    "ai_software": {
+      "es": "Las herramientas de coding con IA siguen refinándose, desde fixes de diagnósticos en editores hasta el crecimiento acelerado de agentes como OpenClaw.",
+      "en": "AI coding tools keep refining themselves, from diagnostic fixes in editors to the accelerated growth of agents like OpenClaw."
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "OpenClaw se consolida como un fenómeno inesperado en la comunidad de desarrolladores.",
+      "en": "OpenClaw is establishing itself as an unexpected phenomenon within the developer community."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple sigue moviéndose entre litigios por reparaciones y rumores de hardware de cara al lanzamiento de septiembre.",
+      "en": "Apple continues navigating repair-related litigation and hardware rumors ahead of its September launch."
+    },
+    "ai_software": {
+      "es": "Las herramientas de coding con IA siguen refinándose, desde fixes de diagnósticos en editores hasta el crecimiento acelerado de agentes como OpenClaw.",
+      "en": "AI coding tools keep refining themselves, from diagnostic fixes in editors to the accelerated growth of agents like OpenClaw."
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "OpenClaw se consolida como un fenómeno inesperado en la comunidad de desarrolladores.",
+      "en": "OpenClaw is establishing itself as an unexpected phenomenon within the developer community."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "c685cc47dba2ea8c",
+      "title": {
+        "es": "Zed corrige un bug de diagnósticos mal subrayados en Python",
+        "en": "Zed fixes a bug that mis-underlined diagnostics in Python"
+      },
+      "body": {
+        "es": "Zed lanzó un fix nightly que corrige cómo se subrayan errores de sintaxis cuyo rango solo cubre el salto de línea, un problema común con errores de indentación en Python. El equipo verificó el comportamiento contra varios language servers reales como ruff, ty y pyrefly. Es un ajuste pequeño pero relevante para la experiencia diaria de developers que usan Zed con Python.",
+        "en": "Zed shipped a nightly fix that corrects how it underlines syntax errors whose range only covers the line break, a common issue with Python indentation errors. The team verified the behavior against several real language servers such as ruff, ty, and pyrefly. It's a small but meaningful fix for the day-to-day experience of developers using Zed with Python."
+      },
+      "source": "Zed Releases",
+      "link": "https://github.com/zed-industries/zed/releases/tag/nightly",
+      "topic": "ai_software",
+      "image": "https://opengraph.githubassets.com/c5d6efbae24c786c604a10e76d81a06e1e4ae351443f97b10ff381b9a1eb06ba/zed-industries/zed",
+      "score": 7
+    },
+    {
+      "id": "2d1b66aa667332ad",
+      "title": {
+        "es": "OpenClaw explica cómo llegó 'accidentalmente' a su versión 2.0",
+        "en": "OpenClaw explains how it 'accidentally' arrived at version 2.0"
+      },
+      "body": {
+        "es": "El equipo de OpenClaw publicó un post explicando cómo terminaron lanzando una versión 2.0 sin planearlo, generando gran discusión en Hacker News. El proyecto se ha convertido en uno de los entornos de agentes más comentados entre developers, con múltiples menciones espontáneas en X sobre su UI y su rol como agente principal de trabajo. Es una señal más de la rápida consolidación de OpenClaw como herramienta de referencia para coding agéntico.",
+        "en": "The OpenClaw team published a post explaining how they ended up shipping a 2.0 release without planning to, sparking heavy discussion on Hacker News. The project has become one of the most talked-about agent environments among developers, with numerous spontaneous mentions on X about its UI and its role as a primary work agent. It's another sign of OpenClaw's rapid rise as a go-to tool for agentic coding."
+      },
+      "source": "Hacker News",
+      "link": "https://openclaw.ai/blog/openclaw-2-accidentally",
+      "topic": "tech",
+      "image": "https://openclaw.ai/blog/openclaw-2-accidentally/openclaw-2-hero.jpg",
+      "score": 7
+    },
+    {
+      "id": "136c3446b79a7c71",
+      "title": {
+        "es": "Una corte de California revive demanda contra Apple por reparaciones",
+        "en": "A California court revives lawsuit against Apple over repairs"
+      },
+      "body": {
+        "es": "Un tribunal de apelaciones de California reactivó una demanda de 2022 que acusa a Apple de haber disuadido a clientes de usar servicios de reparación independientes para pantallas de iPhone. El caso había sido desestimado previamente, pero un panel de tres jueces decidió reabrirlo. Es relevante porque toca directamente las políticas históricas de Apple sobre 'derecho a reparación', un tema con implicaciones legales y regulatorias más amplias.",
+        "en": "A California appeals court revived a 2022 lawsuit accusing Apple of discouraging customers from using independent repair services for iPhone screens. The case had previously been dismissed, but a three-judge panel decided to reopen it. It matters because it touches directly on Apple's long-standing 'right to repair' policies, an issue with broader legal and regulatory implications."
+      },
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/08/30/california-court-revives-lawsuit-accusing-apple-of-blocking-independent-repairs?utm_source=rss",
+      "topic": "apple",
+      "image": "https://media.appleinsider.com/gallery/68771-144903-63867-132882-60177-123602-43331-84158-210722-Repair-xl-xl-xl-xl.jpg",
+      "score": 7
+    },
+    {
+      "id": "b235dd2b43e5e897",
+      "title": {
+        "es": "Filtran características del Apple Watch Series 12 y Ultra 4",
+        "en": "Apple Watch Series 12 and Ultra 4 features leak"
+      },
+      "body": {
+        "es": "Mark Gurman detalla que el Apple Watch Series 12 y Ultra 4, esperados para el 9 de septiembre, no tendrán cambios de diseño importantes pero sí mejoras de rendimiento con un nuevo chip S11 y monitoreo continuo de frecuencia cardíaca. También se explora una opción de caja de cerámica y una revisión de las apps de salud inspirada en Whoop y Oura. Importa porque marca la primera mejora real de rendimiento en varias generaciones de Apple Watch.",
+        "en": "Mark Gurman details that the Apple Watch Series 12 and Ultra 4, expected on September 9, won't get major design changes but will bring performance gains with a new S11 chip and continuous heart-rate monitoring. A ceramic case option and a health-app revamp inspired by Whoop and Oura are also being explored. It matters because it marks the first real performance upgrade in several Apple Watch generations."
+      },
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/08/30/apple-watch-series-12-ultra-4-features/",
+      "topic": "apple",
+      "image": "https://images.macrumors.com/article-new/2026/05/Apple-Watch-Ultra-2-Black-Titanium.jpg",
+      "score": 7
+    },
+    {
+      "id": "0fb72879f8366de7",
+      "title": {
+        "es": "El nuevo iPad mini de Apple llegaría en octubre",
+        "en": "Apple's new iPad mini said to arrive in October"
+      },
+      "body": {
+        "es": "Un nuevo reporte indica que Apple lanzaría un iPad mini renovado en octubre, como parte de una temporada de otoño cargada junto al iPhone Ultra y el iPhone 18 Pro. Aún hay pocos detalles concretos sobre especificaciones. Es relevante porque confirma que Apple sigue invirtiendo en el segmento de tablets pequeñas pese a los rumores recurrentes de descontinuación.",
+        "en": "A new report indicates Apple would launch a redesigned iPad mini in October, as part of a packed fall season alongside the iPhone Ultra and iPhone 18 Pro. Few concrete spec details are available yet. It matters because it confirms Apple is still investing in the small-tablet segment despite recurring discontinuation rumors."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/30/apples-next-ipad-mini-is-almost-here-heres-what-to-expect/",
+      "topic": "apple",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/ipad-mini-6-jb.jpg?quality=82&strip=all&w=1600",
+      "score": 7
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "openclaw/openclaw",
+      "name": "openclaw",
+      "full_name": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "link": "https://github.com/openclaw/openclaw",
+      "language": "TypeScript",
+      "stars": 388167,
+      "stars_today": 0,
+      "trend_score": 12,
+      "why_it_matters": {
+        "es": "Es el asistente de IA personal más comentado del momento y ya se está usando como driver principal por muchos developers.",
+        "en": "It's the most talked-about personal AI assistant right now, already used as a primary driver by many developers."
+      }
+    },
+    {
+      "id": "code-yeongyu/oh-my-openagent",
+      "name": "oh-my-openagent",
+      "full_name": "code-yeongyu/oh-my-openagent",
+      "description": "omo/lazycodex: The coding agent for tokenmaxxers; the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
+      "link": "https://github.com/code-yeongyu/oh-my-openagent",
+      "language": "TypeScript",
+      "stars": 68543,
+      "stars_today": 0,
+      "trend_score": 12,
+      "why_it_matters": {
+        "es": "Ofrece un harness de agente pensado para codebases complejas, útil para quienes buscan optimizar el uso de tokens en coding agéntico.",
+        "en": "It offers an agent harness built for complex codebases, useful for anyone looking to optimize token usage in agentic coding."
+      }
+    },
+    {
+      "id": "headroomlabs-ai/headroom",
+      "name": "headroom",
+      "full_name": "headroomlabs-ai/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "link": "https://github.com/headroomlabs-ai/headroom",
+      "language": "Python",
+      "stars": 68147,
+      "stars_today": 0,
+      "trend_score": 12,
+      "why_it_matters": {
+        "es": "Reduce drásticamente el consumo de tokens en agentes de coding, con soporte directo como servidor MCP.",
+        "en": "It drastically cuts token usage in coding agents, with native support as an MCP server."
+      }
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "language": "Python",
+      "stars": 238697,
+      "stars_today": 0,
+      "trend_score": 11.99,
+      "why_it_matters": {
+        "es": "Un agente de propósito general con fuerte tracción que compite directamente en el espacio de asistentes personalizables.",
+        "en": "A general-purpose agent with strong traction that competes directly in the customizable-assistant space."
+      }
+    },
+    {
+      "id": "thedotmack/claude-mem",
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "link": "https://github.com/thedotmack/claude-mem",
+      "language": "JavaScript",
+      "stars": 92705,
+      "stars_today": 0,
+      "trend_score": 11.97,
+      "why_it_matters": {
+        "es": "Resuelve un problema clave de los agentes de coding: mantener contexto persistente entre sesiones, compatible con casi todos los harnesses populares.",
+        "en": "It solves a key problem for coding agents: keeping persistent context across sessions, compatible with nearly all popular harnesses."
+      }
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "004832d934b6ac44",
+      "title": {
+        "es": "Apple habría considerado un nuevo Apple Pencil para iPhone Ultra",
+        "en": "Apple reportedly considered a new Apple Pencil for the iPhone Ultra"
+      },
+      "text": {
+        "es": "Apple exploró internamente un Apple Pencil compatible con el iPhone Ultra, aunque probablemente no llegue al mercado.",
+        "en": "Apple internally explored an Apple Pencil compatible with the iPhone Ultra, though it likely won't reach the market."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/30/iphone-ultra-apple-pencil-support-tested/",
+      "topic": "apple",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/iphone-ultra-concept-orange.jpg?quality=82&strip=all&w=1600"
+    },
+    {
+      "id": "f0d3f476db9b2619",
+      "title": {
+        "es": "Ofertas de fin de semana en Mac mini, AirPods Pro y AirTag",
+        "en": "Weekend deals on Mac mini, AirPods Pro, and AirTag"
+      },
+      "text": {
+        "es": "9to5Mac recopila descuentos destacados del fin de semana en productos Apple aprovechando el Labor Day sale de Amazon.",
+        "en": "9to5Mac rounds up standout weekend discounts on Apple products as part of Amazon's Labor Day sale."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/30/apple-weekend-deals-m6-mac-mini-airpods-airtag-2/",
+      "topic": "apple",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/Apple-weekend-deals-late-August-2026.jpg?quality=82&strip=all&w=1600"
+    },
+    {
+      "id": "2fc6e165ff3e7847",
+      "title": {
+        "es": "CarPlay suma el radar de tormentas de The Weather Channel",
+        "en": "CarPlay adds The Weather Channel's storm radar"
+      },
+      "text": {
+        "es": "Storm Radar, la app meteorológica de The Weather Channel, ya funciona en CarPlay a partir de hoy.",
+        "en": "Storm Radar, The Weather Channel's weather app, now works on CarPlay starting today."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/30/apple-carplay-just-added-a-major-weather-app/",
+      "topic": "apple",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/storm-radar-carplay-app.webp?w=1600"
+    }
+  ],
+  "developer_signals": [
+    {
+      "id": "2094270573841199249",
+      "text": {
+        "es": "RT @OpenAIDevs: The WebMCP Challenge is here. We've teamed up con @ChromiumDev, @CloudflareDev, @ShopifyDevs, @vercel, @render y @Netlify.",
+        "en": "RT @OpenAIDevs: The WebMCP Challenge is here. We've teamed up with @ChromiumDev, @CloudflareDev, @ShopifyDevs, @vercel, @render and @Netlify."
+      },
+      "author": "jxnlco",
+      "source": "X",
+      "link": "https://x.com/jxnlco/status/2094270573841199249",
+      "signal_type": "tool_or_update",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094290652649636173",
+      "text": {
+        "es": "OpenClaw pasó de ser un harness local a un agente compartido que orquesta el trabajo de todo un equipo: 'multiplayer coding'.",
+        "en": "OpenClaw went from a local harness to a shared agent that orchestrates a whole team's work: 'multiplayer coding'."
+      },
+      "author": "steipete",
+      "source": "X",
+      "link": "https://x.com/steipete/status/2094290652649636173",
+      "signal_type": "technical_share",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094296255577100582",
+      "text": {
+        "es": "Gráficos de Artificial Analysis muestran por qué GPT-5.6 Sol (med) domina en modelos para coding agéntico interactivo.",
+        "en": "Artificial Analysis charts show why GPT-5.6 Sol (med) leads among models for interactive agentic coding."
+      },
+      "author": "steipete",
+      "source": "X",
+      "link": "https://x.com/steipete/status/2094296255577100582",
+      "signal_type": "technical_share",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094279669696582111",
+      "text": {
+        "es": "Un prompt de Molmo optimizado con GEPA aumentó el rendimiento un 122%.",
+        "en": "A Molmo prompt optimized with GEPA boosted performance by 122%."
+      },
+      "author": "lateinteraction",
+      "source": "X",
+      "link": "https://x.com/lateinteraction/status/2094279669696582111",
+      "signal_type": "technical_share",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094214737957691854",
+      "text": {
+        "es": "Simon Willison explica qué puede hacer realmente ChatGPT Work, describiéndolo como confuso pero muy potente.",
+        "en": "Simon Willison explains what ChatGPT Work can actually do, describing it as confusing but very powerful."
+      },
+      "author": "simonw",
+      "source": "X",
+      "link": "https://x.com/simonw/status/2094214737957691854",
+      "signal_type": "tool_or_update",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "image": null
+    }
+  ]
+}

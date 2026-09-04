@@ -1,1 +1,387 @@
-[{"topic_summaries":{"apple":"Apple vive un día cargado: salida de Phil Schiller de roles clave, nueva evidencia en el litigio contra OpenAI, avances en betas de macOS y rumores sobre AirPods con cámara e iPhone Ultra.","ai_software":"Las herramientas de AI coding siguen iterando rápido, con mejoras en Cline Desktop, integración de fx en el AI SDK de Vercel y un fix crítico de estabilidad en Zed.","ai_general":"","tech":"La regulación europea se endurece sobre plataformas de IA como ChatGPT, mientras crecen las tensiones entre creadores y plataformas cerradas como Meta."},"top_stories":[{"id":"fb083b50c9f2bc9f","title":"Cline Desktop 0.0.21 mejora gestión de sesiones y marketplace","body":"La nueva versión de Cline Desktop rediseña el marketplace con un explorador de dos paneles y hace que detener una sesión realmente frene todos los subagentes delegados, evitando trabajos huérfanos en segundo plano. También distingue errores de autenticación de fallos genéricos del proveedor y refresca el catálogo de modelos para más de 36 proveedores. Son mejoras clave de fiabilidad para quienes ya dependen de agentes de coding en producción.","source":"Cline Releases","link":"https://github.com/cline/cline/releases/tag/desktop-v0.0.21","topic":"ai_software","image":"https://opengraph.githubassets.com/6d2fa6f1cfdfcd4421e50bfc6e6b3744b223f2e6f204e50645ef2a0d739c1584/cline/cline/releases/tag/desktop-v0.0.21","score":8},{"id":"d5a79aec56b438b3","title":"Fal lanza H3 Max Live, generación de video en tiempo real","body":"H3 Max Live permite generar video a una velocidad mayor de la que se tarda en verlo, un salto que podría abrir la puerta a experiencias de videogen interactivas o en streaming. Todavía no está claro el caso de uso definitivo, pero marca un cambio de paradigma respecto a la generación de video por lotes. Es una señal temprana de hacia dónde va la infraestructura de modelos generativos en tiempo real.","source":"Latent Space","link":"https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the","topic":"ai_software","image":"https://substackcdn.com/image/fetch/$s_!hV5N!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHQ7UHClW4AA2I6L.jpg","score":8},{"id":"03b0259618152cd1","title":"Phil Schiller deja la dirección del App Store y los eventos de Apple","body":"Según Bloomberg, Schiller abandona el liderazgo del App Store y de los eventos de Apple, cerrando un capítulo de décadas en la compañía. El movimiento llega en un momento de reestructuración de roles senior en Apple y podría afectar la estrategia de la App Store, especialmente en temas regulatorios y de developers. Es una noticia relevante para cualquier developer que dependa de las políticas del App Store.","source":"9to5Mac","link":"https://9to5mac.com/2026/08/31/phil-schiller-steps-down-from-leading-the-app-store-and-apple-events/","topic":"apple","image":"https://9to5mac.com/wp-content/uploads/sites/6/2024/02/Phil-Schiller-advances-to-apple-fellow_08042020_big.jpg.large_2x-2.jpg?quality=82&strip=all&w=1600","score":8},{"id":"1b757a1193015e71","title":"AirPods con cámaras podrían mejorar el head tracking espacial","body":"Código encontrado en macOS Tahoe 26.7 sugiere que futuros AirPods con cámara detectarán qué pantalla está mirando el usuario para mejorar el audio espacial, además de enviar datos a Visual Intelligence. El lanzamiento no se espera hasta 2027, pero confirma que Apple sigue apostando por sensores adicionales en wearables como vector de diferenciación con IA. Es una pista temprana sobre hacia dónde evoluciona el hardware de Apple integrado con IA on-device y en la nube.","source":"MacRumors","link":"https://www.macrumors.com/2026/08/31/camera-airpods-spatial-audio-head-tracking/","topic":"apple","image":"https://images.macrumors.com/article-new/2026/06/AirPods-Pro-4-With-Camera-Thumb.jpg","score":7},{"id":"d8517a2411964544","title":"ChatGPT y Reddit quedan sujetos a las reglas más duras de la UE","body":"La Unión Europea ha clasificado a ChatGPT y Reddit bajo las obligaciones más estrictas de su ley de servicios digitales, dado su explosivo crecimiento de usuarios. Esto implica mayores exigencias de transparencia, moderación y auditoría para estas plataformas. Es relevante porque marca un precedente regulatorio que otras herramientas de IA masiva podrían enfrentar pronto en Europa.","source":"Ars Technica","link":"https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/","topic":"tech","image":null,"score":7},{"id":"c685cc47dba2ea8c","title":"Zed corrige un crash al parsear variables de shell malformadas","body":"Un bug en el editor Zed provocaba un panic al procesar variables de entorno mal formadas en configuraciones de context servers, especialmente en Windows. El fix reemplaza un manejo manual e inseguro del string por un strip_suffix más robusto, con tests añadidos para prevenir regresiones. Es un recordatorio de lo frágil que puede ser el tooling de agentes cuando maneja inputs de usuario sin validar.","source":"Zed Releases","link":"https://github.com/zed-industries/zed/releases/tag/nightly","topic":"ai_software","image":"https://opengraph.githubassets.com/49299a83f24e3b32a2443c034dcc95ced872501bdf2088a0175e7087ebf1766c/zed-industries/zed","score":7},{"id":"75d9044c6cf45863","title":"fx se integra en la capa de harness del AI SDK de Vercel","body":"El agente de coding open-source de Vercel, fx, ya cuenta con un adaptador oficial dentro del AI SDK harness layer, uniéndose a Claude Code, Cursor, Codex y otros agentes soportados. Esto permite a los developers añadir fx a sus aplicaciones sin construir una integración separada, usando el Agent Client Protocol. Refuerza la tendencia hacia una capa de abstracción común para orquestar múltiples agentes de coding.","source":"Vercel AI","link":"https://vercel.com/changelog/fx-ai-sdk-harness-adapter","topic":"ai_software","image":null,"score":7},{"id":"9a1bde5654790f20","title":"Apple presenta nueva evidencia de robo de secretos en su demanda contra OpenAI","body":"Apple aportó evidencia forense de una MacBook de un exingeniero, Chang Liu, mostrando que usó un esquema de circuito confidencial en su trabajo en OpenAI y que intentó destruir pruebas al enterarse de la investigación interna. El caso incluye detalles curiosos sobre cómo Liu entrenó un agente de IA para automatizar simulaciones de ingeniería eléctrica. Es una noticia relevante tanto por el litigio tecnológico como por el uso práctico de agentes de IA en tareas técnicas reales.","source":"MacRumors","link":"https://www.macrumors.com/2026/08/31/apple-openai-lawsuit-trade-secret-theft-evidence/","topic":"apple","image":"https://images.macrumors.com/article-new/2026/05/OpenAI-vs-Apple-Feature-scaled.jpg","score":7},{"id":"0eca9e056acddd67","title":"La IA de Pocket facilita crear juegos, pero Meta controla su distribución","body":"El autor relata cómo la IA de Pocket permite crear rápidamente prototipos jugables de ideas de videojuegos, pero la plataforma limita su distribución fuera del ecosistema de Meta. El caso ilustra la tensión creciente entre la democratización de la creación asistida por IA y el control que ejercen las grandes plataformas sobre la distribución. Es relevante para developers que evalúan plataformas cerradas frente a herramientas abiertas de creación con IA.","source":"Ars Technica","link":"https://arstechnica.com/gaming/2026/08/pockets-ai-made-my-game-ideas-real-now-meta-controls-the-results/","topic":"tech","image":null,"score":7},{"id":"a8d98c2b0f8e52c2","title":"Se filtran nuevos detalles sobre el lanzamiento del iPhone Ultra plegable","body":"Apple presentará su primer iPhone plegable, el iPhone Ultra, en el evento de septiembre, pero persisten dudas sobre la fecha exacta de disponibilidad. El artículo recopila las últimas filtraciones sobre el calendario de envío del dispositivo. Es una noticia de alto impacto para el ecosistema Apple dado que sería el primer plegable de la compañía.","source":"9to5Mac","link":"https://9to5mac.com/2026/08/31/iphone-ultra-release-timing-heres-what-the-latest-reporting-says/","topic":"apple","image":"https://9to5mac.com/wp-content/uploads/sites/6/2026/07/iphone-ultra-concept-blue.jpg?quality=82&strip=all&w=1600","score":7},{"id":"7d26a5e5d6d74305","title":"Apple lanza la beta 8 de macOS Golden Gate con mejoras de Siri AI","body":"La octava beta de macOS Golden Gate refina la opacidad de Liquid Glass, añade una Siri AI conversacional integrada en Spotlight, Visual Intelligence en Mac y mejoras de IA en Photos, Safari y Passwords. Es una señal de que Apple está acelerando la maduración de sus features de IA de cara al lanzamiento oficial. Relevante para developers que deben adaptar sus apps a estos cambios de UI e IA del sistema.","source":"MacRumors","link":"https://www.macrumors.com/2026/08/31/apple-seeds-macos-27-beta-8/","topic":"apple","image":"https://images.macrumors.com/article-new/2026/06/macOS-27-next-to-MacBook-Pro-Running-macOS-27.jpg","score":7}],"trending_repos":[{"id":"NousResearch/hermes-agent","name":"hermes-agent","full_name":"NousResearch/hermes-agent","description":"The agent that grows with you","link":"https://github.com/NousResearch/hermes-agent","language":"Python","stars":239115,"stars_today":418,"trend_score":18,"why_it_matters":"Un framework de agentes que evoluciona con el usuario, relevante para quienes construyen asistentes personales persistentes."},{"id":"firecrawl/firecrawl","name":"firecrawl","full_name":"firecrawl/firecrawl","description":"The context API to search, scrape, and interact with the web at scale. 🔥","link":"https://github.com/firecrawl/firecrawl","language":"TypeScript","stars":174938,"stars_today":333,"trend_score":17.98,"why_it_matters":"Es una pieza de infraestructura clave para dar contexto web a agentes y LLMs a gran escala."},{"id":"obra/superpowers","name":"superpowers","full_name":"obra/superpowers","description":"An agentic skills framework & software development methodology that works.","link":"https://github.com/obra/superpowers","language":"Shell","stars":280127,"stars_today":280,"trend_score":17.93,"why_it_matters":"Propone una metodología concreta para desarrollar software con agentes, útil para equipos que adoptan AI coding en serio."},{"id":"github/spec-kit","name":"spec-kit","full_name":"github/spec-kit","description":"💫 Toolkit to help you get started with Spec-Driven Development","link":"https://github.com/github/spec-kit","language":"Python","stars":132668,"stars_today":249,"trend_score":17.91,"why_it_matters":"Facilita adoptar desarrollo dirigido por especificaciones, un enfoque cada vez más usado junto a agentes de coding."},{"id":"headroomlabs-ai/headroom","name":"headroom","full_name":"headroomlabs-ai/headroom","description":"Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.","link":"https://github.com/headroomlabs-ai/headroom","language":"Python","stars":68233,"stars_today":86,"trend_score":10.06,"why_it_matters":"Reduce drásticamente el consumo de tokens en agentes de coding y pipelines RAG, disponible como servidor MCP."}],"quick_reads":[{"id":"eb458141374da1ee","title":"Apple lanza tvOS 27 beta 8 con Podcasts rediseñado","text":"La nueva beta de tvOS 27 trae un rediseño de la app Podcasts, textos más grandes y un Control Center más responsivo.","source":"MacRumors","link":"https://www.macrumors.com/2026/08/31/apple-seeds-tvos-27-beta-8/","topic":"apple","image":"https://images.macrumors.com/article-new/2026/06/tvOS-27-Feature.jpg"}],"developer_signals":[{"id":"2094594465721946560","text":"OpenClaw 2.0 ya está disponible, con una experiencia de computer-use de primer nivel desarrollada junto al equipo de trycua.","author":"steipete","source":"X","link":"https://x.com/steipete/status/2094594465721946560","signal_type":"developer_share","topic":"ai_software","contentType":"developer_signal","image":null},{"id":"2094599286294265940","text":"El fallback de API keys con límite de gasto en OpenClaw se destaca como una configuración muy sólida frente a otras CLIs.","author":"steipete","source":"X","link":"https://x.com/steipete/status/2094599286294265940","signal_type":"tool_or_update","topic":"ai_software","contentType":"developer_signal","image":null},{"id":"2094541309579235680","text":"DESIGN.md se presenta como un nuevo enfoque para escalar el 'taste' de diseño en organizaciones grandes usando Markdown.","author":"rauchg","source":"X","link":"https://x.com/rauchg/status/2094541309579235680","signal_type":"developer_share","topic":"ai_software","contentType":"developer_signal","image":null},{"id":"2094580344674468095","text":"lm15 se acerca a su versión 1.0.0 y se preparará como modelo por defecto en DSPy 3.4.0.","author":"lateinteraction","source":"X","link":"https://x.com/lateinteraction/status/2094580344674468095","signal_type":"tool_or_update","topic":"ai_software","contentType":"developer_signal","image":null},{"id":"2094509056090366033","text":"Un developer comparte un set de herramientas para Apple Calendar, Reminders, Contacts y Mail, incluyendo un agente rápido.","author":"steipete","source":"X","link":"https://x.com/steipete/status/2094509056090366033","signal_type":"tool_or_update","topic":"ai_software","contentType":"developer_signal","image":null}]}]
+{
+  "date": "2026-09-01",
+  "daily_summary": {
+    "es": "Apple encadena la salida de Phil Schiller de sus roles clave con nueva evidencia en su litigio contra OpenAI, mientras la UE endurece las reglas para ChatGPT y las herramientas de AI coding (Cline, Zed, el AI SDK de Vercel) siguen puliendo su fiabilidad.",
+    "en": "Apple pairs Phil Schiller's departure from key roles with fresh evidence in its lawsuit against OpenAI, while the EU tightens the rules for ChatGPT and AI coding tools (Cline, Zed, Vercel's AI SDK) keep polishing their reliability."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Apple vive un día cargado: salida de Phil Schiller de roles clave, nueva evidencia en el litigio contra OpenAI, avances en betas de macOS y rumores sobre AirPods con cámara e iPhone Ultra.",
+      "en": "Apple has a packed day: Phil Schiller stepping down from key roles, new evidence in the OpenAI lawsuit, progress on macOS betas, and rumors about camera-equipped AirPods and the iPhone Ultra."
+    },
+    "ai_software": {
+      "es": "Las herramientas de AI coding siguen iterando rápido, con mejoras en Cline Desktop, integración de fx en el AI SDK de Vercel y un fix crítico de estabilidad en Zed.",
+      "en": "AI coding tools keep iterating fast, with improvements to Cline Desktop, fx's integration into Vercel's AI SDK, and a critical stability fix in Zed."
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "La regulación europea se endurece sobre plataformas de IA como ChatGPT, mientras crecen las tensiones entre creadores y plataformas cerradas como Meta.",
+      "en": "European regulation is tightening around AI platforms like ChatGPT, while tensions grow between creators and closed platforms like Meta."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple vive un día cargado: salida de Phil Schiller de roles clave, nueva evidencia en el litigio contra OpenAI, avances en betas de macOS y rumores sobre AirPods con cámara e iPhone Ultra.",
+      "en": "Apple has a packed day: Phil Schiller stepping down from key roles, new evidence in the OpenAI lawsuit, progress on macOS betas, and rumors about camera-equipped AirPods and the iPhone Ultra."
+    },
+    "ai_software": {
+      "es": "Las herramientas de AI coding siguen iterando rápido, con mejoras en Cline Desktop, integración de fx en el AI SDK de Vercel y un fix crítico de estabilidad en Zed.",
+      "en": "AI coding tools keep iterating fast, with improvements to Cline Desktop, fx's integration into Vercel's AI SDK, and a critical stability fix in Zed."
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "La regulación europea se endurece sobre plataformas de IA como ChatGPT, mientras crecen las tensiones entre creadores y plataformas cerradas como Meta.",
+      "en": "European regulation is tightening around AI platforms like ChatGPT, while tensions grow between creators and closed platforms like Meta."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "fb083b50c9f2bc9f",
+      "title": {
+        "es": "Cline Desktop 0.0.21 mejora gestión de sesiones y marketplace",
+        "en": "Cline Desktop 0.0.21 improves session management and marketplace"
+      },
+      "body": {
+        "es": "La nueva versión de Cline Desktop rediseña el marketplace con un explorador de dos paneles y hace que detener una sesión realmente frene todos los subagentes delegados, evitando trabajos huérfanos en segundo plano. También distingue errores de autenticación de fallos genéricos del proveedor y refresca el catálogo de modelos para más de 36 proveedores. Son mejoras clave de fiabilidad para quienes ya dependen de agentes de coding en producción.",
+        "en": "The new Cline Desktop version redesigns the marketplace with a two-pane browser and makes stopping a session actually halt all delegated subagents, preventing orphaned background jobs. It also distinguishes authentication errors from generic provider failures and refreshes the model catalog for over 36 providers. These are key reliability improvements for anyone already relying on coding agents in production."
+      },
+      "source": "Cline Releases",
+      "link": "https://github.com/cline/cline/releases/tag/desktop-v0.0.21",
+      "topic": "ai_software",
+      "image": "https://opengraph.githubassets.com/6d2fa6f1cfdfcd4421e50bfc6e6b3744b223f2e6f204e50645ef2a0d739c1584/cline/cline/releases/tag/desktop-v0.0.21",
+      "score": 8
+    },
+    {
+      "id": "d5a79aec56b438b3",
+      "title": {
+        "es": "Fal lanza H3 Max Live, generación de video en tiempo real",
+        "en": "Fal launches H3 Max Live, real-time video generation"
+      },
+      "body": {
+        "es": "H3 Max Live permite generar video a una velocidad mayor de la que se tarda en verlo, un salto que podría abrir la puerta a experiencias de videogen interactivas o en streaming. Todavía no está claro el caso de uso definitivo, pero marca un cambio de paradigma respecto a la generación de video por lotes. Es una señal temprana de hacia dónde va la infraestructura de modelos generativos en tiempo real.",
+        "en": "H3 Max Live can generate video faster than it takes to watch it, a leap that could open the door to interactive or streaming video-generation experiences. The definitive use case isn't clear yet, but it marks a paradigm shift away from batch video generation. It's an early signal of where real-time generative model infrastructure is heading."
+      },
+      "source": "Latent Space",
+      "link": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+      "topic": "ai_software",
+      "image": "https://substackcdn.com/image/fetch/$s_!hV5N!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHQ7UHClW4AA2I6L.jpg",
+      "score": 8
+    },
+    {
+      "id": "03b0259618152cd1",
+      "title": {
+        "es": "Phil Schiller deja la dirección del App Store y los eventos de Apple",
+        "en": "Phil Schiller steps down from leading the App Store and Apple events"
+      },
+      "body": {
+        "es": "Según Bloomberg, Schiller abandona el liderazgo del App Store y de los eventos de Apple, cerrando un capítulo de décadas en la compañía. El movimiento llega en un momento de reestructuración de roles senior en Apple y podría afectar la estrategia de la App Store, especialmente en temas regulatorios y de developers. Es una noticia relevante para cualquier developer que dependa de las políticas del App Store.",
+        "en": "According to Bloomberg, Schiller is stepping down from leading the App Store and Apple's events, closing a decades-long chapter at the company. The move comes amid a broader reshuffling of senior roles at Apple and could affect App Store strategy, especially on regulatory and developer matters. It's relevant news for any developer who depends on App Store policies."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/31/phil-schiller-steps-down-from-leading-the-app-store-and-apple-events/",
+      "topic": "apple",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2024/02/Phil-Schiller-advances-to-apple-fellow_08042020_big.jpg.large_2x-2.jpg?quality=82&strip=all&w=1600",
+      "score": 8
+    },
+    {
+      "id": "1b757a1193015e71",
+      "title": {
+        "es": "AirPods con cámaras podrían mejorar el head tracking espacial",
+        "en": "Camera-equipped AirPods could improve spatial head tracking"
+      },
+      "body": {
+        "es": "Código encontrado en macOS Tahoe 26.7 sugiere que futuros AirPods con cámara detectarán qué pantalla está mirando el usuario para mejorar el audio espacial, además de enviar datos a Visual Intelligence. El lanzamiento no se espera hasta 2027, pero confirma que Apple sigue apostando por sensores adicionales en wearables como vector de diferenciación con IA. Es una pista temprana sobre hacia dónde evoluciona el hardware de Apple integrado con IA on-device y en la nube.",
+        "en": "Code found in macOS Tahoe 26.7 suggests future camera-equipped AirPods will detect which screen the user is looking at to improve spatial audio, while also feeding data to Visual Intelligence. The launch isn't expected until 2027, but it confirms Apple is still betting on additional wearable sensors as an AI differentiator. It's an early hint of where Apple's hardware, integrated with on-device and cloud AI, is heading."
+      },
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/08/31/camera-airpods-spatial-audio-head-tracking/",
+      "topic": "apple",
+      "image": "https://images.macrumors.com/article-new/2026/06/AirPods-Pro-4-With-Camera-Thumb.jpg",
+      "score": 7
+    },
+    {
+      "id": "d8517a2411964544",
+      "title": {
+        "es": "ChatGPT y Reddit quedan sujetos a las reglas más duras de la UE",
+        "en": "ChatGPT and Reddit become subject to the EU's toughest rules"
+      },
+      "body": {
+        "es": "La Unión Europea ha clasificado a ChatGPT y Reddit bajo las obligaciones más estrictas de su ley de servicios digitales, dado su explosivo crecimiento de usuarios. Esto implica mayores exigencias de transparencia, moderación y auditoría para estas plataformas. Es relevante porque marca un precedente regulatorio que otras herramientas de IA masiva podrían enfrentar pronto en Europa.",
+        "en": "The European Union has classified ChatGPT and Reddit under the strictest obligations of its Digital Services Act, given their explosive user growth. This means greater transparency, moderation, and audit requirements for these platforms. It matters because it sets a regulatory precedent that other mass-adoption AI tools could soon face in Europe."
+      },
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
+      "topic": "tech",
+      "image": null,
+      "score": 7
+    },
+    {
+      "id": "c685cc47dba2ea8c",
+      "title": {
+        "es": "Zed corrige un crash al parsear variables de shell malformadas",
+        "en": "Zed fixes a crash when parsing malformed shell variables"
+      },
+      "body": {
+        "es": "Un bug en el editor Zed provocaba un panic al procesar variables de entorno mal formadas en configuraciones de context servers, especialmente en Windows. El fix reemplaza un manejo manual e inseguro del string por un strip_suffix más robusto, con tests añadidos para prevenir regresiones. Es un recordatorio de lo frágil que puede ser el tooling de agentes cuando maneja inputs de usuario sin validar.",
+        "en": "A bug in the Zed editor caused a panic when processing malformed environment variables in context-server configurations, especially on Windows. The fix replaces unsafe manual string handling with a more robust strip_suffix, with added tests to prevent regressions. It's a reminder of how fragile agent tooling can be when handling unvalidated user input."
+      },
+      "source": "Zed Releases",
+      "link": "https://github.com/zed-industries/zed/releases/tag/nightly",
+      "topic": "ai_software",
+      "image": "https://opengraph.githubassets.com/49299a83f24e3b32a2443c034dcc95ced872501bdf2088a0175e7087ebf1766c/zed-industries/zed",
+      "score": 7
+    },
+    {
+      "id": "75d9044c6cf45863",
+      "title": {
+        "es": "fx se integra en la capa de harness del AI SDK de Vercel",
+        "en": "fx integrates into Vercel's AI SDK harness layer"
+      },
+      "body": {
+        "es": "El agente de coding open-source de Vercel, fx, ya cuenta con un adaptador oficial dentro del AI SDK harness layer, uniéndose a Claude Code, Cursor, Codex y otros agentes soportados. Esto permite a los developers añadir fx a sus aplicaciones sin construir una integración separada, usando el Agent Client Protocol. Refuerza la tendencia hacia una capa de abstracción común para orquestar múltiples agentes de coding.",
+        "en": "Vercel's open-source coding agent, fx, now has an official adapter within the AI SDK harness layer, joining Claude Code, Cursor, Codex, and other supported agents. This lets developers add fx to their apps without building a separate integration, using the Agent Client Protocol. It reinforces the trend toward a common abstraction layer for orchestrating multiple coding agents."
+      },
+      "source": "Vercel AI",
+      "link": "https://vercel.com/changelog/fx-ai-sdk-harness-adapter",
+      "topic": "ai_software",
+      "image": null,
+      "score": 7
+    },
+    {
+      "id": "9a1bde5654790f20",
+      "title": {
+        "es": "Apple presenta nueva evidencia de robo de secretos en su demanda contra OpenAI",
+        "en": "Apple presents new trade-secret theft evidence in its lawsuit against OpenAI"
+      },
+      "body": {
+        "es": "Apple aportó evidencia forense de una MacBook de un exingeniero, Chang Liu, mostrando que usó un esquema de circuito confidencial en su trabajo en OpenAI y que intentó destruir pruebas al enterarse de la investigación interna. El caso incluye detalles curiosos sobre cómo Liu entrenó un agente de IA para automatizar simulaciones de ingeniería eléctrica. Es una noticia relevante tanto por el litigio tecnológico como por el uso práctico de agentes de IA en tareas técnicas reales.",
+        "en": "Apple submitted forensic evidence from a former engineer's MacBook, Chang Liu, showing he used a confidential circuit scheme in his work at OpenAI and attempted to destroy evidence upon learning of the internal investigation. The case includes curious details about how Liu trained an AI agent to automate electrical engineering simulations. It's notable both for the tech litigation angle and for the practical use of AI agents in real technical tasks."
+      },
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/08/31/apple-openai-lawsuit-trade-secret-theft-evidence/",
+      "topic": "apple",
+      "image": "https://images.macrumors.com/article-new/2026/05/OpenAI-vs-Apple-Feature-scaled.jpg",
+      "score": 7
+    },
+    {
+      "id": "0eca9e056acddd67",
+      "title": {
+        "es": "La IA de Pocket facilita crear juegos, pero Meta controla su distribución",
+        "en": "Pocket's AI makes game creation easy, but Meta controls distribution"
+      },
+      "body": {
+        "es": "El autor relata cómo la IA de Pocket permite crear rápidamente prototipos jugables de ideas de videojuegos, pero la plataforma limita su distribución fuera del ecosistema de Meta. El caso ilustra la tensión creciente entre la democratización de la creación asistida por IA y el control que ejercen las grandes plataformas sobre la distribución. Es relevante para developers que evalúan plataformas cerradas frente a herramientas abiertas de creación con IA.",
+        "en": "The author describes how Pocket's AI lets him quickly turn game ideas into playable prototypes, but the platform limits distribution outside Meta's ecosystem. The case illustrates the growing tension between the democratization of AI-assisted creation and the control big platforms exert over distribution. It's relevant for developers weighing closed platforms against open AI creation tools."
+      },
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/gaming/2026/08/pockets-ai-made-my-game-ideas-real-now-meta-controls-the-results/",
+      "topic": "tech",
+      "image": null,
+      "score": 7
+    },
+    {
+      "id": "a8d98c2b0f8e52c2",
+      "title": {
+        "es": "Se filtran nuevos detalles sobre el lanzamiento del iPhone Ultra plegable",
+        "en": "New details leak about the foldable iPhone Ultra launch"
+      },
+      "body": {
+        "es": "Apple presentará su primer iPhone plegable, el iPhone Ultra, en el evento de septiembre, pero persisten dudas sobre la fecha exacta de disponibilidad. El artículo recopila las últimas filtraciones sobre el calendario de envío del dispositivo. Es una noticia de alto impacto para el ecosistema Apple dado que sería el primer plegable de la compañía.",
+        "en": "Apple will unveil its first foldable iPhone, the iPhone Ultra, at the September event, but questions remain about its exact availability date. The article rounds up the latest leaks about the device's shipping timeline. It's high-impact news for the Apple ecosystem given it would be the company's first foldable."
+      },
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/31/iphone-ultra-release-timing-heres-what-the-latest-reporting-says/",
+      "topic": "apple",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/iphone-ultra-concept-blue.jpg?quality=82&strip=all&w=1600",
+      "score": 7
+    },
+    {
+      "id": "7d26a5e5d6d74305",
+      "title": {
+        "es": "Apple lanza la beta 8 de macOS Golden Gate con mejoras de Siri AI",
+        "en": "Apple releases macOS Golden Gate beta 8 with Siri AI improvements"
+      },
+      "body": {
+        "es": "La octava beta de macOS Golden Gate refina la opacidad de Liquid Glass, añade una Siri AI conversacional integrada en Spotlight, Visual Intelligence en Mac y mejoras de IA en Photos, Safari y Passwords. Es una señal de que Apple está acelerando la maduración de sus features de IA de cara al lanzamiento oficial. Relevante para developers que deben adaptar sus apps a estos cambios de UI e IA del sistema.",
+        "en": "The eighth macOS Golden Gate beta refines Liquid Glass opacity, adds a conversational Siri AI built into Spotlight, Visual Intelligence on Mac, and AI improvements in Photos, Safari, and Passwords. It's a sign Apple is speeding up the maturation of its AI features ahead of the official release. Relevant for developers who need to adapt their apps to these system UI and AI changes."
+      },
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/08/31/apple-seeds-macos-27-beta-8/",
+      "topic": "apple",
+      "image": "https://images.macrumors.com/article-new/2026/06/macOS-27-next-to-MacBook-Pro-Running-macOS-27.jpg",
+      "score": 7
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "language": "Python",
+      "stars": 239115,
+      "stars_today": 418,
+      "trend_score": 18,
+      "why_it_matters": {
+        "es": "Un framework de agentes que evoluciona con el usuario, relevante para quienes construyen asistentes personales persistentes.",
+        "en": "An agent framework that evolves with the user, relevant for anyone building persistent personal assistants."
+      }
+    },
+    {
+      "id": "firecrawl/firecrawl",
+      "name": "firecrawl",
+      "full_name": "firecrawl/firecrawl",
+      "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+      "link": "https://github.com/firecrawl/firecrawl",
+      "language": "TypeScript",
+      "stars": 174938,
+      "stars_today": 333,
+      "trend_score": 17.98,
+      "why_it_matters": {
+        "es": "Es una pieza de infraestructura clave para dar contexto web a agentes y LLMs a gran escala.",
+        "en": "It's a key piece of infrastructure for giving agents and LLMs web context at scale."
+      }
+    },
+    {
+      "id": "obra/superpowers",
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "link": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 280127,
+      "stars_today": 280,
+      "trend_score": 17.93,
+      "why_it_matters": {
+        "es": "Propone una metodología concreta para desarrollar software con agentes, útil para equipos que adoptan AI coding en serio.",
+        "en": "It proposes a concrete methodology for developing software with agents, useful for teams seriously adopting AI coding."
+      }
+    },
+    {
+      "id": "github/spec-kit",
+      "name": "spec-kit",
+      "full_name": "github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "link": "https://github.com/github/spec-kit",
+      "language": "Python",
+      "stars": 132668,
+      "stars_today": 249,
+      "trend_score": 17.91,
+      "why_it_matters": {
+        "es": "Facilita adoptar desarrollo dirigido por especificaciones, un enfoque cada vez más usado junto a agentes de coding.",
+        "en": "It makes it easier to adopt spec-driven development, an approach increasingly used alongside coding agents."
+      }
+    },
+    {
+      "id": "headroomlabs-ai/headroom",
+      "name": "headroom",
+      "full_name": "headroomlabs-ai/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "link": "https://github.com/headroomlabs-ai/headroom",
+      "language": "Python",
+      "stars": 68233,
+      "stars_today": 86,
+      "trend_score": 10.06,
+      "why_it_matters": {
+        "es": "Reduce drásticamente el consumo de tokens en agentes de coding y pipelines RAG, disponible como servidor MCP.",
+        "en": "It drastically cuts token usage in coding agents and RAG pipelines, available as an MCP server."
+      }
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "eb458141374da1ee",
+      "title": {
+        "es": "Apple lanza tvOS 27 beta 8 con Podcasts rediseñado",
+        "en": "Apple releases tvOS 27 beta 8 with redesigned Podcasts"
+      },
+      "text": {
+        "es": "La nueva beta de tvOS 27 trae un rediseño de la app Podcasts, textos más grandes y un Control Center más responsivo.",
+        "en": "The new tvOS 27 beta brings a redesigned Podcasts app, larger text, and a more responsive Control Center."
+      },
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/08/31/apple-seeds-tvos-27-beta-8/",
+      "topic": "apple",
+      "image": "https://images.macrumors.com/article-new/2026/06/tvOS-27-Feature.jpg"
+    }
+  ],
+  "developer_signals": [
+    {
+      "id": "2094594465721946560",
+      "text": {
+        "es": "OpenClaw 2.0 ya está disponible, con una experiencia de computer-use de primer nivel desarrollada junto al equipo de trycua.",
+        "en": "OpenClaw 2.0 is now available, with a best-in-class computer-use experience built together with the trycua team."
+      },
+      "author": "steipete",
+      "source": "X",
+      "link": "https://x.com/steipete/status/2094594465721946560",
+      "signal_type": "developer_share",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094599286294265940",
+      "text": {
+        "es": "El fallback de API keys con límite de gasto en OpenClaw se destaca como una configuración muy sólida frente a otras CLIs.",
+        "en": "OpenClaw's spend-limited API key fallback stands out as a very solid setup compared to other CLIs."
+      },
+      "author": "steipete",
+      "source": "X",
+      "link": "https://x.com/steipete/status/2094599286294265940",
+      "signal_type": "tool_or_update",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094541309579235680",
+      "text": {
+        "es": "DESIGN.md se presenta como un nuevo enfoque para escalar el 'taste' de diseño en organizaciones grandes usando Markdown.",
+        "en": "DESIGN.md is presented as a new approach to scaling design 'taste' across large organizations using Markdown."
+      },
+      "author": "rauchg",
+      "source": "X",
+      "link": "https://x.com/rauchg/status/2094541309579235680",
+      "signal_type": "developer_share",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094580344674468095",
+      "text": {
+        "es": "lm15 se acerca a su versión 1.0.0 y se preparará como modelo por defecto en DSPy 3.4.0.",
+        "en": "lm15 is approaching its 1.0.0 release and will be set as the default model in DSPy 3.4.0."
+      },
+      "author": "lateinteraction",
+      "source": "X",
+      "link": "https://x.com/lateinteraction/status/2094580344674468095",
+      "signal_type": "tool_or_update",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "image": null
+    },
+    {
+      "id": "2094509056090366033",
+      "text": {
+        "es": "Un developer comparte un set de herramientas para Apple Calendar, Reminders, Contacts y Mail, incluyendo un agente rápido.",
+        "en": "A developer shares a toolset for Apple Calendar, Reminders, Contacts, and Mail, including a quick agent."
+      },
+      "author": "steipete",
+      "source": "X",
+      "link": "https://x.com/steipete/status/2094509056090366033",
+      "signal_type": "tool_or_update",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "image": null
+    }
+  ]
+}
