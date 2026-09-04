@@ -88,6 +88,27 @@
     }
     .theme-toggle:hover { transform: scale(1.04); }
 
+    .topbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+    .lang-toggle {
+      height: 32px;
+      padding: 0 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--text);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: .04em;
+      cursor: pointer;
+      transition: background .15s ease, transform .15s ease;
+    }
+    .lang-toggle:hover { background: var(--hover); transform: scale(1.04); }
+
     /* Hero */
     .hero {
       margin-top: 56px;
@@ -715,7 +736,7 @@
       .hero-stats { gap: 6px; margin-top: 16px; }
       .topbar { flex-wrap: wrap; row-gap: 10px; }
       .logo { order: 1; }
-      .theme-toggle { order: 2; }
+      .topbar-actions { order: 2; }
       .filters {
         flex-wrap: nowrap;
         overflow-x: auto;
@@ -780,14 +801,17 @@
           Cargando…
         </a>
       </div>
-      <button class="theme-toggle" type="button" aria-label="Cambiar tema" onclick="toggleTheme()">◐</button>
+      <div class="topbar-actions">
+        <button class="lang-toggle" type="button" id="lang-toggle" aria-label="Cambiar idioma / Switch language" onclick="toggleLang()">ES</button>
+        <button class="theme-toggle" type="button" aria-label="Cambiar tema" onclick="toggleTheme()">◐</button>
+      </div>
     </header>
 
     <section class="hero">
       <div>
-        <div class="eyebrow">IA · TECH · DESARROLLO</div>
+        <div class="eyebrow" id="hero-eyebrow">IA · TECH · DESARROLLO</div>
         <h1>What matters today.</h1>
-        <p class="hero-subtitle">Una selección editorial de las noticias, ideas y herramientas que realmente importan.</p>
+        <p class="hero-subtitle" id="hero-subtitle">Una selección editorial de las noticias, ideas y herramientas que realmente importan.</p>
       </div>
     </section>
 
@@ -809,16 +833,16 @@
 
     <section class="developer-section hidden" id="developer-section">
       <div class="developer-heading">
-        <div class="section-title">LO QUE COMPARTEN LOS DESARROLLADORES</div>
-        <div class="developer-intro"><span id="developer-heading-count">0</span> ideas y hallazgos que merece la pena ver</div>
+        <div class="section-title" id="developer-heading-title">LO QUE COMPARTEN LOS DESARROLLADORES</div>
+        <div class="developer-intro" id="developer-intro">0 ideas y hallazgos que merece la pena ver</div>
       </div>
       <div class="developer-list" id="developer-list"></div>
     </section>
 
     <section class="repos-section hidden" id="repos-section">
       <div class="repos-heading">
-        <div class="section-title">PROYECTOS A SEGUIR</div>
-        <div class="repos-intro"><span id="repos-heading-count">0</span> repositorios que están ganando tracción</div>
+        <div class="section-title" id="repos-heading-title">PROYECTOS A SEGUIR</div>
+        <div class="repos-intro" id="repos-intro">0 repositorios que están ganando tracción</div>
       </div>
       <div class="repos-list" id="repos-list"></div>
     </section>
@@ -838,6 +862,119 @@
     if (savedTheme) setTheme(savedTheme);
     else if (window.matchMedia?.("(prefers-color-scheme: dark)").matches) setTheme("dark");
 
+    /* Language */
+    const UI = {
+      es: {
+        filterAll: "Todo",
+        topicLabels: { apple: "Apple", ai_software: "IA + Software", ai_general: "IA", tech: "Tech" },
+        eyebrow: "IA · TECH · DESARROLLO",
+        heroSubtitle: "Una selección editorial de las noticias, ideas y herramientas que realmente importan.",
+        today: "Hoy",
+        mostImportant: "LO MÁS IMPORTANTE",
+        storiesSelected: n => `${n} historias seleccionadas`,
+        oneMinuteReads: "PARA LEER EN UN MINUTO",
+        quickReadsCount: n => `${n} lecturas rápidas`,
+        readMore: "Leer más →",
+        viewStory: n => (n === 1 ? "Ver noticia →" : `Ver ${n} noticias →`),
+        noTopicNews: topic => `No hay noticias de "${topic}" hoy.`,
+        noNewsToday: "No hay noticias hoy.",
+        notEnoughForSummary: "No hay suficientes noticias hoy para un resumen por tema.",
+        couldNotLoad: "No se pudo cargar este digest.",
+        developersHeading: "LO QUE COMPARTEN LOS DESARROLLADORES",
+        developersIntro: n => `${n} ideas y hallazgos que merece la pena ver`,
+        reposHeading: "PROYECTOS A SEGUIR",
+        reposIntro: n => `${n} repositorios que están ganando tracción`,
+        viewOnX: "Ver en X ↗",
+        trending: "En tendencia",
+        starsToday: "hoy",
+        noSource: "Fuente",
+        noTitle: "Noticia sin título",
+        developerType: { technical_share: "aporte técnico", developer_share: "idea de desarrollador" },
+        filtersAria: "Filtrar por tema",
+        themeAria: "Cambiar tema",
+        locale: "es-ES"
+      },
+      en: {
+        filterAll: "All",
+        topicLabels: { apple: "Apple", ai_software: "AI + Software", ai_general: "AI", tech: "Tech" },
+        eyebrow: "AI · TECH · DEVELOPMENT",
+        heroSubtitle: "An editorial pick of the news, ideas and tools that actually matter.",
+        today: "Today",
+        mostImportant: "TOP STORIES",
+        storiesSelected: n => `${n} stories selected`,
+        oneMinuteReads: "ONE-MINUTE READS",
+        quickReadsCount: n => `${n} quick reads`,
+        readMore: "Read more →",
+        viewStory: n => (n === 1 ? "View story →" : `View ${n} stories →`),
+        noTopicNews: topic => `No "${topic}" news today.`,
+        noNewsToday: "No news today.",
+        notEnoughForSummary: "Not enough news today for a topic summary.",
+        couldNotLoad: "Could not load this digest.",
+        developersHeading: "WHAT DEVELOPERS ARE SHARING",
+        developersIntro: n => `${n} ideas and finds worth checking out`,
+        reposHeading: "PROJECTS TO WATCH",
+        reposIntro: n => `${n} repos gaining traction`,
+        viewOnX: "View on X ↗",
+        trending: "Trending",
+        starsToday: "today",
+        noSource: "Source",
+        noTitle: "Untitled story",
+        developerType: { technical_share: "technical share", developer_share: "developer idea" },
+        filtersAria: "Filter by topic",
+        themeAria: "Toggle theme",
+        locale: "en-US"
+      }
+    };
+
+    function detectLang() {
+      const saved = localStorage.getItem("digest-lang");
+      if (saved === "es" || saved === "en") return saved;
+      return (navigator.language || "").toLowerCase().startsWith("en") ? "en" : "es";
+    }
+    let currentLang = detectLang();
+    let CURRENT_DIGEST = null;
+    let ACTIVE_DATE = null;
+
+    function t(key, ...args) {
+      const value = UI[currentLang][key];
+      return typeof value === "function" ? value(...args) : value;
+    }
+    function pickLang(field) {
+      if (field == null) return "";
+      if (typeof field === "string") return field;
+      if (typeof field === "object") return field[currentLang] ?? field.es ?? field.en ?? "";
+      return String(field);
+    }
+
+    function updateDateButton() {
+      const btn = document.getElementById("date-button");
+      if (!btn) return;
+      btn.textContent = ACTIVE_DATE ? formatLabel(ACTIVE_DATE) : t("today");
+    }
+
+    function updateStaticText() {
+      document.documentElement.lang = currentLang;
+      document.getElementById("lang-toggle").textContent = currentLang.toUpperCase();
+      document.getElementById("hero-eyebrow").textContent = t("eyebrow");
+      document.getElementById("hero-subtitle").textContent = t("heroSubtitle");
+      document.querySelector(".filters").setAttribute("aria-label", t("filtersAria"));
+      document.querySelector(".theme-toggle").setAttribute("aria-label", t("themeAria"));
+      document.querySelectorAll(".filter").forEach(f => {
+        f.textContent = f.dataset.topic === "all" ? t("filterAll") : topicLabel(f.dataset.topic);
+      });
+      updateDateButton();
+    }
+
+    function setLang(lang) {
+      currentLang = lang;
+      localStorage.setItem("digest-lang", lang);
+      updateStaticText();
+      if (CURRENT_DIGEST) renderDigest(CURRENT_DIGEST);
+    }
+    function toggleLang() {
+      setLang(currentLang === "es" ? "en" : "es");
+    }
+    updateStaticText();
 
     /* Helpers */
     function escapeHTML(value) {
@@ -854,7 +991,7 @@
       return "tech";
     }
     function topicLabel(topic) {
-      return { apple: "Apple", ai_software: "IA + Software", ai_general: "IA", tech: "Tech" }[topic] || topic;
+      return UI[currentLang].topicLabels[topic] || topic;
     }
     function unwrapDigest(raw) {
       const item = Array.isArray(raw) ? raw[0] : raw;
@@ -870,7 +1007,7 @@
     }
     function formatLabel(dateStr) {
       const d = new Date(dateStr + "T00:00:00");
-      return d.toLocaleDateString("es-ES", { day: "numeric", month: "short", year: "numeric" });
+      return d.toLocaleDateString(UI[currentLang].locale, { day: "numeric", month: "short", year: "numeric" });
     }
     function firstSentence(text, maxLen) {
       if (!text) return "";
@@ -883,7 +1020,7 @@
     }
     function compactHeadline(text, maxLen = 92) {
       const clean = cleanDigestText(text);
-      if (!clean) return "Noticia sin título";
+      if (!clean) return t("noTitle");
       const sentence = firstSentence(clean, maxLen);
       if (sentence.length <= maxLen) return sentence.replace(/[.!?]+$/, "");
       return sentence.slice(0, maxLen - 1).replace(/\s+\S*$/, "").trim() + "…";
@@ -902,12 +1039,11 @@
         const dates = unwrapDates(await res.json());
         return dates.map((date, i) => ({
           date,
-          label: formatLabel(date),
           file: i === 0 ? "data/latest.json" : `data/archive/${date}.json`
         }));
       } catch (e) {
         console.warn("Archive index fallback:", e);
-        return [{ date: null, label: "Hoy", file: "data/latest.json" }];
+        return [{ date: null, file: "data/latest.json" }];
       }
     }
 
@@ -917,23 +1053,23 @@
       const topStories = data.top_stories || [];
       const summaries = data.summary || data.topic_summaries || {};
       const byTopic = {};
-      TOPIC_ORDER.forEach(t => (byTopic[t] = []));
+      TOPIC_ORDER.forEach(tp => (byTopic[tp] = []));
       topStories.forEach(s => {
-        const t = normalizeTopic(s.topic);
-        byTopic[t].push(s);
+        const tp = normalizeTopic(s.topic);
+        byTopic[tp].push(s);
       });
-      const activeTopics = TOPIC_ORDER.filter(t => byTopic[t].length > 0);
+      const activeTopics = TOPIC_ORDER.filter(tp => byTopic[tp].length > 0);
       const container = document.getElementById("signals");
       container.style.setProperty("--signal-cols", Math.max(activeTopics.length, 1));
       if (!activeTopics.length) {
-        container.innerHTML = '<p class="empty-state">No hay suficientes noticias hoy para un resumen por tema.</p>';
+        container.innerHTML = `<p class="empty-state">${escapeHTML(t("notEnoughForSummary"))}</p>`;
         return;
       }
       container.innerHTML = activeTopics.map((topic, i) => {
         const items = byTopic[topic];
-        const teaser = cleanDigestText(summaries[topic]) || firstSentence(items[0].body, 110);
+        const teaser = cleanDigestText(pickLang(summaries[topic])) || firstSentence(pickLang(items[0].body), 110);
         const count = items.length;
-        const label = count === 1 ? "Ver noticia →" : `Ver ${count} noticias →`;
+        const label = t("viewStory", count);
         return `
           <article class="signal" data-topic="${escapeHTML(topic)}">
             <div class="signal-number">${String(i + 1).padStart(2, "0")}</div>
@@ -960,22 +1096,23 @@
       const scoreHTML = (story.score !== undefined && story.score !== null)
         ? `<span class="score">${escapeHTML(story.score)}/10</span>`
         : "";
-      const summary = cleanDigestText(story.body || story.summary || "");
+      const title = pickLang(story.title);
+      const summary = cleanDigestText(pickLang(story.body) || pickLang(story.summary));
       const classes = ["story", isFeatured ? "story-featured" : ""].filter(Boolean).join(" ");
 
       return `
         <article class="${classes}" data-topic="${escapeHTML(topic)}">
           <div class="story-image ${hasPhoto ? "has-photo" : ""}" ${imageStyle}>
-            ${hasPhoto ? "" : storyImageLabel(story.title)}
+            ${hasPhoto ? "" : storyImageLabel(title)}
           </div>
           <div class="story-content">
-            <div class="story-meta">${escapeHTML(story.source || "Fuente")} · ${escapeHTML(topicLabel(topic))}</div>
+            <div class="story-meta">${escapeHTML(story.source || t("noSource"))} · ${escapeHTML(topicLabel(topic))}</div>
             <h2 class="story-title">
-              <a href="${escapeHTML(story.link || "#")}" target="_blank" rel="noopener noreferrer">${escapeHTML(story.title || "Noticia sin título")}</a>
+              <a href="${escapeHTML(story.link || "#")}" target="_blank" rel="noopener noreferrer">${escapeHTML(title || t("noTitle"))}</a>
             </h2>
             ${summary ? `<p class="story-summary">${escapeHTML(summary)}</p>` : ""}
             <div class="story-footer">
-              <a class="read-source" href="${escapeHTML(story.link || "#")}" target="_blank" rel="noopener noreferrer">Leer más →</a>
+              <a class="read-source" href="${escapeHTML(story.link || "#")}" target="_blank" rel="noopener noreferrer">${t("readMore")}</a>
               ${scoreHTML}
             </div>
           </div>
@@ -984,13 +1121,16 @@
 
     function renderQuickRead(item) {
       const topic = normalizeTopic(item.topic || "tech");
-      const title = item.title || compactHeadline(item.text || item.summary || "");
-      const summary = cleanDigestText(item.summary || item.text || "");
+      const rawTitle = pickLang(item.title);
+      const rawText = pickLang(item.text);
+      const rawSummary = pickLang(item.summary);
+      const title = rawTitle || compactHeadline(rawText || rawSummary || "");
+      const summary = cleanDigestText(rawSummary || rawText || "");
 
       return `
         <a class="quick-read" href="${escapeHTML(item.link || "#")}" target="_blank" rel="noopener noreferrer" data-topic="${escapeHTML(topic)}">
           <div class="quick-read-main">
-            <div class="quick-read-meta">${escapeHTML(item.source || "Fuente")} · ${escapeHTML(topicLabel(topic))}</div>
+            <div class="quick-read-meta">${escapeHTML(item.source || t("noSource"))} · ${escapeHTML(topicLabel(topic))}</div>
             <h3 class="quick-read-title">${escapeHTML(title)}</h3>
             ${summary ? `<p class="quick-read-summary">${escapeHTML(summary)}</p>` : ""}
           </div>
@@ -1002,7 +1142,7 @@
       const container = document.getElementById("stories");
 
       if (!topStories.length && !quickReads.length) {
-        container.innerHTML = '<p class="empty-state">No hay noticias hoy.</p>';
+        container.innerHTML = `<p class="empty-state">${escapeHTML(t("noNewsToday"))}</p>`;
         return;
       }
 
@@ -1014,8 +1154,8 @@
       let html = `
         <div class="stories-header">
           <div class="section-heading">
-            <div class="section-title">LO MÁS IMPORTANTE</div>
-            <div class="section-caption">${topStories.length} historias seleccionadas</div>
+            <div class="section-title">${escapeHTML(t("mostImportant"))}</div>
+            <div class="section-caption">${escapeHTML(t("storiesSelected", topStories.length))}</div>
           </div>
         </div>
       `;
@@ -1032,8 +1172,8 @@
         html += `
           <section class="quick-reads-section">
             <div class="section-heading">
-              <div class="section-title">PARA LEER EN UN MINUTO</div>
-              <div class="section-caption">${quickReads.length} lecturas rápidas</div>
+              <div class="section-title">${escapeHTML(t("oneMinuteReads"))}</div>
+              <div class="section-caption">${escapeHTML(t("quickReadsCount", quickReads.length))}</div>
             </div>
             <div class="quick-reads-list">
               ${quickReads.map(renderQuickRead).join("")}
@@ -1050,18 +1190,16 @@
     function renderDeveloperSignals(signals) {
       const section = document.getElementById("developer-section");
       const list = document.getElementById("developer-list");
+      document.getElementById("developer-heading-title").textContent = t("developersHeading");
       if (!signals?.length) {
         section.classList.add("hidden");
         return;
       }
       section.classList.remove("hidden");
-      document.getElementById("developer-heading-count").textContent = signals.length;
+      document.getElementById("developer-intro").textContent = t("developersIntro", signals.length);
       list.innerHTML = signals.map(signal => {
         const topic = normalizeTopic(signal.topic || "ai_software");
-        const typeLabels = {
-          technical_share: "aporte técnico",
-          developer_share: "idea de desarrollador"
-        };
+        const typeLabels = UI[currentLang].developerType;
         const rawType = String(signal.signal_type || "developer_share");
         const type = typeLabels[rawType] || rawType.replace(/_/g, " ");
         const author = signal.author || "Developer";
@@ -1078,10 +1216,10 @@
               <span class="developer-badge">${escapeHTML(topicLabel(topic))}</span>
               <span class="developer-arrow" aria-hidden="true">↗</span>
             </div>
-            <p class="developer-text">${escapeHTML(signal.text)}</p>
+            <p class="developer-text">${escapeHTML(pickLang(signal.text))}</p>
             <div class="developer-footer">
               <span class="developer-type">${escapeHTML(type)}</span>
-              <span class="developer-author">Ver en X ↗</span>
+              <span class="developer-author">${t("viewOnX")}</span>
             </div>
           </a>`;
       }).join("");
@@ -1097,12 +1235,13 @@
     function renderTrendingRepos(repos) {
       const section = document.getElementById("repos-section");
       const list = document.getElementById("repos-list");
+      document.getElementById("repos-heading-title").textContent = t("reposHeading");
       if (!repos?.length) {
         section.classList.add("hidden");
         return;
       }
       section.classList.remove("hidden");
-      document.getElementById("repos-heading-count").textContent = repos.length;
+      document.getElementById("repos-intro").textContent = t("reposIntro", repos.length);
       list.innerHTML = repos.map(repo => {
         const topic = normalizeTopic(repo.topic || "ai_software");
         const name = repo.full_name || repo.name || "";
@@ -1120,7 +1259,7 @@
                 <span class="repo-language-dot" aria-hidden="true"></span>
                 ${escapeHTML(repo.language || topicLabel(topic))}
               </span>
-              <span>${repo.stars_today != null ? "+" + escapeHTML(starsToday) + " hoy" : "En tendencia"}</span>
+              <span>${repo.stars_today != null ? "+" + escapeHTML(starsToday) + " " + escapeHTML(t("starsToday")) : escapeHTML(t("trending"))}</span>
             </div>
           </a>`;
       }).join("");
@@ -1147,7 +1286,7 @@
           emptyEl.className = "stories-empty";
           storiesContainer.appendChild(emptyEl);
         }
-        emptyEl.textContent = `No hay noticias de "${topicLabel(topic)}" hoy.`;
+        emptyEl.textContent = t("noTopicNews", topicLabel(topic));
         emptyEl.classList.remove("hidden");
       } else if (emptyEl) {
         emptyEl.classList.add("hidden");
@@ -1189,10 +1328,11 @@
       try {
         const res = await fetch(entry.file + "?_=" + Date.now());
         if (!res.ok) throw new Error("Unable to load digest");
-        renderDigest(unwrapDigest(await res.json()));
+        CURRENT_DIGEST = unwrapDigest(await res.json());
+        renderDigest(CURRENT_DIGEST);
       } catch (err) {
         document.getElementById("stories").innerHTML =
-          `<p class="empty-state">No se pudo cargar este digest.<br>${escapeHTML(err.message)}</p>`;
+          `<p class="empty-state">${escapeHTML(t("couldNotLoad"))}<br>${escapeHTML(err.message)}</p>`;
         console.error(err);
       }
     }
@@ -1202,7 +1342,8 @@
       ARCHIVE = await loadArchiveIndex();
       const requestedDate = new URLSearchParams(location.search).get("date");
       const entry = (requestedDate && ARCHIVE.find(a => a.date === requestedDate)) || ARCHIVE[0];
-      document.getElementById("date-button").textContent = entry.label;
+      ACTIVE_DATE = entry.date || null;
+      updateDateButton();
       await loadAndRender(entry);
     }
     init();
