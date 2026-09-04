@@ -1,16 +1,37 @@
 {
-  "daily_summary": "El lanzamiento de GPT-6 Astra de OpenAI sacude el ecosistema AI justo cuando una caída simultánea de Claude, ChatGPT y Grok expone la fragilidad de la infraestructura, mientras Apple lidia con litigios, cancelaciones y la cuenta atrás hacia su evento del iPhone plegable.",
+  "daily_summary": {
+    "es": "Hoy destacan [object Object]; [object Object]; [object Object].",
+    "en": "Hoy destacan [object Object]; [object Object]; [object Object]."
+  },
   "topic_summaries": {
-    "apple": "Apple encara una semana cargada de frentes abiertos: una demanda multimillonaria por App Tracking, la cancelación de un producto prioritario y los primeros detalles filtrados del carísimo iPhone Ultra plegable.",
-    "ai_software": "OpenAI redefine el estado del arte con GPT-6 Astra mientras GitHub Copilot amplía su catálogo de modelos y capacidades multi-agente, consolidando la carrera por el desarrollador asistido por IA.",
-    "ai_general": "Casos reales de adopción empresarial de GPT-6 Astra y el nuevo modelo meteorológico de DeepMind muestran cómo la IA generativa y científica avanza en aplicaciones prácticas de alto impacto.",
-    "tech": "Una caída simultánea de los principales chatbots de IA (ChatGPT, Claude, Grok y Gemini) pone en evidencia lo interconectada —y frágil— que se ha vuelto la infraestructura de IA para millones de usuarios."
+    "apple": {
+      "es": "",
+      "en": ""
+    },
+    "ai_software": {
+      "es": "",
+      "en": ""
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "",
+      "en": ""
+    }
   },
   "top_stories": [
     {
       "id": "6f431bb97f139761",
-      "title": "OpenAI lanza GPT-6 Astra, su modelo más ambicioso hasta la fecha",
-      "body": "GPT-6 Astra llega con nuevo estado del arte en uso de ordenador y coding, siendo 2.5x más caro por token pero mucho más barato por tarea completada. Es, según Latent Space, el lanzamiento de LLM más importante en la historia de OpenAI, aunque plantea dudas sobre su menor monitorabilidad.",
+      "title": {
+        "es": "GPT-6 Astra: el mayor lanzamiento de modelo de OpenAI hasta la fecha",
+        "en": "GPT-6 Astra: OpenAI's biggest model launch to date"
+      },
+      "body": {
+        "es": "OpenAI presenta GPT-6 Astra, una nueva clase de modelo frontera con capacidades SOTA en uso de computadora y coding, aunque 2.5 veces más caro por token, aunque mucho más económico por tarea completada. El lanzamiento ha sido recibido con un entusiasmo inusual, incluso superando la recepción de lanzamientos recientes de Claude, según reportan varios developers.",
+        "en": "OpenAI has unveiled GPT-6 Astra, a new frontier model class with state-of-the-art computer-use and coding capabilities, priced 2.5x higher per token but far cheaper per completed task. The launch has been met with unusually strong enthusiasm, reportedly outshining recent Claude releases according to multiple developers."
+      },
       "newsId": "6f431bb97f139761",
       "storyKey": "6f431bb97f139761",
       "topic": "ai_software",
@@ -23,8 +44,14 @@
     },
     {
       "id": "a86cc9a168e09329",
-      "title": "ChatGPT, Claude, Grok y Gemini caen casi al mismo tiempo",
-      "body": "Una interrupción simultánea afectó a los cuatro principales asistentes de IA del mercado, un evento raro que expone cuán dependientes se han vuelto millones de usuarios y empresas de estos servicios. El apagón reavivó el debate sobre resiliencia e infraestructura crítica de IA.",
+      "title": {
+        "es": "Cuatro grandes modelos de IA caen simultáneamente en un apagón inusual",
+        "en": "Four major AI models suffer a rare simultaneous outage"
+      },
+      "body": {
+        "es": "ChatGPT, Claude, Grok y Gemini experimentaron interrupciones de servicio prácticamente al mismo tiempo, un evento poco frecuente que subraya la creciente dependencia de la industria en un puñado de proveedores de IA. El incidente reabre el debate sobre la resiliencia de la infraestructura sobre la que se apoyan cada vez más flujos de trabajo de developers.",
+        "en": "ChatGPT, Claude, Grok, and Gemini all experienced service disruptions at nearly the same time, a rare event underscoring the industry's growing dependence on a handful of AI providers. The incident reopens the debate over the resilience of infrastructure that an increasing number of developer workflows now rely on."
+      },
       "newsId": "a86cc9a168e09329",
       "storyKey": "a86cc9a168e09329",
       "topic": "tech",
@@ -36,9 +63,35 @@
       "imageWidth": 2048
     },
     {
+      "id": "4f1642da0aa4df1e",
+      "title": {
+        "es": "GPT-6 Astra funciona como un ingeniero de IA por menos de $6 la hora",
+        "en": "GPT-6 Astra works as an automated AI engineer for under $6 an hour"
+      },
+      "body": {
+        "es": "Latent Space gastó más de 20 mil millones de tokens probando GPT-6 Astra como agente de coding autónomo, documentando sus aprendizajes sobre capacidades y límites reales del modelo en tareas de ingeniería. El análisis ofrece una de las evaluaciones prácticas más exhaustivas del nuevo modelo hasta la fecha.",
+        "en": "Latent Space burned through more than 20 billion tokens testing GPT-6 Astra as an autonomous coding agent, documenting real-world learnings about the model's capabilities and limits on engineering tasks. The write-up offers one of the most thorough hands-on evaluations of the new model so far."
+      },
+      "newsId": "4f1642da0aa4df1e",
+      "storyKey": "4f1642da0aa4df1e",
+      "topic": "ai_software",
+      "source": "Latent Space",
+      "link": "https://www.latent.space/p/astra",
+      "image": "https://substackcdn.com/image/fetch/$s_!1Mu3!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff60dbb10-9849-49e5-8569-5dfba8440b9c_2486x1390.png",
+      "score": null,
+      "imageSource": "scraped_article",
+      "imageWidth": 2486
+    },
+    {
       "id": "f9ddd9bdea401e4e",
-      "title": "DeepMind presenta WeatherNext 3, su modelo climático más preciso",
-      "body": "Google DeepMind anuncia la tercera generación de su modelo de predicción meteorológica global, con mejoras notables en precisión técnica según sus propias métricas. Representa un avance significativo del uso de IA en ciencia aplicada a gran escala.",
+      "title": {
+        "es": "Google DeepMind lanza WeatherNext 3, su modelo climático más preciso",
+        "en": "Google DeepMind launches WeatherNext 3, its most accurate weather model"
+      },
+      "body": {
+        "es": "DeepMind presenta la tercera generación de su modelo global de predicción meteorológica basado en IA, con mejoras significativas en precisión y cobertura. Es un ejemplo destacado de cómo la IA sigue superando a los métodos tradicionales en dominios científicos de alto impacto práctico.",
+        "en": "DeepMind has introduced the third generation of its AI-based global weather forecasting model, with significant gains in accuracy and coverage. It stands as a notable example of AI continuing to outperform traditional methods in scientific domains with high real-world impact."
+      },
       "newsId": "f9ddd9bdea401e4e",
       "storyKey": "f9ddd9bdea401e4e",
       "topic": "ai_general",
@@ -50,87 +103,63 @@
       "imageWidth": 2200
     },
     {
-      "id": "4cb3065212521592",
-      "title": "GitHub Copilot suma Gemini 3.8 Flash a su catálogo de modelos",
-      "body": "El nuevo modelo Flash de Google llega a Copilot y destaca en pruebas iniciales por su desempeño en tareas de terminal complejas y razonamiento riguroso. Amplía las opciones de los desarrolladores que usan Copilot para elegir el modelo más adecuado a cada tarea.",
-      "newsId": "4cb3065212521592",
-      "storyKey": "4cb3065212521592",
-      "topic": "ai_software",
-      "source": "GitHub Changelog",
-      "link": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
-      "image": "https://github.blog/wp-content/uploads/2026/09/645250017-d8793c25-09f2-444c-87eb-027f8c2393c1.png?w=2064",
-      "score": null,
-      "imageSource": "scraped_article",
-      "imageWidth": 2064
-    },
-    {
-      "id": "d41fb9bdcc8e590f",
-      "title": "Legora revisa 41 documentos legales en minutos con GPT-6 Astra",
-      "body": "La firma legal Legora usó GPT-6 Astra para revisar decenas de documentos financieros, detectando todos los errores planteados y mejorando el rendimiento casi un 40% frente al modelo anterior. Es un ejemplo concreto de cómo los nuevos modelos aceleran flujos de trabajo profesionales de alto valor.",
-      "newsId": "d41fb9bdcc8e590f",
-      "storyKey": "d41fb9bdcc8e590f",
-      "topic": "ai_general",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "image": null,
+      "id": "a567ba0be5b1cb85",
+      "title": {
+        "es": "Apple prueba un sistema HomePod envolvente de cuatro altavoces",
+        "en": "Apple is testing a four-speaker HomePod surround system"
+      },
+      "body": {
+        "es": "Código encontrado en audioOS 27 beta 8 sugiere que Apple está desarrollando un sistema de sonido envolvente con cuatro HomePod, además de un nuevo 'Party Mode' para reproducción en estéreo. Las referencias incluyen calibración automática de sala, mapeo de posición de altavoces y un misterioso identificador de hardware que podría apuntar a un nuevo dispositivo de audio aún no lanzado.",
+        "en": "Code found in audioOS 27 beta 8 suggests Apple is developing a four-HomePod surround sound system, along with a new 'Party Mode' for stereo playback. References include automatic room calibration, speaker-position mapping, and a mysterious hardware identifier that could point to an unreleased audio device."
+      },
+      "newsId": "a567ba0be5b1cb85",
+      "storyKey": "a567ba0be5b1cb85",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/09/04/apple-testing-four-homepod-surround-system/",
+      "image": "https://images.macrumors.com/article-new/2026/09/homepods-four.jpg",
       "score": null
     },
     {
-      "id": "cb18426cba87ee19",
-      "title": "Apple enfrenta demanda de $2.7B por reglas de App Tracking",
-      "body": "Una demanda colectiva en Londres acusa a Apple de aplicar reglas de App Tracking Transparency más estrictas a desarrolladores externos que a su propia publicidad. Se suma a la ya millonaria condena por comisiones de la App Store que Apple apela actualmente.",
-      "newsId": "cb18426cba87ee19",
-      "storyKey": "cb18426cba87ee19",
+      "id": "b933f32527a8033d",
+      "title": {
+        "es": "Apple Vision Pro se usa por primera vez en una cirugía real",
+        "en": "Apple Vision Pro used in a first-of-its-kind surgery"
+      },
+      "body": {
+        "es": "Stryker anunció la finalización de la primera cirugía realizada con una nueva app en Apple Vision Pro, marcando un hito en el uso clínico del dispositivo. Es la señal más concreta hasta ahora de que el hardware de realidad mixta de Apple está encontrando aplicaciones prácticas serias fuera del consumo masivo.",
+        "en": "Stryker announced the completion of the first surgical procedure performed using a new app on Apple Vision Pro, marking a milestone for the device's clinical use. It's the clearest sign yet that Apple's mixed-reality hardware is finding serious practical applications beyond consumer use."
+      },
+      "newsId": "b933f32527a8033d",
+      "storyKey": "b933f32527a8033d",
       "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/09/03/apple-hit-with-lawsuit-over-app-tracking/",
-      "image": "https://images.macrumors.com/t/1f5Wi5NgRy95jyxiAy0nOvpe2t4=/400x400/article-new/2026/05/OpenAI-vs-Apple-Feature.jpg",
-      "score": null,
-      "imageSource": "scraped_article",
-      "imageWidth": null
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/09/03/apple-vision-pro-was-just-used-in-a-first-of-its-kind-surgery/",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/ssv_press-release-hero.jpeg?quality=82&strip=all&w=1278",
+      "score": null
     },
     {
-      "id": "8cc5e5e7f77f41b2",
-      "title": "Se filtran precio y specs del iPhone Ultra plegable",
-      "body": "TrendForce estima que el primer iPhone plegable de Apple partirá entre $2,099 y $2,299, pudiendo superar los $3,000 en sus configuraciones tope, con chip A20 Pro en 2nm y doble pantalla OLED. Sería el iPhone más caro de la historia, y se presentará oficialmente el 9 de septiembre.",
-      "newsId": "8cc5e5e7f77f41b2",
-      "storyKey": "8cc5e5e7f77f41b2",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/09/03/iphone-ultra-features-price-specs/",
-      "image": "https://images.macrumors.com/t/4LUCuP7P6lIbzsQKmNHPCM1l58k=/1600x0/article-new/2025/08/Apple-Foldable-Thumb.jpg",
+      "id": "aa7126551aaa2ad3",
+      "title": {
+        "es": "GitHub Copilot permite ejecutar varios agentes de IA a la vez",
+        "en": "GitHub Copilot now lets you run several AI agents at once"
+      },
+      "body": {
+        "es": "GitHub publica una guía para principiantes sobre cómo ejecutar múltiples agentes en paralelo desde la app de Copilot, describiendo el momento en que la experiencia deja de sentirse abrumadora y empieza a sentirse poderosa. Refleja la tendencia general hacia flujos de trabajo con múltiples agentes de coding trabajando simultáneamente.",
+        "en": "GitHub has published a beginner's guide to running multiple parallel agents from the Copilot app, describing the moment the experience stops feeling overwhelming and starts feeling powerful. It reflects the broader industry shift toward multi-agent coding workflows running simultaneously."
+      },
+      "newsId": "aa7126551aaa2ad3",
+      "storyKey": "aa7126551aaa2ad3",
+      "topic": "ai_software",
+      "source": "GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+      "image": "https://github.blog/wp-content/uploads/2025/07/LinkedIn-Light-Mode-16x9-1.png?w=1600",
       "score": null,
       "imageSource": "scraped_article",
       "imageWidth": 1600
     }
   ],
   "trending_repos": [
-    {
-      "id": "obra/superpowers",
-      "repoKey": "obra/superpowers",
-      "name": "superpowers",
-      "full_name": "obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "link": "https://github.com/obra/superpowers",
-      "language": "Shell",
-      "stars": 281494,
-      "stars_today": 47,
-      "trend_score": 8.18,
-      "why_it_matters": "Framework de skills agénticas que propone una metodología completa de desarrollo de software asistido por agentes, ganando tracción rápida entre developers."
-    },
-    {
-      "id": "thedotmack/claude-mem",
-      "repoKey": "thedotmack/claude-mem",
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "link": "https://github.com/thedotmack/claude-mem",
-      "language": "JavaScript",
-      "stars": 93129,
-      "stars_today": 25,
-      "trend_score": 7.11,
-      "why_it_matters": "Resuelve un problema real de memoria persistente entre sesiones para agentes como Claude Code, Codex, Gemini y Copilot, comprimiendo contexto con IA."
-    },
     {
       "id": "NousResearch/hermes-agent",
       "repoKey": "NousResearch/hermes-agent",
@@ -139,10 +168,29 @@
       "description": "The agent that grows with you",
       "link": "https://github.com/NousResearch/hermes-agent",
       "language": "Python",
-      "stars": 241053,
-      "stars_today": 56,
-      "trend_score": 8.69,
-      "why_it_matters": "Agente de código abierto con enfoque en crecimiento adaptativo, con gran base de estrellas y actividad reciente notable."
+      "stars": 241167,
+      "stars_today": 114,
+      "trend_score": 11.47,
+      "why_it_matters": {
+        "es": "Un agente diseñado para evolucionar con el usuario, uno de los proyectos de agentes de IA con más tracción reciente en GitHub.",
+        "en": "An agent designed to grow with the user, one of the fastest-growing AI agent projects on GitHub right now."
+      }
+    },
+    {
+      "id": "obra/superpowers",
+      "repoKey": "obra/superpowers",
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "link": "https://github.com/obra/superpowers",
+      "language": "Shell",
+      "stars": 281602,
+      "stars_today": 108,
+      "trend_score": 11.09,
+      "why_it_matters": {
+        "es": "Framework de habilidades agénticas y metodología de desarrollo de software que está ganando adopción rápida entre equipos que usan agentes de coding.",
+        "en": "An agentic skills framework and software development methodology gaining rapid adoption among teams building with coding agents."
+      }
     },
     {
       "id": "firecrawl/firecrawl",
@@ -152,30 +200,58 @@
       "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
       "link": "https://github.com/firecrawl/firecrawl",
       "language": "TypeScript",
-      "stars": 176250,
-      "stars_today": 23,
-      "trend_score": 7.1,
-      "why_it_matters": "API de contexto para scraping y búsqueda web a escala, pieza clave de infraestructura para agentes que necesitan acceso fiable a la web."
+      "stars": 176314,
+      "stars_today": 64,
+      "trend_score": 9.07,
+      "why_it_matters": {
+        "es": "API de contexto para buscar y scrapear la web a escala, pieza clave de infraestructura para agentes de IA que necesitan datos web en tiempo real.",
+        "en": "A context API for searching and scraping the web at scale, key infrastructure for AI agents that need real-time web data."
+      }
     },
     {
-      "id": "docling-project/docling",
-      "repoKey": "docling-project/docling",
-      "name": "docling",
-      "full_name": "docling-project/docling",
-      "description": "Get your documents ready for gen AI",
-      "link": "https://github.com/docling-project/docling",
+      "id": "github/spec-kit",
+      "repoKey": "github/spec-kit",
+      "name": "spec-kit",
+      "full_name": "github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "link": "https://github.com/github/spec-kit",
       "language": "Python",
-      "stars": 65981,
-      "stars_today": 22,
-      "trend_score": 7.04,
-      "why_it_matters": "Herramienta para preparar documentos para pipelines de IA generativa, un paso crítico y poco glamouroso pero muy demandado en producción."
+      "stars": 133410,
+      "stars_today": 44,
+      "trend_score": 8.04,
+      "why_it_matters": {
+        "es": "Toolkit oficial de GitHub para desarrollo guiado por especificaciones, relevante para equipos que estandarizan flujos de trabajo con agentes.",
+        "en": "GitHub's official toolkit for spec-driven development, relevant for teams standardizing agent-based workflows."
+      }
+    },
+    {
+      "id": "Fission-AI/OpenSpec",
+      "repoKey": "Fission-AI/OpenSpec",
+      "name": "OpenSpec",
+      "full_name": "Fission-AI/OpenSpec",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "link": "https://github.com/Fission-AI/OpenSpec",
+      "language": "TypeScript",
+      "stars": 67265,
+      "stars_today": 30,
+      "trend_score": 7.36,
+      "why_it_matters": {
+        "es": "Alternativa open source para desarrollo guiado por especificaciones diseñada específicamente para asistentes de coding con IA.",
+        "en": "An open-source alternative for spec-driven development built specifically for AI coding assistants."
+      }
     }
   ],
   "quick_reads": [
     {
       "id": "9c13fe11497a28ba",
-      "title": "Hugging Face presenta NeoMME, encoder multimodal y multilingüe",
-      "text": "NeoMME es un nuevo encoder eficiente diseñado nativamente para ser multimodal y multilingüe, con alta profundidad técnica según su documentación.",
+      "title": {
+        "es": "Hugging Face presenta NeoMME, un encoder multimodal y multilingüe",
+        "en": "Hugging Face unveils NeoMME, a multimodal, multilingual encoder"
+      },
+      "text": {
+        "es": "El nuevo modelo promete eficiencia nativa en múltiples modalidades e idiomas, ampliando las opciones open source para tareas multimodales.",
+        "en": "The new model promises native efficiency across multiple modalities and languages, expanding open-source options for multimodal tasks."
+      },
       "newsId": "9c13fe11497a28ba",
       "storyKey": "9c13fe11497a28ba",
       "topic": "ai_software",
@@ -187,35 +263,33 @@
       "imageWidth": null
     },
     {
-      "id": "d96ef0518aa23560",
-      "title": "Playco reduce a la mitad sus fixes manuales con GPT-6 Astra",
-      "text": "La compañía de juegos construyó tres prototipos temáticos desde una sola base y reportó 50% menos correcciones manuales usando el nuevo modelo de OpenAI.",
-      "newsId": "d96ef0518aa23560",
-      "storyKey": "d96ef0518aa23560",
+      "id": "d41fb9bdcc8e590f",
+      "title": {
+        "es": "Legora revisó 41 documentos en minutos usando GPT-6 Astra",
+        "en": "Legora reviewed 41 documents in minutes using GPT-6 Astra"
+      },
+      "text": {
+        "es": "La legaltech encontró los cuatro errores plantados y mejoró el rendimiento casi un 40% en su flujo de revisión financiera.",
+        "en": "The legal-tech company found all four planted errors and improved performance by nearly 40% in its financial-review workflow."
+      },
+      "newsId": "d41fb9bdcc8e590f",
+      "storyKey": "d41fb9bdcc8e590f",
       "topic": "ai_general",
       "source": "OpenAI",
-      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
       "image": null,
       "score": null
     },
     {
-      "id": "aa7126551aaa2ad3",
-      "title": "GitHub Copilot permite ejecutar varios agentes en paralelo",
-      "text": "Una nueva guía para principiantes explica cómo correr agentes simultáneos en la app de Copilot para tareas más complejas.",
-      "newsId": "aa7126551aaa2ad3",
-      "storyKey": "aa7126551aaa2ad3",
-      "topic": "ai_software",
-      "source": "GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
-      "image": "https://github.blog/wp-content/uploads/2025/07/LinkedIn-Light-Mode-16x9-1.png?w=1600",
-      "score": null,
-      "imageSource": "scraped_article",
-      "imageWidth": 1600
-    },
-    {
       "id": "cd389b9bcda4a3b6",
-      "title": "GitHub anuncia la deprecación de varios modelos de Copilot",
-      "text": "Varios modelos dejarán de estar disponibles en todas las experiencias de Copilot a partir del 2 de octubre de 2026.",
+      "title": {
+        "es": "GitHub anuncia la deprecación de varios modelos de Copilot",
+        "en": "GitHub announces deprecation of several Copilot models"
+      },
+      "text": {
+        "es": "Los modelos afectados dejarán de estar disponibles en todas las experiencias de Copilot a partir del 2 de octubre de 2026.",
+        "en": "Affected models will be removed from all Copilot experiences starting October 2, 2026."
+      },
       "newsId": "cd389b9bcda4a3b6",
       "storyKey": "cd389b9bcda4a3b6",
       "topic": "ai_software",
@@ -227,9 +301,35 @@
       "imageWidth": null
     },
     {
+      "id": "adbbc60505409306",
+      "title": {
+        "es": "GitHub reabre gradualmente el registro a Copilot Business y Enterprise",
+        "en": "GitHub gradually reopens signups for Copilot Business and Enterprise"
+      },
+      "text": {
+        "es": "Los clientes que pagan con tarjeta de crédito o PayPal podrán registrarse de nuevo en las próximas semanas.",
+        "en": "Customers paying by credit card or PayPal will be able to sign up again over the coming weeks."
+      },
+      "newsId": "adbbc60505409306",
+      "storyKey": "adbbc60505409306",
+      "topic": "ai_software",
+      "source": "GitHub Changelog",
+      "link": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
+      "image": "https://github.blog/wp-content/uploads/2026/09/642300912-4d6b72f4-e34d-4f12-8021-be5d1d83dc93.jpg",
+      "score": null,
+      "imageSource": "scraped_article",
+      "imageWidth": null
+    },
+    {
       "id": "1d6c3fcda52fd0ac",
-      "title": "Confirmado: la caída de IA afectó a Claude, ChatGPT y Grok",
-      "text": "El servicio de estos asistentes empezó a normalizarse tras aproximadamente media hora de interrupción generalizada.",
+      "title": {
+        "es": "Claude, ChatGPT y Grok sufrieron una caída simultánea generalizada",
+        "en": "Claude, ChatGPT, and Grok suffered a widespread simultaneous outage"
+      },
+      "text": {
+        "es": "El servicio comenzó a recuperarse para algunos usuarios tras unos 30 minutos de interrupción.",
+        "en": "Service began recovering for some users after roughly 30 minutes of disruption."
+      },
       "newsId": "1d6c3fcda52fd0ac",
       "storyKey": "1d6c3fcda52fd0ac",
       "topic": "apple",
@@ -239,9 +339,53 @@
       "score": null
     },
     {
+      "id": "cb18426cba87ee19",
+      "title": {
+        "es": "Apple enfrenta una demanda de $2.7 mil millones por reglas de rastreo",
+        "en": "Apple faces $2.7 billion lawsuit over app tracking rules"
+      },
+      "text": {
+        "es": "La demanda en Londres acusa a Apple de aplicar reglas de App Tracking Transparency más estrictas a terceros que a sí misma.",
+        "en": "The London lawsuit accuses Apple of imposing stricter App Tracking Transparency rules on third parties than on itself."
+      },
+      "newsId": "cb18426cba87ee19",
+      "storyKey": "cb18426cba87ee19",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/09/03/apple-hit-with-lawsuit-over-app-tracking/",
+      "image": "https://images.macrumors.com/t/1f5Wi5NgRy95jyxiAy0nOvpe2t4=/400x400/article-new/2026/05/OpenAI-vs-Apple-Feature.jpg",
+      "score": null,
+      "imageSource": "scraped_article",
+      "imageWidth": null
+    },
+    {
+      "id": "a12c220822d06fd7",
+      "title": {
+        "es": "Guía comparativa: Mac mini con chip M6 frente a M5 Pro",
+        "en": "Buyer's guide: M6 vs. M5 Pro Mac mini compared"
+      },
+      "text": {
+        "es": "El M6 ofrece mayor velocidad por núcleo y eficiencia, mientras el M5 Pro aporta más memoria, núcleos y Thunderbolt 5 para cargas exigentes.",
+        "en": "The M6 offers better per-core speed and efficiency, while the M5 Pro brings more memory, cores, and Thunderbolt 5 for demanding workloads."
+      },
+      "newsId": "a12c220822d06fd7",
+      "storyKey": "a12c220822d06fd7",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/guide/m6-vs-m5-pro-mac-mini/",
+      "image": "https://images.macrumors.com/article-new/2026/08/mac-mini-2026-blue.jpg",
+      "score": null
+    },
+    {
       "id": "3af436bfadf687b3",
-      "title": "Apple habría cancelado un producto prioritario para Ternus",
-      "text": "Un informe de Omdia sobre el roadmap de Mac e iPad reveló que un producto internamente prioritario fue descartado.",
+      "title": {
+        "es": "Apple habría cancelado un producto innovador que era prioridad de Ternus",
+        "en": "Apple reportedly canceled an innovative product that was a 'Ternus priority'"
+      },
+      "text": {
+        "es": "Un informe de Omdia sobre la hoja de ruta de Mac e iPad reveló que un producto clave rumoreado ha sido cancelado.",
+        "en": "An Omdia research note on Apple's Mac and iPad roadmap revealed that a key rumored product has been scrapped."
+      },
       "newsId": "3af436bfadf687b3",
       "storyKey": "3af436bfadf687b3",
       "topic": "apple",
@@ -249,48 +393,30 @@
       "link": "https://9to5mac.com/2026/09/03/apple-has-reportedly-canceled-innovative-product-that-was-ternus-priority/",
       "image": "https://9to5mac.com/wp-content/uploads/sites/6/2024/10/john-ternus-apple-park.jpeg?quality=82&strip=all&w=1600",
       "score": null
-    },
-    {
-      "id": "8e7e66ac438a5e10",
-      "title": "Siri con IA en Apple Watch pasa de inutilizable a sorprendentemente bueno",
-      "text": "Tras meses de mal funcionamiento en las betas de watchOS 27, Siri AI parece haber mejorado notablemente en la beta 8.",
-      "newsId": "8e7e66ac438a5e10",
-      "storyKey": "8e7e66ac438a5e10",
-      "topic": "apple",
-      "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/09/03/we-need-to-talk-about-siri-ai-for-apple-watch/",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/siri-ai-apple-watch-1.webp?w=1600",
-      "score": null
     }
   ],
   "developer_signals": [
     {
-      "id": "2095757526726025348",
-      "text": "swyx destaca que la recepción de GPT-6 Astra ha superado sus expectativas para un lanzamiento de OpenAI en 2026.",
-      "newsId": "2095757526726025348",
+      "id": "2095818150839541936",
+      "text": {
+        "es": "Un developer señala que en una misma semana se lanzaron modelos nuevos de Google, Meta, Anthropic y OpenAI, reflejando el ritmo frenético de la carrera de IA.",
+        "en": "A developer points out that Google, Meta, Anthropic, and OpenAI all shipped new models in the same week, reflecting the frenetic pace of the AI race."
+      },
+      "newsId": "2095818150839541936",
       "storyKey": null,
-      "topic": "ai_general",
+      "topic": "ai_software",
       "image": null,
-      "link": "https://x.com/swyx/status/2095757526726025348",
-      "author": "swyx",
-      "source": "X · @swyx",
-      "contentType": "developer_signal"
-    },
-    {
-      "id": "2095757155215482993",
-      "text": "Según Latent Space Pod, es la primera vez en un año que un lanzamiento de OpenAI recibe mejor acogida que uno de Claude.",
-      "newsId": "2095757155215482993",
-      "storyKey": null,
-      "topic": "ai_general",
-      "image": null,
-      "link": "https://x.com/swyx/status/2095757155215482993",
-      "author": "swyx",
-      "source": "X · @swyx",
+      "link": "https://x.com/alvarombt/status/2095818150839541936",
+      "author": "alvarombt",
+      "source": "X · @alvarombt",
       "contentType": "developer_signal"
     },
     {
       "id": "2095746889278980208",
-      "text": "Un developer comparte que con Astra, ChatGPT es casi 2x más rápido en tareas de uso de ordenador.",
+      "text": {
+        "es": "Con Astra, ChatGPT es casi 2 veces más rápido en tareas de uso de computadora que antes, según un desarrollador que probó el modelo.",
+        "en": "With Astra, ChatGPT is nearly 2x faster at computer-use tasks than before, according to a developer who tested the model."
+      },
       "newsId": "2095746889278980208",
       "storyKey": null,
       "topic": "ai_software",
@@ -302,7 +428,10 @@
     },
     {
       "id": "2095678536988377352",
-      "text": "Cognition confirma que GPT-6 Astra llegará próximamente a Devin, su agente de coding autónomo.",
+      "text": {
+        "es": "Cognition confirma que GPT-6 Astra llegará a Devin, su agente de coding autónomo.",
+        "en": "Cognition confirms that GPT-6 Astra is coming to Devin, its autonomous coding agent."
+      },
       "newsId": "2095678536988377352",
       "storyKey": null,
       "topic": "ai_general",
@@ -313,8 +442,26 @@
       "contentType": "developer_signal"
     },
     {
+      "id": "2095757155215482993",
+      "text": {
+        "es": "Por primera vez en un año, un lanzamiento de modelo de OpenAI ha sido mejor recibido que un lanzamiento de Claude, según swyx.",
+        "en": "For the first time in a year, an OpenAI model launch has been better received than a Claude launch, according to swyx."
+      },
+      "newsId": "2095757155215482993",
+      "storyKey": null,
+      "topic": "ai_general",
+      "image": null,
+      "link": "https://x.com/swyx/status/2095757155215482993",
+      "author": "swyx",
+      "source": "X · @swyx",
+      "contentType": "developer_signal"
+    },
+    {
       "id": "2095662778459766984",
-      "text": "Un desarrollador afirma vivir dentro de Codex y considerarlo el mejor software lanzado en los últimos cinco años.",
+      "text": {
+        "es": "Un desarrollador afirma que vive dentro de Codex y lo considera el mejor software lanzado en los últimos cinco años.",
+        "en": "One developer says he lives inside Codex and considers it the best software shipped in the past five years."
+      },
       "newsId": "2095662778459766984",
       "storyKey": null,
       "topic": "ai_general",
@@ -326,18 +473,30 @@
     }
   ],
   "summary": {
-    "apple": "Apple encara una semana cargada de frentes abiertos: una demanda multimillonaria por App Tracking, la cancelación de un producto prioritario y los primeros detalles filtrados del carísimo iPhone Ultra plegable.",
-    "ai_software": "OpenAI redefine el estado del arte con GPT-6 Astra mientras GitHub Copilot amplía su catálogo de modelos y capacidades multi-agente, consolidando la carrera por el desarrollador asistido por IA.",
-    "ai_general": "Casos reales de adopción empresarial de GPT-6 Astra y el nuevo modelo meteorológico de DeepMind muestran cómo la IA generativa y científica avanza en aplicaciones prácticas de alto impacto.",
-    "tech": "Una caída simultánea de los principales chatbots de IA (ChatGPT, Claude, Grok y Gemini) pone en evidencia lo interconectada —y frágil— que se ha vuelto la infraestructura de IA para millones de usuarios."
+    "apple": {
+      "es": "",
+      "en": ""
+    },
+    "ai_software": {
+      "es": "",
+      "en": ""
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "",
+      "en": ""
+    }
   },
   "date": "2026-09-04",
   "editorial_stats": {
     "top_stories": 7,
     "topics": {
-      "ai_software": 2,
+      "ai_software": 3,
       "tech": 1,
-      "ai_general": 2,
+      "ai_general": 1,
       "apple": 2
     },
     "apple_stories": 2
