@@ -72,6 +72,26 @@
       background: #10b981;
       box-shadow: 0 0 0 4px rgba(16,185,129,.12);
     }
+    .topbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+    .lang-toggle {
+      height: 32px;
+      padding: 0 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--text);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: .04em;
+      cursor: pointer;
+      transition: transform .15s ease, background .2s ease;
+    }
+    .lang-toggle:hover { transform: scale(1.04); background: var(--hover); }
     .theme-toggle {
       width: 44px;
       height: 44px;
@@ -165,14 +185,17 @@
   <main class="page">
     <header class="topbar">
       <div class="logo">AI DAILY DIGEST</div>
-      <button class="theme-toggle" type="button" aria-label="Cambiar tema" onclick="toggleTheme()">◐</button>
+      <div class="topbar-actions">
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language" onclick="toggleLang()">ES</button>
+        <button class="theme-toggle" type="button" aria-label="Cambiar tema" onclick="toggleTheme()">◐</button>
+      </div>
     </header>
 
     <section class="hero">
-      <div class="eyebrow">HISTORIAL</div>
-      <h1>Archivo</h1>
-      <p class="hero-subtitle">Todas las ediciones anteriores del digest.</p>
-      <a class="back-link" href="index.html">← Volver a hoy</a>
+      <div class="eyebrow" id="hero-eyebrow">HISTORIAL</div>
+      <h1 id="hero-title">Archivo</h1>
+      <p class="hero-subtitle" id="hero-subtitle">Todas las ediciones anteriores del digest.</p>
+      <a class="back-link" id="back-link" href="index.html">← Volver a hoy</a>
     </section>
 
     <div class="archive-list" id="archive-list"></div>
@@ -191,6 +214,66 @@
     const savedTheme = localStorage.getItem("digest-theme");
     if (savedTheme) setTheme(savedTheme);
     else if (window.matchMedia?.("(prefers-color-scheme: dark)").matches) setTheme("dark");
+
+    /* i18n */
+    const UI = {
+      es: {
+        locale: "es-ES",
+        eyebrow: "HISTORIAL",
+        title: "Archivo",
+        subtitle: "Todas las ediciones anteriores del digest.",
+        backLink: "← Volver a hoy",
+        empty: "Todavía no hay ediciones en el archivo.",
+        today: "Hoy",
+        langToggleLabel: "Switch to English",
+      },
+      en: {
+        locale: "en-US",
+        eyebrow: "ARCHIVE",
+        title: "Archive",
+        subtitle: "All previous editions of the digest.",
+        backLink: "← Back to today",
+        empty: "No editions in the archive yet.",
+        today: "Today",
+        langToggleLabel: "Cambiar a español",
+      },
+    };
+
+    function detectLang() {
+      const saved = localStorage.getItem("digest-lang");
+      if (saved === "es" || saved === "en") return saved;
+      const nav = (navigator.language || "es").toLowerCase();
+      return nav.startsWith("es") ? "es" : "en";
+    }
+
+    let currentLang = detectLang();
+    let CACHED_DATES = null;
+
+    function t(key) {
+      return UI[currentLang][key] ?? UI.es[key] ?? "";
+    }
+
+    function updateStaticText() {
+      document.documentElement.lang = currentLang;
+      document.getElementById("hero-eyebrow").textContent = t("eyebrow");
+      document.getElementById("hero-title").textContent = t("title");
+      document.getElementById("hero-subtitle").textContent = t("subtitle");
+      document.getElementById("back-link").textContent = t("backLink");
+      const langBtn = document.getElementById("lang-toggle");
+      langBtn.textContent = currentLang === "es" ? "EN" : "ES";
+      langBtn.setAttribute("aria-label", t("langToggleLabel"));
+    }
+
+    function setLang(lang) {
+      currentLang = lang === "en" ? "en" : "es";
+      localStorage.setItem("digest-lang", currentLang);
+      updateStaticText();
+      if (CACHED_DATES) renderArchiveList(CACHED_DATES);
+    }
+
+    function toggleLang() {
+      setLang(currentLang === "es" ? "en" : "es");
+    }
 
     /* Helpers */
     function escapeHTML(value) {
@@ -219,7 +302,7 @@
 }
     function formatLabel(dateStr) {
       const d = new Date(dateStr + "T00:00:00");
-      return d.toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+      return d.toLocaleDateString(UI[currentLang].locale, { weekday: "long", day: "numeric", month: "long", year: "numeric" });
     }
 
     async function loadArchiveIndex() {
@@ -234,21 +317,27 @@
       }
     }
 
-    async function init() {
-      const dates = await loadArchiveIndex();
+    function renderArchiveList(dates) {
       const list = document.getElementById("archive-list");
 
       if (!dates.length) {
-        list.innerHTML = '<p class="empty-state">Todavía no hay ediciones en el archivo.</p>';
+        list.innerHTML = `<p class="empty-state">${escapeHTML(t("empty"))}</p>`;
         return;
       }
 
       list.innerHTML = dates.map((date, i) => `
         <a class="archive-item ${i === 0 ? "is-current" : ""}" href="index.html?date=${encodeURIComponent(date)}">
           <span class="archive-date">${escapeHTML(formatLabel(date))}</span>
-          ${i === 0 ? '<span class="archive-badge">Hoy</span>' : ""}
+          ${i === 0 ? `<span class="archive-badge">${escapeHTML(t("today"))}</span>` : ""}
         </a>
       `).join("");
+    }
+
+    async function init() {
+      updateStaticText();
+      const dates = await loadArchiveIndex();
+      CACHED_DATES = dates;
+      renderArchiveList(dates);
     }
 
     init();
