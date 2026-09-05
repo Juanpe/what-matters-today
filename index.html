@@ -790,6 +790,30 @@
       .developer-footer { margin-left: 0; }
       .developer-card-top { flex-wrap: wrap; }
     }
+    .site-footer {
+      margin-top: 56px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .site-footer a {
+      color: var(--muted);
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-decoration-color: var(--line);
+      text-underline-offset: 3px;
+    }
+    .site-footer a:hover {
+      color: var(--text);
+      text-decoration-color: var(--muted);
+    }
+    .site-footer .footer-dot { color: var(--line); }
   </style>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "58ccca5df20d4a4baf95cd6954a621cb"}'></script>
@@ -849,6 +873,13 @@
       </div>
       <div class="repos-list" id="repos-list"></div>
     </section>
+
+    <footer class="site-footer">
+      <span id="footer-madewith">Hecho con ❤️ por</span>
+      <a href="https://juanpecatalan.com" target="_blank" rel="noopener">Juanpe</a>
+      <span class="footer-dot" aria-hidden="true">·</span>
+      <a href="https://x.com/JuanpeCatalan" target="_blank" rel="noopener">X</a>
+    </footer>
   </main>
 
   <script>
@@ -896,7 +927,8 @@
         filtersAria: "Filtrar por tema",
         themeAria: "Cambiar tema",
         locale: "es-ES",
-        langToggleLabel: "Switch to English"
+        langToggleLabel: "Switch to English",
+        madeWith: "Hecho con ❤️ por"
       },
       en: {
         filterAll: "All",
@@ -927,7 +959,8 @@
         filtersAria: "Filter by topic",
         themeAria: "Toggle theme",
         locale: "en-US",
-        langToggleLabel: "Cambiar a español"
+        langToggleLabel: "Cambiar a español",
+        madeWith: "Made with ❤️ by"
       }
     };
 
@@ -966,6 +999,8 @@
       document.getElementById("hero-subtitle").textContent = t("heroSubtitle");
       document.querySelector(".filters").setAttribute("aria-label", t("filtersAria"));
       document.querySelector(".theme-toggle").setAttribute("aria-label", t("themeAria"));
+      const footerMadeWith = document.getElementById("footer-madewith");
+      if (footerMadeWith) footerMadeWith.textContent = t("madeWith");
       document.querySelectorAll(".filter").forEach(f => {
         f.textContent = f.dataset.topic === "all" ? t("filterAll") : topicLabel(f.dataset.topic);
       });
