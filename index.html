@@ -605,6 +605,7 @@
     .developer-footer {
       display: flex;
       align-items: center;
+      justify-content: space-between;
       gap: 12px;
       margin-left: 48px;
       padding-top: 11px;
@@ -831,6 +832,64 @@
       color: var(--text);
       border-color: var(--muted);
     }
+    .share-btn {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      padding: 0;
+      flex-shrink: 0;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: var(--surface);
+      color: var(--muted);
+      cursor: pointer;
+      font: inherit;
+      transition: background .15s ease, color .15s ease, border-color .15s ease;
+    }
+    .share-btn svg { width: 13px; height: 13px; }
+    .share-btn:hover {
+      background: var(--hover);
+      color: var(--text);
+      border-color: #8b8b84;
+    }
+    .story-footer .share-btn { margin-left: auto; }
+    .quick-read-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
+      flex: 0 0 auto;
+    }
+    .developer-footer-meta,
+    .repo-footer-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+      overflow: hidden;
+    }
+    .share-toast {
+      position: absolute;
+      bottom: calc(100% + 6px);
+      right: 0;
+      white-space: nowrap;
+      background: var(--text);
+      color: var(--bg);
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: none;
+      letter-spacing: normal;
+      padding: 4px 9px;
+      border-radius: 6px;
+      opacity: 0;
+      transform: translateY(2px);
+      transition: opacity .15s ease, transform .15s ease;
+      pointer-events: none;
+    }
+    .share-toast.visible { opacity: 1; transform: translateY(0); }
   </style>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "58ccca5df20d4a4baf95cd6954a621cb"}'></script>
@@ -956,6 +1015,9 @@
         starsToday: "hoy",
         noSource: "Fuente",
         noTitle: "Noticia sin título",
+        share: "Compartir",
+        linkCopied: "Enlace copiado",
+        sharedVia: "Vía What Matters Today:",
         developerType: { technical_share: "aporte técnico", developer_share: "idea de desarrollador" },
         filtersAria: "Filtrar por tema",
         themeAria: "Cambiar tema",
@@ -988,6 +1050,9 @@
         starsToday: "today",
         noSource: "Source",
         noTitle: "Untitled story",
+        share: "Share",
+        linkCopied: "Link copied",
+        sharedVia: "via What Matters Today:",
         developerType: { technical_share: "technical share", developer_share: "developer idea" },
         filtersAria: "Filter by topic",
         themeAria: "Toggle theme",
@@ -1057,6 +1122,45 @@
       div.textContent = value ?? "";
       return div.innerHTML;
     }
+    function escapeAttr(value) {
+      return escapeHTML(value).replace(/"/g, "&quot;");
+    }
+
+    /* Share */
+    const SHARE_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"></path><path d="m7 8 5-5 5 5"></path><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>`;
+    function showShareToast(btn) {
+      let toast = btn.querySelector(".share-toast");
+      if (!toast) {
+        toast = document.createElement("span");
+        toast.className = "share-toast";
+        btn.appendChild(toast);
+      }
+      toast.textContent = t("linkCopied");
+      toast.classList.add("visible");
+      clearTimeout(btn._shareToastTimer);
+      btn._shareToastTimer = setTimeout(() => toast.classList.remove("visible"), 1600);
+    }
+    const WMT_URL = "https://whatmatterstoday.juanpecatalan.com";
+    document.addEventListener("click", (event) => {
+      const btn = event.target.closest(".share-btn");
+      if (!btn) return;
+      event.preventDefault();
+      event.stopPropagation();
+      const title = btn.dataset.shareTitle || document.title;
+      const url = btn.dataset.shareUrl || location.href;
+      const attribution = `${t("sharedVia")} ${WMT_URL}`;
+      const clipboardText = `${title}\n${url}\n\n${attribution}`;
+      if (navigator.share) {
+        navigator.share({ title, text: `${title}\n\n${attribution}`, url }).catch(() => {});
+        return;
+      }
+      if (navigator.clipboard?.writeText) {
+        navigator.clipboard.writeText(clipboardText).then(() => showShareToast(btn)).catch(() => window.prompt(`${t("share")}:`, clipboardText));
+        return;
+      }
+      window.prompt(`${t("share")}:`, clipboardText);
+    });
+
     function normalizeTopic(topic) {
       const value = String(topic || "").toLowerCase();
       if (value === "apple") return "apple";
@@ -1189,6 +1293,7 @@
             <div class="story-footer">
               <a class="read-source" href="${escapeHTML(story.link || "#")}" target="_blank" rel="noopener noreferrer">${t("readMore")}</a>
               ${scoreHTML}
+              <button type="button" class="share-btn" data-share-title="${escapeAttr(title || t("noTitle"))}" data-share-url="${escapeAttr(story.link || "")}" aria-label="${escapeAttr(t("share"))}">${SHARE_ICON}</button>
             </div>
           </div>
         </article>`;
@@ -1209,7 +1314,10 @@
             <h3 class="quick-read-title">${escapeHTML(title)}</h3>
             ${summary ? `<p class="quick-read-summary">${escapeHTML(summary)}</p>` : ""}
           </div>
-          <span class="quick-read-arrow">↗</span>
+          <div class="quick-read-actions">
+            <span class="quick-read-arrow">↗</span>
+            <button type="button" class="share-btn" data-share-title="${escapeAttr(title)}" data-share-url="${escapeAttr(item.link || "")}" aria-label="${escapeAttr(t("share"))}">${SHARE_ICON}</button>
+          </div>
         </a>`;
     }
 
@@ -1293,8 +1401,11 @@
             </div>
             <p class="developer-text">${escapeHTML(pickLang(signal.text))}</p>
             <div class="developer-footer">
-              <span class="developer-type">${escapeHTML(type)}</span>
-              <span class="developer-author">${t("viewOnX")}</span>
+              <span class="developer-footer-meta">
+                <span class="developer-type">${escapeHTML(type)}</span>
+                <span class="developer-author">${t("viewOnX")}</span>
+              </span>
+              <button type="button" class="share-btn" data-share-title="${escapeAttr(author)}" data-share-url="${escapeAttr(signal.link || "")}" aria-label="${escapeAttr(t("share"))}">${SHARE_ICON}</button>
             </div>
           </a>`;
       }).join("");
@@ -1330,11 +1441,14 @@
             </div>
             <p class="repo-description">${escapeHTML(repo.description || pickLang(repo.why_it_matters) || "")}</p>
             <div class="repo-footer">
-              <span class="repo-language">
-                <span class="repo-language-dot" aria-hidden="true"></span>
-                ${escapeHTML(repo.language || topicLabel(topic))}
+              <span class="repo-footer-meta">
+                <span class="repo-language">
+                  <span class="repo-language-dot" aria-hidden="true"></span>
+                  ${escapeHTML(repo.language || topicLabel(topic))}
+                </span>
+                <span>${repo.stars_today != null ? "+" + escapeHTML(starsToday) + " " + escapeHTML(t("starsToday")) : escapeHTML(t("trending"))}</span>
               </span>
-              <span>${repo.stars_today != null ? "+" + escapeHTML(starsToday) + " " + escapeHTML(t("starsToday")) : escapeHTML(t("trending"))}</span>
+              <button type="button" class="share-btn" data-share-title="${escapeAttr(name)}" data-share-url="${escapeAttr(repo.link || "")}" aria-label="${escapeAttr(t("share"))}">${SHARE_ICON}</button>
             </div>
           </a>`;
       }).join("");
