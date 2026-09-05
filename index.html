@@ -792,28 +792,43 @@
     }
     .site-footer {
       margin-top: 56px;
-      padding-top: 20px;
+      padding-top: 24px;
       border-top: 1px solid var(--line);
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 8px;
+      gap: 12px;
       color: var(--muted);
       font-size: 13px;
     }
-    .site-footer a {
-      color: var(--muted);
-      font-weight: 700;
-      text-decoration: underline;
-      text-decoration-style: dotted;
-      text-decoration-color: var(--line);
-      text-underline-offset: 3px;
-    }
-    .site-footer a:hover {
+    .site-footer .footer-name {
+      font-weight: 800;
       color: var(--text);
-      text-decoration-color: var(--muted);
     }
-    .site-footer .footer-dot { color: var(--line); }
+    .site-footer-icons {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .footer-icon-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: var(--surface);
+      color: var(--muted);
+      transition: transform .15s ease, background .2s ease, color .15s ease, border-color .2s ease;
+    }
+    .footer-icon-link svg { width: 14px; height: 14px; }
+    .footer-icon-link:hover {
+      transform: scale(1.08);
+      background: var(--hover);
+      color: var(--text);
+      border-color: var(--muted);
+    }
   </style>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "58ccca5df20d4a4baf95cd6954a621cb"}'></script>
@@ -876,9 +891,21 @@
 
     <footer class="site-footer">
       <span id="footer-madewith">Hecho con ❤️ por</span>
-      <a href="https://juanpecatalan.com" target="_blank" rel="noopener">Juanpe</a>
-      <span class="footer-dot" aria-hidden="true">·</span>
-      <a href="https://x.com/JuanpeCatalan" target="_blank" rel="noopener">X</a>
+      <span class="footer-name">Juanpe</span>
+      <span class="site-footer-icons">
+        <a class="footer-icon-link" href="https://juanpecatalan.com" target="_blank" rel="noopener" aria-label="Web">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"></circle>
+            <path d="M3 12h18"></path>
+            <path d="M12 3c2.5 2.6 4 6 4 9s-1.5 6.4-4 9c-2.5-2.6-4-6-4-9s1.5-6.4 4-9z"></path>
+          </svg>
+        </a>
+        <a class="footer-icon-link" href="https://x.com/JuanpeCatalan" target="_blank" rel="noopener" aria-label="X">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+          </svg>
+        </a>
+      </span>
     </footer>
   </main>
 
