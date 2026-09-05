@@ -1036,6 +1036,21 @@
       object-position:center;
     }
 
+
+    .share-dialog { width:min(520px,calc(100% - 32px)); max-height:calc(100dvh - 32px); overflow:auto; box-sizing:border-box; padding:24px; border:1px solid var(--line); border-radius:20px; background:var(--surface); color:var(--text); box-shadow:0 24px 80px #0003; }
+    .share-dialog::backdrop { background:#0007; }
+    .share-dialog-head { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:20px; }
+    .share-dialog h2 { margin:0; font-size:22px; letter-spacing:-.04em; }
+    .share-close { width:44px; height:44px; border:0; border-radius:50%; background:var(--hover); color:var(--text); font-size:24px; cursor:pointer; }
+    .share-dialog label { display:block; font-size:14px; margin-bottom:10px; }
+    .share-draft { width:100%; min-height:190px; padding:14px; border:1px solid var(--line); border-radius:12px; font-family:inherit; font-size:16px; line-height:1.55; background:var(--bg); color:var(--text); resize:vertical; box-sizing:border-box; }
+    .share-destinations { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:16px; }
+    .share-option { display:flex; align-items:center; justify-content:center; min-height:48px; padding:10px 12px; border:1px solid var(--line); border-radius:12px; background:var(--surface); color:var(--text); font:inherit; font-size:14px; font-weight:650; text-decoration:none; cursor:pointer; }
+    .share-option[hidden] { display:none; }
+    .share-option:hover { background:var(--hover); }
+    .share-option.primary { background:var(--text); color:var(--bg); border-color:var(--text); }
+    .share-status { margin:12px 0 0; font-size:13px; color:var(--muted); min-height:20px; }
+
   </style>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "58ccca5df20d4a4baf95cd6954a621cb"}'></script>
@@ -1120,6 +1135,20 @@
       </span>
     </footer>
   </main>
+
+
+  <dialog class="share-dialog" id="share-dialog" aria-labelledby="share-heading">
+    <div class="share-dialog-head"><h2 id="share-heading">Compartir</h2><button class="share-close" id="share-close" type="button" aria-label="Cerrar">×</button></div>
+    <label id="share-draft-label" for="share-draft">Puedes editar el mensaje antes de compartirlo.</label>
+    <textarea class="share-draft" id="share-draft" rows="7" spellcheck="true"></textarea>
+    <div class="share-destinations">
+      <a class="share-option primary" id="share-x" target="_blank" rel="noopener noreferrer">X / Twitter ↗</a>
+      <a class="share-option" id="share-whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>
+      <button class="share-option" type="button" id="share-copy">Copiar mensaje</button>
+      <button class="share-option" type="button" id="share-native">Otras apps…</button>
+    </div>
+    <p class="share-status" id="share-status" role="status" aria-live="polite"></p>
+  </dialog>
 
   <script>
     /* Theme */
@@ -1277,42 +1306,78 @@
 
     /* Share */
     const SHARE_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"></path><path d="m7 8 5-5 5 5"></path><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>`;
-    function showShareToast(btn) {
-      let toast = btn.querySelector(".share-toast");
-      if (!toast) {
-        toast = document.createElement("span");
-        toast.className = "share-toast";
-        btn.appendChild(toast);
-      }
-      toast.textContent = t("linkCopied");
-      toast.classList.add("visible");
-      clearTimeout(btn._shareToastTimer);
-      btn._shareToastTimer = setTimeout(() => toast.classList.remove("visible"), 1600);
-    }
     const WMT_URL = "https://whatmatterstoday.juanpecatalan.com";
     function digestShareUrl() {
-      return ACTIVE_DATE ? `${WMT_URL}/?date=${ACTIVE_DATE}` : WMT_URL;
+      return ACTIVE_DATE ? `${WMT_URL}/?date=${encodeURIComponent(ACTIVE_DATE)}` : WMT_URL;
     }
-    document.addEventListener("click", (event) => {
+    function buildShareMessage(kind, title, sourceUrl, digestUrl, lang) {
+      const introductions = lang === "es" ? {
+        story: "He visto esta noticia en What Matters Today y quería compartirla.",
+        repo: "He descubierto este repo en What Matters Today y quería compartirlo.",
+        post: "He encontrado este aporte en What Matters Today y quería compartirlo."
+      } : {
+        story: "I came across this story on What Matters Today and wanted to share it.",
+        repo: "I discovered this repo on What Matters Today and wanted to share it.",
+        post: "I found this post on What Matters Today and wanted to share it."
+      };
+      const shortTitle = Array.from(title).length > 100 ? Array.from(title).slice(0, 97).join("") + "…" : title;
+      return `${introductions[kind] || introductions.story}\n\n${shortTitle}\n${sourceUrl}\n\n${lang === "es" ? "El digest" : "The digest"}: ${digestUrl}`;
+    }
+    const shareDialog = document.getElementById("share-dialog");
+    const shareDraft = document.getElementById("share-draft");
+    const shareStatus = document.getElementById("share-status");
+    let sharingTitle = "";
+    let sharingTrigger = null;
+    function refreshShareLinks() {
+      // X Web Intent opens an editable composer; nothing is posted automatically.
+      const x = new URL("https://twitter.com/intent/tweet");
+      x.searchParams.set("text", shareDraft.value);
+      document.getElementById("share-x").href = x.href;
+      const whatsapp = new URL("https://wa.me/");
+      whatsapp.searchParams.set("text", shareDraft.value);
+      document.getElementById("share-whatsapp").href = whatsapp.href;
+      shareStatus.textContent = "";
+    }
+    shareDraft.addEventListener("input", refreshShareLinks);
+    document.getElementById("share-close").addEventListener("click", () => shareDialog.close());
+    shareDialog.addEventListener("close", () => { if (sharingTrigger?.isConnected) sharingTrigger.focus(); });
+    shareDialog.addEventListener("click", event => {
+      const box = shareDialog.getBoundingClientRect();
+      if (event.target === shareDialog && (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom)) shareDialog.close();
+    });
+    document.getElementById("share-copy").addEventListener("click", async () => {
+      try {
+        if (!navigator.clipboard?.writeText) throw new Error("Clipboard unavailable");
+        await navigator.clipboard.writeText(shareDraft.value);
+        shareStatus.textContent = currentLang === "es" ? "Mensaje copiado." : "Message copied.";
+      } catch {
+        shareDraft.focus(); shareDraft.select();
+        shareStatus.textContent = currentLang === "es" ? "Seleccionado: copia el mensaje con el menú de tu dispositivo." : "Selected: copy the message using your device’s menu.";
+      }
+    });
+    document.getElementById("share-native").addEventListener("click", async () => {
+      try { await navigator.share({ title: sharingTitle, text: shareDraft.value }); }
+      catch (error) {
+        if (error.name !== "AbortError") shareStatus.textContent = currentLang === "es" ? "No se pudo abrir el menú. Prueba otra opción o copia el mensaje." : "Could not open sharing. Try another option or copy the message.";
+      }
+    });
+    document.addEventListener("click", event => {
       const btn = event.target.closest(".share-btn");
       if (!btn) return;
-      event.preventDefault();
-      event.stopPropagation();
-      const title = btn.dataset.shareTitle || document.title;
-      const sourceUrl = btn.dataset.shareUrl || location.href;
-      const digestUrl = digestShareUrl();
-      const caption = t("seenOn");
-      const shareText = `${title}\n${sourceUrl}\n\n${caption}:`;
-      const clipboardText = `${shareText} ${digestUrl}`;
-      if (navigator.share) {
-        navigator.share({ title, text: shareText, url: digestUrl }).catch(() => {});
-        return;
-      }
-      if (navigator.clipboard?.writeText) {
-        navigator.clipboard.writeText(clipboardText).then(() => showShareToast(btn)).catch(() => window.prompt(`${t("share")}:`, clipboardText));
-        return;
-      }
-      window.prompt(`${t("share")}:`, clipboardText);
+      event.preventDefault(); event.stopPropagation();
+      sharingTrigger = btn;
+      sharingTitle = btn.dataset.shareTitle || document.title;
+      const kind = btn.closest(".repo-item") ? "repo" : btn.closest(".developer-item") ? "post" : "story";
+      shareDraft.value = buildShareMessage(kind, sharingTitle, btn.dataset.shareUrl || digestShareUrl(), digestShareUrl(), currentLang);
+      const es = currentLang === "es";
+      document.getElementById("share-heading").textContent = es ? "Compartir" : "Share";
+      document.getElementById("share-close").setAttribute("aria-label", es ? "Cerrar" : "Close");
+      document.getElementById("share-draft-label").textContent = es ? "Puedes editar el mensaje antes de compartirlo." : "You can edit the message before sharing.";
+      document.getElementById("share-copy").textContent = es ? "Copiar mensaje" : "Copy message";
+      document.getElementById("share-native").textContent = es ? "Otras apps…" : "More apps…";
+      document.getElementById("share-native").hidden = typeof navigator.share !== "function";
+      refreshShareLinks();
+      shareDialog.showModal();
     });
 
     function normalizeTopic(topic) {
