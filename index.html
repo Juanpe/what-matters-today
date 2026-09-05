@@ -890,6 +890,152 @@
       pointer-events: none;
     }
     .share-toast.visible { opacity: 1; transform: translateY(0); }
+
+    /* Editorial refresh: retains the existing data contract and theme switch. */
+    :root { --topic-apple:#0071e3; --topic-ai-software:#8b5cf6; --topic-ai:#10b981; --topic-tech:#f59e0b; }
+    html { scroll-padding-top:88px; }
+    .page { max-width:1160px; padding-top:20px; }
+    .topbar { border-bottom:0; padding-bottom:8px; }
+    .logo { font-size:12px; letter-spacing:.12em; }
+    .theme-toggle,.lang-toggle { height:44px; min-width:44px; }
+    .hero { margin-top:28px; }
+    .hero>div { display:grid; grid-template-columns:1.3fr 1fr; column-gap:42px; align-items:end; }
+    .hero .eyebrow { grid-column:1/-1; font-size:12px; }
+    h1 { font-size:clamp(44px,6.4vw,72px); margin:12px 0 0; max-width:650px; }
+    .hero-subtitle { font-size:16px; line-height:1.6; padding-bottom:3px; max-width:360px; }
+    .filters { margin:28px 0 20px; gap:6px; padding:12px 0; }
+    .filter { border-color:transparent; font-size:14px; min-height:44px; padding:10px 15px; }
+    .filter:not(.active):hover { border-color:var(--line); }
+    .overview { border:1px solid var(--line); border-radius:16px; padding:20px 22px; }
+    .overview>summary { font-size:14px; font-weight:700; cursor:pointer; min-height:24px; }
+    .signals { padding-top:16px; gap:20px; }
+    .signal,.signal:last-child { margin:0; padding:0 20px 0 0; }
+    .signal:last-child { padding-right:0; }
+    .signal-number { color:var(--muted); font-size:12px; font-weight:500; }
+    .signal-topic { font-size:16px; margin:10px 0; display:flex; align-items:center; gap:8px; }
+    .signal-topic::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--muted); flex-shrink:0; }
+    [data-topic="apple"] .signal-topic::before { background:var(--topic-apple); }
+    [data-topic="ai_software"] .signal-topic::before { background:var(--topic-ai-software); }
+    [data-topic="ai_general"] .signal-topic::before { background:var(--topic-ai); }
+    [data-topic="tech"] .signal-topic::before { background:var(--topic-tech); }
+    .signal-text { font-size:14px; line-height:1.55; }
+    .signal-link { font-size:13px; min-height:36px; margin-top:8px; }
+    .stories-section { margin-top:32px; }
+    #stories { border:0; padding-top:0; }
+    .section-title { letter-spacing:.1em; font-weight:650; }
+    .story-featured { display:grid; padding:0 0 32px; align-items:center; gap:36px; }
+    .story-image { position:relative; padding:0; overflow:hidden; background:var(--hover); color:var(--text); }
+    .story-image.has-photo { background:#f0f0ed; font-size:inherit; }
+    .story-image img { display:block; width:100%; height:100%; position:absolute; inset:0; object-fit:contain; }
+    .story-image img[data-fit="cover"] { object-fit:cover; }
+    .image-label { padding:24px; font-size:22px; line-height:1.25; font-weight:650; letter-spacing:-.04em; }
+    .story-featured .story-image { margin-bottom:0; aspect-ratio:16/11; min-height:0; max-height:none; }
+    .story-featured .story-title { font-size:clamp(26px,3vw,36px); line-height:1.14; }
+    .story-featured .story-summary { display:block; overflow:visible; -webkit-line-clamp:unset; font-size:17px; line-height:1.65; }
+    .stories-grid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px 26px; padding-top:32px; }
+    .stories-grid .story-image { aspect-ratio:16/9; }
+    .story-title { font-size:21px; line-height:1.25; font-weight:700; }
+    .story-summary { font-size:16px; line-height:1.6; }
+    .story-meta { font-size:12px; line-height:1.5; letter-spacing:.04em; flex-wrap:wrap; }
+    .story-footer { gap:12px; }
+    .read-source { font-size:14px; font-weight:600; padding:10px 0; }
+    .share-btn { width:44px; height:44px; border-color:transparent; }
+    .share-btn svg { width:17px; height:17px; }
+    .quick-reads-list { gap:0 28px; }
+    .quick-read { border:0; border-bottom:1px solid var(--line); border-radius:0; padding:18px 0; }
+    .quick-read:hover { transform:none; background:transparent; }
+    .quick-read-title { font-size:16px; line-height:1.4; font-weight:650; }
+    .quick-read-summary { font-size:14px; line-height:1.55; }
+    .quick-read-meta,.developer-badge,.developer-type,.developer-author,.repo-footer { font-size:12px; letter-spacing:.03em; }
+    .developer-item { padding:20px; border-radius:12px; }
+    .developer-text { font-size:16px; line-height:1.6; }
+    .developer-author-block { flex-direction:column; align-items:flex-start; gap:3px; }
+    .repos-list { gap:0; grid-template-columns:1fr; }
+    .repo-item { border:0; border-bottom:1px solid var(--line); border-radius:0; padding:20px 0; }
+    .repo-item:hover { background:transparent; }
+    .repo-name { font:600 16px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace; white-space:normal; overflow-wrap:anywhere; }
+    .repo-description { font-size:15px; line-height:1.6; max-width:780px; }
+    .repo-footer { border:0; padding:0; }
+    .footer-icon-link { width:44px; height:44px; }
+    :focus-visible { outline:2px solid var(--text); outline-offset:4px; }
+    @media(max-width:950px) and (min-width:801px) { .signals { grid-template-columns:repeat(2,minmax(0,1fr)); } .signal { border:0; } .stories-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media(max-width:800px) {
+      .page { padding:16px 20px 40px; }
+      .hero { margin-top:24px; }
+      .hero>div { display:block; }
+      h1 { font-size:clamp(44px,11vw,62px); max-width:580px; }
+      .hero-subtitle { margin-top:16px; max-width:480px; font-size:15px; }
+      .filters { margin:20px -20px 18px; padding:10px 20px; }
+      .overview { padding:16px; border-radius:12px; }
+      .signals { padding-top:16px; gap:16px; }
+      .signal,.signal:last-child { border:0; padding:0; }
+      .signal:not(:last-child) { padding-bottom:14px; border-bottom:1px solid var(--line); }
+      .signal-topic { margin:6px 0; }
+      .signal-link { margin:0; }
+      .stories-section { margin-top:28px; }
+      .story-featured { gap:18px; padding:0 0 24px; }
+      .story-featured .story-image { aspect-ratio:16/9; max-height:none; }
+      .story-featured .story-title { font-size:28px; }
+      .story-featured .story-summary { font-size:16px; }
+      .stories-grid { grid-template-columns:1fr; gap:0; padding-top:0; }
+      .stories-grid .story { display:grid; grid-template-columns:minmax(0,1fr) 104px; gap:16px; align-items:start; padding:24px 0; border-bottom:1px solid var(--line); }
+      .stories-grid .story-image { grid-column:2; grid-row:1; aspect-ratio:1; margin:0; border-radius:10px; }
+      .stories-grid .story-content { grid-column:1; grid-row:1; }
+      .stories-grid .story-title { font-size:19px; }
+      .stories-grid .story-summary { font-size:15px; -webkit-line-clamp:2; }
+      .stories-grid .image-label { padding:12px; font-size:14px; }
+      .section-heading { align-items:flex-start; flex-wrap:wrap; gap:8px; }
+      .section-caption { text-align:left; }
+      .quick-reads-list { grid-template-columns:1fr; }
+      .developer-text { margin-left:0; }
+      .quick-reads-section,.developer-section,.repos-section { margin-top:32px; }
+    }
+    @media(max-width:380px) { .stories-grid .story { grid-template-columns:minmax(0,1fr) 80px; gap:12px; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition:none!important; animation:none!important; } }
+
+
+    /* Use spacing between sections; keep separators only within long repo lists. */
+    .story-featured,.quick-reads-section,.developer-section,.repos-section,.site-footer { border-top:0; border-bottom:0; }
+    .quick-reads-section,.developer-section,.repos-section { padding-top:0; margin-top:48px; }
+    .quick-read { border:0; }
+    .quick-reads-list { gap:12px 28px; }
+    .repo-item { border-bottom:0; }
+    .repo-item + .repo-item { border-top:1px solid var(--line); }
+    .site-footer { margin-top:40px; padding-top:16px; }
+    .quick-read-main { flex:1; color:inherit; text-decoration:none; }
+    .quick-read-main:hover .quick-read-title { text-decoration:underline; text-underline-offset:3px; }
+    .quick-read-actions { width:44px; align-items:center; gap:4px; }
+    .quick-read-arrow,.quick-read-actions .share-btn { display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; padding:0; margin:0; border:1px solid transparent; border-radius:50%; background:transparent; color:var(--muted); text-decoration:none; box-sizing:border-box; }
+    .quick-read-arrow svg,.quick-read-actions .share-btn svg { display:block; width:17px; height:17px; flex-shrink:0; }
+    .quick-read-arrow:hover,.quick-read-actions .share-btn:hover { background:var(--hover); color:var(--text); border-color:var(--line); }
+    @media(max-width:800px) {
+      .stories-grid .story { border-bottom:0; }
+      .quick-reads-section,.developer-section,.repos-section { margin-top:36px; }
+    }
+
+
+    /* Featured covers follow the source image's natural proportions. */
+    .story-featured { align-items:start; }
+    .story-featured .story-image.has-photo {
+      display:block;
+      aspect-ratio:auto;
+      height:auto;
+      min-height:0;
+      max-height:none;
+      background:transparent;
+      align-self:start;
+    }
+    .story-featured .story-image img,
+    .story-featured .story-image img[data-fit="cover"] {
+      position:static;
+      display:block;
+      width:100%;
+      height:auto;
+      max-height:none;
+      object-fit:contain;
+      object-position:center;
+    }
+
   </style>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "58ccca5df20d4a4baf95cd6954a621cb"}'></script>
@@ -898,7 +1044,7 @@
 <body>
   <main class="page">
     <header class="topbar">
-      <div class="logo">AI DAILY DIGEST</div>
+      <div class="logo" id="edition-label">EDICIÓN DIARIA</div>
       <div class="date-selector">
         <a class="date-button" href="archive.html" id="date-button">
           Cargando…
@@ -926,9 +1072,10 @@
       <button class="filter" data-topic="tech">Tech</button>
     </nav>
 
-    <section>
+    <details class="overview" id="overview" open>
+      <summary id="overview-title">El día de un vistazo</summary>
       <div class="signals" id="signals"></div>
-    </section>
+    </details>
 
     <section class="stories-section" id="stories-section">
       <div id="stories"></div>
@@ -1017,7 +1164,7 @@
         noTitle: "Noticia sin título",
         share: "Compartir",
         linkCopied: "Enlace copiado",
-        sharedVia: "Vía What Matters Today:",
+        seenOn: "Visto en What Matters Today",
         developerType: { technical_share: "aporte técnico", developer_share: "idea de desarrollador" },
         filtersAria: "Filtrar por tema",
         themeAria: "Cambiar tema",
@@ -1052,7 +1199,7 @@
         noTitle: "Untitled story",
         share: "Share",
         linkCopied: "Link copied",
-        sharedVia: "via What Matters Today:",
+        seenOn: "Seen on What Matters Today",
         developerType: { technical_share: "technical share", developer_share: "developer idea" },
         filtersAria: "Filter by topic",
         themeAria: "Toggle theme",
@@ -1090,6 +1237,8 @@
 
     function updateStaticText() {
       document.documentElement.lang = currentLang;
+      document.getElementById("overview-title").textContent = currentLang === "es" ? "El día de un vistazo" : "Today at a glance";
+      document.getElementById("edition-label").textContent = currentLang === "es" ? "EDICIÓN DIARIA" : "DAILY EDITION";
       const langBtn = document.getElementById("lang-toggle");
       langBtn.textContent = currentLang === "es" ? "EN" : "ES";
       langBtn.setAttribute("aria-label", t("langToggleLabel"));
@@ -1141,17 +1290,22 @@
       btn._shareToastTimer = setTimeout(() => toast.classList.remove("visible"), 1600);
     }
     const WMT_URL = "https://whatmatterstoday.juanpecatalan.com";
+    function digestShareUrl() {
+      return ACTIVE_DATE ? `${WMT_URL}/?date=${ACTIVE_DATE}` : WMT_URL;
+    }
     document.addEventListener("click", (event) => {
       const btn = event.target.closest(".share-btn");
       if (!btn) return;
       event.preventDefault();
       event.stopPropagation();
       const title = btn.dataset.shareTitle || document.title;
-      const url = btn.dataset.shareUrl || location.href;
-      const attribution = `${t("sharedVia")} ${WMT_URL}`;
-      const clipboardText = `${title}\n${url}\n\n${attribution}`;
+      const sourceUrl = btn.dataset.shareUrl || location.href;
+      const digestUrl = digestShareUrl();
+      const caption = t("seenOn");
+      const shareText = `${title}\n${sourceUrl}\n\n${caption}:`;
+      const clipboardText = `${shareText} ${digestUrl}`;
       if (navigator.share) {
-        navigator.share({ title, text: `${title}\n\n${attribution}`, url }).catch(() => {});
+        navigator.share({ title, text: shareText, url: digestUrl }).catch(() => {});
         return;
       }
       if (navigator.clipboard?.writeText) {
@@ -1246,12 +1400,12 @@
       }
       container.innerHTML = activeTopics.map((topic, i) => {
         const items = byTopic[topic];
-        const teaser = cleanDigestText(pickLang(summaries[topic])) || firstSentence(pickLang(items[0].body), 110);
+        const teaser = firstSentence(cleanDigestText(pickLang(summaries[topic])) || pickLang(items[0].body), 150);
         const count = items.length;
         const label = t("viewStory", count);
         return `
           <article class="signal" data-topic="${escapeHTML(topic)}">
-            <div class="signal-number">${String(i + 1).padStart(2, "0")}</div>
+            <div class="signal-number">${count} ${currentLang === "es" ? (count === 1 ? "noticia" : "noticias") : (count === 1 ? "story" : "stories")}</div>
             <h2 class="signal-topic">${escapeHTML(topicLabel(topic))}</h2>
             <p class="signal-text">${escapeHTML(teaser)}</p>
             <button class="signal-link" data-jump-topic="${escapeHTML(topic)}">${label}</button>
@@ -1269,20 +1423,15 @@
     function renderStoryCard(story, isFeatured = false) {
       const topic = normalizeTopic(story.topic || "tech");
       const hasPhoto = Boolean(story.image);
-      const imageStyle = hasPhoto
-        ? `style="background-image: linear-gradient(0deg, rgba(0,0,0,.52), rgba(0,0,0,0) 58%), url('${escapeHTML(story.image)}');"`
-        : "";
-      const scoreHTML = (story.score !== undefined && story.score !== null)
-        ? `<span class="score">${escapeHTML(story.score)}/10</span>`
-        : "";
+      const imageFit = story.image_fit === "cover" || story.image_type === "photo" ? "cover" : "contain";
       const title = pickLang(story.title);
       const summary = cleanDigestText(pickLang(story.body) || pickLang(story.summary));
       const classes = ["story", isFeatured ? "story-featured" : ""].filter(Boolean).join(" ");
 
       return `
         <article class="${classes}" data-topic="${escapeHTML(topic)}">
-          <div class="story-image ${hasPhoto ? "has-photo" : ""}" ${imageStyle}>
-            ${hasPhoto ? "" : storyImageLabel(title)}
+          <div class="story-image ${hasPhoto ? "has-photo" : ""}">
+            ${hasPhoto ? `<img src="${escapeAttr(story.image)}" alt="" data-fit="${imageFit}" loading="${isFeatured ? "eager" : "lazy"}" decoding="async">` : `<span class="image-label">${escapeHTML(storyImageLabel(title))}</span>`}
           </div>
           <div class="story-content">
             <div class="story-meta">${escapeHTML(story.source || t("noSource"))} · ${escapeHTML(topicLabel(topic))}</div>
@@ -1292,7 +1441,6 @@
             ${summary ? `<p class="story-summary">${escapeHTML(summary)}</p>` : ""}
             <div class="story-footer">
               <a class="read-source" href="${escapeHTML(story.link || "#")}" target="_blank" rel="noopener noreferrer">${t("readMore")}</a>
-              ${scoreHTML}
               <button type="button" class="share-btn" data-share-title="${escapeAttr(title || t("noTitle"))}" data-share-url="${escapeAttr(story.link || "")}" aria-label="${escapeAttr(t("share"))}">${SHARE_ICON}</button>
             </div>
           </div>
@@ -1308,17 +1456,17 @@
       const summary = cleanDigestText(rawSummary || rawText || "");
 
       return `
-        <a class="quick-read" href="${escapeHTML(item.link || "#")}" target="_blank" rel="noopener noreferrer" data-topic="${escapeHTML(topic)}">
-          <div class="quick-read-main">
+        <article class="quick-read" data-topic="${escapeHTML(topic)}">
+          <a class="quick-read-main" href="${escapeAttr(item.link || "#")}" target="_blank" rel="noopener noreferrer">
             <div class="quick-read-meta">${escapeHTML(item.source || t("noSource"))} · ${escapeHTML(topicLabel(topic))}</div>
             <h3 class="quick-read-title">${escapeHTML(title)}</h3>
             ${summary ? `<p class="quick-read-summary">${escapeHTML(summary)}</p>` : ""}
-          </div>
+          </a>
           <div class="quick-read-actions">
-            <span class="quick-read-arrow">↗</span>
+            <a class="quick-read-arrow" href="${escapeAttr(item.link || "#")}" target="_blank" rel="noopener noreferrer" aria-label="${escapeAttr((currentLang === "es" ? "Abrir noticia: " : "Open story: ") + title)}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></a>
             <button type="button" class="share-btn" data-share-title="${escapeAttr(title)}" data-share-url="${escapeAttr(item.link || "")}" aria-label="${escapeAttr(t("share"))}">${SHARE_ICON}</button>
           </div>
-        </a>`;
+        </article>`;
     }
 
     function renderStories(topStories, quickReads = []) {
@@ -1460,14 +1608,28 @@
       currentTopic = topic;
       document.querySelectorAll(".filter").forEach(f => {
         f.classList.toggle("active", f.dataset.topic === topic);
+        f.setAttribute("aria-pressed", String(f.dataset.topic === topic));
       });
-      document.querySelectorAll(".story, .signal, .developer-item, .repo-item").forEach(el => {
+      document.querySelectorAll(".story, .signal, .quick-read, .developer-item, .repo-item").forEach(el => {
         el.classList.toggle("hidden", topic !== "all" && el.dataset.topic !== topic);
       });
 
+      const visibleSignals = document.querySelectorAll(".signal:not(.hidden)").length;
+      document.getElementById("signals").style.setProperty("--signal-cols", Math.max(visibleSignals, 1));
+      document.getElementById("overview").classList.toggle("hidden", visibleSignals === 0);
+      document.querySelectorAll(".quick-reads-section, .developer-section, .repos-section").forEach(section => {
+        section.classList.toggle("hidden", !section.querySelector(".quick-read:not(.hidden), .developer-item:not(.hidden), .repo-item:not(.hidden)"));
+      });
+      document.querySelectorAll(".stories-grid").forEach(grid => grid.classList.toggle("hidden", !grid.querySelector(".story:not(.hidden)")));
+      const storyHeading = document.querySelector(".stories-header");
+      if (storyHeading) {
+        const count = document.querySelectorAll(".story:not(.hidden)").length;
+        storyHeading.classList.toggle("hidden", count === 0);
+        storyHeading.querySelector(".section-caption").textContent = t("storiesSelected", count);
+      }
       // Empty state for stories when filter yields nothing
       const storiesContainer = document.getElementById("stories");
-      const visibleStories = storiesContainer.querySelectorAll(".story:not(.hidden)");
+      const visibleStories = storiesContainer.querySelectorAll(".story:not(.hidden), .quick-read:not(.hidden)");
       let emptyEl = storiesContainer.querySelector(".stories-empty");
       if (topic !== "all" && visibleStories.length === 0) {
         if (!emptyEl) {
@@ -1535,6 +1697,16 @@
       updateDateButton();
       await loadAndRender(entry);
     }
+    document.getElementById("overview").open = !window.matchMedia("(max-width: 800px)").matches;
+    document.getElementById("stories").addEventListener("error", event => {
+      if (event.target.tagName !== "IMG") return;
+      const frame = event.target.parentElement;
+      frame.classList.remove("has-photo");
+      const fallback = document.createElement("span");
+      fallback.className = "image-label";
+      fallback.textContent = frame.closest(".story").querySelector(".story-title").textContent.trim();
+      event.target.replaceWith(fallback);
+    }, true);
     init();
   </script>
 </body>
