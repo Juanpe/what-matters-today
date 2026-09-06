@@ -926,8 +926,7 @@
     .story-featured { display:grid; padding:0 0 32px; align-items:center; gap:36px; }
     .story-image { position:relative; padding:0; overflow:hidden; background:var(--hover); color:var(--text); }
     .story-image.has-photo { background:#f0f0ed; font-size:inherit; }
-    .story-image img { display:block; width:100%; height:100%; position:absolute; inset:0; object-fit:contain; }
-    .story-image img[data-fit="cover"] { object-fit:cover; }
+    .story-image img { display:block; width:100%; height:100%; position:absolute; inset:0; object-fit:cover; object-position:center; }
     .story-image img[data-placeholder="true"] { background:#f3f3f0; }
     .image-label { padding:24px; font-size:22px; line-height:1.25; font-weight:650; letter-spacing:-.04em; }
     .story-featured .story-image { margin-bottom:0; aspect-ratio:16/11; min-height:0; max-height:none; }
@@ -1026,8 +1025,7 @@
       background:transparent;
       align-self:start;
     }
-    .story-featured .story-image img,
-    .story-featured .story-image img[data-fit="cover"] {
+    .story-featured .story-image img {
       position:static;
       display:block;
       width:100%;
@@ -1492,7 +1490,6 @@
     function renderStoryCard(story, isFeatured = false) {
       const topic = normalizeTopic(story.topic || "tech");
       const hasPhoto = typeof story.image === "string" && story.image.trim().length > 0;
-      const imageFit = !hasPhoto || story.image_fit === "cover" || story.image_type === "photo" ? "cover" : "contain";
       const title = pickLang(story.title);
       const summary = cleanDigestText(pickLang(story.body) || pickLang(story.summary));
       const classes = ["story", isFeatured ? "story-featured" : ""].filter(Boolean).join(" ");
@@ -1500,7 +1497,7 @@
       return `
         <article class="${classes}" data-topic="${escapeHTML(topic)}">
           <div class="story-image has-photo">
-            <img src="${escapeAttr(hasPhoto ? story.image : STORY_PLACEHOLDER)}" alt="" data-fit="${imageFit}" ${hasPhoto ? "" : 'data-placeholder="true"'} loading="${isFeatured ? "eager" : "lazy"}" decoding="async">
+            <img src="${escapeAttr(hasPhoto ? story.image : STORY_PLACEHOLDER)}" alt="" ${hasPhoto ? "" : 'data-placeholder="true"'} loading="${isFeatured ? "eager" : "lazy"}" decoding="async">
           </div>
           <div class="story-content">
             <div class="story-meta">${escapeHTML(story.source || t("noSource"))} · ${escapeHTML(topicLabel(topic))}</div>
@@ -1776,7 +1773,6 @@
       if (event.target.tagName !== "IMG") return;
       if (event.target.dataset.placeholder !== "true") {
         event.target.dataset.placeholder = "true";
-        event.target.dataset.fit = "cover";
         event.target.removeAttribute("srcset");
         event.target.src = STORY_PLACEHOLDER;
         return;
