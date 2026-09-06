@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Archivo — AI Daily Digest</title>
+  <title>Archivo — What Matters Today</title>
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -42,7 +42,7 @@
     button { font: inherit; }
 
     .page {
-      max-width: 760px;
+      max-width: 1040px;
       margin: 0 auto;
       padding: 24px 36px 80px;
     }
@@ -79,7 +79,7 @@
       flex-shrink: 0;
     }
     .lang-toggle {
-      height: 32px;
+      height: 44px;
       padding: 0 12px;
       border: 1px solid var(--line);
       border-radius: 999px;
@@ -108,7 +108,7 @@
     .theme-toggle:hover { transform: scale(1.04); }
 
     /* Hero */
-    .hero { margin-top: 56px; }
+    .hero { margin: 56px 0 40px; }
     .eyebrow {
       color: var(--muted);
       font-size: 13px;
@@ -117,20 +117,21 @@
     }
     h1 {
       margin: 14px 0 8px;
-      font-size: clamp(40px, 7vw, 60px);
+      font-size: clamp(52px, 8vw, 88px);
       line-height: .96;
       letter-spacing: -.05em;
       font-weight: 850;
     }
     .hero-subtitle {
-      margin: 0 0 12px;
+      margin: 20px 0;
       color: var(--muted);
       font-size: 15px;
       line-height: 1.45;
     }
     .back-link {
-      display: inline-block;
-      margin-bottom: 40px;
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
       color: var(--muted);
       font-size: 14px;
       font-weight: 700;
@@ -145,32 +146,29 @@
     }
 
     /* Archive list */
-    .archive-list {
-      display: flex;
-      flex-direction: column;
-      border-top: 1px solid var(--line);
+    .archive-count { color: var(--muted); font-size: 13px; margin: 0 0 16px; }
+    .latest-edition {
+      display: flex; align-items: center; justify-content: space-between; gap: 24px;
+      padding: 28px 32px; border: 1px solid var(--line); border-radius: 20px;
+      background: var(--hover); text-decoration: none;
     }
-    .archive-item {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      padding: 16px 0;
-      border-bottom: 1px solid var(--line);
-      color: var(--text);
-      text-decoration: none;
-      transition: color .15s ease;
-    }
-    .archive-item:hover { color: var(--muted); }
-    .archive-item.is-current .archive-date { font-weight: 850; }
-    .archive-date { font-size: 16px; }
-    .archive-badge {
-      color: var(--muted);
-      font-size: 11px;
-      font-weight: 850;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
+    .latest-label { display: block; color: var(--muted); font-size: 11px; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+    .latest-date { display: block; margin: 10px 0 16px; font-size: clamp(22px, 4vw, 32px); font-weight: 750; letter-spacing: -.04em; }
+    .latest-action { font-size: 14px; font-weight: 650; }
+    .latest-arrow { display: grid; place-items: center; flex-shrink: 0; width: 48px; height: 48px; border-radius: 50%; background: var(--text); color: var(--bg); font-size: 22px; }
+    .archive-month { margin-top: 36px; }
+    .month-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+    .month-heading h2 { margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -.03em; }
+    .month-heading h2::first-letter { text-transform: uppercase; }
+    .month-heading span { color: var(--muted); font-size: 12px; }
+    .month-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 16px 0 0; padding: 0; list-style: none; }
+    .archive-item { display: flex; align-items: center; gap: 16px; height: 100%; min-height: 100px; padding: 20px; border: 1px solid var(--line); border-radius: 14px; text-decoration: none; transition: background .15s ease, border-color .15s ease; }
+    .archive-item:hover, .latest-edition:hover { background: var(--surface); border-color: var(--muted); }
+    .archive-day { font-size: 36px; line-height: 1; font-weight: 750; letter-spacing: -.05em; font-variant-numeric: tabular-nums; }
+    .archive-weekday { display: block; font-size: 14px; text-transform: capitalize; }
+    .archive-date { display: block; color: var(--muted); font-size: 12px; margin-top: 5px; }
+    .archive-arrow { margin-left: auto; color: var(--muted); }
+    a:focus-visible, button:focus-visible { outline: 2px solid var(--text); outline-offset: 5px; }
     .empty-state {
       color: var(--muted);
       padding: 30px 0;
@@ -178,7 +176,19 @@
 
     @media (max-width: 700px) {
       .page { padding: 20px 20px 60px; }
+      .logo { font-size: 11px; letter-spacing: .06em; }
+      .topbar-actions { gap: 6px; }
+      .hero { margin-top: 40px; }
+      .month-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .archive-item { padding: 16px; gap: 12px; }
+      .latest-edition { padding: 24px; gap: 16px; }
     }
+    @media (max-width: 420px) {
+      .month-grid { grid-template-columns: 1fr; gap: 8px; }
+      .archive-item { min-height: 80px; }
+      .latest-arrow { width: 40px; height: 40px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
     .site-footer {
       margin-top: 56px;
       padding-top: 24px;
@@ -228,7 +238,7 @@
 <body>
   <main class="page">
     <header class="topbar">
-      <div class="logo">AI DAILY DIGEST</div>
+      <div class="logo">WHAT MATTERS TODAY</div>
       <div class="topbar-actions">
         <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language" onclick="toggleLang()">ES</button>
         <button class="theme-toggle" type="button" aria-label="Cambiar tema" onclick="toggleTheme()">◐</button>
@@ -242,7 +252,7 @@
       <a class="back-link" id="back-link" href="index.html">← Volver a hoy</a>
     </section>
 
-    <div class="archive-list" id="archive-list"></div>
+    <div class="archive-list" id="archive-list" aria-live="polite" aria-busy="true"></div>
 
     <footer class="site-footer">
       <span class="footer-sentence"><span id="footer-madewith">Hecho con ❤️ por</span> <span class="footer-name">Juanpe Catalán</span></span>
@@ -294,6 +304,13 @@
         today: "Hoy",
         madeWith: "Hecho con ❤️ por",
         langToggleLabel: "Switch to English",
+        latest: "Última edición",
+        openEdition: "Leer edición",
+        editions: "ediciones",
+        edition: "edición",
+        themeAria: "Cambiar tema",
+        loading: "Cargando ediciones…",
+        loadError: "No se pudo cargar el archivo. Recarga la página para volver a intentarlo.",
       },
       en: {
         locale: "en-US",
@@ -305,10 +322,19 @@
         today: "Today",
         madeWith: "Made with ❤️ by",
         langToggleLabel: "Cambiar a español",
+        latest: "Latest edition",
+        openEdition: "Read edition",
+        editions: "editions",
+        edition: "edition",
+        themeAria: "Toggle theme",
+        loading: "Loading editions…",
+        loadError: "Could not load the archive. Reload the page to try again.",
       },
     };
 
     function detectLang() {
+      const urlLang = new URLSearchParams(location.search).get("lang");
+      if (urlLang === "es" || urlLang === "en") return urlLang;
       const saved = localStorage.getItem("digest-lang");
       if (saved === "es" || saved === "en") return saved;
       return (navigator.language || "").toLowerCase().startsWith("en") ? "en" : "es";
@@ -316,6 +342,7 @@
 
     let currentLang = detectLang();
     let CACHED_DATES = null;
+    let archiveLoadFailed = false;
 
     function t(key) {
       return UI[currentLang][key] ?? UI.es[key] ?? "";
@@ -323,6 +350,8 @@
 
     function updateStaticText() {
       document.documentElement.lang = currentLang;
+      document.title = `${t("title")} — What Matters Today`;
+      document.querySelector(".theme-toggle").setAttribute("aria-label", t("themeAria"));
       document.getElementById("hero-eyebrow").textContent = t("eyebrow");
       document.getElementById("hero-title").textContent = t("title");
       document.getElementById("hero-subtitle").textContent = t("subtitle");
@@ -332,11 +361,17 @@
       langBtn.setAttribute("aria-label", t("langToggleLabel"));
       const footerMadeWith = document.getElementById("footer-madewith");
       if (footerMadeWith) footerMadeWith.textContent = t("madeWith");
+      const backLink = document.getElementById("back-link");
+      if (backLink) backLink.href = `index.html?lang=${encodeURIComponent(currentLang)}`;
+      if (CACHED_DATES === null) document.getElementById("archive-list").textContent = t("loading");
     }
 
     function setLang(lang) {
       currentLang = lang === "en" ? "en" : "es";
       localStorage.setItem("digest-lang", currentLang);
+      const url = new URL(location.href);
+      url.searchParams.set("lang", currentLang);
+      history.replaceState(null, "", url);
       updateStaticText();
       if (CACHED_DATES) renderArchiveList(CACHED_DATES);
     }
@@ -380,30 +415,58 @@
         const res = await fetch("data/archive-index.json?_=" + Date.now());
         if (!res.ok) throw new Error("No archive index");
         const dates = unwrapDates(await res.json());
-        return dates;
+        return [...new Set(dates.filter(date => typeof date === "string" && /^\d{4}-\d{2}-\d{2}$/.test(date) && !Number.isNaN(Date.parse(date))))].sort().reverse();
       } catch (e) {
         console.warn("Archive index fallback:", e);
+        archiveLoadFailed = true;
         return [];
       }
     }
 
     function renderArchiveList(dates) {
       const list = document.getElementById("archive-list");
+      list.setAttribute("aria-busy", "false");
 
       if (!dates.length) {
-        list.innerHTML = `<p class="empty-state">${escapeHTML(t("empty"))}</p>`;
+        list.innerHTML = `<p class="empty-state">${escapeHTML(t(archiveLoadFailed ? "loadError" : "empty"))}</p>`;
         return;
       }
 
-      list.innerHTML = dates.map((date, i) => `
-        <a class="archive-item ${i === 0 ? "is-current" : ""}" href="index.html?date=${encodeURIComponent(date)}">
-          <span class="archive-date">${escapeHTML(formatLabel(date))}</span>
-          ${i === 0 ? `<span class="archive-badge">${escapeHTML(t("today"))}</span>` : ""}
+      const editionUrl = date => `index.html?date=${encodeURIComponent(date)}&lang=${currentLang}`;
+      const countLabel = count => `${count} ${t(count === 1 ? "edition" : "editions")}`;
+      const months = new Map();
+      dates.slice(1).forEach(date => {
+        const month = date.slice(0, 7);
+        if (!months.has(month)) months.set(month, []);
+        months.get(month).push(date);
+      });
+      list.innerHTML = `
+        <p class="archive-count">${countLabel(dates.length)}</p>
+        <a class="latest-edition" href="${editionUrl(dates[0])}">
+          <span><span class="latest-label">${t("latest")}</span>
+            <time class="latest-date" datetime="${dates[0]}">${escapeHTML(formatLabel(dates[0]))}</time>
+            <span class="latest-action">${t("openEdition")}</span></span>
+          <span class="latest-arrow" aria-hidden="true">↗</span>
         </a>
-      `).join("");
+        ${[...months].map(([month, entries]) => `
+          <section class="archive-month" aria-labelledby="month-${month}">
+            <div class="month-heading"><h2 id="month-${month}">${escapeHTML(new Date(month + "-01T00:00:00").toLocaleDateString(UI[currentLang].locale, { month: "long", year: "numeric" }))}</h2><span>${countLabel(entries.length)}</span></div>
+            <ul class="month-grid">${entries.map(date => `
+              <li><a class="archive-item" href="${editionUrl(date)}">
+                <span class="archive-day" aria-hidden="true">${date.slice(8)}</span>
+                <time datetime="${date}"><span class="archive-weekday">${escapeHTML(new Date(date + "T00:00:00").toLocaleDateString(UI[currentLang].locale, { weekday: "long" }))}</span>
+                  <span class="archive-date">${escapeHTML(new Date(date + "T00:00:00").toLocaleDateString(UI[currentLang].locale, { day: "numeric", month: "short", year: "numeric" }))}</span></time>
+                <span class="archive-arrow" aria-hidden="true">↗</span>
+              </a></li>`).join("")}</ul>
+          </section>`).join("")}`;
     }
 
     async function init() {
+      const urlLang = new URLSearchParams(location.search).get("lang");
+      if (urlLang === "es" || urlLang === "en") {
+        currentLang = urlLang;
+        localStorage.setItem("digest-lang", currentLang);
+      }
       updateStaticText();
       const dates = await loadArchiveIndex();
       CACHED_DATES = dates;

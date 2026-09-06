@@ -1061,7 +1061,7 @@
     <header class="topbar">
       <div class="logo" id="edition-label">EDICIÓN DIARIA</div>
       <div class="date-selector">
-        <a class="date-button" href="archive.html" id="date-button">
+        <a class="date-button" href="archive.html?lang=es" id="date-button">
           Cargando…
         </a>
       </div>
@@ -1239,6 +1239,8 @@
     };
 
     function detectLang() {
+      const urlLang = new URLSearchParams(location.search).get("lang");
+      if (urlLang === "es" || urlLang === "en") return urlLang;
       const saved = localStorage.getItem("digest-lang");
       if (saved === "es" || saved === "en") return saved;
       return (navigator.language || "").toLowerCase().startsWith("en") ? "en" : "es";
@@ -1262,6 +1264,7 @@
       const btn = document.getElementById("date-button");
       if (!btn) return;
       btn.textContent = ACTIVE_DATE ? formatLabel(ACTIVE_DATE) : t("today");
+      btn.href = `archive.html?lang=${encodeURIComponent(currentLang)}`;
     }
 
     function updateStaticText() {
@@ -1284,8 +1287,11 @@
     }
 
     function setLang(lang) {
-      currentLang = lang;
-      localStorage.setItem("digest-lang", lang);
+      currentLang = lang === "en" ? "en" : "es";
+      localStorage.setItem("digest-lang", currentLang);
+      const url = new URL(location.href);
+      url.searchParams.set("lang", currentLang);
+      history.replaceState(null, "", url);
       updateStaticText();
       if (CURRENT_DIGEST) renderDigest(CURRENT_DIGEST);
     }
@@ -1755,6 +1761,11 @@
 
     /* Init */
     async function init() {
+      const urlLang = new URLSearchParams(location.search).get("lang");
+      if (urlLang === "es" || urlLang === "en") {
+        currentLang = urlLang;
+        localStorage.setItem("digest-lang", currentLang);
+      }
       ARCHIVE = await loadArchiveIndex();
       const requestedDate = new URLSearchParams(location.search).get("date");
       const entry = (requestedDate && ARCHIVE.find(a => a.date === requestedDate)) || ARCHIVE[0];
