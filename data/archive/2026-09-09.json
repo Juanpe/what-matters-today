@@ -1,0 +1,821 @@
+{
+  "schema_version": 22,
+  "edition_id": "wmt-2026-09-09",
+  "date": "2026-09-09",
+  "daily_summary": {
+    "es": "El Apple Event de mañana promete iPhone 18 Pro, el primer iPhone plegable y una nueva app 'Readiness', mientras la seguridad de IA vuelve a ocupar titulares con un canal de robo de datos en OpenAI y controversia sobre un supuesto hito matemático.",
+    "en": "Tomorrow's Apple Event promises the iPhone 18 Pro, the first foldable iPhone and a new 'Readiness' app, while AI security returns to headlines with a covert data-theft channel at OpenAI and controversy over a claimed math milestone."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Apple se prepara para su evento 'Un rayo de wow', donde se espera el iPhone 18 Pro, el primer iPhone plegable y una nueva app de recuperación física llamada 'Readiness'. Además, Apple lanzó iOS 26.6.2 con una corrección menor, el Reino Unido volvió a presionar por más controles infantiles pese a las herramientas ya existentes, y Amazon ofrece los primeros descuentos de preventa en Mac Studio y Mac mini.",
+      "en": "Apple is gearing up for its 'A Flash of Wow' event, expected to unveil the iPhone 18 Pro, the first foldable iPhone, and a new recovery-tracking app called 'Readiness.' Apple also released iOS 26.6.2 with a minor fix, the UK renewed pressure for more child-safety controls despite Apple's existing tools, and Amazon is offering first-ever pre-order discounts on the Mac Studio and Mac mini."
+    },
+    "ai_software": {
+      "es": "Se reveló un canal encubierto en la infraestructura interna de OpenAI (Artifactory) que permitía robar datos de sesiones de otros usuarios, ya cerrado tras ser reportado. Por otro lado, Meta AI lanzó Muse, un nuevo agente personal para iPhone, y la comunidad de modelos abiertos sigue moviéndose rápido con lanzamientos como GLM-5.3 y Motif-3.",
+      "en": "A covert channel in OpenAI's internal Artifactory infrastructure was disclosed, allowing data theft from other users' sessions before being closed. Separately, Meta AI launched Muse, a new personal agent for iPhone, and the open-model ecosystem keeps moving fast with releases like GLM-5.3 and Motif-3."
+    },
+    "ai_general": {
+      "es": "Un nuevo recurso explora cómo una IA más capaz y accesible puede ampliar el trabajo que personas y empresas pueden realizar, haciendo el crecimiento más económico.",
+      "en": "A new resource explores how more capable, affordable AI can expand the work people and businesses can accomplish, making growth more economical."
+    },
+    "tech": {
+      "es": "OpenAI generó controversia al anunciar una supuesta solución al problema de Navier-Stokes usando un modelo interno más potente que GPT-6 Astra, mientras persisten dudas sobre el impacto real de la IA en tareas como investigación matemática y seguridad. Además, hackers están robando tokens de suscriptores de Claude, y Cloudflare avanza hacia conexiones seguras poscuánticas a escala masiva.",
+      "en": "OpenAI stirred controversy by announcing a claimed solution to the Navier-Stokes problem using an internal model more powerful than GPT-6 Astra, amid lingering doubts about AI's real impact on tasks like math research and security. Separately, hackers are stealing tokens from Claude subscribers, and Cloudflare is moving toward post-quantum-secure connections at massive scale."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple se prepara para su evento 'Un rayo de wow', donde se espera el iPhone 18 Pro, el primer iPhone plegable y una nueva app de recuperación física llamada 'Readiness'. Además, Apple lanzó iOS 26.6.2 con una corrección menor, el Reino Unido volvió a presionar por más controles infantiles pese a las herramientas ya existentes, y Amazon ofrece los primeros descuentos de preventa en Mac Studio y Mac mini.",
+      "en": "Apple is gearing up for its 'A Flash of Wow' event, expected to unveil the iPhone 18 Pro, the first foldable iPhone, and a new recovery-tracking app called 'Readiness.' Apple also released iOS 26.6.2 with a minor fix, the UK renewed pressure for more child-safety controls despite Apple's existing tools, and Amazon is offering first-ever pre-order discounts on the Mac Studio and Mac mini."
+    },
+    "ai_software": {
+      "es": "Se reveló un canal encubierto en la infraestructura interna de OpenAI (Artifactory) que permitía robar datos de sesiones de otros usuarios, ya cerrado tras ser reportado. Por otro lado, Meta AI lanzó Muse, un nuevo agente personal para iPhone, y la comunidad de modelos abiertos sigue moviéndose rápido con lanzamientos como GLM-5.3 y Motif-3.",
+      "en": "A covert channel in OpenAI's internal Artifactory infrastructure was disclosed, allowing data theft from other users' sessions before being closed. Separately, Meta AI launched Muse, a new personal agent for iPhone, and the open-model ecosystem keeps moving fast with releases like GLM-5.3 and Motif-3."
+    },
+    "ai_general": {
+      "es": "Un nuevo recurso explora cómo una IA más capaz y accesible puede ampliar el trabajo que personas y empresas pueden realizar, haciendo el crecimiento más económico.",
+      "en": "A new resource explores how more capable, affordable AI can expand the work people and businesses can accomplish, making growth more economical."
+    },
+    "tech": {
+      "es": "OpenAI generó controversia al anunciar una supuesta solución al problema de Navier-Stokes usando un modelo interno más potente que GPT-6 Astra, mientras persisten dudas sobre el impacto real de la IA en tareas como investigación matemática y seguridad. Además, hackers están robando tokens de suscriptores de Claude, y Cloudflare avanza hacia conexiones seguras poscuánticas a escala masiva.",
+      "en": "OpenAI stirred controversy by announcing a claimed solution to the Navier-Stokes problem using an internal model more powerful than GPT-6 Astra, amid lingering doubts about AI's real impact on tasks like math research and security. Separately, hackers are stealing tokens from Claude subscribers, and Cloudflare is moving toward post-quantum-secure connections at massive scale."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "evt_656d89a65737c88a",
+      "title": {
+        "es": "Un canal encubierto en Artifactory de OpenAI permitía robar datos de otros usuarios",
+        "en": "A covert channel in OpenAI's Artifactory allowed data theft from other users"
+      },
+      "body": {
+        "es": "Según Check Point Research, un canal secreto en la instancia interna de JFrog Artifactory de ChatGPT permitía que una cuenta enviara tareas ocultas —como extraer datos de Gmail— a la sesión de otra cuenta, sin que la víctima notara nada. El fallo, reportado a OpenAI a fines de junio, ya fue cerrado tras la baja de esa instancia interna por el incidente separado en Hugging Face. El ataque podría haber alcanzado cualquier app conectada que la sesión de la víctima tuviera autorizada, como Google Drive o GitHub.",
+        "en": "According to Check Point Research, a secret channel in ChatGPT's internal JFrog Artifactory instance let one account send hidden tasks — such as pulling Gmail data — to another account's session, with the victim seeing no sign of it. The flaw, disclosed to OpenAI in late June, has since been closed after the internal instance was decommissioned following the separate Hugging Face incident. The attack could have reached any connected app the victim's session was authorized for, such as Google Drive or GitHub."
+      },
+      "newsId": "evt_656d89a65737c88a",
+      "storyKey": "evt_656d89a65737c88a",
+      "topic": "ai_software",
+      "source": "The Register AI & ML",
+      "link": "https://www.theregister.com/security/2026/09/08/openais-artifactory-opened-covert-data-stealing-channel-alongside-hugging-face-attack/5295124",
+      "image": "https://image.theregister.com/5295128.jpg?croph=100&cropw=100&height=683&imageId=5295128&panoh=100&panow=100&panox=0&panoy=0&width=1200&x=0&y=0",
+      "score": 8.35,
+      "publishedAt": "2026-09-08T21:12:19.000Z",
+      "evidence": [
+        {
+          "claim": "OpenAI's Artifactory opened a covert data-stealing channel.",
+          "source": "910f8aa0ccaae138"
+        },
+        {
+          "claim": "The covert channel was disclosed to OpenAI in late June.",
+          "source": "910f8aa0ccaae138"
+        },
+        {
+          "claim": "The victim saw no indication of the hidden instructions or stolen data.",
+          "source": "910f8aa0ccaae138"
+        },
+        {
+          "claim": "The covert channel has since been closed.",
+          "source": "910f8aa0ccaae138"
+        },
+        {
+          "claim": "The attack could extend to any connected apps that the victim’s session was authorized to access.",
+          "source": "910f8aa0ccaae138"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Register AI & ML",
+          "link": "https://www.theregister.com/security/2026/09/08/openais-artifactory-opened-covert-data-stealing-channel-alongside-hugging-face-attack/5295124"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_74d777238f6c3c03",
+      "title": {
+        "es": "Polémica en torno al supuesto hito matemático de OpenAI",
+        "en": "Drama swirls around OpenAI's claimed math milestone"
+      },
+      "body": {
+        "es": "OpenAI afirmó haber resuelto el problema de Navier-Stokes, relacionado con el flujo de líquidos y gases, usando un modelo interno más potente que el recién lanzado GPT-6 Astra junto con 10.000 agentes concurrentes. El anuncio, atribuido a la propia OpenAI, ha generado controversia sobre su validez y alcance real.",
+        "en": "OpenAI claimed to have found a solution to the Navier-Stokes problem, which relates to the flow of liquid and gas, using an internal AI model more powerful than the newly released GPT-6 Astra alongside 10,000 concurrent agents. The announcement, attributed to OpenAI itself, has sparked controversy over its validity and real significance."
+      },
+      "newsId": "evt_74d777238f6c3c03",
+      "storyKey": "evt_74d777238f6c3c03",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25844039/STK155_OPEN_AI_CVirginia__A.jpg?crop=0%2C10.732984293194%2C100%2C78.534031413613&quality=90&strip=all&w=1200",
+      "score": 8.35,
+      "publishedAt": "2026-09-08T20:53:52.000Z",
+      "evidence": [
+        {
+          "claim": "OpenAI announced a solution to the Navier-Stokes problem using an internal AI model.",
+          "source": "a6d7f30dffa75583"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_c10b34b130c41e47",
+      "title": {
+        "es": "Apple presentaría mañana una nueva app 'Readiness'",
+        "en": "Apple set to introduce new 'Readiness' app tomorrow"
+      },
+      "body": {
+        "es": "Según Mark Gurman de Bloomberg, Apple anunciará una app 'Readiness' durante su evento 'Surprise and Shine', descrita como una variante de la app Vitals del Apple Watch. Basada en métricas similares, mostraría a los usuarios cuán recuperado está su cuerpo para la actividad física, en un intento por competir mejor con Whoop y Oura. Ya se habían encontrado indicios de la app en el código beta de watchOS 27.",
+        "en": "According to Bloomberg's Mark Gurman, Apple will announce a 'Readiness' app during its 'Surprise and Shine' event, described as a variant of the Apple Watch's Vitals app. Based on similar metrics, it would show users how recovered their body is for activity, in an effort to better compete with Whoop and Oura. Evidence of the app had already been found in watchOS 27 beta code."
+      },
+      "newsId": "evt_c10b34b130c41e47",
+      "storyKey": "evt_c10b34b130c41e47",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/09/08/apple-to-announce-readiness-app",
+      "image": "https://images.macrumors.com/article-new/2026/08/apple-watch-series-12-activity-rings-fitness.png",
+      "score": 7.65,
+      "publishedAt": "2026-09-08T15:55:52.000Z",
+      "evidence": [
+        {
+          "claim": "Apple plans to announce an all-new 'Readiness' app during its 'Surprise and Shine' event this Wednesday.",
+          "source": "3e121da91e5ccaa1"
+        },
+        {
+          "claim": "The 'Readiness' app will be a variant of the existing Vitals app on the Apple Watch.",
+          "source": "3e121da91e5ccaa1"
+        },
+        {
+          "claim": "The Readiness app would likely show users how recovered their body is for activity based on similar metrics as the Vitals app.",
+          "source": "3e121da91e5ccaa1"
+        },
+        {
+          "claim": "Evidence of the 'Readiness' app in watchOS 27 beta code was already discovered by a MacRumors forum member known as 'pdfu'.",
+          "source": "3e121da91e5ccaa1"
+        },
+        {
+          "claim": "The 'Readiness' app aims to better compete with software from Whoop and Oura.",
+          "source": "3e121da91e5ccaa1"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/09/08/apple-to-announce-readiness-app"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_f9819a028592921a",
+      "title": {
+        "es": "Meta AI lanza Muse, un agente personal para iPhone",
+        "en": "Meta AI launches Muse, a personal agent for iPhone"
+      },
+      "body": {
+        "es": "Meta AI lanzó Muse, una nueva app para iPhone descrita como un agente de IA personal que se encarga de tareas por el usuario. Es un movimiento de Meta para llevar sus capacidades de agentes directamente al ecosistema móvil de Apple.",
+        "en": "Meta AI launched Muse, a new iPhone app described as a personal AI agent that handles tasks on the user's behalf. It marks a move by Meta to bring its agent capabilities directly into Apple's mobile ecosystem."
+      },
+      "newsId": "evt_f9819a028592921a",
+      "storyKey": "evt_f9819a028592921a",
+      "topic": "ai_software",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/09/08/meta-ai-launches-muse-personal-agent-including-a-new-mobile-app-for-iphone",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/muse-agent.webp?w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-09-08T19:17:21.000Z",
+      "evidence": [
+        {
+          "claim": "Meta AI has launched a new iPhone app called Muse.",
+          "source": "5d683118921cb530"
+        },
+        {
+          "claim": "Muse is a personal AI agent that handles tasks for users.",
+          "source": "5d683118921cb530"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/09/08/meta-ai-launches-muse-personal-agent-including-a-new-mobile-app-for-iphone"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_27fc718fee80bb29",
+      "title": {
+        "es": "El iPhone Ultra plegable podría llegar más tarde a China",
+        "en": "Foldable iPhone Ultra may launch later in China"
+      },
+      "body": {
+        "es": "Según un filtrador chino confiable, el iPhone plegable de Apple podría lanzarse después en China que en otros mercados, posiblemente por asignación regional de un inventario inicial limitado. Se estima que Apple ordenó unas 10 millones de unidades para este año, aunque las pruebas de durabilidad de bisagra y pantalla estarían tomando más tiempo del esperado. Gurman espera que el lanzamiento coincida, con semanas de diferencia como máximo, con el del iPhone 18 Pro.",
+        "en": "According to a reliable Chinese leaker, Apple's foldable iPhone may launch later in China than in other markets, possibly due to regional allocation of limited initial inventory. Apple reportedly ordered around 10 million units for this year, though hinge and display durability testing is said to be taking longer than expected. Gurman expects the launch to align with the iPhone 18 Pro, at most within a few weeks of it."
+      },
+      "newsId": "evt_27fc718fee80bb29",
+      "storyKey": "evt_27fc718fee80bb29",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/09/08/foldable-iphone-may-launch-later-china",
+      "image": "https://images.macrumors.com/article-new/2026/08/iPhone-Ultra-Fold-Feature.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-09-08T11:47:03.000Z",
+      "evidence": [
+        {
+          "claim": "Apple's foldable 'iPhone Ultra' may launch in mainland China later than in some other markets.",
+          "source": "fa9ac3b8f5756730"
+        },
+        {
+          "claim": "Apple has a limited initial inventory for its first foldable device.",
+          "source": "fa9ac3b8f5756730"
+        },
+        {
+          "claim": "Bloomberg's Mark Gurman expects the foldable iPhone to launch around the same time as the iPhone 18 Pro models.",
+          "source": "fa9ac3b8f5756730"
+        },
+        {
+          "claim": "Apple has reportedly ordered around 10 million units of the foldable for this year.",
+          "source": "fa9ac3b8f5756730"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/09/08/foldable-iphone-may-launch-later-china"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_a1a48208da5d7650",
+      "title": {
+        "es": "Hackers están robando tokens de suscriptores de Claude",
+        "en": "Hackers are stealing Claude tokens from subscribers"
+      },
+      "body": {
+        "es": "Un usuario de Claude notó el mes pasado que su cuenta consumía tokens aun sin estar trabajando, lo que sugiere que atacantes están explotando cuentas de suscriptores para consumir su cuota sin autorización. El caso apunta a un problema más amplio de seguridad en el acceso a cuentas de servicios de IA.",
+        "en": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working, suggesting attackers are exploiting subscriber accounts to burn through their quota without authorization. The case points to a broader account-security problem for AI service access."
+      },
+      "newsId": "evt_a1a48208da5d7650",
+      "storyKey": "evt_a1a48208da5d7650",
+      "topic": "tech",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+      "score": 7.65,
+      "publishedAt": "2026-09-08T21:10:27.000Z",
+      "evidence": [
+        {
+          "claim": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working.",
+          "source": "8e9224fe58fe6404"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_07e8f3a72e27c181",
+      "title": {
+        "es": "Todo listo para el evento de Apple: iPhone 18 Pro y el primer plegable",
+        "en": "All set for Apple's event: iPhone 18 Pro and the first foldable"
+      },
+      "body": {
+        "es": "Apple ha nombrado la keynote de mañana 'Un rayo de wow', donde se esperan el iPhone 18 Pro y el primer iPhone plegable. Será un evento pregrabado con emisión en vivo del vídeo, y el diseño del cartel —un cielo brillante con el logo de la manzana recortado del sol— podría anticipar la apertura variable rumoreada para la cámara del 18 Pro.",
+        "en": "Apple has named tomorrow's keynote 'A Flash of Wow,' where the iPhone 18 Pro and the first foldable iPhone are expected. It will be a pre-recorded event with live video streaming, and the poster design — a bright sky with the apple cut out of the sun — may hint at the rumored variable aperture for the 18 Pro's camera."
+      },
+      "newsId": "evt_07e8f3a72e27c181",
+      "storyKey": "evt_07e8f3a72e27c181",
+      "topic": "apple",
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/apple-1/esta-aqui-bingo-applesfera-para-apple-event-nuevos-iphone",
+      "image": "https://i.blogs.es/7a585c/bingo-applesfera/840_560.jpeg",
+      "score": 7.65,
+      "publishedAt": "2026-09-08T15:01:01.000Z",
+      "evidence": [
+        {
+          "claim": "Apple has named the keynote for the upcoming event as 'Un rayo de wow'.",
+          "source": "15e17c41bdd43eb5"
+        },
+        {
+          "claim": "The event will feature the iPhone 18 Pro and the first plegable (foldable) iPhone.",
+          "source": "15e17c41bdd43eb5"
+        },
+        {
+          "claim": "The event will be a pre-recorded keynote with live video streaming.",
+          "source": "15e17c41bdd43eb5"
+        },
+        {
+          "claim": "Apple will use a bright sky with the apple cut out of the sun as the background for the event.",
+          "source": "15e17c41bdd43eb5"
+        },
+        {
+          "claim": "The event will be covered live on Applesfera's website and social media.",
+          "source": "15e17c41bdd43eb5"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Applesfera",
+          "link": "https://www.applesfera.com/apple-1/esta-aqui-bingo-applesfera-para-apple-event-nuevos-iphone"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "evt_f0c584209c296686",
+      "title": {
+        "es": "El Reino Unido repite exigencias de seguridad infantil que Apple ya cumplió",
+        "en": "UK repeats child safety demands Apple already met"
+      },
+      "text": {
+        "es": "Pese a que Apple ya cuenta con Advertencias de Contenido Sensible desde iOS 17 y controles parentales ampliados anunciados en WWDC 2026, la secretaria de Cultura del Reino Unido, Lisa Nandy, anunció que el gobierno legislará sobre seguridad infantil, sin especificar plazos ni qué falta exactamente.",
+        "en": "Despite Apple already offering Sensitive Content Warnings since iOS 17 and expanded parental controls announced at WWDC 2026, UK Culture Secretary Lisa Nandy said the government will introduce legislation on child safety, without specifying a timeline or what exactly is missing."
+      },
+      "newsId": "evt_f0c584209c296686",
+      "storyKey": "evt_f0c584209c296686",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/09/08/uk-repeats-demands-for-child-safety-features-that-apple-already-made",
+      "image": "https://media.appleinsider.com/gallery/68881-145112-IMG_5015-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-09-08T22:47:48.000Z",
+      "evidence": [
+        {
+          "claim": "Apple's child safety toolset is already robust and expanding with iOS 27.",
+          "source": "4983cc5a6f0f7244"
+        },
+        {
+          "claim": "Apple introduced Sensitive Content Warnings with iOS 17 for child accounts and later introduced it as an option for adults.",
+          "source": "4983cc5a6f0f7244"
+        },
+        {
+          "claim": "The UK government is threatening to introduce legislation on child safety features despite Apple's existing measures.",
+          "source": "4983cc5a6f0f7244"
+        },
+        {
+          "claim": "Apple's child safety features include controls over app access, communication, and device usage times.",
+          "source": "4983cc5a6f0f7244"
+        },
+        {
+          "claim": "Apple's child safety tools and parental controls are comprehensive, but the UK could argue for more and force the matter via law if necessary.",
+          "source": "4983cc5a6f0f7244"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/09/08/uk-repeats-demands-for-child-safety-features-that-apple-already-made"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_19831b31c7621599",
+      "title": {
+        "es": "El Apple TV 4K podría incorporar Siri con IA gracias al chip A19",
+        "en": "Apple TV 4K may get Siri AI thanks to the A19 chip"
+      },
+      "text": {
+        "es": "Código de tvOS 27 reveló que el Apple TV 4K está en camino de recibir soporte de Siri con IA, posiblemente presentado en el evento del 9 de septiembre. El chip N1 ya está presente en dispositivos con A19 y A19 Pro, como el iPhone 17 y iPhone 17 Pro.",
+        "en": "tvOS 27 code revealed that the Apple TV 4K is on track to get Siri AI support, possibly unveiled at the September 9 event. The N1 chip is already found in devices with the A19 and A19 Pro, such as the iPhone 17 and iPhone 17 Pro."
+      },
+      "newsId": "evt_19831b31c7621599",
+      "storyKey": "evt_19831b31c7621599",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/09/08/apple-tv-4k-may-get-siri-ai-thanks-to-the-a19-or-a19-pro-chip",
+      "image": "https://media.appleinsider.com/gallery/68879-145107-Apple-TV-4K-front-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-09-08T18:35:42.000Z",
+      "evidence": [
+        {
+          "claim": "The next-generation Apple TV will get Siri AI support.",
+          "source": "147fc89418b6fc66"
+        },
+        {
+          "claim": "The new Apple TV 4K is expected to be unveiled at Apple's 'Surprise and Shine' event on September 9, 2026.",
+          "source": "147fc89418b6fc66"
+        },
+        {
+          "claim": "The A19 or A19 Pro chip is used in the iPhone 17 and iPhone 17 Pro.",
+          "source": "147fc89418b6fc66"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/09/08/apple-tv-4k-may-get-siri-ai-thanks-to-the-a19-or-a19-pro-chip"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_b68ff438725da1ce",
+      "title": {
+        "es": "Amazon ofrece los primeros descuentos de preventa en Mac Studio y Mac mini",
+        "en": "Amazon introduces first pre-order discounts on Mac Studio and Mac mini"
+      },
+      "text": {
+        "es": "El M5 Max Mac Studio con 36GB de RAM y 512GB SSD está en oferta por 2.449,99 dólares, un descuento de preventa de 49 dólares. Apple afirma que el Mac mini con chip M6 ofrece hasta 40% más rendimiento de CPU y hasta 4 veces más rendimiento en tareas de IA frente al modelo anterior.",
+        "en": "The M5 Max Mac Studio with 36GB RAM and 512GB SSD is on sale for $2,449.99, a $49 pre-order discount. Apple states the Mac mini with the M6 chip delivers up to 40% faster CPU performance and up to 4x faster AI task performance compared to the previous model."
+      },
+      "newsId": "evt_b68ff438725da1ce",
+      "storyKey": "evt_b68ff438725da1ce",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/09/08/amazon-discount-mac-studio",
+      "image": "https://images.macrumors.com/article-new/2025/11/mac-studio-purple.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-09-08T13:05:49.000Z",
+      "evidence": [
+        {
+          "claim": "Amazon introduced pre-order discounts for the Mac mini and Mac Studio.",
+          "source": "79878c13e1af99fd"
+        },
+        {
+          "claim": "The M5 Max Mac Studio with 36GB RAM and a 512GB SSD is on sale for $2,449.99, a $49 pre-order discount.",
+          "source": "79878c13e1af99fd"
+        },
+        {
+          "claim": "The Mac mini with the M6 chip delivers up to 40% faster CPU performance and up to 4× faster performance for AI tasks.",
+          "source": "79878c13e1af99fd"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/09/08/amazon-discount-mac-studio"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_fd35a9cb96d67111",
+      "title": {
+        "es": "Apple lanza iOS 26.6.2 con una corrección menor",
+        "en": "Apple releases iOS 26.6.2 with a minor fix"
+      },
+      "text": {
+        "es": "La actualización corrige un problema que impedía descargar actualizaciones de software por conexión celular, y ya está disponible para el iPhone 11 y modelos posteriores, tras iOS 26.6.1 que trajo correcciones de seguridad.",
+        "en": "The update fixes an issue preventing software update downloads over a cellular connection, and is now rolling out for the iPhone 11 series and newer, following iOS 26.6.1 which delivered security fixes."
+      },
+      "newsId": "evt_fd35a9cb96d67111",
+      "storyKey": "evt_fd35a9cb96d67111",
+      "topic": "apple",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/09/08/apple-releases-ios-26-6-2-for-iphone-heres-whats-new",
+      "image": "https://images.macrumors.com/article-new/2026/09/iOS-26-6-2.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-09-08T17:47:02.000Z",
+      "evidence": [
+        {
+          "claim": "Apple has released iOS 26.6.2 with a fix for an issue that prevents downloading a software update over a cellular connection.",
+          "source": "8a66fabcda86ae16"
+        },
+        {
+          "claim": "The minor software update is rolling out now for the iPhone 11 series and newer.",
+          "source": "8a66fabcda86ae16"
+        },
+        {
+          "claim": "To update your iPhone, open the Settings app and tap on General → Software Update.",
+          "source": "8a66fabcda86ae16"
+        },
+        {
+          "claim": "iOS 26.6.1, which delivered security fixes, was released this Wednesday.",
+          "source": "8a66fabcda86ae16"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/09/08/apple-releases-ios-26-6-2-for-iphone-heres-whats-new"
+        },
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/09/08/apple-releases-ios-26-6-2"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "unslothai/unsloth",
+      "repoKey": "unslothai/unsloth",
+      "name": "unsloth",
+      "full_name": "unslothai/unsloth",
+      "link": "https://github.com/unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
+      "language": "Python",
+      "stars": 75857,
+      "stars_today": null,
+      "stars_per_day_estimate": 62.90866172163026,
+      "trend_basis": "normalized_66.0h",
+      "trend_score": 8.997897324164416,
+      "default_branch": "main",
+      "created_at": "2023-11-29T16:50:09Z",
+      "pushed_at": "2026-09-08T22:00:22Z",
+      "why_it_matters": {
+        "es": "Unsloth ahora ofrece una app de escritorio nativa para Windows, macOS y Linux que permite ejecutar y entrenar modelos como Qwen3.8, GLM-5.3-Flash, DeepSeek-V4 y Gemma 4 localmente, con soporte multi-GPU, agentes como Claude Code y Codex, y APIs compatibles con OpenAI, facilitando el desarrollo de IA local sin depender de servicios en la nube.",
+        "en": "Unsloth now offers a native desktop app for Windows, macOS and Linux to run and train models like Qwen3.8, GLM-5.3-Flash, DeepSeek-V4 and Gemma 4 locally, with multi-GPU support, agent integrations like Claude Code and Codex, and OpenAI-compatible APIs, making local AI development easier without relying on cloud services."
+      }
+    },
+    {
+      "id": "omnigent-ai/omnigent",
+      "repoKey": "omnigent-ai/omnigent",
+      "name": "omnigent",
+      "full_name": "omnigent-ai/omnigent",
+      "link": "https://github.com/omnigent-ai/omnigent",
+      "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "language": "Python",
+      "stars": 9787,
+      "stars_today": 21,
+      "stars_per_day_estimate": 21.00040882740333,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 7.458314328545132,
+      "default_branch": "main",
+      "created_at": "2026-06-11T12:18:13Z",
+      "pushed_at": "2026-09-08T21:52:26Z",
+      "why_it_matters": {
+        "es": "Omnigent es un meta-harness open source que orquesta múltiples agentes de codificación (Claude Code, Codex, Cursor, OpenCode) bajo una capa común, permitiendo cambiar de harness sin reescribir código, aplicar políticas de seguridad y sandboxing, y colaborar en tiempo real desde cualquier dispositivo, incluido el móvil.",
+        "en": "Omnigent is an open-source meta-harness that orchestrates multiple coding agents (Claude Code, Codex, Cursor, OpenCode) under a common layer, letting developers swap harnesses without rewriting code, enforce security policies and sandboxing, and collaborate in real time from any device, including mobile."
+      }
+    },
+    {
+      "id": "pgrundev/pgbot",
+      "repoKey": "pgrundev/pgbot",
+      "name": "pgbot",
+      "full_name": "pgrundev/pgbot",
+      "link": "https://github.com/pgrundev/pgbot",
+      "description": "Postgres intelligence for ai agents & apps",
+      "language": "Go",
+      "stars": 1023,
+      "stars_today": 32,
+      "stars_per_day_estimate": 32.00062297509079,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 8.009490217771978,
+      "default_branch": "main",
+      "created_at": "2026-08-11T23:41:52Z",
+      "pushed_at": "2026-09-08T17:49:10Z",
+      "why_it_matters": {
+        "es": "pgbot es un binario estático de solo lectura que analiza las vistas de estadísticas propias de PostgreSQL para generar informes de salud de la base de datos con hallazgos priorizados y sin necesidad de agentes ni privilegios de escritura, útil para observabilidad rápida en producción.",
+        "en": "pgbot is a read-only static binary that reads PostgreSQL's own statistics views to produce findings-first database health reports, requiring no agent or write privileges, useful for quick production observability."
+      }
+    },
+    {
+      "id": "2akouwu/reverify",
+      "repoKey": "2akouwu/reverify",
+      "name": "reverify",
+      "full_name": "2akouwu/reverify",
+      "link": "https://github.com/2akouwu/reverify",
+      "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
+      "language": "Python",
+      "stars": 1038,
+      "stars_today": 29,
+      "stars_per_day_estimate": 29.000564571176028,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 7.608507442246841,
+      "default_branch": "main",
+      "created_at": "2026-08-31T01:02:18Z",
+      "pushed_at": "2026-09-07T10:12:07Z",
+      "why_it_matters": {
+        "es": "Reverify obliga a que las afirmaciones de un modelo de IA sean verificadas por herramientas deterministas antes de aceptarse como hechos, mostrando en ingeniería inversa binaria que la respuesta directa del modelo era incorrecta el 97% de las veces en 71 archivos reales de Windows, mientras la herramienta nunca aceptó una afirmación falsa.",
+        "en": "Reverify forces an AI model's claims to be checked by deterministic tools before being accepted as facts, showing in binary reverse engineering that the model's direct answer was wrong 97% of the time across 71 real Windows system files, while the tool never accepted a false claim."
+      }
+    }
+  ],
+  "developer_signals": [
+    {
+      "id": "2097512443710726552",
+      "newsId": "2097512443710726552",
+      "author": "jxnlco",
+      "source": "X · @jxnlco",
+      "link": "https://x.com/jxnlco/status/2097512443710726552",
+      "publishedAt": "2026-09-09T02:28:31.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "instructor 1.17 is out\n\ncache isolation fixes, better Gemini retries, local PDF support, OpenAI SDK 3 compatibility, and refreshed model examples.\n\nlots of small fixes from the issues and PR backlog. thanks to everyone who sent one in\n\nhttps://t.co/mYgfKQCkB1",
+      "linkedUrls": [
+        "https://github.com/567-labs/instructor/releases/tag/v1.17.0"
+      ],
+      "public_metrics": {
+        "bookmark_count": 17,
+        "impression_count": 4058,
+        "like_count": 36,
+        "quote_count": 1,
+        "reply_count": 8,
+        "retweet_count": 1
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "jxnlco anuncia instructor 1.17, con correcciones de aislamiento de caché por cliente, mejores reintentos para Gemini, soporte de PDF local y compatibilidad con OpenAI SDK 3, resultado de resolver un backlog de issues y PRs de la comunidad.",
+        "en": "jxnlco announces instructor 1.17, with per-client cache isolation fixes, better Gemini retries, local PDF support, and OpenAI SDK 3 compatibility, resulting from clearing a backlog of community issues and PRs."
+      }
+    },
+    {
+      "id": "2097462443891147059",
+      "newsId": "2097462443891147059",
+      "author": "zachlloydtweets",
+      "source": "X · @zachlloydtweets",
+      "link": "https://x.com/zachlloydtweets/status/2097462443891147059",
+      "publishedAt": "2026-09-08T23:09:50.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "Private benchmarks > public benchmarks\n\nInternal benchmarking lets you measure coding agent effectiveness on your own stuff.\n\nAdvantages:\n+ your stuff isn't in the training set for the model, and so the benchmark is more legit\n+ your stuff is what matters to you (duh)\n+ you can feed the findings directly into model routing on your org\n\nPublic benchmarks are still very useful though for measuring general progress and comparing harnesses against each other at some platonic level, but i'm becoming more and more bullish on internal measurements mattering most",
+      "linkedUrls": [],
+      "public_metrics": {
+        "bookmark_count": 3,
+        "impression_count": 1313,
+        "like_count": 16,
+        "quote_count": 1,
+        "reply_count": 8,
+        "retweet_count": 1
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "zachlloydtweets argumenta que los benchmarks internos superan a los públicos para medir agentes de codificación, porque los datos propios no están en el conjunto de entrenamiento del modelo, reflejan lo que realmente importa a la organización, y permiten alimentar directamente el enrutamiento de modelos.",
+        "en": "zachlloydtweets argues internal benchmarks beat public ones for measuring coding agents, since your own data isn't in the model's training set, reflects what actually matters to your org, and can directly feed model routing decisions."
+      }
+    },
+    {
+      "id": "2097475247595536880",
+      "newsId": "2097475247595536880",
+      "author": "simonw",
+      "source": "X · @simonw",
+      "link": "https://x.com/simonw/status/2097475247595536880",
+      "publishedAt": "2026-09-09T00:00:42.000Z",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "original_text": "\"Deterministic code checks the result\" sounds like they might be implementing a variant of the DeepMind CaMeL paper https://t.co/c91rFU1z3s https://t.co/skx8qeYFmX",
+      "linkedUrls": [
+        "https://simonwillison.net/2025/Apr/11/camel",
+        "https://twitter.com/dps/status/2097404102468899131"
+      ],
+      "public_metrics": {
+        "bookmark_count": 23,
+        "impression_count": 11764,
+        "like_count": 37,
+        "quote_count": 1,
+        "reply_count": 16,
+        "retweet_count": 3
+      },
+      "utilityHint": 0,
+      "text": {
+        "es": "simonw señala que la descripción de 'código determinista que verifica el resultado' recuerda a una variante del paper CaMeL de DeepMind, apuntando a un patrón de diseño relevante para agentes de IA seguros.",
+        "en": "simonw notes that the description of 'deterministic code checks the result' resembles a variant of DeepMind's CaMeL paper, pointing to a relevant design pattern for safer AI agents."
+      }
+    },
+    {
+      "id": "2097474703380365698",
+      "newsId": "2097474703380365698",
+      "author": "simonw",
+      "source": "X · @simonw",
+      "link": "https://x.com/simonw/status/2097474703380365698",
+      "publishedAt": "2026-09-08T23:58:33.000Z",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "original_text": "Wrote up my thoughts on the whole OpenAI Navier–Stokes Millennium Prize Problem story, and how it highlights the still confusing question of what using my data \"to improve model performance\" actually means\nhttps://t.co/vgheVu3rw3 https://t.co/dXoCrQPqDm",
+      "linkedUrls": [
+        "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+        "https://x.com/simonw/status/2097474703380365698/photo/1"
+      ],
+      "public_metrics": {
+        "bookmark_count": 120,
+        "impression_count": 20649,
+        "like_count": 352,
+        "quote_count": 4,
+        "reply_count": 34,
+        "retweet_count": 32
+      },
+      "utilityHint": 0,
+      "text": {
+        "es": "simonw publicó su análisis sobre la controversia del supuesto hito de Navier-Stokes de OpenAI, señalando la ambigüedad persistente sobre qué significa realmente que los datos de un usuario se usen 'para mejorar el rendimiento del modelo'.",
+        "en": "simonw published his write-up on the OpenAI Navier-Stokes controversy, highlighting the still-confusing question of what it actually means for a user's data to be used 'to improve model performance.'"
+      }
+    },
+    {
+      "id": "2097319324721557964",
+      "newsId": "2097319324721557964",
+      "author": "rasbt",
+      "source": "X · @rasbt",
+      "link": "https://x.com/rasbt/status/2097319324721557964",
+      "publishedAt": "2026-09-08T13:41:07.000Z",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "original_text": "Re today's incident, maybe not a bad idea to check your settings (Settings → Data Controls) https://t.co/QHLPaJWoCZ",
+      "linkedUrls": [
+        "https://x.com/rasbt/status/2097319324721557964/photo/1"
+      ],
+      "public_metrics": {
+        "bookmark_count": 146,
+        "impression_count": 58910,
+        "like_count": 1033,
+        "quote_count": 22,
+        "reply_count": 75,
+        "retweet_count": 95
+      },
+      "utilityHint": 0,
+      "text": {
+        "es": "rasbt recomienda revisar la configuración de Data Controls tras el incidente de seguridad reportado ese día, como recordatorio general de higiene de privacidad de datos, aclarando que no implica necesariamente relación causal con el incidente.",
+        "en": "rasbt recommends checking Data Controls settings following that day's reported security incident, as a general data-privacy hygiene reminder, clarifying it doesn't necessarily imply a causal link to the incident."
+      }
+    },
+    {
+      "id": "2097238983226868194",
+      "newsId": "2097238983226868194",
+      "author": "mattpocockuk",
+      "source": "X · @mattpocockuk",
+      "link": "https://x.com/mattpocockuk/status/2097238983226868194",
+      "publishedAt": "2026-09-08T08:21:53.000Z",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "original_text": "If you give me a drawer, I will eventually fill it with cables\n\nIf you give an agent a markdown file, it will eventually fill it with:\n\n- unnecessary implementation details\n- session-specific observations\n- stale docs",
+      "linkedUrls": [],
+      "public_metrics": {
+        "bookmark_count": 437,
+        "impression_count": 102992,
+        "like_count": 2480,
+        "quote_count": 19,
+        "reply_count": 135,
+        "retweet_count": 66
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "mattpocockuk compara un archivo markdown dado a un agente con un cajón que termina lleno de cables: con el tiempo se acumulan detalles de implementación innecesarios, observaciones específicas de la sesión y documentación obsoleta.",
+        "en": "mattpocockuk compares a markdown file handed to an agent to a drawer that eventually fills with cables: over time it accumulates unnecessary implementation details, session-specific observations, and stale docs."
+      }
+    },
+    {
+      "id": "2097531548555997459",
+      "newsId": "2097531548555997459",
+      "author": "rauchg",
+      "source": "X · @rauchg",
+      "link": "https://x.com/rauchg/status/2097531548555997459",
+      "publishedAt": "2026-09-09T03:44:26.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "Token volume on @vercel AI Gateway has averaged double-digit weekly growth for 8 straight weeks. Last week it accelerated to +24.8%. It’s almost inconceivable. Infinite demand of intelligence.",
+      "linkedUrls": [],
+      "public_metrics": {
+        "bookmark_count": 7,
+        "impression_count": 7014,
+        "like_count": 114,
+        "quote_count": 3,
+        "reply_count": 18,
+        "retweet_count": 8
+      },
+      "utilityHint": 0,
+      "text": {
+        "es": "rauchg reporta que el volumen de tokens en Vercel AI Gateway ha crecido en promedio a dos dígitos semanales durante 8 semanas seguidas, acelerando a +24.8% la última semana.",
+        "en": "rauchg reports that token volume on Vercel AI Gateway has averaged double-digit weekly growth for 8 straight weeks, accelerating to +24.8% growth last week."
+      }
+    },
+    {
+      "id": "2097516149877469197",
+      "newsId": "2097516149877469197",
+      "author": "zachlloydtweets",
+      "source": "X · @zachlloydtweets",
+      "link": "https://x.com/zachlloydtweets/status/2097516149877469197",
+      "publishedAt": "2026-09-09T02:43:14.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "Awesome project from our intern Jerry showing how a software factory approach can apply to design https://t.co/h4W3Eqtvf2",
+      "linkedUrls": [
+        "https://twitter.com/jerrydizs/status/2097368969078522344"
+      ],
+      "public_metrics": {
+        "bookmark_count": 19,
+        "impression_count": 1398,
+        "like_count": 10,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "utilityHint": 0,
+      "text": {
+        "es": "zachlloydtweets destaca el proyecto de su interno Jerry, Warp Muse, un entorno de diseño en la nube que permite generar prototipos con IA a partir de la UI de producción real, mostrando cómo un enfoque de 'fábrica de software' puede aplicarse al diseño.",
+        "en": "zachlloydtweets highlights his intern Jerry's project, Warp Muse, a cloud design environment that generates AI-driven prototypes from real production UI, showing how a 'software factory' approach can apply to design."
+      }
+    }
+  ],
+  "editorial_stats": {
+    "topics": {
+      "apple": 3,
+      "ai_software": 2,
+      "ai_general": 0,
+      "tech": 2
+    }
+  }
+}
