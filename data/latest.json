@@ -44,46 +44,6 @@
   },
   "top_stories": [
     {
-      "id": "evt_0c7ab40bf0907b45",
-      "title": {
-        "es": "Apple lanza la release candidate de iOS 27 y iPadOS 27",
-        "en": "Apple seeds iOS 27 and iPadOS 27 release candidates"
-      },
-      "body": {
-        "es": "Apple liberó las versiones release candidate de iOS 27 y iPadOS 27 para pruebas finales, una semana después de la octava beta. La actualización incluye Siri AI, un chatbot que combina conocimiento general con datos personales de apps como Mensajes y Mail, además de mejoras de rendimiento notables incluso en iPhones antiguos. También se refinó el aspecto de Liquid Glass con un nuevo slider de transparencia.",
-        "en": "Apple released the release candidate versions of iOS 27 and iPadOS 27 for final testing, a week after the eighth beta. The update includes Siri AI, a chatbot combining general knowledge with personal data from apps like Messages and Mail, plus notable performance improvements even on older iPhones. Liquid Glass's look was also refined with a new transparency slider."
-      },
-      "newsId": "evt_0c7ab40bf0907b45",
-      "storyKey": "evt_0c7ab40bf0907b45",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/09/09/apple-ios-27-rc",
-      "image": "https://images.macrumors.com/article-new/2026/06/iOS-27-Feature-Dark.jpg",
-      "score": 8.6,
-      "publishedAt": "2026-09-09T19:07:44.000Z",
-      "evidence": [
-        {
-          "claim": "Apple has seeded release candidate versions of iOS 27 and iPadOS 27 for final testing.",
-          "source": "6fcbe4f37a557071"
-        },
-        {
-          "claim": "Siri AI is a chatbot similar to ChatGPT, incorporating general world knowledge and personal data from apps.",
-          "source": "6fcbe4f37a557071"
-        },
-        {
-          "claim": "Apple has improved the performance of iOS, making everything feel faster on older iPhones.",
-          "source": "6fcbe4f37a557071"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/09/09/apple-ios-27-rc"
-        }
-      ],
-      "what_changed": []
-    },
-    {
       "id": "evt_14b6e3ea6b8303b6",
       "title": {
         "es": "Apple presenta el iPhone Duo, su primer plegable",
@@ -123,6 +83,46 @@
         {
           "name": "Applesfera",
           "link": "https://www.applesfera.com/iphone/apple-iphone-duo-caracteristicas-precio-ficha-tecnica"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_0c7ab40bf0907b45",
+      "title": {
+        "es": "Apple lanza la release candidate de iOS 27 y iPadOS 27",
+        "en": "Apple seeds iOS 27 and iPadOS 27 release candidates"
+      },
+      "body": {
+        "es": "Apple liberó las versiones release candidate de iOS 27 y iPadOS 27 para pruebas finales, una semana después de la octava beta. La actualización incluye Siri AI, un chatbot que combina conocimiento general con datos personales de apps como Mensajes y Mail, además de mejoras de rendimiento notables incluso en iPhones antiguos. También se refinó el aspecto de Liquid Glass con un nuevo slider de transparencia.",
+        "en": "Apple released the release candidate versions of iOS 27 and iPadOS 27 for final testing, a week after the eighth beta. The update includes Siri AI, a chatbot combining general knowledge with personal data from apps like Messages and Mail, plus notable performance improvements even on older iPhones. Liquid Glass's look was also refined with a new transparency slider."
+      },
+      "newsId": "evt_0c7ab40bf0907b45",
+      "storyKey": "evt_0c7ab40bf0907b45",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/09/09/apple-ios-27-rc",
+      "image": "https://images.macrumors.com/article-new/2026/06/iOS-27-Feature-Dark.jpg",
+      "score": 8.6,
+      "publishedAt": "2026-09-09T19:07:44.000Z",
+      "evidence": [
+        {
+          "claim": "Apple has seeded release candidate versions of iOS 27 and iPadOS 27 for final testing.",
+          "source": "6fcbe4f37a557071"
+        },
+        {
+          "claim": "Siri AI is a chatbot similar to ChatGPT, incorporating general world knowledge and personal data from apps.",
+          "source": "6fcbe4f37a557071"
+        },
+        {
+          "claim": "Apple has improved the performance of iOS, making everything feel faster on older iPhones.",
+          "source": "6fcbe4f37a557071"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/09/09/apple-ios-27-rc"
         }
       ],
       "what_changed": []
