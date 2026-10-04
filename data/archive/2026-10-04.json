@@ -1,0 +1,484 @@
+{
+  "schema_version": 22,
+  "edition_id": "wmt-2026-10-04",
+  "date": "2026-10-04",
+  "daily_summary": {
+    "es": "Apple refuerza los controles de Acceso Total al Disco en macOS ante el abuso de apps de IA agéntica, un empleado de seguridad de OpenAI denuncia una cultura rota en la industria, y Ai2 abre infraestructura para entrenar modelos MoE a escala de billones de parámetros.",
+    "en": "Apple tightens Full Disk Access controls on macOS amid agentic AI app abuse, an OpenAI safety employee calls out a broken industry culture, and Ai2 open-sources infrastructure for training trillion-parameter-scale MoE models."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Apple anunció que introducirá controles adicionales para el Acceso Total al Disco en macOS, exigiendo una acción explícita del usuario antes de concederlo, en respuesta a apps de IA agéntica como Meta Muse y Grok Bot que han abusado de este permiso. A diferencia de iOS/iPadOS, macOS permite a apps de terceros leer correo electrónico o mensajes cifrados de extremo a extremo si se les concede este acceso, lo que Apple busca mitigar sin eliminar la funcionalidad. Por separado, según Bloomberg, Apple lanzará tres nuevos productos para el hogar inteligente el martes 13 de octubre de 2026.",
+      "en": "Apple announced it will introduce additional controls for Full Disk Access on macOS, requiring explicit user action before granting it, in response to agentic AI apps like Meta Muse and Grok Bot that have abused this permission. Unlike iOS/iPadOS, macOS allows third-party apps to read email or end-to-end encrypted messages once granted this access, which Apple aims to mitigate without removing the capability. Separately, according to Bloomberg, Apple will launch a trio of new smart home products on Tuesday, October 13, 2026."
+    },
+    "ai_software": {
+      "es": "Ai2 presentó Olmo-core 3, una infraestructura de entrenamiento abierta que escala modelos MoE hacia el rango de billones de parámetros manteniendo la eficiencia computacional; en una prueba, expandió el grupo de expertos de 8 a 128 sin aumentar sustancialmente los parámetros activos por token. OpenAI, por su parte, lanzó Dots, un agente personal integrado en la app de ChatGPT presentado en su conferencia DevDay, y afirmó que la firma financiera Chatham Financial usa Codex y GPT-5.6 para rediseñar flujos de trabajo, reduciendo según la compañía la validación de operaciones de 30 minutos a menos de 4.",
+      "en": "Ai2 introduced Olmo-core 3, an open training infrastructure that scales MoE models toward the trillion-parameter range while preserving computational efficiency; in one benchmark it expanded the expert pool from 8 to 128 without substantially increasing active parameters per token. Separately, OpenAI launched Dots, a personal agent built into the ChatGPT app and unveiled at its DevDay conference, and said financial firm Chatham Financial uses Codex and GPT-5.6 to redesign workflows, which the company says cut trade validation from 30 minutes to under 4."
+    },
+    "ai_general": {
+      "es": "David Robinson, quien escribía informes de seguridad en OpenAI, renunció y advirtió que la cultura de la industria de IA está fundamentalmente rota, pidiendo salvaguardas de nivel nuclear para los laboratorios de frontera, en medio de una supuesta investigación de la FTC sobre OpenAI y Anthropic.",
+      "en": "David Robinson, who used to write safety reports at OpenAI, quit and warned that the AI industry's culture is fundamentally broken, calling for nuclear-level safeguards at frontier labs amid a reported FTC investigation into OpenAI and Anthropic."
+    },
+    "tech": {
+      "es": "Un ex empleado de seguridad de OpenAI alertó sobre una cultura de la industria que considera fundamentalmente rota, pidiendo salvaguardas de nivel nuclear para los laboratorios de IA de frontera, en medio de una supuesta investigación de la FTC a OpenAI y Anthropic. Greg Kroah-Hartman abordó en video la seguridad del kernel Linux en la era de los modelos de lenguaje, y GitHub añadió cinco nuevos campos a su API GraphQL de SecurityAdvisory.",
+      "en": "A former OpenAI safety employee warned of an industry culture he considers fundamentally broken, calling for nuclear-level safeguards at frontier AI labs amid a reported FTC investigation into OpenAI and Anthropic. Separately, Greg Kroah-Hartman addressed Linux kernel security in the LLM age in a video talk, and GitHub added five new fields to its SecurityAdvisory GraphQL API."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple anunció que introducirá controles adicionales para el Acceso Total al Disco en macOS, exigiendo una acción explícita del usuario antes de concederlo, en respuesta a apps de IA agéntica como Meta Muse y Grok Bot que han abusado de este permiso. A diferencia de iOS/iPadOS, macOS permite a apps de terceros leer correo electrónico o mensajes cifrados de extremo a extremo si se les concede este acceso, lo que Apple busca mitigar sin eliminar la funcionalidad. Por separado, según Bloomberg, Apple lanzará tres nuevos productos para el hogar inteligente el martes 13 de octubre de 2026.",
+      "en": "Apple announced it will introduce additional controls for Full Disk Access on macOS, requiring explicit user action before granting it, in response to agentic AI apps like Meta Muse and Grok Bot that have abused this permission. Unlike iOS/iPadOS, macOS allows third-party apps to read email or end-to-end encrypted messages once granted this access, which Apple aims to mitigate without removing the capability. Separately, according to Bloomberg, Apple will launch a trio of new smart home products on Tuesday, October 13, 2026."
+    },
+    "ai_software": {
+      "es": "Ai2 presentó Olmo-core 3, una infraestructura de entrenamiento abierta que escala modelos MoE hacia el rango de billones de parámetros manteniendo la eficiencia computacional; en una prueba, expandió el grupo de expertos de 8 a 128 sin aumentar sustancialmente los parámetros activos por token. OpenAI, por su parte, lanzó Dots, un agente personal integrado en la app de ChatGPT presentado en su conferencia DevDay, y afirmó que la firma financiera Chatham Financial usa Codex y GPT-5.6 para rediseñar flujos de trabajo, reduciendo según la compañía la validación de operaciones de 30 minutos a menos de 4.",
+      "en": "Ai2 introduced Olmo-core 3, an open training infrastructure that scales MoE models toward the trillion-parameter range while preserving computational efficiency; in one benchmark it expanded the expert pool from 8 to 128 without substantially increasing active parameters per token. Separately, OpenAI launched Dots, a personal agent built into the ChatGPT app and unveiled at its DevDay conference, and said financial firm Chatham Financial uses Codex and GPT-5.6 to redesign workflows, which the company says cut trade validation from 30 minutes to under 4."
+    },
+    "ai_general": {
+      "es": "David Robinson, quien escribía informes de seguridad en OpenAI, renunció y advirtió que la cultura de la industria de IA está fundamentalmente rota, pidiendo salvaguardas de nivel nuclear para los laboratorios de frontera, en medio de una supuesta investigación de la FTC sobre OpenAI y Anthropic.",
+      "en": "David Robinson, who used to write safety reports at OpenAI, quit and warned that the AI industry's culture is fundamentally broken, calling for nuclear-level safeguards at frontier labs amid a reported FTC investigation into OpenAI and Anthropic."
+    },
+    "tech": {
+      "es": "Un ex empleado de seguridad de OpenAI alertó sobre una cultura de la industria que considera fundamentalmente rota, pidiendo salvaguardas de nivel nuclear para los laboratorios de IA de frontera, en medio de una supuesta investigación de la FTC a OpenAI y Anthropic. Greg Kroah-Hartman abordó en video la seguridad del kernel Linux en la era de los modelos de lenguaje, y GitHub añadió cinco nuevos campos a su API GraphQL de SecurityAdvisory.",
+      "en": "A former OpenAI safety employee warned of an industry culture he considers fundamentally broken, calling for nuclear-level safeguards at frontier AI labs amid a reported FTC investigation into OpenAI and Anthropic. Separately, Greg Kroah-Hartman addressed Linux kernel security in the LLM age in a video talk, and GitHub added five new fields to its SecurityAdvisory GraphQL API."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "evt_8253ab4db3cece73",
+      "title": {
+        "es": "Apple endurecerá el Acceso Total al Disco en macOS ante el auge de IA agéntica descontrolada",
+        "en": "Apple to tighten Full Disk Access on macOS amid agentic AI apps running amok"
+      },
+      "body": {
+        "es": "Apple planea introducir controles adicionales para que el Acceso Total al Disco en macOS solo pueda concederse mediante una acción explícita del usuario, en respuesta a apps de IA agéntica como Meta Muse y Grok Bot que han abusado de este permiso. A diferencia de iOS/iPadOS, donde ninguna app de terceros puede leer correo o mensajes cifrados de extremo a extremo sin importar los permisos otorgados, macOS sí lo permite una vez concedido el acceso total, lo que compromete también la privacidad de los contactos del usuario. La medida busca que los usuarios entiendan mejor los riesgos antes de otorgar un permiso tan extraordinario.",
+        "en": "Apple plans to introduce additional controls so that Full Disk Access on macOS can only be granted through explicit user action, responding to agentic AI apps like Meta Muse and Grok Bot that have abused the permission. Unlike iOS/iPadOS, where no third-party app can read email or end-to-end encrypted messages regardless of permissions granted, macOS allows this once full access is granted, also compromising the privacy of a user's contacts. The move aims to ensure users better understand the risks before granting such an extraordinary level of access."
+      },
+      "newsId": "evt_8253ab4db3cece73",
+      "storyKey": "evt_8253ab4db3cece73",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://daringfireball.net/2026/10/apple_full_disk_access",
+      "image": "https://daringfireball.net/graphics/df-wide-card.png",
+      "score": 8.4,
+      "publishedAt": "2026-10-02T20:40:15.000Z",
+      "evidence": [
+        {
+          "claim": "Apple is planning to further tighten controls on Full Disk Access on macOS.",
+          "source": "f668b79cc4fee576"
+        },
+        {
+          "claim": "Apple is addressing the risks associated with Full Disk Access in response to agentic AI apps like Meta Muse and Grok Bot.",
+          "source": "f668b79cc4fee576"
+        },
+        {
+          "claim": "Apple is concerned about users granting Full Disk Access without full knowledge of the risks involved.",
+          "source": "f668b79cc4fee576"
+        },
+        {
+          "claim": "iOS and iPadOS do not allow third-party apps to access sensitive data like email or end-to-end encrypted messages, unlike macOS.",
+          "source": "f668b79cc4fee576"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daring Fireball",
+          "link": "https://daringfireball.net/2026/10/apple_full_disk_access"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_c0fbddb1c86ea8e3",
+      "title": {
+        "es": "Un empleado de seguridad de OpenAI renuncia y denuncia una cultura \"rota\" en la industria",
+        "en": "OpenAI safety employee quits, calls industry culture \"broken\""
+      },
+      "body": {
+        "es": "David Robinson, quien escribía informes de seguridad en OpenAI, renunció y afirmó que la cultura de la industria de IA está fundamentalmente rota, un problema que va más allá de añadir nuevas reglas sobre el entrenamiento de modelos. Robinson pide salvaguardas de nivel nuclear: que los laboratorios de IA de frontera operen con capas de redundancia y planificación cuidadosa, similar a centrales nucleares o aeropuertos concurridos, para que un error humano inevitable no abra la puerta a un desastre. Su salida se suma a la de otros investigadores y trabajadores de seguridad que han dejado firmas destacadas de IA, en un momento en que la FTC habría abierto una investigación sobre OpenAI y Anthropic.",
+        "en": "David Robinson, who used to write safety reports at OpenAI, quit and said the AI industry's culture is fundamentally broken, a problem he argues goes deeper than adding new rules around model training. Robinson is calling for nuclear-level safeguards: frontier AI labs operating with layers of redundancy and careful, time-consuming planning, similar to nuclear power plants or busy airports, so that inevitable human error doesn't open the door to disaster. His departure adds to a growing parade of researchers and safety workers leaving prominent AI firms, amid a reported FTC investigation into OpenAI and Anthropic."
+      },
+      "newsId": "evt_c0fbddb1c86ea8e3",
+      "storyKey": "evt_c0fbddb1c86ea8e3",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?crop=0%2C10.732984293194%2C100%2C78.534031413613&quality=90&strip=all&w=1200",
+      "score": 7.65,
+      "publishedAt": "2026-10-03T14:31:56.000Z",
+      "evidence": [
+        {
+          "claim": "An OpenAI safety employee has quit and is sounding the alarm.",
+          "source": "d41af0c78b269a91"
+        },
+        {
+          "claim": "The culture in the industry is fundamentally broken.",
+          "source": "d41af0c78b269a91"
+        },
+        {
+          "claim": "AI companies need nuclear-level safeguards.",
+          "source": "d41af0c78b269a91"
+        },
+        {
+          "claim": "Several researchers and safety workers have left prominent AI firms.",
+          "source": "d41af0c78b269a91"
+        },
+        {
+          "claim": "The FTC has reportedly opened an investigation into OpenAI and Anthropic.",
+          "source": "d41af0c78b269a91"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_eb14bd5e84ffca52",
+      "title": {
+        "es": "Olmo-core 3 lleva el entrenamiento abierto de MoE hacia el billón de parámetros",
+        "en": "Olmo-core 3 pushes open MoE training toward the trillion-parameter range"
+      },
+      "body": {
+        "es": "Ai2 lanzó Olmo-core 3, una infraestructura de entrenamiento abierta diseñada para escalar modelos de mezcla de expertos (MoE) hacia el rango de billones de parámetros sin sacrificar eficiencia computacional. En una prueba, el equipo amplió el grupo de expertos de 8 a 128 manteniendo fijos en torno a 3.200 millones los parámetros activos por token, gracias a un rediseño del stack de entrenamiento que mejora el rendimiento frente a la implementación anterior basada en FSDP. Al ser completamente abierto, permite a investigadores y desarrolladores entrenar sus propios MoE y experimentar con enrutamiento y paralelismo en distinto hardware.",
+        "en": "Ai2 released Olmo-core 3, an open training infrastructure designed to scale mixture-of-experts (MoE) models into the trillion-parameter range without sacrificing computational efficiency. In one benchmark, the team expanded the expert pool from 8 to 128 while keeping active parameters per token roughly fixed at about 3.2 billion, thanks to a redesigned training stack that improves throughput over its earlier FSDP-based implementation. Being fully open, it lets researchers and developers train their own MoEs and experiment with routing and parallelism across different hardware."
+      },
+      "newsId": "evt_eb14bd5e84ffca52",
+      "storyKey": "evt_eb14bd5e84ffca52",
+      "topic": "ai_software",
+      "source": "Hugging Face blog",
+      "link": "https://huggingface.co/blog/allenai/olmocore3",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/uKnK93gjkKbmJmSx94WO2.png",
+      "score": 8.35,
+      "publishedAt": "2026-10-01T15:01:43.000Z",
+      "evidence": [
+        {
+          "claim": "Olmo-core 3 is designed to scale MoE training into the trillion-parameter range while preserving computational efficiency.",
+          "source": "d859246632c2a446"
+        },
+        {
+          "claim": "In one benchmark, Olmo-core 3 increased the expert pool from 8 to 128 while still selecting only four experts per token, keeping the number of active parameters per token roughly fixed at about 3.2B.",
+          "source": "d859246632c2a446"
+        },
+        {
+          "claim": "Olmo-core 3 brings an integrated MoE training stack to the framework behind Olmo, with a redesign that improves throughput over our earlier FSDP-based implementation.",
+          "source": "d859246632c2a446"
+        },
+        {
+          "claim": "Olmo-core 3 is fully open, allowing researchers and developers to train their own MoEs, adapt it to different hardware, and experiment with routing, parallelism, and other parts of the system.",
+          "source": "d859246632c2a446"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Hugging Face blog",
+          "link": "https://huggingface.co/blog/allenai/olmocore3"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_5f245b90f1bd1d44",
+      "title": {
+        "es": "Apple lanzará tres productos para el hogar inteligente el 13 de octubre",
+        "en": "Apple to launch three smart home products on October 13"
+      },
+      "body": {
+        "es": "Según Mark Gurman de Bloomberg, Apple presentará un trío de nuevos productos para el hogar inteligente el martes 13 de octubre de 2026. El informe también menciona problemas de producción relacionados con un iPhone de doble pantalla ('iPhone Duo'). Se trata de un anuncio de calendario reportado por terceros, no confirmado directamente por Apple en esta nota.",
+        "en": "According to Bloomberg's Mark Gurman, Apple will introduce a trio of new smart home products on Tuesday, October 13, 2026. The report also mentions production issues related to a dual-screen iPhone ('iPhone Duo'). This is a third-party-reported calendar item, not directly confirmed by Apple in this note."
+      },
+      "newsId": "evt_5f245b90f1bd1d44",
+      "storyKey": "evt_5f245b90f1bd1d44",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/10/03/top-stories-apple-smart-home-launch-october-13",
+      "image": "https://images.macrumors.com/article-new/2026/10/top-stories-2026-10-03.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-03T13:00:12.000Z",
+      "evidence": [
+        {
+          "claim": "Apple will introduce a trio of new smart home products on October 13.",
+          "source": "b439587f5b2ab0b3"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/10/03/top-stories-apple-smart-home-launch-october-13"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_7eb9fcef5794dd6b",
+      "title": {
+        "es": "OpenAI presenta Dots, un agente personal integrado en ChatGPT",
+        "en": "OpenAI unveils Dots, a personal agent built into ChatGPT"
+      },
+      "body": {
+        "es": "En su conferencia anual DevDay, OpenAI lanzó Dots, un agente personal que vive dentro de la app de ChatGPT. El artículo ofrece una primera mirada al producto tras su presentación en el evento, aunque no detalla aún capacidades específicas más allá de su integración nativa en ChatGPT.",
+        "en": "At its annual DevDay conference, OpenAI launched Dots, a personal agent that lives inside the ChatGPT app. The piece offers a first look at the product following its unveiling at the event, though it does not yet detail specific capabilities beyond its native integration into ChatGPT."
+      },
+      "newsId": "evt_7eb9fcef5794dd6b",
+      "storyKey": "evt_7eb9fcef5794dd6b",
+      "topic": "ai_software",
+      "source": "MacStories",
+      "link": "https://www.macstories.net/stories/openais-dots-a-first-look",
+      "image": "https://cdn.macstories.net/images/uploads/2026/10/02/introducing-dots-carousel-launchpng-1790962549268-79f784f56b.webp",
+      "score": 7.65,
+      "publishedAt": "2026-10-02T19:07:58.000Z",
+      "evidence": [
+        {
+          "claim": "OpenAI launched Dots, a personal agent that lives inside the ChatGPT app.",
+          "source": "f48118706ffdf7ce"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacStories",
+          "link": "https://www.macstories.net/stories/openais-dots-a-first-look"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_75cd6ac748662729",
+      "title": {
+        "es": "Chatham Financial recorta la validación de operaciones de 30 a 4 minutos con Codex y GPT-5.6",
+        "en": "Chatham Financial cuts trade validation from 30 to 4 minutes with Codex and GPT-5.6"
+      },
+      "body": {
+        "es": "Según OpenAI, la firma de mercados de capital Chatham Financial utiliza Codex y GPT-5.6 para construir tecnología interna y rediseñar flujos de trabajo, lo que según la compañía ha reducido el tiempo de validación de operaciones de 30 minutos a menos de 4. Se trata de una cifra reportada por el propio OpenAI como caso de cliente, sin detalles independientes sobre la metodología de medición.",
+        "en": "According to OpenAI, capital markets firm Chatham Financial uses Codex and GPT-5.6 to build internal technology and redesign workflows, which the company says has cut trade validation time from 30 minutes to under 4. This is a figure reported by OpenAI itself as a customer case study, without independent detail on the measurement methodology."
+      },
+      "newsId": "evt_75cd6ac748662729",
+      "storyKey": "evt_75cd6ac748662729",
+      "topic": "ai_software",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatham-financial",
+      "image": null,
+      "score": 7.65,
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows.",
+          "source": "cbf1cf9da08a8541"
+        }
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "link": "https://openai.com/index/chatham-financial"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "evt_d6924cafce7daf73",
+      "title": {
+        "es": "Greg Kroah-Hartman habla sobre seguridad en la era de los LLM",
+        "en": "Greg Kroah-Hartman talks security in the LLM age"
+      },
+      "text": {
+        "es": "En una charla en video, el mantenedor del kernel Linux Greg Kroah-Hartman abordó cómo la seguridad del software se ve afectada por la era de los modelos de lenguaje grandes.",
+        "en": "In a video talk, Linux kernel maintainer Greg Kroah-Hartman addressed how software security is affected in the age of large language models."
+      },
+      "newsId": "evt_d6924cafce7daf73",
+      "storyKey": "evt_d6924cafce7daf73",
+      "topic": "tech",
+      "source": "Hacker News",
+      "link": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "image": "https://i.ytimg.com/vi/NnV_cWeoo5Q/maxresdefault.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-02T02:51:27.000Z",
+      "evidence": [
+        {
+          "claim": "Greg Kroah-Hartman discussed security in the LLM age.",
+          "source": "e6dc196544f6764b"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Hacker News",
+          "link": "https://www.youtube.com/watch?v=NnV_cWeoo5Q"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_709f7a090442934b",
+      "title": {
+        "es": "GitHub añade cinco campos nuevos a su API de SecurityAdvisory",
+        "en": "GitHub adds five new fields to its SecurityAdvisory API"
+      },
+      "text": {
+        "es": "GitHub amplió el objeto SecurityAdvisory de su API GraphQL con cinco nuevos campos, incluido el identificador CVE, facilitando a desarrolladores el acceso a más metadatos de vulnerabilidades.",
+        "en": "GitHub expanded the SecurityAdvisory object in its GraphQL API with five new fields, including the CVE identifier, giving developers easier access to more vulnerability metadata."
+      },
+      "newsId": "evt_709f7a090442934b",
+      "storyKey": "evt_709f7a090442934b",
+      "topic": "tech",
+      "source": "GitHub Changelog",
+      "link": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
+      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg",
+      "score": 6.4,
+      "publishedAt": "2026-10-02T13:18:00.000Z",
+      "evidence": [
+        {
+          "claim": "The SecurityAdvisory object gained five new fields.",
+          "source": "7b91f558914a735c"
+        }
+      ],
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "link": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_a8920127d3f4e23d",
+      "title": {
+        "es": "La discriminación de idiomas mejora el aprendizaje lingüístico en modelos de voz multilingües",
+        "en": "Language discrimination improves linguistic learning in multilingual speech models"
+      },
+      "text": {
+        "es": "Un estudio sobre modelos de voz autosupervisados multilingües halló que reforzar la discriminación de idiomas durante el preentrenamiento reduce la brecha multilingüe en medidas fonéticas y lingüísticas, elevando por ejemplo el desempeño léxico de 52.1% a 56.7%, manteniendo a la vez un amplio compartir entre idiomas.",
+        "en": "A study on multilingual self-supervised speech models found that strengthening language discrimination during pretraining reduces the multilingual gap on phonetic and linguistic measures, for example raising lexical performance from 52.1% to 56.7%, while preserving substantial cross-language sharing."
+      },
+      "newsId": "evt_a8920127d3f4e23d",
+      "storyKey": "evt_a8920127d3f4e23d",
+      "topic": "ai_software",
+      "source": "Apple ML Research",
+      "link": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
+      "image": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Language discrimination during pretraining can reduce the multilingual gap in continuous phonetic and higher-level linguistic measures.",
+          "source": "f6aa58ece6348234"
+        },
+        {
+          "claim": "Introducing language discrimination in the first iteration of HuBERT training stages yields the strongest gains on most linguistic measures.",
+          "source": "f6aa58ece6348234"
+        },
+        {
+          "claim": "Lexical performance increases when language discrimination is strengthened during pretraining.",
+          "source": "f6aa58ece6348234"
+        },
+        {
+          "claim": "Prosodic performance increases when language discrimination is strengthened during pretraining.",
+          "source": "f6aa58ece6348234"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Apple ML Research",
+          "link": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "repoKey": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "name": "ai-engineering-interview-questions-company-wise",
+      "full_name": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "link": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "description": "Your Cheat Sheet For AI Engineering Interviews at Top AI Companies - Questions and Answers.",
+      "language": "Markdown",
+      "stars": 1616,
+      "stars_today": null,
+      "stars_per_day_estimate": 5.434238481304167,
+      "trend_basis": "normalized_48.6h",
+      "trend_score": 5.591482849448406,
+      "default_branch": "main",
+      "created_at": "2026-09-19T04:14:43Z",
+      "pushed_at": "2026-10-03T11:20:55Z",
+      "why_it_matters": {
+        "es": "Una recopilación de preguntas reales de entrevistas de ingeniería de IA en 35 empresas, organizadas por tema (LLM, RAG, agentes, inferencia, seguridad) y por compañía, útil como guía de preparación estructurada para roles de IA.",
+        "en": "A compilation of real AI engineering interview questions from 35 companies, organized by topic (LLM internals, RAG, agents, inference, safety) and by company, useful as a structured prep guide for AI roles."
+      }
+    },
+    {
+      "id": "tshemsedinov/reslop",
+      "repoKey": "tshemsedinov/reslop",
+      "name": "reslop",
+      "full_name": "tshemsedinov/reslop",
+      "link": "https://github.com/tshemsedinov/reslop",
+      "description": "👁️ Review AI generated code and plan changes",
+      "language": "JavaScript",
+      "stars": 156,
+      "stars_today": null,
+      "stars_per_day_estimate": 5.434238481304167,
+      "trend_basis": "normalized_48.6h",
+      "trend_score": 5.556705071670628,
+      "default_branch": "main",
+      "created_at": "2026-09-06T21:28:21Z",
+      "pushed_at": "2026-10-03T07:10:31Z",
+      "why_it_matters": {
+        "es": "Una herramienta CLI para revisar código generado por IA y planificar cambios, con panel en vivo de diffs, tareas y commits, pensada para que los desarrolladores retomen la propiedad de los cambios generados automáticamente antes de fusionarlos.",
+        "en": "A CLI tool for reviewing AI-generated code and planning changes, with a live dashboard of diffs, tasks and commits, designed to help developers regain ownership of auto-generated changes before merging them."
+      }
+    },
+    {
+      "id": "selfishprimate/seekter",
+      "repoKey": "selfishprimate/seekter",
+      "name": "seekter",
+      "full_name": "selfishprimate/seekter",
+      "link": "https://github.com/selfishprimate/seekter",
+      "description": "A job-search agent for Claude Code. It searches job sources every day, filters postings against your rules (location, visa, salary, sectors, seniority, language), fills application forms in your own Chrome, and keeps every application and skip as a markdown file you can read, grep and diff.",
+      "language": "Python",
+      "stars": 48,
+      "stars_today": null,
+      "stars_per_day_estimate": 5.434238481304167,
+      "trend_basis": "normalized_48.6h",
+      "trend_score": 5.38106155315211,
+      "default_branch": "main",
+      "created_at": "2026-09-22T09:30:26Z",
+      "pushed_at": "2026-10-02T10:05:53Z",
+      "why_it_matters": {
+        "es": "Un agente de búsqueda de empleo para Claude Code que filtra ofertas según reglas propias del usuario (ubicación, visado, salario, sector) y rellena formularios de solicitud en el propio navegador Chrome, dejando un registro en markdown de cada solicitud.",
+        "en": "A job-search agent for Claude Code that filters postings against the user's own rules (location, visa, salary, sector) and fills application forms in the user's own Chrome, keeping a markdown record of every application."
+      }
+    },
+    {
+      "id": "KKKKhazix/AIHOT",
+      "repoKey": "KKKKhazix/AIHOT",
+      "name": "AIHOT",
+      "full_name": "KKKKhazix/AIHOT",
+      "link": "https://github.com/KKKKhazix/AIHOT",
+      "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "language": "TypeScript",
+      "stars": 5387,
+      "stars_today": null,
+      "stars_per_day_estimate": 380.39669369129166,
+      "trend_basis": "normalized_48.6h",
+      "trend_score": 11.573012429606809,
+      "default_branch": "main",
+      "created_at": "2026-09-28T23:40:05Z",
+      "pushed_at": "2026-10-03T22:24:24Z",
+      "why_it_matters": {
+        "es": "Un framework de código abierto para construir tu propio sitio de noticias de tendencias en cualquier sector, con detección de duplicados, doble puntuación por IA y agrupación de eventos, incluyendo todos los prompts usados en producción.",
+        "en": "An open-source framework for building your own trending-news site for any industry, with duplicate detection, double AI scoring, and event clustering, including all the prompts used in production."
+      }
+    }
+  ],
+  "developer_signals": [],
+  "editorial_stats": {
+    "topics": {
+      "apple": 2,
+      "ai_software": 3,
+      "ai_general": 0,
+      "tech": 1
+    }
+  }
+}
