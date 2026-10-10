@@ -1,0 +1,600 @@
+{
+  "schema_version": 22,
+  "edition_id": "wmt-2026-10-10",
+  "date": "2026-10-10",
+  "daily_summary": {
+    "es": "Apple confirma su evento del 13 de octubre centrado en el hogar inteligente (y filtra otro para el 27), mientras Anthropic amplía su Cyber Mission con un escáner gratuito de vulnerabilidades para proyectos open-source y Cloudflare lanza el modelo multimodal Clef-omni.",
+    "en": "Apple confirms its October 13 smart-home event (with another leaked for October 27), while Anthropic expands its Cyber Mission with a free vulnerability scanner for open-source projects and Cloudflare launches the multimodal Clef-omni model."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Apple ha confirmado un evento el martes 13 de octubre centrado en el hogar inteligente, donde se esperan al menos tres dispositivos nuevos, incluyendo un producto totalmente nuevo: una pantalla inteligente tipo Home Hub de unas 6 pulgadas con cámara para FaceTime, además de posibles actualizaciones del Apple TV 4K con Siri AI y chip A19/A19 Pro, y del HomePod mini. Por separado, se ha filtrado un segundo evento para el 27 de octubre con MacBook Pro OLED táctil con Dynamic Island, un iMac M6 y un iPad mini con pantalla OLED.",
+      "en": "Apple has confirmed an event on Tuesday, October 13 focused on the smart home, where at least three new devices are expected, including one entirely new product: a roughly 6-inch Home Hub smart display with a FaceTime camera, plus possible updates to the Apple TV 4K with Siri AI and an A19/A19 Pro chip, and to the HomePod mini. Separately, a second event has leaked for October 27 featuring a touchscreen OLED MacBook Pro with a Dynamic Island, an M6 iMac, and an OLED iPad mini."
+    },
+    "ai_software": {
+      "es": "Anthropic ha ampliado su Cyber Mission con el Critical Infrastructure Defense Program, junto a varios socios fundadores, y ha lanzado OSS Scanner, un servicio gratuito que ofrece escaneos de seguridad generados íntegramente por modelos de IA, sin revisión humana, a proyectos open-source. Por su parte, Sophos afirma haber reducido en un 96% el tiempo de investigación de amenazas usando Daybreak de OpenAI, automatizando más de la mitad de sus casos de MDR.",
+      "en": "Anthropic has expanded its Cyber Mission with the Critical Infrastructure Defense Program, alongside several founding partners, and launched OSS Scanner, a free service offering fully AI-model-generated security scans, without human review, to open-source projects. Separately, Sophos claims it cut threat investigation time by 96% using OpenAI's Daybreak, automating more than half of its MDR cases."
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "Cloudflare ha presentado Clef-omni, un nuevo modelo que procesa audio, vídeo, imágenes y texto en un único pipeline, junto con una reducción de precios en Clef-flash y mejoras de hasta 2x en velocidad de inferencia. Además, Anthropic ha lanzado OSS Scanner, un servicio gratuito de escaneo de vulnerabilidades para proyectos open-source basado en sus modelos más potentes, sin revisión humana de los informes.",
+      "en": "Cloudflare has introduced Clef-omni, a new model that processes audio, video, images, and text in a single pipeline, alongside lower Clef-flash pricing and inference speed improvements of up to 2x. Additionally, Anthropic has launched OSS Scanner, a free vulnerability-scanning service for open-source projects powered by its strongest models, with no human review of the reports."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple ha confirmado un evento el martes 13 de octubre centrado en el hogar inteligente, donde se esperan al menos tres dispositivos nuevos, incluyendo un producto totalmente nuevo: una pantalla inteligente tipo Home Hub de unas 6 pulgadas con cámara para FaceTime, además de posibles actualizaciones del Apple TV 4K con Siri AI y chip A19/A19 Pro, y del HomePod mini. Por separado, se ha filtrado un segundo evento para el 27 de octubre con MacBook Pro OLED táctil con Dynamic Island, un iMac M6 y un iPad mini con pantalla OLED.",
+      "en": "Apple has confirmed an event on Tuesday, October 13 focused on the smart home, where at least three new devices are expected, including one entirely new product: a roughly 6-inch Home Hub smart display with a FaceTime camera, plus possible updates to the Apple TV 4K with Siri AI and an A19/A19 Pro chip, and to the HomePod mini. Separately, a second event has leaked for October 27 featuring a touchscreen OLED MacBook Pro with a Dynamic Island, an M6 iMac, and an OLED iPad mini."
+    },
+    "ai_software": {
+      "es": "Anthropic ha ampliado su Cyber Mission con el Critical Infrastructure Defense Program, junto a varios socios fundadores, y ha lanzado OSS Scanner, un servicio gratuito que ofrece escaneos de seguridad generados íntegramente por modelos de IA, sin revisión humana, a proyectos open-source. Por su parte, Sophos afirma haber reducido en un 96% el tiempo de investigación de amenazas usando Daybreak de OpenAI, automatizando más de la mitad de sus casos de MDR.",
+      "en": "Anthropic has expanded its Cyber Mission with the Critical Infrastructure Defense Program, alongside several founding partners, and launched OSS Scanner, a free service offering fully AI-model-generated security scans, without human review, to open-source projects. Separately, Sophos claims it cut threat investigation time by 96% using OpenAI's Daybreak, automating more than half of its MDR cases."
+    },
+    "ai_general": {
+      "es": "",
+      "en": ""
+    },
+    "tech": {
+      "es": "Cloudflare ha presentado Clef-omni, un nuevo modelo que procesa audio, vídeo, imágenes y texto en un único pipeline, junto con una reducción de precios en Clef-flash y mejoras de hasta 2x en velocidad de inferencia. Además, Anthropic ha lanzado OSS Scanner, un servicio gratuito de escaneo de vulnerabilidades para proyectos open-source basado en sus modelos más potentes, sin revisión humana de los informes.",
+      "en": "Cloudflare has introduced Clef-omni, a new model that processes audio, video, images, and text in a single pipeline, alongside lower Clef-flash pricing and inference speed improvements of up to 2x. Additionally, Anthropic has launched OSS Scanner, a free vulnerability-scanning service for open-source projects powered by its strongest models, with no human review of the reports."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "evt_12db734cb9e7ca2e",
+      "title": {
+        "es": "Apple confirma su evento del 13 de octubre centrado en el hogar inteligente",
+        "en": "Apple confirms its October 13 smart-home event"
+      },
+      "body": {
+        "es": "Apple ha confirmado que celebrará un segundo evento de otoño el martes 13 de octubre de 2026, centrado en el hogar inteligente. Se espera que el Apple TV 4K reciba soporte para Siri AI y posiblemente un chip A19 o A19 Pro, mientras que el Home Hub sería una pantalla inteligente nueva para notificaciones, calendarios y llamadas FaceTime mediante cámara integrada. Es la primera incursión de Apple en pantallas domésticas inteligentes propias.",
+        "en": "Apple has confirmed it will hold a second fall event on Tuesday, October 13, 2026, focused on the smart home. The Apple TV 4K is expected to gain Siri AI support and possibly an A19 or A19 Pro chip, while the Home Hub would be a new smart display for notifications, calendars, and FaceTime calls via a built-in camera. This marks Apple's first move into its own smart home displays."
+      },
+      "newsId": "evt_12db734cb9e7ca2e",
+      "storyKey": "evt_12db734cb9e7ca2e",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/10/08/what-to-expect-from-apples-october-13-welcome-home-releases",
+      "image": "https://media.appleinsider.com/gallery/69208-145992-johnternusapplepark-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-08T16:20:03.000Z",
+      "evidence": [
+        {
+          "claim": "Apple is holding a second fall event on October 13, 2026.",
+          "source": "8bd9d3e1b91d1763"
+        },
+        {
+          "claim": "The Apple TV 4K is expected to get support for Siri AI and a possible upgrade to the A19 or A19 Pro chip.",
+          "source": "8bd9d3e1b91d1763"
+        },
+        {
+          "claim": "The Home Hub is expected to be a smart display that shows notifications and handles tasks like FaceTime calls.",
+          "source": "8bd9d3e1b91d1763"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/10/08/what-to-expect-from-apples-october-13-welcome-home-releases"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_17c04acfc8de29a5",
+      "title": {
+        "es": "Se filtran detalles del Home Hub antes del lanzamiento del 13 de octubre",
+        "en": "Home Hub details leak ahead of October 13 launch"
+      },
+      "body": {
+        "es": "Apple ha anunciado que presentará nuevos productos el martes 13 de octubre, con al menos tres dispositivos nuevos incluyendo uno totalmente inédito, según el jefe de marketing Greg Joswiak. Se espera que el nuevo Home Hub tenga una pantalla de 6 pulgadas en dos variantes: una para montar en pared y otra con base de altavoz de media cúpula. Es la primera pantalla inteligente propia de Apple para el hogar.",
+        "en": "Apple has announced it will introduce new products on Tuesday, October 13, with at least three new devices including one entirely new product, according to marketing chief Greg Joswiak. The new Home Hub is expected to feature a 6-inch display in two variants: one for wall mounting and one with a half-dome speaker base. This marks Apple's first dedicated smart home display."
+      },
+      "newsId": "evt_17c04acfc8de29a5",
+      "storyKey": "evt_17c04acfc8de29a5",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/10/08/apple-october-13-launch",
+      "image": "https://images.macrumors.com/t/zLzHRGqzsMxOCKsCwBiiD8Jscd0=/1600x/article-new/2026/10/October-13-Welcome-Home-Event-Image.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-08T23:48:33.000Z",
+      "evidence": [
+        {
+          "claim": "Apple is planning to introduce new products on Tuesday, October 13.",
+          "source": "9424f5164ac845ac"
+        },
+        {
+          "claim": "The new devices are expected to include at least three new products, including one all-new product.",
+          "source": "9424f5164ac845ac"
+        },
+        {
+          "claim": "The home hub is expected to have a 6-inch display and two varieties, one for mounting on the wall and one for use with a half-dome speaker base.",
+          "source": "9424f5164ac845ac"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/10/08/apple-october-13-launch"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_de55494d77768971",
+      "title": {
+        "es": "Apple prepara un segundo evento el 27 de octubre con MacBook Pro OLED táctil",
+        "en": "Apple reportedly planning October 27 event with touchscreen OLED MacBook Pro"
+      },
+      "body": {
+        "es": "Según Bloomberg, Apple lanzará nuevos modelos de MacBook Pro con pantalla OLED táctil y Dynamic Island, además de un iPad mini OLED, en torno al martes 27 de octubre. El lanzamiento incluirá también un iMac con chip M6, y ambos eventos de octubre tendrán presentación en vídeo online más una experiencia práctica para medios. Se trata de una filtración, no de una confirmación oficial de Apple.",
+        "en": "According to Bloomberg, Apple will launch new touchscreen OLED MacBook Pro models with a Dynamic Island, along with an OLED iPad mini, around Tuesday, October 27. The launch will also include an M6 iMac, and both October launches will feature an online video presentation plus a hands-on experience for media. This is a report based on sources, not an official Apple confirmation."
+      },
+      "newsId": "evt_de55494d77768971",
+      "storyKey": "evt_de55494d77768971",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/10/08/apple-october-27-macbook-pro",
+      "image": "https://images.macrumors.com/article-new/2026/10/MacBook-Pro-Ultra-Feature-1.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-08T21:12:43.000Z",
+      "evidence": [
+        {
+          "claim": "Apple will introduce new OLED touchscreen MacBook Pro models and an OLED iPad mini on or around October 27.",
+          "source": "bd21696886a24d8c"
+        },
+        {
+          "claim": "The launch will include an M6 14-inch MacBook Pro and an M6 iMac.",
+          "source": "bd21696886a24d8c"
+        },
+        {
+          "claim": "Both the October 13 and October 27 product launches will include an online video presentation as well as a hands-on experience for members of the media.",
+          "source": "bd21696886a24d8c"
+        },
+        {
+          "claim": "The 14-inch and 16-inch notebooks will be in the MacBook Pro family.",
+          "source": "bd21696886a24d8c"
+        },
+        {
+          "claim": "The devices will have OLED displays, touchscreen capabilities, and a Dynamic Island.",
+          "source": "bd21696886a24d8c"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/10/08/apple-october-27-macbook-pro"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_8373d3db37e9dfc9",
+      "title": {
+        "es": "Anthropic lanza su Cyber Mission para proteger infraestructuras críticas y software open-source",
+        "en": "Anthropic launches Cyber Mission to protect critical infrastructure and open-source software"
+      },
+      "body": {
+        "es": "Anthropic ha presentado el Critical Infrastructure Defense Program, que combina modelos de frontera, ingenieros in situ e investigación de amenazas para proteger tecnología operativa detrás de redes eléctricas, agua y transporte, con socios fundadores como CrowdStrike, Dragos, Palo Alto Networks y Accenture. Junto a ello, lanzó OSS Scanner, un servicio gratuito y opcional que ofrece escaneos periódicos de seguridad a proyectos open-source, con informes que incluyen prueba de concepto y sugerencias de corrección.",
+        "en": "Anthropic has introduced the Critical Infrastructure Defense Program, combining frontier models, on-site engineers, and threat research to protect operational technology behind power grids, water systems, and transportation, with founding partners including CrowdStrike, Dragos, Palo Alto Networks, and Accenture. Alongside it, the company launched OSS Scanner, a free, opt-in service offering periodic security scans to open-source projects, with reports that include a proof of concept and suggested fixes."
+      },
+      "newsId": "evt_8373d3db37e9dfc9",
+      "storyKey": "evt_8373d3db37e9dfc9",
+      "topic": "ai_software",
+      "source": "Anthropic News",
+      "link": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2af4f6715cbe9766a47430a24420cfca0a2c588-1200x630.jpg",
+      "score": 8.35,
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Anthropic is launching the Critical Infrastructure Defense Program (CIDP) to support the security of operational technology behind power grids, water systems, and transportation networks.",
+          "source": "66de7a9e73a9aa54"
+        },
+        {
+          "claim": "Anthropic is launching OSS Scanner, a service that offers open-source projects regular security scans from its strongest models, for free.",
+          "source": "66de7a9e73a9aa54"
+        },
+        {
+          "claim": "The Critical Infrastructure Defense Program is working with Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, and Rockwell Automation as founding partners.",
+          "source": "66de7a9e73a9aa54"
+        },
+        {
+          "claim": "OSS Scanner is an opt-in service that provides periodic scans from Anthropic's most capable models to enrolled open-source projects, with reports including proof of concept, explanations, and suggested fixes.",
+          "source": "66de7a9e73a9aa54"
+        },
+        {
+          "claim": "Anthropic is expanding its Cyber Mission to release tools, research, and resources in new areas to help secure critical infrastructure and open-source software.",
+          "source": "66de7a9e73a9aa54"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Anthropic News",
+          "link": "https://www.anthropic.com/news/anthropic-cyber-mission"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_cb04a9ed287fc96b",
+      "title": {
+        "es": "OSS Scanner de Anthropic genera informes de vulnerabilidades sin revisión humana",
+        "en": "Anthropic's OSS Scanner generates vulnerability reports without human review"
+      },
+      "body": {
+        "es": "El nuevo servicio OSS Scanner de Anthropic ofrece informes de vulnerabilidades generados por sus modelos más potentes, incluido Mythos, para proyectos open-source. Según la compañía, los resultados son completamente generados por el modelo sin revisión ni triaje humano, lo que permite escaneos más rápidos y frecuentes, aunque también implica el riesgo de informes incorrectos o inválidos.",
+        "en": "Anthropic's new OSS Scanner service offers vulnerability reports generated by its strongest models, including Mythos, for open-source projects. According to the company, the outputs are fully model-generated without human review or triage, enabling faster and more frequent scanning, though this also carries the risk of incorrect or invalid reports."
+      },
+      "newsId": "evt_cb04a9ed287fc96b",
+      "storyKey": "evt_cb04a9ed287fc96b",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?crop=0,0,100,100&quality=90&strip=all",
+      "score": 7.65,
+      "publishedAt": "2026-10-08T21:53:51.000Z",
+      "evidence": [
+        {
+          "claim": "Anthropic has launched a free AI security scanning service called OSS Scanner.",
+          "source": "7a6fdcef919592ed"
+        },
+        {
+          "claim": "The service uses Anthropic’s strongest models, including Mythos, to generate vulnerability reports.",
+          "source": "7a6fdcef919592ed"
+        },
+        {
+          "claim": "The reports generated by the service will be fully model-generated, without human review or triage.",
+          "source": "7a6fdcef919592ed"
+        },
+        {
+          "claim": "The service aims to enable faster and more frequent scanning of open-source projects.",
+          "source": "7a6fdcef919592ed"
+        },
+        {
+          "claim": "Anthropic’s service is part of a growing trend of AI tools used for security in open-source projects.",
+          "source": "7a6fdcef919592ed"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_e2b0e3282705ed68",
+      "title": {
+        "es": "Cloudflare presenta Clef-omni, su modelo multimodal unificado",
+        "en": "Cloudflare introduces Clef-omni, its unified multimodal model"
+      },
+      "body": {
+        "es": "Cloudflare ha ampliado su familia de modelos de decisión Clef con Clef-omni, que procesa de forma nativa audio, vídeo, imágenes y texto en un único pipeline. La compañía también ha reducido el precio de Clef-flash y asegura haber aumentado hasta 2 veces la velocidad de inferencia de Clef, según sus propias cifras.",
+        "en": "Cloudflare has expanded its Clef decision model family with Clef-omni, which natively processes audio, video, images, and text in a single pipeline. The company has also lowered Clef-flash pricing and claims to have boosted Clef inference speeds by up to 2x, according to its own figures."
+      },
+      "newsId": "evt_e2b0e3282705ed68",
+      "storyKey": "evt_e2b0e3282705ed68",
+      "topic": "tech",
+      "source": "Cloudflare Blog",
+      "link": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M4GV0AV5F55NC2CCEBK9XCTA.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-09T18:27:34.000Z",
+      "evidence": [
+        {
+          "claim": "Cloudflare has introduced Clef-omni, a new Clef model that processes audio, video, images, and text in a single pipeline.",
+          "source": "e0546dad03457c8f"
+        },
+        {
+          "claim": "Clef-flash pricing has been lowered by Cloudflare.",
+          "source": "e0546dad03457c8f"
+        },
+        {
+          "claim": "Clef inference speeds have been boosted by up to 2.0x by Cloudflare.",
+          "source": "e0546dad03457c8f"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "link": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_c422d3ab6c588763",
+      "title": {
+        "es": "TypeSafe valora su modelo no textual Jev en 7.500 millones de dólares",
+        "en": "TypeSafe's non-text AI model Jev valued at $7.5B"
+      },
+      "body": {
+        "es": "TypeSafe ha visto valorado su modelo de IA no textual Jev en 7.500 millones de dólares pocas semanas después de su lanzamiento. Según la propia compañía, Jev funciona significativamente más rápido y usa muchos menos tokens que los grandes modelos de lenguaje, lo que ha generado interés entre usuarios y grandes corporaciones; se trata de una afirmación del fabricante, no verificada de forma independiente.",
+        "en": "TypeSafe's non-text AI model Jev has been valued at $7.5 billion just weeks after its launch. According to the company itself, Jev works significantly faster and uses far fewer tokens than large language models, which has generated interest among users and large corporations; this is a vendor claim, not independently verified."
+      },
+      "newsId": "evt_c422d3ab6c588763",
+      "storyKey": "evt_c422d3ab6c588763",
+      "topic": "ai_software",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/typesafe-ai.jpg?resize=1174,1200",
+      "score": 8.35,
+      "publishedAt": "2026-10-09T21:41:29.000Z",
+      "evidence": [
+        {
+          "claim": "Jev works significantly faster and uses far fewer tokens than LLMs.",
+          "source": "6378bab33b559f79"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "evt_77957eedcd0953a7",
+      "title": {
+        "es": "Anthropic ofrece un nuevo servicio gratuito de detección de vulnerabilidades",
+        "en": "Anthropic offers a new free vulnerability-detection service"
+      },
+      "text": {
+        "es": "Anthropic ofrece a proyectos open-source una nueva forma de comprobar vulnerabilidades con su OSS Scanner, ampliando el acceso a escaneos de seguridad impulsados por IA sin coste para los mantenedores.",
+        "en": "Anthropic is offering open-source projects a new way to check for vulnerabilities with its OSS Scanner, expanding access to AI-powered security scans at no cost to maintainers."
+      },
+      "newsId": "evt_77957eedcd0953a7",
+      "storyKey": "evt_77957eedcd0953a7",
+      "topic": "tech",
+      "source": "Engadget",
+      "link": "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks",
+      "image": "https://www.engadget.com/img/gallery/anthropic-now-offers-a-free-vulnerability-finding-service-for-open-source-software/l-intro-1791544973.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-09T11:24:27.000Z",
+      "evidence": [
+        {
+          "claim": "Anthropic is offering a new way to check for vulnerabilities in open-source projects.",
+          "source": "a9bf61f0287e0b2e"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Engadget",
+          "link": "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_4af25f54fb5bf930",
+      "title": {
+        "es": "Onvis lanza un enchufe inteligente exterior con Matter over Thread",
+        "en": "Onvis releases an outdoor smart plug with Matter over Thread"
+      },
+      "text": {
+        "es": "Onvis ha lanzado un enchufe inteligente para exteriores compatible con Matter over Thread, con monitorización de energía en tiempo real y resistencia IP65, que funciona de forma nativa con Apple Home sin necesidad de hub propio.",
+        "en": "Onvis has released an outdoor smart plug compatible with Matter over Thread, featuring real-time energy monitoring and IP65 weather resistance, which works natively with Apple Home without needing its own hub."
+      },
+      "newsId": "evt_4af25f54fb5bf930",
+      "storyKey": "evt_4af25f54fb5bf930",
+      "topic": "apple",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/10/09/homekit-weekly-onvis-releases-a-matter-over-thread-outdoor-smart-plug-with-energy-monitoring",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/plug.jpg?quality=82&strip=all&w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-10-09T18:19:00.000Z",
+      "evidence": [
+        {
+          "claim": "Onvis has released a new outdoor smart plug.",
+          "source": "593a499870ef3d28"
+        },
+        {
+          "claim": "The plug supports Matter over Thread.",
+          "source": "593a499870ef3d28"
+        },
+        {
+          "claim": "It offers real-time energy monitoring.",
+          "source": "593a499870ef3d28"
+        },
+        {
+          "claim": "The plug is IP65 weather resistant.",
+          "source": "593a499870ef3d28"
+        },
+        {
+          "claim": "It works natively with Apple Home without a hub of its own.",
+          "source": "593a499870ef3d28"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/10/09/homekit-weekly-onvis-releases-a-matter-over-thread-outdoor-smart-plug-with-energy-monitoring"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_26a9c0d7e62d2a15",
+      "title": {
+        "es": "Cloudflare añade perfilado de CPU y memoria bajo demanda para Workers",
+        "en": "Cloudflare adds on-demand CPU and memory profiling for Workers"
+      },
+      "text": {
+        "es": "Cloudflare ha lanzado perfilado de CPU y memoria bajo demanda para Workers y Durable Objects, permitiendo generar flamegraphs interactivos directamente en producción para detectar fugas de memoria y cuellos de botella de rendimiento.",
+        "en": "Cloudflare has launched on-demand CPU and memory profiling for Workers and Durable Objects, enabling interactive flamegraphs directly in production to track down memory leaks and performance bottlenecks."
+      },
+      "newsId": "evt_26a9c0d7e62d2a15",
+      "storyKey": "evt_26a9c0d7e62d2a15",
+      "topic": "tech",
+      "source": "Cloudflare Blog",
+      "link": "https://blog.cloudflare.com/workers-on-demand-profiling",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M497X1XKZ8XG2FXKMTKEX5F4.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-09T13:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Cloudflare Workers and Durable Objects now support on-demand CPU and memory profiling.",
+          "source": "648f111d7a645c23"
+        },
+        {
+          "claim": "Interactive flamegraphs can be generated directly in production.",
+          "source": "648f111d7a645c23"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "link": "https://blog.cloudflare.com/workers-on-demand-profiling"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_d7bcec0749d63e11",
+      "title": {
+        "es": "Nagare combina calendario y tareas en una sola lista sincronizada con iCloud",
+        "en": "Nagare merges calendar and tasks into one iCloud-synced list"
+      },
+      "text": {
+        "es": "Nagare es una app de tareas para iPhone y Mac que combina eventos de calendario y pendientes en una sola lista entrelazada, sincroniza datos vía iCloud y expone ese contexto a agentes de IA mediante MCP.",
+        "en": "Nagare is a to-do app for iPhone and Mac that interleaves calendar events and tasks into a single list, syncs data via iCloud, and exposes that context to AI agents through MCP."
+      },
+      "newsId": "evt_d7bcec0749d63e11",
+      "storyKey": "evt_d7bcec0749d63e11",
+      "topic": "tech",
+      "source": "Hacker News",
+      "link": "https://ilia.page/writing/introducing-nagare",
+      "image": "https://media.ilia.page/writing/introducing-nagare/Nagare-Mac-and-iPhone-cover.jpeg",
+      "score": 6.65,
+      "publishedAt": "2026-10-10T04:37:13.000Z",
+      "evidence": [
+        {
+          "claim": "Nagare is a to-do app that combines calendar events and tasks into a single list.",
+          "source": "8de04ca3ab698be9"
+        },
+        {
+          "claim": "Nagare allows users to interleave tasks and events in one list, unlike other apps that separate them.",
+          "source": "8de04ca3ab698be9"
+        },
+        {
+          "claim": "Nagare syncs data through iCloud and provides context to the user's agent through MCP.",
+          "source": "8de04ca3ab698be9"
+        },
+        {
+          "claim": "Nagare highlights priority projects with a subtle glow to draw attention to them.",
+          "source": "8de04ca3ab698be9"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Hacker News",
+          "link": "https://ilia.page/writing/introducing-nagare"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "morluto/rea",
+      "repoKey": "morluto/rea",
+      "name": "rea",
+      "full_name": "morluto/rea",
+      "link": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 44455,
+      "stars_today": null,
+      "stars_per_day_estimate": 12845.206198923042,
+      "trend_basis": "normalized_62.8h",
+      "trend_score": 16.648980916733066,
+      "default_branch": "main",
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-09T22:58:29Z",
+      "why_it_matters": {
+        "es": "REA conecta agentes de IA con herramientas para inspeccionar binarios nativos, apps JavaScript/Electron, ensamblados .NET y sitios web, permitiendo analizar cómo funciona una característica sin acceso al código fuente y reproducirla, con el análisis corriendo localmente y evidencias incluidas en los resultados.",
+        "en": "REA connects AI agents to tools for inspecting native binaries, JavaScript/Electron apps, .NET assemblies, and websites, letting developers analyze how a feature works without source access and rebuild it, with analysis running locally and evidence included in results."
+      }
+    },
+    {
+      "id": "strands-agents/box",
+      "repoKey": "strands-agents/box",
+      "name": "box",
+      "full_name": "strands-agents/box",
+      "link": "https://github.com/strands-agents/box",
+      "description": "Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box combines OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent. Written in Rust. Supports macOS on Apple silicon, with Linux support planned.",
+      "language": "Rust",
+      "stars": 286,
+      "stars_today": null,
+      "stars_per_day_estimate": 104.74904289733118,
+      "trend_basis": "normalized_44.2h",
+      "trend_score": 9.718619103652046,
+      "default_branch": "main",
+      "created_at": "2026-10-02T20:34:08Z",
+      "pushed_at": "2026-10-09T22:16:40Z",
+      "why_it_matters": {
+        "es": "Strands Box es un sandbox de código abierto para agentes de IA en Rust que combina aislamiento a nivel de sistema operativo con políticas semánticas Dogwood de denegación por defecto, controlando archivos, programas y red, además de inyección de credenciales que mantiene los secretos fuera del proceso del agente.",
+        "en": "Strands Box is an open-source Rust sandbox for AI agents that combines OS-level isolation with default-deny Dogwood semantic policies, controlling file, program, and network access, plus credential injection that keeps secrets outside the agent process."
+      }
+    },
+    {
+      "id": "yakuikai/tokentab",
+      "repoKey": "yakuikai/tokentab",
+      "name": "tokentab",
+      "full_name": "yakuikai/tokentab",
+      "link": "https://github.com/yakuikai/tokentab",
+      "description": "Local-first CLI and web dashboard that reads Claude Code, Codex and Gemini CLI session logs and shows token usage and cost by model, project, day and activity. No account, no API key, nothing leaves your machine",
+      "language": "Python",
+      "stars": 432,
+      "stars_today": null,
+      "stars_per_day_estimate": 76.52650284209169,
+      "trend_basis": "normalized_44.2h",
+      "trend_score": 9.214634138487645,
+      "default_branch": "main",
+      "created_at": "2026-09-21T18:07:22Z",
+      "pushed_at": "2026-10-09T15:32:44Z",
+      "why_it_matters": {
+        "es": "tokentab es una herramienta local-first que lee los logs de sesión que Claude Code, Codex y Gemini CLI ya dejan en disco para desglosar el uso de tokens y coste por modelo, proyecto y día, sin necesidad de cuenta ni clave de API y sin enviar nada fuera de la máquina.",
+        "en": "tokentab is a local-first tool that reads the session logs Claude Code, Codex, and Gemini CLI already leave on disk to break down token usage and cost by model, project, and day, requiring no account or API key and sending nothing off the machine."
+      }
+    },
+    {
+      "id": "TannerMidd/pi-pocket",
+      "repoKey": "TannerMidd/pi-pocket",
+      "name": "pi-pocket",
+      "full_name": "TannerMidd/pi-pocket",
+      "link": "https://github.com/TannerMidd/pi-pocket",
+      "description": "A durable, multiplayer, mobile-first web app for Pi agents, built on Pi Durable",
+      "language": "TypeScript",
+      "stars": 311,
+      "stars_today": null,
+      "stars_per_day_estimate": 56.44508011047898,
+      "trend_basis": "normalized_44.2h",
+      "trend_score": 8.801449648569076,
+      "default_branch": "main",
+      "created_at": "2026-10-04T02:29:57Z",
+      "pushed_at": "2026-10-09T17:51:51Z",
+      "why_it_matters": {
+        "es": "Pi Pocket es una app web duradera y multijugador para agentes Pi que corre en tu propia máquina o teléfono sin VM en la nube, con cada llamada a modelo y herramienta almacenada para que el trabajo continúe tras un reinicio, además de edición colaborativa y modo plan que requiere aprobación antes de aplicar cambios.",
+        "en": "Pi Pocket is a durable, multiplayer web app for Pi agents that runs on your own machine or phone with no cloud VM, storing every model and tool call so work survives a restart, plus collaborative editing and a plan mode that requires approval before changes are applied."
+      }
+    }
+  ],
+  "developer_signals": [],
+  "editorial_stats": {
+    "topics": {
+      "apple": 3,
+      "ai_software": 2,
+      "ai_general": 0,
+      "tech": 2
+    }
+  }
+}

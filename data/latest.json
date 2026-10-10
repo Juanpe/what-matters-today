@@ -1,344 +1,340 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-10-08",
-  "date": "2026-10-08",
+  "edition_id": "wmt-2026-10-10",
+  "date": "2026-10-10",
   "daily_summary": {
-    "es": "La agenda de hoy mezcla rumores de hardware de Apple (incluyendo lanzamientos previstos para el 13 de octubre), un nuevo laptop de Microsoft que reta al MacBook Pro, y avances en IA agéntica y modelos de decisión para desarrolladores.",
-    "en": "Today's agenda blends Apple hardware rumors (including launches planned for October 13), a new Microsoft laptop challenging the MacBook Pro, and advances in agentic AI and decision models for developers."
+    "es": "Apple confirma su evento del 13 de octubre centrado en el hogar inteligente (y filtra otro para el 27), mientras Anthropic amplía su Cyber Mission con un escáner gratuito de vulnerabilidades para proyectos open-source y Cloudflare lanza el modelo multimodal Clef-omni.",
+    "en": "Apple confirms its October 13 smart-home event (with another leaked for October 27), while Anthropic expands its Cyber Mission with a free vulnerability scanner for open-source projects and Cloudflare launches the multimodal Clef-omni model."
   },
   "topic_summaries": {
     "apple": {
-      "es": "Apple prepara varias novedades de hardware para octubre, incluyendo un iMac con chip M6, MacBook Pro con pantallas OLED táctiles, y dispositivos para el hogar co-desarrollados con LG (timbre, cerradura, termostato) cuya presentación está prevista para el 13 de octubre. Por separado, su propia cámara de seguridad doméstica sigue en desarrollo para el próximo año, y ya se puede enviar apps optimizadas para iPhone Duo, disponible desde el 23 de octubre.",
-      "en": "Apple is preparing several hardware updates for October, including an iMac with an M6 chip, MacBook Pro models with touch OLED displays, and home devices co-developed with LG (doorbell, lock, thermostat) with an introduction planned for October 13. Separately, its own home security camera remains in development for next year, and developers can now submit apps optimized for iPhone Duo, available starting October 23."
+      "es": "Apple ha confirmado un evento el martes 13 de octubre centrado en el hogar inteligente, donde se esperan al menos tres dispositivos nuevos, incluyendo un producto totalmente nuevo: una pantalla inteligente tipo Home Hub de unas 6 pulgadas con cámara para FaceTime, además de posibles actualizaciones del Apple TV 4K con Siri AI y chip A19/A19 Pro, y del HomePod mini. Por separado, se ha filtrado un segundo evento para el 27 de octubre con MacBook Pro OLED táctil con Dynamic Island, un iMac M6 y un iPad mini con pantalla OLED.",
+      "en": "Apple has confirmed an event on Tuesday, October 13 focused on the smart home, where at least three new devices are expected, including one entirely new product: a roughly 6-inch Home Hub smart display with a FaceTime camera, plus possible updates to the Apple TV 4K with Siri AI and an A19/A19 Pro chip, and to the HomePod mini. Separately, a second event has leaked for October 27 featuring a touchscreen OLED MacBook Pro with a Dynamic Island, an M6 iMac, and an OLED iPad mini."
     },
     "ai_software": {
-      "es": "OpenAI lanzó su API de Decisiones en AI Gateway, que permite hacer preguntas tipadas sobre un mismo input y obtener probabilidades, elecciones o puntuaciones en vez de texto generado, útil para enrutamiento y validaciones. Además, voces del sector advierten que mantener a los humanos \"en el bucle\" de la IA puede, paradójicamente, terminar excluyéndolos, y se insiste en diseñar límites claros de módulos antes de dejar que la IA opere con libertad.",
-      "en": "OpenAI launched its Decisions API on AI Gateway, letting developers ask typed questions about the same input and get probabilities, choices, or scores instead of generated text, useful for routing and guardrails. Meanwhile, industry voices warn that efforts to keep humans in the AI loop may paradoxically push them out, reinforcing the need to design clear module boundaries before giving AI free rein."
+      "es": "Anthropic ha ampliado su Cyber Mission con el Critical Infrastructure Defense Program, junto a varios socios fundadores, y ha lanzado OSS Scanner, un servicio gratuito que ofrece escaneos de seguridad generados íntegramente por modelos de IA, sin revisión humana, a proyectos open-source. Por su parte, Sophos afirma haber reducido en un 96% el tiempo de investigación de amenazas usando Daybreak de OpenAI, automatizando más de la mitad de sus casos de MDR.",
+      "en": "Anthropic has expanded its Cyber Mission with the Critical Infrastructure Defense Program, alongside several founding partners, and launched OSS Scanner, a free service offering fully AI-model-generated security scans, without human review, to open-source projects. Separately, Sophos claims it cut threat investigation time by 96% using OpenAI's Daybreak, automating more than half of its MDR cases."
     },
     "ai_general": {
-      "es": "Una afirmación de OpenAI sobre haber resuelto un problema del Milenio generó debate entre matemáticos en el Heidelberg Laureate Forum, divididos entre celebración y escepticismo. Por otro lado, la falta de acceso a conocimiento corporativo sigue siendo la principal razón por la que solo un tercio de los proyectos de IA agéntica llegan a producción.",
-      "en": "A claim by OpenAI about solving a Millennium Prize problem sparked debate among mathematicians at the Heidelberg Laureate Forum, split between celebration and skepticism. Separately, lack of access to enterprise knowledge remains the top reason only about a third of agentic AI projects make it to production."
+      "es": "",
+      "en": ""
     },
     "tech": {
-      "es": "Microsoft presentó el Surface Laptop Ultra, un portátil de 2.599 dólares con chip Nvidia RTX Spark que apunta directamente al MacBook Pro de 16 pulgadas, ofreciendo hasta 1 petaflop de rendimiento de IA y 128GB de memoria unificada. También destaca el lanzamiento de Muse de Meta en iPad, y una nueva startup, Bridge Neurotech, que busca competir con Merge Labs de Sam Altman en interfaces cerebro-computadora.",
-      "en": "Microsoft unveiled the Surface Laptop Ultra, a $2,599 laptop with an Nvidia RTX Spark chip aimed directly at the 16-inch MacBook Pro, offering up to 1 petaflop of AI performance and 128GB of unified memory. Also notable: Meta's Muse launching on iPad, and a new startup, Bridge Neurotech, aiming to rival Sam Altman's Merge Labs in brain-computer interfaces."
+      "es": "Cloudflare ha presentado Clef-omni, un nuevo modelo que procesa audio, vídeo, imágenes y texto en un único pipeline, junto con una reducción de precios en Clef-flash y mejoras de hasta 2x en velocidad de inferencia. Además, Anthropic ha lanzado OSS Scanner, un servicio gratuito de escaneo de vulnerabilidades para proyectos open-source basado en sus modelos más potentes, sin revisión humana de los informes.",
+      "en": "Cloudflare has introduced Clef-omni, a new model that processes audio, video, images, and text in a single pipeline, alongside lower Clef-flash pricing and inference speed improvements of up to 2x. Additionally, Anthropic has launched OSS Scanner, a free vulnerability-scanning service for open-source projects powered by its strongest models, with no human review of the reports."
     }
   },
   "summary": {
     "apple": {
-      "es": "Apple prepara varias novedades de hardware para octubre, incluyendo un iMac con chip M6, MacBook Pro con pantallas OLED táctiles, y dispositivos para el hogar co-desarrollados con LG (timbre, cerradura, termostato) cuya presentación está prevista para el 13 de octubre. Por separado, su propia cámara de seguridad doméstica sigue en desarrollo para el próximo año, y ya se puede enviar apps optimizadas para iPhone Duo, disponible desde el 23 de octubre.",
-      "en": "Apple is preparing several hardware updates for October, including an iMac with an M6 chip, MacBook Pro models with touch OLED displays, and home devices co-developed with LG (doorbell, lock, thermostat) with an introduction planned for October 13. Separately, its own home security camera remains in development for next year, and developers can now submit apps optimized for iPhone Duo, available starting October 23."
+      "es": "Apple ha confirmado un evento el martes 13 de octubre centrado en el hogar inteligente, donde se esperan al menos tres dispositivos nuevos, incluyendo un producto totalmente nuevo: una pantalla inteligente tipo Home Hub de unas 6 pulgadas con cámara para FaceTime, además de posibles actualizaciones del Apple TV 4K con Siri AI y chip A19/A19 Pro, y del HomePod mini. Por separado, se ha filtrado un segundo evento para el 27 de octubre con MacBook Pro OLED táctil con Dynamic Island, un iMac M6 y un iPad mini con pantalla OLED.",
+      "en": "Apple has confirmed an event on Tuesday, October 13 focused on the smart home, where at least three new devices are expected, including one entirely new product: a roughly 6-inch Home Hub smart display with a FaceTime camera, plus possible updates to the Apple TV 4K with Siri AI and an A19/A19 Pro chip, and to the HomePod mini. Separately, a second event has leaked for October 27 featuring a touchscreen OLED MacBook Pro with a Dynamic Island, an M6 iMac, and an OLED iPad mini."
     },
     "ai_software": {
-      "es": "OpenAI lanzó su API de Decisiones en AI Gateway, que permite hacer preguntas tipadas sobre un mismo input y obtener probabilidades, elecciones o puntuaciones en vez de texto generado, útil para enrutamiento y validaciones. Además, voces del sector advierten que mantener a los humanos \"en el bucle\" de la IA puede, paradójicamente, terminar excluyéndolos, y se insiste en diseñar límites claros de módulos antes de dejar que la IA opere con libertad.",
-      "en": "OpenAI launched its Decisions API on AI Gateway, letting developers ask typed questions about the same input and get probabilities, choices, or scores instead of generated text, useful for routing and guardrails. Meanwhile, industry voices warn that efforts to keep humans in the AI loop may paradoxically push them out, reinforcing the need to design clear module boundaries before giving AI free rein."
+      "es": "Anthropic ha ampliado su Cyber Mission con el Critical Infrastructure Defense Program, junto a varios socios fundadores, y ha lanzado OSS Scanner, un servicio gratuito que ofrece escaneos de seguridad generados íntegramente por modelos de IA, sin revisión humana, a proyectos open-source. Por su parte, Sophos afirma haber reducido en un 96% el tiempo de investigación de amenazas usando Daybreak de OpenAI, automatizando más de la mitad de sus casos de MDR.",
+      "en": "Anthropic has expanded its Cyber Mission with the Critical Infrastructure Defense Program, alongside several founding partners, and launched OSS Scanner, a free service offering fully AI-model-generated security scans, without human review, to open-source projects. Separately, Sophos claims it cut threat investigation time by 96% using OpenAI's Daybreak, automating more than half of its MDR cases."
     },
     "ai_general": {
-      "es": "Una afirmación de OpenAI sobre haber resuelto un problema del Milenio generó debate entre matemáticos en el Heidelberg Laureate Forum, divididos entre celebración y escepticismo. Por otro lado, la falta de acceso a conocimiento corporativo sigue siendo la principal razón por la que solo un tercio de los proyectos de IA agéntica llegan a producción.",
-      "en": "A claim by OpenAI about solving a Millennium Prize problem sparked debate among mathematicians at the Heidelberg Laureate Forum, split between celebration and skepticism. Separately, lack of access to enterprise knowledge remains the top reason only about a third of agentic AI projects make it to production."
+      "es": "",
+      "en": ""
     },
     "tech": {
-      "es": "Microsoft presentó el Surface Laptop Ultra, un portátil de 2.599 dólares con chip Nvidia RTX Spark que apunta directamente al MacBook Pro de 16 pulgadas, ofreciendo hasta 1 petaflop de rendimiento de IA y 128GB de memoria unificada. También destaca el lanzamiento de Muse de Meta en iPad, y una nueva startup, Bridge Neurotech, que busca competir con Merge Labs de Sam Altman en interfaces cerebro-computadora.",
-      "en": "Microsoft unveiled the Surface Laptop Ultra, a $2,599 laptop with an Nvidia RTX Spark chip aimed directly at the 16-inch MacBook Pro, offering up to 1 petaflop of AI performance and 128GB of unified memory. Also notable: Meta's Muse launching on iPad, and a new startup, Bridge Neurotech, aiming to rival Sam Altman's Merge Labs in brain-computer interfaces."
+      "es": "Cloudflare ha presentado Clef-omni, un nuevo modelo que procesa audio, vídeo, imágenes y texto en un único pipeline, junto con una reducción de precios en Clef-flash y mejoras de hasta 2x en velocidad de inferencia. Además, Anthropic ha lanzado OSS Scanner, un servicio gratuito de escaneo de vulnerabilidades para proyectos open-source basado en sus modelos más potentes, sin revisión humana de los informes.",
+      "en": "Cloudflare has introduced Clef-omni, a new model that processes audio, video, images, and text in a single pipeline, alongside lower Clef-flash pricing and inference speed improvements of up to 2x. Additionally, Anthropic has launched OSS Scanner, a free vulnerability-scanning service for open-source projects powered by its strongest models, with no human review of the reports."
     }
   },
   "top_stories": [
     {
-      "id": "evt_c6636028dcfba404",
+      "id": "evt_12db734cb9e7ca2e",
       "title": {
-        "es": "Microsoft lanza el Surface Laptop Ultra de 2.599 dólares para competir con el MacBook Pro",
-        "en": "Microsoft launches $2,599 Surface Laptop Ultra to rival the MacBook Pro"
+        "es": "Apple confirma su evento del 13 de octubre centrado en el hogar inteligente",
+        "en": "Apple confirms its October 13 smart-home event"
       },
       "body": {
-        "es": "Microsoft presentó el Surface Laptop Ultra de 15 pulgadas, con precio inicial de 2.599 dólares frente a los 2.999 del MacBook Pro de 16 pulgadas, apuntando directamente al mismo público creativo y de desarrollo. El equipo monta un chip Nvidia RTX Spark con hasta 6.144 núcleos GPU Blackwell y CPU Grace de hasta 20 núcleos, soporta hasta 128GB de memoria unificada y ofrece hasta 1 petaflop de rendimiento de IA para modelos de hasta 120B de parámetros. Su pantalla mini-LED es táctil pero no admite lápiz, una limitación a considerar frente a la oferta de Apple.",
-        "en": "Microsoft unveiled the 15-inch Surface Laptop Ultra, priced starting at $2,599 versus $2,999 for the 16-inch MacBook Pro, targeting the same creator and developer market. The machine uses an Nvidia RTX Spark chip with up to 6,144 Blackwell GPU cores and up to 20 Grace CPU cores, supports up to 128GB of unified memory, and offers up to 1 petaflop of AI performance for models up to 120B parameters. Its mini-LED display is touch-enabled but does not support pen input, a limitation worth noting against Apple's offering."
+        "es": "Apple ha confirmado que celebrará un segundo evento de otoño el martes 13 de octubre de 2026, centrado en el hogar inteligente. Se espera que el Apple TV 4K reciba soporte para Siri AI y posiblemente un chip A19 o A19 Pro, mientras que el Home Hub sería una pantalla inteligente nueva para notificaciones, calendarios y llamadas FaceTime mediante cámara integrada. Es la primera incursión de Apple en pantallas domésticas inteligentes propias.",
+        "en": "Apple has confirmed it will hold a second fall event on Tuesday, October 13, 2026, focused on the smart home. The Apple TV 4K is expected to gain Siri AI support and possibly an A19 or A19 Pro chip, while the Home Hub would be a new smart display for notifications, calendars, and FaceTime calls via a built-in camera. This marks Apple's first move into its own smart home displays."
       },
-      "newsId": "evt_c6636028dcfba404",
-      "storyKey": "evt_c6636028dcfba404",
-      "topic": "tech",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/10/07/microsoft-surface-laptop-ultra",
-      "image": "https://images.macrumors.com/article-new/2026/10/surface-laptop-ultra.jpg",
+      "newsId": "evt_12db734cb9e7ca2e",
+      "storyKey": "evt_12db734cb9e7ca2e",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/10/08/what-to-expect-from-apples-october-13-welcome-home-releases",
+      "image": "https://media.appleinsider.com/gallery/69208-145992-johnternusapplepark-xl.jpg",
       "score": 7.65,
-      "publishedAt": "2026-10-08T00:45:43.000Z",
+      "publishedAt": "2026-10-08T16:20:03.000Z",
       "evidence": [
         {
-          "claim": "Microsoft's Surface Laptop Ultra is priced starting at $2,599.",
-          "source": "07c012e3f5bb11f3"
+          "claim": "Apple is holding a second fall event on October 13, 2026.",
+          "source": "8bd9d3e1b91d1763"
         },
         {
-          "claim": "The Surface Laptop Ultra uses an Nvidia RTX Spark chip.",
-          "source": "07c012e3f5bb11f3"
+          "claim": "The Apple TV 4K is expected to get support for Siri AI and a possible upgrade to the A19 or A19 Pro chip.",
+          "source": "8bd9d3e1b91d1763"
         },
         {
-          "claim": "The Surface Laptop Ultra has a mini-LED display that is a touchscreen.",
-          "source": "07c012e3f5bb11f3"
+          "claim": "The Home Hub is expected to be a smart display that shows notifications and handles tasks like FaceTime calls.",
+          "source": "8bd9d3e1b91d1763"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/10/08/what-to-expect-from-apples-october-13-welcome-home-releases"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_17c04acfc8de29a5",
+      "title": {
+        "es": "Se filtran detalles del Home Hub antes del lanzamiento del 13 de octubre",
+        "en": "Home Hub details leak ahead of October 13 launch"
+      },
+      "body": {
+        "es": "Apple ha anunciado que presentará nuevos productos el martes 13 de octubre, con al menos tres dispositivos nuevos incluyendo uno totalmente inédito, según el jefe de marketing Greg Joswiak. Se espera que el nuevo Home Hub tenga una pantalla de 6 pulgadas en dos variantes: una para montar en pared y otra con base de altavoz de media cúpula. Es la primera pantalla inteligente propia de Apple para el hogar.",
+        "en": "Apple has announced it will introduce new products on Tuesday, October 13, with at least three new devices including one entirely new product, according to marketing chief Greg Joswiak. The new Home Hub is expected to feature a 6-inch display in two variants: one for wall mounting and one with a half-dome speaker base. This marks Apple's first dedicated smart home display."
+      },
+      "newsId": "evt_17c04acfc8de29a5",
+      "storyKey": "evt_17c04acfc8de29a5",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/10/08/apple-october-13-launch",
+      "image": "https://images.macrumors.com/t/zLzHRGqzsMxOCKsCwBiiD8Jscd0=/1600x/article-new/2026/10/October-13-Welcome-Home-Event-Image.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-08T23:48:33.000Z",
+      "evidence": [
+        {
+          "claim": "Apple is planning to introduce new products on Tuesday, October 13.",
+          "source": "9424f5164ac845ac"
         },
         {
-          "claim": "The Surface Laptop Ultra supports up to 128GB of unified memory.",
-          "source": "07c012e3f5bb11f3"
+          "claim": "The new devices are expected to include at least three new products, including one all-new product.",
+          "source": "9424f5164ac845ac"
         },
         {
-          "claim": "The Surface Laptop Ultra is equipped with an Nvidia RTX Spark chip and offers up to 1 petaflop of AI performance.",
-          "source": "07c012e3f5bb11f3"
+          "claim": "The home hub is expected to have a 6-inch display and two varieties, one for mounting on the wall and one for use with a half-dome speaker base.",
+          "source": "9424f5164ac845ac"
         }
       ],
       "sources": [
         {
           "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/10/07/microsoft-surface-laptop-ultra"
+          "link": "https://www.macrumors.com/2026/10/08/apple-october-13-launch"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_5ba98dd8350155a6",
+      "id": "evt_de55494d77768971",
       "title": {
-        "es": "Apple prepararía dispositivos para el hogar codesarrollados con LG, presentación prevista el 13 de octubre",
-        "en": "Apple reportedly preparing LG-codeveloped home devices, introduction planned for October 13"
+        "es": "Apple prepara un segundo evento el 27 de octubre con MacBook Pro OLED táctil",
+        "en": "Apple reportedly planning October 27 event with touchscreen OLED MacBook Pro"
       },
       "body": {
-        "es": "Según Mark Gurman, Apple se asocia con LG Electronics para desarrollar un timbre inteligente, cerradura, termostato y cámaras de seguridad interiores y exteriores, aunque los productos llevarán marca LG, que se encarga de fabricación y soporte. La presentación de estos dispositivos estaría prevista para el 13 de octubre de 2026, según el reporte. Es una colaboración inusual para Apple, aunque no del todo inédita en su historial de alianzas de hardware.",
-        "en": "According to Mark Gurman, Apple is partnering with LG Electronics to develop a smart doorbell, lock, thermostat, and indoor/outdoor security cameras, though the products will carry the LG brand, with LG handling manufacturing and support. The introduction of these devices is reportedly planned for October 13, 2026. It's an unusual collaboration for Apple, though not entirely uncharted territory in its hardware partnership history."
+        "es": "Según Bloomberg, Apple lanzará nuevos modelos de MacBook Pro con pantalla OLED táctil y Dynamic Island, además de un iPad mini OLED, en torno al martes 27 de octubre. El lanzamiento incluirá también un iMac con chip M6, y ambos eventos de octubre tendrán presentación en vídeo online más una experiencia práctica para medios. Se trata de una filtración, no de una confirmación oficial de Apple.",
+        "en": "According to Bloomberg, Apple will launch new touchscreen OLED MacBook Pro models with a Dynamic Island, along with an OLED iPad mini, around Tuesday, October 27. The launch will also include an M6 iMac, and both October launches will feature an online video presentation plus a hands-on experience for media. This is a report based on sources, not an official Apple confirmation."
       },
-      "newsId": "evt_5ba98dd8350155a6",
-      "storyKey": "evt_5ba98dd8350155a6",
+      "newsId": "evt_de55494d77768971",
+      "storyKey": "evt_de55494d77768971",
       "topic": "apple",
-      "source": "Daring Fireball",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-06/apple-s-smart-home-push-includes-doorbell-lock-thermostat-codeveloped-with-lg?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTMyMDkxNiwiZXhwIjoxNzkxOTI1NzE2LCJhcnRpY2xlSWQiOiJUTUdDN0lLSkg2VjUwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.LSK9jlXYPFHac9EpcJCErTgJNAwqmpV6qFoORcKffVo",
-      "image": null,
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/10/08/apple-october-27-macbook-pro",
+      "image": "https://images.macrumors.com/article-new/2026/10/MacBook-Pro-Ultra-Feature-1.jpg",
       "score": 7.65,
-      "publishedAt": "2026-10-07T22:02:43.000Z",
+      "publishedAt": "2026-10-08T21:12:43.000Z",
       "evidence": [
         {
-          "claim": "Apple's upcoming push into smart home devices will include a doorbell, thermostat and other accessories developed through an unusual partnership with LG Electronics Inc.",
-          "source": "8a61122d5b4eb817"
+          "claim": "Apple will introduce new OLED touchscreen MacBook Pro models and an OLED iPad mini on or around October 27.",
+          "source": "bd21696886a24d8c"
         },
         {
-          "claim": "The new Apple devices are set to be introduced on Oct. 13.",
-          "source": "8a61122d5b4eb817"
+          "claim": "The launch will include an M6 14-inch MacBook Pro and an M6 iMac.",
+          "source": "bd21696886a24d8c"
         },
         {
-          "claim": "The products developed with South Korea’s LG will also include a smart deadbolt lock, indoor security camera, outdoor security camera and floodlight camera.",
-          "source": "8a61122d5b4eb817"
+          "claim": "Both the October 13 and October 27 product launches will include an online video presentation as well as a hands-on experience for members of the media.",
+          "source": "bd21696886a24d8c"
         },
         {
-          "claim": "Apple and LG are working together to develop these accessories, but the products will carry the LG brand.",
-          "source": "8a61122d5b4eb817"
+          "claim": "The 14-inch and 16-inch notebooks will be in the MacBook Pro family.",
+          "source": "bd21696886a24d8c"
         },
         {
-          "claim": "This partnership is somewhat unusual for Apple, but not entirely new territory.",
-          "source": "8a61122d5b4eb817"
+          "claim": "The devices will have OLED displays, touchscreen capabilities, and a Dynamic Island.",
+          "source": "bd21696886a24d8c"
         }
       ],
       "sources": [
         {
-          "name": "Daring Fireball",
-          "link": "https://www.bloomberg.com/news/articles/2026-10-06/apple-s-smart-home-push-includes-doorbell-lock-thermostat-codeveloped-with-lg?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTMyMDkxNiwiZXhwIjoxNzkxOTI1NzE2LCJhcnRpY2xlSWQiOiJUTUdDN0lLSkg2VjUwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.LSK9jlXYPFHac9EpcJCErTgJNAwqmpV6qFoORcKffVo"
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/10/08/apple-october-27-macbook-pro"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_ac968beb92dde7c1",
+      "id": "evt_8373d3db37e9dfc9",
       "title": {
-        "es": "La API de Decisiones de OpenAI llega a AI Gateway",
-        "en": "OpenAI's Decisions API arrives on AI Gateway"
+        "es": "Anthropic lanza su Cyber Mission para proteger infraestructuras críticas y software open-source",
+        "en": "Anthropic launches Cyber Mission to protect critical infrastructure and open-source software"
       },
       "body": {
-        "es": "OpenAI hizo disponible su API de Decisiones en AI Gateway a través de un endpoint compatible /v1/decisions, permitiendo hacer preguntas tipadas de sí/no, elección u puntuación sobre un mismo input en una sola petición. En vez de generar texto, el modelo devuelve probabilidades, elecciones o puntuaciones, lo que resulta útil para enrutamiento, validaciones (guardrails) y evaluación con rúbricas. Se puede invocar con el SDK de OpenAI (requiere versión 7.30.0+ para JavaScript o 3.26.0+ para Python), el AI SDK, la API HTTP existente o la CLI de IA.",
-        "en": "OpenAI made its Decisions API available on AI Gateway through an OpenAI-compatible /v1/decisions endpoint, enabling typed yes/no, choice, or score questions against the same input in a single request. Instead of generating text, the model returns probabilities, choices, or scores, which is useful for routing, guardrails, and rubric-based scoring. It can be called with the OpenAI SDK (requiring version 7.30.0+ for JavaScript or 3.26.0+ for Python), the AI SDK, the existing HTTP API, or the AI CLI."
+        "es": "Anthropic ha presentado el Critical Infrastructure Defense Program, que combina modelos de frontera, ingenieros in situ e investigación de amenazas para proteger tecnología operativa detrás de redes eléctricas, agua y transporte, con socios fundadores como CrowdStrike, Dragos, Palo Alto Networks y Accenture. Junto a ello, lanzó OSS Scanner, un servicio gratuito y opcional que ofrece escaneos periódicos de seguridad a proyectos open-source, con informes que incluyen prueba de concepto y sugerencias de corrección.",
+        "en": "Anthropic has introduced the Critical Infrastructure Defense Program, combining frontier models, on-site engineers, and threat research to protect operational technology behind power grids, water systems, and transportation, with founding partners including CrowdStrike, Dragos, Palo Alto Networks, and Accenture. Alongside it, the company launched OSS Scanner, a free, opt-in service offering periodic security scans to open-source projects, with reports that include a proof of concept and suggested fixes."
       },
-      "newsId": "evt_ac968beb92dde7c1",
-      "storyKey": "evt_ac968beb92dde7c1",
+      "newsId": "evt_8373d3db37e9dfc9",
+      "storyKey": "evt_8373d3db37e9dfc9",
       "topic": "ai_software",
-      "source": "Vercel AI",
-      "link": "https://vercel.com/changelog/openai-decisions-api-now-available-on-ai-gateway",
-      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/49tnH165xjKrraN92XsMr7/68bb1074c0c1daefdb93016363e6b182/image__115_.png",
-      "score": 8.4,
-      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "source": "Anthropic News",
+      "link": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2af4f6715cbe9766a47430a24420cfca0a2c588-1200x630.jpg",
+      "score": 8.35,
+      "publishedAt": "2026-10-08T00:00:00.000Z",
       "evidence": [
         {
-          "claim": "OpenAI's Decisions API is now available on AI Gateway.",
-          "source": "a61991a66b4f08d4"
+          "claim": "Anthropic is launching the Critical Infrastructure Defense Program (CIDP) to support the security of operational technology behind power grids, water systems, and transportation networks.",
+          "source": "66de7a9e73a9aa54"
         },
         {
-          "claim": "Decision models answer typed questions about a shared input and return probabilities, choices, and scores.",
-          "source": "a61991a66b4f08d4"
+          "claim": "Anthropic is launching OSS Scanner, a service that offers open-source projects regular security scans from its strongest models, for free.",
+          "source": "66de7a9e73a9aa54"
         },
         {
-          "claim": "You can ask predicate (yes/no), choice, and score questions against the same input in one request.",
-          "source": "a61991a66b4f08d4"
+          "claim": "The Critical Infrastructure Defense Program is working with Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, and Rockwell Automation as founding partners.",
+          "source": "66de7a9e73a9aa54"
         },
         {
-          "claim": "The OpenAI SDK, AI SDK, existing HTTP API at /v1/evaluate, or AI CLI can be used to call the Decisions API.",
-          "source": "a61991a66b4f08d4"
+          "claim": "OSS Scanner is an opt-in service that provides periodic scans from Anthropic's most capable models to enrolled open-source projects, with reports including proof of concept, explanations, and suggested fixes.",
+          "source": "66de7a9e73a9aa54"
         },
         {
-          "claim": "The OpenAI SDK needs to be pointed at AI Gateway and calls to decisions.create require the OpenAI SDK 7.30.0 or later for JavaScript, or 3.26.0 or later for Python.",
-          "source": "a61991a66b4f08d4"
+          "claim": "Anthropic is expanding its Cyber Mission to release tools, research, and resources in new areas to help secure critical infrastructure and open-source software.",
+          "source": "66de7a9e73a9aa54"
         }
       ],
       "sources": [
         {
-          "name": "Vercel AI",
-          "link": "https://vercel.com/changelog/openai-decisions-api-now-available-on-ai-gateway"
+          "name": "Anthropic News",
+          "link": "https://www.anthropic.com/news/anthropic-cyber-mission"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_bb6e22b0fc81db7a",
+      "id": "evt_cb04a9ed287fc96b",
       "title": {
-        "es": "La afirmación de IA sobre resolver un problema matemático del Milenio divide a expertos",
-        "en": "AI's claim of solving a Millennium math problem divides experts"
+        "es": "OSS Scanner de Anthropic genera informes de vulnerabilidades sin revisión humana",
+        "en": "Anthropic's OSS Scanner generates vulnerability reports without human review"
       },
       "body": {
-        "es": "La reciente afirmación de OpenAI de haber resuelto un problema del Premio del Milenio generó tanto celebración como controversia entre matemáticos. En un debate en el Heidelberg Laureate Forum 2026, figuras como Peter Scholze, Michael Harris y Geordie Williamson discutieron el impacto real de la IA en la investigación matemática, reflejando divisiones profundas sobre cómo validar y reconocer estos logros.",
-        "en": "OpenAI's recent claim of solving a Millennium Prize problem sparked both celebration and controversy among mathematicians. In a debate at the Heidelberg Laureate Forum 2026, figures including Peter Scholze, Michael Harris, and Geordie Williamson discussed AI's real impact on mathematical research, reflecting deep divisions over how to validate and credit such achievements."
+        "es": "El nuevo servicio OSS Scanner de Anthropic ofrece informes de vulnerabilidades generados por sus modelos más potentes, incluido Mythos, para proyectos open-source. Según la compañía, los resultados son completamente generados por el modelo sin revisión ni triaje humano, lo que permite escaneos más rápidos y frecuentes, aunque también implica el riesgo de informes incorrectos o inválidos.",
+        "en": "Anthropic's new OSS Scanner service offers vulnerability reports generated by its strongest models, including Mythos, for open-source projects. According to the company, the outputs are fully model-generated without human review or triage, enabling faster and more frequent scanning, though this also carries the risk of incorrect or invalid reports."
       },
-      "newsId": "evt_bb6e22b0fc81db7a",
-      "storyKey": "evt_bb6e22b0fc81db7a",
-      "topic": "ai_general",
-      "source": "IEEE Spectrum AI",
-      "link": "https://spectrum.ieee.org/millennium-prize-ai",
-      "image": "https://spectrum.ieee.org/media-library/five-men-seated-in-chairs-on-an-auditorium-stage-with-a-large-presentation-screen-behind-them.jpg?coordinates=0%2C255%2C0%2C370&height=600&id=68023679&width=1200",
-      "score": 8.4,
-      "publishedAt": "2026-10-05T12:00:02.000Z",
-      "evidence": [
-        {
-          "claim": "OpenAI’s recent claim of solving a Millennium Prize problem causes both celebration and controversy.",
-          "source": "3b093d6ec68a1518"
-        },
-        {
-          "claim": "Debating the impact of AI on mathematical research are [from left] moderator Tony Feng, Michael Harris, Peter Scholze, Geordie Williamson, and Jacob Tsimerman at the Heidelberg Laureate Forum 2026.",
-          "source": "3b093d6ec68a1518"
-        }
-      ],
-      "sources": [
-        {
-          "name": "IEEE Spectrum AI",
-          "link": "https://spectrum.ieee.org/millennium-prize-ai"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_9346630b664b1eed",
-      "title": {
-        "es": "La falta de conocimiento corporativo frena los proyectos de IA agéntica",
-        "en": "Lack of enterprise knowledge stalls agentic AI projects"
-      },
-      "body": {
-        "es": "Según una investigación citada, solo alrededor de un tercio (34%) de los proyectos de IA agéntica de las organizaciones llegan a producción, y la falta de acceso a conocimiento corporativo es una de las principales razones. Las organizaciones fuertes en capacidades de conocimiento muestran mayor éxito con sus agentes, por lo que se espera que prioricen inversión en pipelines de ingesta, APIs listas para IA, RAG y grafos de conocimiento.",
-        "en": "According to cited research, only around a third (34%) of organizations' agentic AI projects make it into production, with lack of access to enterprise knowledge being a major reason. Organizations with strong knowledge capabilities show greater agent success, so they are expected to prioritize investment in ingestion pipelines, AI-ready APIs, RAG, and knowledge graphs."
-      },
-      "newsId": "evt_9346630b664b1eed",
-      "storyKey": "evt_9346630b664b1eed",
-      "topic": "ai_general",
-      "source": "MIT Tech Review AI",
-      "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Neo4j-Social-Card-1.png?resize=1200,600",
+      "newsId": "evt_cb04a9ed287fc96b",
+      "storyKey": "evt_cb04a9ed287fc96b",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?crop=0,0,100,100&quality=90&strip=all",
       "score": 7.65,
-      "publishedAt": "2026-10-05T15:47:52.000Z",
+      "publishedAt": "2026-10-08T21:53:51.000Z",
       "evidence": [
         {
-          "claim": "A lack of knowledge is a major reason agentic AI use cases never make it to production.",
-          "source": "b1b7e1501803dfa4"
+          "claim": "Anthropic has launched a free AI security scanning service called OSS Scanner.",
+          "source": "7a6fdcef919592ed"
         },
         {
-          "claim": "On average, only around a third (34%) of organizations’ agentic AI projects make it into production.",
-          "source": "b1b7e1501803dfa4"
+          "claim": "The service uses Anthropic’s strongest models, including Mythos, to generate vulnerability reports.",
+          "source": "7a6fdcef919592ed"
         },
         {
-          "claim": "Data and knowledge weaknesses consistently stall AI agent progress.",
-          "source": "b1b7e1501803dfa4"
+          "claim": "The reports generated by the service will be fully model-generated, without human review or triage.",
+          "source": "7a6fdcef919592ed"
         },
         {
-          "claim": "Strong knowledge capabilities correlate with agent success.",
-          "source": "b1b7e1501803dfa4"
+          "claim": "The service aims to enable faster and more frequent scanning of open-source projects.",
+          "source": "7a6fdcef919592ed"
         },
         {
-          "claim": "Organizations will prioritize investments in retrieval technologies, like ingestion pipelines, AI-ready APIs, and retrieval-augmented generation (RAG).",
-          "source": "b1b7e1501803dfa4"
+          "claim": "Anthropic’s service is part of a growing trend of AI tools used for security in open-source projects.",
+          "source": "7a6fdcef919592ed"
         }
       ],
       "sources": [
         {
-          "name": "MIT Tech Review AI",
-          "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge"
+          "name": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_eedb097fdf371d57",
+      "id": "evt_e2b0e3282705ed68",
       "title": {
-        "es": "Se filtran los próximos lanzamientos de hardware de Apple para octubre",
-        "en": "Apple's upcoming October hardware launches leaked"
+        "es": "Cloudflare presenta Clef-omni, su modelo multimodal unificado",
+        "en": "Cloudflare introduces Clef-omni, its unified multimodal model"
       },
       "body": {
-        "es": "Se espera que Apple lance tres dispositivos para el hogar a principios de octubre, dos renovaciones y un producto que abriría una nueva categoría. El iMac recibiría el salto del chip M4 al M6 manteniendo el diseño actual, mientras que los nuevos MacBook Pro de 14 y 16 pulgadas estrenarían pantallas OLED con capacidades táctiles por primera vez en macOS, aunque compartirían procesador con los modelos M5 Pro y M5 Max ya existentes.",
-        "en": "Apple is expected to launch three home devices in early October, two renewed products and one opening a new category. The iMac would jump from the M4 to the M6 chip while keeping its current design, while the new 14- and 16-inch MacBook Pro models would debut OLED displays with touch capabilities for the first time on macOS, though they would share the same processor as the existing M5 Pro and M5 Max models."
+        "es": "Cloudflare ha ampliado su familia de modelos de decisión Clef con Clef-omni, que procesa de forma nativa audio, vídeo, imágenes y texto en un único pipeline. La compañía también ha reducido el precio de Clef-flash y asegura haber aumentado hasta 2 veces la velocidad de inferencia de Clef, según sus propias cifras.",
+        "en": "Cloudflare has expanded its Clef decision model family with Clef-omni, which natively processes audio, video, images, and text in a single pipeline. The company has also lowered Clef-flash pricing and claims to have boosted Clef inference speeds by up to 2x, according to its own figures."
       },
-      "newsId": "evt_eedb097fdf371d57",
-      "storyKey": "evt_eedb097fdf371d57",
-      "topic": "apple",
-      "source": "Applesfera",
-      "link": "https://www.applesfera.com/rumores/dos-semanas-fantasticas-apple-octubre-se-filtran-sus-proximos-lanzamientos",
-      "image": "https://i.blogs.es/ce772c/apple-logo/840_560.jpeg",
+      "newsId": "evt_e2b0e3282705ed68",
+      "storyKey": "evt_e2b0e3282705ed68",
+      "topic": "tech",
+      "source": "Cloudflare Blog",
+      "link": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M4GV0AV5F55NC2CCEBK9XCTA.png",
       "score": 7.65,
-      "publishedAt": "2026-10-06T07:00:00.000Z",
+      "publishedAt": "2026-10-09T18:27:34.000Z",
       "evidence": [
         {
-          "claim": "Apple will launch three new home devices in the first week of October.",
-          "source": "ed696a11f0ff41c5"
+          "claim": "Cloudflare has introduced Clef-omni, a new Clef model that processes audio, video, images, and text in a single pipeline.",
+          "source": "e0546dad03457c8f"
         },
         {
-          "claim": "The new iMac M6 will feature a new microprocessor but retain the same design as its predecessors.",
-          "source": "ed696a11f0ff41c5"
+          "claim": "Clef-flash pricing has been lowered by Cloudflare.",
+          "source": "e0546dad03457c8f"
         },
         {
-          "claim": "The new MacBook Pro models will have OLED displays and touch capabilities for the first time.",
-          "source": "ed696a11f0ff41c5"
+          "claim": "Clef inference speeds have been boosted by up to 2.0x by Cloudflare.",
+          "source": "e0546dad03457c8f"
         }
       ],
       "sources": [
         {
-          "name": "Applesfera",
-          "link": "https://www.applesfera.com/rumores/dos-semanas-fantasticas-apple-octubre-se-filtran-sus-proximos-lanzamientos"
+          "name": "Cloudflare Blog",
+          "link": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_c227369f18cd617b",
+      "id": "evt_c422d3ab6c588763",
       "title": {
-        "es": "La protección de secretos debe escalar junto al software",
-        "en": "Secret protection must scale with software"
+        "es": "TypeSafe valora su modelo no textual Jev en 7.500 millones de dólares",
+        "en": "TypeSafe's non-text AI model Jev valued at $7.5B"
       },
       "body": {
-        "es": "Un análisis plantea que los desarrolladores no se están volviendo más descuidados con la seguridad, sino que están siendo superados por el ritmo de crecimiento del software y sus dependencias. La implicación práctica es que las herramientas y procesos de protección de secretos necesitan evolucionar al mismo ritmo que la complejidad del código, en lugar de depender solo de la disciplina individual.",
-        "en": "An analysis argues that developers aren't becoming more careless about security, but rather are being outpaced by the growing scale of software and its dependencies. The practical implication is that secret-protection tools and processes need to evolve at the same pace as code complexity, rather than relying solely on individual discipline."
+        "es": "TypeSafe ha visto valorado su modelo de IA no textual Jev en 7.500 millones de dólares pocas semanas después de su lanzamiento. Según la propia compañía, Jev funciona significativamente más rápido y usa muchos menos tokens que los grandes modelos de lenguaje, lo que ha generado interés entre usuarios y grandes corporaciones; se trata de una afirmación del fabricante, no verificada de forma independiente.",
+        "en": "TypeSafe's non-text AI model Jev has been valued at $7.5 billion just weeks after its launch. According to the company itself, Jev works significantly faster and uses far fewer tokens than large language models, which has generated interest among users and large corporations; this is a vendor claim, not independently verified."
       },
-      "newsId": "evt_c227369f18cd617b",
-      "storyKey": "evt_c227369f18cd617b",
+      "newsId": "evt_c422d3ab6c588763",
+      "storyKey": "evt_c422d3ab6c588763",
       "topic": "ai_software",
-      "source": "GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software",
-      "image": "https://github.blog/wp-content/uploads/2026/01/generic-security-invertocat-blocks-copilot.png",
-      "score": 7.65,
-      "publishedAt": "2026-10-07T17:45:34.000Z",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/typesafe-ai.jpg?resize=1174,1200",
+      "score": 8.35,
+      "publishedAt": "2026-10-09T21:41:29.000Z",
       "evidence": [
         {
-          "claim": "Developers are being outpaced and are not becoming more careless.",
-          "source": "0b34c4a8ad16fed6"
+          "claim": "Jev works significantly faster and uses far fewer tokens than LLMs.",
+          "source": "6378bab33b559f79"
         }
       ],
       "sources": [
         {
-          "name": "GitHub Blog",
-          "link": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software"
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch"
         }
       ],
       "what_changed": []
@@ -346,165 +342,161 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_ec1365d6416d1cb0",
+      "id": "evt_77957eedcd0953a7",
       "title": {
-        "es": "Deflector convierte notificaciones de iOS 27 en disparadores de Shortcuts",
-        "en": "Deflector turns iOS 27 notifications into Shortcuts triggers"
+        "es": "Anthropic ofrece un nuevo servicio gratuito de detección de vulnerabilidades",
+        "en": "Anthropic offers a new free vulnerability-detection service"
       },
       "text": {
-        "es": "Deflector aprovecha una función de iOS y iPadOS 27 que permite crear automatizaciones basadas en el contenido de las notificaciones push recibidas, abriendo nuevas posibilidades para usuarios avanzados de Shortcuts.",
-        "en": "Deflector leverages an iOS and iPadOS 27 feature that enables automations based on the content of received push notifications, opening new possibilities for power users of Shortcuts."
+        "es": "Anthropic ofrece a proyectos open-source una nueva forma de comprobar vulnerabilidades con su OSS Scanner, ampliando el acceso a escaneos de seguridad impulsados por IA sin coste para los mantenedores.",
+        "en": "Anthropic is offering open-source projects a new way to check for vulnerabilities with its OSS Scanner, expanding access to AI-powered security scans at no cost to maintainers."
       },
-      "newsId": "evt_ec1365d6416d1cb0",
-      "storyKey": "evt_ec1365d6416d1cb0",
-      "topic": "apple",
-      "source": "MacStories",
-      "link": "https://www.macstories.net/ios/deflector-turns-ios-27-notification-triggers-into-a-shortcut-launcher",
-      "image": "https://cdn.macstories.net/images/uploads/2026/10/06/shortcut-upload-1791296651719-470d307145.png",
+      "newsId": "evt_77957eedcd0953a7",
+      "storyKey": "evt_77957eedcd0953a7",
+      "topic": "tech",
+      "source": "Engadget",
+      "link": "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks",
+      "image": "https://www.engadget.com/img/gallery/anthropic-now-offers-a-free-vulnerability-finding-service-for-open-source-software/l-intro-1791544973.jpg",
       "score": 7.65,
-      "publishedAt": "2026-10-06T14:51:54.000Z",
+      "publishedAt": "2026-10-09T11:24:27.000Z",
       "evidence": [
         {
-          "claim": "Deflector for iOS introduces automation triggers based on push notifications.",
-          "source": "eeceb35ffec3255b"
+          "claim": "Anthropic is offering a new way to check for vulnerabilities in open-source projects.",
+          "source": "a9bf61f0287e0b2e"
         }
       ],
       "sources": [
         {
-          "name": "MacStories",
-          "link": "https://www.macstories.net/ios/deflector-turns-ios-27-notification-triggers-into-a-shortcut-launcher"
+          "name": "Engadget",
+          "link": "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_175c9695d157e41b",
+      "id": "evt_4af25f54fb5bf930",
       "title": {
-        "es": "iOS 27.2 llegará antes de lo esperado con nuevas funciones",
-        "en": "iOS 27.2 arriving sooner than expected with new features"
+        "es": "Onvis lanza un enchufe inteligente exterior con Matter over Thread",
+        "en": "Onvis releases an outdoor smart plug with Matter over Thread"
       },
       "text": {
-        "es": "iOS 27.1 se centrará únicamente en cambios para el iPhone Duo, por lo que las nuevas funciones destinadas al resto de usuarios llegarán con iOS 27.2, que se espera antes de lo previsto inicialmente.",
-        "en": "iOS 27.1 will focus solely on iPhone Duo changes, so new features for everyone else will arrive with iOS 27.2, which is expected sooner than originally anticipated."
+        "es": "Onvis ha lanzado un enchufe inteligente para exteriores compatible con Matter over Thread, con monitorización de energía en tiempo real y resistencia IP65, que funciona de forma nativa con Apple Home sin necesidad de hub propio.",
+        "en": "Onvis has released an outdoor smart plug compatible with Matter over Thread, featuring real-time energy monitoring and IP65 weather resistance, which works natively with Apple Home without needing its own hub."
       },
-      "newsId": "evt_175c9695d157e41b",
-      "storyKey": "evt_175c9695d157e41b",
+      "newsId": "evt_4af25f54fb5bf930",
+      "storyKey": "evt_4af25f54fb5bf930",
       "topic": "apple",
       "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/10/07/ios-27-2-release-date-new-iphone-features-are-coming-soon",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/ios-27-2-iphone-18-pro-burgundy.jpg?quality=82&strip=all&w=1600",
+      "link": "https://9to5mac.com/2026/10/09/homekit-weekly-onvis-releases-a-matter-over-thread-outdoor-smart-plug-with-energy-monitoring",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/plug.jpg?quality=82&strip=all&w=1600",
       "score": 7.65,
-      "publishedAt": "2026-10-07T14:26:33.000Z",
+      "publishedAt": "2026-10-09T18:19:00.000Z",
       "evidence": [
         {
-          "claim": "iOS 27.2 is coming surprisingly soon.",
-          "source": "6b8d554ad1c4240e"
+          "claim": "Onvis has released a new outdoor smart plug.",
+          "source": "593a499870ef3d28"
         },
         {
-          "claim": "iOS 27.1 will focus on iPhone Duo changes only.",
-          "source": "6b8d554ad1c4240e"
+          "claim": "The plug supports Matter over Thread.",
+          "source": "593a499870ef3d28"
         },
         {
-          "claim": "New features for everyone else will arrive in iOS 27.2.",
-          "source": "6b8d554ad1c4240e"
+          "claim": "It offers real-time energy monitoring.",
+          "source": "593a499870ef3d28"
+        },
+        {
+          "claim": "The plug is IP65 weather resistant.",
+          "source": "593a499870ef3d28"
+        },
+        {
+          "claim": "It works natively with Apple Home without a hub of its own.",
+          "source": "593a499870ef3d28"
         }
       ],
       "sources": [
         {
           "name": "9to5Mac",
-          "link": "https://9to5mac.com/2026/10/07/ios-27-2-release-date-new-iphone-features-are-coming-soon"
+          "link": "https://9to5mac.com/2026/10/09/homekit-weekly-onvis-releases-a-matter-over-thread-outdoor-smart-plug-with-energy-monitoring"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_e7f44c75cfcc91f5",
+      "id": "evt_26a9c0d7e62d2a15",
       "title": {
-        "es": "Apple lanza release candidates de macOS Sequoia y Tahoe",
-        "en": "Apple issues release candidates for macOS Sequoia and Tahoe"
+        "es": "Cloudflare añade perfilado de CPU y memoria bajo demanda para Workers",
+        "en": "Cloudflare adds on-demand CPU and memory profiling for Workers"
       },
       "text": {
-        "es": "Apple emitió release candidates de macOS Sequoia 15.8.2 y macOS Tahoe 26.7.2, que podrían publicarse en pocos días e incluyen correcciones de errores, mejoras de rendimiento y parches de seguridad. Se recomienda probarlas en dispositivos secundarios con copias de seguridad.",
-        "en": "Apple issued release candidates for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2, which could be released within days and include bug fixes, performance improvements, and security patches. Testing on secondary devices with backups is recommended."
+        "es": "Cloudflare ha lanzado perfilado de CPU y memoria bajo demanda para Workers y Durable Objects, permitiendo generar flamegraphs interactivos directamente en producción para detectar fugas de memoria y cuellos de botella de rendimiento.",
+        "en": "Cloudflare has launched on-demand CPU and memory profiling for Workers and Durable Objects, enabling interactive flamegraphs directly in production to track down memory leaks and performance bottlenecks."
       },
-      "newsId": "evt_e7f44c75cfcc91f5",
-      "storyKey": "evt_e7f44c75cfcc91f5",
-      "topic": "apple",
-      "source": "AppleInsider",
-      "link": "https://appleinsider.com/articles/26/10/06/release-candidates-of-macos-tahoe-sequoia-updates-are-out-for-testing",
-      "image": "https://media.appleinsider.com/gallery/69248-146066-66898-140421-64883-135224-000-lead-macOS-Tahoe-xl-xl-xl.jpg",
+      "newsId": "evt_26a9c0d7e62d2a15",
+      "storyKey": "evt_26a9c0d7e62d2a15",
+      "topic": "tech",
+      "source": "Cloudflare Blog",
+      "link": "https://blog.cloudflare.com/workers-on-demand-profiling",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M497X1XKZ8XG2FXKMTKEX5F4.png",
       "score": 7.65,
-      "publishedAt": "2026-10-06T17:43:00.000Z",
+      "publishedAt": "2026-10-09T13:00:00.000Z",
       "evidence": [
         {
-          "claim": "Apple has issued release candidates for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2.",
-          "source": "4e14c1be844a70bc"
+          "claim": "Cloudflare Workers and Durable Objects now support on-demand CPU and memory profiling.",
+          "source": "648f111d7a645c23"
         },
         {
-          "claim": "The release candidates are intended to be released to the public within days.",
-          "source": "4e14c1be844a70bc"
-        },
-        {
-          "claim": "The updates contain bug fixes, performance improvements, and security fixes.",
-          "source": "4e14c1be844a70bc"
-        },
-        {
-          "claim": "Users are advised to use secondary or non-essential devices for testing.",
-          "source": "4e14c1be844a70bc"
-        },
-        {
-          "claim": "There is no version 16 of macOS.",
-          "source": "4e14c1be844a70bc"
+          "claim": "Interactive flamegraphs can be generated directly in production.",
+          "source": "648f111d7a645c23"
         }
       ],
       "sources": [
         {
-          "name": "AppleInsider",
-          "link": "https://appleinsider.com/articles/26/10/06/release-candidates-of-macos-tahoe-sequoia-updates-are-out-for-testing"
+          "name": "Cloudflare Blog",
+          "link": "https://blog.cloudflare.com/workers-on-demand-profiling"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_c76f12caf69ec278",
+      "id": "evt_d7bcec0749d63e11",
       "title": {
-        "es": "Los desarrolladores ya pueden preparar apps para iPhone Duo",
-        "en": "Developers can now prepare apps for iPhone Duo"
+        "es": "Nagare combina calendario y tareas en una sola lista sincronizada con iCloud",
+        "en": "Nagare merges calendar and tasks into one iCloud-synced list"
       },
       "text": {
-        "es": "iPhone Duo estará disponible para los clientes a partir del 23 de octubre de 2026. Los desarrolladores deben recompilar sus apps con Xcode 27.1 y ya pueden enviar versiones optimizadas en App Store Connect, aprovechando las nuevas especificaciones de capturas de pantalla.",
-        "en": "iPhone Duo will be available to customers starting October 23, 2026. Developers need to recompile their apps with Xcode 27.1 and can already submit optimized versions in App Store Connect, taking advantage of the new screenshot specifications."
+        "es": "Nagare es una app de tareas para iPhone y Mac que combina eventos de calendario y pendientes en una sola lista entrelazada, sincroniza datos vía iCloud y expone ese contexto a agentes de IA mediante MCP.",
+        "en": "Nagare is a to-do app for iPhone and Mac that interleaves calendar events and tasks into a single list, syncs data via iCloud, and exposes that context to AI agents through MCP."
       },
-      "newsId": "evt_c76f12caf69ec278",
-      "storyKey": "evt_c76f12caf69ec278",
-      "topic": "apple",
-      "source": "Apple Developer News",
-      "link": "https://developer.apple.com/news?id=kkphp5qo",
-      "image": "https://developer.apple.com/news/images/og/app-store-connect-og.png",
-      "score": 7.65,
-      "publishedAt": "2026-10-06T00:05:33.000Z",
+      "newsId": "evt_d7bcec0749d63e11",
+      "storyKey": "evt_d7bcec0749d63e11",
+      "topic": "tech",
+      "source": "Hacker News",
+      "link": "https://ilia.page/writing/introducing-nagare",
+      "image": "https://media.ilia.page/writing/introducing-nagare/Nagare-Mac-and-iPhone-cover.jpeg",
+      "score": 6.65,
+      "publishedAt": "2026-10-10T04:37:13.000Z",
       "evidence": [
         {
-          "claim": "iPhone Duo will be available to customers starting October 23, 2026.",
-          "source": "6a981adb3e350a35"
+          "claim": "Nagare is a to-do app that combines calendar events and tasks into a single list.",
+          "source": "8de04ca3ab698be9"
         },
         {
-          "claim": "Recompile existing apps with Xcode 27.1, which adds development support for iPhone Duo.",
-          "source": "6a981adb3e350a35"
+          "claim": "Nagare allows users to interleave tasks and events in one list, unlike other apps that separate them.",
+          "source": "8de04ca3ab698be9"
         },
         {
-          "claim": "Updated screenshot and app preview specifications are now available for the latest Apple devices, including iPhone Duo.",
-          "source": "6a981adb3e350a35"
+          "claim": "Nagare syncs data through iCloud and provides context to the user's agent through MCP.",
+          "source": "8de04ca3ab698be9"
         },
         {
-          "claim": "You can submit your iPhone Duo optimized apps and games in App Store Connect today.",
-          "source": "6a981adb3e350a35"
+          "claim": "Nagare highlights priority projects with a subtle glow to draw attention to them.",
+          "source": "8de04ca3ab698be9"
         }
       ],
       "sources": [
         {
-          "name": "Apple Developer News",
-          "link": "https://developer.apple.com/news?id=kkphp5qo"
+          "name": "Hacker News",
+          "link": "https://ilia.page/writing/introducing-nagare"
         }
       ],
       "what_changed": []
@@ -512,97 +504,97 @@
   ],
   "trending_repos": [
     {
-      "id": "strands-labs/strands-decider",
-      "repoKey": "strands-labs/strands-decider",
-      "name": "strands-decider",
-      "full_name": "strands-labs/strands-decider",
-      "link": "https://github.com/strands-labs/strands-decider",
-      "description": "A small, fast decision model, or system one model, for agentic workflows. Pick between options or rate on a scale faster than an LLM, with a calibrated confidence on every decision.",
-      "language": "Python",
-      "stars": 505,
-      "stars_today": null,
-      "stars_per_day_estimate": 51.308379636910246,
-      "trend_basis": "normalized_100.1h",
-      "trend_score": 8.688641510702421,
-      "default_branch": "main",
-      "created_at": "2026-09-29T16:36:38Z",
-      "pushed_at": "2026-10-08T00:19:27Z",
-      "why_it_matters": {
-        "es": "Strands Decider ofrece un modelo de decisión pequeño y rápido para flujos agénticos, capaz de elegir entre opciones o puntuar en una escala con una confianza calibrada, más rápido que un LLM tradicional y sin el coste de entrenar un clasificador propio, útil para enrutamiento dentro de agentes construidos con Strands Agents SDK.",
-        "en": "Strands Decider offers a small, fast decision model for agentic workflows, able to pick between options or rate on a scale with calibrated confidence, faster than a traditional LLM and without the cost of training a custom classifier, useful for routing decisions inside agents built with the Strands Agents SDK."
-      }
-    },
-    {
-      "id": "TypeLLM/TypeLLM",
-      "repoKey": "TypeLLM/TypeLLM",
-      "name": "TypeLLM",
-      "full_name": "TypeLLM/TypeLLM",
-      "link": "https://github.com/TypeLLM/TypeLLM",
-      "description": "TypeLLM: LLMs with type-safe generation",
-      "language": "Python",
-      "stars": 936,
-      "stars_today": null,
-      "stars_per_day_estimate": 5.274693233701053,
-      "trend_basis": "normalized_100.1h",
-      "trend_score": 5.477049597202416,
-      "default_branch": "main",
-      "created_at": "2026-09-17T12:41:27Z",
-      "pushed_at": "2026-10-07T06:03:51Z",
-      "why_it_matters": {
-        "es": "TypeLLM añade generación con tipos seguros a LLMs existentes sin modificar su arquitectura, garantizando salidas conformes a un esquema JSON (strings, enteros, booleanos, objetos y arrays) con bajo costo en tokens, útil para evitar alucinaciones fuera de esquema en pipelines de producción.",
-        "en": "TypeLLM adds type-safe generation to existing LLMs without changing their architecture, guaranteeing JSON Schema-conformant outputs (strings, integers, booleans, objects, and arrays) at low token cost, useful for avoiding out-of-schema hallucinations in production pipelines."
-      }
-    },
-    {
-      "id": "whirlchat/whirl",
-      "repoKey": "whirlchat/whirl",
-      "name": "whirl",
-      "full_name": "whirlchat/whirl",
-      "link": "https://github.com/whirlchat/whirl",
-      "description": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
+      "id": "morluto/rea",
+      "repoKey": "morluto/rea",
+      "name": "rea",
+      "full_name": "morluto/rea",
+      "link": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 496,
+      "stars": 44455,
       "stars_today": null,
-      "stars_per_day_estimate": 59.93969583751196,
-      "trend_basis": "normalized_100.1h",
-      "trend_score": 8.36731969275477,
+      "stars_per_day_estimate": 12845.206198923042,
+      "trend_basis": "normalized_62.8h",
+      "trend_score": 16.648980916733066,
       "default_branch": "main",
-      "created_at": "2026-10-02T13:50:42Z",
-      "pushed_at": "2026-10-05T07:19:29Z",
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-09T22:58:29Z",
       "why_it_matters": {
-        "es": "Whirl es una app de chat de IA full-stack de código abierto construida sobre Next.js y Convex, que integra múltiples modelos vía OpenRouter, memoria de largo plazo, documentos vivos editables y herramientas propias mediante MCP, sirviendo como referencia completa para quienes quieran autoalojar o estudiar una implementación de chat con IA en producción.",
-        "en": "Whirl is an open-source full-stack AI chat app built on Next.js and Convex, integrating multiple models via OpenRouter, long-term memory, editable living documents, and custom tools via MCP, serving as a complete reference for anyone wanting to self-host or study a production AI chat implementation."
+        "es": "REA conecta agentes de IA con herramientas para inspeccionar binarios nativos, apps JavaScript/Electron, ensamblados .NET y sitios web, permitiendo analizar cómo funciona una característica sin acceso al código fuente y reproducirla, con el análisis corriendo localmente y evidencias incluidas en los resultados.",
+        "en": "REA connects AI agents to tools for inspecting native binaries, JavaScript/Electron apps, .NET assemblies, and websites, letting developers analyze how a feature works without source access and rebuild it, with analysis running locally and evidence included in results."
       }
     },
     {
-      "id": "QingYunA/answer-me-with-html",
-      "repoKey": "QingYunA/answer-me-with-html",
-      "name": "answer-me-with-html",
-      "full_name": "QingYunA/answer-me-with-html",
-      "link": "https://github.com/QingYunA/answer-me-with-html",
-      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-      "language": "JavaScript",
-      "stars": 2102,
+      "id": "strands-agents/box",
+      "repoKey": "strands-agents/box",
+      "name": "box",
+      "full_name": "strands-agents/box",
+      "link": "https://github.com/strands-agents/box",
+      "description": "Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box combines OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent. Written in Rust. Supports macOS on Apple silicon, with Linux support planned.",
+      "language": "Rust",
+      "stars": 286,
       "stars_today": null,
-      "stars_per_day_estimate": 432.7646039468364,
-      "trend_basis": "normalized_100.1h",
-      "trend_score": 11.668289393492593,
+      "stars_per_day_estimate": 104.74904289733118,
+      "trend_basis": "normalized_44.2h",
+      "trend_score": 9.718619103652046,
       "default_branch": "main",
-      "created_at": "2026-10-02T09:57:40Z",
-      "pushed_at": "2026-10-07T15:39:58Z",
+      "created_at": "2026-10-02T20:34:08Z",
+      "pushed_at": "2026-10-09T22:16:40Z",
       "why_it_matters": {
-        "es": "Answer me with HTML es una skill de agente que convierte respuestas complejas en una página HTML de un archivo, reduciendo a cerca de 1/8 los tokens que el modelo necesita escribir manualmente HTML, lo que se traduce en respuestas más rápidas y económicas según las mediciones del propio proyecto.",
-        "en": "Answer me with HTML is an agent skill that turns complex answers into a single-file HTML page, cutting the tokens the model needs to hand-write HTML to roughly 1/8, translating into faster and cheaper responses according to the project's own benchmarks."
+        "es": "Strands Box es un sandbox de código abierto para agentes de IA en Rust que combina aislamiento a nivel de sistema operativo con políticas semánticas Dogwood de denegación por defecto, controlando archivos, programas y red, además de inyección de credenciales que mantiene los secretos fuera del proceso del agente.",
+        "en": "Strands Box is an open-source Rust sandbox for AI agents that combines OS-level isolation with default-deny Dogwood semantic policies, controlling file, program, and network access, plus credential injection that keeps secrets outside the agent process."
+      }
+    },
+    {
+      "id": "yakuikai/tokentab",
+      "repoKey": "yakuikai/tokentab",
+      "name": "tokentab",
+      "full_name": "yakuikai/tokentab",
+      "link": "https://github.com/yakuikai/tokentab",
+      "description": "Local-first CLI and web dashboard that reads Claude Code, Codex and Gemini CLI session logs and shows token usage and cost by model, project, day and activity. No account, no API key, nothing leaves your machine",
+      "language": "Python",
+      "stars": 432,
+      "stars_today": null,
+      "stars_per_day_estimate": 76.52650284209169,
+      "trend_basis": "normalized_44.2h",
+      "trend_score": 9.214634138487645,
+      "default_branch": "main",
+      "created_at": "2026-09-21T18:07:22Z",
+      "pushed_at": "2026-10-09T15:32:44Z",
+      "why_it_matters": {
+        "es": "tokentab es una herramienta local-first que lee los logs de sesión que Claude Code, Codex y Gemini CLI ya dejan en disco para desglosar el uso de tokens y coste por modelo, proyecto y día, sin necesidad de cuenta ni clave de API y sin enviar nada fuera de la máquina.",
+        "en": "tokentab is a local-first tool that reads the session logs Claude Code, Codex, and Gemini CLI already leave on disk to break down token usage and cost by model, project, and day, requiring no account or API key and sending nothing off the machine."
+      }
+    },
+    {
+      "id": "TannerMidd/pi-pocket",
+      "repoKey": "TannerMidd/pi-pocket",
+      "name": "pi-pocket",
+      "full_name": "TannerMidd/pi-pocket",
+      "link": "https://github.com/TannerMidd/pi-pocket",
+      "description": "A durable, multiplayer, mobile-first web app for Pi agents, built on Pi Durable",
+      "language": "TypeScript",
+      "stars": 311,
+      "stars_today": null,
+      "stars_per_day_estimate": 56.44508011047898,
+      "trend_basis": "normalized_44.2h",
+      "trend_score": 8.801449648569076,
+      "default_branch": "main",
+      "created_at": "2026-10-04T02:29:57Z",
+      "pushed_at": "2026-10-09T17:51:51Z",
+      "why_it_matters": {
+        "es": "Pi Pocket es una app web duradera y multijugador para agentes Pi que corre en tu propia máquina o teléfono sin VM en la nube, con cada llamada a modelo y herramienta almacenada para que el trabajo continúe tras un reinicio, además de edición colaborativa y modo plan que requiere aprobación antes de aplicar cambios.",
+        "en": "Pi Pocket is a durable, multiplayer web app for Pi agents that runs on your own machine or phone with no cloud VM, storing every model and tool call so work survives a restart, plus collaborative editing and a plan mode that requires approval before changes are applied."
       }
     }
   ],
   "developer_signals": [],
   "editorial_stats": {
     "topics": {
-      "apple": 2,
+      "apple": 3,
       "ai_software": 2,
-      "ai_general": 2,
-      "tech": 1
+      "ai_general": 0,
+      "tech": 2
     }
   }
 }
