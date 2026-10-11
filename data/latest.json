@@ -1,340 +1,336 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-10-10",
-  "date": "2026-10-10",
+  "edition_id": "wmt-2026-10-11",
+  "date": "2026-10-11",
   "daily_summary": {
-    "es": "Apple confirma su evento del 13 de octubre centrado en el hogar inteligente (y filtra otro para el 27), mientras Anthropic amplía su Cyber Mission con un escáner gratuito de vulnerabilidades para proyectos open-source y Cloudflare lanza el modelo multimodal Clef-omni.",
-    "en": "Apple confirms its October 13 smart-home event (with another leaked for October 27), while Anthropic expands its Cyber Mission with a free vulnerability scanner for open-source projects and Cloudflare launches the multimodal Clef-omni model."
+    "es": "Apple confirma su lanzamiento de smart home para el 13 de octubre mientras la IA avanza en ciberseguridad, industria y agentes, con Nadella pidiendo contención por defecto para modelos de IA.",
+    "en": "Apple confirms its smart-home launch for October 13 while AI advances in cybersecurity, industry and agents, with Nadella calling for default containment of AI models."
   },
   "topic_summaries": {
     "apple": {
-      "es": "Apple ha confirmado un evento el martes 13 de octubre centrado en el hogar inteligente, donde se esperan al menos tres dispositivos nuevos, incluyendo un producto totalmente nuevo: una pantalla inteligente tipo Home Hub de unas 6 pulgadas con cámara para FaceTime, además de posibles actualizaciones del Apple TV 4K con Siri AI y chip A19/A19 Pro, y del HomePod mini. Por separado, se ha filtrado un segundo evento para el 27 de octubre con MacBook Pro OLED táctil con Dynamic Island, un iMac M6 y un iPad mini con pantalla OLED.",
-      "en": "Apple has confirmed an event on Tuesday, October 13 focused on the smart home, where at least three new devices are expected, including one entirely new product: a roughly 6-inch Home Hub smart display with a FaceTime camera, plus possible updates to the Apple TV 4K with Siri AI and an A19/A19 Pro chip, and to the HomePod mini. Separately, a second event has leaked for October 27 featuring a touchscreen OLED MacBook Pro with a Dynamic Island, an M6 iMac, and an OLED iPad mini."
+      "es": "Apple tiene confirmado un evento el martes 13 de octubre centrado en productos de hogar inteligente, incluyendo un posible hub con pantalla, un Apple TV 4K renovado y un HomePod mini actualizado; se esperan más lanzamientos a finales de mes. Por separado, fuentes indican recortes en pedidos de componentes del iPhone 18 Pro por baja demanda, aunque los pedidos de ensamblaje completo no se han reducido.",
+      "en": "Apple has confirmed an event on Tuesday, October 13 focused on smart home products, including a possible screen-equipped hub, a refreshed Apple TV 4K and an updated HomePod mini, with more launches expected later in the month. Separately, sources report component order cuts for the iPhone 18 Pro due to low demand, though whole-unit assembly orders have not been reduced."
     },
     "ai_software": {
-      "es": "Anthropic ha ampliado su Cyber Mission con el Critical Infrastructure Defense Program, junto a varios socios fundadores, y ha lanzado OSS Scanner, un servicio gratuito que ofrece escaneos de seguridad generados íntegramente por modelos de IA, sin revisión humana, a proyectos open-source. Por su parte, Sophos afirma haber reducido en un 96% el tiempo de investigación de amenazas usando Daybreak de OpenAI, automatizando más de la mitad de sus casos de MDR.",
-      "en": "Anthropic has expanded its Cyber Mission with the Critical Infrastructure Defense Program, alongside several founding partners, and launched OSS Scanner, a free service offering fully AI-model-generated security scans, without human review, to open-source projects. Separately, Sophos claims it cut threat investigation time by 96% using OpenAI's Daybreak, automating more than half of its MDR cases."
+      "es": "Sophos afirma haber reducido en un 96% el tiempo de investigación de amenazas gracias a OpenAI Daybreak, mientras GitHub mejora los controles de Copilot para JetBrains. Un análisis de seguridad reveló fallos graves en AWS AgentCore, y un ensayo plantea que el progreso en IA seguirá siendo rápido en ingeniería sin alcanzar una superinteligencia general.",
+      "en": "Sophos claims a 96% cut in threat investigation time using OpenAI's Daybreak, while GitHub rolls out improved controls for Copilot in JetBrains. A security analysis exposed serious flaws in AWS AgentCore, and an essay argues AI progress will remain rapid in engineering terms without reaching general superintelligence."
     },
     "ai_general": {
-      "es": "",
-      "en": ""
+      "es": "La industria nuclear estadounidense está incorporando asistentes de IA para apoyar a una fuerza laboral especializada en declive, mientras AVEVA defiende un marco de IA responsable centrado en seguridad humana y supervisión para la automatización industrial avanzada.",
+      "en": "The U.S. nuclear industry is adopting AI assistants to support a shrinking specialized workforce, while AVEVA advocates a responsible AI framework centered on human safety and oversight for advanced industrial automation."
     },
     "tech": {
-      "es": "Cloudflare ha presentado Clef-omni, un nuevo modelo que procesa audio, vídeo, imágenes y texto en un único pipeline, junto con una reducción de precios en Clef-flash y mejoras de hasta 2x en velocidad de inferencia. Además, Anthropic ha lanzado OSS Scanner, un servicio gratuito de escaneo de vulnerabilidades para proyectos open-source basado en sus modelos más potentes, sin revisión humana de los informes.",
-      "en": "Cloudflare has introduced Clef-omni, a new model that processes audio, video, images, and text in a single pipeline, alongside lower Clef-flash pricing and inference speed improvements of up to 2x. Additionally, Anthropic has launched OSS Scanner, a free vulnerability-scanning service for open-source projects powered by its strongest models, with no human review of the reports."
+      "es": "Satya Nadella pide tratar todos los modelos de IA como potencialmente comprometidos y aplicar un 'freno de emergencia' con contención desde el diseño. Además, iniciativas contra el cibercrimen usan bots de IA realistas para engañar a estafadores, y Vapor 5 llega como una reescritura completa con soporte de concurrencia estructurada en Swift.",
+      "en": "Satya Nadella calls for treating all AI models as potentially compromised and applying an 'emergency brake' with containment built in from the start. Separately, anti-cybercrime initiatives are using realistic AI bots to trick scammers, and Vapor 5 arrives as a complete rewrite with structured concurrency support in Swift."
     }
   },
   "summary": {
     "apple": {
-      "es": "Apple ha confirmado un evento el martes 13 de octubre centrado en el hogar inteligente, donde se esperan al menos tres dispositivos nuevos, incluyendo un producto totalmente nuevo: una pantalla inteligente tipo Home Hub de unas 6 pulgadas con cámara para FaceTime, además de posibles actualizaciones del Apple TV 4K con Siri AI y chip A19/A19 Pro, y del HomePod mini. Por separado, se ha filtrado un segundo evento para el 27 de octubre con MacBook Pro OLED táctil con Dynamic Island, un iMac M6 y un iPad mini con pantalla OLED.",
-      "en": "Apple has confirmed an event on Tuesday, October 13 focused on the smart home, where at least three new devices are expected, including one entirely new product: a roughly 6-inch Home Hub smart display with a FaceTime camera, plus possible updates to the Apple TV 4K with Siri AI and an A19/A19 Pro chip, and to the HomePod mini. Separately, a second event has leaked for October 27 featuring a touchscreen OLED MacBook Pro with a Dynamic Island, an M6 iMac, and an OLED iPad mini."
+      "es": "Apple tiene confirmado un evento el martes 13 de octubre centrado en productos de hogar inteligente, incluyendo un posible hub con pantalla, un Apple TV 4K renovado y un HomePod mini actualizado; se esperan más lanzamientos a finales de mes. Por separado, fuentes indican recortes en pedidos de componentes del iPhone 18 Pro por baja demanda, aunque los pedidos de ensamblaje completo no se han reducido.",
+      "en": "Apple has confirmed an event on Tuesday, October 13 focused on smart home products, including a possible screen-equipped hub, a refreshed Apple TV 4K and an updated HomePod mini, with more launches expected later in the month. Separately, sources report component order cuts for the iPhone 18 Pro due to low demand, though whole-unit assembly orders have not been reduced."
     },
     "ai_software": {
-      "es": "Anthropic ha ampliado su Cyber Mission con el Critical Infrastructure Defense Program, junto a varios socios fundadores, y ha lanzado OSS Scanner, un servicio gratuito que ofrece escaneos de seguridad generados íntegramente por modelos de IA, sin revisión humana, a proyectos open-source. Por su parte, Sophos afirma haber reducido en un 96% el tiempo de investigación de amenazas usando Daybreak de OpenAI, automatizando más de la mitad de sus casos de MDR.",
-      "en": "Anthropic has expanded its Cyber Mission with the Critical Infrastructure Defense Program, alongside several founding partners, and launched OSS Scanner, a free service offering fully AI-model-generated security scans, without human review, to open-source projects. Separately, Sophos claims it cut threat investigation time by 96% using OpenAI's Daybreak, automating more than half of its MDR cases."
+      "es": "Sophos afirma haber reducido en un 96% el tiempo de investigación de amenazas gracias a OpenAI Daybreak, mientras GitHub mejora los controles de Copilot para JetBrains. Un análisis de seguridad reveló fallos graves en AWS AgentCore, y un ensayo plantea que el progreso en IA seguirá siendo rápido en ingeniería sin alcanzar una superinteligencia general.",
+      "en": "Sophos claims a 96% cut in threat investigation time using OpenAI's Daybreak, while GitHub rolls out improved controls for Copilot in JetBrains. A security analysis exposed serious flaws in AWS AgentCore, and an essay argues AI progress will remain rapid in engineering terms without reaching general superintelligence."
     },
     "ai_general": {
-      "es": "",
-      "en": ""
+      "es": "La industria nuclear estadounidense está incorporando asistentes de IA para apoyar a una fuerza laboral especializada en declive, mientras AVEVA defiende un marco de IA responsable centrado en seguridad humana y supervisión para la automatización industrial avanzada.",
+      "en": "The U.S. nuclear industry is adopting AI assistants to support a shrinking specialized workforce, while AVEVA advocates a responsible AI framework centered on human safety and oversight for advanced industrial automation."
     },
     "tech": {
-      "es": "Cloudflare ha presentado Clef-omni, un nuevo modelo que procesa audio, vídeo, imágenes y texto en un único pipeline, junto con una reducción de precios en Clef-flash y mejoras de hasta 2x en velocidad de inferencia. Además, Anthropic ha lanzado OSS Scanner, un servicio gratuito de escaneo de vulnerabilidades para proyectos open-source basado en sus modelos más potentes, sin revisión humana de los informes.",
-      "en": "Cloudflare has introduced Clef-omni, a new model that processes audio, video, images, and text in a single pipeline, alongside lower Clef-flash pricing and inference speed improvements of up to 2x. Additionally, Anthropic has launched OSS Scanner, a free vulnerability-scanning service for open-source projects powered by its strongest models, with no human review of the reports."
+      "es": "Satya Nadella pide tratar todos los modelos de IA como potencialmente comprometidos y aplicar un 'freno de emergencia' con contención desde el diseño. Además, iniciativas contra el cibercrimen usan bots de IA realistas para engañar a estafadores, y Vapor 5 llega como una reescritura completa con soporte de concurrencia estructurada en Swift.",
+      "en": "Satya Nadella calls for treating all AI models as potentially compromised and applying an 'emergency brake' with containment built in from the start. Separately, anti-cybercrime initiatives are using realistic AI bots to trick scammers, and Vapor 5 arrives as a complete rewrite with structured concurrency support in Swift."
     }
   },
   "top_stories": [
     {
-      "id": "evt_12db734cb9e7ca2e",
+      "id": "evt_8dcf0e76769301d6",
       "title": {
-        "es": "Apple confirma su evento del 13 de octubre centrado en el hogar inteligente",
-        "en": "Apple confirms its October 13 smart-home event"
+        "es": "Apple anuncia lanzamiento de hogar inteligente para el martes 13 de octubre",
+        "en": "Apple announces smart home launch scheduled for Tuesday, October 13"
       },
       "body": {
-        "es": "Apple ha confirmado que celebrará un segundo evento de otoño el martes 13 de octubre de 2026, centrado en el hogar inteligente. Se espera que el Apple TV 4K reciba soporte para Siri AI y posiblemente un chip A19 o A19 Pro, mientras que el Home Hub sería una pantalla inteligente nueva para notificaciones, calendarios y llamadas FaceTime mediante cámara integrada. Es la primera incursión de Apple en pantallas domésticas inteligentes propias.",
-        "en": "Apple has confirmed it will hold a second fall event on Tuesday, October 13, 2026, focused on the smart home. The Apple TV 4K is expected to gain Siri AI support and possibly an A19 or A19 Pro chip, while the Home Hub would be a new smart display for notifications, calendars, and FaceTime calls via a built-in camera. This marks Apple's first move into its own smart home displays."
+        "es": "Apple ha confirmado un lanzamiento de productos programado para el martes 13 de octubre, centrado en novedades de hogar inteligente: se espera el largamente rumoreado hub inteligente, un nuevo Apple TV 4K y un HomePod mini renovado. Las reservas del iPhone Duo también comenzarán la próxima semana, y fuentes apuntan a otra tanda de lanzamientos a finales de octubre. El evento aún está por celebrarse en la fecha indicada, no ha ocurrido todavía.",
+        "en": "Apple has confirmed a product launch scheduled for Tuesday, October 13, focused on smart home news: the long-rumored smart hub, a new Apple TV 4K, and a refreshed HomePod mini are expected. iPhone Duo pre-orders will also begin next week, and sources point to another round of launches later in October. The event is still upcoming on that date, not something that has already happened."
       },
-      "newsId": "evt_12db734cb9e7ca2e",
-      "storyKey": "evt_12db734cb9e7ca2e",
-      "topic": "apple",
-      "source": "AppleInsider",
-      "link": "https://appleinsider.com/articles/26/10/08/what-to-expect-from-apples-october-13-welcome-home-releases",
-      "image": "https://media.appleinsider.com/gallery/69208-145992-johnternusapplepark-xl.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-08T16:20:03.000Z",
-      "evidence": [
-        {
-          "claim": "Apple is holding a second fall event on October 13, 2026.",
-          "source": "8bd9d3e1b91d1763"
-        },
-        {
-          "claim": "The Apple TV 4K is expected to get support for Siri AI and a possible upgrade to the A19 or A19 Pro chip.",
-          "source": "8bd9d3e1b91d1763"
-        },
-        {
-          "claim": "The Home Hub is expected to be a smart display that shows notifications and handles tasks like FaceTime calls.",
-          "source": "8bd9d3e1b91d1763"
-        }
-      ],
-      "sources": [
-        {
-          "name": "AppleInsider",
-          "link": "https://appleinsider.com/articles/26/10/08/what-to-expect-from-apples-october-13-welcome-home-releases"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_17c04acfc8de29a5",
-      "title": {
-        "es": "Se filtran detalles del Home Hub antes del lanzamiento del 13 de octubre",
-        "en": "Home Hub details leak ahead of October 13 launch"
-      },
-      "body": {
-        "es": "Apple ha anunciado que presentará nuevos productos el martes 13 de octubre, con al menos tres dispositivos nuevos incluyendo uno totalmente inédito, según el jefe de marketing Greg Joswiak. Se espera que el nuevo Home Hub tenga una pantalla de 6 pulgadas en dos variantes: una para montar en pared y otra con base de altavoz de media cúpula. Es la primera pantalla inteligente propia de Apple para el hogar.",
-        "en": "Apple has announced it will introduce new products on Tuesday, October 13, with at least three new devices including one entirely new product, according to marketing chief Greg Joswiak. The new Home Hub is expected to feature a 6-inch display in two variants: one for wall mounting and one with a half-dome speaker base. This marks Apple's first dedicated smart home display."
-      },
-      "newsId": "evt_17c04acfc8de29a5",
-      "storyKey": "evt_17c04acfc8de29a5",
+      "newsId": "evt_8dcf0e76769301d6",
+      "storyKey": "evt_8dcf0e76769301d6",
       "topic": "apple",
       "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/10/08/apple-october-13-launch",
-      "image": "https://images.macrumors.com/t/zLzHRGqzsMxOCKsCwBiiD8Jscd0=/1600x/article-new/2026/10/October-13-Welcome-Home-Event-Image.jpg",
+      "link": "https://www.macrumors.com/2026/10/10/top-stories-apple-welcome-home-launch-october-13",
+      "image": "https://images.macrumors.com/article-new/2026/10/top-stories-2026-10-10.jpg",
       "score": 7.65,
-      "publishedAt": "2026-10-08T23:48:33.000Z",
+      "publishedAt": "2026-10-10T13:00:10.000Z",
       "evidence": [
         {
-          "claim": "Apple is planning to introduce new products on Tuesday, October 13.",
-          "source": "9424f5164ac845ac"
+          "claim": "Apple has announced an upcoming product launch that will take place on Tuesday, October 13.",
+          "source": "74ca62c4d4e88d06"
         },
         {
-          "claim": "The new devices are expected to include at least three new products, including one all-new product.",
-          "source": "9424f5164ac845ac"
+          "claim": "The launch on October 13 will focus on new smart home products.",
+          "source": "74ca62c4d4e88d06"
         },
         {
-          "claim": "The home hub is expected to have a 6-inch display and two varieties, one for mounting on the wall and one for use with a half-dome speaker base.",
-          "source": "9424f5164ac845ac"
+          "claim": "iPhone Duo pre-orders will begin next week.",
+          "source": "74ca62c4d4e88d06"
+        },
+        {
+          "claim": "Apple's newer iPhones have had an optional 80 percent charge limit since 2023.",
+          "source": "74ca62c4d4e88d06"
         }
       ],
       "sources": [
         {
           "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/10/08/apple-october-13-launch"
+          "link": "https://www.macrumors.com/2026/10/10/top-stories-apple-welcome-home-launch-october-13"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_de55494d77768971",
+      "id": "evt_aea901c070beae40",
       "title": {
-        "es": "Apple prepara un segundo evento el 27 de octubre con MacBook Pro OLED táctil",
-        "en": "Apple reportedly planning October 27 event with touchscreen OLED MacBook Pro"
+        "es": "Nadella pide asumir que todos los modelos de IA están 'comprometidos'",
+        "en": "Nadella says we should assume all AI models are 'compromised'"
       },
       "body": {
-        "es": "Según Bloomberg, Apple lanzará nuevos modelos de MacBook Pro con pantalla OLED táctil y Dynamic Island, además de un iPad mini OLED, en torno al martes 27 de octubre. El lanzamiento incluirá también un iMac con chip M6, y ambos eventos de octubre tendrán presentación en vídeo online más una experiencia práctica para medios. Se trata de una filtración, no de una confirmación oficial de Apple.",
-        "en": "According to Bloomberg, Apple will launch new touchscreen OLED MacBook Pro models with a Dynamic Island, along with an OLED iPad mini, around Tuesday, October 27. The launch will also include an M6 iMac, and both October launches will feature an online video presentation plus a hands-on experience for media. This is a report based on sources, not an official Apple confirmation."
+        "es": "El CEO de Microsoft, Satya Nadella, pide un 'freno de emergencia' para la IA, argumentando que ya no podemos aceptar tratar los modelos como cajas negras cuyas acciones simplemente aceptamos o rechazamos. Propone construir sistemas más transparentes donde los modelos puedan ser contenidos, observados y dejen evidencia legible por humanos a prueba de manipulaciones. Su mensaje implica que la contención debe diseñarse desde el inicio, no añadirse después.",
+        "en": "Microsoft CEO Satya Nadella calls for an 'emergency brake' on AI, arguing we can no longer accept treating models as black boxes whose actions we simply accept or reject. He proposes building more transparent systems where models can be contained, observed, and leave tamper-proof human-readable evidence behind. His message implies containment must be designed in from the start, not bolted on later."
       },
-      "newsId": "evt_de55494d77768971",
-      "storyKey": "evt_de55494d77768971",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/10/08/apple-october-27-macbook-pro",
-      "image": "https://images.macrumors.com/article-new/2026/10/MacBook-Pro-Ultra-Feature-1.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-08T21:12:43.000Z",
-      "evidence": [
-        {
-          "claim": "Apple will introduce new OLED touchscreen MacBook Pro models and an OLED iPad mini on or around October 27.",
-          "source": "bd21696886a24d8c"
-        },
-        {
-          "claim": "The launch will include an M6 14-inch MacBook Pro and an M6 iMac.",
-          "source": "bd21696886a24d8c"
-        },
-        {
-          "claim": "Both the October 13 and October 27 product launches will include an online video presentation as well as a hands-on experience for members of the media.",
-          "source": "bd21696886a24d8c"
-        },
-        {
-          "claim": "The 14-inch and 16-inch notebooks will be in the MacBook Pro family.",
-          "source": "bd21696886a24d8c"
-        },
-        {
-          "claim": "The devices will have OLED displays, touchscreen capabilities, and a Dynamic Island.",
-          "source": "bd21696886a24d8c"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/10/08/apple-october-27-macbook-pro"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_8373d3db37e9dfc9",
-      "title": {
-        "es": "Anthropic lanza su Cyber Mission para proteger infraestructuras críticas y software open-source",
-        "en": "Anthropic launches Cyber Mission to protect critical infrastructure and open-source software"
-      },
-      "body": {
-        "es": "Anthropic ha presentado el Critical Infrastructure Defense Program, que combina modelos de frontera, ingenieros in situ e investigación de amenazas para proteger tecnología operativa detrás de redes eléctricas, agua y transporte, con socios fundadores como CrowdStrike, Dragos, Palo Alto Networks y Accenture. Junto a ello, lanzó OSS Scanner, un servicio gratuito y opcional que ofrece escaneos periódicos de seguridad a proyectos open-source, con informes que incluyen prueba de concepto y sugerencias de corrección.",
-        "en": "Anthropic has introduced the Critical Infrastructure Defense Program, combining frontier models, on-site engineers, and threat research to protect operational technology behind power grids, water systems, and transportation, with founding partners including CrowdStrike, Dragos, Palo Alto Networks, and Accenture. Alongside it, the company launched OSS Scanner, a free, opt-in service offering periodic security scans to open-source projects, with reports that include a proof of concept and suggested fixes."
-      },
-      "newsId": "evt_8373d3db37e9dfc9",
-      "storyKey": "evt_8373d3db37e9dfc9",
-      "topic": "ai_software",
-      "source": "Anthropic News",
-      "link": "https://www.anthropic.com/news/anthropic-cyber-mission",
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2af4f6715cbe9766a47430a24420cfca0a2c588-1200x630.jpg",
-      "score": 8.35,
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "evidence": [
-        {
-          "claim": "Anthropic is launching the Critical Infrastructure Defense Program (CIDP) to support the security of operational technology behind power grids, water systems, and transportation networks.",
-          "source": "66de7a9e73a9aa54"
-        },
-        {
-          "claim": "Anthropic is launching OSS Scanner, a service that offers open-source projects regular security scans from its strongest models, for free.",
-          "source": "66de7a9e73a9aa54"
-        },
-        {
-          "claim": "The Critical Infrastructure Defense Program is working with Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, and Rockwell Automation as founding partners.",
-          "source": "66de7a9e73a9aa54"
-        },
-        {
-          "claim": "OSS Scanner is an opt-in service that provides periodic scans from Anthropic's most capable models to enrolled open-source projects, with reports including proof of concept, explanations, and suggested fixes.",
-          "source": "66de7a9e73a9aa54"
-        },
-        {
-          "claim": "Anthropic is expanding its Cyber Mission to release tools, research, and resources in new areas to help secure critical infrastructure and open-source software.",
-          "source": "66de7a9e73a9aa54"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Anthropic News",
-          "link": "https://www.anthropic.com/news/anthropic-cyber-mission"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_cb04a9ed287fc96b",
-      "title": {
-        "es": "OSS Scanner de Anthropic genera informes de vulnerabilidades sin revisión humana",
-        "en": "Anthropic's OSS Scanner generates vulnerability reports without human review"
-      },
-      "body": {
-        "es": "El nuevo servicio OSS Scanner de Anthropic ofrece informes de vulnerabilidades generados por sus modelos más potentes, incluido Mythos, para proyectos open-source. Según la compañía, los resultados son completamente generados por el modelo sin revisión ni triaje humano, lo que permite escaneos más rápidos y frecuentes, aunque también implica el riesgo de informes incorrectos o inválidos.",
-        "en": "Anthropic's new OSS Scanner service offers vulnerability reports generated by its strongest models, including Mythos, for open-source projects. According to the company, the outputs are fully model-generated without human review or triage, enabling faster and more frequent scanning, though this also carries the risk of incorrect or invalid reports."
-      },
-      "newsId": "evt_cb04a9ed287fc96b",
-      "storyKey": "evt_cb04a9ed287fc96b",
+      "newsId": "evt_aea901c070beae40",
+      "storyKey": "evt_aea901c070beae40",
       "topic": "tech",
       "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?crop=0,0,100,100&quality=90&strip=all",
-      "score": 7.65,
-      "publishedAt": "2026-10-08T21:53:51.000Z",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK178_Satya_Nadella_B.jpg?crop=0%2C9.9676601489831%2C100%2C80.064679702034&quality=90&strip=all&w=1200",
+      "score": 8.35,
+      "publishedAt": "2026-10-10T22:10:17.000Z",
       "evidence": [
         {
-          "claim": "Anthropic has launched a free AI security scanning service called OSS Scanner.",
-          "source": "7a6fdcef919592ed"
+          "claim": "Microsoft’s CEO calls for putting an ‘emergency brake’ on AI.",
+          "source": "b6b51c4cc683943e"
         },
         {
-          "claim": "The service uses Anthropic’s strongest models, including Mythos, to generate vulnerability reports.",
-          "source": "7a6fdcef919592ed"
+          "claim": "Nadella says we can no longer accept a world where AI is treated as a “set of nested black boxes”.",
+          "source": "b6b51c4cc683943e"
         },
         {
-          "claim": "The reports generated by the service will be fully model-generated, without human review or triage.",
-          "source": "7a6fdcef919592ed"
+          "claim": "Nadella calls for building a more transparent system where models can be contained, observed, and leaves behind “tamper-proof human readable evidence.”",
+          "source": "b6b51c4cc683943e"
         },
         {
-          "claim": "The service aims to enable faster and more frequent scanning of open-source projects.",
-          "source": "7a6fdcef919592ed"
+          "claim": "Nadella states that we must assume a model is compromised and contain it from the start.",
+          "source": "b6b51c4cc683943e"
         },
         {
-          "claim": "Anthropic’s service is part of a growing trend of AI tools used for security in open-source projects.",
-          "source": "7a6fdcef919592ed"
+          "claim": "More advanced models will require more advanced containment technologies that we need to standardize on.",
+          "source": "b6b51c4cc683943e"
         }
       ],
       "sources": [
         {
           "name": "The Verge",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_e2b0e3282705ed68",
+      "id": "evt_c4182bed3c21d51f",
       "title": {
-        "es": "Cloudflare presenta Clef-omni, su modelo multimodal unificado",
-        "en": "Cloudflare introduces Clef-omni, its unified multimodal model"
+        "es": "Sophos reduce 96% el tiempo de investigación de amenazas con OpenAI Daybreak",
+        "en": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
       },
       "body": {
-        "es": "Cloudflare ha ampliado su familia de modelos de decisión Clef con Clef-omni, que procesa de forma nativa audio, vídeo, imágenes y texto en un único pipeline. La compañía también ha reducido el precio de Clef-flash y asegura haber aumentado hasta 2 veces la velocidad de inferencia de Clef, según sus propias cifras.",
-        "en": "Cloudflare has expanded its Clef decision model family with Clef-omni, which natively processes audio, video, images, and text in a single pipeline. The company has also lowered Clef-flash pricing and claims to have boosted Clef inference speeds by up to 2x, according to its own figures."
+        "es": "Sophos afirma que el uso de Daybreak de OpenAI le permite reducir el tiempo de investigación de ciberamenazas en un 96% y automatizar el 52% de los casos de detección y respuesta gestionada, manteniendo supervisión humana. Es una cifra reportada por la propia empresa en un recurso promocional, no una verificación independiente.",
+        "en": "Sophos claims that using OpenAI's Daybreak cuts cyber-threat investigation time by 96% and automates 52% of managed detection and response cases while preserving human oversight. This figure comes from the company's own promotional resource, not an independent verification."
       },
-      "newsId": "evt_e2b0e3282705ed68",
-      "storyKey": "evt_e2b0e3282705ed68",
-      "topic": "tech",
-      "source": "Cloudflare Blog",
-      "link": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal",
-      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M4GV0AV5F55NC2CCEBK9XCTA.png",
-      "score": 7.65,
-      "publishedAt": "2026-10-09T18:27:34.000Z",
-      "evidence": [
-        {
-          "claim": "Cloudflare has introduced Clef-omni, a new Clef model that processes audio, video, images, and text in a single pipeline.",
-          "source": "e0546dad03457c8f"
-        },
-        {
-          "claim": "Clef-flash pricing has been lowered by Cloudflare.",
-          "source": "e0546dad03457c8f"
-        },
-        {
-          "claim": "Clef inference speeds have been boosted by up to 2.0x by Cloudflare.",
-          "source": "e0546dad03457c8f"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Cloudflare Blog",
-          "link": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_c422d3ab6c588763",
-      "title": {
-        "es": "TypeSafe valora su modelo no textual Jev en 7.500 millones de dólares",
-        "en": "TypeSafe's non-text AI model Jev valued at $7.5B"
-      },
-      "body": {
-        "es": "TypeSafe ha visto valorado su modelo de IA no textual Jev en 7.500 millones de dólares pocas semanas después de su lanzamiento. Según la propia compañía, Jev funciona significativamente más rápido y usa muchos menos tokens que los grandes modelos de lenguaje, lo que ha generado interés entre usuarios y grandes corporaciones; se trata de una afirmación del fabricante, no verificada de forma independiente.",
-        "en": "TypeSafe's non-text AI model Jev has been valued at $7.5 billion just weeks after its launch. According to the company itself, Jev works significantly faster and uses far fewer tokens than large language models, which has generated interest among users and large corporations; this is a vendor claim, not independently verified."
-      },
-      "newsId": "evt_c422d3ab6c588763",
-      "storyKey": "evt_c422d3ab6c588763",
+      "newsId": "evt_c4182bed3c21d51f",
+      "storyKey": "evt_c4182bed3c21d51f",
       "topic": "ai_software",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/typesafe-ai.jpg?resize=1174,1200",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/sophos",
+      "image": null,
       "score": 8.35,
-      "publishedAt": "2026-10-09T21:41:29.000Z",
+      "publishedAt": "2026-10-09T07:00:00.000Z",
       "evidence": [
         {
-          "claim": "Jev works significantly faster and uses far fewer tokens than LLMs.",
-          "source": "6378bab33b559f79"
+          "claim": "Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96%.",
+          "source": "28c3289d71b8d61b"
         }
       ],
       "sources": [
         {
-          "name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch"
+          "name": "OpenAI",
+          "link": "https://openai.com/index/sophos"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_fe5c72d06743d1d2",
+      "title": {
+        "es": "Fallos de seguridad en AWS AgentCore expuestos por investigadores",
+        "en": "Security flaws in AWS AgentCore exposed by researchers"
+      },
+      "body": {
+        "es": "Investigadores de seguridad hallaron que AWS AgentCore usaba IMDSv1, exponiendo credenciales en metadatos, y que su MicroVM Firecracker no aislaba adecuadamente la red, permitiendo ataques SSRF. El rol por defecto estaba sobrepermisionado, dando acceso a otros agentes y secretos. AWS actualizó a IMDSv2 en febrero de 2026, pero los permisos excesivos seguían sin corregirse hasta junio de 2026.",
+        "en": "Security researchers found that AWS AgentCore used IMDSv1, exposing credentials in metadata, and that its Firecracker MicroVM failed to properly isolate the network, enabling SSRF attacks. The default role was overpermissioned, granting access to other agents and secrets. AWS updated to IMDSv2 by February 2026, but the excessive permissions remained unfixed until June 2026."
+      },
+      "newsId": "evt_fe5c72d06743d1d2",
+      "storyKey": "evt_fe5c72d06743d1d2",
+      "topic": "ai_software",
+      "source": "The Register AI & ML",
+      "link": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436",
+      "image": "https://image.theregister.com/5302441.jpg?croph=100&cropw=100&height=683&imageId=5302441&panoh=100&panow=100&panox=0&panoy=0&width=1200&x=0&y=0",
+      "score": 7.65,
+      "publishedAt": "2026-10-09T19:15:48.000Z",
+      "evidence": [
+        {
+          "claim": "AWS AgentCore used IMDSv1, which transmitted credentials in metadata, posing security risks.",
+          "source": "2b84257ee39dd4dc"
+        },
+        {
+          "claim": "AgentCore's Firecracker MicroVM failed to provide sufficient network isolation, allowing SSRF attacks.",
+          "source": "2b84257ee39dd4dc"
+        },
+        {
+          "claim": "AgentCore's default role was overpermissioned, allowing attackers to launch other agents and read sessions.",
+          "source": "2b84257ee39dd4dc"
+        },
+        {
+          "claim": "AWS updated AgentCore to use IMDSv2 exclusively by February 14, 2026, but the issue remained unresolved until June 22, 2026.",
+          "source": "2b84257ee39dd4dc"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Register AI & ML",
+          "link": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_b159bada001f4470",
+      "title": {
+        "es": "Fuentes afirman que se recortaron pedidos del iPhone 18 Pro, como cada año",
+        "en": "Sources claim iPhone 18 Pro orders have been cut, right on schedule"
+      },
+      "body": {
+        "es": "Nikkei Asia reporta que proveedores recibieron la orden de reducir producción de componentes por baja demanda del iPhone 18 Pro, aunque fuentes consultadas señalan que Apple ya era más conservadora con sus pedidos desde principios de septiembre. Crucialmente, los pedidos de ensamblaje de unidades completas no se han recortado, lo que matiza el alcance real del ajuste.",
+        "en": "Nikkei Asia reports that suppliers were told to cut component production due to low demand for the iPhone 18 Pro, though sources note Apple had already been more conservative with orders since early September. Crucially, whole-unit assembly orders have not been cut, which tempers the real scope of the adjustment."
+      },
+      "newsId": "evt_b159bada001f4470",
+      "storyKey": "evt_b159bada001f4470",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/10/09/right-on-schedule-sources-claim-iphone-18-pro-orders-have-been-cut",
+      "image": "https://media.appleinsider.com/gallery/69146-145847-iPhone-18-Pro-Max-cameras-and-iPhone-17-Pro-Max-cameras-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-09T12:10:00.000Z",
+      "evidence": [
+        {
+          "claim": "Suppliers have been told to cut component production for the iPhone 18 Pro due to low demand.",
+          "source": "64d941c834292ce6"
+        },
+        {
+          "claim": "Apple has been more conservative with its component orders since early September.",
+          "source": "64d941c834292ce6"
+        },
+        {
+          "claim": "The iPhone Duo is the most high-profile model launched in 2026, especially for the September and October buying crowd.",
+          "source": "64d941c834292ce6"
+        },
+        {
+          "claim": "Whole-unit assembly orders for the iPhone 18 Pro have not been cut.",
+          "source": "64d941c834292ce6"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/10/09/right-on-schedule-sources-claim-iphone-18-pro-orders-have-been-cut"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_33dcfb6d534f354b",
+      "title": {
+        "es": "La IA se vuelve muy eficaz para enredar a cibercriminales",
+        "en": "AI is getting really good at messing with cybercriminals"
+      },
+      "body": {
+        "es": "Iniciativas contra el cibercrimen están usando cada vez más IA para engañar a estafadores, haciéndoles creer que hablan con víctimas reales a través de bots convincentes. La táctica busca desperdiciar el tiempo y los recursos de los atacantes como forma de disuasión.",
+        "en": "Anti-cybercrime initiatives are increasingly using AI to trick scammers into believing they're talking to real victims through convincing bots. The tactic aims to waste attackers' time and resources as a form of deterrence."
+      },
+      "newsId": "evt_33dcfb6d534f354b",
+      "storyKey": "evt_33dcfb6d534f354b",
+      "topic": "tech",
+      "source": "Wired",
+      "link": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals",
+      "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/191:100/w_1280,c_limit/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-10T12:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Anti-cybercrime initiatives are increasingly using AI to trick cybercriminals into talking to lifelike bots.",
+          "source": "1776944049c6373e"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_e090c8cf38dababd",
+      "title": {
+        "es": "Vapor 5 llega como reescritura completa con concurrencia estructurada",
+        "en": "Vapor 5 arrives as a complete rewrite with structured concurrency"
+      },
+      "body": {
+        "es": "Vapor 5 elimina seis años de deuda técnica y añade soporte completo de concurrencia estructurada, despidiéndose de los EventLoopFutures. El framework puede aprovechar el nuevo Swift HTTP Server para centrarse en ser un framework web, apoyándose en las mejoras de Swift 6.4 de septiembre, que trajo mayor interoperabilidad y soporte de plataformas.",
+        "en": "Vapor 5 removes six years of tech debt and adds full structured concurrency support, saying goodbye to EventLoopFutures. The framework can now rely on the new Swift HTTP Server to focus on being a web framework, building on September's Swift 6.4 improvements in interoperability and platform support."
+      },
+      "newsId": "evt_e090c8cf38dababd",
+      "storyKey": "evt_e090c8cf38dababd",
+      "topic": "tech",
+      "source": "Swift.org Blog",
+      "link": "https://swift.org/blog/whats-new-in-swift-september-2026",
+      "image": null,
+      "score": 7.65,
+      "publishedAt": "2026-10-08T17:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Vapor 5 is a complete rewrite that removes 6 years of tech debt and adds full structured concurrency support.",
+          "source": "2f7335281ba442d2"
+        },
+        {
+          "claim": "Swift 6.4 release in September brought deeper interoperability, stronger platform support, and easier everyday code.",
+          "source": "2f7335281ba442d2"
+        },
+        {
+          "claim": "Vapor 5 can make use of the new Swift HTTP Server to handle the actual HTTP parts and concentrate on being a great web framework.",
+          "source": "2f7335281ba442d2"
+        },
+        {
+          "claim": "Vapor has matured into a comprehensive framework for building backends and APIs in Swift.",
+          "source": "2f7335281ba442d2"
+        },
+        {
+          "claim": "Vapor 5 says goodbye to EventLoopFutures.",
+          "source": "2f7335281ba442d2"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Swift.org Blog",
+          "link": "https://swift.org/blog/whats-new-in-swift-september-2026"
         }
       ],
       "what_changed": []
@@ -342,161 +338,173 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_77957eedcd0953a7",
+      "id": "evt_9ae202140080fbb4",
       "title": {
-        "es": "Anthropic ofrece un nuevo servicio gratuito de detección de vulnerabilidades",
-        "en": "Anthropic offers a new free vulnerability-detection service"
+        "es": "La flota nuclear de EE.UU. apuesta por la IA",
+        "en": "The U.S. nuclear plant fleet is leaning into AI"
       },
       "text": {
-        "es": "Anthropic ofrece a proyectos open-source una nueva forma de comprobar vulnerabilidades con su OSS Scanner, ampliando el acceso a escaneos de seguridad impulsados por IA sin coste para los mantenedores.",
-        "en": "Anthropic is offering open-source projects a new way to check for vulnerabilities with its OSS Scanner, expanding access to AI-powered security scans at no cost to maintainers."
+        "es": "Asistentes de IA, impulsados por empresas como Atomic Canyon, están ayudando a una fuerza laboral especializada en declive a mantener plantas nucleares envejecidas en Estados Unidos.",
+        "en": "AI assistants, driven by companies like Atomic Canyon, are helping a shrinking specialized workforce maintain aging nuclear power plants in the United States."
       },
-      "newsId": "evt_77957eedcd0953a7",
-      "storyKey": "evt_77957eedcd0953a7",
-      "topic": "tech",
-      "source": "Engadget",
-      "link": "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks",
-      "image": "https://www.engadget.com/img/gallery/anthropic-now-offers-a-free-vulnerability-finding-service-for-open-source-software/l-intro-1791544973.jpg",
+      "newsId": "evt_9ae202140080fbb4",
+      "storyKey": "evt_9ae202140080fbb4",
+      "topic": "ai_general",
+      "source": "IEEE Spectrum AI",
+      "link": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant",
+      "image": "https://spectrum.ieee.org/media-library/three-men-smiling-together-in-front-of-an-exascale-supercomputer.jpg?coordinates=0%2C16%2C0%2C234&height=600&id=68384674&width=1200",
       "score": 7.65,
-      "publishedAt": "2026-10-09T11:24:27.000Z",
+      "publishedAt": "2026-10-08T14:28:17.000Z",
       "evidence": [
         {
-          "claim": "Anthropic is offering a new way to check for vulnerabilities in open-source projects.",
-          "source": "a9bf61f0287e0b2e"
+          "claim": "AI assistants are being integrated into U.S. nuclear power plants to assist a shrinking specialized workforce.",
+          "source": "d7c1b4114a54877d"
+        },
+        {
+          "claim": "Atomic Canyon is one of the leading companies integrating AI into the nuclear industry.",
+          "source": "d7c1b4114a54877d"
         }
       ],
       "sources": [
         {
-          "name": "Engadget",
-          "link": "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks"
+          "name": "IEEE Spectrum AI",
+          "link": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_4af25f54fb5bf930",
+      "id": "evt_ed835e709b6abc40",
       "title": {
-        "es": "Onvis lanza un enchufe inteligente exterior con Matter over Thread",
-        "en": "Onvis releases an outdoor smart plug with Matter over Thread"
+        "es": "Hacia una IA industrial autónoma más segura",
+        "en": "Building a safer path to autonomous industrial AI"
       },
       "text": {
-        "es": "Onvis ha lanzado un enchufe inteligente para exteriores compatible con Matter over Thread, con monitorización de energía en tiempo real y resistencia IP65, que funciona de forma nativa con Apple Home sin necesidad de hub propio.",
-        "en": "Onvis has released an outdoor smart plug compatible with Matter over Thread, featuring real-time energy monitoring and IP65 weather resistance, which works natively with Apple Home without needing its own hub."
+        "es": "AVEVA plantea que avances en modelos fundacionales e IA agéntica permiten automatizar tareas industriales complejas, pero insiste en que el despliegue responsable —seguridad, eficiencia y supervisión humana— debe ser central en entornos de misión crítica.",
+        "en": "AVEVA argues that advances in foundation models and agentic AI enable automation of complex industrial tasks, but insists responsible deployment—security, efficiency and human oversight—must be central in mission-critical environments."
       },
-      "newsId": "evt_4af25f54fb5bf930",
-      "storyKey": "evt_4af25f54fb5bf930",
-      "topic": "apple",
-      "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/10/09/homekit-weekly-onvis-releases-a-matter-over-thread-outdoor-smart-plug-with-energy-monitoring",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/plug.jpg?quality=82&strip=all&w=1600",
-      "score": 7.65,
-      "publishedAt": "2026-10-09T18:19:00.000Z",
+      "newsId": "evt_ed835e709b6abc40",
+      "storyKey": "evt_ed835e709b6abc40",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR-AVEVA-podcast-social-card-v2-1.png?resize=1200,600",
+      "score": 8.35,
+      "publishedAt": "2026-10-08T08:17:32.000Z",
       "evidence": [
         {
-          "claim": "Onvis has released a new outdoor smart plug.",
-          "source": "593a499870ef3d28"
+          "claim": "Industrial AI is entering a new phase with advances in foundation models, physical AI, and agentic AI.",
+          "source": "6ada87b03dec4760"
         },
         {
-          "claim": "The plug supports Matter over Thread.",
-          "source": "593a499870ef3d28"
+          "claim": "The challenge of responsible deployment is central to the next wave of industrial automation.",
+          "source": "6ada87b03dec4760"
         },
         {
-          "claim": "It offers real-time energy monitoring.",
-          "source": "593a499870ef3d28"
+          "claim": "AVEVA's framework for responsible AI emphasizes security, efficiency, and human safety and oversight.",
+          "source": "6ada87b03dec4760"
         },
         {
-          "claim": "The plug is IP65 weather resistant.",
-          "source": "593a499870ef3d28"
+          "claim": "Sustainability is another part of the equation, with AI helping manage complex power systems as renewable generation grows.",
+          "source": "6ada87b03dec4760"
         },
         {
-          "claim": "It works natively with Apple Home without a hub of its own.",
-          "source": "593a499870ef3d28"
+          "claim": "AVEVA is working on incorporating these new and very powerful AI technologies in environments where customers have mission-critical operations, human safety is a significant factor.",
+          "source": "6ada87b03dec4760"
         }
       ],
       "sources": [
         {
-          "name": "9to5Mac",
-          "link": "https://9to5mac.com/2026/10/09/homekit-weekly-onvis-releases-a-matter-over-thread-outdoor-smart-plug-with-energy-monitoring"
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_26a9c0d7e62d2a15",
+      "id": "evt_4a5044e65086bdc6",
       "title": {
-        "es": "Cloudflare añade perfilado de CPU y memoria bajo demanda para Workers",
-        "en": "Cloudflare adds on-demand CPU and memory profiling for Workers"
+        "es": "Nuevos controles en Copilot para JetBrains",
+        "en": "New controls arrive in Copilot for JetBrains"
       },
       "text": {
-        "es": "Cloudflare ha lanzado perfilado de CPU y memoria bajo demanda para Workers y Durable Objects, permitiendo generar flamegraphs interactivos directamente en producción para detectar fugas de memoria y cuellos de botella de rendimiento.",
-        "en": "Cloudflare has launched on-demand CPU and memory profiling for Workers and Durable Objects, enabling interactive flamegraphs directly in production to track down memory leaks and performance bottlenecks."
+        "es": "GitHub actualizó Copilot para JetBrains con más control sobre modelos por defecto y servidores MCP, diagnósticos más claros, y mejoras en navegación de chat y controles de cuenta.",
+        "en": "GitHub updated Copilot for JetBrains with more control over default models and MCP servers, clearer diagnostics, and improvements to chat navigation and account controls."
       },
-      "newsId": "evt_26a9c0d7e62d2a15",
-      "storyKey": "evt_26a9c0d7e62d2a15",
-      "topic": "tech",
-      "source": "Cloudflare Blog",
-      "link": "https://blog.cloudflare.com/workers-on-demand-profiling",
-      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M497X1XKZ8XG2FXKMTKEX5F4.png",
+      "newsId": "evt_4a5044e65086bdc6",
+      "storyKey": "evt_4a5044e65086bdc6",
+      "topic": "ai_software",
+      "source": "GitHub Changelog",
+      "link": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
       "score": 7.65,
-      "publishedAt": "2026-10-09T13:00:00.000Z",
+      "publishedAt": "2026-10-10T18:53:39.000Z",
       "evidence": [
         {
-          "claim": "Cloudflare Workers and Durable Objects now support on-demand CPU and memory profiling.",
-          "source": "648f111d7a645c23"
+          "claim": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains.",
+          "source": "1d667270d2c1b628"
         },
         {
-          "claim": "Interactive flamegraphs can be generated directly in production.",
-          "source": "648f111d7a645c23"
+          "claim": "It also makes diagnostics easier to address.",
+          "source": "1d667270d2c1b628"
+        },
+        {
+          "claim": "Improvements include chat navigation and account controls.",
+          "source": "1d667270d2c1b628"
         }
       ],
       "sources": [
         {
-          "name": "Cloudflare Blog",
-          "link": "https://blog.cloudflare.com/workers-on-demand-profiling"
+          "name": "GitHub Changelog",
+          "link": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_d7bcec0749d63e11",
+      "id": "evt_5b8e4503e331c3cd",
       "title": {
-        "es": "Nagare combina calendario y tareas en una sola lista sincronizada con iCloud",
-        "en": "Nagare merges calendar and tasks into one iCloud-synced list"
+        "es": "Progreso rápido en IA, pero no hacia la superinteligencia general",
+        "en": "Rapid AI progress, but not toward general superintelligence"
       },
       "text": {
-        "es": "Nagare es una app de tareas para iPhone y Mac que combina eventos de calendario y pendientes en una sola lista entrelazada, sincroniza datos vía iCloud y expone ese contexto a agentes de IA mediante MCP.",
-        "en": "Nagare is a to-do app for iPhone and Mac that interleaves calendar events and tasks into a single list, syncs data via iCloud, and exposes that context to AI agents through MCP."
+        "es": "Un ensayo argumenta que el coste de la inteligencia de los modelos caerá casi exponencialmente y que mejorar los entornos de aprendizaje por refuerzo es fruta madura a escala industrial, aunque esto no implique alcanzar una superinteligencia general.",
+        "en": "An essay argues the effective cost of model intelligence will decline near-exponentially and that improving RL environment quality is industrial-scale low-hanging fruit, though this does not imply reaching general superintelligence."
       },
-      "newsId": "evt_d7bcec0749d63e11",
-      "storyKey": "evt_d7bcec0749d63e11",
-      "topic": "tech",
-      "source": "Hacker News",
-      "link": "https://ilia.page/writing/introducing-nagare",
-      "image": "https://media.ilia.page/writing/introducing-nagare/Nagare-Mac-and-iPhone-cover.jpeg",
-      "score": 6.65,
-      "publishedAt": "2026-10-10T04:37:13.000Z",
+      "newsId": "evt_5b8e4503e331c3cd",
+      "storyKey": "evt_5b8e4503e331c3cd",
+      "topic": "ai_software",
+      "source": "Interconnects",
+      "link": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+      "image": "https://substackcdn.com/image/fetch/$s_!8EAF!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe890df0-8dfe-4dfb-9fb9-659d721e2d76_3182x1790.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-09T21:33:47.000Z",
       "evidence": [
         {
-          "claim": "Nagare is a to-do app that combines calendar events and tasks into a single list.",
-          "source": "8de04ca3ab698be9"
+          "claim": "Researchers are seeing a massive acceleration in the infra and engineering capabilities of the models.",
+          "source": "6326e9a998003bd3"
         },
         {
-          "claim": "Nagare allows users to interleave tasks and events in one list, unlike other apps that separate them.",
-          "source": "8de04ca3ab698be9"
+          "claim": "The cost of model intelligence is expected to decline near-exponentially over the coming years.",
+          "source": "6326e9a998003bd3"
         },
         {
-          "claim": "Nagare syncs data through iCloud and provides context to the user's agent through MCP.",
-          "source": "8de04ca3ab698be9"
+          "claim": "Improving the general quality of RL environments is an industrial-scale piece of low-hanging fruit.",
+          "source": "6326e9a998003bd3"
         },
         {
-          "claim": "Nagare highlights priority projects with a subtle glow to draw attention to them.",
-          "source": "8de04ca3ab698be9"
+          "claim": "The flexibility of the GPU should be kind during the time of rapid efficiency gains.",
+          "source": "6326e9a998003bd3"
+        },
+        {
+          "claim": "Meta’s Muse agent is an early indicator of the industry moving towards more agent-oriented experiences.",
+          "source": "6326e9a998003bd3"
         }
       ],
       "sources": [
         {
-          "name": "Hacker News",
-          "link": "https://ilia.page/writing/introducing-nagare"
+          "name": "Interconnects",
+          "link": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards"
         }
       ],
       "what_changed": []
@@ -504,97 +512,97 @@
   ],
   "trending_repos": [
     {
-      "id": "morluto/rea",
-      "repoKey": "morluto/rea",
-      "name": "rea",
-      "full_name": "morluto/rea",
-      "link": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "language": "TypeScript",
-      "stars": 44455,
-      "stars_today": null,
-      "stars_per_day_estimate": 12845.206198923042,
-      "trend_basis": "normalized_62.8h",
-      "trend_score": 16.648980916733066,
-      "default_branch": "main",
-      "created_at": "2026-04-14T00:51:32Z",
-      "pushed_at": "2026-10-09T22:58:29Z",
-      "why_it_matters": {
-        "es": "REA conecta agentes de IA con herramientas para inspeccionar binarios nativos, apps JavaScript/Electron, ensamblados .NET y sitios web, permitiendo analizar cómo funciona una característica sin acceso al código fuente y reproducirla, con el análisis corriendo localmente y evidencias incluidas en los resultados.",
-        "en": "REA connects AI agents to tools for inspecting native binaries, JavaScript/Electron apps, .NET assemblies, and websites, letting developers analyze how a feature works without source access and rebuild it, with analysis running locally and evidence included in results."
-      }
-    },
-    {
-      "id": "strands-agents/box",
-      "repoKey": "strands-agents/box",
-      "name": "box",
-      "full_name": "strands-agents/box",
-      "link": "https://github.com/strands-agents/box",
-      "description": "Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box combines OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent. Written in Rust. Supports macOS on Apple silicon, with Linux support planned.",
-      "language": "Rust",
-      "stars": 286,
-      "stars_today": null,
-      "stars_per_day_estimate": 104.74904289733118,
-      "trend_basis": "normalized_44.2h",
-      "trend_score": 9.718619103652046,
-      "default_branch": "main",
-      "created_at": "2026-10-02T20:34:08Z",
-      "pushed_at": "2026-10-09T22:16:40Z",
-      "why_it_matters": {
-        "es": "Strands Box es un sandbox de código abierto para agentes de IA en Rust que combina aislamiento a nivel de sistema operativo con políticas semánticas Dogwood de denegación por defecto, controlando archivos, programas y red, además de inyección de credenciales que mantiene los secretos fuera del proceso del agente.",
-        "en": "Strands Box is an open-source Rust sandbox for AI agents that combines OS-level isolation with default-deny Dogwood semantic policies, controlling file, program, and network access, plus credential injection that keeps secrets outside the agent process."
-      }
-    },
-    {
-      "id": "yakuikai/tokentab",
-      "repoKey": "yakuikai/tokentab",
-      "name": "tokentab",
-      "full_name": "yakuikai/tokentab",
-      "link": "https://github.com/yakuikai/tokentab",
-      "description": "Local-first CLI and web dashboard that reads Claude Code, Codex and Gemini CLI session logs and shows token usage and cost by model, project, day and activity. No account, no API key, nothing leaves your machine",
+      "id": "BerriAI/litellm",
+      "repoKey": "BerriAI/litellm",
+      "name": "litellm",
+      "full_name": "BerriAI/litellm",
+      "link": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
       "language": "Python",
-      "stars": 432,
-      "stars_today": null,
-      "stars_per_day_estimate": 76.52650284209169,
-      "trend_basis": "normalized_44.2h",
-      "trend_score": 9.214634138487645,
+      "stars": 60903,
+      "stars_today": 272,
+      "stars_per_day_estimate": 279.005849805555,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 11.129245141445926,
       "default_branch": "main",
-      "created_at": "2026-09-21T18:07:22Z",
-      "pushed_at": "2026-10-09T15:32:44Z",
+      "created_at": "2023-07-27T00:09:52Z",
+      "pushed_at": "2026-10-10T22:22:22Z",
       "why_it_matters": {
-        "es": "tokentab es una herramienta local-first que lee los logs de sesión que Claude Code, Codex y Gemini CLI ya dejan en disco para desglosar el uso de tokens y coste por modelo, proyecto y día, sin necesidad de cuenta ni clave de API y sin enviar nada fuera de la máquina.",
-        "en": "tokentab is a local-first tool that reads the session logs Claude Code, Codex, and Gemini CLI already leave on disk to break down token usage and cost by model, project, and day, requiring no account or API key and sending nothing off the machine."
+        "es": "LiteLLM ofrece una interfaz unificada en formato OpenAI para más de 100 proveedores de LLM, con seguimiento de costes, guardrails y balanceo de carga, simplificando la integración multi-proveedor para equipos de desarrollo.",
+        "en": "LiteLLM provides a unified OpenAI-format interface for 100+ LLM providers, with cost tracking, guardrails and load balancing, simplifying multi-provider integration for development teams."
       }
     },
     {
-      "id": "TannerMidd/pi-pocket",
-      "repoKey": "TannerMidd/pi-pocket",
-      "name": "pi-pocket",
-      "full_name": "TannerMidd/pi-pocket",
-      "link": "https://github.com/TannerMidd/pi-pocket",
-      "description": "A durable, multiplayer, mobile-first web app for Pi agents, built on Pi Durable",
-      "language": "TypeScript",
-      "stars": 311,
-      "stars_today": null,
-      "stars_per_day_estimate": 56.44508011047898,
-      "trend_basis": "normalized_44.2h",
-      "trend_score": 8.801449648569076,
+      "id": "LosaLosSantos/aurelio-finance",
+      "repoKey": "LosaLosSantos/aurelio-finance",
+      "name": "aurelio-finance",
+      "full_name": "LosaLosSantos/aurelio-finance",
+      "link": "https://github.com/LosaLosSantos/aurelio-finance",
+      "description": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+      "language": "Python",
+      "stars": 2093,
+      "stars_today": 593,
+      "stars_per_day_estimate": 608.2737828481401,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 12.16449920622549,
       "default_branch": "main",
-      "created_at": "2026-10-04T02:29:57Z",
-      "pushed_at": "2026-10-09T17:51:51Z",
+      "created_at": "2026-10-06T20:14:19Z",
+      "pushed_at": "2026-10-10T12:00:26Z",
       "why_it_matters": {
-        "es": "Pi Pocket es una app web duradera y multijugador para agentes Pi que corre en tu propia máquina o teléfono sin VM en la nube, con cada llamada a modelo y herramienta almacenada para que el trabajo continúe tras un reinicio, además de edición colaborativa y modo plan que requiere aprobación antes de aplicar cambios.",
-        "en": "Pi Pocket is a durable, multiplayer web app for Pi agents that runs on your own machine or phone with no cloud VM, storing every model and tool call so work survives a restart, plus collaborative editing and a plan mode that requires approval before changes are applied."
+        "es": "Aurelio es una app de finanzas personales que corre localmente con un asesor de IA opcional vía OpenRouter, manteniendo los datos del usuario en su propia máquina en lugar de la nube.",
+        "en": "Aurelio is a personal finance app that runs locally with an optional AI advisor via OpenRouter, keeping user data on their own machine instead of in the cloud."
+      }
+    },
+    {
+      "id": "nano-muse/nanoMuse",
+      "repoKey": "nano-muse/nanoMuse",
+      "name": "nanoMuse",
+      "full_name": "nano-muse/nanoMuse",
+      "link": "https://github.com/nano-muse/nanoMuse",
+      "description": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone's screen and your computer as its hands.",
+      "language": "Swift",
+      "stars": 770,
+      "stars_today": 253,
+      "stars_per_day_estimate": 259.51647059119637,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 10.974454426902977,
+      "default_branch": "main",
+      "created_at": "2026-09-23T06:13:06Z",
+      "pushed_at": "2026-10-10T16:17:16Z",
+      "why_it_matters": {
+        "es": "nanoMuse es un agente personal de código abierto multiplataforma (incluyendo Swift para iOS/iPad) inspirado en Muse de Meta, que ejecuta tareas de forma autónoma y se puede alojar en un relay propio para mantener la privacidad.",
+        "en": "nanoMuse is an open-source cross-platform personal agent (including Swift for iOS/iPad) inspired by Meta's Muse, that executes tasks autonomously and can be self-hosted via its own relay to preserve privacy."
+      }
+    },
+    {
+      "id": "Gentleman-Programming/gentle-shell",
+      "repoKey": "Gentleman-Programming/gentle-shell",
+      "name": "gentle-shell",
+      "full_name": "Gentleman-Programming/gentle-shell",
+      "link": "https://github.com/Gentleman-Programming/gentle-shell",
+      "description": "Gentle Shell is a Pi-native coding-agent harness for controlled development with Organic Driven Development, optional SDD/OpenSpec, subagents, TDD evidence, review guardrails, skills, and memory integrations.",
+      "language": "TypeScript",
+      "stars": 1271,
+      "stars_today": 14,
+      "stars_per_day_estimate": 14.360595210580035,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 6.9404715139009525,
+      "default_branch": "main",
+      "created_at": "2026-05-10T10:11:33Z",
+      "pushed_at": "2026-10-10T22:17:53Z",
+      "why_it_matters": {
+        "es": "Gentle Shell es un entorno de trabajo para agentes de código construido sobre Pi, que añade orquestación, revisión de diffs y un flujo de desarrollo guiado orgánicamente para mantener el control del desarrollador sobre cambios automatizados.",
+        "en": "Gentle Shell is a coding-agent workspace built for Pi that adds orchestration, diff review, and an organic driven development workflow to keep developers in control of automated changes."
       }
     }
   ],
   "developer_signals": [],
   "editorial_stats": {
     "topics": {
-      "apple": 3,
+      "apple": 2,
       "ai_software": 2,
       "ai_general": 0,
-      "tech": 2
+      "tech": 3
     }
   }
 }
