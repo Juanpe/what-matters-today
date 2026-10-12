@@ -1,336 +1,340 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-10-11",
-  "date": "2026-10-11",
+  "edition_id": "wmt-2026-10-12",
+  "date": "2026-10-12",
   "daily_summary": {
-    "es": "Apple confirma su lanzamiento de smart home para el 13 de octubre mientras la IA avanza en ciberseguridad, industria y agentes, con Nadella pidiendo contención por defecto para modelos de IA.",
-    "en": "Apple confirms its smart-home launch for October 13 while AI advances in cybersecurity, industry and agents, with Nadella calling for default containment of AI models."
+    "es": "Apple domina la jornada con filtraciones previas al evento del 13 de octubre (HomeView, Apple TV 4K con chip A19/A18 y HomePod mini), mientras un informe advierte que los sistemas de IA ya pueden ejecutar ataques físicos contra infraestructuras industriales.",
+    "en": "Apple dominates the day with leaks ahead of the October 13 event (HomeView, Apple TV 4K with A19/A18 chip and HomePod mini), while a report warns that AI systems can already carry out physical attacks on industrial infrastructure."
   },
   "topic_summaries": {
     "apple": {
-      "es": "Apple tiene confirmado un evento el martes 13 de octubre centrado en productos de hogar inteligente, incluyendo un posible hub con pantalla, un Apple TV 4K renovado y un HomePod mini actualizado; se esperan más lanzamientos a finales de mes. Por separado, fuentes indican recortes en pedidos de componentes del iPhone 18 Pro por baja demanda, aunque los pedidos de ensamblaje completo no se han reducido.",
-      "en": "Apple has confirmed an event on Tuesday, October 13 focused on smart home products, including a possible screen-equipped hub, a refreshed Apple TV 4K and an updated HomePod mini, with more launches expected later in the month. Separately, sources report component order cuts for the iPhone 18 Pro due to low demand, though whole-unit assembly orders have not been reduced."
+      "es": "Múltiples filtraciones apuntan al evento de Apple del 13 de octubre: HomeView se presentaría ese día con chip A18 y Siri AI pero no llegaría hasta mediados de noviembre, el Apple TV 4K estrenaría un chip A19 y un mando rediseñado con altavoz, y el HomePod mini se renovaría con Siri AI. Por separado, Apple retiró silenciosamente de iOS 27 una función de cambio de contraseñas con IA que estaba en las betas, sin confirmar cuándo regresará, y ha comenzado a empujar activamente la actualización a iOS 27 tras semanas de lanzamiento discreto.",
+      "en": "Multiple leaks point to Apple's October 13 event: HomeView would be unveiled that day with an A18 chip and Siri AI but not ship until mid-November, Apple TV 4K would get a new A19 chip and a redesigned remote with a speaker, and HomePod mini would be refreshed with Siri AI. Separately, Apple quietly removed an AI-powered password-changing feature from iOS 27 that had been in the betas, with no confirmed return date, and has now begun actively pushing the iOS 27 update after weeks of a soft rollout."
     },
     "ai_software": {
-      "es": "Sophos afirma haber reducido en un 96% el tiempo de investigación de amenazas gracias a OpenAI Daybreak, mientras GitHub mejora los controles de Copilot para JetBrains. Un análisis de seguridad reveló fallos graves en AWS AgentCore, y un ensayo plantea que el progreso en IA seguirá siendo rápido en ingeniería sin alcanzar una superinteligencia general.",
-      "en": "Sophos claims a 96% cut in threat investigation time using OpenAI's Daybreak, while GitHub rolls out improved controls for Copilot in JetBrains. A security analysis exposed serious flaws in AWS AgentCore, and an essay argues AI progress will remain rapid in engineering terms without reaching general superintelligence."
+      "es": "Un informe advierte que los agentes de IA ya pueden explotar sistemas de control industrial (OT) con precisión de ingeniero, moviendo brazos robóticos y comprometiendo pasarelas SCADA para acceder a decenas de dispositivos conectados, superando la preparación defensiva actual. En paralelo, investigadores de Google DeepMind y Biohub discuten por qué AlphaFold no resolvió el plegamiento de proteínas y por qué curar enfermedades requiere saltos de 10x, no mejoras incrementales.",
+      "en": "A report warns that AI agents can already exploit industrial control (OT) systems with engineer-level precision, moving robotic arms and compromising SCADA gateways to reach dozens of connected devices, outpacing current defensive readiness. Separately, researchers from Google DeepMind and Biohub discuss why AlphaFold didn't solve protein folding and why curing disease requires 10x breakthroughs rather than incremental gains."
     },
     "ai_general": {
-      "es": "La industria nuclear estadounidense está incorporando asistentes de IA para apoyar a una fuerza laboral especializada en declive, mientras AVEVA defiende un marco de IA responsable centrado en seguridad humana y supervisión para la automatización industrial avanzada.",
-      "en": "The U.S. nuclear industry is adopting AI assistants to support a shrinking specialized workforce, while AVEVA advocates a responsible AI framework centered on human safety and oversight for advanced industrial automation."
+      "es": "",
+      "en": ""
     },
     "tech": {
-      "es": "Satya Nadella pide tratar todos los modelos de IA como potencialmente comprometidos y aplicar un 'freno de emergencia' con contención desde el diseño. Además, iniciativas contra el cibercrimen usan bots de IA realistas para engañar a estafadores, y Vapor 5 llega como una reescritura completa con soporte de concurrencia estructurada en Swift.",
-      "en": "Satya Nadella calls for treating all AI models as potentially compromised and applying an 'emergency brake' with containment built in from the start. Separately, anti-cybercrime initiatives are using realistic AI bots to trick scammers, and Vapor 5 arrives as a complete rewrite with structured concurrency support in Swift."
+      "es": "El equipo de Deno se incorpora a Cloudflare para simplificar el autoalojamiento de Workers y Durable Objects, y TechCrunch Disrupt 2026 centra su programación en cómo construir empresas duraderas en la era de la IA.",
+      "en": "The Deno team is joining Cloudflare to simplify self-hosting Workers and Durable Objects, and TechCrunch Disrupt 2026 frames its programming around how to build enduring companies in the AI era."
     }
   },
   "summary": {
     "apple": {
-      "es": "Apple tiene confirmado un evento el martes 13 de octubre centrado en productos de hogar inteligente, incluyendo un posible hub con pantalla, un Apple TV 4K renovado y un HomePod mini actualizado; se esperan más lanzamientos a finales de mes. Por separado, fuentes indican recortes en pedidos de componentes del iPhone 18 Pro por baja demanda, aunque los pedidos de ensamblaje completo no se han reducido.",
-      "en": "Apple has confirmed an event on Tuesday, October 13 focused on smart home products, including a possible screen-equipped hub, a refreshed Apple TV 4K and an updated HomePod mini, with more launches expected later in the month. Separately, sources report component order cuts for the iPhone 18 Pro due to low demand, though whole-unit assembly orders have not been reduced."
+      "es": "Múltiples filtraciones apuntan al evento de Apple del 13 de octubre: HomeView se presentaría ese día con chip A18 y Siri AI pero no llegaría hasta mediados de noviembre, el Apple TV 4K estrenaría un chip A19 y un mando rediseñado con altavoz, y el HomePod mini se renovaría con Siri AI. Por separado, Apple retiró silenciosamente de iOS 27 una función de cambio de contraseñas con IA que estaba en las betas, sin confirmar cuándo regresará, y ha comenzado a empujar activamente la actualización a iOS 27 tras semanas de lanzamiento discreto.",
+      "en": "Multiple leaks point to Apple's October 13 event: HomeView would be unveiled that day with an A18 chip and Siri AI but not ship until mid-November, Apple TV 4K would get a new A19 chip and a redesigned remote with a speaker, and HomePod mini would be refreshed with Siri AI. Separately, Apple quietly removed an AI-powered password-changing feature from iOS 27 that had been in the betas, with no confirmed return date, and has now begun actively pushing the iOS 27 update after weeks of a soft rollout."
     },
     "ai_software": {
-      "es": "Sophos afirma haber reducido en un 96% el tiempo de investigación de amenazas gracias a OpenAI Daybreak, mientras GitHub mejora los controles de Copilot para JetBrains. Un análisis de seguridad reveló fallos graves en AWS AgentCore, y un ensayo plantea que el progreso en IA seguirá siendo rápido en ingeniería sin alcanzar una superinteligencia general.",
-      "en": "Sophos claims a 96% cut in threat investigation time using OpenAI's Daybreak, while GitHub rolls out improved controls for Copilot in JetBrains. A security analysis exposed serious flaws in AWS AgentCore, and an essay argues AI progress will remain rapid in engineering terms without reaching general superintelligence."
+      "es": "Un informe advierte que los agentes de IA ya pueden explotar sistemas de control industrial (OT) con precisión de ingeniero, moviendo brazos robóticos y comprometiendo pasarelas SCADA para acceder a decenas de dispositivos conectados, superando la preparación defensiva actual. En paralelo, investigadores de Google DeepMind y Biohub discuten por qué AlphaFold no resolvió el plegamiento de proteínas y por qué curar enfermedades requiere saltos de 10x, no mejoras incrementales.",
+      "en": "A report warns that AI agents can already exploit industrial control (OT) systems with engineer-level precision, moving robotic arms and compromising SCADA gateways to reach dozens of connected devices, outpacing current defensive readiness. Separately, researchers from Google DeepMind and Biohub discuss why AlphaFold didn't solve protein folding and why curing disease requires 10x breakthroughs rather than incremental gains."
     },
     "ai_general": {
-      "es": "La industria nuclear estadounidense está incorporando asistentes de IA para apoyar a una fuerza laboral especializada en declive, mientras AVEVA defiende un marco de IA responsable centrado en seguridad humana y supervisión para la automatización industrial avanzada.",
-      "en": "The U.S. nuclear industry is adopting AI assistants to support a shrinking specialized workforce, while AVEVA advocates a responsible AI framework centered on human safety and oversight for advanced industrial automation."
+      "es": "",
+      "en": ""
     },
     "tech": {
-      "es": "Satya Nadella pide tratar todos los modelos de IA como potencialmente comprometidos y aplicar un 'freno de emergencia' con contención desde el diseño. Además, iniciativas contra el cibercrimen usan bots de IA realistas para engañar a estafadores, y Vapor 5 llega como una reescritura completa con soporte de concurrencia estructurada en Swift.",
-      "en": "Satya Nadella calls for treating all AI models as potentially compromised and applying an 'emergency brake' with containment built in from the start. Separately, anti-cybercrime initiatives are using realistic AI bots to trick scammers, and Vapor 5 arrives as a complete rewrite with structured concurrency support in Swift."
+      "es": "El equipo de Deno se incorpora a Cloudflare para simplificar el autoalojamiento de Workers y Durable Objects, y TechCrunch Disrupt 2026 centra su programación en cómo construir empresas duraderas en la era de la IA.",
+      "en": "The Deno team is joining Cloudflare to simplify self-hosting Workers and Durable Objects, and TechCrunch Disrupt 2026 frames its programming around how to build enduring companies in the AI era."
     }
   },
   "top_stories": [
     {
-      "id": "evt_8dcf0e76769301d6",
+      "id": "evt_993d481bad229e25",
       "title": {
-        "es": "Apple anuncia lanzamiento de hogar inteligente para el martes 13 de octubre",
-        "en": "Apple announces smart home launch scheduled for Tuesday, October 13"
+        "es": "HomeView, Apple TV 4K y HomePod mini: 16 detalles filtrados antes del evento",
+        "en": "New Apple TV 4K, HomeView, and HomePod Mini: 16 details leaked ahead of the event"
       },
       "body": {
-        "es": "Apple ha confirmado un lanzamiento de productos programado para el martes 13 de octubre, centrado en novedades de hogar inteligente: se espera el largamente rumoreado hub inteligente, un nuevo Apple TV 4K y un HomePod mini renovado. Las reservas del iPhone Duo también comenzarán la próxima semana, y fuentes apuntan a otra tanda de lanzamientos a finales de octubre. El evento aún está por celebrarse en la fecha indicada, no ha ocurrido todavía.",
-        "en": "Apple has confirmed a product launch scheduled for Tuesday, October 13, focused on smart home news: the long-rumored smart hub, a new Apple TV 4K, and a refreshed HomePod mini are expected. iPhone Duo pre-orders will also begin next week, and sources point to another round of launches later in October. The event is still upcoming on that date, not something that has already happened."
+        "es": "Según filtraciones, HomeView se presentaría este martes 13 de octubre con chip A18 (8GB de RAM equivalente en iPhone) y soporte para Siri AI, aunque el dispositivo no llegaría a la venta hasta mediados de noviembre. Se esperan cuatro acabados (gris, plata, blanco estelar y rosa), y los accesorios de LG para el dispositivo no estarían disponibles hasta más adelante en el año como muy pronto. Esto confirma un lanzamiento escalonado: anuncio primero, disponibilidad semanas después.",
+        "en": "According to leaks, HomeView would be unveiled this Tuesday, October 13, with an A18 chip (equivalent to 8GB of RAM in iPhones) and Siri AI support, though the device wouldn't ship until around mid-November. Four finishes are expected (gray, silver, starlight and rose), and LG's accessories for the device wouldn't ship until later this year at the earliest. This points to a staggered rollout: announcement first, availability weeks later."
       },
-      "newsId": "evt_8dcf0e76769301d6",
-      "storyKey": "evt_8dcf0e76769301d6",
+      "newsId": "evt_993d481bad229e25",
+      "storyKey": "evt_993d481bad229e25",
       "topic": "apple",
       "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/10/10/top-stories-apple-welcome-home-launch-october-13",
-      "image": "https://images.macrumors.com/article-new/2026/10/top-stories-2026-10-10.jpg",
+      "link": "https://www.macrumors.com/2026/10/11/apple-tv-4k-homeview-homepod-mini-2-leaks",
+      "image": "https://images.macrumors.com/article-new/2026/10/Apple-TV-4K-HomeView-HomePod-Mini-tweaked.jpg",
       "score": 7.65,
-      "publishedAt": "2026-10-10T13:00:10.000Z",
+      "publishedAt": "2026-10-11T19:56:28.000Z",
       "evidence": [
         {
-          "claim": "Apple has announced an upcoming product launch that will take place on Tuesday, October 13.",
-          "source": "74ca62c4d4e88d06"
+          "claim": "HomeView will be unveiled this Tuesday, October 13, but the device is apparently not launching until \"around mid-November.\"",
+          "source": "e352c345f873cb3b"
         },
         {
-          "claim": "The launch on October 13 will focus on new smart home products.",
-          "source": "74ca62c4d4e88d06"
+          "claim": "HomeView will be equipped with an A18 chip, which has 8GB of RAM in iPhones.",
+          "source": "e352c345f873cb3b"
         },
         {
-          "claim": "iPhone Duo pre-orders will begin next week.",
-          "source": "74ca62c4d4e88d06"
+          "claim": "HomeView will support Siri AI for voice control.",
+          "source": "e352c345f873cb3b"
         },
         {
-          "claim": "Apple's newer iPhones have had an optional 80 percent charge limit since 2023.",
-          "source": "74ca62c4d4e88d06"
+          "claim": "The tabletop HomeView will be available in four finishes: Gray, Silver, Starlight, and Rose.",
+          "source": "e352c345f873cb3b"
+        },
+        {
+          "claim": "LG's accessories for the HomeView will not ship \"until later this year at the earliest.\"",
+          "source": "e352c345f873cb3b"
         }
       ],
       "sources": [
         {
           "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/10/10/top-stories-apple-welcome-home-launch-october-13"
+          "link": "https://www.macrumors.com/2026/10/11/apple-tv-4k-homeview-homepod-mini-2-leaks"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_aea901c070beae40",
+      "id": "evt_855d8a0ec3002874",
       "title": {
-        "es": "Nadella pide asumir que todos los modelos de IA están 'comprometidos'",
-        "en": "Nadella says we should assume all AI models are 'compromised'"
+        "es": "Los sistemas de IA ya pueden ejecutar ataques devastadores contra infraestructuras",
+        "en": "AI systems can already carry out devastating attacks on infrastructure"
       },
       "body": {
-        "es": "El CEO de Microsoft, Satya Nadella, pide un 'freno de emergencia' para la IA, argumentando que ya no podemos aceptar tratar los modelos como cajas negras cuyas acciones simplemente aceptamos o rechazamos. Propone construir sistemas más transparentes donde los modelos puedan ser contenidos, observados y dejen evidencia legible por humanos a prueba de manipulaciones. Su mensaje implica que la contención debe diseñarse desde el inicio, no añadirse después.",
-        "en": "Microsoft CEO Satya Nadella calls for an 'emergency brake' on AI, arguing we can no longer accept treating models as black boxes whose actions we simply accept or reject. He proposes building more transparent systems where models can be contained, observed, and leave tamper-proof human-readable evidence behind. His message implies containment must be designed in from the start, not bolted on later."
+        "es": "Pruebas de seguridad muestran que agentes de IA lograron los objetivos en ocho escenarios distintos contra sistemas de control industrial, incluyendo mover un brazo robótico en minutos y comprometer una pasarela SCADA que exponía acceso directo a 14 dispositivos OT adicionales. Los investigadores advierten que estos agentes operan con velocidad y precisión de ingeniero que supera la preparación defensiva de muchas organizaciones que aún no aplican prácticas básicas de ciberseguridad OT.",
+        "en": "Security tests show AI agents achieved their objectives across eight distinct scenarios against industrial control systems, including moving a robotic arm within minutes and compromising a SCADA gateway that exposed direct access to 14 additional OT devices. Researchers warn these agents operate with engineer-level speed and precision that outpaces the defensive readiness of many organizations still lacking foundational OT cybersecurity practices."
       },
-      "newsId": "evt_aea901c070beae40",
-      "storyKey": "evt_aea901c070beae40",
-      "topic": "tech",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK178_Satya_Nadella_B.jpg?crop=0%2C9.9676601489831%2C100%2C80.064679702034&quality=90&strip=all&w=1200",
-      "score": 8.35,
-      "publishedAt": "2026-10-10T22:10:17.000Z",
-      "evidence": [
-        {
-          "claim": "Microsoft’s CEO calls for putting an ‘emergency brake’ on AI.",
-          "source": "b6b51c4cc683943e"
-        },
-        {
-          "claim": "Nadella says we can no longer accept a world where AI is treated as a “set of nested black boxes”.",
-          "source": "b6b51c4cc683943e"
-        },
-        {
-          "claim": "Nadella calls for building a more transparent system where models can be contained, observed, and leaves behind “tamper-proof human readable evidence.”",
-          "source": "b6b51c4cc683943e"
-        },
-        {
-          "claim": "Nadella states that we must assume a model is compromised and contain it from the start.",
-          "source": "b6b51c4cc683943e"
-        },
-        {
-          "claim": "More advanced models will require more advanced containment technologies that we need to standardize on.",
-          "source": "b6b51c4cc683943e"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_c4182bed3c21d51f",
-      "title": {
-        "es": "Sophos reduce 96% el tiempo de investigación de amenazas con OpenAI Daybreak",
-        "en": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
-      },
-      "body": {
-        "es": "Sophos afirma que el uso de Daybreak de OpenAI le permite reducir el tiempo de investigación de ciberamenazas en un 96% y automatizar el 52% de los casos de detección y respuesta gestionada, manteniendo supervisión humana. Es una cifra reportada por la propia empresa en un recurso promocional, no una verificación independiente.",
-        "en": "Sophos claims that using OpenAI's Daybreak cuts cyber-threat investigation time by 96% and automates 52% of managed detection and response cases while preserving human oversight. This figure comes from the company's own promotional resource, not an independent verification."
-      },
-      "newsId": "evt_c4182bed3c21d51f",
-      "storyKey": "evt_c4182bed3c21d51f",
-      "topic": "ai_software",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/sophos",
-      "image": null,
-      "score": 8.35,
-      "publishedAt": "2026-10-09T07:00:00.000Z",
-      "evidence": [
-        {
-          "claim": "Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96%.",
-          "source": "28c3289d71b8d61b"
-        }
-      ],
-      "sources": [
-        {
-          "name": "OpenAI",
-          "link": "https://openai.com/index/sophos"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_fe5c72d06743d1d2",
-      "title": {
-        "es": "Fallos de seguridad en AWS AgentCore expuestos por investigadores",
-        "en": "Security flaws in AWS AgentCore exposed by researchers"
-      },
-      "body": {
-        "es": "Investigadores de seguridad hallaron que AWS AgentCore usaba IMDSv1, exponiendo credenciales en metadatos, y que su MicroVM Firecracker no aislaba adecuadamente la red, permitiendo ataques SSRF. El rol por defecto estaba sobrepermisionado, dando acceso a otros agentes y secretos. AWS actualizó a IMDSv2 en febrero de 2026, pero los permisos excesivos seguían sin corregirse hasta junio de 2026.",
-        "en": "Security researchers found that AWS AgentCore used IMDSv1, exposing credentials in metadata, and that its Firecracker MicroVM failed to properly isolate the network, enabling SSRF attacks. The default role was overpermissioned, granting access to other agents and secrets. AWS updated to IMDSv2 by February 2026, but the excessive permissions remained unfixed until June 2026."
-      },
-      "newsId": "evt_fe5c72d06743d1d2",
-      "storyKey": "evt_fe5c72d06743d1d2",
+      "newsId": "evt_855d8a0ec3002874",
+      "storyKey": "evt_855d8a0ec3002874",
       "topic": "ai_software",
       "source": "The Register AI & ML",
-      "link": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436",
-      "image": "https://image.theregister.com/5302441.jpg?croph=100&cropw=100&height=683&imageId=5302441&panoh=100&panow=100&panox=0&panoy=0&width=1200&x=0&y=0",
-      "score": 7.65,
-      "publishedAt": "2026-10-09T19:15:48.000Z",
+      "link": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450",
+      "image": "https://image.theregister.com/5285618.jpg?croph=100&cropw=100&height=683&imageId=5285618&panoh=100&panow=100&panox=0&panoy=0&width=1200&x=0&y=0",
+      "score": 8.35,
+      "publishedAt": "2026-10-11T11:30:00.000Z",
       "evidence": [
         {
-          "claim": "AWS AgentCore used IMDSv1, which transmitted credentials in metadata, posing security risks.",
-          "source": "2b84257ee39dd4dc"
+          "claim": "AI systems can carry out nightmare attacks against infrastructure.",
+          "source": "83fe4b8041a44a88"
         },
         {
-          "claim": "AgentCore's Firecracker MicroVM failed to provide sufficient network isolation, allowing SSRF attacks.",
-          "source": "2b84257ee39dd4dc"
+          "claim": "AI agents can move robotic arms and manipulate industrial control networks.",
+          "source": "83fe4b8041a44a88"
         },
         {
-          "claim": "AgentCore's default role was overpermissioned, allowing attackers to launch other agents and read sessions.",
-          "source": "2b84257ee39dd4dc"
+          "claim": "AI models can identify and exploit vulnerabilities in OT systems with high precision.",
+          "source": "83fe4b8041a44a88"
         },
         {
-          "claim": "AWS updated AgentCore to use IMDSv2 exclusively by February 14, 2026, but the issue remained unresolved until June 22, 2026.",
-          "source": "2b84257ee39dd4dc"
+          "claim": "AI agents can compromise SCADA systems and change operator screens.",
+          "source": "83fe4b8041a44a88"
+        },
+        {
+          "claim": "AI systems pose a significant threat to critical infrastructure due to their speed and precision.",
+          "source": "83fe4b8041a44a88"
         }
       ],
       "sources": [
         {
           "name": "The Register AI & ML",
-          "link": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436"
+          "link": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_b159bada001f4470",
+      "id": "evt_2c72249dd2eff1d1",
       "title": {
-        "es": "Fuentes afirman que se recortaron pedidos del iPhone 18 Pro, como cada año",
-        "en": "Sources claim iPhone 18 Pro orders have been cut, right on schedule"
+        "es": "El nuevo Apple TV podría incorporar micrófono y un mando con altavoz",
+        "en": "The new Apple TV could have a built-in mic and a remote with a speaker"
       },
       "body": {
-        "es": "Nikkei Asia reporta que proveedores recibieron la orden de reducir producción de componentes por baja demanda del iPhone 18 Pro, aunque fuentes consultadas señalan que Apple ya era más conservadora con sus pedidos desde principios de septiembre. Crucialmente, los pedidos de ensamblaje de unidades completas no se han recortado, lo que matiza el alcance real del ajuste.",
-        "en": "Nikkei Asia reports that suppliers were told to cut component production due to low demand for the iPhone 18 Pro, though sources note Apple had already been more conservative with orders since early September. Crucially, whole-unit assembly orders have not been cut, which tempers the real scope of the adjustment."
+        "es": "Según rumores, el nuevo Apple TV incluiría un micrófono integrado y el mando actualizado tendría un altavoz, lo que permitiría usar el dispositivo como un sencillo hub de hogar inteligente para controlar termostatos o cerraduras sin necesitar el mando físico. Se espera que el nuevo Apple TV comience a enviarse el 30 de octubre, junto al HomePod mini renovado.",
+        "en": "According to rumors, the new Apple TV would include a built-in microphone and the upgraded remote would get a speaker, letting the device serve as a simple smart home hub for controlling thermostats or door locks without hunting for the remote. The new Apple TV is expected to start shipping on October 30th, alongside the refreshed HomePod mini."
       },
-      "newsId": "evt_b159bada001f4470",
-      "storyKey": "evt_b159bada001f4470",
+      "newsId": "evt_2c72249dd2eff1d1",
+      "storyKey": "evt_2c72249dd2eff1d1",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24160553/DSCF0260_2.jpg?crop=0%2C10.732984293194%2C100%2C78.534031413613&quality=90&strip=all&w=1200",
+      "score": 7.65,
+      "publishedAt": "2026-10-11T17:31:07.000Z",
+      "evidence": [
+        {
+          "claim": "The new Apple TV could have a built-in microphone.",
+          "source": "059b0cd575eac715"
+        },
+        {
+          "claim": "The upgraded remote will get a speaker.",
+          "source": "059b0cd575eac715"
+        },
+        {
+          "claim": "The new Apple TV could serve as a simple smart home hub.",
+          "source": "059b0cd575eac715"
+        },
+        {
+          "claim": "The new Apple TV is expected to start shipping on October 30th.",
+          "source": "059b0cd575eac715"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_1ba155d26fc9368a",
+      "title": {
+        "es": "Apple retira una función clave de iOS 27 y no se sabe cuándo volverá",
+        "en": "Apple removed a key iOS 27 feature and it's unclear when it will return"
+      },
+      "body": {
+        "es": "Apple eliminó de la versión final de iOS 27, iPadOS 27 y macOS 27 un agente con IA que permitía cambiar varias contraseñas con un solo botón, función que sí estaba presente en las betas. La web oficial de iOS 27 todavía la muestra, pero con un aviso de que estará \"disponible más adelante\", sin que Apple haya confirmado una fecha ni la razón del retraso, posiblemente ligada a la complejidad de automatizar cambios de contraseña en distintos sitios web.",
+        "en": "Apple removed from the final release of iOS 27, iPadOS 27 and macOS 27 an AI-powered agent that could change multiple passwords with a single button, a feature that had been present in the betas. Apple's official iOS 27 webpage still shows it but warns it will be \"available later,\" with no confirmed date or official explanation, possibly tied to the complexity of automating password changes across different websites."
+      },
+      "newsId": "evt_1ba155d26fc9368a",
+      "storyKey": "evt_1ba155d26fc9368a",
       "topic": "apple",
-      "source": "AppleInsider",
-      "link": "https://appleinsider.com/articles/26/10/09/right-on-schedule-sources-claim-iphone-18-pro-orders-have-been-cut",
-      "image": "https://media.appleinsider.com/gallery/69146-145847-iPhone-18-Pro-Max-cameras-and-iPhone-17-Pro-Max-cameras-xl.jpg",
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/seguridad/apple-ha-quitado-mejores-funciones-ios-27-todavia-no-sabemos-cuando-volvera",
+      "image": "https://i.blogs.es/d4670a/contrasenas/840_560.jpeg",
       "score": 7.65,
-      "publishedAt": "2026-10-09T12:10:00.000Z",
+      "publishedAt": "2026-10-11T15:00:28.000Z",
       "evidence": [
         {
-          "claim": "Suppliers have been told to cut component production for the iPhone 18 Pro due to low demand.",
-          "source": "64d941c834292ce6"
+          "claim": "Apple removed a feature from iOS 27 that allowed changing multiple passwords with an AI agent.",
+          "source": "8017f407b4d62059"
         },
         {
-          "claim": "Apple has been more conservative with its component orders since early September.",
-          "source": "64d941c834292ce6"
+          "claim": "The feature was available in the respective betas of iPadOS 27 and macOS 27.",
+          "source": "8017f407b4d62059"
         },
         {
-          "claim": "The iPhone Duo is the most high-profile model launched in 2026, especially for the September and October buying crowd.",
-          "source": "64d941c834292ce6"
+          "claim": "Apple's official website still shows the feature but warns it will be available later.",
+          "source": "8017f407b4d62059"
         },
         {
-          "claim": "Whole-unit assembly orders for the iPhone 18 Pro have not been cut.",
-          "source": "64d941c834292ce6"
+          "claim": "The feature's absence might be due to the complexity of automating password changes across different websites.",
+          "source": "8017f407b4d62059"
         }
       ],
       "sources": [
         {
-          "name": "AppleInsider",
-          "link": "https://appleinsider.com/articles/26/10/09/right-on-schedule-sources-claim-iphone-18-pro-orders-have-been-cut"
+          "name": "Applesfera",
+          "link": "https://www.applesfera.com/seguridad/apple-ha-quitado-mejores-funciones-ios-27-todavia-no-sabemos-cuando-volvera"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_33dcfb6d534f354b",
+      "id": "evt_130309f2a38089ac",
       "title": {
-        "es": "La IA se vuelve muy eficaz para enredar a cibercriminales",
-        "en": "AI is getting really good at messing with cybercriminals"
+        "es": "El Apple TV 4K estrenaría chip A19 y un mando más fácil de encontrar",
+        "en": "Apple TV 4K getting an A19 chip and a potentially easier-to-find remote"
       },
       "body": {
-        "es": "Iniciativas contra el cibercrimen están usando cada vez más IA para engañar a estafadores, haciéndoles creer que hablan con víctimas reales a través de bots convincentes. La táctica busca desperdiciar el tiempo y los recursos de los atacantes como forma de disuasión.",
-        "en": "Anti-cybercrime initiatives are increasingly using AI to trick scammers into believing they're talking to real victims through convincing bots. The tactic aims to waste attackers' time and resources as a form of deterrence."
+        "es": "Según Mark Gurman de Bloomberg, el nuevo Apple TV 4K llevaría un chip A19 estándar, una mejora notable frente al A15 del modelo actual de 2022. Apple también habría probado un Siri Remote renovado con altavoz para facilitar encontrarlo entre los cojines del sofá.",
+        "en": "According to Bloomberg's Mark Gurman, the new Apple TV 4K would be powered by a standard A19 chip, a notable upgrade from the A15 in the current 2022 model. Apple has reportedly also tested a refreshed Siri Remote with a speaker to make it easier to find between couch cushions."
       },
-      "newsId": "evt_33dcfb6d534f354b",
-      "storyKey": "evt_33dcfb6d534f354b",
-      "topic": "tech",
-      "source": "Wired",
-      "link": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals",
-      "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/191:100/w_1280,c_limit/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
+      "newsId": "evt_130309f2a38089ac",
+      "storyKey": "evt_130309f2a38089ac",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/10/11/apple-tv-4k-a19-chip-easier-to-find-remote",
+      "image": "https://images.macrumors.com/article-new/2024/06/apple-tv-4k-new-orange.jpg",
       "score": 7.65,
-      "publishedAt": "2026-10-10T12:00:00.000Z",
+      "publishedAt": "2026-10-11T15:08:50.000Z",
       "evidence": [
         {
-          "claim": "Anti-cybercrime initiatives are increasingly using AI to trick cybercriminals into talking to lifelike bots.",
-          "source": "1776944049c6373e"
+          "claim": "Apple's new Apple TV 4K will be powered by a standard A19 chip.",
+          "source": "f352db73d5ff02a9"
+        },
+        {
+          "claim": "Apple has tested a refreshed Siri Remote with a speaker to make it easier to find between couch cushions.",
+          "source": "f352db73d5ff02a9"
         }
       ],
       "sources": [
         {
-          "name": "Wired",
-          "link": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals"
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/10/11/apple-tv-4k-a19-chip-easier-to-find-remote"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_e090c8cf38dababd",
+      "id": "evt_62b620e61867241c",
       "title": {
-        "es": "Vapor 5 llega como reescritura completa con concurrencia estructurada",
-        "en": "Vapor 5 arrives as a complete rewrite with structured concurrency"
+        "es": "El equipo de Deno se incorpora a Cloudflare",
+        "en": "Deno team is joining Cloudflare"
       },
       "body": {
-        "es": "Vapor 5 elimina seis años de deuda técnica y añade soporte completo de concurrencia estructurada, despidiéndose de los EventLoopFutures. El framework puede aprovechar el nuevo Swift HTTP Server para centrarse en ser un framework web, apoyándose en las mejoras de Swift 6.4 de septiembre, que trajo mayor interoperabilidad y soporte de plataformas.",
-        "en": "Vapor 5 removes six years of tech debt and adds full structured concurrency support, saying goodbye to EventLoopFutures. The framework can now rely on the new Swift HTTP Server to focus on being a web framework, building on September's Swift 6.4 improvements in interoperability and platform support."
+        "es": "El equipo de Deno se une a Cloudflare con el objetivo de simplificar radicalmente el autoalojamiento de Workers y Durable Objects, permitiendo a los desarrolladores usar las mismas primitivas en más entornos. El movimiento sugiere una mayor convergencia entre runtimes de JavaScript y la infraestructura edge de Cloudflare.",
+        "en": "The Deno team is joining Cloudflare with the goal of radically simplifying self-hosting of Workers and Durable Objects, letting developers use the same primitives in more places. The move suggests deeper convergence between JavaScript runtimes and Cloudflare's edge infrastructure."
       },
-      "newsId": "evt_e090c8cf38dababd",
-      "storyKey": "evt_e090c8cf38dababd",
+      "newsId": "evt_62b620e61867241c",
+      "storyKey": "evt_62b620e61867241c",
       "topic": "tech",
-      "source": "Swift.org Blog",
-      "link": "https://swift.org/blog/whats-new-in-swift-september-2026",
-      "image": null,
+      "source": "Cloudflare Blog",
+      "link": "https://blog.cloudflare.com/deno-joins-cloudflare",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M4EN399YDFNQMGM5VG6EHTNS.01M4EN39V1RNGJ3FBS356QEAB5.png",
       "score": 7.65,
-      "publishedAt": "2026-10-08T17:00:00.000Z",
+      "publishedAt": "2026-10-09T12:50:00.000Z",
       "evidence": [
         {
-          "claim": "Vapor 5 is a complete rewrite that removes 6 years of tech debt and adds full structured concurrency support.",
-          "source": "2f7335281ba442d2"
-        },
-        {
-          "claim": "Swift 6.4 release in September brought deeper interoperability, stronger platform support, and easier everyday code.",
-          "source": "2f7335281ba442d2"
-        },
-        {
-          "claim": "Vapor 5 can make use of the new Swift HTTP Server to handle the actual HTTP parts and concentrate on being a great web framework.",
-          "source": "2f7335281ba442d2"
-        },
-        {
-          "claim": "Vapor has matured into a comprehensive framework for building backends and APIs in Swift.",
-          "source": "2f7335281ba442d2"
-        },
-        {
-          "claim": "Vapor 5 says goodbye to EventLoopFutures.",
-          "source": "2f7335281ba442d2"
+          "claim": "The Deno team is joining Cloudflare.",
+          "source": "e46689a796520beb"
         }
       ],
       "sources": [
         {
-          "name": "Swift.org Blog",
-          "link": "https://swift.org/blog/whats-new-in-swift-september-2026"
+          "name": "Cloudflare Blog",
+          "link": "https://blog.cloudflare.com/deno-joins-cloudflare"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_9161adb99c8aebcf",
+      "title": {
+        "es": "Apple solo empezó a sugerir activamente la actualización a iOS 27 hace tres días",
+        "en": "Apple only started actively suggesting the iOS 27 upgrade three days ago"
+      },
+      "body": {
+        "es": "Hasta hace poco, los usuarios de iOS 26 veían la última versión de iOS 26 como la actualización sugerida por defecto en Ajustes, y tenían que desplazarse hacia abajo para encontrar iOS 27, algo que la mayoría no hace. Ahora iOS 27.0.1 aparece como la opción destacada, relegando iOS 26.7.1 a una sección secundaria, lo que sugiere que Apple estaba retrasando deliberadamente la adopción para controlar el acceso a Siri AI mientras pulía la estabilidad del sistema.",
+        "en": "Until recently, users on iOS 26 saw the latest iOS 26 version as the default suggested update in Settings, requiring a scroll down to find iOS 27 that most users never make. Now iOS 27.0.1 appears as the prominent update, relegating iOS 26.7.1 to a smaller section, suggesting Apple was deliberately slow-rolling adoption to gate access to Siri AI while polishing system stability."
+      },
+      "newsId": "evt_9161adb99c8aebcf",
+      "storyKey": "evt_9161adb99c8aebcf",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://www.macrumors.com/2026/10/08/apple-now-pushing-ios-27",
+      "image": "https://images.macrumors.com/t/PeEXCl2WWdKyHqei1lMVhyyE0_Y=/2500x/article-new/2026/06/iOS-27-Feature-Dark.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-11T19:02:38.000Z",
+      "evidence": [
+        {
+          "claim": "Apple is now suggesting iOS 27 to users still running iOS 26.",
+          "source": "699040ba8b5574cc"
+        },
+        {
+          "claim": "Until Thursday, the default suggested update for users on iOS 26.x was to remain on the latest version of iOS 26.",
+          "source": "699040ba8b5574cc"
+        },
+        {
+          "claim": "Apple is slow-rolling iOS 27 updates to gate access to Siri AI.",
+          "source": "699040ba8b5574cc"
+        },
+        {
+          "claim": "iOS 27 is remarkably stable with a focus on bug fixes and performance updates.",
+          "source": "699040ba8b5574cc"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daring Fireball",
+          "link": "https://www.macrumors.com/2026/10/08/apple-now-pushing-ios-27"
         }
       ],
       "what_changed": []
@@ -338,173 +342,169 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_9ae202140080fbb4",
+      "id": "evt_fedfcbc9b849abdb",
       "title": {
-        "es": "La flota nuclear de EE.UU. apuesta por la IA",
-        "en": "The U.S. nuclear plant fleet is leaning into AI"
+        "es": "Los nuevos equipos Pro pasan a 30 días de retención por defecto",
+        "en": "New Pro teams now default to 30-day deployment retention"
       },
       "text": {
-        "es": "Asistentes de IA, impulsados por empresas como Atomic Canyon, están ayudando a una fuerza laboral especializada en declive a mantener plantas nucleares envejecidas en Estados Unidos.",
-        "en": "AI assistants, driven by companies like Atomic Canyon, are helping a shrinking specialized workforce maintain aging nuclear power plants in the United States."
+        "es": "Los nuevos equipos Pro tendrán por defecto un periodo de retención de despliegues de 30 días, lo que limita el historial antiguo y su coste de almacenamiento ($0.10 por GB-mes), aunque se puede ampliar en la configuración del equipo. Los despliegues eliminados bajo esta política no se pueden restaurar ni usar para rollback.",
+        "en": "New Pro teams now default to a 30-day deployment retention period, limiting older history and its storage cost ($0.10 per GB-month), though teams can choose a longer period in settings. Deployments deleted under this policy cannot be restored or used for rollback."
       },
-      "newsId": "evt_9ae202140080fbb4",
-      "storyKey": "evt_9ae202140080fbb4",
-      "topic": "ai_general",
-      "source": "IEEE Spectrum AI",
-      "link": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant",
-      "image": "https://spectrum.ieee.org/media-library/three-men-smiling-together-in-front-of-an-exascale-supercomputer.jpg?coordinates=0%2C16%2C0%2C234&height=600&id=68384674&width=1200",
+      "newsId": "evt_fedfcbc9b849abdb",
+      "storyKey": "evt_fedfcbc9b849abdb",
+      "topic": "ai_software",
+      "source": "Vercel AI",
+      "link": "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention",
+      "image": "https://vercel.com/api/dynamic-og?format=changelog&title=New%20Pro%20teams%20now%20default%20to%2030-day%20deployment%20retention",
       "score": 7.65,
-      "publishedAt": "2026-10-08T14:28:17.000Z",
+      "publishedAt": "2026-10-09T18:00:00.000Z",
       "evidence": [
         {
-          "claim": "AI assistants are being integrated into U.S. nuclear power plants to assist a shrinking specialized workforce.",
-          "source": "d7c1b4114a54877d"
+          "claim": "New Pro teams now default to a 30-day deployment retention period.",
+          "source": "c8dcb6de497682ba"
         },
         {
-          "claim": "Atomic Canyon is one of the leading companies integrating AI into the nuclear industry.",
-          "source": "d7c1b4114a54877d"
+          "claim": "Shorter retention keeps recent history available while limiting older history and its storage costs.",
+          "source": "c8dcb6de497682ba"
+        },
+        {
+          "claim": "You can choose a longer retention period in your team's settings when you need more history for inspection or rollback.",
+          "source": "c8dcb6de497682ba"
+        },
+        {
+          "claim": "Deployment Storage and Functions Storage each cost $0.10 per GB-month.",
+          "source": "c8dcb6de497682ba"
+        },
+        {
+          "claim": "Older deployments may be deleted under your retention policy. Deleted deployments cannot be restored or used for rollback.",
+          "source": "c8dcb6de497682ba"
         }
       ],
       "sources": [
         {
-          "name": "IEEE Spectrum AI",
-          "link": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant"
+          "name": "Vercel AI",
+          "link": "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_ed835e709b6abc40",
+      "id": "evt_db368dfd60057331",
       "title": {
-        "es": "Hacia una IA industrial autónoma más segura",
-        "en": "Building a safer path to autonomous industrial AI"
+        "es": "X vuelve a marcar la diferencia frente a otras redes sociales",
+        "en": "X once again marks the spot among social networks"
       },
       "text": {
-        "es": "AVEVA plantea que avances en modelos fundacionales e IA agéntica permiten automatizar tareas industriales complejas, pero insiste en que el despliegue responsable —seguridad, eficiencia y supervisión humana— debe ser central en entornos de misión crítica.",
-        "en": "AVEVA argues that advances in foundation models and agentic AI enable automation of complex industrial tasks, but insists responsible deployment—security, efficiency and human oversight—must be central in mission-critical environments."
+        "es": "Según un análisis, X ha \"des-muskificado\" silenciosamente su algoritmo, reduciendo la visibilidad de los propios tuits de Elon Musk, y su cultura se describe como sorprendentemente amigable. El autor sostiene que ve más contenido interesante en X que en Threads, Bluesky y Mastodon juntos, y señala que ejecutivos de Apple como Tim Cook o Greg Joswiak solo publican regularmente en esa plataforma.",
+        "en": "According to one analysis, X has quietly de-Musked its algorithm, reducing the visibility of Elon Musk's own tweets, and its culture is described as surprisingly friendly. The author claims to see more interesting content on X than on Threads, Bluesky and Mastodon combined, and notes that Apple executives like Tim Cook and Greg Joswiak post regularly only on that platform."
       },
-      "newsId": "evt_ed835e709b6abc40",
-      "storyKey": "evt_ed835e709b6abc40",
-      "topic": "ai_general",
-      "source": "MIT Tech Review AI",
-      "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR-AVEVA-podcast-social-card-v2-1.png?resize=1200,600",
+      "newsId": "evt_db368dfd60057331",
+      "storyKey": "evt_db368dfd60057331",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://daringfireball.net/2026/10/x_once_again_marks_the_spot",
+      "image": "https://daringfireball.net/graphics/df-wide-card.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-11T21:05:33.000Z",
+      "evidence": [
+        {
+          "claim": "X has de-Musked its algorithm, reducing the visibility of Elon Musk's own tweets.",
+          "source": "ca08a19e3f7761b4"
+        },
+        {
+          "claim": "The culture on X is described as remarkably friendly and inclusive, contrasting with other platforms.",
+          "source": "ca08a19e3f7761b4"
+        },
+        {
+          "claim": "X is the only platform where Apple executives post regularly and exclusively.",
+          "source": "ca08a19e3f7761b4"
+        },
+        {
+          "claim": "There is more interesting content on X compared to other platforms like Threads, Bluesky, and Mastodon.",
+          "source": "ca08a19e3f7761b4"
+        },
+        {
+          "claim": "X has a larger user base compared to Bluesky and Mastodon.",
+          "source": "ca08a19e3f7761b4"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daring Fireball",
+          "link": "https://daringfireball.net/2026/10/x_once_again_marks_the_spot"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_f01a534135750a4b",
+      "title": {
+        "es": "macOS 27 mejora iPhone Mirroring con tres actualizaciones clave",
+        "en": "macOS 27 brings three key upgrades to iPhone Mirroring"
+      },
+      "text": {
+        "es": "iOS 27 y macOS 27 Golden Gate, lanzados el mes anterior, incorporaron tres mejoras clave a la función iPhone Mirroring, que permite controlar el iPhone desde el Mac.",
+        "en": "iOS 27 and macOS 27 Golden Gate, released the previous month, brought three key updates to the iPhone Mirroring feature that lets users control their iPhone from the Mac."
+      },
+      "newsId": "evt_f01a534135750a4b",
+      "storyKey": "evt_f01a534135750a4b",
+      "topic": "apple",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/10/11/macos-27-brings-three-key-upgrades-to-iphone-mirroring",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/iphone-mirroring-macOS-27.jpg?quality=82&strip=all&w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-10-11T16:54:26.000Z",
+      "evidence": [
+        {
+          "claim": "iOS 27 and macOS 27 Golden Gate were released last month.",
+          "source": "5c96dade78c575ca"
+        },
+        {
+          "claim": "Three key updates were brought to iPhone Mirroring.",
+          "source": "5c96dade78c575ca"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/10/11/macos-27-brings-three-key-upgrades-to-iphone-mirroring"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_6a429efaa1bb0da0",
+      "title": {
+        "es": "Por qué AlphaFold no resolvió el plegamiento de proteínas",
+        "en": "Why AlphaFold didn't solve protein folding"
+      },
+      "text": {
+        "es": "Investigadores de Google DeepMind y Biohub discuten que escalar cómputo y datos no basta para resolver todos los problemas biológicos, y que encontrar leyes de escalado específicas requiere trabajo propio. Argumentan que curar todas las enfermedades exige pensar en aceleraciones de 10x a 100x en el descubrimiento de fármacos, no en mejoras incrementales del 10%.",
+        "en": "Researchers from Google DeepMind and Biohub argue that scaling compute and data alone isn't enough to solve every biology problem, and that finding specific scaling laws requires dedicated work. They contend that curing all disease requires thinking in terms of 10x–100x acceleration in drug discovery, not incremental 10% improvements."
+      },
+      "newsId": "evt_6a429efaa1bb0da0",
+      "storyKey": "evt_6a429efaa1bb0da0",
+      "topic": "ai_software",
+      "source": "Latent Space",
+      "link": "https://www.latent.space/p/biohub-deepmind",
+      "image": "https://substackcdn.com/image/fetch/$s_!em3X!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F219666029%2F99db8b7b-8501-448d-a028-45bd9d24fd84%2Ftranscoded-1791592160.png",
       "score": 8.35,
-      "publishedAt": "2026-10-08T08:17:32.000Z",
+      "publishedAt": "2026-10-10T00:31:26.000Z",
       "evidence": [
         {
-          "claim": "Industrial AI is entering a new phase with advances in foundation models, physical AI, and agentic AI.",
-          "source": "6ada87b03dec4760"
+          "claim": "Scaling compute and data alone won't solve biology problems.",
+          "source": "2c4d0629343979ff"
         },
         {
-          "claim": "The challenge of responsible deployment is central to the next wave of industrial automation.",
-          "source": "6ada87b03dec4760"
-        },
-        {
-          "claim": "AVEVA's framework for responsible AI emphasizes security, efficiency, and human safety and oversight.",
-          "source": "6ada87b03dec4760"
-        },
-        {
-          "claim": "Sustainability is another part of the equation, with AI helping manage complex power systems as renewable generation grows.",
-          "source": "6ada87b03dec4760"
-        },
-        {
-          "claim": "AVEVA is working on incorporating these new and very powerful AI technologies in environments where customers have mission-critical operations, human safety is a significant factor.",
-          "source": "6ada87b03dec4760"
+          "claim": "Curing all disease requires 10x breakthroughs rather than incremental improvements.",
+          "source": "2c4d0629343979ff"
         }
       ],
       "sources": [
         {
-          "name": "MIT Tech Review AI",
-          "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_4a5044e65086bdc6",
-      "title": {
-        "es": "Nuevos controles en Copilot para JetBrains",
-        "en": "New controls arrive in Copilot for JetBrains"
-      },
-      "text": {
-        "es": "GitHub actualizó Copilot para JetBrains con más control sobre modelos por defecto y servidores MCP, diagnósticos más claros, y mejoras en navegación de chat y controles de cuenta.",
-        "en": "GitHub updated Copilot for JetBrains with more control over default models and MCP servers, clearer diagnostics, and improvements to chat navigation and account controls."
-      },
-      "newsId": "evt_4a5044e65086bdc6",
-      "storyKey": "evt_4a5044e65086bdc6",
-      "topic": "ai_software",
-      "source": "GitHub Changelog",
-      "link": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-10T18:53:39.000Z",
-      "evidence": [
-        {
-          "claim": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains.",
-          "source": "1d667270d2c1b628"
-        },
-        {
-          "claim": "It also makes diagnostics easier to address.",
-          "source": "1d667270d2c1b628"
-        },
-        {
-          "claim": "Improvements include chat navigation and account controls.",
-          "source": "1d667270d2c1b628"
-        }
-      ],
-      "sources": [
-        {
-          "name": "GitHub Changelog",
-          "link": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_5b8e4503e331c3cd",
-      "title": {
-        "es": "Progreso rápido en IA, pero no hacia la superinteligencia general",
-        "en": "Rapid AI progress, but not toward general superintelligence"
-      },
-      "text": {
-        "es": "Un ensayo argumenta que el coste de la inteligencia de los modelos caerá casi exponencialmente y que mejorar los entornos de aprendizaje por refuerzo es fruta madura a escala industrial, aunque esto no implique alcanzar una superinteligencia general.",
-        "en": "An essay argues the effective cost of model intelligence will decline near-exponentially and that improving RL environment quality is industrial-scale low-hanging fruit, though this does not imply reaching general superintelligence."
-      },
-      "newsId": "evt_5b8e4503e331c3cd",
-      "storyKey": "evt_5b8e4503e331c3cd",
-      "topic": "ai_software",
-      "source": "Interconnects",
-      "link": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
-      "image": "https://substackcdn.com/image/fetch/$s_!8EAF!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe890df0-8dfe-4dfb-9fb9-659d721e2d76_3182x1790.png",
-      "score": 7.65,
-      "publishedAt": "2026-10-09T21:33:47.000Z",
-      "evidence": [
-        {
-          "claim": "Researchers are seeing a massive acceleration in the infra and engineering capabilities of the models.",
-          "source": "6326e9a998003bd3"
-        },
-        {
-          "claim": "The cost of model intelligence is expected to decline near-exponentially over the coming years.",
-          "source": "6326e9a998003bd3"
-        },
-        {
-          "claim": "Improving the general quality of RL environments is an industrial-scale piece of low-hanging fruit.",
-          "source": "6326e9a998003bd3"
-        },
-        {
-          "claim": "The flexibility of the GPU should be kind during the time of rapid efficiency gains.",
-          "source": "6326e9a998003bd3"
-        },
-        {
-          "claim": "Meta’s Muse agent is an early indicator of the industry moving towards more agent-oriented experiences.",
-          "source": "6326e9a998003bd3"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Interconnects",
-          "link": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards"
+          "name": "Latent Space",
+          "link": "https://www.latent.space/p/biohub-deepmind"
         }
       ],
       "what_changed": []
@@ -512,97 +512,97 @@
   ],
   "trending_repos": [
     {
-      "id": "BerriAI/litellm",
-      "repoKey": "BerriAI/litellm",
-      "name": "litellm",
-      "full_name": "BerriAI/litellm",
-      "link": "https://github.com/BerriAI/litellm",
-      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
-      "language": "Python",
-      "stars": 60903,
-      "stars_today": 272,
-      "stars_per_day_estimate": 279.005849805555,
+      "id": "yetone/magpie",
+      "repoKey": "yetone/magpie",
+      "name": "magpie",
+      "full_name": "yetone/magpie",
+      "link": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "language": "Go",
+      "stars": 9147,
+      "stars_today": 602,
+      "stars_per_day_estimate": 607.3702000004088,
       "trend_basis": "observed_about_24h",
-      "trend_score": 11.129245141445926,
+      "trend_score": 12.248665727483369,
       "default_branch": "main",
-      "created_at": "2023-07-27T00:09:52Z",
-      "pushed_at": "2026-10-10T22:22:22Z",
+      "created_at": "2026-09-23T16:22:35Z",
+      "pushed_at": "2026-10-11T22:09:07Z",
       "why_it_matters": {
-        "es": "LiteLLM ofrece una interfaz unificada en formato OpenAI para más de 100 proveedores de LLM, con seguimiento de costes, guardrails y balanceo de carga, simplificando la integración multi-proveedor para equipos de desarrollo.",
-        "en": "LiteLLM provides a unified OpenAI-format interface for 100+ LLM providers, with cost tracking, guardrails and load balancing, simplifying multi-provider integration for development teams."
+        "es": "Magpie ofrece una pasarela local única para usar distintos agentes de código (Claude Code, Codex, Gemini CLI, OpenCode) con distintos proveedores de modelos, rotando automáticamente de cuenta cuando se agota una cuota, algo útil para desarrolladores que combinan varias suscripciones de IA.",
+        "en": "Magpie provides a single local gateway to run different coding agents (Claude Code, Codex, Gemini CLI, OpenCode) against different model providers, automatically rotating accounts when a quota runs out—useful for developers juggling multiple AI subscriptions."
       }
     },
     {
-      "id": "LosaLosSantos/aurelio-finance",
-      "repoKey": "LosaLosSantos/aurelio-finance",
-      "name": "aurelio-finance",
-      "full_name": "LosaLosSantos/aurelio-finance",
-      "link": "https://github.com/LosaLosSantos/aurelio-finance",
-      "description": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
-      "language": "Python",
-      "stars": 2093,
-      "stars_today": 593,
-      "stars_per_day_estimate": 608.2737828481401,
-      "trend_basis": "observed_about_24h",
-      "trend_score": 12.16449920622549,
-      "default_branch": "main",
-      "created_at": "2026-10-06T20:14:19Z",
-      "pushed_at": "2026-10-10T12:00:26Z",
-      "why_it_matters": {
-        "es": "Aurelio es una app de finanzas personales que corre localmente con un asesor de IA opcional vía OpenRouter, manteniendo los datos del usuario en su propia máquina en lugar de la nube.",
-        "en": "Aurelio is a personal finance app that runs locally with an optional AI advisor via OpenRouter, keeping user data on their own machine instead of in the cloud."
-      }
-    },
-    {
-      "id": "nano-muse/nanoMuse",
-      "repoKey": "nano-muse/nanoMuse",
-      "name": "nanoMuse",
-      "full_name": "nano-muse/nanoMuse",
-      "link": "https://github.com/nano-muse/nanoMuse",
-      "description": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone's screen and your computer as its hands.",
-      "language": "Swift",
-      "stars": 770,
-      "stars_today": 253,
-      "stars_per_day_estimate": 259.51647059119637,
-      "trend_basis": "observed_about_24h",
-      "trend_score": 10.974454426902977,
-      "default_branch": "main",
-      "created_at": "2026-09-23T06:13:06Z",
-      "pushed_at": "2026-10-10T16:17:16Z",
-      "why_it_matters": {
-        "es": "nanoMuse es un agente personal de código abierto multiplataforma (incluyendo Swift para iOS/iPad) inspirado en Muse de Meta, que ejecuta tareas de forma autónoma y se puede alojar en un relay propio para mantener la privacidad.",
-        "en": "nanoMuse is an open-source cross-platform personal agent (including Swift for iOS/iPad) inspired by Meta's Muse, that executes tasks autonomously and can be self-hosted via its own relay to preserve privacy."
-      }
-    },
-    {
-      "id": "Gentleman-Programming/gentle-shell",
-      "repoKey": "Gentleman-Programming/gentle-shell",
-      "name": "gentle-shell",
-      "full_name": "Gentleman-Programming/gentle-shell",
-      "link": "https://github.com/Gentleman-Programming/gentle-shell",
-      "description": "Gentle Shell is a Pi-native coding-agent harness for controlled development with Organic Driven Development, optional SDD/OpenSpec, subagents, TDD evidence, review guardrails, skills, and memory integrations.",
+      "id": "rociiu/talorys",
+      "repoKey": "rociiu/talorys",
+      "name": "talorys",
+      "full_name": "rociiu/talorys",
+      "link": "https://github.com/rociiu/talorys",
+      "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
       "language": "TypeScript",
-      "stars": 1271,
-      "stars_today": 14,
-      "stars_per_day_estimate": 14.360595210580035,
+      "stars": 738,
+      "stars_today": 417,
+      "stars_per_day_estimate": 420.7198893690539,
       "trend_basis": "observed_about_24h",
-      "trend_score": 6.9404715139009525,
+      "trend_score": 11.625445749487875,
       "default_branch": "main",
-      "created_at": "2026-05-10T10:11:33Z",
-      "pushed_at": "2026-10-10T22:17:53Z",
+      "created_at": "2026-10-10T09:46:56Z",
+      "pushed_at": "2026-10-11T10:48:19Z",
       "why_it_matters": {
-        "es": "Gentle Shell es un entorno de trabajo para agentes de código construido sobre Pi, que añade orquestación, revisión de diffs y un flujo de desarrollo guiado orgánicamente para mantener el control del desarrollador sobre cambios automatizados.",
-        "en": "Gentle Shell is a coding-agent workspace built for Pi that adds orchestration, diff review, and an organic driven development workflow to keep developers in control of automated changes."
+        "es": "Talorys es un asistente de IA personal de código abierto que se despliega con un solo comando dentro de la propia cuenta de Cloudflare del usuario, sin servidores ni telemetría de terceros, ofreciendo memoria, tareas y recordatorios programados para un único usuario.",
+        "en": "Talorys is an open-source personal AI assistant that deploys with a single command inside the user's own Cloudflare account, with no third-party servers or telemetry, offering memory, tasks and scheduled reminders for a single user."
+      }
+    },
+    {
+      "id": "iamlukethedev/Herald-OS",
+      "repoKey": "iamlukethedev/Herald-OS",
+      "name": "Herald-OS",
+      "full_name": "iamlukethedev/Herald-OS",
+      "link": "https://github.com/iamlukethedev/Herald-OS",
+      "description": "An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.",
+      "language": "TypeScript",
+      "stars": 425,
+      "stars_today": 27,
+      "stars_per_day_estimate": 27.240856146197732,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 7.52153956423704,
+      "default_branch": "main",
+      "created_at": "2026-10-06T20:37:44Z",
+      "pushed_at": "2026-10-10T10:23:17Z",
+      "why_it_matters": {
+        "es": "Herald OS es un sistema operativo construido en torno a un agente de IA (Hermes) que abre aplicaciones, organiza archivos y ejecuta rutinas programadas bajo un sistema de permisos controlado por el usuario, ilustrando hacia dónde evoluciona la interacción agente-sistema operativo.",
+        "en": "Herald OS is an operating system built around an AI agent (Hermes) that opens apps, organizes files and runs scheduled routines under a user-controlled permission system, illustrating where agent-OS interaction is heading."
+      }
+    },
+    {
+      "id": "abacusai/abacusai-bot",
+      "repoKey": "abacusai/abacusai-bot",
+      "name": "abacusai-bot",
+      "full_name": "abacusai/abacusai-bot",
+      "link": "https://github.com/abacusai/abacusai-bot",
+      "description": "100% free, open-source personal agents for your messaging apps, tools, and services",
+      "language": "TypeScript",
+      "stars": 150,
+      "stars_today": 18,
+      "stars_per_day_estimate": 18.160570764131823,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 7.2600559980235895,
+      "default_branch": "main",
+      "created_at": "2026-09-11T07:04:16Z",
+      "pushed_at": "2026-10-11T22:10:02Z",
+      "why_it_matters": {
+        "es": "AbacusAI Bot permite crear agentes personales gratuitos y de código abierto que operan con permisos completos a través de WhatsApp, Telegram, Discord y servicios conectados como Gmail o GitHub, incluyendo tareas de programación, aunque sin el modo de aprobación de las sesiones supervisadas.",
+        "en": "AbacusAI Bot enables free, open-source personal agents that run with full tool permissions across WhatsApp, Telegram, Discord and connected services like Gmail or GitHub, including coding tasks, though without the approval mode used in supervised sessions."
       }
     }
   ],
   "developer_signals": [],
   "editorial_stats": {
     "topics": {
-      "apple": 2,
-      "ai_software": 2,
+      "apple": 4,
+      "ai_software": 1,
       "ai_general": 0,
-      "tech": 3
+      "tech": 2
     }
   }
 }
