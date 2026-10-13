@@ -1,340 +1,324 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-10-12",
-  "date": "2026-10-12",
+  "edition_id": "wmt-2026-10-13",
+  "date": "2026-10-13",
   "daily_summary": {
-    "es": "Apple domina la jornada con filtraciones previas al evento del 13 de octubre (HomeView, Apple TV 4K con chip A19/A18 y HomePod mini), mientras un informe advierte que los sistemas de IA ya pueden ejecutar ataques físicos contra infraestructuras industriales.",
-    "en": "Apple dominates the day with leaks ahead of the October 13 event (HomeView, Apple TV 4K with A19/A18 chip and HomePod mini), while a report warns that AI systems can already carry out physical attacks on industrial infrastructure."
+    "es": "Meta lanza su modelo frontera Muse Wonder mientras Apple prepara dos eventos de hardware este mes, incluido el evento 'Welcome home' del 13 de octubre.",
+    "en": "Meta launches its frontier model Muse Wonder while Apple preps two hardware events this month, including the 'Welcome home' event on October 13."
   },
   "topic_summaries": {
     "apple": {
-      "es": "Múltiples filtraciones apuntan al evento de Apple del 13 de octubre: HomeView se presentaría ese día con chip A18 y Siri AI pero no llegaría hasta mediados de noviembre, el Apple TV 4K estrenaría un chip A19 y un mando rediseñado con altavoz, y el HomePod mini se renovaría con Siri AI. Por separado, Apple retiró silenciosamente de iOS 27 una función de cambio de contraseñas con IA que estaba en las betas, sin confirmar cuándo regresará, y ha comenzado a empujar activamente la actualización a iOS 27 tras semanas de lanzamiento discreto.",
-      "en": "Multiple leaks point to Apple's October 13 event: HomeView would be unveiled that day with an A18 chip and Siri AI but not ship until mid-November, Apple TV 4K would get a new A19 chip and a redesigned remote with a speaker, and HomePod mini would be refreshed with Siri AI. Separately, Apple quietly removed an AI-powered password-changing feature from iOS 27 that had been in the betas, with no confirmed return date, and has now begun actively pushing the iOS 27 update after weeks of a soft rollout."
+      "es": "Apple celebra hoy, 13 de octubre, su evento 'Welcome home', centrado en el hogar inteligente y con la HomeView como protagonista esperada, además de actualizaciones de HomePod mini y Apple TV 4K. Por separado, Bloomberg informa que Apple planea un evento de dos días en Los Ángeles los días 27 y 28 de octubre para mostrar un iMac con chip M6, un iPad mini con pantalla OLED y un MacBook Pro con M6. También se reporta que las nuevas funciones de IA para cámaras de Apple Home requerirán planes de iCloud+ más caros.",
+      "en": "Apple is holding its 'Welcome home' event today, October 13, focused on the smart home, with the HomeView expected as the centerpiece alongside HomePod mini and Apple TV 4K updates. Separately, Bloomberg reports Apple is planning a two-day Los Angeles showcase on October 27-28 for an M6 iMac, an OLED iPad mini and an M6 MacBook Pro. Apple Home's new AI camera summaries will reportedly require pricier iCloud+ plans."
     },
     "ai_software": {
-      "es": "Un informe advierte que los agentes de IA ya pueden explotar sistemas de control industrial (OT) con precisión de ingeniero, moviendo brazos robóticos y comprometiendo pasarelas SCADA para acceder a decenas de dispositivos conectados, superando la preparación defensiva actual. En paralelo, investigadores de Google DeepMind y Biohub discuten por qué AlphaFold no resolvió el plegamiento de proteínas y por qué curar enfermedades requiere saltos de 10x, no mejoras incrementales.",
-      "en": "A report warns that AI agents can already exploit industrial control (OT) systems with engineer-level precision, moving robotic arms and compromising SCADA gateways to reach dozens of connected devices, outpacing current defensive readiness. Separately, researchers from Google DeepMind and Biohub discuss why AlphaFold didn't solve protein folding and why curing disease requires 10x breakthroughs rather than incremental gains."
+      "es": "Meta lanzó Muse Wonder y Muse Wonder Full, sus modelos más grandes hasta ahora, ya disponibles para suscriptores de Muse Code, con ventana de contexto de 1M de tokens y capacidades agénticas de codificación. En paralelo, un nuevo scaffold llamado SELFCOMPACT deja que el propio modelo decida cuándo resumir su contexto, mejorando hasta 18.1 puntos en matemáticas con menor coste por consulta.",
+      "en": "Meta released Muse Wonder and Muse Wonder Full, its largest models yet, now available to Muse Code subscribers, with a 1M-token context window and agentic coding capabilities. Separately, a new scaffold called SELFCOMPACT lets the model itself decide when to summarize its context, improving by up to 18.1 points on math at lower per-query cost."
     },
     "ai_general": {
-      "es": "",
-      "en": ""
+      "es": "El boletín Import AI 476 repasa nuevos benchmarks como Humanity's Sixth Sense y TasteVal, el modelo Beam de Reflection AI enfocado en eficiencia de tokens, y el anuncio de Mistral de que lanzará Mistral Large 4 en código abierto a finales de mes.",
+      "en": "The Import AI 476 newsletter covers new benchmarks like Humanity's Sixth Sense and TasteVal, Reflection AI's token-efficient Beam model, and Mistral's announcement that it plans to release the open-weight Mistral Large 4 by the end of the month."
     },
     "tech": {
-      "es": "El equipo de Deno se incorpora a Cloudflare para simplificar el autoalojamiento de Workers y Durable Objects, y TechCrunch Disrupt 2026 centra su programación en cómo construir empresas duraderas en la era de la IA.",
-      "en": "The Deno team is joining Cloudflare to simplify self-hosting Workers and Durable Objects, and TechCrunch Disrupt 2026 frames its programming around how to build enduring companies in the AI era."
+      "es": "Epic Games estaría virando hacia un modelo de desarrollo de videojuegos 'con IA primero', lo que habría retrasado su shooter de Marvel/Star Wars. Además, Cloudflare detalla cómo sus Transformers permiten filtrar, reestructurar y redactar registros antes de exportarlos vía Logpush.",
+      "en": "Epic Games reportedly is pivoting to an 'AI-first' game development model, which has reportedly delayed its Marvel/Star Wars shooter. Separately, Cloudflare details how its Transformers let users filter, reshape and redact logs before exporting them via Logpush."
     }
   },
   "summary": {
     "apple": {
-      "es": "Múltiples filtraciones apuntan al evento de Apple del 13 de octubre: HomeView se presentaría ese día con chip A18 y Siri AI pero no llegaría hasta mediados de noviembre, el Apple TV 4K estrenaría un chip A19 y un mando rediseñado con altavoz, y el HomePod mini se renovaría con Siri AI. Por separado, Apple retiró silenciosamente de iOS 27 una función de cambio de contraseñas con IA que estaba en las betas, sin confirmar cuándo regresará, y ha comenzado a empujar activamente la actualización a iOS 27 tras semanas de lanzamiento discreto.",
-      "en": "Multiple leaks point to Apple's October 13 event: HomeView would be unveiled that day with an A18 chip and Siri AI but not ship until mid-November, Apple TV 4K would get a new A19 chip and a redesigned remote with a speaker, and HomePod mini would be refreshed with Siri AI. Separately, Apple quietly removed an AI-powered password-changing feature from iOS 27 that had been in the betas, with no confirmed return date, and has now begun actively pushing the iOS 27 update after weeks of a soft rollout."
+      "es": "Apple celebra hoy, 13 de octubre, su evento 'Welcome home', centrado en el hogar inteligente y con la HomeView como protagonista esperada, además de actualizaciones de HomePod mini y Apple TV 4K. Por separado, Bloomberg informa que Apple planea un evento de dos días en Los Ángeles los días 27 y 28 de octubre para mostrar un iMac con chip M6, un iPad mini con pantalla OLED y un MacBook Pro con M6. También se reporta que las nuevas funciones de IA para cámaras de Apple Home requerirán planes de iCloud+ más caros.",
+      "en": "Apple is holding its 'Welcome home' event today, October 13, focused on the smart home, with the HomeView expected as the centerpiece alongside HomePod mini and Apple TV 4K updates. Separately, Bloomberg reports Apple is planning a two-day Los Angeles showcase on October 27-28 for an M6 iMac, an OLED iPad mini and an M6 MacBook Pro. Apple Home's new AI camera summaries will reportedly require pricier iCloud+ plans."
     },
     "ai_software": {
-      "es": "Un informe advierte que los agentes de IA ya pueden explotar sistemas de control industrial (OT) con precisión de ingeniero, moviendo brazos robóticos y comprometiendo pasarelas SCADA para acceder a decenas de dispositivos conectados, superando la preparación defensiva actual. En paralelo, investigadores de Google DeepMind y Biohub discuten por qué AlphaFold no resolvió el plegamiento de proteínas y por qué curar enfermedades requiere saltos de 10x, no mejoras incrementales.",
-      "en": "A report warns that AI agents can already exploit industrial control (OT) systems with engineer-level precision, moving robotic arms and compromising SCADA gateways to reach dozens of connected devices, outpacing current defensive readiness. Separately, researchers from Google DeepMind and Biohub discuss why AlphaFold didn't solve protein folding and why curing disease requires 10x breakthroughs rather than incremental gains."
+      "es": "Meta lanzó Muse Wonder y Muse Wonder Full, sus modelos más grandes hasta ahora, ya disponibles para suscriptores de Muse Code, con ventana de contexto de 1M de tokens y capacidades agénticas de codificación. En paralelo, un nuevo scaffold llamado SELFCOMPACT deja que el propio modelo decida cuándo resumir su contexto, mejorando hasta 18.1 puntos en matemáticas con menor coste por consulta.",
+      "en": "Meta released Muse Wonder and Muse Wonder Full, its largest models yet, now available to Muse Code subscribers, with a 1M-token context window and agentic coding capabilities. Separately, a new scaffold called SELFCOMPACT lets the model itself decide when to summarize its context, improving by up to 18.1 points on math at lower per-query cost."
     },
     "ai_general": {
-      "es": "",
-      "en": ""
+      "es": "El boletín Import AI 476 repasa nuevos benchmarks como Humanity's Sixth Sense y TasteVal, el modelo Beam de Reflection AI enfocado en eficiencia de tokens, y el anuncio de Mistral de que lanzará Mistral Large 4 en código abierto a finales de mes.",
+      "en": "The Import AI 476 newsletter covers new benchmarks like Humanity's Sixth Sense and TasteVal, Reflection AI's token-efficient Beam model, and Mistral's announcement that it plans to release the open-weight Mistral Large 4 by the end of the month."
     },
     "tech": {
-      "es": "El equipo de Deno se incorpora a Cloudflare para simplificar el autoalojamiento de Workers y Durable Objects, y TechCrunch Disrupt 2026 centra su programación en cómo construir empresas duraderas en la era de la IA.",
-      "en": "The Deno team is joining Cloudflare to simplify self-hosting Workers and Durable Objects, and TechCrunch Disrupt 2026 frames its programming around how to build enduring companies in the AI era."
+      "es": "Epic Games estaría virando hacia un modelo de desarrollo de videojuegos 'con IA primero', lo que habría retrasado su shooter de Marvel/Star Wars. Además, Cloudflare detalla cómo sus Transformers permiten filtrar, reestructurar y redactar registros antes de exportarlos vía Logpush.",
+      "en": "Epic Games reportedly is pivoting to an 'AI-first' game development model, which has reportedly delayed its Marvel/Star Wars shooter. Separately, Cloudflare details how its Transformers let users filter, reshape and redact logs before exporting them via Logpush."
     }
   },
   "top_stories": [
     {
-      "id": "evt_993d481bad229e25",
+      "id": "evt_636da5d9c3b95ebd",
       "title": {
-        "es": "HomeView, Apple TV 4K y HomePod mini: 16 detalles filtrados antes del evento",
-        "en": "New Apple TV 4K, HomeView, and HomePod Mini: 16 details leaked ahead of the event"
+        "es": "Muse Wonder pone a Meta de vuelta en la frontera de la IA",
+        "en": "Muse Wonder puts Meta back at the AI frontier"
       },
       "body": {
-        "es": "Según filtraciones, HomeView se presentaría este martes 13 de octubre con chip A18 (8GB de RAM equivalente en iPhone) y soporte para Siri AI, aunque el dispositivo no llegaría a la venta hasta mediados de noviembre. Se esperan cuatro acabados (gris, plata, blanco estelar y rosa), y los accesorios de LG para el dispositivo no estarían disponibles hasta más adelante en el año como muy pronto. Esto confirma un lanzamiento escalonado: anuncio primero, disponibilidad semanas después.",
-        "en": "According to leaks, HomeView would be unveiled this Tuesday, October 13, with an A18 chip (equivalent to 8GB of RAM in iPhones) and Siri AI support, though the device wouldn't ship until around mid-November. Four finishes are expected (gray, silver, starlight and rose), and LG's accessories for the device wouldn't ship until later this year at the earliest. This points to a staggered rollout: announcement first, availability weeks later."
+        "es": "Meta lanzó Muse Wonder, descrito como su modelo más grande hasta ahora, con capacidades que según la empresa rivalizan con los mejores modelos del mundo. El modelo incluye nuevas funciones para evitar que los agentes se descarrilen durante tareas largas. Los modelos Muse Wonder y Muse Wonder Full ya están disponibles para suscriptores de Muse Code.",
+        "en": "Meta released Muse Wonder, described as its largest model to date, with capabilities the company says rival the world's best. The model includes new features designed to keep agents from going off the rails during long tasks. Muse Wonder and Muse Wonder Full are now available to Muse Code subscribers."
       },
-      "newsId": "evt_993d481bad229e25",
-      "storyKey": "evt_993d481bad229e25",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/10/11/apple-tv-4k-homeview-homepod-mini-2-leaks",
-      "image": "https://images.macrumors.com/article-new/2026/10/Apple-TV-4K-HomeView-HomePod-Mini-tweaked.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-11T19:56:28.000Z",
-      "evidence": [
-        {
-          "claim": "HomeView will be unveiled this Tuesday, October 13, but the device is apparently not launching until \"around mid-November.\"",
-          "source": "e352c345f873cb3b"
-        },
-        {
-          "claim": "HomeView will be equipped with an A18 chip, which has 8GB of RAM in iPhones.",
-          "source": "e352c345f873cb3b"
-        },
-        {
-          "claim": "HomeView will support Siri AI for voice control.",
-          "source": "e352c345f873cb3b"
-        },
-        {
-          "claim": "The tabletop HomeView will be available in four finishes: Gray, Silver, Starlight, and Rose.",
-          "source": "e352c345f873cb3b"
-        },
-        {
-          "claim": "LG's accessories for the HomeView will not ship \"until later this year at the earliest.\"",
-          "source": "e352c345f873cb3b"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/10/11/apple-tv-4k-homeview-homepod-mini-2-leaks"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_855d8a0ec3002874",
-      "title": {
-        "es": "Los sistemas de IA ya pueden ejecutar ataques devastadores contra infraestructuras",
-        "en": "AI systems can already carry out devastating attacks on infrastructure"
-      },
-      "body": {
-        "es": "Pruebas de seguridad muestran que agentes de IA lograron los objetivos en ocho escenarios distintos contra sistemas de control industrial, incluyendo mover un brazo robótico en minutos y comprometer una pasarela SCADA que exponía acceso directo a 14 dispositivos OT adicionales. Los investigadores advierten que estos agentes operan con velocidad y precisión de ingeniero que supera la preparación defensiva de muchas organizaciones que aún no aplican prácticas básicas de ciberseguridad OT.",
-        "en": "Security tests show AI agents achieved their objectives across eight distinct scenarios against industrial control systems, including moving a robotic arm within minutes and compromising a SCADA gateway that exposed direct access to 14 additional OT devices. Researchers warn these agents operate with engineer-level speed and precision that outpaces the defensive readiness of many organizations still lacking foundational OT cybersecurity practices."
-      },
-      "newsId": "evt_855d8a0ec3002874",
-      "storyKey": "evt_855d8a0ec3002874",
+      "newsId": "evt_636da5d9c3b95ebd",
+      "storyKey": "evt_636da5d9c3b95ebd",
       "topic": "ai_software",
-      "source": "The Register AI & ML",
-      "link": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450",
-      "image": "https://image.theregister.com/5285618.jpg?croph=100&cropw=100&height=683&imageId=5285618&panoh=100&panow=100&panox=0&panoy=0&width=1200&x=0&y=0",
+      "source": "Wired",
+      "link": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier",
+      "image": "https://media.wired.com/photos/6accff96fccc4c5244b94f14/191:100/w_1280,c_limit/Muse-Wonder-Puts-Meta-Back-at-the-AI-Frontier-Business-2296209266.jpg",
       "score": 8.35,
-      "publishedAt": "2026-10-11T11:30:00.000Z",
+      "publishedAt": "2026-10-12T17:00:27.000Z",
       "evidence": [
         {
-          "claim": "AI systems can carry out nightmare attacks against infrastructure.",
-          "source": "83fe4b8041a44a88"
-        },
-        {
-          "claim": "AI agents can move robotic arms and manipulate industrial control networks.",
-          "source": "83fe4b8041a44a88"
-        },
-        {
-          "claim": "AI models can identify and exploit vulnerabilities in OT systems with high precision.",
-          "source": "83fe4b8041a44a88"
-        },
-        {
-          "claim": "AI agents can compromise SCADA systems and change operator screens.",
-          "source": "83fe4b8041a44a88"
-        },
-        {
-          "claim": "AI systems pose a significant threat to critical infrastructure due to their speed and precision.",
-          "source": "83fe4b8041a44a88"
+          "claim": "Meta’s biggest model rivals the world’s best.",
+          "source": "e002f6681de5874a"
         }
       ],
       "sources": [
         {
-          "name": "The Register AI & ML",
-          "link": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450"
+          "name": "Wired",
+          "link": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_2c72249dd2eff1d1",
+      "id": "evt_96c09165d2a2536d",
       "title": {
-        "es": "El nuevo Apple TV podría incorporar micrófono y un mando con altavoz",
-        "en": "The new Apple TV could have a built-in mic and a remote with a speaker"
+        "es": "Qué esperar del evento 'Welcome home' de Apple del 13 de octubre",
+        "en": "What to expect from Apple's October 13 'Welcome home' event"
       },
       "body": {
-        "es": "Según rumores, el nuevo Apple TV incluiría un micrófono integrado y el mando actualizado tendría un altavoz, lo que permitiría usar el dispositivo como un sencillo hub de hogar inteligente para controlar termostatos o cerraduras sin necesitar el mando físico. Se espera que el nuevo Apple TV comience a enviarse el 30 de octubre, junto al HomePod mini renovado.",
-        "en": "According to rumors, the new Apple TV would include a built-in microphone and the upgraded remote would get a speaker, letting the device serve as a simple smart home hub for controlling thermostats or door locks without hunting for the remote. The new Apple TV is expected to start shipping on October 30th, alongside the refreshed HomePod mini."
+        "es": "Apple celebra hoy, 13 de octubre de 2026, un segundo evento de otoño llamado 'Welcome home', centrado en el hogar inteligente. Se espera que el producto estelar sea la HomeView, una pantalla inteligente similar a medio HomePod con una pantalla añadida. También se anticipan un HomePod mini renovado con los colores Powder Pink y Forest Green, y un Apple TV 4K con soporte para Siri AI y posible nuevo procesador.",
+        "en": "Apple is holding its second fall event, called 'Welcome home,' today, October 13, 2026, focused on the smart home. The headline product is expected to be the HomeView, a smart display resembling half a HomePod with a screen attached. A refreshed HomePod mini in new Powder Pink and Forest Green colorways and an Apple TV 4K with Siri AI support and a possible new chip are also anticipated."
       },
-      "newsId": "evt_2c72249dd2eff1d1",
-      "storyKey": "evt_2c72249dd2eff1d1",
-      "topic": "tech",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24160553/DSCF0260_2.jpg?crop=0%2C10.732984293194%2C100%2C78.534031413613&quality=90&strip=all&w=1200",
-      "score": 7.65,
-      "publishedAt": "2026-10-11T17:31:07.000Z",
-      "evidence": [
-        {
-          "claim": "The new Apple TV could have a built-in microphone.",
-          "source": "059b0cd575eac715"
-        },
-        {
-          "claim": "The upgraded remote will get a speaker.",
-          "source": "059b0cd575eac715"
-        },
-        {
-          "claim": "The new Apple TV could serve as a simple smart home hub.",
-          "source": "059b0cd575eac715"
-        },
-        {
-          "claim": "The new Apple TV is expected to start shipping on October 30th.",
-          "source": "059b0cd575eac715"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_1ba155d26fc9368a",
-      "title": {
-        "es": "Apple retira una función clave de iOS 27 y no se sabe cuándo volverá",
-        "en": "Apple removed a key iOS 27 feature and it's unclear when it will return"
-      },
-      "body": {
-        "es": "Apple eliminó de la versión final de iOS 27, iPadOS 27 y macOS 27 un agente con IA que permitía cambiar varias contraseñas con un solo botón, función que sí estaba presente en las betas. La web oficial de iOS 27 todavía la muestra, pero con un aviso de que estará \"disponible más adelante\", sin que Apple haya confirmado una fecha ni la razón del retraso, posiblemente ligada a la complejidad de automatizar cambios de contraseña en distintos sitios web.",
-        "en": "Apple removed from the final release of iOS 27, iPadOS 27 and macOS 27 an AI-powered agent that could change multiple passwords with a single button, a feature that had been present in the betas. Apple's official iOS 27 webpage still shows it but warns it will be \"available later,\" with no confirmed date or official explanation, possibly tied to the complexity of automating password changes across different websites."
-      },
-      "newsId": "evt_1ba155d26fc9368a",
-      "storyKey": "evt_1ba155d26fc9368a",
+      "newsId": "evt_96c09165d2a2536d",
+      "storyKey": "evt_96c09165d2a2536d",
       "topic": "apple",
-      "source": "Applesfera",
-      "link": "https://www.applesfera.com/seguridad/apple-ha-quitado-mejores-funciones-ios-27-todavia-no-sabemos-cuando-volvera",
-      "image": "https://i.blogs.es/d4670a/contrasenas/840_560.jpeg",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/10/12/what-to-expect-from-apples-october-13-welcome-home-releases",
+      "image": "https://media.appleinsider.com/gallery/69208-145992-johnternusapplepark-xl.jpg",
       "score": 7.65,
-      "publishedAt": "2026-10-11T15:00:28.000Z",
+      "publishedAt": "2026-10-12T12:20:00.000Z",
       "evidence": [
         {
-          "claim": "Apple removed a feature from iOS 27 that allowed changing multiple passwords with an AI agent.",
-          "source": "8017f407b4d62059"
+          "claim": "Apple is holding a second fall event on October 13, 2026, titled 'Welcome home'.",
+          "source": "e44a6452222694f8"
         },
         {
-          "claim": "The feature was available in the respective betas of iPadOS 27 and macOS 27.",
-          "source": "8017f407b4d62059"
+          "claim": "The HomeView, a smart display, is expected to be a key product of the event.",
+          "source": "e44a6452222694f8"
         },
         {
-          "claim": "Apple's official website still shows the feature but warns it will be available later.",
-          "source": "8017f407b4d62059"
+          "claim": "The HomePod mini is expected to get a refresh with new colors and possibly new chips.",
+          "source": "e44a6452222694f8"
         },
         {
-          "claim": "The feature's absence might be due to the complexity of automating password changes across different websites.",
-          "source": "8017f407b4d62059"
+          "claim": "The Apple TV 4K is expected to get a similar update with support for Siri AI and possibly a new processor.",
+          "source": "e44a6452222694f8"
         }
       ],
       "sources": [
         {
-          "name": "Applesfera",
-          "link": "https://www.applesfera.com/seguridad/apple-ha-quitado-mejores-funciones-ios-27-todavia-no-sabemos-cuando-volvera"
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/10/12/what-to-expect-from-apples-october-13-welcome-home-releases"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_130309f2a38089ac",
+      "id": "evt_ee79de8b2516078f",
       "title": {
-        "es": "El Apple TV 4K estrenaría chip A19 y un mando más fácil de encontrar",
-        "en": "Apple TV 4K getting an A19 chip and a potentially easier-to-find remote"
+        "es": "Apple planea un evento de dos días para mostrar nuevos Mac y el iPad mini",
+        "en": "Apple plans two-day event to showcase new Macs and iPad mini"
       },
       "body": {
-        "es": "Según Mark Gurman de Bloomberg, el nuevo Apple TV 4K llevaría un chip A19 estándar, una mejora notable frente al A15 del modelo actual de 2022. Apple también habría probado un Siri Remote renovado con altavoz para facilitar encontrarlo entre los cojines del sofá.",
-        "en": "According to Bloomberg's Mark Gurman, the new Apple TV 4K would be powered by a standard A19 chip, a notable upgrade from the A15 in the current 2022 model. Apple has reportedly also tested a refreshed Siri Remote with a speaker to make it easier to find between couch cushions."
+        "es": "Según Mark Gurman de Bloomberg, Apple planea invitar a creadores de contenido a un evento de dos días en Los Ángeles el 27 y 28 de octubre. Se esperan un iMac de 24 pulgadas con chip M6 y nuevos colores, un iPad mini 8 con pantalla OLED, chip A20 Pro y diseño resistente al agua, y un Mac Studio con 512GB de RAM que Apple ya había anunciado para finales de octubre.",
+        "en": "According to Bloomberg's Mark Gurman, Apple plans to invite content creators to a two-day showcase in Los Angeles on October 27-28. Expected products include a 24-inch iMac with an M6 chip and new colors, an iPad mini 8 with an OLED display, A20 Pro chip and water-resistant design, and a Mac Studio with 512GB of RAM that Apple had already announced for late October."
       },
-      "newsId": "evt_130309f2a38089ac",
-      "storyKey": "evt_130309f2a38089ac",
+      "newsId": "evt_ee79de8b2516078f",
+      "storyKey": "evt_ee79de8b2516078f",
       "topic": "apple",
       "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/10/11/apple-tv-4k-a19-chip-easier-to-find-remote",
-      "image": "https://images.macrumors.com/article-new/2024/06/apple-tv-4k-new-orange.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-11T15:08:50.000Z",
+      "link": "https://www.macrumors.com/2026/10/12/new-macs-and-ipad-mini-in-los-angeles",
+      "image": "https://images.macrumors.com/article-new/2025/10/M5-MacBook-Pro.jpg",
+      "score": 8.35,
+      "publishedAt": "2026-10-12T16:49:04.000Z",
       "evidence": [
         {
-          "claim": "Apple's new Apple TV 4K will be powered by a standard A19 chip.",
-          "source": "f352db73d5ff02a9"
+          "claim": "Apple is planning a two-day product showcase in Los Angeles for content creators.",
+          "source": "a633137ec54d268a"
         },
         {
-          "claim": "Apple has tested a refreshed Siri Remote with a speaker to make it easier to find between couch cushions.",
-          "source": "f352db73d5ff02a9"
+          "claim": "The 24\" iMac will have an M6 chip and new color options.",
+          "source": "a633137ec54d268a"
+        },
+        {
+          "claim": "The iPad mini 8 will have an OLED display and a redesigned speaker system.",
+          "source": "a633137ec54d268a"
+        },
+        {
+          "claim": "Apple will release a Mac Studio with 512GB of RAM in late October.",
+          "source": "a633137ec54d268a"
         }
       ],
       "sources": [
         {
           "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/10/11/apple-tv-4k-a19-chip-easier-to-find-remote"
+          "link": "https://www.macrumors.com/2026/10/12/new-macs-and-ipad-mini-in-los-angeles"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_62b620e61867241c",
+      "id": "evt_be9198def4b34d32",
       "title": {
-        "es": "El equipo de Deno se incorpora a Cloudflare",
-        "en": "Deno team is joining Cloudflare"
+        "es": "Epic Games reportaría un giro hacia el desarrollo de videojuegos 'con IA primero'",
+        "en": "Epic Games reportedly pivoting to an 'AI first' game development model"
       },
       "body": {
-        "es": "El equipo de Deno se une a Cloudflare con el objetivo de simplificar radicalmente el autoalojamiento de Workers y Durable Objects, permitiendo a los desarrolladores usar las mismas primitivas en más entornos. El movimiento sugiere una mayor convergencia entre runtimes de JavaScript y la infraestructura edge de Cloudflare.",
-        "en": "The Deno team is joining Cloudflare with the goal of radically simplifying self-hosting of Workers and Durable Objects, letting developers use the same primitives in more places. The move suggests deeper convergence between JavaScript runtimes and Cloudflare's edge infrastructure."
+        "es": "Según reportes, Epic Games estaría virando hacia un modelo de desarrollo 'sin código escrito a mano' ni arte libre de IA, lo que habría contribuido al retraso de su shooter ambientado en Marvel/Star Wars. El reporte no detalla cronograma ni alcance exacto del cambio.",
+        "en": "Epic Games is reportedly pivoting toward a development model with 'no more hand-written code' or AI-free art, which has reportedly contributed to the delay of its Marvel/Star Wars-themed shooter. The report does not detail an exact timeline or scope for the shift."
       },
-      "newsId": "evt_62b620e61867241c",
-      "storyKey": "evt_62b620e61867241c",
+      "newsId": "evt_be9198def4b34d32",
+      "storyKey": "evt_be9198def4b34d32",
       "topic": "tech",
-      "source": "Cloudflare Blog",
-      "link": "https://blog.cloudflare.com/deno-joins-cloudflare",
-      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M4EN399YDFNQMGM5VG6EHTNS.01M4EN39V1RNGJ3FBS356QEAB5.png",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/epicdisney-1152x648.png",
       "score": 7.65,
-      "publishedAt": "2026-10-09T12:50:00.000Z",
+      "publishedAt": "2026-10-12T20:59:50.000Z",
       "evidence": [
         {
-          "claim": "The Deno team is joining Cloudflare.",
-          "source": "e46689a796520beb"
+          "claim": "Epic Games is pivoting to an AI-first game development model.",
+          "source": "b01659fbe30f4473"
         }
       ],
       "sources": [
         {
-          "name": "Cloudflare Blog",
-          "link": "https://blog.cloudflare.com/deno-joins-cloudflare"
+          "name": "Ars Technica",
+          "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_9161adb99c8aebcf",
+      "id": "evt_f99b7f64fcb04b7a",
       "title": {
-        "es": "Apple solo empezó a sugerir activamente la actualización a iOS 27 hace tres días",
-        "en": "Apple only started actively suggesting the iOS 27 upgrade three days ago"
+        "es": "Agentes de modelos de lenguaje que se autocompactan",
+        "en": "Self-compacting language model agents"
       },
       "body": {
-        "es": "Hasta hace poco, los usuarios de iOS 26 veían la última versión de iOS 26 como la actualización sugerida por defecto en Ajustes, y tenían que desplazarse hacia abajo para encontrar iOS 27, algo que la mayoría no hace. Ahora iOS 27.0.1 aparece como la opción destacada, relegando iOS 26.7.1 a una sección secundaria, lo que sugiere que Apple estaba retrasando deliberadamente la adopción para controlar el acceso a Siri AI mientras pulía la estabilidad del sistema.",
-        "en": "Until recently, users on iOS 26 saw the latest iOS 26 version as the default suggested update in Settings, requiring a scroll down to find iOS 27 that most users never make. Now iOS 27.0.1 appears as the prominent update, relegating iOS 26.7.1 to a smaller section, suggesting Apple was deliberately slow-rolling adoption to gate access to Siri AI while polishing system stability."
+        "es": "Un nuevo trabajo de investigación presenta SELFCOMPACT, un scaffold que permite al propio modelo decidir cuándo y cómo resumir su contexto acumulado, combinando una herramienta de compactación con una rúbrica ligera que indica cuándo activarla. Sin necesidad de ajuste fino, mejora hasta 18.1 puntos en matemáticas y de 5 a 9 puntos en búsqueda agéntica, con un coste por consulta entre 30% y 70% menor frente a una línea base sin resumen.",
+        "en": "A new research paper introduces SELFCOMPACT, a scaffold that lets the model itself decide when and how to summarize its accumulated context, pairing a compaction tool with a lightweight rubric for when to trigger it. Without any fine-tuning, it improves by up to 18.1 points on math and 5-9 points on agentic search tasks, at 30-70% lower per-question cost than a no-summarization baseline."
       },
-      "newsId": "evt_9161adb99c8aebcf",
-      "storyKey": "evt_9161adb99c8aebcf",
-      "topic": "apple",
-      "source": "Daring Fireball",
-      "link": "https://www.macrumors.com/2026/10/08/apple-now-pushing-ios-27",
-      "image": "https://images.macrumors.com/t/PeEXCl2WWdKyHqei1lMVhyyE0_Y=/2500x/article-new/2026/06/iOS-27-Feature-Dark.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-11T19:02:38.000Z",
+      "newsId": "evt_f99b7f64fcb04b7a",
+      "storyKey": "evt_f99b7f64fcb04b7a",
+      "topic": "ai_software",
+      "source": "Apple ML Research",
+      "link": "https://machinelearning.apple.com/research/self-compacting-language-agents",
+      "image": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "score": 8.6,
+      "publishedAt": "2026-10-12T00:00:00.000Z",
       "evidence": [
         {
-          "claim": "Apple is now suggesting iOS 27 to users still running iOS 26.",
-          "source": "699040ba8b5574cc"
+          "claim": "SELFCOMPACT allows the model to decide when and how to compact.",
+          "source": "e7add48fc0050749"
         },
         {
-          "claim": "Until Thursday, the default suggested update for users on iOS 26.x was to remain on the latest version of iOS 26.",
-          "source": "699040ba8b5574cc"
+          "claim": "SELFCOMPACT improves over a no-summarization baseline by up to 18.1 points on math and 5–9 points on agentic search.",
+          "source": "e7add48fc0050749"
         },
         {
-          "claim": "Apple is slow-rolling iOS 27 updates to gate access to Siri AI.",
-          "source": "699040ba8b5574cc"
+          "claim": "SELFCOMPACT uses a compaction tool and a lightweight rubric to decide when to compact.",
+          "source": "e7add48fc0050749"
         },
         {
-          "claim": "iOS 27 is remarkably stable with a focus on bug fixes and performance updates.",
-          "source": "699040ba8b5574cc"
+          "claim": "SELFCOMPACT can be effective without fine-tuning or external supervision.",
+          "source": "e7add48fc0050749"
+        },
+        {
+          "claim": "SELFCOMPACT addresses the meta-cognitive gap in models.",
+          "source": "e7add48fc0050749"
         }
       ],
       "sources": [
         {
-          "name": "Daring Fireball",
-          "link": "https://www.macrumors.com/2026/10/08/apple-now-pushing-ios-27"
+          "name": "Apple ML Research",
+          "link": "https://machinelearning.apple.com/research/self-compacting-language-agents"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_67e3ec2b7ec35497",
+      "title": {
+        "es": "Meta presenta nueva infraestructura de red abierta en el OCP Summit 2026",
+        "en": "Meta unveils new open networking infrastructure at OCP Summit 2026"
+      },
+      "body": {
+        "es": "En el Open Compute Project Global Summit 2026, Meta presentó IcePack, su primer rack de red refrigerado por líquido, junto con IceCube, una plataforma de switch de 102.4T. También introdujo Flattened Planar Fabric (FPF), un tejido de escalado horizontal multiplano para conectar GPUs, y MetaRoCE, un protocolo de transporte de IA de código abierto.",
+        "en": "At the 2026 Open Compute Project Global Summit, Meta unveiled IcePack, its first liquid-cooled network rack, alongside IceCube, a 102.4T switch platform. It also introduced Flattened Planar Fabric (FPF), a multiplane scale-out fabric for connecting GPUs, and MetaRoCE, an open-source AI transport protocol."
+      },
+      "newsId": "evt_67e3ec2b7ec35497",
+      "storyKey": "evt_67e3ec2b7ec35497",
+      "topic": "ai_software",
+      "source": "Meta Engineering",
+      "link": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks",
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-OCP-2026-IcePack-Rack-e1791838724959.png",
+      "score": 8.35,
+      "publishedAt": "2026-10-12T21:19:18.000Z",
+      "evidence": [
+        {
+          "claim": "Meta is sharing the next generation of open networking infrastructure at the 2026 Open Compute Project Global Summit.",
+          "source": "5d0a6824329cfd8e"
+        },
+        {
+          "claim": "Meta is introducing IcePack, their first liquid-cooled network rack.",
+          "source": "5d0a6824329cfd8e"
+        },
+        {
+          "claim": "Meta is launching the 102.4T switch platform called IceCube.",
+          "source": "5d0a6824329cfd8e"
+        },
+        {
+          "claim": "Meta is presenting Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric.",
+          "source": "5d0a6824329cfd8e"
+        },
+        {
+          "claim": "Meta is releasing MetaRoCE, an open-source AI transport protocol.",
+          "source": "5d0a6824329cfd8e"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Meta Engineering",
+          "link": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_cd86cc57e4fb756f",
+      "title": {
+        "es": "Los nuevos resúmenes de IA de Apple Home para cámaras de seguridad cuestan más de lo esperado",
+        "en": "Apple Home's new AI summaries for security cameras cost more than expected"
+      },
+      "body": {
+        "es": "Según un reporte, las nuevas funciones de resumen con IA para cámaras de seguridad de Apple Home requerirán planes de iCloud+ más costosos si el usuario tiene varias cámaras instaladas en casa.",
+        "en": "According to a report, Apple Home's new AI-powered summary features for security cameras will require more expensive iCloud+ plans for users with multiple cameras installed at home."
+      },
+      "newsId": "evt_cd86cc57e4fb756f",
+      "storyKey": "evt_cd86cc57e4fb756f",
+      "topic": "tech",
+      "source": "Engadget",
+      "link": "https://www.engadget.com/2281077/apple-home-ai-summaries-security-camera-prices",
+      "image": "https://www.engadget.com/img/gallery/apple-homes-new-ai-summaries-for-security-cameras-cost-more-than-youd-think/l-intro-1791469750.jpg",
+      "score": 6.4,
+      "publishedAt": "2026-10-11T16:15:00.000Z",
+      "evidence": [
+        {
+          "claim": "Apple Home's new AI summaries for security cameras require more expensive iCloud+ plans.",
+          "source": "31fe9a429787ae3e"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Engadget",
+          "link": "https://www.engadget.com/2281077/apple-home-ai-summaries-security-camera-prices"
         }
       ],
       "what_changed": []
@@ -342,169 +326,149 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_fedfcbc9b849abdb",
+      "id": "evt_2d5c4e4ac03f9f8c",
       "title": {
-        "es": "Los nuevos equipos Pro pasan a 30 días de retención por defecto",
-        "en": "New Pro teams now default to 30-day deployment retention"
+        "es": "MacBook Pro con M6: tres novedades que llegan este mes",
+        "en": "M6 MacBook Pro: three upgrades launching this month"
       },
       "text": {
-        "es": "Los nuevos equipos Pro tendrán por defecto un periodo de retención de despliegues de 30 días, lo que limita el historial antiguo y su coste de almacenamiento ($0.10 por GB-mes), aunque se puede ampliar en la configuración del equipo. Los despliegues eliminados bajo esta política no se pueden restaurar ni usar para rollback.",
-        "en": "New Pro teams now default to a 30-day deployment retention period, limiting older history and its storage cost ($0.10 per GB-month), though teams can choose a longer period in settings. Deployments deleted under this policy cannot be restored or used for rollback."
+        "es": "Apple lanzará un nuevo MacBook Pro con chip M6 más adelante este mes, manteniendo la pantalla de 14 pulgadas y el diseño industrial actual.",
+        "en": "Apple is launching a new M6 MacBook Pro later this month, keeping the 14-inch screen and current industrial design."
       },
-      "newsId": "evt_fedfcbc9b849abdb",
-      "storyKey": "evt_fedfcbc9b849abdb",
-      "topic": "ai_software",
-      "source": "Vercel AI",
-      "link": "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention",
-      "image": "https://vercel.com/api/dynamic-og?format=changelog&title=New%20Pro%20teams%20now%20default%20to%2030-day%20deployment%20retention",
-      "score": 7.65,
-      "publishedAt": "2026-10-09T18:00:00.000Z",
-      "evidence": [
-        {
-          "claim": "New Pro teams now default to a 30-day deployment retention period.",
-          "source": "c8dcb6de497682ba"
-        },
-        {
-          "claim": "Shorter retention keeps recent history available while limiting older history and its storage costs.",
-          "source": "c8dcb6de497682ba"
-        },
-        {
-          "claim": "You can choose a longer retention period in your team's settings when you need more history for inspection or rollback.",
-          "source": "c8dcb6de497682ba"
-        },
-        {
-          "claim": "Deployment Storage and Functions Storage each cost $0.10 per GB-month.",
-          "source": "c8dcb6de497682ba"
-        },
-        {
-          "claim": "Older deployments may be deleted under your retention policy. Deleted deployments cannot be restored or used for rollback.",
-          "source": "c8dcb6de497682ba"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Vercel AI",
-          "link": "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_db368dfd60057331",
-      "title": {
-        "es": "X vuelve a marcar la diferencia frente a otras redes sociales",
-        "en": "X once again marks the spot among social networks"
-      },
-      "text": {
-        "es": "Según un análisis, X ha \"des-muskificado\" silenciosamente su algoritmo, reduciendo la visibilidad de los propios tuits de Elon Musk, y su cultura se describe como sorprendentemente amigable. El autor sostiene que ve más contenido interesante en X que en Threads, Bluesky y Mastodon juntos, y señala que ejecutivos de Apple como Tim Cook o Greg Joswiak solo publican regularmente en esa plataforma.",
-        "en": "According to one analysis, X has quietly de-Musked its algorithm, reducing the visibility of Elon Musk's own tweets, and its culture is described as surprisingly friendly. The author claims to see more interesting content on X than on Threads, Bluesky and Mastodon combined, and notes that Apple executives like Tim Cook and Greg Joswiak post regularly only on that platform."
-      },
-      "newsId": "evt_db368dfd60057331",
-      "storyKey": "evt_db368dfd60057331",
-      "topic": "apple",
-      "source": "Daring Fireball",
-      "link": "https://daringfireball.net/2026/10/x_once_again_marks_the_spot",
-      "image": "https://daringfireball.net/graphics/df-wide-card.png",
-      "score": 7.65,
-      "publishedAt": "2026-10-11T21:05:33.000Z",
-      "evidence": [
-        {
-          "claim": "X has de-Musked its algorithm, reducing the visibility of Elon Musk's own tweets.",
-          "source": "ca08a19e3f7761b4"
-        },
-        {
-          "claim": "The culture on X is described as remarkably friendly and inclusive, contrasting with other platforms.",
-          "source": "ca08a19e3f7761b4"
-        },
-        {
-          "claim": "X is the only platform where Apple executives post regularly and exclusively.",
-          "source": "ca08a19e3f7761b4"
-        },
-        {
-          "claim": "There is more interesting content on X compared to other platforms like Threads, Bluesky, and Mastodon.",
-          "source": "ca08a19e3f7761b4"
-        },
-        {
-          "claim": "X has a larger user base compared to Bluesky and Mastodon.",
-          "source": "ca08a19e3f7761b4"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Daring Fireball",
-          "link": "https://daringfireball.net/2026/10/x_once_again_marks_the_spot"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_f01a534135750a4b",
-      "title": {
-        "es": "macOS 27 mejora iPhone Mirroring con tres actualizaciones clave",
-        "en": "macOS 27 brings three key upgrades to iPhone Mirroring"
-      },
-      "text": {
-        "es": "iOS 27 y macOS 27 Golden Gate, lanzados el mes anterior, incorporaron tres mejoras clave a la función iPhone Mirroring, que permite controlar el iPhone desde el Mac.",
-        "en": "iOS 27 and macOS 27 Golden Gate, released the previous month, brought three key updates to the iPhone Mirroring feature that lets users control their iPhone from the Mac."
-      },
-      "newsId": "evt_f01a534135750a4b",
-      "storyKey": "evt_f01a534135750a4b",
+      "newsId": "evt_2d5c4e4ac03f9f8c",
+      "storyKey": "evt_2d5c4e4ac03f9f8c",
       "topic": "apple",
       "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/10/11/macos-27-brings-three-key-upgrades-to-iphone-mirroring",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/iphone-mirroring-macOS-27.jpg?quality=82&strip=all&w=1600",
+      "link": "https://9to5mac.com/2026/10/12/m6-macbook-pro-three-new-upgrades-launching-this-fall",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/m6-macbook-pro-angle.jpg?quality=82&strip=all&w=1600",
       "score": 7.65,
-      "publishedAt": "2026-10-11T16:54:26.000Z",
+      "publishedAt": "2026-10-12T20:23:21.000Z",
       "evidence": [
         {
-          "claim": "iOS 27 and macOS 27 Golden Gate were released last month.",
-          "source": "5c96dade78c575ca"
-        },
-        {
-          "claim": "Three key updates were brought to iPhone Mirroring.",
-          "source": "5c96dade78c575ca"
+          "claim": "Apple is launching a new M6 MacBook Pro with a 14-inch screen and the current industrial design.",
+          "source": "dfa21be4543d80b4"
         }
       ],
       "sources": [
         {
           "name": "9to5Mac",
-          "link": "https://9to5mac.com/2026/10/11/macos-27-brings-three-key-upgrades-to-iphone-mirroring"
+          "link": "https://9to5mac.com/2026/10/12/m6-macbook-pro-three-new-upgrades-launching-this-fall"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_6a429efaa1bb0da0",
+      "id": "evt_b416b030dc3008b6",
       "title": {
-        "es": "Por qué AlphaFold no resolvió el plegamiento de proteínas",
-        "en": "Why AlphaFold didn't solve protein folding"
+        "es": "Todo lo esperado del lanzamiento 'Welcome Home' de Apple",
+        "en": "Apple 'Welcome Home' launch: everything to expect"
       },
       "text": {
-        "es": "Investigadores de Google DeepMind y Biohub discuten que escalar cómputo y datos no basta para resolver todos los problemas biológicos, y que encontrar leyes de escalado específicas requiere trabajo propio. Argumentan que curar todas las enfermedades exige pensar en aceleraciones de 10x a 100x en el descubrimiento de fármacos, no en mejoras incrementales del 10%.",
-        "en": "Researchers from Google DeepMind and Biohub argue that scaling compute and data alone isn't enough to solve every biology problem, and that finding specific scaling laws requires dedicated work. They contend that curing all disease requires thinking in terms of 10x–100x acceleration in drug discovery, not incremental 10% improvements."
+        "es": "La HomeView será un dispositivo multifunción construido en torno a Siri AI, con chip A18 y 8GB de RAM, y soportará apps de Apple como Safari, Music, Mensajes, FaceTime y Mail, aunque sin App Store propia.",
+        "en": "The HomeView will be a multi-function device built around Siri AI, with an A18 chip and 8GB of RAM, supporting Apple apps like Safari, Music, Messages, FaceTime and Mail, though without its own App Store."
       },
-      "newsId": "evt_6a429efaa1bb0da0",
-      "storyKey": "evt_6a429efaa1bb0da0",
-      "topic": "ai_software",
-      "source": "Latent Space",
-      "link": "https://www.latent.space/p/biohub-deepmind",
-      "image": "https://substackcdn.com/image/fetch/$s_!em3X!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F219666029%2F99db8b7b-8501-448d-a028-45bd9d24fd84%2Ftranscoded-1791592160.png",
-      "score": 8.35,
-      "publishedAt": "2026-10-10T00:31:26.000Z",
+      "newsId": "evt_b416b030dc3008b6",
+      "storyKey": "evt_b416b030dc3008b6",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/guide/apple-welcome-home-product-recap",
+      "image": "https://images.macrumors.com/article-new/2026/10/Apple-TV-4K-HomeView-HomePod-Mini-tweaked.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-12T17:17:12.000Z",
       "evidence": [
         {
-          "claim": "Scaling compute and data alone won't solve biology problems.",
-          "source": "2c4d0629343979ff"
+          "claim": "The HomeView will be a multi-function device designed for all of a home's occupants.",
+          "source": "2a96a8f8d538a652"
         },
         {
-          "claim": "Curing all disease requires 10x breakthroughs rather than incremental improvements.",
-          "source": "2c4d0629343979ff"
+          "claim": "The HomeView will have an A18 chip and 8GB of RAM.",
+          "source": "2a96a8f8d538a652"
+        },
+        {
+          "claim": "The HomeView will support Apple apps such as Safari, News, Music, Reminders, Calendar, Weather, Messages, FaceTime, Photos, and Mail.",
+          "source": "2a96a8f8d538a652"
         }
       ],
       "sources": [
         {
-          "name": "Latent Space",
-          "link": "https://www.latent.space/p/biohub-deepmind"
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/guide/apple-welcome-home-product-recap"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_476ec2ba6889514e",
+      "title": {
+        "es": "Agent37 (YC F26): sandboxes de agentes a bajo coste",
+        "en": "Agent37 (YC F26): low-cost agent sandboxes"
+      },
+      "text": {
+        "es": "Agent37 ofrece sandboxes para ejecutar agentes de IA a menos del 10% del coste de la mayoría de proveedores, usando gVisor para compartir memoria entre sandboxes sin reservar una VM completa por cada uno, con un coste de infraestructura de entre 0.05 y 0.10 dólares por usuario al mes en el nivel gratuito.",
+        "en": "Agent37 offers sandboxes for running AI agents at under 10% of the cost of most providers, using gVisor to share memory across sandboxes without reserving a full VM for each one, with infrastructure costs averaging $0.05-$0.10 per user per month on the free tier."
+      },
+      "newsId": "evt_476ec2ba6889514e",
+      "storyKey": "evt_476ec2ba6889514e",
+      "topic": "tech",
+      "source": "Hacker News",
+      "link": "https://news.ycombinator.com/item?id=50059096",
+      "image": null,
+      "score": 7.65,
+      "publishedAt": "2026-10-12T16:46:34.000Z",
+      "evidence": [
+        {
+          "claim": "Agent37 offers sandboxes for running AI agents at under 10% of the cost of most sandbox providers.",
+          "source": "079428a25065364a"
+        },
+        {
+          "claim": "The infrastructure cost for the free sandboxes averages around $0.05 to $0.10 per user per month.",
+          "source": "079428a25065364a"
+        },
+        {
+          "claim": "Agent37 uses gVisor for better utilization and fast boot times, which allows sharing resources across the host.",
+          "source": "079428a25065364a"
+        },
+        {
+          "claim": "The size and shape of the hosts Agent37 buys are optimized for packing more RAM into a given host, which is crucial for cost reduction.",
+          "source": "079428a25065364a"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Hacker News",
+          "link": "https://news.ycombinator.com/item?id=50059096"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_3371f43cff6251a6",
+      "title": {
+        "es": "GitHub Copilot para principiantes: enseña a Copilot tu base de código",
+        "en": "GitHub Copilot for beginners: teach Copilot about your codebase"
+      },
+      "text": {
+        "es": "Una guía muestra cómo añadir instrucciones y habilidades personalizadas a un repositorio, usar agentes personalizados y conectar servidores MCP como Playwright para mejorar el contexto de Copilot.",
+        "en": "A guide shows how to add custom instructions and skills to a repository, use custom agents, and connect MCP servers like Playwright to improve Copilot's context."
+      },
+      "newsId": "evt_3371f43cff6251a6",
+      "storyKey": "evt_3371f43cff6251a6",
+      "topic": "ai_software",
+      "source": "GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-12T17:43:59.000Z",
+      "evidence": [
+        {
+          "claim": "GitHub Copilot app for beginners provides instructions on adding custom instructions and skills to repositories.",
+          "source": "c4ff2ba32a9c9ecb"
+        }
+      ],
+      "sources": [
+        {
+          "name": "GitHub Blog",
+          "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase"
         }
       ],
       "what_changed": []
@@ -512,95 +476,95 @@
   ],
   "trending_repos": [
     {
-      "id": "yetone/magpie",
-      "repoKey": "yetone/magpie",
-      "name": "magpie",
-      "full_name": "yetone/magpie",
-      "link": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "id": "mastra-ai/mastra",
+      "repoKey": "mastra-ai/mastra",
+      "name": "mastra",
+      "full_name": "mastra-ai/mastra",
+      "link": "https://github.com/mastra-ai/mastra",
+      "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+      "language": "TypeScript",
+      "stars": 28741,
+      "stars_today": null,
+      "stars_per_day_estimate": 22.43916856779973,
+      "trend_basis": "normalized_50.3h",
+      "trend_score": 7.550711400121185,
+      "default_branch": "main",
+      "created_at": "2024-08-06T20:44:31Z",
+      "pushed_at": "2026-10-13T00:38:01Z",
+      "why_it_matters": {
+        "es": "Mastra es un framework de TypeScript para construir aplicaciones y agentes de IA, con enrutamiento a más de 40 proveedores de modelos, flujos de trabajo basados en grafos y soporte de human-in-the-loop, útil para desarrolladores que buscan llevar prototipos de IA a producción.",
+        "en": "Mastra is a TypeScript framework for building AI-powered applications and agents, with routing across 40+ model providers, graph-based workflows and human-in-the-loop support, useful for developers taking AI prototypes to production."
+      }
+    },
+    {
+      "id": "vllm-project/semantic-router",
+      "repoKey": "vllm-project/semantic-router",
+      "name": "semantic-router",
+      "full_name": "vllm-project/semantic-router",
+      "link": "https://github.com/vllm-project/semantic-router",
+      "description": "An open, programmable decision layer for models and compute.",
       "language": "Go",
-      "stars": 9147,
-      "stars_today": 602,
-      "stars_per_day_estimate": 607.3702000004088,
-      "trend_basis": "observed_about_24h",
-      "trend_score": 12.248665727483369,
+      "stars": 6118,
+      "stars_today": null,
+      "stars_per_day_estimate": 28.095145073127046,
+      "trend_basis": "normalized_26.5h",
+      "trend_score": 7.861161036821544,
       "default_branch": "main",
-      "created_at": "2026-09-23T16:22:35Z",
-      "pushed_at": "2026-10-11T22:09:07Z",
+      "created_at": "2025-08-26T21:49:50Z",
+      "pushed_at": "2026-10-13T00:27:53Z",
       "why_it_matters": {
-        "es": "Magpie ofrece una pasarela local única para usar distintos agentes de código (Claude Code, Codex, Gemini CLI, OpenCode) con distintos proveedores de modelos, rotando automáticamente de cuenta cuando se agota una cuota, algo útil para desarrolladores que combinan varias suscripciones de IA.",
-        "en": "Magpie provides a single local gateway to run different coding agents (Claude Code, Codex, Gemini CLI, OpenCode) against different model providers, automatically rotating accounts when a quota runs out—useful for developers juggling multiple AI subscriptions."
+        "es": "vLLM Semantic Router es una capa de decisión abierta que selecciona o combina modelos y recursos de cómputo para cada llamada de un agente, permitiendo fijar prioridades de calidad, latencia y coste sin cambiar la lógica del harness del agente.",
+        "en": "vLLM Semantic Router is an open decision layer that selects or combines models and compute for each agent call, letting teams set quality, latency and cost priorities without changing the agent harness logic."
       }
     },
     {
-      "id": "rociiu/talorys",
-      "repoKey": "rociiu/talorys",
-      "name": "talorys",
-      "full_name": "rociiu/talorys",
-      "link": "https://github.com/rociiu/talorys",
-      "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
+      "id": "agentvivekkumar/dontbemichael",
+      "repoKey": "agentvivekkumar/dontbemichael",
+      "name": "dontbemichael",
+      "full_name": "agentvivekkumar/dontbemichael",
+      "link": "https://github.com/agentvivekkumar/dontbemichael",
+      "description": "A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents",
       "language": "TypeScript",
-      "stars": 738,
-      "stars_today": 417,
-      "stars_per_day_estimate": 420.7198893690539,
-      "trend_basis": "observed_about_24h",
-      "trend_score": 11.625445749487875,
+      "stars": 344,
+      "stars_today": null,
+      "stars_per_day_estimate": 67.06583017456134,
+      "trend_basis": "normalized_26.5h",
+      "trend_score": 9.085093420346707,
       "default_branch": "main",
-      "created_at": "2026-10-10T09:46:56Z",
-      "pushed_at": "2026-10-11T10:48:19Z",
+      "created_at": "2026-09-15T03:39:15Z",
+      "pushed_at": "2026-10-13T00:11:54Z",
       "why_it_matters": {
-        "es": "Talorys es un asistente de IA personal de código abierto que se despliega con un solo comando dentro de la propia cuenta de Cloudflare del usuario, sin servidores ni telemetría de terceros, ofreciendo memoria, tareas y recordatorios programados para un único usuario.",
-        "en": "Talorys is an open-source personal AI assistant that deploys with a single command inside the user's own Cloudflare account, with no third-party servers or telemetry, offering memory, tasks and scheduled reminders for a single user."
+        "es": "Dontbemichael es una aplicación de escritorio que coordina un equipo de agentes de Claude Code con roles específicos (finanzas, soporte, ventas) gestionados por un 'gerente de oficina' IA, mostrando un patrón práctico de orquestación multiagente local sobre suscripciones existentes.",
+        "en": "Dontbemichael is a desktop app that coordinates a team of Claude Code agents with specific roles (finance, support, sales) managed by an AI 'office manager,' showcasing a practical local multi-agent orchestration pattern on top of existing subscriptions."
       }
     },
     {
-      "id": "iamlukethedev/Herald-OS",
-      "repoKey": "iamlukethedev/Herald-OS",
-      "name": "Herald-OS",
-      "full_name": "iamlukethedev/Herald-OS",
-      "link": "https://github.com/iamlukethedev/Herald-OS",
-      "description": "An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.",
-      "language": "TypeScript",
-      "stars": 425,
-      "stars_today": 27,
-      "stars_per_day_estimate": 27.240856146197732,
-      "trend_basis": "observed_about_24h",
-      "trend_score": 7.52153956423704,
-      "default_branch": "main",
-      "created_at": "2026-10-06T20:37:44Z",
-      "pushed_at": "2026-10-10T10:23:17Z",
+      "id": "Harvil1/codeAgent",
+      "repoKey": "Harvil1/codeAgent",
+      "name": "codeAgent",
+      "full_name": "Harvil1/codeAgent",
+      "link": "https://github.com/Harvil1/codeAgent",
+      "description": "CodeAgent is an open-source coding agent that lives in your terminal. It understands your repository, plans multi-step changes, writes and edits files, runs commands and tests, and iterates until the task is done — all with a transparent, extensible tool loop.",
+      "language": "Python",
+      "stars": 304,
+      "stars_today": null,
+      "stars_per_day_estimate": 77.03507520050964,
+      "trend_basis": "normalized_26.5h",
+      "trend_score": 9.121632644243846,
+      "default_branch": "master",
+      "created_at": "2026-10-02T05:15:41Z",
+      "pushed_at": "2026-10-12T04:55:12Z",
       "why_it_matters": {
-        "es": "Herald OS es un sistema operativo construido en torno a un agente de IA (Hermes) que abre aplicaciones, organiza archivos y ejecuta rutinas programadas bajo un sistema de permisos controlado por el usuario, ilustrando hacia dónde evoluciona la interacción agente-sistema operativo.",
-        "en": "Herald OS is an operating system built around an AI agent (Hermes) that opens apps, organizes files and runs scheduled routines under a user-controlled permission system, illustrating where agent-OS interaction is heading."
-      }
-    },
-    {
-      "id": "abacusai/abacusai-bot",
-      "repoKey": "abacusai/abacusai-bot",
-      "name": "abacusai-bot",
-      "full_name": "abacusai/abacusai-bot",
-      "link": "https://github.com/abacusai/abacusai-bot",
-      "description": "100% free, open-source personal agents for your messaging apps, tools, and services",
-      "language": "TypeScript",
-      "stars": 150,
-      "stars_today": 18,
-      "stars_per_day_estimate": 18.160570764131823,
-      "trend_basis": "observed_about_24h",
-      "trend_score": 7.2600559980235895,
-      "default_branch": "main",
-      "created_at": "2026-09-11T07:04:16Z",
-      "pushed_at": "2026-10-11T22:10:02Z",
-      "why_it_matters": {
-        "es": "AbacusAI Bot permite crear agentes personales gratuitos y de código abierto que operan con permisos completos a través de WhatsApp, Telegram, Discord y servicios conectados como Gmail o GitHub, incluyendo tareas de programación, aunque sin el modo de aprobación de las sesiones supervisadas.",
-        "en": "AbacusAI Bot enables free, open-source personal agents that run with full tool permissions across WhatsApp, Telegram, Discord and connected services like Gmail or GitHub, including coding tasks, though without the approval mode used in supervised sessions."
+        "es": "CodeAgent es un agente de codificación de terminal de código abierto, con compresión de contexto por niveles, un sistema de aprobación de comandos peligrosos y una arquitectura de herramientas autorregistrables, útil como referencia didáctica para entender el ciclo completo de un agente de código.",
+        "en": "CodeAgent is an open-source terminal coding agent with tiered context compaction, a dangerous-command approval system, and a self-registering tool architecture, useful as a learning reference for understanding the full loop of a coding agent."
       }
     }
   ],
   "developer_signals": [],
   "editorial_stats": {
     "topics": {
-      "apple": 4,
-      "ai_software": 1,
+      "apple": 2,
+      "ai_software": 3,
       "ai_general": 0,
       "tech": 2
     }

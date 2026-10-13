@@ -1,0 +1,572 @@
+{
+  "schema_version": 22,
+  "edition_id": "wmt-2026-10-13",
+  "date": "2026-10-13",
+  "daily_summary": {
+    "es": "Meta lanza su modelo frontera Muse Wonder mientras Apple prepara dos eventos de hardware este mes, incluido el evento 'Welcome home' del 13 de octubre.",
+    "en": "Meta launches its frontier model Muse Wonder while Apple preps two hardware events this month, including the 'Welcome home' event on October 13."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Apple celebra hoy, 13 de octubre, su evento 'Welcome home', centrado en el hogar inteligente y con la HomeView como protagonista esperada, además de actualizaciones de HomePod mini y Apple TV 4K. Por separado, Bloomberg informa que Apple planea un evento de dos días en Los Ángeles los días 27 y 28 de octubre para mostrar un iMac con chip M6, un iPad mini con pantalla OLED y un MacBook Pro con M6. También se reporta que las nuevas funciones de IA para cámaras de Apple Home requerirán planes de iCloud+ más caros.",
+      "en": "Apple is holding its 'Welcome home' event today, October 13, focused on the smart home, with the HomeView expected as the centerpiece alongside HomePod mini and Apple TV 4K updates. Separately, Bloomberg reports Apple is planning a two-day Los Angeles showcase on October 27-28 for an M6 iMac, an OLED iPad mini and an M6 MacBook Pro. Apple Home's new AI camera summaries will reportedly require pricier iCloud+ plans."
+    },
+    "ai_software": {
+      "es": "Meta lanzó Muse Wonder y Muse Wonder Full, sus modelos más grandes hasta ahora, ya disponibles para suscriptores de Muse Code, con ventana de contexto de 1M de tokens y capacidades agénticas de codificación. En paralelo, un nuevo scaffold llamado SELFCOMPACT deja que el propio modelo decida cuándo resumir su contexto, mejorando hasta 18.1 puntos en matemáticas con menor coste por consulta.",
+      "en": "Meta released Muse Wonder and Muse Wonder Full, its largest models yet, now available to Muse Code subscribers, with a 1M-token context window and agentic coding capabilities. Separately, a new scaffold called SELFCOMPACT lets the model itself decide when to summarize its context, improving by up to 18.1 points on math at lower per-query cost."
+    },
+    "ai_general": {
+      "es": "El boletín Import AI 476 repasa nuevos benchmarks como Humanity's Sixth Sense y TasteVal, el modelo Beam de Reflection AI enfocado en eficiencia de tokens, y el anuncio de Mistral de que lanzará Mistral Large 4 en código abierto a finales de mes.",
+      "en": "The Import AI 476 newsletter covers new benchmarks like Humanity's Sixth Sense and TasteVal, Reflection AI's token-efficient Beam model, and Mistral's announcement that it plans to release the open-weight Mistral Large 4 by the end of the month."
+    },
+    "tech": {
+      "es": "Epic Games estaría virando hacia un modelo de desarrollo de videojuegos 'con IA primero', lo que habría retrasado su shooter de Marvel/Star Wars. Además, Cloudflare detalla cómo sus Transformers permiten filtrar, reestructurar y redactar registros antes de exportarlos vía Logpush.",
+      "en": "Epic Games reportedly is pivoting to an 'AI-first' game development model, which has reportedly delayed its Marvel/Star Wars shooter. Separately, Cloudflare details how its Transformers let users filter, reshape and redact logs before exporting them via Logpush."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple celebra hoy, 13 de octubre, su evento 'Welcome home', centrado en el hogar inteligente y con la HomeView como protagonista esperada, además de actualizaciones de HomePod mini y Apple TV 4K. Por separado, Bloomberg informa que Apple planea un evento de dos días en Los Ángeles los días 27 y 28 de octubre para mostrar un iMac con chip M6, un iPad mini con pantalla OLED y un MacBook Pro con M6. También se reporta que las nuevas funciones de IA para cámaras de Apple Home requerirán planes de iCloud+ más caros.",
+      "en": "Apple is holding its 'Welcome home' event today, October 13, focused on the smart home, with the HomeView expected as the centerpiece alongside HomePod mini and Apple TV 4K updates. Separately, Bloomberg reports Apple is planning a two-day Los Angeles showcase on October 27-28 for an M6 iMac, an OLED iPad mini and an M6 MacBook Pro. Apple Home's new AI camera summaries will reportedly require pricier iCloud+ plans."
+    },
+    "ai_software": {
+      "es": "Meta lanzó Muse Wonder y Muse Wonder Full, sus modelos más grandes hasta ahora, ya disponibles para suscriptores de Muse Code, con ventana de contexto de 1M de tokens y capacidades agénticas de codificación. En paralelo, un nuevo scaffold llamado SELFCOMPACT deja que el propio modelo decida cuándo resumir su contexto, mejorando hasta 18.1 puntos en matemáticas con menor coste por consulta.",
+      "en": "Meta released Muse Wonder and Muse Wonder Full, its largest models yet, now available to Muse Code subscribers, with a 1M-token context window and agentic coding capabilities. Separately, a new scaffold called SELFCOMPACT lets the model itself decide when to summarize its context, improving by up to 18.1 points on math at lower per-query cost."
+    },
+    "ai_general": {
+      "es": "El boletín Import AI 476 repasa nuevos benchmarks como Humanity's Sixth Sense y TasteVal, el modelo Beam de Reflection AI enfocado en eficiencia de tokens, y el anuncio de Mistral de que lanzará Mistral Large 4 en código abierto a finales de mes.",
+      "en": "The Import AI 476 newsletter covers new benchmarks like Humanity's Sixth Sense and TasteVal, Reflection AI's token-efficient Beam model, and Mistral's announcement that it plans to release the open-weight Mistral Large 4 by the end of the month."
+    },
+    "tech": {
+      "es": "Epic Games estaría virando hacia un modelo de desarrollo de videojuegos 'con IA primero', lo que habría retrasado su shooter de Marvel/Star Wars. Además, Cloudflare detalla cómo sus Transformers permiten filtrar, reestructurar y redactar registros antes de exportarlos vía Logpush.",
+      "en": "Epic Games reportedly is pivoting to an 'AI-first' game development model, which has reportedly delayed its Marvel/Star Wars shooter. Separately, Cloudflare details how its Transformers let users filter, reshape and redact logs before exporting them via Logpush."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "evt_636da5d9c3b95ebd",
+      "title": {
+        "es": "Muse Wonder pone a Meta de vuelta en la frontera de la IA",
+        "en": "Muse Wonder puts Meta back at the AI frontier"
+      },
+      "body": {
+        "es": "Meta lanzó Muse Wonder, descrito como su modelo más grande hasta ahora, con capacidades que según la empresa rivalizan con los mejores modelos del mundo. El modelo incluye nuevas funciones para evitar que los agentes se descarrilen durante tareas largas. Los modelos Muse Wonder y Muse Wonder Full ya están disponibles para suscriptores de Muse Code.",
+        "en": "Meta released Muse Wonder, described as its largest model to date, with capabilities the company says rival the world's best. The model includes new features designed to keep agents from going off the rails during long tasks. Muse Wonder and Muse Wonder Full are now available to Muse Code subscribers."
+      },
+      "newsId": "evt_636da5d9c3b95ebd",
+      "storyKey": "evt_636da5d9c3b95ebd",
+      "topic": "ai_software",
+      "source": "Wired",
+      "link": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier",
+      "image": "https://media.wired.com/photos/6accff96fccc4c5244b94f14/191:100/w_1280,c_limit/Muse-Wonder-Puts-Meta-Back-at-the-AI-Frontier-Business-2296209266.jpg",
+      "score": 8.35,
+      "publishedAt": "2026-10-12T17:00:27.000Z",
+      "evidence": [
+        {
+          "claim": "Meta’s biggest model rivals the world’s best.",
+          "source": "e002f6681de5874a"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_96c09165d2a2536d",
+      "title": {
+        "es": "Qué esperar del evento 'Welcome home' de Apple del 13 de octubre",
+        "en": "What to expect from Apple's October 13 'Welcome home' event"
+      },
+      "body": {
+        "es": "Apple celebra hoy, 13 de octubre de 2026, un segundo evento de otoño llamado 'Welcome home', centrado en el hogar inteligente. Se espera que el producto estelar sea la HomeView, una pantalla inteligente similar a medio HomePod con una pantalla añadida. También se anticipan un HomePod mini renovado con los colores Powder Pink y Forest Green, y un Apple TV 4K con soporte para Siri AI y posible nuevo procesador.",
+        "en": "Apple is holding its second fall event, called 'Welcome home,' today, October 13, 2026, focused on the smart home. The headline product is expected to be the HomeView, a smart display resembling half a HomePod with a screen attached. A refreshed HomePod mini in new Powder Pink and Forest Green colorways and an Apple TV 4K with Siri AI support and a possible new chip are also anticipated."
+      },
+      "newsId": "evt_96c09165d2a2536d",
+      "storyKey": "evt_96c09165d2a2536d",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/10/12/what-to-expect-from-apples-october-13-welcome-home-releases",
+      "image": "https://media.appleinsider.com/gallery/69208-145992-johnternusapplepark-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-12T12:20:00.000Z",
+      "evidence": [
+        {
+          "claim": "Apple is holding a second fall event on October 13, 2026, titled 'Welcome home'.",
+          "source": "e44a6452222694f8"
+        },
+        {
+          "claim": "The HomeView, a smart display, is expected to be a key product of the event.",
+          "source": "e44a6452222694f8"
+        },
+        {
+          "claim": "The HomePod mini is expected to get a refresh with new colors and possibly new chips.",
+          "source": "e44a6452222694f8"
+        },
+        {
+          "claim": "The Apple TV 4K is expected to get a similar update with support for Siri AI and possibly a new processor.",
+          "source": "e44a6452222694f8"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/10/12/what-to-expect-from-apples-october-13-welcome-home-releases"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_ee79de8b2516078f",
+      "title": {
+        "es": "Apple planea un evento de dos días para mostrar nuevos Mac y el iPad mini",
+        "en": "Apple plans two-day event to showcase new Macs and iPad mini"
+      },
+      "body": {
+        "es": "Según Mark Gurman de Bloomberg, Apple planea invitar a creadores de contenido a un evento de dos días en Los Ángeles el 27 y 28 de octubre. Se esperan un iMac de 24 pulgadas con chip M6 y nuevos colores, un iPad mini 8 con pantalla OLED, chip A20 Pro y diseño resistente al agua, y un Mac Studio con 512GB de RAM que Apple ya había anunciado para finales de octubre.",
+        "en": "According to Bloomberg's Mark Gurman, Apple plans to invite content creators to a two-day showcase in Los Angeles on October 27-28. Expected products include a 24-inch iMac with an M6 chip and new colors, an iPad mini 8 with an OLED display, A20 Pro chip and water-resistant design, and a Mac Studio with 512GB of RAM that Apple had already announced for late October."
+      },
+      "newsId": "evt_ee79de8b2516078f",
+      "storyKey": "evt_ee79de8b2516078f",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/10/12/new-macs-and-ipad-mini-in-los-angeles",
+      "image": "https://images.macrumors.com/article-new/2025/10/M5-MacBook-Pro.jpg",
+      "score": 8.35,
+      "publishedAt": "2026-10-12T16:49:04.000Z",
+      "evidence": [
+        {
+          "claim": "Apple is planning a two-day product showcase in Los Angeles for content creators.",
+          "source": "a633137ec54d268a"
+        },
+        {
+          "claim": "The 24\" iMac will have an M6 chip and new color options.",
+          "source": "a633137ec54d268a"
+        },
+        {
+          "claim": "The iPad mini 8 will have an OLED display and a redesigned speaker system.",
+          "source": "a633137ec54d268a"
+        },
+        {
+          "claim": "Apple will release a Mac Studio with 512GB of RAM in late October.",
+          "source": "a633137ec54d268a"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/10/12/new-macs-and-ipad-mini-in-los-angeles"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_be9198def4b34d32",
+      "title": {
+        "es": "Epic Games reportaría un giro hacia el desarrollo de videojuegos 'con IA primero'",
+        "en": "Epic Games reportedly pivoting to an 'AI first' game development model"
+      },
+      "body": {
+        "es": "Según reportes, Epic Games estaría virando hacia un modelo de desarrollo 'sin código escrito a mano' ni arte libre de IA, lo que habría contribuido al retraso de su shooter ambientado en Marvel/Star Wars. El reporte no detalla cronograma ni alcance exacto del cambio.",
+        "en": "Epic Games is reportedly pivoting toward a development model with 'no more hand-written code' or AI-free art, which has reportedly contributed to the delay of its Marvel/Star Wars-themed shooter. The report does not detail an exact timeline or scope for the shift."
+      },
+      "newsId": "evt_be9198def4b34d32",
+      "storyKey": "evt_be9198def4b34d32",
+      "topic": "tech",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/epicdisney-1152x648.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-12T20:59:50.000Z",
+      "evidence": [
+        {
+          "claim": "Epic Games is pivoting to an AI-first game development model.",
+          "source": "b01659fbe30f4473"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_f99b7f64fcb04b7a",
+      "title": {
+        "es": "Agentes de modelos de lenguaje que se autocompactan",
+        "en": "Self-compacting language model agents"
+      },
+      "body": {
+        "es": "Un nuevo trabajo de investigación presenta SELFCOMPACT, un scaffold que permite al propio modelo decidir cuándo y cómo resumir su contexto acumulado, combinando una herramienta de compactación con una rúbrica ligera que indica cuándo activarla. Sin necesidad de ajuste fino, mejora hasta 18.1 puntos en matemáticas y de 5 a 9 puntos en búsqueda agéntica, con un coste por consulta entre 30% y 70% menor frente a una línea base sin resumen.",
+        "en": "A new research paper introduces SELFCOMPACT, a scaffold that lets the model itself decide when and how to summarize its accumulated context, pairing a compaction tool with a lightweight rubric for when to trigger it. Without any fine-tuning, it improves by up to 18.1 points on math and 5-9 points on agentic search tasks, at 30-70% lower per-question cost than a no-summarization baseline."
+      },
+      "newsId": "evt_f99b7f64fcb04b7a",
+      "storyKey": "evt_f99b7f64fcb04b7a",
+      "topic": "ai_software",
+      "source": "Apple ML Research",
+      "link": "https://machinelearning.apple.com/research/self-compacting-language-agents",
+      "image": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "score": 8.6,
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "SELFCOMPACT allows the model to decide when and how to compact.",
+          "source": "e7add48fc0050749"
+        },
+        {
+          "claim": "SELFCOMPACT improves over a no-summarization baseline by up to 18.1 points on math and 5–9 points on agentic search.",
+          "source": "e7add48fc0050749"
+        },
+        {
+          "claim": "SELFCOMPACT uses a compaction tool and a lightweight rubric to decide when to compact.",
+          "source": "e7add48fc0050749"
+        },
+        {
+          "claim": "SELFCOMPACT can be effective without fine-tuning or external supervision.",
+          "source": "e7add48fc0050749"
+        },
+        {
+          "claim": "SELFCOMPACT addresses the meta-cognitive gap in models.",
+          "source": "e7add48fc0050749"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Apple ML Research",
+          "link": "https://machinelearning.apple.com/research/self-compacting-language-agents"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_67e3ec2b7ec35497",
+      "title": {
+        "es": "Meta presenta nueva infraestructura de red abierta en el OCP Summit 2026",
+        "en": "Meta unveils new open networking infrastructure at OCP Summit 2026"
+      },
+      "body": {
+        "es": "En el Open Compute Project Global Summit 2026, Meta presentó IcePack, su primer rack de red refrigerado por líquido, junto con IceCube, una plataforma de switch de 102.4T. También introdujo Flattened Planar Fabric (FPF), un tejido de escalado horizontal multiplano para conectar GPUs, y MetaRoCE, un protocolo de transporte de IA de código abierto.",
+        "en": "At the 2026 Open Compute Project Global Summit, Meta unveiled IcePack, its first liquid-cooled network rack, alongside IceCube, a 102.4T switch platform. It also introduced Flattened Planar Fabric (FPF), a multiplane scale-out fabric for connecting GPUs, and MetaRoCE, an open-source AI transport protocol."
+      },
+      "newsId": "evt_67e3ec2b7ec35497",
+      "storyKey": "evt_67e3ec2b7ec35497",
+      "topic": "ai_software",
+      "source": "Meta Engineering",
+      "link": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks",
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-OCP-2026-IcePack-Rack-e1791838724959.png",
+      "score": 8.35,
+      "publishedAt": "2026-10-12T21:19:18.000Z",
+      "evidence": [
+        {
+          "claim": "Meta is sharing the next generation of open networking infrastructure at the 2026 Open Compute Project Global Summit.",
+          "source": "5d0a6824329cfd8e"
+        },
+        {
+          "claim": "Meta is introducing IcePack, their first liquid-cooled network rack.",
+          "source": "5d0a6824329cfd8e"
+        },
+        {
+          "claim": "Meta is launching the 102.4T switch platform called IceCube.",
+          "source": "5d0a6824329cfd8e"
+        },
+        {
+          "claim": "Meta is presenting Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric.",
+          "source": "5d0a6824329cfd8e"
+        },
+        {
+          "claim": "Meta is releasing MetaRoCE, an open-source AI transport protocol.",
+          "source": "5d0a6824329cfd8e"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Meta Engineering",
+          "link": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_cd86cc57e4fb756f",
+      "title": {
+        "es": "Los nuevos resúmenes de IA de Apple Home para cámaras de seguridad cuestan más de lo esperado",
+        "en": "Apple Home's new AI summaries for security cameras cost more than expected"
+      },
+      "body": {
+        "es": "Según un reporte, las nuevas funciones de resumen con IA para cámaras de seguridad de Apple Home requerirán planes de iCloud+ más costosos si el usuario tiene varias cámaras instaladas en casa.",
+        "en": "According to a report, Apple Home's new AI-powered summary features for security cameras will require more expensive iCloud+ plans for users with multiple cameras installed at home."
+      },
+      "newsId": "evt_cd86cc57e4fb756f",
+      "storyKey": "evt_cd86cc57e4fb756f",
+      "topic": "tech",
+      "source": "Engadget",
+      "link": "https://www.engadget.com/2281077/apple-home-ai-summaries-security-camera-prices",
+      "image": "https://www.engadget.com/img/gallery/apple-homes-new-ai-summaries-for-security-cameras-cost-more-than-youd-think/l-intro-1791469750.jpg",
+      "score": 6.4,
+      "publishedAt": "2026-10-11T16:15:00.000Z",
+      "evidence": [
+        {
+          "claim": "Apple Home's new AI summaries for security cameras require more expensive iCloud+ plans.",
+          "source": "31fe9a429787ae3e"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Engadget",
+          "link": "https://www.engadget.com/2281077/apple-home-ai-summaries-security-camera-prices"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "evt_2d5c4e4ac03f9f8c",
+      "title": {
+        "es": "MacBook Pro con M6: tres novedades que llegan este mes",
+        "en": "M6 MacBook Pro: three upgrades launching this month"
+      },
+      "text": {
+        "es": "Apple lanzará un nuevo MacBook Pro con chip M6 más adelante este mes, manteniendo la pantalla de 14 pulgadas y el diseño industrial actual.",
+        "en": "Apple is launching a new M6 MacBook Pro later this month, keeping the 14-inch screen and current industrial design."
+      },
+      "newsId": "evt_2d5c4e4ac03f9f8c",
+      "storyKey": "evt_2d5c4e4ac03f9f8c",
+      "topic": "apple",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/10/12/m6-macbook-pro-three-new-upgrades-launching-this-fall",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/m6-macbook-pro-angle.jpg?quality=82&strip=all&w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-10-12T20:23:21.000Z",
+      "evidence": [
+        {
+          "claim": "Apple is launching a new M6 MacBook Pro with a 14-inch screen and the current industrial design.",
+          "source": "dfa21be4543d80b4"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/10/12/m6-macbook-pro-three-new-upgrades-launching-this-fall"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_b416b030dc3008b6",
+      "title": {
+        "es": "Todo lo esperado del lanzamiento 'Welcome Home' de Apple",
+        "en": "Apple 'Welcome Home' launch: everything to expect"
+      },
+      "text": {
+        "es": "La HomeView será un dispositivo multifunción construido en torno a Siri AI, con chip A18 y 8GB de RAM, y soportará apps de Apple como Safari, Music, Mensajes, FaceTime y Mail, aunque sin App Store propia.",
+        "en": "The HomeView will be a multi-function device built around Siri AI, with an A18 chip and 8GB of RAM, supporting Apple apps like Safari, Music, Messages, FaceTime and Mail, though without its own App Store."
+      },
+      "newsId": "evt_b416b030dc3008b6",
+      "storyKey": "evt_b416b030dc3008b6",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/guide/apple-welcome-home-product-recap",
+      "image": "https://images.macrumors.com/article-new/2026/10/Apple-TV-4K-HomeView-HomePod-Mini-tweaked.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-12T17:17:12.000Z",
+      "evidence": [
+        {
+          "claim": "The HomeView will be a multi-function device designed for all of a home's occupants.",
+          "source": "2a96a8f8d538a652"
+        },
+        {
+          "claim": "The HomeView will have an A18 chip and 8GB of RAM.",
+          "source": "2a96a8f8d538a652"
+        },
+        {
+          "claim": "The HomeView will support Apple apps such as Safari, News, Music, Reminders, Calendar, Weather, Messages, FaceTime, Photos, and Mail.",
+          "source": "2a96a8f8d538a652"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/guide/apple-welcome-home-product-recap"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_476ec2ba6889514e",
+      "title": {
+        "es": "Agent37 (YC F26): sandboxes de agentes a bajo coste",
+        "en": "Agent37 (YC F26): low-cost agent sandboxes"
+      },
+      "text": {
+        "es": "Agent37 ofrece sandboxes para ejecutar agentes de IA a menos del 10% del coste de la mayoría de proveedores, usando gVisor para compartir memoria entre sandboxes sin reservar una VM completa por cada uno, con un coste de infraestructura de entre 0.05 y 0.10 dólares por usuario al mes en el nivel gratuito.",
+        "en": "Agent37 offers sandboxes for running AI agents at under 10% of the cost of most providers, using gVisor to share memory across sandboxes without reserving a full VM for each one, with infrastructure costs averaging $0.05-$0.10 per user per month on the free tier."
+      },
+      "newsId": "evt_476ec2ba6889514e",
+      "storyKey": "evt_476ec2ba6889514e",
+      "topic": "tech",
+      "source": "Hacker News",
+      "link": "https://news.ycombinator.com/item?id=50059096",
+      "image": null,
+      "score": 7.65,
+      "publishedAt": "2026-10-12T16:46:34.000Z",
+      "evidence": [
+        {
+          "claim": "Agent37 offers sandboxes for running AI agents at under 10% of the cost of most sandbox providers.",
+          "source": "079428a25065364a"
+        },
+        {
+          "claim": "The infrastructure cost for the free sandboxes averages around $0.05 to $0.10 per user per month.",
+          "source": "079428a25065364a"
+        },
+        {
+          "claim": "Agent37 uses gVisor for better utilization and fast boot times, which allows sharing resources across the host.",
+          "source": "079428a25065364a"
+        },
+        {
+          "claim": "The size and shape of the hosts Agent37 buys are optimized for packing more RAM into a given host, which is crucial for cost reduction.",
+          "source": "079428a25065364a"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Hacker News",
+          "link": "https://news.ycombinator.com/item?id=50059096"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_3371f43cff6251a6",
+      "title": {
+        "es": "GitHub Copilot para principiantes: enseña a Copilot tu base de código",
+        "en": "GitHub Copilot for beginners: teach Copilot about your codebase"
+      },
+      "text": {
+        "es": "Una guía muestra cómo añadir instrucciones y habilidades personalizadas a un repositorio, usar agentes personalizados y conectar servidores MCP como Playwright para mejorar el contexto de Copilot.",
+        "en": "A guide shows how to add custom instructions and skills to a repository, use custom agents, and connect MCP servers like Playwright to improve Copilot's context."
+      },
+      "newsId": "evt_3371f43cff6251a6",
+      "storyKey": "evt_3371f43cff6251a6",
+      "topic": "ai_software",
+      "source": "GitHub Blog",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-12T17:43:59.000Z",
+      "evidence": [
+        {
+          "claim": "GitHub Copilot app for beginners provides instructions on adding custom instructions and skills to repositories.",
+          "source": "c4ff2ba32a9c9ecb"
+        }
+      ],
+      "sources": [
+        {
+          "name": "GitHub Blog",
+          "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "mastra-ai/mastra",
+      "repoKey": "mastra-ai/mastra",
+      "name": "mastra",
+      "full_name": "mastra-ai/mastra",
+      "link": "https://github.com/mastra-ai/mastra",
+      "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+      "language": "TypeScript",
+      "stars": 28741,
+      "stars_today": null,
+      "stars_per_day_estimate": 22.43916856779973,
+      "trend_basis": "normalized_50.3h",
+      "trend_score": 7.550711400121185,
+      "default_branch": "main",
+      "created_at": "2024-08-06T20:44:31Z",
+      "pushed_at": "2026-10-13T00:38:01Z",
+      "why_it_matters": {
+        "es": "Mastra es un framework de TypeScript para construir aplicaciones y agentes de IA, con enrutamiento a más de 40 proveedores de modelos, flujos de trabajo basados en grafos y soporte de human-in-the-loop, útil para desarrolladores que buscan llevar prototipos de IA a producción.",
+        "en": "Mastra is a TypeScript framework for building AI-powered applications and agents, with routing across 40+ model providers, graph-based workflows and human-in-the-loop support, useful for developers taking AI prototypes to production."
+      }
+    },
+    {
+      "id": "vllm-project/semantic-router",
+      "repoKey": "vllm-project/semantic-router",
+      "name": "semantic-router",
+      "full_name": "vllm-project/semantic-router",
+      "link": "https://github.com/vllm-project/semantic-router",
+      "description": "An open, programmable decision layer for models and compute.",
+      "language": "Go",
+      "stars": 6118,
+      "stars_today": null,
+      "stars_per_day_estimate": 28.095145073127046,
+      "trend_basis": "normalized_26.5h",
+      "trend_score": 7.861161036821544,
+      "default_branch": "main",
+      "created_at": "2025-08-26T21:49:50Z",
+      "pushed_at": "2026-10-13T00:27:53Z",
+      "why_it_matters": {
+        "es": "vLLM Semantic Router es una capa de decisión abierta que selecciona o combina modelos y recursos de cómputo para cada llamada de un agente, permitiendo fijar prioridades de calidad, latencia y coste sin cambiar la lógica del harness del agente.",
+        "en": "vLLM Semantic Router is an open decision layer that selects or combines models and compute for each agent call, letting teams set quality, latency and cost priorities without changing the agent harness logic."
+      }
+    },
+    {
+      "id": "agentvivekkumar/dontbemichael",
+      "repoKey": "agentvivekkumar/dontbemichael",
+      "name": "dontbemichael",
+      "full_name": "agentvivekkumar/dontbemichael",
+      "link": "https://github.com/agentvivekkumar/dontbemichael",
+      "description": "A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents",
+      "language": "TypeScript",
+      "stars": 344,
+      "stars_today": null,
+      "stars_per_day_estimate": 67.06583017456134,
+      "trend_basis": "normalized_26.5h",
+      "trend_score": 9.085093420346707,
+      "default_branch": "main",
+      "created_at": "2026-09-15T03:39:15Z",
+      "pushed_at": "2026-10-13T00:11:54Z",
+      "why_it_matters": {
+        "es": "Dontbemichael es una aplicación de escritorio que coordina un equipo de agentes de Claude Code con roles específicos (finanzas, soporte, ventas) gestionados por un 'gerente de oficina' IA, mostrando un patrón práctico de orquestación multiagente local sobre suscripciones existentes.",
+        "en": "Dontbemichael is a desktop app that coordinates a team of Claude Code agents with specific roles (finance, support, sales) managed by an AI 'office manager,' showcasing a practical local multi-agent orchestration pattern on top of existing subscriptions."
+      }
+    },
+    {
+      "id": "Harvil1/codeAgent",
+      "repoKey": "Harvil1/codeAgent",
+      "name": "codeAgent",
+      "full_name": "Harvil1/codeAgent",
+      "link": "https://github.com/Harvil1/codeAgent",
+      "description": "CodeAgent is an open-source coding agent that lives in your terminal. It understands your repository, plans multi-step changes, writes and edits files, runs commands and tests, and iterates until the task is done — all with a transparent, extensible tool loop.",
+      "language": "Python",
+      "stars": 304,
+      "stars_today": null,
+      "stars_per_day_estimate": 77.03507520050964,
+      "trend_basis": "normalized_26.5h",
+      "trend_score": 9.121632644243846,
+      "default_branch": "master",
+      "created_at": "2026-10-02T05:15:41Z",
+      "pushed_at": "2026-10-12T04:55:12Z",
+      "why_it_matters": {
+        "es": "CodeAgent es un agente de codificación de terminal de código abierto, con compresión de contexto por niveles, un sistema de aprobación de comandos peligrosos y una arquitectura de herramientas autorregistrables, útil como referencia didáctica para entender el ciclo completo de un agente de código.",
+        "en": "CodeAgent is an open-source terminal coding agent with tiered context compaction, a dangerous-command approval system, and a self-registering tool architecture, useful as a learning reference for understanding the full loop of a coding agent."
+      }
+    }
+  ],
+  "developer_signals": [],
+  "editorial_stats": {
+    "topics": {
+      "apple": 2,
+      "ai_software": 3,
+      "ai_general": 0,
+      "tech": 2
+    }
+  }
+}
