@@ -1,324 +1,344 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-10-13",
-  "date": "2026-10-13",
+  "edition_id": "wmt-2026-10-14",
+  "date": "2026-10-14",
   "daily_summary": {
-    "es": "Meta lanza su modelo frontera Muse Wonder mientras Apple prepara dos eventos de hardware este mes, incluido el evento 'Welcome home' del 13 de octubre.",
-    "en": "Meta launches its frontier model Muse Wonder while Apple preps two hardware events this month, including the 'Welcome home' event on October 13."
+    "es": "Apple despliega su estrategia de hogar inteligente con HomeView y Siri AI, mientras la computación distribuida de Apple y nuevos modelos de IA dominan la jornada técnica.",
+    "en": "Apple rolls out its smart-home push with HomeView and Siri AI, while Apple's distributed computing work and new AI models lead the day's tech news."
   },
   "topic_summaries": {
     "apple": {
-      "es": "Apple celebra hoy, 13 de octubre, su evento 'Welcome home', centrado en el hogar inteligente y con la HomeView como protagonista esperada, además de actualizaciones de HomePod mini y Apple TV 4K. Por separado, Bloomberg informa que Apple planea un evento de dos días en Los Ángeles los días 27 y 28 de octubre para mostrar un iMac con chip M6, un iPad mini con pantalla OLED y un MacBook Pro con M6. También se reporta que las nuevas funciones de IA para cámaras de Apple Home requerirán planes de iCloud+ más caros.",
-      "en": "Apple is holding its 'Welcome home' event today, October 13, focused on the smart home, with the HomeView expected as the centerpiece alongside HomePod mini and Apple TV 4K updates. Separately, Bloomberg reports Apple is planning a two-day Los Angeles showcase on October 27-28 for an M6 iMac, an OLED iPad mini and an M6 MacBook Pro. Apple Home's new AI camera summaries will reportedly require pricier iCloud+ plans."
+      "es": "Apple presentó HomeView, una pantalla inteligente con Siri AI que reconoce hasta seis rostros, junto al HomePod mini 2, el nuevo Apple TV 4K con chip A19 y la Apple Home Collection desarrollada con LG Electronics y Schneider Electric, disponible desde diciembre. También llegaron las segundas Release Candidates de macOS Sequoia 15.8.2 y Tahoe 26.7.2, y nuevo firmware beta para varios modelos de AirPods.",
+      "en": "Apple unveiled HomeView, a smart display with Siri AI that recognizes up to six faces, alongside the HomePod mini 2, a new A19-powered Apple TV 4K, and the Apple Home Collection built with LG Electronics and Schneider Electric, arriving from December. Apple also shipped second release candidates for macOS Sequoia 15.8.2 and Tahoe 26.7.2, plus new beta firmware for several AirPods models."
     },
     "ai_software": {
-      "es": "Meta lanzó Muse Wonder y Muse Wonder Full, sus modelos más grandes hasta ahora, ya disponibles para suscriptores de Muse Code, con ventana de contexto de 1M de tokens y capacidades agénticas de codificación. En paralelo, un nuevo scaffold llamado SELFCOMPACT deja que el propio modelo decida cuándo resumir su contexto, mejorando hasta 18.1 puntos en matemáticas con menor coste por consulta.",
-      "en": "Meta released Muse Wonder and Muse Wonder Full, its largest models yet, now available to Muse Code subscribers, with a 1M-token context window and agentic coding capabilities. Separately, a new scaffold called SELFCOMPACT lets the model itself decide when to summarize its context, improving by up to 18.1 points on math at lower per-query cost."
+      "es": "Apple reveló Minions, un sistema que agrupa GPUs inactivas de sus Macs para crear una nube virtual de inferencia, reduciendo tiempos de espera de hasta diez horas a minutos. Gemini 4 Argon llegó a AI Gateway con ventana de contexto de 1M tokens para tareas de codificación agéntica, y un nuevo libro de Sam Newman aborda patrones de recuperación ante desastres para sistemas con IA.",
+      "en": "Apple revealed Minions, a system that pools idle GPUs across its Macs into a virtual inference cloud, cutting wait times from as long as ten hours down to minutes. Gemini 4 Argon landed on AI Gateway with a 1M-token context window for agentic coding work, and a new book by Sam Newman covers disaster-recovery patterns for AI-powered systems."
     },
     "ai_general": {
-      "es": "El boletín Import AI 476 repasa nuevos benchmarks como Humanity's Sixth Sense y TasteVal, el modelo Beam de Reflection AI enfocado en eficiencia de tokens, y el anuncio de Mistral de que lanzará Mistral Large 4 en código abierto a finales de mes.",
-      "en": "The Import AI 476 newsletter covers new benchmarks like Humanity's Sixth Sense and TasteVal, Reflection AI's token-efficient Beam model, and Mistral's announcement that it plans to release the open-weight Mistral Large 4 by the end of the month."
+      "es": "Anthropic advirtió sobre riesgos de ciberataques del modelo abierto GLM-5.3, reavivando el debate sobre si los beneficios de los modelos abiertos compensan sus riesgos. Mientras tanto, laboratorios de IA compran datos de startups quebradas para entrenar modelos, y Google DeepMind incorporó a un filósofo residente para abordar la ética de la IA.",
+      "en": "Anthropic warned about cyberattack risks from the open-weight GLM-5.3 model, reviving debate over whether open models' benefits outweigh their risks. Meanwhile, AI labs are buying data from defunct startups to train models, and Google DeepMind brought on a resident philosopher to tackle AI ethics."
     },
     "tech": {
-      "es": "Epic Games estaría virando hacia un modelo de desarrollo de videojuegos 'con IA primero', lo que habría retrasado su shooter de Marvel/Star Wars. Además, Cloudflare detalla cómo sus Transformers permiten filtrar, reestructurar y redactar registros antes de exportarlos vía Logpush.",
-      "en": "Epic Games reportedly is pivoting to an 'AI-first' game development model, which has reportedly delayed its Marvel/Star Wars shooter. Separately, Cloudflare details how its Transformers let users filter, reshape and redact logs before exporting them via Logpush."
+      "es": "Pluto Security recaudó 42 millones de dólares para abordar los riesgos de seguridad derivados del uso generalizado de IA en empresas, mientras Shopify amplía su catálogo a más agentes de IA y Google planea llevar apps generadas con IA a la Play Store. Ejecutivos de OpenAI y Anthropic pidieron a legisladores británicos que regulen la IA.",
+      "en": "Pluto Security raised $42 million to tackle security risks from widespread enterprise AI use, while Shopify expanded its catalog to more AI agents and Google plans to bring AI-generated apps to the Play Store. OpenAI and Anthropic executives asked British lawmakers to regulate AI."
     }
   },
   "summary": {
     "apple": {
-      "es": "Apple celebra hoy, 13 de octubre, su evento 'Welcome home', centrado en el hogar inteligente y con la HomeView como protagonista esperada, además de actualizaciones de HomePod mini y Apple TV 4K. Por separado, Bloomberg informa que Apple planea un evento de dos días en Los Ángeles los días 27 y 28 de octubre para mostrar un iMac con chip M6, un iPad mini con pantalla OLED y un MacBook Pro con M6. También se reporta que las nuevas funciones de IA para cámaras de Apple Home requerirán planes de iCloud+ más caros.",
-      "en": "Apple is holding its 'Welcome home' event today, October 13, focused on the smart home, with the HomeView expected as the centerpiece alongside HomePod mini and Apple TV 4K updates. Separately, Bloomberg reports Apple is planning a two-day Los Angeles showcase on October 27-28 for an M6 iMac, an OLED iPad mini and an M6 MacBook Pro. Apple Home's new AI camera summaries will reportedly require pricier iCloud+ plans."
+      "es": "Apple presentó HomeView, una pantalla inteligente con Siri AI que reconoce hasta seis rostros, junto al HomePod mini 2, el nuevo Apple TV 4K con chip A19 y la Apple Home Collection desarrollada con LG Electronics y Schneider Electric, disponible desde diciembre. También llegaron las segundas Release Candidates de macOS Sequoia 15.8.2 y Tahoe 26.7.2, y nuevo firmware beta para varios modelos de AirPods.",
+      "en": "Apple unveiled HomeView, a smart display with Siri AI that recognizes up to six faces, alongside the HomePod mini 2, a new A19-powered Apple TV 4K, and the Apple Home Collection built with LG Electronics and Schneider Electric, arriving from December. Apple also shipped second release candidates for macOS Sequoia 15.8.2 and Tahoe 26.7.2, plus new beta firmware for several AirPods models."
     },
     "ai_software": {
-      "es": "Meta lanzó Muse Wonder y Muse Wonder Full, sus modelos más grandes hasta ahora, ya disponibles para suscriptores de Muse Code, con ventana de contexto de 1M de tokens y capacidades agénticas de codificación. En paralelo, un nuevo scaffold llamado SELFCOMPACT deja que el propio modelo decida cuándo resumir su contexto, mejorando hasta 18.1 puntos en matemáticas con menor coste por consulta.",
-      "en": "Meta released Muse Wonder and Muse Wonder Full, its largest models yet, now available to Muse Code subscribers, with a 1M-token context window and agentic coding capabilities. Separately, a new scaffold called SELFCOMPACT lets the model itself decide when to summarize its context, improving by up to 18.1 points on math at lower per-query cost."
+      "es": "Apple reveló Minions, un sistema que agrupa GPUs inactivas de sus Macs para crear una nube virtual de inferencia, reduciendo tiempos de espera de hasta diez horas a minutos. Gemini 4 Argon llegó a AI Gateway con ventana de contexto de 1M tokens para tareas de codificación agéntica, y un nuevo libro de Sam Newman aborda patrones de recuperación ante desastres para sistemas con IA.",
+      "en": "Apple revealed Minions, a system that pools idle GPUs across its Macs into a virtual inference cloud, cutting wait times from as long as ten hours down to minutes. Gemini 4 Argon landed on AI Gateway with a 1M-token context window for agentic coding work, and a new book by Sam Newman covers disaster-recovery patterns for AI-powered systems."
     },
     "ai_general": {
-      "es": "El boletín Import AI 476 repasa nuevos benchmarks como Humanity's Sixth Sense y TasteVal, el modelo Beam de Reflection AI enfocado en eficiencia de tokens, y el anuncio de Mistral de que lanzará Mistral Large 4 en código abierto a finales de mes.",
-      "en": "The Import AI 476 newsletter covers new benchmarks like Humanity's Sixth Sense and TasteVal, Reflection AI's token-efficient Beam model, and Mistral's announcement that it plans to release the open-weight Mistral Large 4 by the end of the month."
+      "es": "Anthropic advirtió sobre riesgos de ciberataques del modelo abierto GLM-5.3, reavivando el debate sobre si los beneficios de los modelos abiertos compensan sus riesgos. Mientras tanto, laboratorios de IA compran datos de startups quebradas para entrenar modelos, y Google DeepMind incorporó a un filósofo residente para abordar la ética de la IA.",
+      "en": "Anthropic warned about cyberattack risks from the open-weight GLM-5.3 model, reviving debate over whether open models' benefits outweigh their risks. Meanwhile, AI labs are buying data from defunct startups to train models, and Google DeepMind brought on a resident philosopher to tackle AI ethics."
     },
     "tech": {
-      "es": "Epic Games estaría virando hacia un modelo de desarrollo de videojuegos 'con IA primero', lo que habría retrasado su shooter de Marvel/Star Wars. Además, Cloudflare detalla cómo sus Transformers permiten filtrar, reestructurar y redactar registros antes de exportarlos vía Logpush.",
-      "en": "Epic Games reportedly is pivoting to an 'AI-first' game development model, which has reportedly delayed its Marvel/Star Wars shooter. Separately, Cloudflare details how its Transformers let users filter, reshape and redact logs before exporting them via Logpush."
+      "es": "Pluto Security recaudó 42 millones de dólares para abordar los riesgos de seguridad derivados del uso generalizado de IA en empresas, mientras Shopify amplía su catálogo a más agentes de IA y Google planea llevar apps generadas con IA a la Play Store. Ejecutivos de OpenAI y Anthropic pidieron a legisladores británicos que regulen la IA.",
+      "en": "Pluto Security raised $42 million to tackle security risks from widespread enterprise AI use, while Shopify expanded its catalog to more AI agents and Google plans to bring AI-generated apps to the Play Store. OpenAI and Anthropic executives asked British lawmakers to regulate AI."
     }
   },
   "top_stories": [
     {
-      "id": "evt_636da5d9c3b95ebd",
+      "id": "evt_6de4707956b2aee3",
       "title": {
-        "es": "Muse Wonder pone a Meta de vuelta en la frontera de la IA",
-        "en": "Muse Wonder puts Meta back at the AI frontier"
+        "es": "Apple presenta HomeView, su primera pantalla inteligente con Siri AI",
+        "en": "Apple unveils HomeView, its first smart display with Siri AI"
       },
       "body": {
-        "es": "Meta lanzó Muse Wonder, descrito como su modelo más grande hasta ahora, con capacidades que según la empresa rivalizan con los mejores modelos del mundo. El modelo incluye nuevas funciones para evitar que los agentes se descarrilen durante tareas largas. Los modelos Muse Wonder y Muse Wonder Full ya están disponibles para suscriptores de Muse Code.",
-        "en": "Meta released Muse Wonder, described as its largest model to date, with capabilities the company says rival the world's best. The model includes new features designed to keep agents from going off the rails during long tasks. Muse Wonder and Muse Wonder Full are now available to Muse Code subscribers."
+        "es": "Apple presentó HomeView, una pantalla inteligente de 7 pulgadas pensada para ser el centro del hogar, equipada con el chip A18 y una nueva versión de Siri mucho más conversacional. El dispositivo reconoce hasta seis rostros distintos para ofrecer contenido personal en Mensajes, FaceTime, Calendario, Recordatorios y Buscar, mientras que fotos compartidas y música siguen siendo accesibles para todos. Es la entrada de Apple en las pantallas inteligentes domésticas, un terreno dominado hasta ahora por Amazon y Google.",
+        "en": "Apple unveiled HomeView, a 7-inch smart display designed to be the center of the home, powered by the A18 chip and a new, far more conversational version of Siri. The device recognizes up to six distinct faces to surface personal content in Messages, FaceTime, Calendar, Reminders, and Find My, while shared photos and music remain accessible to everyone. It marks Apple's entry into smart home displays, a space long dominated by Amazon and Google."
       },
-      "newsId": "evt_636da5d9c3b95ebd",
-      "storyKey": "evt_636da5d9c3b95ebd",
-      "topic": "ai_software",
-      "source": "Wired",
-      "link": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier",
-      "image": "https://media.wired.com/photos/6accff96fccc4c5244b94f14/191:100/w_1280,c_limit/Muse-Wonder-Puts-Meta-Back-at-the-AI-Frontier-Business-2296209266.jpg",
-      "score": 8.35,
-      "publishedAt": "2026-10-12T17:00:27.000Z",
+      "newsId": "evt_6de4707956b2aee3",
+      "storyKey": "evt_6de4707956b2aee3",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home",
+      "image": "https://www.apple.com/newsroom/images/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/tile/Apple-HomeView-lineup-261013-lp.jpg.og.jpg?202610131304",
+      "score": 8.4,
+      "publishedAt": "2026-10-13T14:15:59.000Z",
       "evidence": [
         {
-          "claim": "Meta’s biggest model rivals the world’s best.",
-          "source": "e002f6681de5874a"
+          "claim": "Apple HomeView is designed to be central to the home and personal to everyone in it.",
+          "source": "c075ddcc254adcee"
+        },
+        {
+          "claim": "HomeView features Siri AI, an entirely new version of Siri that’s profoundly more capable and conversational.",
+          "source": "c075ddcc254adcee"
+        },
+        {
+          "claim": "HomeView recognizes users by their faces, adapting so they can access their personal content in Messages, FaceTime, Calendar, Reminders, and Find My.",
+          "source": "c075ddcc254adcee"
+        },
+        {
+          "claim": "Apple HomeView is equipped with the A18 chip, the same as in the iPhone 16 and 16 Plus.",
+          "source": "7fd9b26c0f9bdea0"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daring Fireball",
+          "link": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home"
+        },
+        {
+          "name": "Applesfera",
+          "link": "https://www.applesfera.com/nuevo/apple-homeview-caracteristicas-precio-ficha-tecnica"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_94e3e35eb2b9196e",
+      "title": {
+        "es": "Apple lanza de golpe cuatro novedades para el hogar: HomeView, HomePod mini 2, Apple TV 4K y Apple Home Collection",
+        "en": "Apple drops four home products at once: HomeView, HomePod mini 2, Apple TV 4K, and Apple Home Collection"
+      },
+      "body": {
+        "es": "Apple completó su ofensiva doméstica con el HomePod mini 2 (chip S10, cinco colores), el Apple TV 4K 2026 con chip A19 y tvOS 27, y la Apple Home Collection, una gama de cámaras, timbre con vídeo, cerradura y termostatos fabricados junto a LG. El lanzamiento conjunto confirma que Apple quiere competir de forma integral en el hogar conectado, más allá de un solo dispositivo.",
+        "en": "Apple rounded out its home push with the HomePod mini 2 (S10 chip, five colors), the 2026 Apple TV 4K with an A19 chip and tvOS 27, and the Apple Home Collection, a range of cameras, a video doorbell, a lock, and thermostats made with LG. The combined launch signals Apple's intent to compete broadly in the connected home, not just with a single device."
+      },
+      "newsId": "evt_94e3e35eb2b9196e",
+      "storyKey": "evt_94e3e35eb2b9196e",
+      "topic": "apple",
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/apple-1/resumen-todo-que-apple-ha-lanzado-para-casa-homeview-homepod-mini-2-apple-tv-4k-apple-home-collection",
+      "image": "https://i.blogs.es/9f9dd3/resumen-lanzamiento-apple/840_560.jpeg",
+      "score": 7.65,
+      "publishedAt": "2026-10-13T15:21:00.000Z",
+      "evidence": [
+        {
+          "claim": "Apple has launched HomeView, HomePod mini 2, Apple TV 4K, and Apple Home Collection.",
+          "source": "d8e1078dc4011d3f"
+        },
+        {
+          "claim": "HomeView is a smart screen with a 7-inch square display and Siri AI capabilities.",
+          "source": "d8e1078dc4011d3f"
+        },
+        {
+          "claim": "HomePod mini 2 has a new chip S10 and comes in five colors.",
+          "source": "d8e1078dc4011d3f"
+        },
+        {
+          "claim": "Apple TV 4K 2026 features the A19 chip and tvOS 27.",
+          "source": "d8e1078dc4011d3f"
+        },
+        {
+          "claim": "Apple Home Collection includes cameras, a doorbell with video, a lock, and thermostats.",
+          "source": "d8e1078dc4011d3f"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Applesfera",
+          "link": "https://www.applesfera.com/apple-1/resumen-todo-que-apple-ha-lanzado-para-casa-homeview-homepod-mini-2-apple-tv-4k-apple-home-collection"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_e068359fe3f602a3",
+      "title": {
+        "es": "Apple crea una nube de GPU virtual agrupando Macs inactivas para IA",
+        "en": "Apple builds a virtual GPU cloud by pooling idle Macs for AI"
+      },
+      "body": {
+        "es": "Apple desarrolló Minions, un sistema distribuido que agrupa GPUs inactivas de sus propios Macs para crear una nube de inferencia tolerante a fallos, reduciendo tiempos de cola de hasta diez horas a minutos. El sistema consta de cuatro componentes —Minion Server, un almacén de metadatos en PostgreSQL, Minion Executor y Minion Watchdog— y prioriza la disponibilidad de hardware sobre el throughput, a diferencia de un clúster Nvidia típico.",
+        "en": "Apple built Minions, a distributed system that pools idle GPUs across its own Macs to create a fault-tolerant inference cloud, cutting queue times from as long as ten hours down to minutes. The system has four components—Minion Server, a PostgreSQL metadata store, Minion Executor, and Minion Watchdog—and prioritizes hardware availability over throughput, unlike a typical Nvidia cluster."
+      },
+      "newsId": "evt_e068359fe3f602a3",
+      "storyKey": "evt_e068359fe3f602a3",
+      "topic": "ai_software",
+      "source": "The Register AI & ML",
+      "link": "https://www.theregister.com/ai-and-ml/2026/10/13/apple-unleashes-a-swarm-of-mac-minions-to-share-gpu-resources-for-large-ai-tasks/5302891",
+      "image": "https://image.theregister.com/5302903.jpg?croph=71.67&cropw=100&height=683&imageId=5302903&panoh=71.67&panow=100&panox=0&panoy=28.33&width=1200&x=0&y=28.33",
+      "score": 8.35,
+      "publishedAt": "2026-10-13T19:16:53.000Z",
+      "evidence": [
+        {
+          "claim": "Apple has developed a distributed system called Minions to aggregate idle GPUs across its Macs for AI workloads.",
+          "source": "4b04abda737b8cb4"
+        },
+        {
+          "claim": "Minions can reduce queue times for inference jobs from ten hours to minutes.",
+          "source": "4b04abda737b8cb4"
+        },
+        {
+          "claim": "The Minions system is designed to create a virtual GPU cloud from connected Mac hardware.",
+          "source": "4b04abda737b8cb4"
+        },
+        {
+          "claim": "Minions has four primary components: Minion Server, PostgreSQL Metadata Store, Minion Executor, and Minion Watchdog.",
+          "source": "4b04abda737b8cb4"
+        },
+        {
+          "claim": "Apple's approach with Minions focuses on hardware availability and utilization rather than throughput, latency, and efficient GPU utilization for large models.",
+          "source": "4b04abda737b8cb4"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Register AI & ML",
+          "link": "https://www.theregister.com/ai-and-ml/2026/10/13/apple-unleashes-a-swarm-of-mac-minions-to-share-gpu-resources-for-large-ai-tasks/5302891"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_4a03092bdd5d5df7",
+      "title": {
+        "es": "Apple se une a LG y Schneider Electric para la Apple Home Collection",
+        "en": "Apple partners with LG and Schneider Electric for the Apple Home Collection"
+      },
+      "body": {
+        "es": "Apple confirmó una alianza con LG Electronics y Schneider Electric para fabricar la Apple Home Collection, que incluye sensores, termostatos, cámaras y una cerradura inteligente, con disponibilidad desde diciembre y hasta 2027. LG aporta un timbre con vídeo y una cámara tipo foco, ampliando el ecosistema de accesorios domésticos de Apple más allá del hardware propio.",
+        "en": "Apple confirmed a partnership with LG Electronics and Schneider Electric to manufacture the Apple Home Collection, which includes sensors, thermostats, cameras, and a smart lock, arriving from December through 2027. LG is contributing a video doorbell and a floodlight-style camera, extending Apple's home accessory ecosystem beyond its own hardware."
+      },
+      "newsId": "evt_4a03092bdd5d5df7",
+      "storyKey": "evt_4a03092bdd5d5df7",
+      "topic": "apple",
+      "source": "MacStories",
+      "link": "https://www.macstories.net/news/apple-teams-up-with-lg-electronics-and-schneider-electric-to-offer-the-apple-home-collection",
+      "image": "https://cdn.macstories.net/images/uploads/2026/10/13/apple-home-collection-lineup-261013-1791902813432-49e02b44ba.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-13T15:15:41.000Z",
+      "evidence": [
+        {
+          "claim": "Apple has partnered with LG Electronics and Schneider Electric on the Apple Home Collection.",
+          "source": "b941adc0acd78962"
+        },
+        {
+          "claim": "The Apple Home Collection includes sensors, thermostats, cameras, and a smart lock.",
+          "source": "b941adc0acd78962"
+        },
+        {
+          "claim": "LG has developed a video doorbell and a floodlight camera for the Apple Home Collection.",
+          "source": "b941adc0acd78962"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacStories",
+          "link": "https://www.macstories.net/news/apple-teams-up-with-lg-electronics-and-schneider-electric-to-offer-the-apple-home-collection"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_9a58de2df3c5bc3d",
+      "title": {
+        "es": "Laboratorios de IA compran datos de startups quebradas para entrenar modelos",
+        "en": "AI labs are buying data from defunct startups to train models"
+      },
+      "body": {
+        "es": "Empresas como SimpleClosure y Sunset ayudan a startups que cierran a vender su código y datos operativos —correos, chats, documentos— a laboratorios de IA, vendedores de entornos simulados y empresas tecnológicas. Google pagó 10 millones de dólares por décadas de datos de Spirit Airlines, incluidos 100 millones de correos y 176.000 registros de empleados, en una venta que sindicatos y abogados ya califican de legalmente delicada por la posible inclusión de información personal.",
+        "en": "Companies like SimpleClosure and Sunset are helping shuttering startups sell their code and operational data—emails, chats, documents—to AI labs, simulated-workspace vendors, and tech companies. Google paid $10 million for decades of Spirit Airlines data, including 100 million emails and 176,000 employee records, in a sale that unions and lawyers already call legally fraught given the risk of embedded personal information."
+      },
+      "newsId": "evt_9a58de2df3c5bc3d",
+      "storyKey": "evt_9a58de2df3c5bc3d",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/AI-Death_Redamonti_MIT-thumb.jpg?resize=1200,600",
+      "score": 7.4,
+      "publishedAt": "2026-10-13T09:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "SimpleClosure, part of a new growth sector in tech, helps founders sell the code and workspace data of their dying startups.",
+          "source": "a35f15b8f2380ec8"
+        },
+        {
+          "claim": "Tech undertakers are selling the data remains to AI labs, with buyers including foundation AI labs, vendors that construct simulated workspaces for AI training, and mature tech companies building their own models.",
+          "source": "a35f15b8f2380ec8"
+        },
+        {
+          "claim": "The sale of data from dying startups has become increasingly routine, with 47% of SimpleClosure deals now including code or data sales.",
+          "source": "a35f15b8f2380ec8"
+        },
+        {
+          "claim": "Google outbid the AI data company Mercor to buy Spirit Airlines' decades of data, including 100 million emails, 500 million Teams messages, and 176,000 employee records, for $10 million.",
+          "source": "a35f15b8f2380ec8"
+        },
+        {
+          "claim": "The sale of data from dying startups could be legally problematic, with some private details potentially being included in the data.",
+          "source": "a35f15b8f2380ec8"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_634c9d2b34c4452f",
+      "title": {
+        "es": "Pluto Security capta 42 millones de dólares ante los nuevos riesgos de seguridad de la IA",
+        "en": "Pluto Security raises $42 million as AI creates new security risks"
+      },
+      "body": {
+        "es": "Pluto Security levantó una ronda de 42 millones de dólares para atender un problema emergente: cuando todos en una empresa tienen acceso a herramientas de IA, el uso se vuelve impredecible y abre nuevos agujeros de seguridad. La financiación refleja la creciente preocupación corporativa por vulnerabilidades derivadas del uso masivo de IA en el lugar de trabajo.",
+        "en": "Pluto Security raised a $42 million round to address an emerging problem: when everyone in a company has access to AI tools, usage becomes unpredictable and opens new security holes. The funding reflects growing corporate concern over vulnerabilities stemming from widespread AI use in the workplace."
+      },
+      "newsId": "evt_634c9d2b34c4452f",
+      "storyKey": "evt_634c9d2b34c4452f",
+      "topic": "tech",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot_20261013_211032.png?resize=1200,815",
+      "score": 7.65,
+      "publishedAt": "2026-10-13T17:18:25.000Z",
+      "evidence": [
+        {
+          "claim": "Giving everyone in a company access to AI tools can lead to unexpected usage.",
+          "source": "0d7c798cbeba8270"
+        },
+        {
+          "claim": "Companies are concerned about new security vulnerabilities due to AI usage.",
+          "source": "0d7c798cbeba8270"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_edccfe6e6746716a",
+      "title": {
+        "es": "OpenAI y Anthropic piden a legisladores británicos que los regulen",
+        "en": "OpenAI and Anthropic tell British lawmakers: regulate us"
+      },
+      "body": {
+        "es": "Líderes de IA se sumaron a denunciantes y responsables de seguridad en una amplia sesión parlamentaria en el Reino Unido, donde pidieron explícitamente una regulación del sector. El episodio marca un giro notable en el discurso público de las principales empresas de IA frente a los reguladores.",
+        "en": "AI leaders joined whistleblowers and security officials at a sweeping parliamentary session in the UK, where they explicitly called for regulation of the sector. The episode marks a notable shift in how leading AI companies are publicly framing their stance toward regulators."
+      },
+      "newsId": "evt_edccfe6e6746716a",
+      "storyKey": "evt_edccfe6e6746716a",
+      "topic": "tech",
+      "source": "Wired",
+      "link": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us",
+      "image": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/191:100/w_1280,c_limit/101326-Big%20Four%20UK%20parliment.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-13T19:35:29.000Z",
+      "evidence": [
+        {
+          "claim": "AI leaders joined whistleblowers and security leaders at a parliamentary session.",
+          "source": "b833de34f2aceadc"
         }
       ],
       "sources": [
         {
           "name": "Wired",
-          "link": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_96c09165d2a2536d",
-      "title": {
-        "es": "Qué esperar del evento 'Welcome home' de Apple del 13 de octubre",
-        "en": "What to expect from Apple's October 13 'Welcome home' event"
-      },
-      "body": {
-        "es": "Apple celebra hoy, 13 de octubre de 2026, un segundo evento de otoño llamado 'Welcome home', centrado en el hogar inteligente. Se espera que el producto estelar sea la HomeView, una pantalla inteligente similar a medio HomePod con una pantalla añadida. También se anticipan un HomePod mini renovado con los colores Powder Pink y Forest Green, y un Apple TV 4K con soporte para Siri AI y posible nuevo procesador.",
-        "en": "Apple is holding its second fall event, called 'Welcome home,' today, October 13, 2026, focused on the smart home. The headline product is expected to be the HomeView, a smart display resembling half a HomePod with a screen attached. A refreshed HomePod mini in new Powder Pink and Forest Green colorways and an Apple TV 4K with Siri AI support and a possible new chip are also anticipated."
-      },
-      "newsId": "evt_96c09165d2a2536d",
-      "storyKey": "evt_96c09165d2a2536d",
-      "topic": "apple",
-      "source": "AppleInsider",
-      "link": "https://appleinsider.com/articles/26/10/12/what-to-expect-from-apples-october-13-welcome-home-releases",
-      "image": "https://media.appleinsider.com/gallery/69208-145992-johnternusapplepark-xl.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-12T12:20:00.000Z",
-      "evidence": [
-        {
-          "claim": "Apple is holding a second fall event on October 13, 2026, titled 'Welcome home'.",
-          "source": "e44a6452222694f8"
-        },
-        {
-          "claim": "The HomeView, a smart display, is expected to be a key product of the event.",
-          "source": "e44a6452222694f8"
-        },
-        {
-          "claim": "The HomePod mini is expected to get a refresh with new colors and possibly new chips.",
-          "source": "e44a6452222694f8"
-        },
-        {
-          "claim": "The Apple TV 4K is expected to get a similar update with support for Siri AI and possibly a new processor.",
-          "source": "e44a6452222694f8"
-        }
-      ],
-      "sources": [
-        {
-          "name": "AppleInsider",
-          "link": "https://appleinsider.com/articles/26/10/12/what-to-expect-from-apples-october-13-welcome-home-releases"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_ee79de8b2516078f",
-      "title": {
-        "es": "Apple planea un evento de dos días para mostrar nuevos Mac y el iPad mini",
-        "en": "Apple plans two-day event to showcase new Macs and iPad mini"
-      },
-      "body": {
-        "es": "Según Mark Gurman de Bloomberg, Apple planea invitar a creadores de contenido a un evento de dos días en Los Ángeles el 27 y 28 de octubre. Se esperan un iMac de 24 pulgadas con chip M6 y nuevos colores, un iPad mini 8 con pantalla OLED, chip A20 Pro y diseño resistente al agua, y un Mac Studio con 512GB de RAM que Apple ya había anunciado para finales de octubre.",
-        "en": "According to Bloomberg's Mark Gurman, Apple plans to invite content creators to a two-day showcase in Los Angeles on October 27-28. Expected products include a 24-inch iMac with an M6 chip and new colors, an iPad mini 8 with an OLED display, A20 Pro chip and water-resistant design, and a Mac Studio with 512GB of RAM that Apple had already announced for late October."
-      },
-      "newsId": "evt_ee79de8b2516078f",
-      "storyKey": "evt_ee79de8b2516078f",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/10/12/new-macs-and-ipad-mini-in-los-angeles",
-      "image": "https://images.macrumors.com/article-new/2025/10/M5-MacBook-Pro.jpg",
-      "score": 8.35,
-      "publishedAt": "2026-10-12T16:49:04.000Z",
-      "evidence": [
-        {
-          "claim": "Apple is planning a two-day product showcase in Los Angeles for content creators.",
-          "source": "a633137ec54d268a"
-        },
-        {
-          "claim": "The 24\" iMac will have an M6 chip and new color options.",
-          "source": "a633137ec54d268a"
-        },
-        {
-          "claim": "The iPad mini 8 will have an OLED display and a redesigned speaker system.",
-          "source": "a633137ec54d268a"
-        },
-        {
-          "claim": "Apple will release a Mac Studio with 512GB of RAM in late October.",
-          "source": "a633137ec54d268a"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/10/12/new-macs-and-ipad-mini-in-los-angeles"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_be9198def4b34d32",
-      "title": {
-        "es": "Epic Games reportaría un giro hacia el desarrollo de videojuegos 'con IA primero'",
-        "en": "Epic Games reportedly pivoting to an 'AI first' game development model"
-      },
-      "body": {
-        "es": "Según reportes, Epic Games estaría virando hacia un modelo de desarrollo 'sin código escrito a mano' ni arte libre de IA, lo que habría contribuido al retraso de su shooter ambientado en Marvel/Star Wars. El reporte no detalla cronograma ni alcance exacto del cambio.",
-        "en": "Epic Games is reportedly pivoting toward a development model with 'no more hand-written code' or AI-free art, which has reportedly contributed to the delay of its Marvel/Star Wars-themed shooter. The report does not detail an exact timeline or scope for the shift."
-      },
-      "newsId": "evt_be9198def4b34d32",
-      "storyKey": "evt_be9198def4b34d32",
-      "topic": "tech",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/epicdisney-1152x648.png",
-      "score": 7.65,
-      "publishedAt": "2026-10-12T20:59:50.000Z",
-      "evidence": [
-        {
-          "claim": "Epic Games is pivoting to an AI-first game development model.",
-          "source": "b01659fbe30f4473"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Ars Technica",
-          "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_f99b7f64fcb04b7a",
-      "title": {
-        "es": "Agentes de modelos de lenguaje que se autocompactan",
-        "en": "Self-compacting language model agents"
-      },
-      "body": {
-        "es": "Un nuevo trabajo de investigación presenta SELFCOMPACT, un scaffold que permite al propio modelo decidir cuándo y cómo resumir su contexto acumulado, combinando una herramienta de compactación con una rúbrica ligera que indica cuándo activarla. Sin necesidad de ajuste fino, mejora hasta 18.1 puntos en matemáticas y de 5 a 9 puntos en búsqueda agéntica, con un coste por consulta entre 30% y 70% menor frente a una línea base sin resumen.",
-        "en": "A new research paper introduces SELFCOMPACT, a scaffold that lets the model itself decide when and how to summarize its accumulated context, pairing a compaction tool with a lightweight rubric for when to trigger it. Without any fine-tuning, it improves by up to 18.1 points on math and 5-9 points on agentic search tasks, at 30-70% lower per-question cost than a no-summarization baseline."
-      },
-      "newsId": "evt_f99b7f64fcb04b7a",
-      "storyKey": "evt_f99b7f64fcb04b7a",
-      "topic": "ai_software",
-      "source": "Apple ML Research",
-      "link": "https://machinelearning.apple.com/research/self-compacting-language-agents",
-      "image": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
-      "score": 8.6,
-      "publishedAt": "2026-10-12T00:00:00.000Z",
-      "evidence": [
-        {
-          "claim": "SELFCOMPACT allows the model to decide when and how to compact.",
-          "source": "e7add48fc0050749"
-        },
-        {
-          "claim": "SELFCOMPACT improves over a no-summarization baseline by up to 18.1 points on math and 5–9 points on agentic search.",
-          "source": "e7add48fc0050749"
-        },
-        {
-          "claim": "SELFCOMPACT uses a compaction tool and a lightweight rubric to decide when to compact.",
-          "source": "e7add48fc0050749"
-        },
-        {
-          "claim": "SELFCOMPACT can be effective without fine-tuning or external supervision.",
-          "source": "e7add48fc0050749"
-        },
-        {
-          "claim": "SELFCOMPACT addresses the meta-cognitive gap in models.",
-          "source": "e7add48fc0050749"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Apple ML Research",
-          "link": "https://machinelearning.apple.com/research/self-compacting-language-agents"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_67e3ec2b7ec35497",
-      "title": {
-        "es": "Meta presenta nueva infraestructura de red abierta en el OCP Summit 2026",
-        "en": "Meta unveils new open networking infrastructure at OCP Summit 2026"
-      },
-      "body": {
-        "es": "En el Open Compute Project Global Summit 2026, Meta presentó IcePack, su primer rack de red refrigerado por líquido, junto con IceCube, una plataforma de switch de 102.4T. También introdujo Flattened Planar Fabric (FPF), un tejido de escalado horizontal multiplano para conectar GPUs, y MetaRoCE, un protocolo de transporte de IA de código abierto.",
-        "en": "At the 2026 Open Compute Project Global Summit, Meta unveiled IcePack, its first liquid-cooled network rack, alongside IceCube, a 102.4T switch platform. It also introduced Flattened Planar Fabric (FPF), a multiplane scale-out fabric for connecting GPUs, and MetaRoCE, an open-source AI transport protocol."
-      },
-      "newsId": "evt_67e3ec2b7ec35497",
-      "storyKey": "evt_67e3ec2b7ec35497",
-      "topic": "ai_software",
-      "source": "Meta Engineering",
-      "link": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks",
-      "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-OCP-2026-IcePack-Rack-e1791838724959.png",
-      "score": 8.35,
-      "publishedAt": "2026-10-12T21:19:18.000Z",
-      "evidence": [
-        {
-          "claim": "Meta is sharing the next generation of open networking infrastructure at the 2026 Open Compute Project Global Summit.",
-          "source": "5d0a6824329cfd8e"
-        },
-        {
-          "claim": "Meta is introducing IcePack, their first liquid-cooled network rack.",
-          "source": "5d0a6824329cfd8e"
-        },
-        {
-          "claim": "Meta is launching the 102.4T switch platform called IceCube.",
-          "source": "5d0a6824329cfd8e"
-        },
-        {
-          "claim": "Meta is presenting Flattened Planar Fabric (FPF), a multiplane backend scale-out fabric.",
-          "source": "5d0a6824329cfd8e"
-        },
-        {
-          "claim": "Meta is releasing MetaRoCE, an open-source AI transport protocol.",
-          "source": "5d0a6824329cfd8e"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Meta Engineering",
-          "link": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_cd86cc57e4fb756f",
-      "title": {
-        "es": "Los nuevos resúmenes de IA de Apple Home para cámaras de seguridad cuestan más de lo esperado",
-        "en": "Apple Home's new AI summaries for security cameras cost more than expected"
-      },
-      "body": {
-        "es": "Según un reporte, las nuevas funciones de resumen con IA para cámaras de seguridad de Apple Home requerirán planes de iCloud+ más costosos si el usuario tiene varias cámaras instaladas en casa.",
-        "en": "According to a report, Apple Home's new AI-powered summary features for security cameras will require more expensive iCloud+ plans for users with multiple cameras installed at home."
-      },
-      "newsId": "evt_cd86cc57e4fb756f",
-      "storyKey": "evt_cd86cc57e4fb756f",
-      "topic": "tech",
-      "source": "Engadget",
-      "link": "https://www.engadget.com/2281077/apple-home-ai-summaries-security-camera-prices",
-      "image": "https://www.engadget.com/img/gallery/apple-homes-new-ai-summaries-for-security-cameras-cost-more-than-youd-think/l-intro-1791469750.jpg",
-      "score": 6.4,
-      "publishedAt": "2026-10-11T16:15:00.000Z",
-      "evidence": [
-        {
-          "claim": "Apple Home's new AI summaries for security cameras require more expensive iCloud+ plans.",
-          "source": "31fe9a429787ae3e"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Engadget",
-          "link": "https://www.engadget.com/2281077/apple-home-ai-summaries-security-camera-prices"
+          "link": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us"
         }
       ],
       "what_changed": []
@@ -326,149 +346,149 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_2d5c4e4ac03f9f8c",
+      "id": "evt_c26dbbbf29321c2b",
       "title": {
-        "es": "MacBook Pro con M6: tres novedades que llegan este mes",
-        "en": "M6 MacBook Pro: three upgrades launching this month"
+        "es": "Gemini 4 Argon llega a AI Gateway",
+        "en": "Gemini 4 Argon arrives on AI Gateway"
       },
       "text": {
-        "es": "Apple lanzará un nuevo MacBook Pro con chip M6 más adelante este mes, manteniendo la pantalla de 14 pulgadas y el diseño industrial actual.",
-        "en": "Apple is launching a new M6 MacBook Pro later this month, keeping the 14-inch screen and current industrial design."
+        "es": "Gemini 4 Argon, orientado a codificación y razonamiento agéntico, ya está disponible en AI Gateway con ventana de contexto de 1M tokens, soporte para texto, imagen, PDF y vídeo, y llamadas a herramientas. AI Gateway ofrece una API unificada para gestionar modelos, costes y failover con mayor disponibilidad que los proveedores individuales.",
+        "en": "Gemini 4 Argon, built for coding and agentic reasoning, is now available on AI Gateway with a 1M-token context window, support for text, image, PDF, and video input, and tool calling. AI Gateway provides a unified API for managing models, costs, and failover with higher uptime than individual providers."
       },
-      "newsId": "evt_2d5c4e4ac03f9f8c",
-      "storyKey": "evt_2d5c4e4ac03f9f8c",
-      "topic": "apple",
-      "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/10/12/m6-macbook-pro-three-new-upgrades-launching-this-fall",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/m6-macbook-pro-angle.jpg?quality=82&strip=all&w=1600",
-      "score": 7.65,
-      "publishedAt": "2026-10-12T20:23:21.000Z",
+      "newsId": "evt_c26dbbbf29321c2b",
+      "storyKey": "evt_c26dbbbf29321c2b",
+      "topic": "ai_software",
+      "source": "Vercel AI",
+      "link": "https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway",
+      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/38lhFWswSQd6xdOwRCNNKC/9d4006e436aba2c29c165b60f58e816a/image.png",
+      "score": 8.4,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
       "evidence": [
         {
-          "claim": "Apple is launching a new M6 MacBook Pro with a 14-inch screen and the current industrial design.",
-          "source": "dfa21be4543d80b4"
+          "claim": "Gemini 4 Argon is built for coding, agentic work, and complex reasoning.",
+          "source": "1ec82be17c450a5b"
+        },
+        {
+          "claim": "Gemini 4 Argon has a 1M token context window.",
+          "source": "1ec82be17c450a5b"
+        },
+        {
+          "claim": "Gemini 4 Argon supports tool calling.",
+          "source": "1ec82be17c450a5b"
+        },
+        {
+          "claim": "AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime.",
+          "source": "1ec82be17c450a5b"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Vercel AI",
+          "link": "https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_9c72629de597a47b",
+      "title": {
+        "es": "Shopify abre su catálogo a más agentes de IA",
+        "en": "Shopify opens its catalog to more AI agents"
+      },
+      "text": {
+        "es": "Shopify amplió su función de comercio agéntico para que los clientes conecten un agente con su cuenta en Shop, la plataforma que centraliza pedidos y recomendaciones. Los pedidos realizados por el agente se canalizan de vuelta a la app Shop, y cada compra requiere la aprobación explícita del comprador.",
+        "en": "Shopify expanded its agentic commerce feature so customers can connect an agent to their account on Shop, the platform that centralizes orders and recommendations. Orders placed through the agent are routed back to the Shop app, and every purchase requires explicit buyer approval."
+      },
+      "newsId": "evt_9c72629de597a47b",
+      "storyKey": "evt_9c72629de597a47b",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2225304503.jpg?crop=0%2C10.729057198914%2C100%2C78.541885602173&quality=90&strip=all&w=1200",
+      "score": 7.65,
+      "publishedAt": "2026-10-13T19:42:42.000Z",
+      "evidence": [
+        {
+          "claim": "The expanded feature enables customers to connect an agent with their account on Shop, a Shopify-owned platform.",
+          "source": "15ee0fbd505f33e3"
+        },
+        {
+          "claim": "Orders placed through the agent are funneled back to the Shop app.",
+          "source": "15ee0fbd505f33e3"
+        },
+        {
+          "claim": "Buyers must approve each purchase.",
+          "source": "15ee0fbd505f33e3"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_c494185c505ed68c",
+      "title": {
+        "es": "Google quiere alojar tus apps 'vibe-coded' en la Play Store",
+        "en": "Google wants to host your vibe-coded apps in the Play Store"
+      },
+      "text": {
+        "es": "Google planea ayudar a convertir apps personales generadas con IA en lanzamientos de distribución amplia dentro de la Play Store, abriendo una vía para que creaciones informales hechas con asistentes de codificación lleguen a un público mayor.",
+        "en": "Google plans to help turn personal AI-generated apps into wide releases within the Play Store, opening a path for informal creations made with coding assistants to reach a broader audience."
+      },
+      "newsId": "evt_c494185c505ed68c",
+      "storyKey": "evt_c494185c505ed68c",
+      "topic": "tech",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/play-store-1152x648.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-13T17:00:39.000Z",
+      "evidence": [
+        {
+          "claim": "Google plans to help turn those personal AI-generated apps into wide releases.",
+          "source": "a050a4e6a7b81cfe"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "link": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_d79d4a377924cf2b",
+      "title": {
+        "es": "Apple lanza las segundas Release Candidates de macOS Sequoia 15.8.2 y Tahoe 26.7.2",
+        "en": "Apple releases second RCs for macOS Sequoia 15.8.2 and Tahoe 26.7.2"
+      },
+      "text": {
+        "es": "Apple publicó las segundas Release Candidates de macOS Sequoia 15.8.2 y macOS Tahoe 26.7.2, apenas una semana después de las primeras RCs, en un paso habitual previo al lanzamiento público de ambas actualizaciones.",
+        "en": "Apple released the second release candidates for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2, just one week after the first RCs, a routine step ahead of the public rollout of both updates."
+      },
+      "newsId": "evt_d79d4a377924cf2b",
+      "storyKey": "evt_d79d4a377924cf2b",
+      "topic": "apple",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/10/13/apple-releases-second-rcs-for-macos-sequoia-15-8-2-and-tahoe-26-7-2",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2025/07/macOS-Tahoe.jpg?quality=82&strip=all&w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-10-13T18:24:11.000Z",
+      "evidence": [
+        {
+          "claim": "Apple has released the second Release Candidates for macOS Sequoia 15.8.2 and macOS Tahoe 26.7.2.",
+          "source": "b6aeda743bad65c2"
         }
       ],
       "sources": [
         {
           "name": "9to5Mac",
-          "link": "https://9to5mac.com/2026/10/12/m6-macbook-pro-three-new-upgrades-launching-this-fall"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_b416b030dc3008b6",
-      "title": {
-        "es": "Todo lo esperado del lanzamiento 'Welcome Home' de Apple",
-        "en": "Apple 'Welcome Home' launch: everything to expect"
-      },
-      "text": {
-        "es": "La HomeView será un dispositivo multifunción construido en torno a Siri AI, con chip A18 y 8GB de RAM, y soportará apps de Apple como Safari, Music, Mensajes, FaceTime y Mail, aunque sin App Store propia.",
-        "en": "The HomeView will be a multi-function device built around Siri AI, with an A18 chip and 8GB of RAM, supporting Apple apps like Safari, Music, Messages, FaceTime and Mail, though without its own App Store."
-      },
-      "newsId": "evt_b416b030dc3008b6",
-      "storyKey": "evt_b416b030dc3008b6",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/guide/apple-welcome-home-product-recap",
-      "image": "https://images.macrumors.com/article-new/2026/10/Apple-TV-4K-HomeView-HomePod-Mini-tweaked.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-12T17:17:12.000Z",
-      "evidence": [
-        {
-          "claim": "The HomeView will be a multi-function device designed for all of a home's occupants.",
-          "source": "2a96a8f8d538a652"
-        },
-        {
-          "claim": "The HomeView will have an A18 chip and 8GB of RAM.",
-          "source": "2a96a8f8d538a652"
-        },
-        {
-          "claim": "The HomeView will support Apple apps such as Safari, News, Music, Reminders, Calendar, Weather, Messages, FaceTime, Photos, and Mail.",
-          "source": "2a96a8f8d538a652"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/guide/apple-welcome-home-product-recap"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_476ec2ba6889514e",
-      "title": {
-        "es": "Agent37 (YC F26): sandboxes de agentes a bajo coste",
-        "en": "Agent37 (YC F26): low-cost agent sandboxes"
-      },
-      "text": {
-        "es": "Agent37 ofrece sandboxes para ejecutar agentes de IA a menos del 10% del coste de la mayoría de proveedores, usando gVisor para compartir memoria entre sandboxes sin reservar una VM completa por cada uno, con un coste de infraestructura de entre 0.05 y 0.10 dólares por usuario al mes en el nivel gratuito.",
-        "en": "Agent37 offers sandboxes for running AI agents at under 10% of the cost of most providers, using gVisor to share memory across sandboxes without reserving a full VM for each one, with infrastructure costs averaging $0.05-$0.10 per user per month on the free tier."
-      },
-      "newsId": "evt_476ec2ba6889514e",
-      "storyKey": "evt_476ec2ba6889514e",
-      "topic": "tech",
-      "source": "Hacker News",
-      "link": "https://news.ycombinator.com/item?id=50059096",
-      "image": null,
-      "score": 7.65,
-      "publishedAt": "2026-10-12T16:46:34.000Z",
-      "evidence": [
-        {
-          "claim": "Agent37 offers sandboxes for running AI agents at under 10% of the cost of most sandbox providers.",
-          "source": "079428a25065364a"
-        },
-        {
-          "claim": "The infrastructure cost for the free sandboxes averages around $0.05 to $0.10 per user per month.",
-          "source": "079428a25065364a"
-        },
-        {
-          "claim": "Agent37 uses gVisor for better utilization and fast boot times, which allows sharing resources across the host.",
-          "source": "079428a25065364a"
-        },
-        {
-          "claim": "The size and shape of the hosts Agent37 buys are optimized for packing more RAM into a given host, which is crucial for cost reduction.",
-          "source": "079428a25065364a"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Hacker News",
-          "link": "https://news.ycombinator.com/item?id=50059096"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_3371f43cff6251a6",
-      "title": {
-        "es": "GitHub Copilot para principiantes: enseña a Copilot tu base de código",
-        "en": "GitHub Copilot for beginners: teach Copilot about your codebase"
-      },
-      "text": {
-        "es": "Una guía muestra cómo añadir instrucciones y habilidades personalizadas a un repositorio, usar agentes personalizados y conectar servidores MCP como Playwright para mejorar el contexto de Copilot.",
-        "en": "A guide shows how to add custom instructions and skills to a repository, use custom agents, and connect MCP servers like Playwright to improve Copilot's context."
-      },
-      "newsId": "evt_3371f43cff6251a6",
-      "storyKey": "evt_3371f43cff6251a6",
-      "topic": "ai_software",
-      "source": "GitHub Blog",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
-      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png",
-      "score": 7.65,
-      "publishedAt": "2026-10-12T17:43:59.000Z",
-      "evidence": [
-        {
-          "claim": "GitHub Copilot app for beginners provides instructions on adding custom instructions and skills to repositories.",
-          "source": "c4ff2ba32a9c9ecb"
-        }
-      ],
-      "sources": [
-        {
-          "name": "GitHub Blog",
-          "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase"
+          "link": "https://9to5mac.com/2026/10/13/apple-releases-second-rcs-for-macos-sequoia-15-8-2-and-tahoe-26-7-2"
         }
       ],
       "what_changed": []
@@ -476,96 +496,75 @@
   ],
   "trending_repos": [
     {
-      "id": "mastra-ai/mastra",
-      "repoKey": "mastra-ai/mastra",
-      "name": "mastra",
-      "full_name": "mastra-ai/mastra",
-      "link": "https://github.com/mastra-ai/mastra",
-      "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
-      "language": "TypeScript",
-      "stars": 28741,
-      "stars_today": null,
-      "stars_per_day_estimate": 22.43916856779973,
-      "trend_basis": "normalized_50.3h",
-      "trend_score": 7.550711400121185,
-      "default_branch": "main",
-      "created_at": "2024-08-06T20:44:31Z",
-      "pushed_at": "2026-10-13T00:38:01Z",
-      "why_it_matters": {
-        "es": "Mastra es un framework de TypeScript para construir aplicaciones y agentes de IA, con enrutamiento a más de 40 proveedores de modelos, flujos de trabajo basados en grafos y soporte de human-in-the-loop, útil para desarrolladores que buscan llevar prototipos de IA a producción.",
-        "en": "Mastra is a TypeScript framework for building AI-powered applications and agents, with routing across 40+ model providers, graph-based workflows and human-in-the-loop support, useful for developers taking AI prototypes to production."
-      }
-    },
-    {
-      "id": "vllm-project/semantic-router",
-      "repoKey": "vllm-project/semantic-router",
-      "name": "semantic-router",
-      "full_name": "vllm-project/semantic-router",
-      "link": "https://github.com/vllm-project/semantic-router",
-      "description": "An open, programmable decision layer for models and compute.",
-      "language": "Go",
-      "stars": 6118,
-      "stars_today": null,
-      "stars_per_day_estimate": 28.095145073127046,
-      "trend_basis": "normalized_26.5h",
-      "trend_score": 7.861161036821544,
-      "default_branch": "main",
-      "created_at": "2025-08-26T21:49:50Z",
-      "pushed_at": "2026-10-13T00:27:53Z",
-      "why_it_matters": {
-        "es": "vLLM Semantic Router es una capa de decisión abierta que selecciona o combina modelos y recursos de cómputo para cada llamada de un agente, permitiendo fijar prioridades de calidad, latencia y coste sin cambiar la lógica del harness del agente.",
-        "en": "vLLM Semantic Router is an open decision layer that selects or combines models and compute for each agent call, letting teams set quality, latency and cost priorities without changing the agent harness logic."
-      }
-    },
-    {
-      "id": "agentvivekkumar/dontbemichael",
-      "repoKey": "agentvivekkumar/dontbemichael",
-      "name": "dontbemichael",
-      "full_name": "agentvivekkumar/dontbemichael",
-      "link": "https://github.com/agentvivekkumar/dontbemichael",
-      "description": "A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents",
-      "language": "TypeScript",
-      "stars": 344,
-      "stars_today": null,
-      "stars_per_day_estimate": 67.06583017456134,
-      "trend_basis": "normalized_26.5h",
-      "trend_score": 9.085093420346707,
-      "default_branch": "main",
-      "created_at": "2026-09-15T03:39:15Z",
-      "pushed_at": "2026-10-13T00:11:54Z",
-      "why_it_matters": {
-        "es": "Dontbemichael es una aplicación de escritorio que coordina un equipo de agentes de Claude Code con roles específicos (finanzas, soporte, ventas) gestionados por un 'gerente de oficina' IA, mostrando un patrón práctico de orquestación multiagente local sobre suscripciones existentes.",
-        "en": "Dontbemichael is a desktop app that coordinates a team of Claude Code agents with specific roles (finance, support, sales) managed by an AI 'office manager,' showcasing a practical local multi-agent orchestration pattern on top of existing subscriptions."
-      }
-    },
-    {
-      "id": "Harvil1/codeAgent",
-      "repoKey": "Harvil1/codeAgent",
-      "name": "codeAgent",
-      "full_name": "Harvil1/codeAgent",
-      "link": "https://github.com/Harvil1/codeAgent",
-      "description": "CodeAgent is an open-source coding agent that lives in your terminal. It understands your repository, plans multi-step changes, writes and edits files, runs commands and tests, and iterates until the task is done — all with a transparent, extensible tool loop.",
+      "id": "langchain-ai/open-swe",
+      "repoKey": "langchain-ai/open-swe",
+      "name": "open-swe",
+      "full_name": "langchain-ai/open-swe",
+      "link": "https://github.com/langchain-ai/open-swe",
+      "description": "An Open-Source Asynchronous Coding Agent",
       "language": "Python",
-      "stars": 304,
+      "stars": 11008,
       "stars_today": null,
-      "stars_per_day_estimate": 77.03507520050964,
-      "trend_basis": "normalized_26.5h",
-      "trend_score": 9.121632644243846,
-      "default_branch": "master",
-      "created_at": "2026-10-02T05:15:41Z",
-      "pushed_at": "2026-10-12T04:55:12Z",
+      "stars_per_day_estimate": 15.277731790842369,
+      "trend_basis": "normalized_50.3h",
+      "trend_score": 7.024657279479348,
+      "default_branch": "main",
+      "created_at": "2025-05-21T21:44:24Z",
+      "pushed_at": "2026-10-13T00:37:47Z",
       "why_it_matters": {
-        "es": "CodeAgent es un agente de codificación de terminal de código abierto, con compresión de contexto por niveles, un sistema de aprobación de comandos peligrosos y una arquitectura de herramientas autorregistrables, útil como referencia didáctica para entender el ciclo completo de un agente de código.",
-        "en": "CodeAgent is an open-source terminal coding agent with tiered context compaction, a dangerous-command approval system, and a self-registering tool architecture, useful as a learning reference for understanding the full loop of a coding agent."
+        "es": "Open SWE, construido por LangChain sobre Deep Agents, convierte el trabajo de ingeniería en un sistema repetible: investiga un repositorio, implementa cambios en un sandbox aislado, los valida y entrega un pull request, además de revisar PRs y monitorizar CI. Es relevante para desarrolladores que exploran agentes de codificación autónomos desplegables en su propia infraestructura.",
+        "en": "Open SWE, built by LangChain on Deep Agents, turns engineering work into a repeatable system: it investigates a codebase, implements changes in an isolated sandbox, validates them, and delivers a pull request, while also reviewing PRs and monitoring CI. It's relevant for developers exploring autonomous coding agents deployable on their own infrastructure."
+      }
+    },
+    {
+      "id": "hashgraph-online/hol-guard",
+      "repoKey": "hashgraph-online/hol-guard",
+      "name": "hol-guard",
+      "full_name": "hashgraph-online/hol-guard",
+      "link": "https://github.com/hashgraph-online/hol-guard",
+      "description": "Open-source antivirus for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP servers, plugins, and skills at runtime.",
+      "language": "Python",
+      "stars": 861,
+      "stars_today": null,
+      "stars_per_day_estimate": 9.969245025948306,
+      "trend_basis": "normalized_26.5h",
+      "trend_score": 6.455261182652718,
+      "default_branch": "main",
+      "created_at": "2026-03-28T19:02:15Z",
+      "pushed_at": "2026-10-13T00:38:04Z",
+      "why_it_matters": {
+        "es": "HOL Guard es un antivirus de código abierto para agentes de IA que bloquea en tiempo de ejecución herramientas riesgosas, accesos a secretos, inyección de prompts, paquetes maliciosos y servidores MCP maliciosos. Con la proliferación de agentes autónomos con acceso a sistemas reales, esta capa de seguridad local-first aborda un vacío práctico de defensa.",
+        "en": "HOL Guard is an open-source antivirus for AI agents that blocks risky tools, secret access, prompt injection, malicious packages, and malicious MCP servers at runtime. As autonomous agents with access to real systems proliferate, this local-first security layer addresses a practical defense gap."
+      }
+    },
+    {
+      "id": "VinkyDev/vibestart",
+      "repoKey": "VinkyDev/vibestart",
+      "name": "vibestart",
+      "full_name": "VinkyDev/vibestart",
+      "link": "https://github.com/VinkyDev/vibestart",
+      "description": "Compose a full-stack TypeScript stack and get a cutting-edge, verified project made for AI coding agents, with type safety, lint, and tests built in. | 自由组合全栈 TypeScript 技术栈，得到一个前沿、经过验证、为 AI 编码智能体打造的项目，内置类型安全、lint 与测试。",
+      "language": "TypeScript",
+      "stars": 140,
+      "stars_today": null,
+      "stars_per_day_estimate": 23.56367006133236,
+      "trend_basis": "normalized_26.5h",
+      "trend_score": 7.486237430983573,
+      "default_branch": "main",
+      "created_at": "2026-10-04T02:36:55Z",
+      "pushed_at": "2026-10-12T08:47:03Z",
+      "why_it_matters": {
+        "es": "VibeStart permite componer una pila TypeScript full-stack y obtener un proyecto verificado, con seguridad de tipos, lint y tests integrados, pensado específicamente para que agentes de codificación de IA trabajen sobre una base de código consistente. Resulta útil para desarrolladores que buscan arrancar proyectos con una estructura que los agentes puedan mantener sin degradarse con el tiempo.",
+        "en": "VibeStart lets developers compose a full-stack TypeScript stack and get a verified project with type safety, lint, and tests built in, designed specifically so AI coding agents work on a consistent codebase. It's useful for developers who want to start projects with a structure that agents can maintain without eroding over time."
       }
     }
   ],
   "developer_signals": [],
   "editorial_stats": {
     "topics": {
-      "apple": 2,
-      "ai_software": 3,
-      "ai_general": 0,
+      "apple": 3,
+      "ai_software": 1,
+      "ai_general": 1,
       "tech": 2
     }
   }
