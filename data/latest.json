@@ -1,344 +1,328 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-10-15",
-  "date": "2026-10-15",
+  "edition_id": "wmt-2026-10-16",
+  "date": "2026-10-16",
   "daily_summary": {
-    "es": "Apple avanza en hardware (benchmarks del A20 Pro, audio de Mac vía HomePod) y su estrategia de hogar conectado, mientras la IA abierta y sus riesgos, la infraestructura de IA en empresas y hallazgos de seguridad dominan la agenda tecnológica.",
-    "en": "Apple advances on hardware (A20 Pro benchmarks, Mac audio via HomePod) and its connected-home strategy, while open AI risks, enterprise AI infrastructure, and security findings lead the broader tech agenda."
+    "es": "Apple prepara un evento multiproducto para el 28 de octubre con MacBook Pro táctil, iPad mini OLED y Macs con chip M6, mientras surgen nuevas señales de seguridad en torno a spyware distribuido por publicidad y MacPaw lanza su asistente de IA Eney.",
+    "en": "Apple is preparing a multi-product event for October 28 with a touchscreen MacBook Pro, OLED iPad mini and M6 Macs, while new security concerns emerge over spyware distributed through ads and MacPaw launches its Eney AI assistant."
   },
   "topic_summaries": {
     "apple": {
-      "es": "Un benchmark temprano del iPhone Duo muestra que su chip A20 Pro rinde de forma similar al iPhone 18 Pro, mientras Apple despliega HomeView y Apple Home Collection para posicionar sus dispositivos como el centro de control del hogar, con posibles implicaciones para desarrolladores si Siri se convierte en plataforma. Además, los HomePods recientes ya pueden emitir el audio del sistema de Mac en configuraciones compatibles con Wi-Fi 6E.",
-      "en": "An early benchmark of the iPhone Duo shows its A20 Pro chip performs similarly to the iPhone 18 Pro, while Apple rolls out HomeView and the Apple Home Collection to position its devices as the home's control hub, with possible implications for developers if Siri becomes a platform. Separately, recent HomePods can now output Mac system audio on Wi-Fi 6E-compatible configurations."
+      "es": "Varias fuentes coinciden en que Apple ha comenzado a invitar a medios a un evento de lanzamiento en Los Ángeles programado para el miércoles 28 de octubre, centrado en un rediseño táctil del MacBook Pro, un iPad mini con pantalla OLED y actualizaciones de Mac con el chip M6. Según un reporte, el evento se desarrollaría entre las 15:00 y las 19:00 hora peninsular española. Además, Apple ha publicado una revisión de su Acuerdo de Licencia del Programa de Desarrolladores con nuevos requisitos de seguridad y precisiones sobre la Live Assistance API y el App Replacement Entitlement.",
+      "en": "Multiple sources agree that Apple has started inviting media to a launch event in Los Angeles scheduled for Wednesday, October 28, centered on a touchscreen redesign of the MacBook Pro, an OLED iPad mini, and M6-powered Mac updates. One report states the event is expected to run from 15:00 to 19:00 Spain peninsular time. Separately, Apple has published a revised Developer Program License Agreement with new security requirements and clarifications on the Live Assistance API and App Replacement Entitlement."
     },
     "ai_software": {
-      "es": "Uber detalla cómo construyó internamente su infraestructura de IA ante la falta de software listo para su escala, incluyendo más de 20 herramientas internas y un nuevo sistema de etiquetado de PRs. Nvidia lanza gratis Nemotron 3.5 Lightning en AI Gateway, un modelo de razonamiento con 30B parámetros (3B activos) y ventana de contexto de 1M tokens, mientras SentinelOne usa IA para reducir el análisis de malware de semanas a horas.",
-      "en": "Uber details how it built its AI infrastructure in-house due to a lack of off-the-shelf software at its scale, including over 20 internal tools and a new PR tagging system. Nvidia releases Nemotron 3.5 Lightning for free on AI Gateway, a reasoning model with 30B parameters (3B active) and a 1M-token context window, while SentinelOne uses AI to cut malware analysis from weeks to hours."
+      "es": "Meta detalla la evolución de GEM, su modelo base de recomendación para publicidad, con planes de escalar cómputo y transferencia de inteligencia con hardware de nueva generación para ampliar su uso en todo el ecosistema de anuncios. Por separado, HydraFusion presenta una actualización con un pool de modelos renovado, mejores flujos de orquestación y una nueva opción, HydraFusion Max.",
+      "en": "Meta details the evolution of GEM, its foundation recommendation model for ads, with plans to scale compute and intelligence transfer using next-generation hardware to expand its use across the entire ads ecosystem. Separately, HydraFusion ships an update with a refreshed model pool, improved orchestration workflows, and a new option, HydraFusion Max."
     },
     "ai_general": {
-      "es": "Anthropic advierte que el modelo abierto GLM-5.3 supone un riesgo relevante de ciberataques, reabriendo el debate sobre si los beneficios de los modelos abiertos —como prevenir la concentración de poder— compensan esos riesgos. Google DeepMind suma un filósofo residente para abordar la ética de la IA.",
-      "en": "Anthropic warns that the open model GLM-5.3 poses a significant cyberattack risk, reviving the debate over whether open models' benefits—like preventing power concentration—outweigh those risks. Google DeepMind adds a resident philosopher to tackle AI ethics."
+      "es": "Un nuevo análisis señala que la adopción de IA agéntica está creciendo entre empresas y pequeños negocios de la UE, aunque un uso más profundo podría desbloquear mayor valor.",
+      "en": "New analysis indicates that agentic AI adoption is growing among EU enterprises and small businesses, though deeper use could unlock additional value."
     },
     "tech": {
-      "es": "Investigadores del MIT anticipan que la IA podría convertirse en la vía por defecto para resolver problemas teóricos en economía y física de altas energías, mientras Vercel revela los hallazgos de su desafío de seguridad de 1 millón de dólares para su Sandbox, incluyendo un fallo crítico del kernel de Linux y pagos de 242.000 dólares en recompensas.",
-      "en": "MIT researchers anticipate AI could become the default way to solve theoretical problems in economics and high-energy physics, while Vercel reveals findings from its $1M security challenge for its Sandbox, including a critical Linux kernel flaw and $242,000 paid out in bounties."
+      "es": "Investigadores de The Citizen Lab han publicado por primera vez evidencia técnica de spyware mercenario sofisticado distribuido a través de publicidad en línea, una táctica que facilita infecciones sin interacción del usuario. En paralelo, Amazon ha lanzado a través de su filial Bee dos nuevos dispositivos de IA personal desde 74,99 dólares, y MacPaw ha presentado Eney, un asistente de IA proactivo para Mac y iPhone tras un desarrollo iniciado en 2019. Consus, una startup de YC, lanzó una pasarela LLM orientada a empresas con datos sensibles, con auditoría de equivalencia FedRAMP High y retención cero de datos.",
+      "en": "Researchers at The Citizen Lab have for the first time published technical evidence of sophisticated mercenary spyware distributed through online advertising, a tactic that enables infections without user interaction. Separately, Amazon's Bee subsidiary has launched two new personal AI devices starting at $74.99, and MacPaw has unveiled Eney, a proactive AI assistant for Mac and iPhone following development that began in 2019. YC startup Consus launched an LLM gateway for companies handling sensitive data, with a FedRAMP High equivalency audit and zero data retention."
     }
   },
   "summary": {
     "apple": {
-      "es": "Un benchmark temprano del iPhone Duo muestra que su chip A20 Pro rinde de forma similar al iPhone 18 Pro, mientras Apple despliega HomeView y Apple Home Collection para posicionar sus dispositivos como el centro de control del hogar, con posibles implicaciones para desarrolladores si Siri se convierte en plataforma. Además, los HomePods recientes ya pueden emitir el audio del sistema de Mac en configuraciones compatibles con Wi-Fi 6E.",
-      "en": "An early benchmark of the iPhone Duo shows its A20 Pro chip performs similarly to the iPhone 18 Pro, while Apple rolls out HomeView and the Apple Home Collection to position its devices as the home's control hub, with possible implications for developers if Siri becomes a platform. Separately, recent HomePods can now output Mac system audio on Wi-Fi 6E-compatible configurations."
+      "es": "Varias fuentes coinciden en que Apple ha comenzado a invitar a medios a un evento de lanzamiento en Los Ángeles programado para el miércoles 28 de octubre, centrado en un rediseño táctil del MacBook Pro, un iPad mini con pantalla OLED y actualizaciones de Mac con el chip M6. Según un reporte, el evento se desarrollaría entre las 15:00 y las 19:00 hora peninsular española. Además, Apple ha publicado una revisión de su Acuerdo de Licencia del Programa de Desarrolladores con nuevos requisitos de seguridad y precisiones sobre la Live Assistance API y el App Replacement Entitlement.",
+      "en": "Multiple sources agree that Apple has started inviting media to a launch event in Los Angeles scheduled for Wednesday, October 28, centered on a touchscreen redesign of the MacBook Pro, an OLED iPad mini, and M6-powered Mac updates. One report states the event is expected to run from 15:00 to 19:00 Spain peninsular time. Separately, Apple has published a revised Developer Program License Agreement with new security requirements and clarifications on the Live Assistance API and App Replacement Entitlement."
     },
     "ai_software": {
-      "es": "Uber detalla cómo construyó internamente su infraestructura de IA ante la falta de software listo para su escala, incluyendo más de 20 herramientas internas y un nuevo sistema de etiquetado de PRs. Nvidia lanza gratis Nemotron 3.5 Lightning en AI Gateway, un modelo de razonamiento con 30B parámetros (3B activos) y ventana de contexto de 1M tokens, mientras SentinelOne usa IA para reducir el análisis de malware de semanas a horas.",
-      "en": "Uber details how it built its AI infrastructure in-house due to a lack of off-the-shelf software at its scale, including over 20 internal tools and a new PR tagging system. Nvidia releases Nemotron 3.5 Lightning for free on AI Gateway, a reasoning model with 30B parameters (3B active) and a 1M-token context window, while SentinelOne uses AI to cut malware analysis from weeks to hours."
+      "es": "Meta detalla la evolución de GEM, su modelo base de recomendación para publicidad, con planes de escalar cómputo y transferencia de inteligencia con hardware de nueva generación para ampliar su uso en todo el ecosistema de anuncios. Por separado, HydraFusion presenta una actualización con un pool de modelos renovado, mejores flujos de orquestación y una nueva opción, HydraFusion Max.",
+      "en": "Meta details the evolution of GEM, its foundation recommendation model for ads, with plans to scale compute and intelligence transfer using next-generation hardware to expand its use across the entire ads ecosystem. Separately, HydraFusion ships an update with a refreshed model pool, improved orchestration workflows, and a new option, HydraFusion Max."
     },
     "ai_general": {
-      "es": "Anthropic advierte que el modelo abierto GLM-5.3 supone un riesgo relevante de ciberataques, reabriendo el debate sobre si los beneficios de los modelos abiertos —como prevenir la concentración de poder— compensan esos riesgos. Google DeepMind suma un filósofo residente para abordar la ética de la IA.",
-      "en": "Anthropic warns that the open model GLM-5.3 poses a significant cyberattack risk, reviving the debate over whether open models' benefits—like preventing power concentration—outweigh those risks. Google DeepMind adds a resident philosopher to tackle AI ethics."
+      "es": "Un nuevo análisis señala que la adopción de IA agéntica está creciendo entre empresas y pequeños negocios de la UE, aunque un uso más profundo podría desbloquear mayor valor.",
+      "en": "New analysis indicates that agentic AI adoption is growing among EU enterprises and small businesses, though deeper use could unlock additional value."
     },
     "tech": {
-      "es": "Investigadores del MIT anticipan que la IA podría convertirse en la vía por defecto para resolver problemas teóricos en economía y física de altas energías, mientras Vercel revela los hallazgos de su desafío de seguridad de 1 millón de dólares para su Sandbox, incluyendo un fallo crítico del kernel de Linux y pagos de 242.000 dólares en recompensas.",
-      "en": "MIT researchers anticipate AI could become the default way to solve theoretical problems in economics and high-energy physics, while Vercel reveals findings from its $1M security challenge for its Sandbox, including a critical Linux kernel flaw and $242,000 paid out in bounties."
+      "es": "Investigadores de The Citizen Lab han publicado por primera vez evidencia técnica de spyware mercenario sofisticado distribuido a través de publicidad en línea, una táctica que facilita infecciones sin interacción del usuario. En paralelo, Amazon ha lanzado a través de su filial Bee dos nuevos dispositivos de IA personal desde 74,99 dólares, y MacPaw ha presentado Eney, un asistente de IA proactivo para Mac y iPhone tras un desarrollo iniciado en 2019. Consus, una startup de YC, lanzó una pasarela LLM orientada a empresas con datos sensibles, con auditoría de equivalencia FedRAMP High y retención cero de datos.",
+      "en": "Researchers at The Citizen Lab have for the first time published technical evidence of sophisticated mercenary spyware distributed through online advertising, a tactic that enables infections without user interaction. Separately, Amazon's Bee subsidiary has launched two new personal AI devices starting at $74.99, and MacPaw has unveiled Eney, a proactive AI assistant for Mac and iPhone following development that began in 2019. YC startup Consus launched an LLM gateway for companies handling sensitive data, with a FedRAMP High equivalency audit and zero data retention."
     }
   },
   "top_stories": [
     {
-      "id": "evt_a5a8d8bddd0efd93",
+      "id": "evt_b0dea9a2a72cd2aa",
       "title": {
-        "es": "El chip A20 Pro del iPhone Duo, evaluado antes del lanzamiento",
-        "en": "iPhone Duo's A20 Pro chip benchmarked ahead of launch"
+        "es": "El lanzamiento del Mac táctil apunta al miércoles 28 de octubre",
+        "en": "Touch-screen Mac launch points to Wednesday, October 28"
       },
       "body": {
-        "es": "Un benchmark temprano en Geekbench 7 del iPhone Duo (iPhone19,4), corriendo iOS 27.1, muestra puntuaciones de 3986 en un solo núcleo y 11067 en multinúcleo, un rendimiento similar al del iPhone 18 Pro ya que ambos comparten el chip A20 Pro de 2nm con CPU de 6 núcleos y GPU de 7 núcleos. Apple afirma que el A20 Pro ofrece hasta un 20% más de rendimiento de CPU y hasta un 40% más de GPU frente al A19 Pro, aunque factores como gestión térmica y la doble pantalla del iPhone Duo podrían generar diferencias reales de rendimiento.",
-        "en": "An early Geekbench 7 benchmark of the iPhone Duo (iPhone19,4), running iOS 27.1, shows scores of 3986 single-core and 11067 multi-core, performance similar to the iPhone 18 Pro since both share the 2nm A20 Pro chip with a 6-core CPU and 7-core GPU. Apple claims the A20 Pro delivers up to 20% faster CPU and up to 40% faster GPU performance versus the A19 Pro, though factors like thermal management and the iPhone Duo's dual screens could create real-world performance differences."
+        "es": "Según un informe, Apple está invitando a medios a una presentación en Los Ángeles programada para el 28 de octubre, que se celebraría entre las 15:00 y las 19:00 hora peninsular española. Se espera un MacBook Pro rediseñado, más ligero y fino, con Dynamic Island y chips M6, M5 Pro y M5 Max, además de un MacBook Pro de 14 pulgadas y un iMac con chip M6, y un iPad mini con pantalla OLED y procesador A20 Pro. El cambio de diseño llegaría cinco años después del modelo actual.",
+        "en": "According to a report, Apple is inviting media to a presentation in Los Angeles scheduled for October 28, said to run from 15:00 to 19:00 Spain peninsular time. Expected products include a redesigned, lighter and thinner MacBook Pro with Dynamic Island and M6, M5 Pro and M5 Max chips, plus a 14-inch MacBook Pro and an M6 iMac, and an iPad mini with an OLED screen and A20 Pro chip. The redesign would arrive five years after the current model."
       },
-      "newsId": "evt_a5a8d8bddd0efd93",
-      "storyKey": "evt_a5a8d8bddd0efd93",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/10/14/iphone-duo-benchmark",
-      "image": "https://images.macrumors.com/article-new/2026/10/iphone-duo-feature.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-15T00:20:32.000Z",
-      "evidence": [
-        {
-          "claim": "The iPhone Duo's A20 Pro chip offers performance similar to the iPhone 18 Pro.",
-          "source": "de8d8263ca67dd9d"
-        },
-        {
-          "claim": "The iPhone Duo is equipped with a 2nm A20 Pro chip with a 6-core CPU and a 7-core GPU.",
-          "source": "de8d8263ca67dd9d"
-        },
-        {
-          "claim": "The iPhone Duo has a single-core score of 3986 and a multi-core score of 11067 on Geekbench 7.",
-          "source": "de8d8263ca67dd9d"
-        },
-        {
-          "claim": "The iPhone Duo uses the same A20 Pro chip as the iPhone 18 Pro, but there could be differences in real-world performance.",
-          "source": "de8d8263ca67dd9d"
-        },
-        {
-          "claim": "Apple claims the A20 Pro offers up to 20 percent faster CPU performance and up to 40 percent faster GPU performance compared to the A19 Pro.",
-          "source": "de8d8263ca67dd9d"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/10/14/iphone-duo-benchmark"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_375c3f807515613e",
-      "title": {
-        "es": "Qué nos dice el nuevo HomeView sobre el futuro de Apple en el hogar",
-        "en": "What the new HomeView tells us about Apple's future in home products"
-      },
-      "body": {
-        "es": "Apple presenta HomeView junto con Apple Home Collection, accesorios desarrollados con LG y Schneider que incluyen cámaras, cerraduras, timbres, termostatos y sensores, en una apuesta por convertir sus productos en el eje central del control del hogar. El dispositivo reconocerá a distintos miembros de la familia y adaptará la interfaz según su información personal integrada con otros dispositivos Apple; filtraciones de Mark Gurman apuntan además a un futuro robot de sobremesa con pantalla giratoria.",
-        "en": "Apple unveils HomeView alongside the Apple Home Collection, accessories developed with LG and Schneider including cameras, locks, doorbells, thermostats and sensors, in a push to make its products the central hub of home control. The device will recognize different family members and adapt its interface using their personal information integrated with other Apple devices; leaks from Mark Gurman also point to a future desktop robot with a rotating screen."
-      },
-      "newsId": "evt_375c3f807515613e",
-      "storyKey": "evt_375c3f807515613e",
+      "newsId": "evt_b0dea9a2a72cd2aa",
+      "storyKey": "evt_b0dea9a2a72cd2aa",
       "topic": "apple",
       "source": "Applesfera",
-      "link": "https://www.applesfera.com/apple-1/que-nos-dice-nuevo-homeview-futuro-apple-productos-hogar",
-      "image": "https://i.blogs.es/cd451a/apple-casa-/840_560.jpeg",
+      "link": "https://www.applesfera.com/rumores/lanzamiento-mac-tactil-cambia-fecha-rumor-apunta-ahora-al-miercoles-28",
+      "image": "https://i.blogs.es/a13402/lanzamiento-apple-28/840_560.jpeg",
       "score": 7.65,
-      "publishedAt": "2026-10-14T16:00:29.000Z",
+      "publishedAt": "2026-10-15T09:30:00.000Z",
       "evidence": [
         {
-          "claim": "Apple is shifting its strategy to make its home products the central control point for the home.",
-          "source": "184dfdd19f3071ad"
+          "claim": "Apple is scheduled to launch the MacBook Pro with a touch screen on Wednesday, October 28.",
+          "source": "7b187a85b230b681"
         },
         {
-          "claim": "HomeView will recognize different family members and adapt the interface to each one, with access to their personal information.",
-          "source": "184dfdd19f3071ad"
+          "claim": "Apple is inviting media to a product presentation in Los Angeles on October 28.",
+          "source": "7b187a85b230b681"
         },
         {
-          "claim": "Apple is collaborating with LG and Schneider to offer a selection of home accessories.",
-          "source": "184dfdd19f3071ad"
+          "claim": "Other products expected to be launched include a 14-inch MacBook Pro, an iMac with the M6 chip, and an OLED iPad mini.",
+          "source": "7b187a85b230b681"
         },
         {
-          "claim": "Apple is exploring the development of a robot with a rotating screen for home use.",
-          "source": "184dfdd19f3071ad"
+          "claim": "The launch is scheduled for the afternoon of October 28, with the event lasting from 15:00 to 19:00 local time in Spain.",
+          "source": "7b187a85b230b681"
         }
       ],
       "sources": [
         {
           "name": "Applesfera",
-          "link": "https://www.applesfera.com/apple-1/que-nos-dice-nuevo-homeview-futuro-apple-productos-hogar"
+          "link": "https://www.applesfera.com/rumores/lanzamiento-mac-tactil-cambia-fecha-rumor-apunta-ahora-al-miercoles-28"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_7ecb657924bcd549",
+      "id": "evt_c19a84a238df0dac",
       "title": {
-        "es": "La infraestructura de IA de Uber, vista desde dentro",
-        "en": "Uber's AI infra, from the inside"
+        "es": "Apple prepararía lanzamientos de iPad y Mac para el 28 de octubre",
+        "en": "Apple reportedly preparing iPad and Mac launches for October 28"
       },
       "body": {
-        "es": "Uber construyó la mayoría de sus servicios internamente porque el software listo para usar no podía manejar su escala o simplemente no existía, y hoy sus ingenieros dependen de más de 20 herramientas internas como DevPods, Code Inbox, Slate y Wisdom. La empresa también rediseñó cómo mide la productividad: en lugar de la antigua 'velocidad de PR', ahora etiqueta las PRs por tipo de trabajo, ya que con agentes es fácil generar cientos de PRs sin impacto real en el producto.",
-        "en": "Uber built most of its services in-house because off-the-shelf software couldn't handle its scale or simply didn't exist, and today its engineers rely on over 20 internal tools like DevPods, Code Inbox, Slate and Wisdom. The company also redesigned how it measures productivity: instead of the old 'PR velocity' metric, it now tags PRs by type of work, since with agents it's easy to generate hundreds of PRs with no real product impact."
+        "es": "Apple estaría preparando el 28 de octubre para lanzar una serie de productos de iPad y Mac, desde el MacBook Pro táctil con OLED hasta un nuevo iPad mini, según el reporte. También se especula con un iMac actualizado, dado que no recibe una revisión desde hace dos años, con un posible chip M6 antes de que termine 2026.",
+        "en": "Apple is reportedly preparing October 28 for a series of iPad and Mac releases, ranging from the OLED touch-screen MacBook Pro to a new iPad mini, according to the report. There is also speculation about an updated iMac, since it hasn't been revised in two years, with a possible M6 chip before the end of 2026."
       },
-      "newsId": "evt_7ecb657924bcd549",
-      "storyKey": "evt_7ecb657924bcd549",
-      "topic": "ai_software",
-      "source": "The Pragmatic Engineer",
-      "link": "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside",
-      "image": "https://substackcdn.com/image/youtube/w_728,c_limit/MDUYSMJmi8A",
-      "score": 8.65,
-      "publishedAt": "2026-10-14T17:06:56.000Z",
-      "evidence": [
-        {
-          "claim": "Uber built most of its services in-house due to the lack of off-the-shelf software that could handle its scale.",
-          "source": "0920590a0d8f3dc2"
-        },
-        {
-          "claim": "Uber uses a tagging system for PRs to categorize them by the type of work they represent.",
-          "source": "0920590a0d8f3dc2"
-        },
-        {
-          "claim": "Uber's DevPods, Code Inbox, Slate, and Wisdom are part of the 20+ internal tools used by engineers daily.",
-          "source": "0920590a0d8f3dc2"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Pragmatic Engineer",
-          "link": "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_80cc151470d3c860",
-      "title": {
-        "es": "Modelos abiertos: ¿los beneficios superan los riesgos?",
-        "en": "Open models have real benefits. Do they outweigh the risks?"
-      },
-      "body": {
-        "es": "Anthropic publicó recientemente un informe que señala al modelo GLM-5.3 como un riesgo relevante de ciberataque, reavivando el debate sobre los modelos abiertos: al ser descargables, cualquiera con los recursos y la pericia necesarios puede reentrenarlos para que se comporten de otra forma. Defensores como Elizabeth Seger, del Tony Blair Institute, argumentan que el principal beneficio es evitar la concentración masiva de poder, garantizando que esta tecnología fundacional sea un bien público.",
-        "en": "Anthropic recently published a report flagging the model GLM-5.3 as posing a significant cyberattack risk, reviving the debate over open models: because they are downloadable, anyone with the necessary expertise and resources can retrain them to behave differently. Advocates like Elizabeth Seger of the Tony Blair Institute argue the main benefit is preventing mass concentration of power, ensuring this foundational technology remains a public good."
-      },
-      "newsId": "evt_80cc151470d3c860",
-      "storyKey": "evt_80cc151470d3c860",
-      "topic": "ai_general",
-      "source": "MIT Tech Review AI",
-      "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/260915_openaimodels.jpg?resize=1200,600",
+      "newsId": "evt_c19a84a238df0dac",
+      "storyKey": "evt_c19a84a238df0dac",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/10/15/touch-screen-macbook-pro-will-be-unveiled-on-october-28",
+      "image": "https://media.appleinsider.com/gallery/68616-144631-66579-139653-M5-MacBook-Pro-display-xl-(1)-xl.jpg",
       "score": 7.65,
-      "publishedAt": "2026-10-13T10:00:00.000Z",
+      "publishedAt": "2026-10-15T11:05:41.000Z",
       "evidence": [
         {
-          "claim": "Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk.",
-          "source": "1d16452e3ba536e2"
+          "claim": "Apple is preparing an October 28 launch for a series of iPad and Mac releases.",
+          "source": "a2b96b1d2dc05211"
         },
         {
-          "claim": "Open models can be retrained to behave differently, if one has the expertise and resources to do so.",
-          "source": "1d16452e3ba536e2"
+          "claim": "Apple is inviting some media to an all-day product launch experience on Oct. 28 in Los Angeles.",
+          "source": "a2b96b1d2dc05211"
         },
         {
-          "claim": "Open models pose a risk of mass concentration of power, which could lead to a world where only a few companies or governments control the infrastructure that allows AI to operate.",
-          "source": "1d16452e3ba536e2"
+          "claim": "An updated iPad mini with an OLED screen is predicted.",
+          "source": "a2b96b1d2dc05211"
+        },
+        {
+          "claim": "The iMac has not been updated in two years.",
+          "source": "a2b96b1d2dc05211"
         }
       ],
       "sources": [
         {
-          "name": "MIT Tech Review AI",
-          "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks"
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/10/15/touch-screen-macbook-pro-will-be-unveiled-on-october-28"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_fc85526107c16403",
+      "id": "evt_d4820c08fda87a96",
       "title": {
-        "es": "Resultados del desafío de 1 millón de dólares de Vercel Sandbox",
-        "en": "Findings from the $1M Vercel Sandbox challenge"
+        "es": "Investigadores destapan spyware 'zero-click' distribuido mediante anuncios",
+        "en": "Researchers uncover zero-click spyware distributed through ads"
       },
       "body": {
-        "es": "Vercel recibió 1.285 reportes en dos semanas durante su desafío de seguridad para Sandbox, pagando 242.000 dólares en recompensas. El hallazgo más grave fue un fallo zero-day del kernel de Linux; investigadores también lograron colapsar la máquina anfitriona enviando paquetes específicos y ejecutar comandos con privilegios de administrador, rompiendo el límite de aislamiento del sandbox, además de detectar una vulnerabilidad de restauración de snapshots de disco entre clientes (cross-tenant).",
-        "en": "Vercel received 1,285 reports over two weeks during its Sandbox security challenge, paying out $242,000 in bounties. The most severe finding was a Linux kernel zero-day; researchers also managed to crash the host machine by sending specific packets and execute commands with administrator privileges, breaking the sandbox's isolation boundary, in addition to a cross-tenant disk snapshot restore vulnerability."
+        "es": "The Citizen Lab ha publicado por primera vez evidencia técnica de spyware mercenario sofisticado que se distribuye a través de publicidad en línea, permitiendo infecciones sin que la víctima interactúe con el anuncio. El hallazgo expone una vía de ataque difícil de detectar para usuarios comunes, ya que no requiere clic ni descarga visible.",
+        "en": "The Citizen Lab has for the first time published technical evidence of sophisticated mercenary spyware distributed via online advertising, enabling infections without any victim interaction with the ad. The finding exposes a hard-to-detect attack vector for ordinary users, since it requires no click or visible download."
       },
-      "newsId": "evt_fc85526107c16403",
-      "storyKey": "evt_fc85526107c16403",
+      "newsId": "evt_d4820c08fda87a96",
+      "storyKey": "evt_d4820c08fda87a96",
       "topic": "tech",
-      "source": "Vercel AI",
-      "link": "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge",
-      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/5whM0EM20wGHLVBkIkNixX/6b6fd4a26e9b99e9e50b83daa3b63111/sandbox-challenge-findings-v1.png",
-      "score": 7.65,
-      "publishedAt": "2026-10-14T07:00:00.000Z",
-      "evidence": [
-        {
-          "claim": "Vercel Sandbox received 1,285 reports over two weeks.",
-          "source": "8748f7a5d144cc61"
-        },
-        {
-          "claim": "The most severe finding was a Linux kernel zero day defect.",
-          "source": "8748f7a5d144cc61"
-        },
-        {
-          "claim": "Researchers found a way to crash the host machine and execute code on it.",
-          "source": "8748f7a5d144cc61"
-        },
-        {
-          "claim": "Vercel Sandbox paid out $242,000 in bounties.",
-          "source": "8748f7a5d144cc61"
-        },
-        {
-          "claim": "Vercel Sandbox found a cross-tenant disk snapshot restore vulnerability.",
-          "source": "8748f7a5d144cc61"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Vercel AI",
-          "link": "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_62b62cd29fd930de",
-      "title": {
-        "es": "SentinelOne reduce el análisis de malware de semanas a horas",
-        "en": "SentinelOne cuts malware analysis from weeks to hours"
-      },
-      "body": {
-        "es": "SentinelOne afirma que su nueva herramienta, OpenAI Daybreak, reduce el análisis de malware de semanas a horas, liberando capacidad para investigar más amenazas. Es un ejemplo concreto de cómo la IA aplicada a ciberseguridad puede acelerar flujos de trabajo tradicionalmente lentos y manuales.",
-        "en": "SentinelOne says its new tool, OpenAI Daybreak, cuts malware analysis from weeks to hours, freeing up capacity to investigate more threats. It's a concrete example of how AI applied to cybersecurity can accelerate traditionally slow, manual workflows."
-      },
-      "newsId": "evt_62b62cd29fd930de",
-      "storyKey": "evt_62b62cd29fd930de",
-      "topic": "ai_software",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/sentinelone",
-      "image": null,
+      "source": "Wired",
+      "link": "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads",
+      "image": "https://media.wired.com/photos/6acfe0c101e1efc169db5a0f/191:100/w_1280,c_limit/Security_Sophisticated%20Zero-Click%20Spyware%20Found%20Being%20Distributed%20by%20Targeted%20Ads%20for%20the%20First%20Time_v1.jpg",
       "score": 8.35,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "publishedAt": "2026-10-15T10:00:00.000Z",
       "evidence": [
         {
-          "claim": "SentinelOne's new tool, OpenAI Daybreak, reduces malware analysis from weeks to hours.",
-          "source": "5a943693c0793ee5"
+          "claim": "Researchers at The Citizen Lab have released technical evidence of sophisticated mercenary spyware being distributed via online advertising.",
+          "source": "6ca5622ea615a0c2"
         }
       ],
       "sources": [
         {
-          "name": "OpenAI",
-          "link": "https://openai.com/index/sentinelone"
+          "name": "Wired",
+          "link": "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_9dcbfe85231e2c69",
+      "id": "evt_3aeb4716508d839e",
       "title": {
-        "es": "Nemotron 3.5 Lightning, ya disponible gratis en AI Gateway",
-        "en": "Nemotron 3.5 Lightning now available on AI Gateway for free"
+        "es": "MacPaw lanza Eney, un asistente de IA proactivo para Mac y iPhone",
+        "en": "MacPaw launches Eney, a proactive AI assistant for Mac and iPhone"
       },
       "body": {
-        "es": "Nvidia lanzó Nemotron 3.5 Lightning, un modelo de pesos abiertos de razonamiento y chat orientado a agentes de larga duración, sub-agentes, chatbots y sistemas RAG, disponible gratis en AI Gateway como nvidia/nemotron-3.5-lightning-free. El modelo tiene 30B parámetros con 3B activos por token en un diseño híbrido Mixture-of-Experts, con ventana de contexto de 1M tokens y soporte para llamadas a herramientas y salidas estructuradas.",
-        "en": "Nvidia released Nemotron 3.5 Lightning, an open-weight reasoning and chat model aimed at long-running agents, sub-agent work, chatbots, and RAG systems, now available for free on AI Gateway as nvidia/nemotron-3.5-lightning-free. The model has 30B parameters with 3B active per token in a hybrid Mixture-of-Experts design, with a 1M-token context window and support for tool calling and structured outputs."
+        "es": "MacPaw ha lanzado Eney, un asistente de IA proactivo que trabaja a través de apps, archivos y el sistema para ayudar a completar tareas, tras un desarrollo que comenzó en 2019. Es un hito para la compañía, conocida principalmente por sus utilidades de limpieza y mantenimiento en macOS.",
+        "en": "MacPaw has launched Eney, a proactive AI assistant that works across apps, files, and the system to help get things done, following a development process that began in 2019. It marks a milestone for the company, best known for its macOS cleanup and maintenance utilities."
       },
-      "newsId": "evt_9dcbfe85231e2c69",
-      "storyKey": "evt_9dcbfe85231e2c69",
-      "topic": "ai_software",
-      "source": "Vercel AI",
-      "link": "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free",
-      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/6IJRpzQdAnszj8GfcqfRR/5f3354b90e94f4f1ba4db3e371dfee1a/image__118_.png",
-      "score": 8.6,
-      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "newsId": "evt_3aeb4716508d839e",
+      "storyKey": "evt_3aeb4716508d839e",
+      "topic": "tech",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/10/15/macpaw-launches-eney-a-proactive-ai-assistant-for-mac-and-iphone",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/eney-macpaw.jpg?quality=82&strip=all&w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-10-15T12:00:14.000Z",
       "evidence": [
         {
-          "claim": "Nemotron 3.5 Lightning is now available for free on AI Gateway.",
-          "source": "36047843120f9791"
-        },
-        {
-          "claim": "Nemotron 3.5 Lightning is an open-weight reasoning and chat model for long-running agents, sub-agent work, chatbots, and RAG systems.",
-          "source": "36047843120f9791"
-        },
-        {
-          "claim": "The model has 30B parameters with 3B active per token.",
-          "source": "36047843120f9791"
-        },
-        {
-          "claim": "It has a 1M token context window and supports tool calling and structured outputs.",
-          "source": "36047843120f9791"
-        },
-        {
-          "claim": "AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime.",
-          "source": "36047843120f9791"
+          "claim": "MacPaw has launched Eney, a proactive AI assistant.",
+          "source": "dbc1bfdbdf89e849"
         }
       ],
       "sources": [
         {
-          "name": "Vercel AI",
-          "link": "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free"
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/10/15/macpaw-launches-eney-a-proactive-ai-assistant-for-mac-and-iphone"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_4fa0657a5263424c",
+      "title": {
+        "es": "Bee, de Amazon, lanza dos nuevos dispositivos de IA personal desde 75 dólares",
+        "en": "Amazon's Bee launches two new personal AI devices starting at $75"
+      },
+      "body": {
+        "es": "Bee, propiedad de Amazon, ha lanzado sus primeros nuevos dispositivos de IA desde su adquisición: un wearable actualizado y una grabadora del tamaño de una tarjeta de crédito que se adhiere al smartphone. Los precios parten de 74,99 dólares.",
+        "en": "Amazon-owned Bee has launched its first new AI devices since its acquisition: an updated wearable and a credit-card-sized recorder that attaches to a smartphone. Prices start at $74.99."
+      },
+      "newsId": "evt_4fa0657a5263424c",
+      "storyKey": "evt_4fa0657a5263424c",
+      "topic": "tech",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/BEE_FAMILY_01_1080x1080.jpg?w=1080",
+      "score": 7.65,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Amazon-owned Bee has launched two new AI devices.",
+          "source": "87d5fac33029cf69"
+        },
+        {
+          "claim": "The starting price for the devices is $74.99.",
+          "source": "87d5fac33029cf69"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_1136ce2e5fe6a590",
+      "title": {
+        "es": "Consus (YC F24) lanza una pasarela LLM para empresas con datos sensibles",
+        "en": "Consus (YC F24) launches an LLM gateway for companies handling sensitive data"
+      },
+      "body": {
+        "es": "Consus ha presentado una pasarela LLM dirigida a organizaciones que manejan datos sensibles, afirmando haber completado una auditoría de equivalencia FedRAMP High contra los 410 controles exigidos y cumplir restricciones ITAR. La empresa no almacena datos de clientes en reposo: los prompts y respuestas solo permanecen en memoria durante la solicitud, y cada nombre de modelo debe llevar un sufijo de cumplimiento como ':fedramp-high' o ':itar', rechazando nombres de modelo genéricos.",
+        "en": "Consus has introduced an LLM gateway aimed at organizations handling sensitive data, stating it has completed a FedRAMP High equivalency audit against the required 410 controls and meets ITAR restrictions. The company says it does not store customer data at rest: prompts and completions stay in memory only for the duration of the request, and every model name must carry a compliance suffix like ':fedramp-high' or ':itar', rejecting bare model names."
+      },
+      "newsId": "evt_1136ce2e5fe6a590",
+      "storyKey": "evt_1136ce2e5fe6a590",
+      "topic": "tech",
+      "source": "Hacker News",
+      "link": "https://news.ycombinator.com/item?id=50073471",
+      "image": null,
+      "score": 8.6,
+      "publishedAt": "2026-10-13T15:41:00.000Z",
+      "evidence": [
+        {
+          "claim": "Consus has completed its FedRAMP equivalency audit against the 410 FedRAMP High controls.",
+          "source": "9483d381523cc333"
+        },
+        {
+          "claim": "Consus does not store any customer data at rest, ensuring zero data retention.",
+          "source": "9483d381523cc333"
+        },
+        {
+          "claim": "Consus runs all models behind one endpoint to avoid customers having to pick a cloud provider.",
+          "source": "9483d381523cc333"
+        },
+        {
+          "claim": "Consus enforces strict compliance suffixes on model names to ensure proper handling of sensitive data.",
+          "source": "9483d381523cc333"
+        },
+        {
+          "claim": "Consus provides guidance to customers during on-boarding to ensure proper handling of technical tools and MCP calls.",
+          "source": "9483d381523cc333"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Hacker News",
+          "link": "https://news.ycombinator.com/item?id=50073471"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_502f3697c62565e3",
+      "title": {
+        "es": "Apple actualiza el Acuerdo de Licencia del Programa de Desarrolladores",
+        "en": "Apple updates the Developer Program License Agreement"
+      },
+      "body": {
+        "es": "Apple ha revisado su Acuerdo de Licencia del Programa de Desarrolladores para incorporar nuevas funciones y políticas. Los cambios incluyen requisitos de seguridad actualizados en la Sección 3.2, definiciones específicas para la Live Assistance API y el App Replacement Entitlement, y precisiones sobre el reporte de información fiscal y de contacto a autoridades.",
+        "en": "Apple has revised its Developer Program License Agreement to support new features and updated policies. Changes include updated security requirements in Section 3.2, specific definitions for the Live Assistance API and the App Replacement Entitlement, and clarifications on reporting required tax, sales, and contact information to authorities."
+      },
+      "newsId": "evt_502f3697c62565e3",
+      "storyKey": "evt_502f3697c62565e3",
+      "topic": "apple",
+      "source": "Apple Developer News",
+      "link": "https://developer.apple.com/news?id=17mwd36z",
+      "image": "https://developer.apple.com/news/images/og/apple-developer-og.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-13T22:00:09.000Z",
+      "evidence": [
+        {
+          "claim": "The Apple Developer Program License Agreement has been revised to support new features and updated policies.",
+          "source": "ea0ee9ff1a12f091"
+        },
+        {
+          "claim": "Section 3.2 has been updated to include security and related requirements for using Apple’s software and services.",
+          "source": "ea0ee9ff1a12f091"
+        },
+        {
+          "claim": "Definitions, Section 3.3.8(j) have been updated to specify terms for use of the Live Assistance API.",
+          "source": "ea0ee9ff1a12f091"
+        },
+        {
+          "claim": "Definitions, Section 3.3.8(k) have been updated to specify terms for use of the App Replacement Entitlement.",
+          "source": "ea0ee9ff1a12f091"
+        },
+        {
+          "claim": "Schedule 2, Section 3.3(a) specifies that Apple will report legally required information such as tax, sales, and contact details to tax authorities.",
+          "source": "ea0ee9ff1a12f091"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Apple Developer News",
+          "link": "https://developer.apple.com/news?id=17mwd36z"
         }
       ],
       "what_changed": []
@@ -346,145 +330,113 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_ba4cea2b5603386b",
+      "id": "evt_588ed1c4f382940e",
       "title": {
-        "es": "Los HomePods recientes pueden emitir el audio del sistema de Mac",
-        "en": "Latest HomePods can output Mac system audio"
+        "es": "Meta detalla el escalado de GEM, su modelo de IA para anuncios",
+        "en": "Meta details scaling plans for GEM, its ads AI model"
       },
       "text": {
-        "es": "Con un Mac compatible con Wi-Fi 6E y un HomePod o HomePod mini reciente, todo el audio del sistema, incluidos los sonidos de notificación, puede enrutarse a través del altavoz desde System Settings → Sound. La función no estaba activa en macOS Golden Gate al 14 de octubre, pero podría llegar cuando se lance el HomePod mini 2 el 30 de octubre.",
-        "en": "With a Wi-Fi 6E-compatible Mac and a recent HomePod or HomePod mini, all system audio, including notification sounds, can be routed to the speaker via System Settings → Sound. The feature wasn't live in macOS Golden Gate as of October 14, but could arrive once the HomePod mini 2 launches on October 30."
+        "es": "Meta repasa cómo GEM, su mayor modelo base de recomendación, introdujo un paradigma inspirado en LLM que mejoró el rendimiento de los anuncios, y plantea escalar cómputo e inteligencia con hardware de nueva generación para extenderlo a todo su ecosistema publicitario.",
+        "en": "Meta reviews how GEM, its largest recommendation foundation model, introduced an LLM-inspired paradigm that drove ads performance gains, and outlines plans to scale compute and intelligence transfer with next-generation hardware to expand it across its entire ads ecosystem."
       },
-      "newsId": "evt_ba4cea2b5603386b",
-      "storyKey": "evt_ba4cea2b5603386b",
-      "topic": "apple",
-      "source": "AppleInsider",
-      "link": "https://appleinsider.com/articles/26/10/15/latest-homepods-can-output-mac-system-audio-in-compatible-configurations",
-      "image": "https://media.appleinsider.com/gallery/69392-146324-HomePod-Second-Generation-black-xl.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-15T00:45:56.000Z",
+      "newsId": "evt_588ed1c4f382940e",
+      "storyKey": "evt_588ed1c4f382940e",
+      "topic": "ai_software",
+      "source": "Meta Engineering",
+      "link": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai",
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/10/GEM-Scaling-Frontier-Ads-Image-1.png",
+      "score": 8.35,
+      "publishedAt": "2026-10-13T16:01:00.000Z",
       "evidence": [
         {
-          "claim": "The latest HomePods can output Mac system audio in compatible configurations.",
-          "source": "6ccac67efee21386"
+          "claim": "Meta introduced GEM, the industry’s largest recommendation system (RecSys) foundation model.",
+          "source": "4934fd24cd5e72c6"
         },
         {
-          "claim": "The feature is available with a recent Mac that supports Wi-Fi 6E.",
-          "source": "6ccac67efee21386"
+          "claim": "GEM established Meta’s first LLM-inspired paradigm for ads recommendation, driving major performance gains.",
+          "source": "4934fd24cd5e72c6"
         },
         {
-          "claim": "The feature will be managed in System Settings -> Sound on the compatible Mac.",
-          "source": "6ccac67efee21386"
+          "claim": "Meta plans to further scale both compute and intelligence transfer with next-generation hardware.",
+          "source": "4934fd24cd5e72c6"
         },
         {
-          "claim": "The feature is not live in macOS Golden Gate as of October 14.",
-          "source": "6ccac67efee21386"
+          "claim": "The scaling efforts will expand GEM’s capability across Meta’s entire ads ecosystem.",
+          "source": "4934fd24cd5e72c6"
         }
       ],
       "sources": [
         {
-          "name": "AppleInsider",
-          "link": "https://appleinsider.com/articles/26/10/15/latest-homepods-can-output-mac-system-audio-in-compatible-configurations"
+          "name": "Meta Engineering",
+          "link": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_13e18fa460128bd4",
+      "id": "evt_b75858b6a8e2b062",
       "title": {
-        "es": "Google DeepMind ficha a un filósofo residente para la ética de la IA",
-        "en": "Google DeepMind's new resident philosopher tackles AI ethics"
+        "es": "HydraFusion actualiza su pool de modelos y añade HydraFusion Max",
+        "en": "HydraFusion updates its model pool and adds HydraFusion Max"
       },
       "text": {
-        "es": "Henry Shevlin se incorporó recientemente a Google DeepMind como filósofo residente de la compañía de IA, un rol orientado a abordar cuestiones éticas emergentes en el desarrollo de inteligencia artificial.",
-        "en": "Henry Shevlin recently joined Google DeepMind as the AI company's resident philosopher, a role aimed at tackling ethical questions emerging from AI development."
+        "es": "HydraFusion ha renovado su pool de modelos y mejorado sus flujos de orquestación, además de introducir una nueva opción llamada HydraFusion Max.",
+        "en": "HydraFusion has refreshed its model pool and improved its orchestration workflows, while also introducing a new option called HydraFusion Max."
       },
-      "newsId": "evt_13e18fa460128bd4",
-      "storyKey": "evt_13e18fa460128bd4",
+      "newsId": "evt_b75858b6a8e2b062",
+      "storyKey": "evt_b75858b6a8e2b062",
+      "topic": "ai_software",
+      "source": "GitHub Changelog",
+      "link": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-14T20:01:35.000Z",
+      "evidence": [
+        {
+          "claim": "HydraFusion has an updated model pool.",
+          "source": "a3a1a87909ba8b2f"
+        },
+        {
+          "claim": "HydraFusion Max is introduced.",
+          "source": "a3a1a87909ba8b2f"
+        }
+      ],
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "link": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_03645934bcdf9d44",
+      "title": {
+        "es": "La IA agéntica crece en empresas y pymes de la UE",
+        "en": "Agentic AI is growing among EU enterprises and SMBs"
+      },
+      "text": {
+        "es": "Un nuevo análisis muestra que la adopción de IA agéntica aumenta entre empresas y pequeños negocios de la UE, señalando que un uso más profundo podría generar más valor.",
+        "en": "New analysis shows agentic AI adoption rising among EU enterprises and small businesses, noting that deeper use could unlock additional value."
+      },
+      "newsId": "evt_03645934bcdf9d44",
+      "storyKey": "evt_03645934bcdf9d44",
       "topic": "ai_general",
-      "source": "IEEE Spectrum AI",
-      "link": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
-      "image": "https://spectrum.ieee.org/media-library/a-white-man-with-shoulder-length-brown-hair-smiling-softly-in-front-of-a-bookshelf.jpg?coordinates=0%2C354%2C0%2C896&height=600&id=67861702&width=1200",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "image": null,
       "score": 7.65,
-      "publishedAt": "2026-10-13T13:00:03.000Z",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
       "evidence": [
         {
-          "claim": "Henry Shevlin recently joined Google DeepMind as the AI company’s resident philosopher.",
-          "source": "c4f80a88089df620"
+          "claim": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses.",
+          "source": "2942da6878095fd0"
         }
       ],
       "sources": [
         {
-          "name": "IEEE Spectrum AI",
-          "link": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_b388a5b1216d60af",
-      "title": {
-        "es": "YouTube Music lanza etiquetas para música generada por IA",
-        "en": "YouTube Music launches new labels for AI-generated music"
-      },
-      "text": {
-        "es": "YouTube Music introdujo nuevas etiquetas que aparecerán en la página del reproductor para identificar canciones generadas total o parcialmente por IA, incluyendo casos donde la IA participó en la composición y las voces.",
-        "en": "YouTube Music introduced new labels that will appear on the player page to identify songs generated entirely or partially by AI, including cases where AI was involved in composition and vocals."
-      },
-      "newsId": "evt_b388a5b1216d60af",
-      "storyKey": "evt_b388a5b1216d60af",
-      "topic": "tech",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/youtube-music-gen-ai-labels.png?w=1080",
-      "score": 7.65,
-      "publishedAt": "2026-10-14T18:23:46.000Z",
-      "evidence": [
-        {
-          "claim": "YouTube Music has launched new labels that include songs entirely generated by AI or partially, with AI involved in composition and vocals.",
-          "source": "0acabcbed81b6cbe"
-        }
-      ],
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_a8c54e6ca5a1d954",
-      "title": {
-        "es": "McKinsey hace que candidatos se enfrenten a un cliente de IA simulado",
-        "en": "McKinsey makes job applicants spar with a fake AI client"
-      },
-      "text": {
-        "es": "Según el WSJ, la simulación de IA de McKinsey busca reflejar el 80% de los escenarios que encuentran sus consultores en el día a día, sin imitar a un cliente 'fuera de control'. La herramienta se probará este otoño con aspirantes a analista de negocio en algunas oficinas de Norteamérica, con cientos de posibles usuarios.",
-        "en": "According to the WSJ, McKinsey's AI simulation aims to reflect 80% of the scenarios its consultants encounter day-to-day, without mimicking an 'unhinged' client. The tool will be tested this fall with business-analyst applicants in some North American offices, with hundreds of potential users."
-      },
-      "newsId": "evt_a8c54e6ca5a1d954",
-      "storyKey": "evt_a8c54e6ca5a1d954",
-      "topic": "tech",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?crop=0%2C10.732984293194%2C100%2C78.534031413613&quality=90&strip=all&w=1200",
-      "score": 7.65,
-      "publishedAt": "2026-10-14T22:53:31.000Z",
-      "evidence": [
-        {
-          "claim": "The AI simulation aims to reflect 80% of the scenarios McKinsey consultants might encounter in their day-to-day work.",
-          "source": "814d2fde07e942ec"
-        },
-        {
-          "claim": "The AI simulation will be tested for undergrads seeking business-analyst jobs in some offices in North America this fall.",
-          "source": "814d2fde07e942ec"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
+          "name": "OpenAI",
+          "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
         }
       ],
       "what_changed": []
@@ -492,97 +444,76 @@
   ],
   "trending_repos": [
     {
-      "id": "onehumanbeing/esp32-iphone-agent",
-      "repoKey": "onehumanbeing/esp32-iphone-agent",
-      "name": "esp32-iphone-agent",
-      "full_name": "onehumanbeing/esp32-iphone-agent",
-      "link": "https://github.com/onehumanbeing/esp32-iphone-agent",
-      "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-      "language": "Python",
-      "stars": 2063,
-      "stars_today": null,
-      "stars_per_day_estimate": 611.0315655235823,
-      "trend_basis": "normalized_22.0h",
-      "trend_score": 12.247854568727456,
-      "default_branch": "main",
-      "created_at": "2026-10-11T19:10:25Z",
-      "pushed_at": "2026-10-14T20:51:31Z",
-      "why_it_matters": {
-        "es": "Permite que un modelo de visión controle un iPhone real usando un ESP32 de 7 dólares como receptor AirPlay y teclado/ratón USB HID, sin Mac, cuenta de desarrollador ni jailbreak, una demostración llamativa de automatización física de iOS accesible para cualquier ingeniero curioso.",
-        "en": "Lets a vision model control a real iPhone using a $7 ESP32 as an AirPlay receiver and USB HID keyboard/mouse, with no Mac, no developer account, and no jailbreak—a striking demonstration of accessible physical iOS automation for any curious engineer."
-      }
-    },
-    {
-      "id": "vllm-project/vllm",
-      "repoKey": "vllm-project/vllm",
-      "name": "vllm",
-      "full_name": "vllm-project/vllm",
-      "link": "https://github.com/vllm-project/vllm",
-      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "language": "Python",
-      "stars": 93797,
-      "stars_today": null,
-      "stars_per_day_estimate": 71.05018203762586,
-      "trend_basis": "normalized_22.0h",
-      "trend_score": 9.170526191151229,
-      "default_branch": "main",
-      "created_at": "2023-02-09T11:23:20Z",
-      "pushed_at": "2026-10-14T21:57:47Z",
-      "why_it_matters": {
-        "es": "Motor de inferencia y servicio de LLMs de alto rendimiento y uso eficiente de memoria, con soporte para más de 200 arquitecturas de modelos y amplia compatibilidad de hardware incluyendo Apple Silicon, consolidado como pieza central de infraestructura para quienes despliegan modelos propios.",
-        "en": "A high-throughput, memory-efficient LLM inference and serving engine supporting 200+ model architectures and broad hardware compatibility including Apple Silicon, established as a core infrastructure piece for anyone deploying their own models."
-      }
-    },
-    {
-      "id": "bherbruck/solidcraft",
-      "repoKey": "bherbruck/solidcraft",
-      "name": "solidcraft",
-      "full_name": "bherbruck/solidcraft",
-      "link": "https://github.com/bherbruck/solidcraft",
-      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-      "language": "Rust",
-      "stars": 2322,
-      "stars_today": null,
-      "stars_per_day_estimate": 559.6568185117605,
-      "trend_basis": "normalized_22.0h",
-      "trend_score": 12.130371095016741,
-      "default_branch": "main",
-      "created_at": "2026-10-07T18:57:48Z",
-      "pushed_at": "2026-10-14T21:56:21Z",
-      "why_it_matters": {
-        "es": "Una aplicación CAD paramétrica de código abierto construida en Rust puro, con soporte para escritorio, navegador y automatización vía MCP, que muestra cómo los agentes de IA pueden integrarse directamente en flujos de modelado 3D tradicionalmente manuales.",
-        "en": "An open-source parametric CAD application built in pure Rust, supporting desktop, browser and automation via MCP, showing how AI agents can be integrated directly into traditionally manual 3D modeling workflows."
-      }
-    },
-    {
-      "id": "n8n-io/n8n",
-      "repoKey": "n8n-io/n8n",
-      "name": "n8n",
-      "full_name": "n8n-io/n8n",
-      "link": "https://github.com/n8n-io/n8n",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "id": "heygen-com/hyperframes",
+      "repoKey": "heygen-com/hyperframes",
+      "name": "hyperframes",
+      "full_name": "heygen-com/hyperframes",
+      "link": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 207391,
+      "stars": 63640,
       "stars_today": null,
-      "stars_per_day_estimate": 135.54188573331703,
+      "stars_per_day_estimate": 960.8170770934328,
       "trend_basis": "normalized_22.0h",
-      "trend_score": 10.092728662674926,
-      "default_branch": "master",
-      "created_at": "2019-06-22T09:24:21Z",
-      "pushed_at": "2026-10-14T21:57:18Z",
+      "trend_score": 12.908967066961186,
+      "default_branch": "main",
+      "created_at": "2026-03-10T01:51:06Z",
+      "pushed_at": "2026-10-14T21:56:00Z",
       "why_it_matters": {
-        "es": "Plataforma de automatización de flujos de trabajo con capacidades nativas de IA, que combina construcción visual con código personalizado, más de 1500 integraciones y miles de plantillas, relevante para ingenieros que buscan llevar agentes de IA a producción con observabilidad y control de acceso.",
-        "en": "A workflow automation platform with native AI capabilities, combining visual building with custom code, 1500+ integrations and thousands of templates, relevant for engineers looking to bring AI agents to production with observability and access control."
+        "es": "Framework de código abierto que convierte HTML, CSS y animaciones en vídeos MP4 deterministas, con integración directa para agentes de codificación IA como Claude Code o Cursor mediante skills instalables, útil para automatizar producción de vídeo desde flujos de desarrollo.",
+        "en": "An open-source framework that turns HTML, CSS, and animations into deterministic MP4 videos, with direct integration for AI coding agents like Claude Code or Cursor via installable skills, useful for automating video production from development workflows."
+      }
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "repoKey": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 253769,
+      "stars_today": null,
+      "stars_per_day_estimate": 314.80696041286535,
+      "trend_basis": "normalized_22.0h",
+      "trend_score": 11.302759068169644,
+      "default_branch": "main",
+      "created_at": "2025-07-22T22:22:28Z",
+      "pushed_at": "2026-10-14T21:59:41Z",
+      "why_it_matters": {
+        "es": "Agente de IA autoconfigurable con un bucle de aprendizaje incorporado que crea y mejora habilidades con el uso, soporta múltiples proveedores de modelos sin cambios de código y puede ejecutarse desde un VPS económico hasta infraestructura serverless, operando desde Telegram, Discord o Slack.",
+        "en": "A self-improving AI agent with a built-in learning loop that creates and refines skills through use, supports multiple model providers without code changes, and can run from a cheap VPS to serverless infrastructure, operating from Telegram, Discord, or Slack."
+      }
+    },
+    {
+      "id": "paperclipai/paperclip",
+      "repoKey": "paperclipai/paperclip",
+      "name": "paperclip",
+      "full_name": "paperclipai/paperclip",
+      "link": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 102121,
+      "stars_today": null,
+      "stars_per_day_estimate": 618.6831235891729,
+      "trend_basis": "normalized_22.0h",
+      "trend_score": 12.27520974103933,
+      "default_branch": "master",
+      "created_at": "2026-03-02T15:01:51Z",
+      "pushed_at": "2026-10-14T21:59:25Z",
+      "why_it_matters": {
+        "es": "Plataforma de código abierto para orquestar equipos de agentes IA con roles, presupuestos y gobernanza, pensada para gestionar objetivos de negocio en lugar de pull requests individuales, compatible con Claude Code, Cursor, Gemini CLI y otros.",
+        "en": "An open-source platform for orchestrating teams of AI agents with roles, budgets, and governance, designed to manage business goals rather than individual pull requests, compatible with Claude Code, Cursor, Gemini CLI, and others."
       }
     }
   ],
   "developer_signals": [],
   "editorial_stats": {
     "topics": {
-      "apple": 2,
-      "ai_software": 3,
-      "ai_general": 1,
-      "tech": 1
+      "apple": 3,
+      "ai_software": 0,
+      "ai_general": 0,
+      "tech": 4
     }
   }
 }

@@ -1,0 +1,519 @@
+{
+  "schema_version": 22,
+  "edition_id": "wmt-2026-10-16",
+  "date": "2026-10-16",
+  "daily_summary": {
+    "es": "Apple prepara un evento multiproducto para el 28 de octubre con MacBook Pro táctil, iPad mini OLED y Macs con chip M6, mientras surgen nuevas señales de seguridad en torno a spyware distribuido por publicidad y MacPaw lanza su asistente de IA Eney.",
+    "en": "Apple is preparing a multi-product event for October 28 with a touchscreen MacBook Pro, OLED iPad mini and M6 Macs, while new security concerns emerge over spyware distributed through ads and MacPaw launches its Eney AI assistant."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Varias fuentes coinciden en que Apple ha comenzado a invitar a medios a un evento de lanzamiento en Los Ángeles programado para el miércoles 28 de octubre, centrado en un rediseño táctil del MacBook Pro, un iPad mini con pantalla OLED y actualizaciones de Mac con el chip M6. Según un reporte, el evento se desarrollaría entre las 15:00 y las 19:00 hora peninsular española. Además, Apple ha publicado una revisión de su Acuerdo de Licencia del Programa de Desarrolladores con nuevos requisitos de seguridad y precisiones sobre la Live Assistance API y el App Replacement Entitlement.",
+      "en": "Multiple sources agree that Apple has started inviting media to a launch event in Los Angeles scheduled for Wednesday, October 28, centered on a touchscreen redesign of the MacBook Pro, an OLED iPad mini, and M6-powered Mac updates. One report states the event is expected to run from 15:00 to 19:00 Spain peninsular time. Separately, Apple has published a revised Developer Program License Agreement with new security requirements and clarifications on the Live Assistance API and App Replacement Entitlement."
+    },
+    "ai_software": {
+      "es": "Meta detalla la evolución de GEM, su modelo base de recomendación para publicidad, con planes de escalar cómputo y transferencia de inteligencia con hardware de nueva generación para ampliar su uso en todo el ecosistema de anuncios. Por separado, HydraFusion presenta una actualización con un pool de modelos renovado, mejores flujos de orquestación y una nueva opción, HydraFusion Max.",
+      "en": "Meta details the evolution of GEM, its foundation recommendation model for ads, with plans to scale compute and intelligence transfer using next-generation hardware to expand its use across the entire ads ecosystem. Separately, HydraFusion ships an update with a refreshed model pool, improved orchestration workflows, and a new option, HydraFusion Max."
+    },
+    "ai_general": {
+      "es": "Un nuevo análisis señala que la adopción de IA agéntica está creciendo entre empresas y pequeños negocios de la UE, aunque un uso más profundo podría desbloquear mayor valor.",
+      "en": "New analysis indicates that agentic AI adoption is growing among EU enterprises and small businesses, though deeper use could unlock additional value."
+    },
+    "tech": {
+      "es": "Investigadores de The Citizen Lab han publicado por primera vez evidencia técnica de spyware mercenario sofisticado distribuido a través de publicidad en línea, una táctica que facilita infecciones sin interacción del usuario. En paralelo, Amazon ha lanzado a través de su filial Bee dos nuevos dispositivos de IA personal desde 74,99 dólares, y MacPaw ha presentado Eney, un asistente de IA proactivo para Mac y iPhone tras un desarrollo iniciado en 2019. Consus, una startup de YC, lanzó una pasarela LLM orientada a empresas con datos sensibles, con auditoría de equivalencia FedRAMP High y retención cero de datos.",
+      "en": "Researchers at The Citizen Lab have for the first time published technical evidence of sophisticated mercenary spyware distributed through online advertising, a tactic that enables infections without user interaction. Separately, Amazon's Bee subsidiary has launched two new personal AI devices starting at $74.99, and MacPaw has unveiled Eney, a proactive AI assistant for Mac and iPhone following development that began in 2019. YC startup Consus launched an LLM gateway for companies handling sensitive data, with a FedRAMP High equivalency audit and zero data retention."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Varias fuentes coinciden en que Apple ha comenzado a invitar a medios a un evento de lanzamiento en Los Ángeles programado para el miércoles 28 de octubre, centrado en un rediseño táctil del MacBook Pro, un iPad mini con pantalla OLED y actualizaciones de Mac con el chip M6. Según un reporte, el evento se desarrollaría entre las 15:00 y las 19:00 hora peninsular española. Además, Apple ha publicado una revisión de su Acuerdo de Licencia del Programa de Desarrolladores con nuevos requisitos de seguridad y precisiones sobre la Live Assistance API y el App Replacement Entitlement.",
+      "en": "Multiple sources agree that Apple has started inviting media to a launch event in Los Angeles scheduled for Wednesday, October 28, centered on a touchscreen redesign of the MacBook Pro, an OLED iPad mini, and M6-powered Mac updates. One report states the event is expected to run from 15:00 to 19:00 Spain peninsular time. Separately, Apple has published a revised Developer Program License Agreement with new security requirements and clarifications on the Live Assistance API and App Replacement Entitlement."
+    },
+    "ai_software": {
+      "es": "Meta detalla la evolución de GEM, su modelo base de recomendación para publicidad, con planes de escalar cómputo y transferencia de inteligencia con hardware de nueva generación para ampliar su uso en todo el ecosistema de anuncios. Por separado, HydraFusion presenta una actualización con un pool de modelos renovado, mejores flujos de orquestación y una nueva opción, HydraFusion Max.",
+      "en": "Meta details the evolution of GEM, its foundation recommendation model for ads, with plans to scale compute and intelligence transfer using next-generation hardware to expand its use across the entire ads ecosystem. Separately, HydraFusion ships an update with a refreshed model pool, improved orchestration workflows, and a new option, HydraFusion Max."
+    },
+    "ai_general": {
+      "es": "Un nuevo análisis señala que la adopción de IA agéntica está creciendo entre empresas y pequeños negocios de la UE, aunque un uso más profundo podría desbloquear mayor valor.",
+      "en": "New analysis indicates that agentic AI adoption is growing among EU enterprises and small businesses, though deeper use could unlock additional value."
+    },
+    "tech": {
+      "es": "Investigadores de The Citizen Lab han publicado por primera vez evidencia técnica de spyware mercenario sofisticado distribuido a través de publicidad en línea, una táctica que facilita infecciones sin interacción del usuario. En paralelo, Amazon ha lanzado a través de su filial Bee dos nuevos dispositivos de IA personal desde 74,99 dólares, y MacPaw ha presentado Eney, un asistente de IA proactivo para Mac y iPhone tras un desarrollo iniciado en 2019. Consus, una startup de YC, lanzó una pasarela LLM orientada a empresas con datos sensibles, con auditoría de equivalencia FedRAMP High y retención cero de datos.",
+      "en": "Researchers at The Citizen Lab have for the first time published technical evidence of sophisticated mercenary spyware distributed through online advertising, a tactic that enables infections without user interaction. Separately, Amazon's Bee subsidiary has launched two new personal AI devices starting at $74.99, and MacPaw has unveiled Eney, a proactive AI assistant for Mac and iPhone following development that began in 2019. YC startup Consus launched an LLM gateway for companies handling sensitive data, with a FedRAMP High equivalency audit and zero data retention."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "evt_b0dea9a2a72cd2aa",
+      "title": {
+        "es": "El lanzamiento del Mac táctil apunta al miércoles 28 de octubre",
+        "en": "Touch-screen Mac launch points to Wednesday, October 28"
+      },
+      "body": {
+        "es": "Según un informe, Apple está invitando a medios a una presentación en Los Ángeles programada para el 28 de octubre, que se celebraría entre las 15:00 y las 19:00 hora peninsular española. Se espera un MacBook Pro rediseñado, más ligero y fino, con Dynamic Island y chips M6, M5 Pro y M5 Max, además de un MacBook Pro de 14 pulgadas y un iMac con chip M6, y un iPad mini con pantalla OLED y procesador A20 Pro. El cambio de diseño llegaría cinco años después del modelo actual.",
+        "en": "According to a report, Apple is inviting media to a presentation in Los Angeles scheduled for October 28, said to run from 15:00 to 19:00 Spain peninsular time. Expected products include a redesigned, lighter and thinner MacBook Pro with Dynamic Island and M6, M5 Pro and M5 Max chips, plus a 14-inch MacBook Pro and an M6 iMac, and an iPad mini with an OLED screen and A20 Pro chip. The redesign would arrive five years after the current model."
+      },
+      "newsId": "evt_b0dea9a2a72cd2aa",
+      "storyKey": "evt_b0dea9a2a72cd2aa",
+      "topic": "apple",
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/rumores/lanzamiento-mac-tactil-cambia-fecha-rumor-apunta-ahora-al-miercoles-28",
+      "image": "https://i.blogs.es/a13402/lanzamiento-apple-28/840_560.jpeg",
+      "score": 7.65,
+      "publishedAt": "2026-10-15T09:30:00.000Z",
+      "evidence": [
+        {
+          "claim": "Apple is scheduled to launch the MacBook Pro with a touch screen on Wednesday, October 28.",
+          "source": "7b187a85b230b681"
+        },
+        {
+          "claim": "Apple is inviting media to a product presentation in Los Angeles on October 28.",
+          "source": "7b187a85b230b681"
+        },
+        {
+          "claim": "Other products expected to be launched include a 14-inch MacBook Pro, an iMac with the M6 chip, and an OLED iPad mini.",
+          "source": "7b187a85b230b681"
+        },
+        {
+          "claim": "The launch is scheduled for the afternoon of October 28, with the event lasting from 15:00 to 19:00 local time in Spain.",
+          "source": "7b187a85b230b681"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Applesfera",
+          "link": "https://www.applesfera.com/rumores/lanzamiento-mac-tactil-cambia-fecha-rumor-apunta-ahora-al-miercoles-28"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_c19a84a238df0dac",
+      "title": {
+        "es": "Apple prepararía lanzamientos de iPad y Mac para el 28 de octubre",
+        "en": "Apple reportedly preparing iPad and Mac launches for October 28"
+      },
+      "body": {
+        "es": "Apple estaría preparando el 28 de octubre para lanzar una serie de productos de iPad y Mac, desde el MacBook Pro táctil con OLED hasta un nuevo iPad mini, según el reporte. También se especula con un iMac actualizado, dado que no recibe una revisión desde hace dos años, con un posible chip M6 antes de que termine 2026.",
+        "en": "Apple is reportedly preparing October 28 for a series of iPad and Mac releases, ranging from the OLED touch-screen MacBook Pro to a new iPad mini, according to the report. There is also speculation about an updated iMac, since it hasn't been revised in two years, with a possible M6 chip before the end of 2026."
+      },
+      "newsId": "evt_c19a84a238df0dac",
+      "storyKey": "evt_c19a84a238df0dac",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/10/15/touch-screen-macbook-pro-will-be-unveiled-on-october-28",
+      "image": "https://media.appleinsider.com/gallery/68616-144631-66579-139653-M5-MacBook-Pro-display-xl-(1)-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-15T11:05:41.000Z",
+      "evidence": [
+        {
+          "claim": "Apple is preparing an October 28 launch for a series of iPad and Mac releases.",
+          "source": "a2b96b1d2dc05211"
+        },
+        {
+          "claim": "Apple is inviting some media to an all-day product launch experience on Oct. 28 in Los Angeles.",
+          "source": "a2b96b1d2dc05211"
+        },
+        {
+          "claim": "An updated iPad mini with an OLED screen is predicted.",
+          "source": "a2b96b1d2dc05211"
+        },
+        {
+          "claim": "The iMac has not been updated in two years.",
+          "source": "a2b96b1d2dc05211"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/10/15/touch-screen-macbook-pro-will-be-unveiled-on-october-28"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_d4820c08fda87a96",
+      "title": {
+        "es": "Investigadores destapan spyware 'zero-click' distribuido mediante anuncios",
+        "en": "Researchers uncover zero-click spyware distributed through ads"
+      },
+      "body": {
+        "es": "The Citizen Lab ha publicado por primera vez evidencia técnica de spyware mercenario sofisticado que se distribuye a través de publicidad en línea, permitiendo infecciones sin que la víctima interactúe con el anuncio. El hallazgo expone una vía de ataque difícil de detectar para usuarios comunes, ya que no requiere clic ni descarga visible.",
+        "en": "The Citizen Lab has for the first time published technical evidence of sophisticated mercenary spyware distributed via online advertising, enabling infections without any victim interaction with the ad. The finding exposes a hard-to-detect attack vector for ordinary users, since it requires no click or visible download."
+      },
+      "newsId": "evt_d4820c08fda87a96",
+      "storyKey": "evt_d4820c08fda87a96",
+      "topic": "tech",
+      "source": "Wired",
+      "link": "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads",
+      "image": "https://media.wired.com/photos/6acfe0c101e1efc169db5a0f/191:100/w_1280,c_limit/Security_Sophisticated%20Zero-Click%20Spyware%20Found%20Being%20Distributed%20by%20Targeted%20Ads%20for%20the%20First%20Time_v1.jpg",
+      "score": 8.35,
+      "publishedAt": "2026-10-15T10:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Researchers at The Citizen Lab have released technical evidence of sophisticated mercenary spyware being distributed via online advertising.",
+          "source": "6ca5622ea615a0c2"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/nightmare-scenario-zero-click-spyware-is-infecting-phones-via-targeted-ads"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_3aeb4716508d839e",
+      "title": {
+        "es": "MacPaw lanza Eney, un asistente de IA proactivo para Mac y iPhone",
+        "en": "MacPaw launches Eney, a proactive AI assistant for Mac and iPhone"
+      },
+      "body": {
+        "es": "MacPaw ha lanzado Eney, un asistente de IA proactivo que trabaja a través de apps, archivos y el sistema para ayudar a completar tareas, tras un desarrollo que comenzó en 2019. Es un hito para la compañía, conocida principalmente por sus utilidades de limpieza y mantenimiento en macOS.",
+        "en": "MacPaw has launched Eney, a proactive AI assistant that works across apps, files, and the system to help get things done, following a development process that began in 2019. It marks a milestone for the company, best known for its macOS cleanup and maintenance utilities."
+      },
+      "newsId": "evt_3aeb4716508d839e",
+      "storyKey": "evt_3aeb4716508d839e",
+      "topic": "tech",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/10/15/macpaw-launches-eney-a-proactive-ai-assistant-for-mac-and-iphone",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/eney-macpaw.jpg?quality=82&strip=all&w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-10-15T12:00:14.000Z",
+      "evidence": [
+        {
+          "claim": "MacPaw has launched Eney, a proactive AI assistant.",
+          "source": "dbc1bfdbdf89e849"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/10/15/macpaw-launches-eney-a-proactive-ai-assistant-for-mac-and-iphone"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_4fa0657a5263424c",
+      "title": {
+        "es": "Bee, de Amazon, lanza dos nuevos dispositivos de IA personal desde 75 dólares",
+        "en": "Amazon's Bee launches two new personal AI devices starting at $75"
+      },
+      "body": {
+        "es": "Bee, propiedad de Amazon, ha lanzado sus primeros nuevos dispositivos de IA desde su adquisición: un wearable actualizado y una grabadora del tamaño de una tarjeta de crédito que se adhiere al smartphone. Los precios parten de 74,99 dólares.",
+        "en": "Amazon-owned Bee has launched its first new AI devices since its acquisition: an updated wearable and a credit-card-sized recorder that attaches to a smartphone. Prices start at $74.99."
+      },
+      "newsId": "evt_4fa0657a5263424c",
+      "storyKey": "evt_4fa0657a5263424c",
+      "topic": "tech",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/BEE_FAMILY_01_1080x1080.jpg?w=1080",
+      "score": 7.65,
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Amazon-owned Bee has launched two new AI devices.",
+          "source": "87d5fac33029cf69"
+        },
+        {
+          "claim": "The starting price for the devices is $74.99.",
+          "source": "87d5fac33029cf69"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_1136ce2e5fe6a590",
+      "title": {
+        "es": "Consus (YC F24) lanza una pasarela LLM para empresas con datos sensibles",
+        "en": "Consus (YC F24) launches an LLM gateway for companies handling sensitive data"
+      },
+      "body": {
+        "es": "Consus ha presentado una pasarela LLM dirigida a organizaciones que manejan datos sensibles, afirmando haber completado una auditoría de equivalencia FedRAMP High contra los 410 controles exigidos y cumplir restricciones ITAR. La empresa no almacena datos de clientes en reposo: los prompts y respuestas solo permanecen en memoria durante la solicitud, y cada nombre de modelo debe llevar un sufijo de cumplimiento como ':fedramp-high' o ':itar', rechazando nombres de modelo genéricos.",
+        "en": "Consus has introduced an LLM gateway aimed at organizations handling sensitive data, stating it has completed a FedRAMP High equivalency audit against the required 410 controls and meets ITAR restrictions. The company says it does not store customer data at rest: prompts and completions stay in memory only for the duration of the request, and every model name must carry a compliance suffix like ':fedramp-high' or ':itar', rejecting bare model names."
+      },
+      "newsId": "evt_1136ce2e5fe6a590",
+      "storyKey": "evt_1136ce2e5fe6a590",
+      "topic": "tech",
+      "source": "Hacker News",
+      "link": "https://news.ycombinator.com/item?id=50073471",
+      "image": null,
+      "score": 8.6,
+      "publishedAt": "2026-10-13T15:41:00.000Z",
+      "evidence": [
+        {
+          "claim": "Consus has completed its FedRAMP equivalency audit against the 410 FedRAMP High controls.",
+          "source": "9483d381523cc333"
+        },
+        {
+          "claim": "Consus does not store any customer data at rest, ensuring zero data retention.",
+          "source": "9483d381523cc333"
+        },
+        {
+          "claim": "Consus runs all models behind one endpoint to avoid customers having to pick a cloud provider.",
+          "source": "9483d381523cc333"
+        },
+        {
+          "claim": "Consus enforces strict compliance suffixes on model names to ensure proper handling of sensitive data.",
+          "source": "9483d381523cc333"
+        },
+        {
+          "claim": "Consus provides guidance to customers during on-boarding to ensure proper handling of technical tools and MCP calls.",
+          "source": "9483d381523cc333"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Hacker News",
+          "link": "https://news.ycombinator.com/item?id=50073471"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_502f3697c62565e3",
+      "title": {
+        "es": "Apple actualiza el Acuerdo de Licencia del Programa de Desarrolladores",
+        "en": "Apple updates the Developer Program License Agreement"
+      },
+      "body": {
+        "es": "Apple ha revisado su Acuerdo de Licencia del Programa de Desarrolladores para incorporar nuevas funciones y políticas. Los cambios incluyen requisitos de seguridad actualizados en la Sección 3.2, definiciones específicas para la Live Assistance API y el App Replacement Entitlement, y precisiones sobre el reporte de información fiscal y de contacto a autoridades.",
+        "en": "Apple has revised its Developer Program License Agreement to support new features and updated policies. Changes include updated security requirements in Section 3.2, specific definitions for the Live Assistance API and the App Replacement Entitlement, and clarifications on reporting required tax, sales, and contact information to authorities."
+      },
+      "newsId": "evt_502f3697c62565e3",
+      "storyKey": "evt_502f3697c62565e3",
+      "topic": "apple",
+      "source": "Apple Developer News",
+      "link": "https://developer.apple.com/news?id=17mwd36z",
+      "image": "https://developer.apple.com/news/images/og/apple-developer-og.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-13T22:00:09.000Z",
+      "evidence": [
+        {
+          "claim": "The Apple Developer Program License Agreement has been revised to support new features and updated policies.",
+          "source": "ea0ee9ff1a12f091"
+        },
+        {
+          "claim": "Section 3.2 has been updated to include security and related requirements for using Apple’s software and services.",
+          "source": "ea0ee9ff1a12f091"
+        },
+        {
+          "claim": "Definitions, Section 3.3.8(j) have been updated to specify terms for use of the Live Assistance API.",
+          "source": "ea0ee9ff1a12f091"
+        },
+        {
+          "claim": "Definitions, Section 3.3.8(k) have been updated to specify terms for use of the App Replacement Entitlement.",
+          "source": "ea0ee9ff1a12f091"
+        },
+        {
+          "claim": "Schedule 2, Section 3.3(a) specifies that Apple will report legally required information such as tax, sales, and contact details to tax authorities.",
+          "source": "ea0ee9ff1a12f091"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Apple Developer News",
+          "link": "https://developer.apple.com/news?id=17mwd36z"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "evt_588ed1c4f382940e",
+      "title": {
+        "es": "Meta detalla el escalado de GEM, su modelo de IA para anuncios",
+        "en": "Meta details scaling plans for GEM, its ads AI model"
+      },
+      "text": {
+        "es": "Meta repasa cómo GEM, su mayor modelo base de recomendación, introdujo un paradigma inspirado en LLM que mejoró el rendimiento de los anuncios, y plantea escalar cómputo e inteligencia con hardware de nueva generación para extenderlo a todo su ecosistema publicitario.",
+        "en": "Meta reviews how GEM, its largest recommendation foundation model, introduced an LLM-inspired paradigm that drove ads performance gains, and outlines plans to scale compute and intelligence transfer with next-generation hardware to expand it across its entire ads ecosystem."
+      },
+      "newsId": "evt_588ed1c4f382940e",
+      "storyKey": "evt_588ed1c4f382940e",
+      "topic": "ai_software",
+      "source": "Meta Engineering",
+      "link": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai",
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/10/GEM-Scaling-Frontier-Ads-Image-1.png",
+      "score": 8.35,
+      "publishedAt": "2026-10-13T16:01:00.000Z",
+      "evidence": [
+        {
+          "claim": "Meta introduced GEM, the industry’s largest recommendation system (RecSys) foundation model.",
+          "source": "4934fd24cd5e72c6"
+        },
+        {
+          "claim": "GEM established Meta’s first LLM-inspired paradigm for ads recommendation, driving major performance gains.",
+          "source": "4934fd24cd5e72c6"
+        },
+        {
+          "claim": "Meta plans to further scale both compute and intelligence transfer with next-generation hardware.",
+          "source": "4934fd24cd5e72c6"
+        },
+        {
+          "claim": "The scaling efforts will expand GEM’s capability across Meta’s entire ads ecosystem.",
+          "source": "4934fd24cd5e72c6"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Meta Engineering",
+          "link": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_b75858b6a8e2b062",
+      "title": {
+        "es": "HydraFusion actualiza su pool de modelos y añade HydraFusion Max",
+        "en": "HydraFusion updates its model pool and adds HydraFusion Max"
+      },
+      "text": {
+        "es": "HydraFusion ha renovado su pool de modelos y mejorado sus flujos de orquestación, además de introducir una nueva opción llamada HydraFusion Max.",
+        "en": "HydraFusion has refreshed its model pool and improved its orchestration workflows, while also introducing a new option called HydraFusion Max."
+      },
+      "newsId": "evt_b75858b6a8e2b062",
+      "storyKey": "evt_b75858b6a8e2b062",
+      "topic": "ai_software",
+      "source": "GitHub Changelog",
+      "link": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-14T20:01:35.000Z",
+      "evidence": [
+        {
+          "claim": "HydraFusion has an updated model pool.",
+          "source": "a3a1a87909ba8b2f"
+        },
+        {
+          "claim": "HydraFusion Max is introduced.",
+          "source": "a3a1a87909ba8b2f"
+        }
+      ],
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "link": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_03645934bcdf9d44",
+      "title": {
+        "es": "La IA agéntica crece en empresas y pymes de la UE",
+        "en": "Agentic AI is growing among EU enterprises and SMBs"
+      },
+      "text": {
+        "es": "Un nuevo análisis muestra que la adopción de IA agéntica aumenta entre empresas y pequeños negocios de la UE, señalando que un uso más profundo podría generar más valor.",
+        "en": "New analysis shows agentic AI adoption rising among EU enterprises and small businesses, noting that deeper use could unlock additional value."
+      },
+      "newsId": "evt_03645934bcdf9d44",
+      "storyKey": "evt_03645934bcdf9d44",
+      "topic": "ai_general",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "image": null,
+      "score": 7.65,
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses.",
+          "source": "2942da6878095fd0"
+        }
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "heygen-com/hyperframes",
+      "repoKey": "heygen-com/hyperframes",
+      "name": "hyperframes",
+      "full_name": "heygen-com/hyperframes",
+      "link": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 63640,
+      "stars_today": null,
+      "stars_per_day_estimate": 960.8170770934328,
+      "trend_basis": "normalized_22.0h",
+      "trend_score": 12.908967066961186,
+      "default_branch": "main",
+      "created_at": "2026-03-10T01:51:06Z",
+      "pushed_at": "2026-10-14T21:56:00Z",
+      "why_it_matters": {
+        "es": "Framework de código abierto que convierte HTML, CSS y animaciones en vídeos MP4 deterministas, con integración directa para agentes de codificación IA como Claude Code o Cursor mediante skills instalables, útil para automatizar producción de vídeo desde flujos de desarrollo.",
+        "en": "An open-source framework that turns HTML, CSS, and animations into deterministic MP4 videos, with direct integration for AI coding agents like Claude Code or Cursor via installable skills, useful for automating video production from development workflows."
+      }
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "repoKey": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 253769,
+      "stars_today": null,
+      "stars_per_day_estimate": 314.80696041286535,
+      "trend_basis": "normalized_22.0h",
+      "trend_score": 11.302759068169644,
+      "default_branch": "main",
+      "created_at": "2025-07-22T22:22:28Z",
+      "pushed_at": "2026-10-14T21:59:41Z",
+      "why_it_matters": {
+        "es": "Agente de IA autoconfigurable con un bucle de aprendizaje incorporado que crea y mejora habilidades con el uso, soporta múltiples proveedores de modelos sin cambios de código y puede ejecutarse desde un VPS económico hasta infraestructura serverless, operando desde Telegram, Discord o Slack.",
+        "en": "A self-improving AI agent with a built-in learning loop that creates and refines skills through use, supports multiple model providers without code changes, and can run from a cheap VPS to serverless infrastructure, operating from Telegram, Discord, or Slack."
+      }
+    },
+    {
+      "id": "paperclipai/paperclip",
+      "repoKey": "paperclipai/paperclip",
+      "name": "paperclip",
+      "full_name": "paperclipai/paperclip",
+      "link": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 102121,
+      "stars_today": null,
+      "stars_per_day_estimate": 618.6831235891729,
+      "trend_basis": "normalized_22.0h",
+      "trend_score": 12.27520974103933,
+      "default_branch": "master",
+      "created_at": "2026-03-02T15:01:51Z",
+      "pushed_at": "2026-10-14T21:59:25Z",
+      "why_it_matters": {
+        "es": "Plataforma de código abierto para orquestar equipos de agentes IA con roles, presupuestos y gobernanza, pensada para gestionar objetivos de negocio en lugar de pull requests individuales, compatible con Claude Code, Cursor, Gemini CLI y otros.",
+        "en": "An open-source platform for orchestrating teams of AI agents with roles, budgets, and governance, designed to manage business goals rather than individual pull requests, compatible with Claude Code, Cursor, Gemini CLI, and others."
+      }
+    }
+  ],
+  "developer_signals": [],
+  "editorial_stats": {
+    "topics": {
+      "apple": 3,
+      "ai_software": 0,
+      "ai_general": 0,
+      "tech": 4
+    }
+  }
+}
