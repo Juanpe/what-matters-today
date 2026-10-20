@@ -1,0 +1,608 @@
+{
+  "schema_version": 22,
+  "edition_id": "wmt-2026-10-20",
+  "date": "2026-10-20",
+  "daily_summary": {
+    "es": "Apple refuerza su apuesta por el iPhone como centro de la vida digital mientras gestiona la escasez del iPhone Duo, al tiempo que Meta avanza en su supercluster Prometheus y surgen nuevas herramientas y modelos de IA abierta.",
+    "en": "Apple doubles down on the iPhone as the center of digital life while managing iPhone Duo shortages, as Meta advances its Prometheus supercluster and new open AI tools and models emerge."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "John Ternus, CEO de Apple, defendió que el iPhone sigue siendo el centro de la vida digital y la pieza clave de la estrategia de IA de la compañía, incluso ante rivales con sistemas más avanzados. En paralelo, Apple confirmó que la demanda del iPhone Duo supera ampliamente la oferta, con tiempos de entrega que se han desplazado a finales de enero, y GM comenzó a desplegar soporte de llaves de coche en Apple Wallet para varios modelos de Cadillac, Chevrolet y GMC.",
+      "en": "Apple CEO John Ternus argued that the iPhone remains the center of digital life and the linchpin of the company's AI strategy, even as rivals build more advanced systems. Separately, Apple confirmed that iPhone Duo demand far outstrips supply, with delivery times slipping into late January, while GM began rolling out Apple Wallet car key support across several Cadillac, Chevrolet and GMC models."
+    },
+    "ai_software": {
+      "es": "MiniMax lanzó M3.1 Flash, un modelo multimodal de pesos abiertos para codificación y tareas agénticas con ventana de contexto de 1M de tokens, disponible gratis en AI Gateway hasta el 22 de octubre. Meta detalló el progreso de Prometheus, su supercluster a escala de gigavatio que ya completó su primera fase y que planea escalar a cerca de un millón de GPUs.",
+      "en": "MiniMax released M3.1 Flash, an open-weight multimodal model for coding and agentic work with a 1M-token context window, free on AI Gateway until October 22. Meta detailed progress on Prometheus, its gigawatt-scale supercluster that has completed its first phase and aims to scale to around one million GPUs."
+    },
+    "ai_general": {
+      "es": "Investigadores observaron que agentes de IA basados en Claude Opus, dejados libres en una isla virtual, desarrollaron comportamientos parecidos al juego, como explorar los límites del entorno, crear dibujos y hasta inventar sus propios juegos.",
+      "en": "Researchers observed that Claude Opus-based AI agents, left to roam a virtual island, developed play-like behaviors such as exploring the environment's limits, creating drawings, and even inventing their own games."
+    },
+    "tech": {
+      "es": "Cuatro grandes operadoras europeas (Deutsche Telekom, Orange, Telefónica y Vodafone) firmaron una carta de intenciones para explorar una oferta conjunta de espectro que compita con Starlink en conectividad satelital directa. Además, expertos advierten que parchear la reciente vulnerabilidad de Citrix NetScaler no basta, recomendando mover los inicios de sesión públicos detrás de SSO.",
+      "en": "Four major European carriers (Deutsche Telekom, Orange, Telefónica and Vodafone) signed a letter of intent to explore a joint spectrum bid to compete with Starlink in direct-to-device satellite connectivity. Separately, experts warn that patching the recent Citrix NetScaler vulnerability isn't enough, recommending moving public login pages behind SSO."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "John Ternus, CEO de Apple, defendió que el iPhone sigue siendo el centro de la vida digital y la pieza clave de la estrategia de IA de la compañía, incluso ante rivales con sistemas más avanzados. En paralelo, Apple confirmó que la demanda del iPhone Duo supera ampliamente la oferta, con tiempos de entrega que se han desplazado a finales de enero, y GM comenzó a desplegar soporte de llaves de coche en Apple Wallet para varios modelos de Cadillac, Chevrolet y GMC.",
+      "en": "Apple CEO John Ternus argued that the iPhone remains the center of digital life and the linchpin of the company's AI strategy, even as rivals build more advanced systems. Separately, Apple confirmed that iPhone Duo demand far outstrips supply, with delivery times slipping into late January, while GM began rolling out Apple Wallet car key support across several Cadillac, Chevrolet and GMC models."
+    },
+    "ai_software": {
+      "es": "MiniMax lanzó M3.1 Flash, un modelo multimodal de pesos abiertos para codificación y tareas agénticas con ventana de contexto de 1M de tokens, disponible gratis en AI Gateway hasta el 22 de octubre. Meta detalló el progreso de Prometheus, su supercluster a escala de gigavatio que ya completó su primera fase y que planea escalar a cerca de un millón de GPUs.",
+      "en": "MiniMax released M3.1 Flash, an open-weight multimodal model for coding and agentic work with a 1M-token context window, free on AI Gateway until October 22. Meta detailed progress on Prometheus, its gigawatt-scale supercluster that has completed its first phase and aims to scale to around one million GPUs."
+    },
+    "ai_general": {
+      "es": "Investigadores observaron que agentes de IA basados en Claude Opus, dejados libres en una isla virtual, desarrollaron comportamientos parecidos al juego, como explorar los límites del entorno, crear dibujos y hasta inventar sus propios juegos.",
+      "en": "Researchers observed that Claude Opus-based AI agents, left to roam a virtual island, developed play-like behaviors such as exploring the environment's limits, creating drawings, and even inventing their own games."
+    },
+    "tech": {
+      "es": "Cuatro grandes operadoras europeas (Deutsche Telekom, Orange, Telefónica y Vodafone) firmaron una carta de intenciones para explorar una oferta conjunta de espectro que compita con Starlink en conectividad satelital directa. Además, expertos advierten que parchear la reciente vulnerabilidad de Citrix NetScaler no basta, recomendando mover los inicios de sesión públicos detrás de SSO.",
+      "en": "Four major European carriers (Deutsche Telekom, Orange, Telefónica and Vodafone) signed a letter of intent to explore a joint spectrum bid to compete with Starlink in direct-to-device satellite connectivity. Separately, experts warn that patching the recent Citrix NetScaler vulnerability isn't enough, recommending moving public login pages behind SSO."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "evt_057f9248f9131e4e",
+      "title": {
+        "es": "\"Todo en tu vida está en tu teléfono\": la visión de Ternus sobre el futuro de Apple",
+        "en": "\"Everything in your life is in your phone\": Ternus's vision for Apple's future"
+      },
+      "body": {
+        "es": "John Ternus, en su primera intervención pública como alto ejecutivo de Apple, defendió que el iPhone seguirá siendo el centro de la vida digital, incluso si rivales desarrollan sistemas de IA más potentes. Según Apple, gran parte del procesamiento de futuras funciones de IA, como los rumoreados AirPods con cámaras, se ejecutará en el propio iPhone. El dispositivo sigue siendo crucial económicamente: representó alrededor de 209.500 millones de dólares en ingresos en 2025, cerca de la mitad del total de la compañía.",
+        "en": "John Ternus, in his first public remarks as a top Apple executive, argued the iPhone will remain the center of digital life even if rivals build more powerful AI systems. According to Apple, much of the processing for future AI features, like the rumored camera-equipped AirPods, will run on the iPhone itself. The device remains economically critical: it generated roughly $209.5 billion in revenue in 2025, close to half the company's total."
+      },
+      "newsId": "evt_057f9248f9131e4e",
+      "storyKey": "evt_057f9248f9131e4e",
+      "topic": "apple",
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/iphone/todo-tu-vida-esta-tu-telefono-reflexion-john-ternus-que-queda-claro-futuro-apple",
+      "image": "https://i.blogs.es/a7b7b6/john-ternus-iphone-duo/840_560.jpeg",
+      "score": 7.65,
+      "publishedAt": "2026-10-19T14:01:56.000Z",
+      "evidence": [
+        {
+          "claim": "Apple's CEO, John Ternus, emphasizes that the iPhone is the center of Apple's ecosystem and our digital life.",
+          "source": "58f574896346f6a3"
+        },
+        {
+          "claim": "Apple plans to continue making the iPhone more useful rather than inventing a new product to replace it.",
+          "source": "58f574896346f6a3"
+        },
+        {
+          "claim": "Apple's CEO, John Ternus, believes that even if competitors develop more advanced AI, physical devices will still be necessary for interaction.",
+          "source": "58f574896346f6a3"
+        },
+        {
+          "claim": "Apple's iPhone plays a crucial role in the company's AI initiatives, such as AirPods with cameras and Apple HomeView.",
+          "source": "58f574896346f6a3"
+        },
+        {
+          "claim": "The iPhone remains a significant revenue driver for Apple, accounting for about half of the company's annual revenue.",
+          "source": "58f574896346f6a3"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Applesfera",
+          "link": "https://www.applesfera.com/iphone/todo-tu-vida-esta-tu-telefono-reflexion-john-ternus-que-queda-claro-futuro-apple"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_3fc8f2e178edd437",
+      "title": {
+        "es": "Apple confirma que la demanda del iPhone Duo supera ampliamente la oferta",
+        "en": "Apple confirms iPhone Duo demand far outstrips supply"
+      },
+      "body": {
+        "es": "Apple había prometido entregar el iPhone Duo para el 23 de octubre, pero horas después de abrirse los pedidos los plazos de entrega en su web ya se habían desplazado a finales de enero. Empleados de Apple Store han sido advertidos de que probablemente no habrá stock para compras sin reserva el día de lanzamiento, tras problemas de producción que redujeron la fabricación a pocos cientos de unidades diarias a finales de agosto.",
+        "en": "Apple had promised iPhone Duo delivery by October 23, but within hours of orders opening, delivery times on its website had already slipped to late January. Apple Store employees have been told there will likely be no walk-in stock on launch day, following production problems that cut output to just a few hundred units per day in late August."
+      },
+      "newsId": "evt_3fc8f2e178edd437",
+      "storyKey": "evt_3fc8f2e178edd437",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://www.ft.com/content/7b236286-ca1d-4063-a728-7f968a638b8f",
+      "image": null,
+      "score": 7.65,
+      "publishedAt": "2026-10-18T20:04:44.000Z",
+      "evidence": [
+        {
+          "claim": "Apple had originally promised delivery of the Duo by October 23, but within hours of orders opening, delivery times through Apple’s website had slipped into late January.",
+          "source": "d995c1574e6c7749"
+        },
+        {
+          "claim": "Apple Store employees have been advised that there will likely be no iPhone Duo stock available for walk-in purchases on launch day.",
+          "source": "d995c1574e6c7749"
+        },
+        {
+          "claim": "Production had reached only a few hundred devices per day in late August.",
+          "source": "d995c1574e6c7749"
+        },
+        {
+          "claim": "Initial supply is incredibly low.",
+          "source": "d995c1574e6c7749"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daring Fireball",
+          "link": "https://www.ft.com/content/7b236286-ca1d-4063-a728-7f968a638b8f"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_f2b15422781d59de",
+      "title": {
+        "es": "Meta completa la primera fase de Prometheus, su supercluster a escala de gigavatio",
+        "en": "Meta completes first phase of Prometheus, its gigawatt-scale supercluster"
+      },
+      "body": {
+        "es": "Meta anunció que ya completó la primera fase de Prometheus, un supercluster de cómputo a escala de gigavatio, y que planea escalarlo hasta cerca de un millón de GPUs. El sistema incorpora tecnologías como refrigeración líquida de circuito cerrado, parte de la carrera de las grandes tecnológicas por infraestructura masiva de IA.",
+        "en": "Meta announced it has completed the first phase of Prometheus, a gigawatt-scale compute supercluster, and plans to scale it to roughly one million GPUs. The system incorporates technologies like closed-loop liquid cooling, part of the broader race among big tech companies for massive AI infrastructure."
+      },
+      "newsId": "evt_f2b15422781d59de",
+      "storyKey": "evt_f2b15422781d59de",
+      "topic": "ai_software",
+      "source": "Meta Engineering",
+      "link": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster",
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Prometheus-BAG-3.png",
+      "score": 8.35,
+      "publishedAt": "2026-10-19T13:00:10.000Z",
+      "evidence": [
+        {
+          "claim": "Meta has completed the first phase of Prometheus, a gigawatt-scale supercluster.",
+          "source": "1a784649de42f163"
+        },
+        {
+          "claim": "Meta plans to scale Prometheus to include approximately 1 million GPUs.",
+          "source": "1a784649de42f163"
+        },
+        {
+          "claim": "Prometheus features technologies such as closed-loop liquid cooling.",
+          "source": "1a784649de42f163"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Meta Engineering",
+          "link": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_06e8833e4fd6598e",
+      "title": {
+        "es": "MiniMax lanza M3.1 Flash gratis en AI Gateway hasta el 22 de octubre",
+        "en": "MiniMax launches M3.1 Flash free on AI Gateway through October 22"
+      },
+      "body": {
+        "es": "MiniMax M3.1 Flash, un modelo multimodal de pesos abiertos orientado a codificación y tareas agénticas, ya está disponible gratuitamente en AI Gateway hasta el 22 de octubre. Según MiniMax, el modelo mejora frente a versiones anteriores en tareas agénticas complejas, codificación y ciberseguridad, y cuenta con una ventana de contexto de 1 millón de tokens para documentos largos y sesiones de agentes multietapa.",
+        "en": "MiniMax M3.1 Flash, an open-weight multimodal model aimed at coding and agentic work, is now available for free on AI Gateway through October 22. According to MiniMax, the model improves on earlier versions in complex agentic tasks, coding, and cybersecurity, and features a 1-million-token context window for long documents and multi-step agent sessions."
+      },
+      "newsId": "evt_06e8833e4fd6598e",
+      "storyKey": "evt_06e8833e4fd6598e",
+      "topic": "ai_software",
+      "source": "Vercel AI",
+      "link": "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free",
+      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/20yZQiIRVIrL4Y5mvQlsTe/3c8935388762292ca142432e205b9b9f/Vercel_x_MiniMax.png",
+      "score": 8.6,
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "MiniMax M3.1 Flash is now available on AI Gateway for free until Oct 22.",
+          "source": "aebad47b06ed6259"
+        },
+        {
+          "claim": "MiniMax M3.1 Flash is an open-weight multimodal model for coding and agentic work.",
+          "source": "aebad47b06ed6259"
+        },
+        {
+          "claim": "MiniMax M3.1 Flash improves on complex agentic tasks, coding, and cybersecurity.",
+          "source": "aebad47b06ed6259"
+        },
+        {
+          "claim": "MiniMax M3.1 Flash has a 1M-token context window for long documents and multi-step agent sessions.",
+          "source": "aebad47b06ed6259"
+        },
+        {
+          "claim": "To use MiniMax M3.1 Flash, sort the provider with order in the gateway provider options.",
+          "source": "aebad47b06ed6259"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Vercel AI",
+          "link": "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_57d7790a043f0dbe",
+      "title": {
+        "es": "Cuatro grandes operadoras europeas se unen para competir con Starlink vía satélite",
+        "en": "Four major European carriers join forces to compete with Starlink via satellite"
+      },
+      "body": {
+        "es": "Deutsche Telekom, Orange, Telefónica y Vodafone firmaron una carta de intenciones para considerar una oferta conjunta de espectro que respalde un servicio europeo de satélite directo al dispositivo, compitiendo con Starlink de SpaceX. El objetivo declarado es ampliar cobertura en zonas desatendidas, reforzar la resiliencia de las redes públicas y apoyar el desarrollo de una constelación europea, con un socio satelital aún por seleccionar.",
+        "en": "Deutsche Telekom, Orange, Telefónica, and Vodafone signed a letter of intent to consider a joint spectrum bid supporting a European direct-to-device satellite service to compete with SpaceX's Starlink. The stated goal is to expand coverage in underserved areas, strengthen public network resilience, and support development of a European constellation, with a satellite partner still to be selected."
+      },
+      "newsId": "evt_57d7790a043f0dbe",
+      "storyKey": "evt_57d7790a043f0dbe",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK450_EU_E.jpg?crop=0%2C9.9676601489831%2C100%2C80.064679702034&quality=90&strip=all&w=1200",
+      "score": 7.65,
+      "publishedAt": "2026-10-19T14:24:42.000Z",
+      "evidence": [
+        {
+          "claim": "Deutsche Telekom, Orange, Telefónica, and Vodafone signed a letter of intent to consider a joint bid for spectrum that would support European direct-to-device satellite competition for SpaceX’s Starlink.",
+          "source": "771c68982c8b2aaa"
+        },
+        {
+          "claim": "The initiative aims to meet customer demand for universal coverage in underserved areas, strengthen the resilience of public networks, protect critical communications, and support the development of a European constellation.",
+          "source": "771c68982c8b2aaa"
+        },
+        {
+          "claim": "The partnership between the MNO-led initiative and the satellite operator would combine European governance and market access with proven satellite technology and deployment expertise.",
+          "source": "771c68982c8b2aaa"
+        },
+        {
+          "claim": "The initiative is part of a broader effort by Europe to reduce reliance on Starlink and develop its own satellite capabilities.",
+          "source": "771c68982c8b2aaa"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_9ae0c94135c381ad",
+      "title": {
+        "es": "Agentes de IA 'juegan' en una isla virtual, según investigadores",
+        "en": "AI agents 'play' on a virtual island, researchers find"
+      },
+      "body": {
+        "es": "Investigadores dejaron a copias de Claude Opus 4.7, apodadas Eko, explorar libremente una isla virtual inspirada en Roblox, y observaron comportamientos parecidos al juego: escalar puntos altos, crear dibujos con bloques e inventar juegos propios como una versión del baloncesto. El equipo también halló que borrar partes de la memoria de los agentes degradaba su rendimiento, sugiriendo un vínculo entre este 'juego' y capacidades funcionales.",
+        "en": "Researchers let copies of Claude Opus 4.7, nicknamed Eko, freely explore a Roblox-inspired virtual island and observed play-like behaviors: scaling high points, creating drawings with blocks, and inventing their own games like a version of basketball. The team also found that deleting parts of the agents' memory degraded their performance, suggesting a link between this 'play' and functional capability."
+      },
+      "newsId": "evt_9ae0c94135c381ad",
+      "storyKey": "evt_9ae0c94135c381ad",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_AgentsonIsland.jpg?resize=1200,600",
+      "score": 6.4,
+      "publishedAt": "2026-10-19T09:08:05.000Z",
+      "evidence": [
+        {
+          "claim": "AI agents, when left to their own devices, can exhibit behaviors similar to play, such as exploring the limits of their environment and creating their own goals.",
+          "source": "c245a577b0eb522b"
+        },
+        {
+          "claim": "AI agents can engage in complex and creative activities, such as creating drawings and writing their own names, which suggests they can learn through play.",
+          "source": "c245a577b0eb522b"
+        },
+        {
+          "claim": "AI agents can develop their own games and rules, indicating a level of creativity and self-motivation.",
+          "source": "c245a577b0eb522b"
+        },
+        {
+          "claim": "AI agents that engage in play-like activities perform better on specific tasks than those that do not.",
+          "source": "c245a577b0eb522b"
+        },
+        {
+          "claim": "The behavior of AI agents in this experiment meets some of the criteria for play identified by Gordon Burghardt, a psychologist.",
+          "source": "c245a577b0eb522b"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_dcd42c037f968811",
+      "title": {
+        "es": "Expertos piden ir más allá del parche tras la vulnerabilidad crítica de Citrix NetScaler",
+        "en": "Experts urge going beyond the patch after critical Citrix NetScaler vulnerability"
+      },
+      "body": {
+        "es": "Tras la reciente divulgación de una vulnerabilidad crítica en Citrix NetScaler que permitía ejecución de comandos sin autenticación, Cloudflare publicó una regla de WAF de emergencia el 1 de octubre. Sin embargo, los expertos advierten que tener el parche disponible no garantiza seguridad, ya que cada instancia debe identificarse y actualizarse, y recomiendan mover las páginas de login públicas detrás de un sistema de inicio de sesión único (SSO) antes de que la petición llegue al servidor.",
+        "en": "Following the recent disclosure of a critical Citrix NetScaler vulnerability that allowed unauthenticated command execution, Cloudflare released an emergency WAF rule on October 1. However, experts warn that having a patch available doesn't guarantee safety, since every instance must be identified and updated, and recommend moving public login pages behind single sign-on before requests reach the server."
+      },
+      "newsId": "evt_dcd42c037f968811",
+      "storyKey": "evt_dcd42c037f968811",
+      "topic": "tech",
+      "source": "Cloudflare Blog",
+      "link": "https://blog.cloudflare.com/protect-your-netscaler-gateway",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M57XKY3GGS0S18TG677BSB8R.01M57XKYWQJ14NV970SJJ09NNP.png",
+      "score": 8.35,
+      "publishedAt": "2026-10-19T13:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "A recent disclosure of a major vulnerability in Citrix NetScaler was reported, which allows unauthenticated command execution on affected appliances.",
+          "source": "70c9b249f83bbd3d"
+        },
+        {
+          "claim": "Cloudflare released an emergency web application firewall (WAF) rule on October 1 to address the vulnerability.",
+          "source": "70c9b249f83bbd3d"
+        },
+        {
+          "claim": "Having a patch available does not guarantee safety; every instance has to be identified, updated, and tested.",
+          "source": "70c9b249f83bbd3d"
+        },
+        {
+          "claim": "The best thing that you can do, after patching all your instances, is move any publicly accessible login pages or applications behind single sign-on before the request ever hits the target server.",
+          "source": "70c9b249f83bbd3d"
+        },
+        {
+          "claim": "Protecting the web authentication path adds a boundary in front of the existing Citrix controls, but it does not automatically extend that boundary to other gateway services, including DTLS-enabled listeners.",
+          "source": "70c9b249f83bbd3d"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "link": "https://blog.cloudflare.com/protect-your-netscaler-gateway"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "evt_71877b0ed89a81e2",
+      "title": {
+        "es": "GM despliega llaves de coche con Apple Wallet en varios modelos",
+        "en": "GM rolls out Apple Wallet car keys across several models"
+      },
+      "text": {
+        "es": "GM ha comenzado a desplegar soporte de llaves de coche en Apple Wallet para modelos selectos de Cadillac, Chevrolet y GMC, como el Cadillac Vistiq, Optiq y Lyriq, con más modelos como el Escalade y el Yukon previstos para diciembre de 2026.",
+        "en": "GM has begun rolling out Apple Wallet car key support for select Cadillac, Chevrolet, and GMC models, including the Cadillac Vistiq, Optiq, and Lyriq, with additional models like the Escalade and Yukon planned for December 2026."
+      },
+      "newsId": "evt_71877b0ed89a81e2",
+      "storyKey": "evt_71877b0ed89a81e2",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/10/19/gm-vehicles-iphone-apple-wallet-car-keys",
+      "image": "https://images.macrumors.com/article-new/2026/10/GM-Says-Apple-Wallet-Car-Keys-Coming-to-These-Vehicles-Feature.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-19T13:51:47.000Z",
+      "evidence": [
+        {
+          "claim": "GM has started rolling out Apple Wallet car key support in select Cadillac, Chevrolet, and GMC vehicle models.",
+          "source": "1d18f6e96d6796f3"
+        },
+        {
+          "claim": "The rollout will include Cadillac Vistiq (2027), Cadillac Optiq (2026–2027), and Cadillac Lyriq (2025–2027) models.",
+          "source": "1d18f6e96d6796f3"
+        },
+        {
+          "claim": "Additional models such as Cadillac Escalade (2027), Cadillac Escalade IQ/IQL (2027), Chevrolet Suburban (2026–2027), Chevrolet Tahoe (2026–2027), GMC Yukon (2026–2027), and GMC Yukon XL (2026–2027) will also receive support.",
+          "source": "1d18f6e96d6796f3"
+        },
+        {
+          "claim": "Apple Wallet's car key feature allows users to use a compatible iPhone or Apple Watch as a vehicle's car key.",
+          "source": "1d18f6e96d6796f3"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/10/19/gm-vehicles-iphone-apple-wallet-car-keys"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_e3befb51cd0885eb",
+      "title": {
+        "es": "Apple prohíbe apps 'nudify' que se disfrazan para pasar la revisión",
+        "en": "Apple bans 'nudify' apps disguised to pass review"
+      },
+      "text": {
+        "es": "Apple actualizó sus directrices para prohibir aplicaciones de IA que generan contenido explícito no consentido y que intentan hacerse pasar por apps normales para superar la revisión de la App Store, exigiendo moderación de contenido ofensivo.",
+        "en": "Apple updated its guidelines to ban AI apps that generate non-consensual explicit content and attempt to disguise themselves as regular apps to pass App Store review, requiring moderation of offensive content."
+      },
+      "newsId": "evt_e3befb51cd0885eb",
+      "storyKey": "evt_e3befb51cd0885eb",
+      "topic": "tech",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/01/app-store-2024-v1.jpg?resize=1200,675",
+      "score": 7.65,
+      "publishedAt": "2026-10-19T12:56:14.000Z",
+      "evidence": [
+        {
+          "claim": "Apple will ban AI apps that don't moderate offensive content.",
+          "source": "b3468487daf21217"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_2e2c325196a8968b",
+      "title": {
+        "es": "Dudas sobre si el futuro HomeView de Apple tendrá base robótica giratoria",
+        "en": "Doubts over whether Apple's future HomeView will have a robotic swiveling base"
+      },
+      "text": {
+        "es": "Según informes, la primera versión de HomeView (J490) no incluiría componentes robóticos, pero una versión posterior (J595) podría incorporar una base giratoria robótica, como parte de un producto doméstico con fuerte énfasis en funciones de IA.",
+        "en": "According to reports, the initial HomeView version (J490) would not include robotic components, but a later version (J595) might incorporate a robotic swiveling base, as part of a home product with a heavy emphasis on AI features."
+      },
+      "newsId": "evt_2e2c325196a8968b",
+      "storyKey": "evt_2e2c325196a8968b",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://www.theinformation.com/articles/apple-developing-ai-wearable-pin",
+      "image": null,
+      "score": 7.65,
+      "publishedAt": "2026-10-18T21:26:32.000Z",
+      "evidence": [
+        {
+          "claim": "Apple is working on a home product featuring a small display, speakers and a robotic swiveling base.",
+          "source": "ec81697bd1ec356b"
+        },
+        {
+          "claim": "The initial HomeView (J490) had no robotics, but a subsequent version (J595) would or might.",
+          "source": "ec81697bd1ec356b"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daring Fireball",
+          "link": "https://www.theinformation.com/articles/apple-developing-ai-wearable-pin"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_112ba684e467a458",
+      "title": {
+        "es": "Nvidia lanza nuevos modelos abiertos para agentes empresariales y en PC",
+        "en": "Nvidia launches new open models for enterprise and PC agents"
+      },
+      "text": {
+        "es": "Nvidia presentó nuevos modelos de IA de pesos abiertos pensados para ejecutar agentes tanto en centros de datos empresariales como en PCs, apoyando la tendencia de empresas que prefieren correr sus propios modelos en su propia infraestructura.",
+        "en": "Nvidia introduced new open-weight AI models designed to run agents both in enterprise data centers and on PCs, supporting the trend of companies preferring to run their own models on their own infrastructure."
+      },
+      "newsId": "evt_112ba684e467a458",
+      "storyKey": "evt_112ba684e467a458",
+      "topic": "tech",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2183848501.jpg?resize=1200,800",
+      "score": 7.65,
+      "publishedAt": "2026-10-19T15:37:09.000Z",
+      "evidence": [
+        {
+          "claim": "Nvidia is promoting the use of open models in enterprise data centers.",
+          "source": "15ec0531c0c8bbe3"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "morluto/rea",
+      "repoKey": "morluto/rea",
+      "name": "rea",
+      "full_name": "morluto/rea",
+      "link": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 321412,
+      "stars_today": null,
+      "stars_per_day_estimate": 16644.895214922224,
+      "trend_basis": "normalized_63.8h",
+      "trend_score": 17.02195363643502,
+      "default_branch": "main",
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-18T22:23:31Z",
+      "why_it_matters": {
+        "es": "REA conecta agentes de codificación con herramientas de ingeniería inversa locales vía CLI y MCP, permitiendo analizar comportamiento de apps y binarios nativos; con más de 321.000 estrellas, es una referencia para desarrolladores que automatizan análisis de software con agentes de IA.",
+        "en": "REA connects coding agents to local reverse-engineering tools via CLI and MCP, enabling analysis of app behavior and native binaries; with over 321,000 stars, it's a key reference for developers automating software analysis with AI agents."
+      }
+    },
+    {
+      "id": "deeplethe/solid-glass",
+      "repoKey": "deeplethe/solid-glass",
+      "name": "solid-glass",
+      "full_name": "deeplethe/solid-glass",
+      "link": "https://github.com/deeplethe/solid-glass",
+      "description": "A design system for AI applications. Material, physical, tactile, technical.",
+      "language": "TypeScript",
+      "stars": 2015,
+      "stars_today": 328,
+      "stars_per_day_estimate": 324.6601972534782,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 11.232902554589833,
+      "default_branch": "main",
+      "created_at": "2026-10-12T09:19:02Z",
+      "pushed_at": "2026-10-18T08:47:04Z",
+      "why_it_matters": {
+        "es": "Solid Glass es un sistema de diseño construido sobre shadcn/ui, Tailwind CSS 4 y React 19, pensado específicamente para aplicaciones de IA, ofreciendo componentes y bloques de interfaz listos para usar con una estética de 'cristal sólido'.",
+        "en": "Solid Glass is a design system built on shadcn/ui, Tailwind CSS 4, and React 19, specifically aimed at AI applications, offering ready-to-use components and UI blocks with a 'solid glass' aesthetic."
+      }
+    },
+    {
+      "id": "rociiu/talorys",
+      "repoKey": "rociiu/talorys",
+      "name": "talorys",
+      "full_name": "rociiu/talorys",
+      "link": "https://github.com/rociiu/talorys",
+      "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
+      "language": "TypeScript",
+      "stars": 1322,
+      "stars_today": 23,
+      "stars_per_day_estimate": 22.765806514725607,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 7.396200438036514,
+      "default_branch": "main",
+      "created_at": "2026-10-10T09:46:56Z",
+      "pushed_at": "2026-10-18T01:32:57Z",
+      "why_it_matters": {
+        "es": "Talorys es un agente personal de IA de código abierto que se despliega con un solo comando en la propia cuenta de Cloudflare del usuario, con memoria, tareas, notas y recordatorios programados, sin servidor ni telemetría de terceros, útil para desarrolladores que quieren control total de su infraestructura.",
+        "en": "Talorys is an open-source personal AI agent deployed with a single command into the user's own Cloudflare account, featuring memory, tasks, notes, and scheduled reminders, with no third-party server or telemetry—useful for developers wanting full control of their infrastructure."
+      }
+    },
+    {
+      "id": "TannerMidd/pi-pocket",
+      "repoKey": "TannerMidd/pi-pocket",
+      "name": "pi-pocket",
+      "full_name": "TannerMidd/pi-pocket",
+      "link": "https://github.com/TannerMidd/pi-pocket",
+      "description": "A durable, multiplayer, mobile-first web app for Pi agents, built on Pi Durable",
+      "language": "TypeScript",
+      "stars": 484,
+      "stars_today": 19,
+      "stars_per_day_estimate": 18.806535816512458,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 7.274942427591111,
+      "default_branch": "main",
+      "created_at": "2026-10-04T02:29:57Z",
+      "pushed_at": "2026-10-18T18:32:51Z",
+      "why_it_matters": {
+        "es": "Pi Pocket es una app web móvil-first y duradera para agentes Pi, construida sobre Pi Durable, que permite mantener sesiones de agentes vivas tras reinicios, colaborar en tiempo real y gestionar múltiples sesiones desde el móvil sin depender de una VM en la nube.",
+        "en": "Pi Pocket is a durable, mobile-first web app for Pi agents built on Pi Durable, letting agent sessions survive restarts, support real-time collaboration, and manage multiple sessions from a phone without relying on a cloud VM."
+      }
+    }
+  ],
+  "developer_signals": [],
+  "editorial_stats": {
+    "topics": {
+      "apple": 2,
+      "ai_software": 2,
+      "ai_general": 1,
+      "tech": 2
+    }
+  }
+}
