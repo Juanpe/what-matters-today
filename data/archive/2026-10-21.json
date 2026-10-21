@@ -1,0 +1,600 @@
+{
+  "schema_version": 22,
+  "edition_id": "wmt-2026-10-21",
+  "date": "2026-10-21",
+  "daily_summary": {
+    "es": "Apple confirma su evento 'Pro and Tell' del 28 de octubre para nuevos Mac e iPad, mientras Perplexity lleva su agente Computer a modo totalmente local en Mac y DeepSeek abre su motor de inferencia DeepInfer en medio de nuevas restricciones regulatorias.",
+    "en": "Apple confirms its October 28 'Pro and Tell' event for new Macs and an iPad, Perplexity brings its Computer agent to a fully local Mac mode, and DeepSeek open-sources its DeepInfer inference engine amid new regulatory restrictions."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Apple anunció un evento 'Pro and Tell' para el 28 de octubre en Los Ángeles, donde se espera un MacBook Pro con pantalla OLED táctil, un hinge reforzado y los mismos chips actuales, además de otros Mac y un iPad. En paralelo, Perplexity Computer ya puede ejecutarse completamente en local sobre Apple Silicon desde el 20 de octubre, aunque requiere al menos 36 GB de memoria unificada, y Apple prepara controles más estrictos para agentes de IA en macOS. También llegó la RC de iOS 27.2, con Siri en más idiomas y perfiles estilo Netflix en la app Apple TV.",
+      "en": "Apple announced a 'Pro and Tell' event for October 28 in Los Angeles, expected to feature a MacBook Pro with an OLED touchscreen, a reinforced hinge and the same current chips, plus other Macs and an iPad. Separately, Perplexity Computer can now run entirely locally on Apple Silicon as of October 20, though it requires at least 36GB of unified memory, and Apple is preparing tighter controls for AI agents on macOS. The iOS 27.2 release candidate also arrived, adding more Siri languages and Netflix-style profiles in the Apple TV app."
+    },
+    "ai_software": {
+      "es": "DeepSeek liberó como código abierto DeepInfer, su motor de inferencia interno, que según la compañía sirve 155 billones de tokens diarios por clúster con un margen superior al 80%, aunque esa cifra depende de una tasa de acierto de caché del 96%. Un análisis sobre el ROI del gasto en IA de ingenieros muestra que el gasto varía enormemente entre empresas sin relación con su tamaño, mientras el volumen de PRs casi se ha duplicado en el último año. China, mientras tanto, propuso exigir aprobación gubernamental previa para exportar modelos de frontera.",
+      "en": "DeepSeek open-sourced DeepInfer, its internal inference engine, which the company says serves 155 trillion tokens per day per cluster at over 80% margin, though that figure depends on a 96% cache hit rate. An analysis of engineers' AI spending ROI found costs vary wildly between companies with no link to company size, while PR volume has nearly doubled over the past year. Meanwhile, China proposed requiring government pre-approval to export frontier AI models."
+    },
+    "ai_general": {
+      "es": "Un investigador de la startup Goodfire afirmó que las redes neuronales podrían ser más fáciles de interpretar de lo que se pensaba, aunque advierte que entender neuronas individuales es solo una pieza del rompecabezas. Por otro lado, un informe sobre adopción de IA por industria muestra que el 79% de los trabajadores ya debe aprender nuevas habilidades, con ritmos de absorción distintos según el sector.",
+      "en": "A researcher at startup Goodfire claimed neural networks might be easier to interpret than previously thought, though he cautions that understanding individual neurons is just one piece of a larger puzzle. Separately, a report on AI adoption by industry found 79% of workers are now being asked to learn new skills, with absorption speeds varying by sector."
+    },
+    "tech": {
+      "es": "Un análisis detallado muestra cómo una empresa redujo su factura de inferencia un 68% optimizando la caché (hasta 97% de aciertos) y adoptando Sonnet 5.5, que resultó hasta un 62% más barato por ejecución en tareas de calidad de código. Aparte, EE. UU. prohibió el uso de DeepSeek en agencias civiles federales, y se reveló que supermercados franceses sufrieron fallos de refrigeración por paneles de control expuestos en línea con fallos de seguridad conocidos.",
+      "en": "A detailed breakdown shows how one company cut its inference bill by 68% by optimizing caching (reaching a 97% hit rate) and adopting Sonnet 5.5, which proved up to 62% cheaper per run for code-quality tasks. Separately, the US banned DeepSeek use in federal civilian agencies, and French supermarkets suffered refrigeration failures due to exposed control dashboards with known security flaws."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple anunció un evento 'Pro and Tell' para el 28 de octubre en Los Ángeles, donde se espera un MacBook Pro con pantalla OLED táctil, un hinge reforzado y los mismos chips actuales, además de otros Mac y un iPad. En paralelo, Perplexity Computer ya puede ejecutarse completamente en local sobre Apple Silicon desde el 20 de octubre, aunque requiere al menos 36 GB de memoria unificada, y Apple prepara controles más estrictos para agentes de IA en macOS. También llegó la RC de iOS 27.2, con Siri en más idiomas y perfiles estilo Netflix en la app Apple TV.",
+      "en": "Apple announced a 'Pro and Tell' event for October 28 in Los Angeles, expected to feature a MacBook Pro with an OLED touchscreen, a reinforced hinge and the same current chips, plus other Macs and an iPad. Separately, Perplexity Computer can now run entirely locally on Apple Silicon as of October 20, though it requires at least 36GB of unified memory, and Apple is preparing tighter controls for AI agents on macOS. The iOS 27.2 release candidate also arrived, adding more Siri languages and Netflix-style profiles in the Apple TV app."
+    },
+    "ai_software": {
+      "es": "DeepSeek liberó como código abierto DeepInfer, su motor de inferencia interno, que según la compañía sirve 155 billones de tokens diarios por clúster con un margen superior al 80%, aunque esa cifra depende de una tasa de acierto de caché del 96%. Un análisis sobre el ROI del gasto en IA de ingenieros muestra que el gasto varía enormemente entre empresas sin relación con su tamaño, mientras el volumen de PRs casi se ha duplicado en el último año. China, mientras tanto, propuso exigir aprobación gubernamental previa para exportar modelos de frontera.",
+      "en": "DeepSeek open-sourced DeepInfer, its internal inference engine, which the company says serves 155 trillion tokens per day per cluster at over 80% margin, though that figure depends on a 96% cache hit rate. An analysis of engineers' AI spending ROI found costs vary wildly between companies with no link to company size, while PR volume has nearly doubled over the past year. Meanwhile, China proposed requiring government pre-approval to export frontier AI models."
+    },
+    "ai_general": {
+      "es": "Un investigador de la startup Goodfire afirmó que las redes neuronales podrían ser más fáciles de interpretar de lo que se pensaba, aunque advierte que entender neuronas individuales es solo una pieza del rompecabezas. Por otro lado, un informe sobre adopción de IA por industria muestra que el 79% de los trabajadores ya debe aprender nuevas habilidades, con ritmos de absorción distintos según el sector.",
+      "en": "A researcher at startup Goodfire claimed neural networks might be easier to interpret than previously thought, though he cautions that understanding individual neurons is just one piece of a larger puzzle. Separately, a report on AI adoption by industry found 79% of workers are now being asked to learn new skills, with absorption speeds varying by sector."
+    },
+    "tech": {
+      "es": "Un análisis detallado muestra cómo una empresa redujo su factura de inferencia un 68% optimizando la caché (hasta 97% de aciertos) y adoptando Sonnet 5.5, que resultó hasta un 62% más barato por ejecución en tareas de calidad de código. Aparte, EE. UU. prohibió el uso de DeepSeek en agencias civiles federales, y se reveló que supermercados franceses sufrieron fallos de refrigeración por paneles de control expuestos en línea con fallos de seguridad conocidos.",
+      "en": "A detailed breakdown shows how one company cut its inference bill by 68% by optimizing caching (reaching a 97% hit rate) and adopting Sonnet 5.5, which proved up to 62% cheaper per run for code-quality tasks. Separately, the US banned DeepSeek use in federal civilian agencies, and French supermarkets suffered refrigeration failures due to exposed control dashboards with known security flaws."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "evt_94a71e6ba9e977e5",
+      "title": {
+        "es": "Apple confirma evento 'Pro and Tell' para el 28 de octubre",
+        "en": "Apple confirms 'Pro and Tell' event for October 28"
+      },
+      "body": {
+        "es": "Apple anunció que presentará una segunda ola de productos el miércoles 28 de octubre. Se espera un MacBook Pro con pantalla OLED y capacidad táctil por primera vez en un Mac, además de un hinge reforzado, aunque mantendría los mismos chips de la generación actual. También se esperan otros Mac y un iPad nuevos.",
+        "en": "Apple announced it will unveil a second wave of products on Wednesday, October 28. A MacBook Pro with an OLED display and the first touchscreen on a Mac is expected, along with a reinforced hinge, though it would keep the same chips as the current generation. Other new Macs and an iPad are also expected."
+      },
+      "newsId": "evt_94a71e6ba9e977e5",
+      "storyKey": "evt_94a71e6ba9e977e5",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/10/19/apple-october-28-product-launch",
+      "image": "https://images.macrumors.com/article-new/2026/10/apple-pro-tell-logo.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-19T23:51:05.000Z",
+      "evidence": [
+        {
+          "claim": "Apple will announce a second wave of new products on Wednesday, October 28.",
+          "source": "444047e0ac155542"
+        },
+        {
+          "claim": "The new MacBook Pro will feature OLED display technology and a touchscreen.",
+          "source": "444047e0ac155542"
+        },
+        {
+          "claim": "The new MacBook Pro will have a reinforced hinge for support.",
+          "source": "444047e0ac155542"
+        },
+        {
+          "claim": "The new MacBook Pro will use the same chips as the current version.",
+          "source": "444047e0ac155542"
+        },
+        {
+          "claim": "The new MacBook Pro will have a design that includes changes to the display and keyboard.",
+          "source": "444047e0ac155542"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/10/19/apple-october-28-product-launch"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_97dd445b2c258cb5",
+      "title": {
+        "es": "Perplexity Computer ya corre totalmente en local en Mac, con una gran salvedad",
+        "en": "Perplexity Computer can now run fully local on Mac, with a big caveat"
+      },
+      "body": {
+        "es": "Desde el 20 de octubre, los suscriptores Pro, Max y Enterprise de Perplexity pueden ejecutar Computer completamente en Apple Silicon sin enviar datos a la nube. Sin embargo, la compañía recomienda al menos 36 GB de memoria unificada, un requisito que supera la capacidad de algunos Mac recientes. Apple, mientras tanto, prepara controles más estrictos en macOS frente a agentes de IA autónomos, y el procesamiento local reduce pero no elimina los riesgos de seguridad.",
+        "en": "Starting October 20, Perplexity Pro, Max and Enterprise subscribers can run Computer entirely on Apple Silicon without sending data to the cloud. However, the company recommends at least 36GB of unified memory, a requirement that exceeds the capacity of some recent Macs. Apple, meanwhile, is preparing tighter macOS controls against autonomous AI agents, and local processing reduces but doesn't eliminate security risks."
+      },
+      "newsId": "evt_97dd445b2c258cb5",
+      "storyKey": "evt_97dd445b2c258cb5",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/10/20/perplexity-computer-can-run-completely-local-on-mac-with-a-big-caveat",
+      "image": "https://media.appleinsider.com/gallery/69473-146444-Mac-mini-M5-top-side-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-20T16:11:39.000Z",
+      "evidence": [
+        {
+          "claim": "Perplexity Computer now runs entirely on Apple Silicon Macs.",
+          "source": "fe08310da40cb605"
+        },
+        {
+          "claim": "The fully local mode launched October 20 for Perplexity Pro, Max, and Enterprise subscribers.",
+          "source": "fe08310da40cb605"
+        },
+        {
+          "claim": "Perplexity recommends at least 36 GB of unified memory for running Computer locally.",
+          "source": "fe08310da40cb605"
+        },
+        {
+          "claim": "Apple is preparing tighter controls for AI agents.",
+          "source": "fe08310da40cb605"
+        },
+        {
+          "claim": "Local AI processing reduces the need to send private data to remote servers, but it doesn't eliminate security risks.",
+          "source": "fe08310da40cb605"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/10/20/perplexity-computer-can-run-completely-local-on-mac-with-a-big-caveat"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_d8ec82d8c7fd6cf0",
+      "title": {
+        "es": "DeepSeek libera DeepInfer, su motor de inferencia, con cifras de escala masiva",
+        "en": "DeepSeek open-sources DeepInfer inference engine with massive scale claims"
+      },
+      "body": {
+        "es": "DeepSeek abrió el código de DeepInfer, el motor que usa internamente para servir DeepSeek-V4.1-Flash, con soporte para almacenamiento en caché de hasta 72 horas, decodificación especulativa y plataformas NVIDIA y Huawei Ascend. Según la compañía, un solo clúster de producción sirve 155 billones de tokens diarios con más del 80% de margen, aunque esa cifra depende crucialmente de una tasa de acierto de caché del 96%, lo que matiza el alcance real del rendimiento anunciado.",
+        "en": "DeepSeek open-sourced DeepInfer, the engine it uses internally to serve DeepSeek-V4.1-Flash, supporting prompt caching up to 72 hours, speculative decoding, and both NVIDIA and Huawei Ascend platforms. The company claims a single production cluster serves 155 trillion tokens per day at over 80% margin, though that figure critically depends on a 96% cache hit rate, which tempers the real-world scope of the claimed throughput."
+      },
+      "newsId": "evt_d8ec82d8c7fd6cf0",
+      "storyKey": "evt_d8ec82d8c7fd6cf0",
+      "topic": "ai_software",
+      "source": "Latent Space",
+      "link": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+      "image": "https://substackcdn.com/image/fetch/$s_!tu5N!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07a949cd-f727-48e2-9bd4-c4d110bf94e9_1326x1362.png",
+      "score": 8.35,
+      "publishedAt": "2026-10-21T06:54:09.000Z",
+      "evidence": [
+        {
+          "claim": "DeepSeek released DeepInfer, an open-source inference engine capable of up to 72 hour prompt caching.",
+          "source": "72c719054a35c27b"
+        },
+        {
+          "claim": "DeepInfer supports distributed inference, speculative decoding, SWA Bounded Replay, and structured output on NVIDIA and Huawei Ascend platforms.",
+          "source": "72c719054a35c27b"
+        },
+        {
+          "claim": "DeepSeek claims their production cluster serves 155 trillion tokens per day, generating $38 per accelerator-hour at off-peak prices.",
+          "source": "72c719054a35c27b"
+        },
+        {
+          "claim": "The reported 96% input-cache hit rate is essential context for the headline throughput of 155 trillion tokens per day.",
+          "source": "72c719054a35c27b"
+        },
+        {
+          "claim": "DeepSeek’s engineering report reports 155 trillion tokens/day from one cluster, 96% input-cache hits, 400 ms average time to first token, and 230 tokens/s generation, reaching 300 tokens/s for coding.",
+          "source": "72c719054a35c27b"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Latent Space",
+          "link": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_a801dcd5bc27b4d7",
+      "title": {
+        "es": "Cómo una empresa redujo su factura de inferencia un 68% a base de optimización",
+        "en": "How one company cut its inference bill by 68% through relentless optimization"
+      },
+      "body": {
+        "es": "Un equipo detalla cómo bajó su gasto en inferencia mejorando la tasa de acierto de caché del 85.7% en abril al 97% en septiembre, lo que además redujo el tiempo medio de revisión de 4 minutos 9 segundos a solo 1 minuto 32 segundos. El cambio a Sonnet 5.5 resultó hasta un 62% más barato por ejecución para calidad de código, 58% para rendimiento y 47% para seguridad frente a Sonnet 5, aunque el costo por revisión había subido antes de estas mejoras, de $1.22 en marzo a $2.32 en agosto.",
+        "en": "A team details how it cut inference spending by improving its cache hit rate from 85.7% in April to 97% by September, which also reduced median review time from 4 minutes 9 seconds to just 1 minute 32 seconds. Switching to Sonnet 5.5 proved up to 62% cheaper per run for code quality, 58% for performance and 47% for security versus Sonnet 5, though cost per review had risen beforehand, from $1.22 in March to $2.32 in August."
+      },
+      "newsId": "evt_a801dcd5bc27b4d7",
+      "storyKey": "evt_a801dcd5bc27b4d7",
+      "topic": "tech",
+      "source": "Cloudflare Blog",
+      "link": "https://blog.cloudflare.com/obsessive-inference-optimization",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M58NMFG35J21WVMK7QGMANJT.png",
+      "score": 8.35,
+      "publishedAt": "2026-10-19T19:12:53.000Z",
+      "evidence": [
+        {
+          "claim": "The cache hit rate increased from 85.7% in April to 97% by September.",
+          "source": "0819df289ed525f4"
+        },
+        {
+          "claim": "The median review time was reduced from 4 minutes and 9 seconds to 1 minute and 32 seconds.",
+          "source": "0819df289ed525f4"
+        },
+        {
+          "claim": "The cost per review steadily rose from $1.22 in March to $2.32 in August.",
+          "source": "0819df289ed525f4"
+        },
+        {
+          "claim": "The new model, Sonnet 5.5, was 62% cheaper per run for code quality, 58% for performance and 47% for security compared to Sonnet 5.",
+          "source": "0819df289ed525f4"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "link": "https://blog.cloudflare.com/obsessive-inference-optimization"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_2178eac1304fe6a7",
+      "title": {
+        "es": "Un investigador de Goodfire sacude el debate sobre interpretabilidad de IA",
+        "en": "A Goodfire researcher stirs the AI interpretability debate"
+      },
+      "body": {
+        "es": "Nick Cammarata, investigador de la startup Goodfire, afirmó tener 'buenas noticias' sobre la naturaleza de las redes neuronales, sugiriendo que podrían ser más fáciles de entender y monitorizar de lo que se pensaba. Sin embargo, él mismo advierte que comprender neuronas individuales es solo una pieza de un rompecabezas mucho mayor para explicar por qué los modelos fallan.",
+        "en": "Nick Cammarata, a researcher at startup Goodfire, claimed to have 'good news' about the nature of neural networks, suggesting they might be easier to understand and monitor than previously thought. However, he himself cautions that understanding individual neurons is just one piece of a much larger puzzle in explaining why models misbehave."
+      },
+      "newsId": "evt_2178eac1304fe6a7",
+      "storyKey": "evt_2178eac1304fe6a7",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_LLMsNotcomplicated_V2.jpg?resize=1200,600",
+      "score": 8.35,
+      "publishedAt": "2026-10-19T17:45:55.000Z",
+      "evidence": [
+        {
+          "claim": "Nick Cammarata, a researcher at the AI startup Goodfire, has made a claim that LLMs might be easier to understand and monitor than previously thought.",
+          "source": "e79c8ee764076c1f"
+        },
+        {
+          "claim": "Cammarata believes that understanding individual neurons could help researchers figure out why specific models misbehave, but it is just one piece of a larger puzzle.",
+          "source": "e79c8ee764076c1f"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_d5acd60301cf306d",
+      "title": {
+        "es": "EE.UU. prohíbe el uso de DeepSeek en agencias civiles federales",
+        "en": "US bans DeepSeek use in federal civilian agencies"
+      },
+      "body": {
+        "es": "El Departamento de Seguridad Nacional de EE. UU. decidió prohibir el uso de DeepSeek en agencias civiles federales, apenas unos días después del lanzamiento del último modelo de IA de la compañía china. La medida se suma a la creciente presión regulatoria sobre tecnología china en EE. UU.",
+        "en": "The US Department of Homeland Security decided to ban DeepSeek use in federal civilian agencies, just a couple of days after the Chinese company released its latest AI model. The move adds to growing regulatory pressure on Chinese technology in the US."
+      },
+      "newsId": "evt_d5acd60301cf306d",
+      "storyKey": "evt_d5acd60301cf306d",
+      "topic": "tech",
+      "source": "Engadget",
+      "link": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies",
+      "image": "https://www.engadget.com/img/gallery/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/l-intro-1792429083.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-19T16:59:28.000Z",
+      "evidence": [
+        {
+          "claim": "The decision to ban DeepSeek use in federal civilian agencies was made a couple of days after the release of DeepSeek's latest AI model.",
+          "source": "37a79db06d976386"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Engadget",
+          "link": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_fae081f83a6263a4",
+      "title": {
+        "es": "Anthropic propone una ley de seguridad de IA con polémica salvedad judicial",
+        "en": "Anthropic pitches AI safety bill with a contentious judicial caveat"
+      },
+      "body": {
+        "es": "Anthropic presentó una propuesta de política que, en teoría, busca bloquear modelos de IA si representan un riesgo de matar a más de 50 personas. Sin embargo, la propuesta en realidad prohíbe a las agencias federales bloquear el lanzamiento de un modelo sin el permiso previo de un juez, lo que limita su capacidad real de actuar con rapidez.",
+        "en": "Anthropic presented a policy proposal that, in theory, aims to block AI models if they pose a risk of killing more than 50 people. However, the proposal actually forbids federal agencies from blocking a model's release without a judge's prior permission, which limits their ability to act quickly."
+      },
+      "newsId": "evt_fae081f83a6263a4",
+      "storyKey": "evt_fae081f83a6263a4",
+      "topic": "tech",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024",
+      "score": 7.65,
+      "publishedAt": "2026-10-20T23:01:23.000Z",
+      "evidence": [
+        {
+          "claim": "The proposed policy forbids federal agencies from blocking a model's release without the permission of a judge.",
+          "source": "7091db369f945cfa"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "evt_12c8101dc6152f03",
+      "title": {
+        "es": "RC de iOS 27.2 ya disponible",
+        "en": "iOS 27.2 release candidate now available"
+      },
+      "text": {
+        "es": "Apple lanzó la RC de iOS 27.2, la versión candidata a final, que amplía Siri con IA a más idiomas y añade perfiles estilo Netflix en la app Apple TV para iPhone y iPad. El rediseño de la app Salud queda pendiente para la versión 27.3.",
+        "en": "Apple released the iOS 27.2 release candidate, the build expected to become final, which expands Siri's AI to more languages and adds Netflix-style profiles to the Apple TV app on iPhone and iPad. The redesigned Health app is being held back for version 27.3."
+      },
+      "newsId": "evt_12c8101dc6152f03",
+      "storyKey": "evt_12c8101dc6152f03",
+      "topic": "apple",
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/ios/ultima-beta-rc-ios-27-2-esta-disponible-adelantate-al-lanzamiento",
+      "image": "https://i.blogs.es/336a15/ios-27-2-rc/840_560.jpeg",
+      "score": 7.65,
+      "publishedAt": "2026-10-20T12:01:37.000Z",
+      "evidence": [
+        {
+          "claim": "Apple has released the RC of iOS 27.2, the last beta and a candidate for the final version.",
+          "source": "feb69633caebc2c3"
+        },
+        {
+          "claim": "Siri AI in Spanish will be available in the rest of the world, including iPhone and iPad compatible devices.",
+          "source": "feb69633caebc2c3"
+        },
+        {
+          "claim": "The app Salud is not included in this RC, but is expected to be redesigned in a future beta.",
+          "source": "feb69633caebc2c3"
+        },
+        {
+          "claim": "Perfiles in the Apple TV app are now available on iPhone and iPad.",
+          "source": "feb69633caebc2c3"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Applesfera",
+          "link": "https://www.applesfera.com/ios/ultima-beta-rc-ios-27-2-esta-disponible-adelantate-al-lanzamiento"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_e90fd58cdddac922",
+      "title": {
+        "es": "Neveras de supermercados franceses, expuestas en línea durante meses",
+        "en": "French supermarket fridges left exposed online for months"
+      },
+      "text": {
+        "es": "Investigadores encontraron que Francia concentraba 1,331 paneles de control de neveras expuestos en línea, más que el resto de 72 países combinados, y el 85% de ellos corría software con fallos de seguridad conocidos. El 11 y 12 de octubre de 2026, neveras y congeladores de cientos de supermercados franceses comenzaron a calentarse por un ataque relacionado.",
+        "en": "Researchers found France had 1,331 exposed fridge control dashboards online, more than the other 72 countries combined, and 85% of them ran software with known security flaws. On the night of October 11-12, 2026, fridges and freezers in hundreds of French supermarkets began warming up due to a related attack."
+      },
+      "newsId": "evt_e90fd58cdddac922",
+      "storyKey": "evt_e90fd58cdddac922",
+      "topic": "tech",
+      "source": "Hacker News",
+      "link": "https://ipinfo.io/blog/france-fridges-hack",
+      "image": "https://website-cdn.assets.ipinfo.io/images/og/og_blog.png",
+      "score": 7.15,
+      "publishedAt": "2026-10-20T00:00:49.000Z",
+      "evidence": [
+        {
+          "claim": "France had more exposed fridge dashboards than the rest of the world combined.",
+          "source": "b5b8c50d59aefdbb"
+        },
+        {
+          "claim": "85% of the French dashboards ran software with known security flaws.",
+          "source": "b5b8c50d59aefdbb"
+        },
+        {
+          "claim": "The attack on French supermarkets' fridges started on the night of October 11 to 12, 2026.",
+          "source": "b5b8c50d59aefdbb"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Hacker News",
+          "link": "https://ipinfo.io/blog/france-fridges-hack"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_d9a7fe5c0e563a30",
+      "title": {
+        "es": "La adopción de IA por industria revela distintos ritmos de aprendizaje",
+        "en": "AI adoption by industry reveals different learning speeds"
+      },
+      "text": {
+        "es": "Un análisis muestra que el 79% de los trabajadores encuestados ya ha tenido que aprender al menos una nueva habilidad por la IA, y que los trabajadores tecnológicos usan chatbots para aprender casi el doble que el resto (48% frente a 27%). La variación en los ritmos de adopción entre industrias refleja diferentes velocidades de absorción, no necesariamente un retraso.",
+        "en": "An analysis shows 79% of surveyed workers have already had to learn at least one new skill because of AI, and tech workers use chatbots to learn nearly twice as often as other workers (48% vs. 27%). Variation in adoption rates across industries reflects different absorption speeds, not necessarily falling behind."
+      },
+      "newsId": "evt_d9a7fe5c0e563a30",
+      "storyKey": "evt_d9a7fe5c0e563a30",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/TripleTen-MIT-cover.png?resize=1200,600",
+      "score": 7.65,
+      "publishedAt": "2026-10-20T12:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "AI adoption in non-tech industries is increasing, reflecting different speeds of technology absorption.",
+          "source": "c0a34983c3c5aa31"
+        },
+        {
+          "claim": "AI skills are becoming essential across various industries, with 79% of workers reporting new skill demands.",
+          "source": "c0a34983c3c5aa31"
+        },
+        {
+          "claim": "Early AI adopters in non-tech industries have a competitive advantage in shaping organizational policy.",
+          "source": "c0a34983c3c5aa31"
+        },
+        {
+          "claim": "Tech workers are more likely to use AI chatbots for learning, while other workers prefer on-the-job training.",
+          "source": "c0a34983c3c5aa31"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_0469d90e05979590",
+      "title": {
+        "es": "China propone aprobación previa para exportar modelos de IA de frontera",
+        "en": "China proposes pre-approval for exporting frontier AI models"
+      },
+      "text": {
+        "es": "El Ministerio de Comercio de China publicó una propuesta de política, aún no ley, que exigiría aprobación gubernamental previa para compartir internacionalmente modelos de IA de frontera y otras tecnologías. La propuesta llega en el mismo periodo en que DeepSeek liberó públicamente su motor de inferencia interno, DeepInfer.",
+        "en": "China's Ministry of Commerce released a policy proposal, not yet law, that would require government pre-approval before frontier AI models and other technologies can be shared internationally. The proposal comes in the same period that DeepSeek publicly released its internal inference engine, DeepInfer."
+      },
+      "newsId": "evt_0469d90e05979590",
+      "storyKey": "evt_0469d90e05979590",
+      "topic": "ai_software",
+      "source": "Interconnects",
+      "link": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "image": "https://substackcdn.com/image/fetch/$s_!ptGw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd500e8ff-94e8-4cf5-b99d-5d9aac7f0a8a_1024x768.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-20T17:04:21.000Z",
+      "evidence": [
+        {
+          "claim": "MOFCOM, the Ministry of Commerce of the People’s Republic of China, released a policy proposal that would require frontier AI models and some other technologies to get pre-approval from the government before they can be shared internationally.",
+          "source": "ab59740170697a8d"
+        },
+        {
+          "claim": "DeepSeek released their internal inference stack publicly, DeepInfer, which is likely far more efficient than existing open-source tools like vLLM/SGLang for their models.",
+          "source": "ab59740170697a8d"
+        },
+        {
+          "claim": "The release of DeepSeek-V4.1-Flash-1017 by deepseek-ai includes a new size (552B-A16B) which also supports image inputs.",
+          "source": "ab59740170697a8d"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Interconnects",
+          "link": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "mksglu/context-mode",
+      "repoKey": "mksglu/context-mode",
+      "name": "context-mode",
+      "full_name": "mksglu/context-mode",
+      "link": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 31427,
+      "stars_today": null,
+      "stars_per_day_estimate": 299.9606603526061,
+      "trend_basis": "normalized_55.2h",
+      "trend_score": 11.233343724980921,
+      "default_branch": "main",
+      "created_at": "2026-02-23T05:56:28Z",
+      "pushed_at": "2026-10-21T05:41:59Z",
+      "why_it_matters": {
+        "es": "Context Mode ataja un problema real de los agentes de codificación con IA: el contexto se llena de datos en bruto de herramientas. Su enfoque de sandboxing reduce el tamaño de las salidas hasta un 98% y mantiene memoria de sesión persistente para que el agente no olvide archivos o tareas al comprimir la conversación.",
+        "en": "Context Mode tackles a real problem for AI coding agents: context windows filling up with raw tool output. Its sandboxing approach cuts output size by up to 98% and keeps persistent session memory so the agent doesn't forget files or tasks when the conversation compacts."
+      }
+    },
+    {
+      "id": "omnigent-ai/omnigent",
+      "repoKey": "omnigent-ai/omnigent",
+      "name": "omnigent",
+      "full_name": "omnigent-ai/omnigent",
+      "link": "https://github.com/omnigent-ai/omnigent",
+      "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "language": "Python",
+      "stars": 10941,
+      "stars_today": null,
+      "stars_per_day_estimate": 27.38771246697708,
+      "trend_basis": "normalized_55.2h",
+      "trend_score": 7.826804068667419,
+      "default_branch": "main",
+      "created_at": "2026-06-11T12:18:13Z",
+      "pushed_at": "2026-10-21T05:39:48Z",
+      "why_it_matters": {
+        "es": "Omnigent ofrece una capa de orquestación común para herramientas como Claude Code, Codex y Cursor, permitiendo combinarlas sin reescribir nada y aplicando políticas y sandboxing. Resulta útil para equipos que ya usan múltiples agentes de IA y quieren supervisarlos y colaborar en tiempo real desde distintos dispositivos.",
+        "en": "Omnigent offers a common orchestration layer for tools like Claude Code, Codex and Cursor, letting teams combine them without rewriting anything while enforcing policies and sandboxing. It's useful for teams already juggling multiple AI agents who want to supervise them and collaborate in real time across devices."
+      }
+    },
+    {
+      "id": "nano-muse/nanoMuse",
+      "repoKey": "nano-muse/nanoMuse",
+      "name": "nanoMuse",
+      "full_name": "nano-muse/nanoMuse",
+      "link": "https://github.com/nano-muse/nanoMuse",
+      "description": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone's screen and your computer as its hands.",
+      "language": "Swift",
+      "stars": 1877,
+      "stars_today": null,
+      "stars_per_day_estimate": 180.4111218062776,
+      "trend_basis": "normalized_55.2h",
+      "trend_score": 10.364633563525395,
+      "default_branch": "main",
+      "created_at": "2026-09-23T06:13:06Z",
+      "pushed_at": "2026-10-20T13:05:31Z",
+      "why_it_matters": {
+        "es": "nanoMuse es un agente personal de código abierto escrito en Swift que funciona en iPhone, iPad, escritorio y navegador, relevante para desarrolladores Apple interesados en agentes locales. Permite usar un relay propio para que los datos no salgan de casa, una alternativa transparente a asistentes personales cerrados.",
+        "en": "nanoMuse is an open-source personal agent written in Swift that runs on iPhone, iPad, desktop and browser, relevant for Apple developers interested in local agents. It lets you self-host your own relay so data doesn't leave your home, offering a transparent alternative to closed personal assistants."
+      }
+    },
+    {
+      "id": "tangency-labs/solidcraft",
+      "repoKey": "tangency-labs/solidcraft",
+      "name": "solidcraft",
+      "full_name": "tangency-labs/solidcraft",
+      "link": "https://github.com/tangency-labs/solidcraft",
+      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "language": "Rust",
+      "stars": 8411,
+      "stars_today": null,
+      "stars_per_day_estimate": 1271.9792043532875,
+      "trend_basis": "normalized_79.5h",
+      "trend_score": 13.313718251675532,
+      "default_branch": "main",
+      "created_at": "2026-10-07T18:57:48Z",
+      "pushed_at": "2026-10-21T05:40:38Z",
+      "why_it_matters": {
+        "es": "SolidCraft es una aplicación CAD paramétrica de código abierto escrita en Rust puro, con soporte para macOS y un servidor MCP integrado para que agentes de IA puedan modelar piezas directamente. Es un ejemplo concreto de cómo la IA agente se está integrando en herramientas de diseño técnico tradicionales.",
+        "en": "SolidCraft is an open-source parametric CAD application written in pure Rust, with macOS support and a built-in MCP server that lets AI agents model parts directly. It's a concrete example of how agentic AI is being integrated into traditional technical design tools."
+      }
+    }
+  ],
+  "developer_signals": [],
+  "editorial_stats": {
+    "topics": {
+      "apple": 2,
+      "ai_software": 1,
+      "ai_general": 1,
+      "tech": 3
+    }
+  }
+}
