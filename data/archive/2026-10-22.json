@@ -1,0 +1,536 @@
+{
+  "schema_version": 22,
+  "edition_id": "wmt-2026-10-22",
+  "date": "2026-10-22",
+  "daily_summary": {
+    "es": "Apple afronta una orden judicial en Australia y bloquea certificados de seguridad comprometidos, mientras Anthropic lanza Claude Duet y Recursive presenta Flint, un modelo de código construido en gran parte por IA.",
+    "en": "Apple faces a court order in Australia and blocks compromised security certificates, while Anthropic launches Claude Duet and Recursive unveils Flint, a coding model largely built by AI."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "La Corte Federal de Australia ordenó a Apple abrir la App Store a tiendas alternativas y pagos externos antes de marzo de 2027, con plazo hasta el 15 de febrero para pedir prórroga. Apple también anunció un evento 'Pro and Tell' el 28 de octubre en Los Ángeles, donde podría mostrar un MacBook Pro con pantalla táctil. Además, bloqueó ocho certificados de seguridad web comprometidos que podrían haber sido usados por estafadores.",
+      "en": "The Federal Court of Australia ordered Apple to open the App Store to alternative stores and outside payments by March 2027, with a deadline of February 15 to request an extension. Apple also announced a 'Pro and Tell' event on October 28 in Los Angeles, where a touch-screen MacBook Pro may appear. It also blocked eight compromised web security certificates that could have been used by scammers."
+    },
+    "ai_software": {
+      "es": "Anthropic lanzó Claude Duet, un agente proactivo que compite con Muse de Meta y Dots de OpenAI, capaz de realizar tareas administrativas o construir aplicaciones web usando memoria y conexiones existentes de la cuenta. La startup Recursive presentó Flint, un modelo de código gratuito y del tamaño de un portátil, construido en gran parte por su propio sistema de investigación de IA como prueba de IA que se mejora a sí misma.",
+      "en": "Anthropic launched Claude Duet, a proactive agent competing with Meta's Muse and OpenAI's Dots, able to handle administrative tasks or build web apps using memory and existing account connections. Startup Recursive unveiled Flint, a free, laptop-sized coding model built largely by its own AI research system as a test of self-improving AI."
+    },
+    "ai_general": {
+      "es": "Los editores de Wikipedia siguen vigilando el contenido generado por IA pese a que cada vez es más difícil de detectar. Por separado, investigadores debaten qué deben decirles los modelos de IA sobre su propia identidad, y si tratar a la IA como consciente podría hacerla más peligrosa.",
+      "en": "Wikipedia editors remain vigilant against AI-generated text even as it becomes harder to detect. Separately, researchers are debating what AI models should be told about their own identities, and whether treating AI as conscious could make it more dangerous."
+    },
+    "tech": {
+      "es": "Cloudflare amplió su WAF con detección de transacciones completas y reglas de respuesta, disponibles gratis para todos los clientes, para correlacionar peticiones y respuestas HTTP sospechosas. Spotify lanzó su primera app nativa para coches, integrada en Android Automotive y disponible ya en algunos modelos de Audi, eliminando la necesidad de vincular el teléfono.",
+      "en": "Cloudflare expanded its WAF with full transaction detection and response rules, available free to all customers, correlating suspicious HTTP requests and responses. Spotify launched its first native in-car app, built on Android Automotive and already available in select Audi models, removing the need to tether a phone."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "La Corte Federal de Australia ordenó a Apple abrir la App Store a tiendas alternativas y pagos externos antes de marzo de 2027, con plazo hasta el 15 de febrero para pedir prórroga. Apple también anunció un evento 'Pro and Tell' el 28 de octubre en Los Ángeles, donde podría mostrar un MacBook Pro con pantalla táctil. Además, bloqueó ocho certificados de seguridad web comprometidos que podrían haber sido usados por estafadores.",
+      "en": "The Federal Court of Australia ordered Apple to open the App Store to alternative stores and outside payments by March 2027, with a deadline of February 15 to request an extension. Apple also announced a 'Pro and Tell' event on October 28 in Los Angeles, where a touch-screen MacBook Pro may appear. It also blocked eight compromised web security certificates that could have been used by scammers."
+    },
+    "ai_software": {
+      "es": "Anthropic lanzó Claude Duet, un agente proactivo que compite con Muse de Meta y Dots de OpenAI, capaz de realizar tareas administrativas o construir aplicaciones web usando memoria y conexiones existentes de la cuenta. La startup Recursive presentó Flint, un modelo de código gratuito y del tamaño de un portátil, construido en gran parte por su propio sistema de investigación de IA como prueba de IA que se mejora a sí misma.",
+      "en": "Anthropic launched Claude Duet, a proactive agent competing with Meta's Muse and OpenAI's Dots, able to handle administrative tasks or build web apps using memory and existing account connections. Startup Recursive unveiled Flint, a free, laptop-sized coding model built largely by its own AI research system as a test of self-improving AI."
+    },
+    "ai_general": {
+      "es": "Los editores de Wikipedia siguen vigilando el contenido generado por IA pese a que cada vez es más difícil de detectar. Por separado, investigadores debaten qué deben decirles los modelos de IA sobre su propia identidad, y si tratar a la IA como consciente podría hacerla más peligrosa.",
+      "en": "Wikipedia editors remain vigilant against AI-generated text even as it becomes harder to detect. Separately, researchers are debating what AI models should be told about their own identities, and whether treating AI as conscious could make it more dangerous."
+    },
+    "tech": {
+      "es": "Cloudflare amplió su WAF con detección de transacciones completas y reglas de respuesta, disponibles gratis para todos los clientes, para correlacionar peticiones y respuestas HTTP sospechosas. Spotify lanzó su primera app nativa para coches, integrada en Android Automotive y disponible ya en algunos modelos de Audi, eliminando la necesidad de vincular el teléfono.",
+      "en": "Cloudflare expanded its WAF with full transaction detection and response rules, available free to all customers, correlating suspicious HTTP requests and responses. Spotify launched its first native in-car app, built on Android Automotive and already available in select Audi models, removing the need to tether a phone."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "evt_eae1c547001829d3",
+      "title": {
+        "es": "Australia obliga a Apple a abrir la App Store antes de marzo de 2027",
+        "en": "Australia orders Apple to open the App Store by March 2027"
+      },
+      "body": {
+        "es": "La Corte Federal de Australia ordenó a Apple permitir tiendas de apps alternativas en iOS y poner fin a las prácticas anti-steering, replicando fallos previos en otros mercados. Apple deberá permitir el descubrimiento, descarga y actualización de apps desde tiendas alternativas, así como métodos de pago alternativos para compras dentro de la app. Apple tiene hasta el 15 de febrero de 2027 para presentar pruebas si necesita una prórroga, con el plazo final fijado en marzo de 2027.",
+        "en": "The Federal Court of Australia ordered Apple to allow alternative app stores on iOS and end anti-steering practices, mirroring previous rulings in other markets. Apple must allow discovery, download, and updates of apps from alternative stores, as well as alternative payment methods for in-app purchases. Apple has until February 15, 2027 to submit evidence if it needs an extension, with the final deadline set for March 2027."
+      },
+      "newsId": "evt_eae1c547001829d3",
+      "storyKey": "evt_eae1c547001829d3",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/10/22/australia-demands-apple-make-similar-app-store-changes-to-those-in-the-eu-by-march-2027",
+      "image": "https://media.appleinsider.com/gallery/69495-146478-iPhone-18-Pro-Max-burgundy-dim-xl.jpg",
+      "score": 8.35,
+      "publishedAt": "2026-10-22T03:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Apple has been ordered by the Federal Court of Australia to allow alternative App Stores and end anti-steering practices.",
+          "source": "2b24a6b6496ab2fa"
+        },
+        {
+          "claim": "Apple must allow alternative app stores where users can discover, download, and update apps.",
+          "source": "2b24a6b6496ab2fa"
+        },
+        {
+          "claim": "Apple must not prohibit, prevent, or take any action that would hinder users of iOS devices from discovering or using alternative app stores.",
+          "source": "2b24a6b6496ab2fa"
+        },
+        {
+          "claim": "Apple must allow alternative accepting and processing payments for in-app purchases in apps for either App Store or alternative app store apps.",
+          "source": "2b24a6b6496ab2fa"
+        },
+        {
+          "claim": "Apple has until February 15, 2027 to submit evidence of why it might need an extension if it isn't ready by February 1.",
+          "source": "2b24a6b6496ab2fa"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/10/22/australia-demands-apple-make-similar-app-store-changes-to-those-in-the-eu-by-march-2027"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_e66cecfe7631e08a",
+      "title": {
+        "es": "Apple bloquea certificados de seguridad asombrosamente débiles en iPhone",
+        "en": "Apple blocks astoundingly weak security certificates on iPhone"
+      },
+      "body": {
+        "es": "Apple bloqueó en iOS y iPadOS ocho certificados de seguridad comprometidos cuyas claves privadas eran números tan simples que resultaban adivinables incluso por humanos. Los certificados se generaron en abril de 2025 y estuvieron disponibles más de un año, aunque la mayoría no llegó a producción y no hay evidencia de que atacantes las usaran. Apple aplicó las protecciones el 19 de octubre, después que Google y Mozilla, que las bloquearon el 17 de octubre.",
+        "en": "Apple blocked eight compromised security certificates on iOS and iPadOS whose private keys were simple numbers guessable even by humans. The certificates were generated in April 2025 and had been available for over a year, though most never reached production and there's no evidence attackers used them. Apple added the protections on October 19, later than Google and Mozilla, which blocked them on October 17."
+      },
+      "newsId": "evt_e66cecfe7631e08a",
+      "storyKey": "evt_e66cecfe7631e08a",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/10/21/apple-blocks-bafflingly-weak-security-certificates-on-iphone",
+      "image": "https://media.appleinsider.com/gallery/69483-146458-59287-121013-Mac-Hack-xl-xl.jpg",
+      "score": 8.35,
+      "publishedAt": "2026-10-21T13:44:38.000Z",
+      "evidence": [
+        {
+          "claim": "Apple blocked a set of eight compromised security certificates on iOS and iPadOS.",
+          "source": "f2f03c684bb3809c"
+        },
+        {
+          "claim": "The compromised certificates were generated in April 2025 and have been available for over a year.",
+          "source": "f2f03c684bb3809c"
+        },
+        {
+          "claim": "The keys for the eight certificates were entirely guessable, even by humans.",
+          "source": "f2f03c684bb3809c"
+        },
+        {
+          "claim": "Apple added protections in iOS and iPadOS on October 19, later than Google and Mozilla.",
+          "source": "f2f03c684bb3809c"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/10/21/apple-blocks-bafflingly-weak-security-certificates-on-iphone"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_af9d7205a495a947",
+      "title": {
+        "es": "Anthropic lanza Claude Duet, un agente de IA proactivo",
+        "en": "Anthropic launches Claude Duet, a proactive AI agent"
+      },
+      "body": {
+        "es": "Anthropic presentó Claude Duet, su respuesta al agente Muse de Meta y Dots de OpenAI, capaz de completar tareas administrativas sencillas o más complejas como construir aplicaciones web. El agente incorpora memoria, habilidades y aplicaciones conectadas ya existentes en la cuenta de Claude del usuario, por lo que apenas requiere configuración adicional.",
+        "en": "Anthropic introduced Claude Duet, its answer to Meta's Muse agent and OpenAI's Dots agent, capable of completing simple administrative tasks or more complex ones like building web apps. The agent incorporates memory, skills, and connected apps already in a user's Claude account, requiring little additional setup."
+      },
+      "newsId": "evt_af9d7205a495a947",
+      "storyKey": "evt_af9d7205a495a947",
+      "topic": "ai_software",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/10/21/anthropic-claude-duet",
+      "image": "https://images.macrumors.com/article-new/2026/10/claude-duet-scaled.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-21T20:53:08.000Z",
+      "evidence": [
+        {
+          "claim": "Anthropic introduced Claude Duet, a proactive AI agent.",
+          "source": "dd24df6105262585"
+        },
+        {
+          "claim": "Claude Duet can complete simple administrative tasks or more complex tasks like building web apps.",
+          "source": "dd24df6105262585"
+        },
+        {
+          "claim": "Claude Duet incorporates memory, skills, and connected apps from a Claude account.",
+          "source": "dd24df6105262585"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/10/21/anthropic-claude-duet"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_9ec0a1bc924f20f6",
+      "title": {
+        "es": "Apple anuncia evento 'Pro and Tell' para el 28 de octubre",
+        "en": "Apple announces 'Pro and Tell' event for October 28"
+      },
+      "body": {
+        "es": "Apple confirmó que celebrará un evento llamado 'Pro and Tell' en Los Ángeles el miércoles 28 de octubre a las 10:00 hora del Pacífico. Dado el nombre del evento, se especula que podría presentarse el rumoreado MacBook Pro con pantalla táctil, aunque Apple no ha confirmado los productos que mostrará.",
+        "en": "Apple confirmed it will hold an event called 'Pro and Tell' in Los Angeles on Wednesday, October 28 at 10:00 am Pacific. Given the event's name, speculation points to the rumored touch-screen MacBook Pro appearing, though Apple has not confirmed which products will be shown."
+      },
+      "newsId": "evt_9ec0a1bc924f20f6",
+      "storyKey": "evt_9ec0a1bc924f20f6",
+      "topic": "apple",
+      "source": "MacStories",
+      "link": "https://www.macstories.net/news/apple-announces-october-28-pro-and-tell-event",
+      "image": "https://cdn.macstories.net/images/uploads/2026/10/19/wt26-hero-final-frame-1792428833174-6f9e99484c.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-19T16:48:41.000Z",
+      "evidence": [
+        {
+          "claim": "Apple will hold an 'Pro and Tell' event in Los Angeles, California.",
+          "source": "dcca6dd116ef20d1"
+        },
+        {
+          "claim": "The event is scheduled for Wednesday, October 28 at 10:00 am Pacific.",
+          "source": "dcca6dd116ef20d1"
+        },
+        {
+          "claim": "The event may include the rumored touch-screen MacBook Pro.",
+          "source": "dcca6dd116ef20d1"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacStories",
+          "link": "https://www.macstories.net/news/apple-announces-october-28-pro-and-tell-event"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_7e11b459d4d3329f",
+      "title": {
+        "es": "Recursive lanza Flint, un modelo de código construido en gran parte por IA",
+        "en": "Recursive launches Flint, a coding model largely built by AI"
+      },
+      "body": {
+        "es": "La startup Recursive lanzó Flint, un modelo de codificación gratuito y del tamaño adecuado para ejecutarse en un portátil, construido en gran parte por su propio sistema de investigación de IA. El lanzamiento se presenta como una prueba temprana de IA capaz de mejorarse a sí misma.",
+        "en": "Startup Recursive released Flint, a free, laptop-sized coding model built largely by its own AI research system. The launch is presented as an early test of AI capable of improving itself."
+      },
+      "newsId": "evt_7e11b459d4d3329f",
+      "storyKey": "evt_7e11b459d4d3329f",
+      "topic": "ai_software",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2157738833.jpg?resize=1200,800",
+      "score": 7.65,
+      "publishedAt": "2026-10-21T20:27:41.000Z",
+      "evidence": [
+        {
+          "claim": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system.",
+          "source": "12ad8f0e3080bc52"
+        }
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_ee6d5ea456c5ecfa",
+      "title": {
+        "es": "Cloudflare añade detección de transacciones completas a su WAF",
+        "en": "Cloudflare adds full transaction detection to its WAF"
+      },
+      "body": {
+        "es": "Cloudflare amplió su firewall de aplicaciones web con dos capacidades nuevas: detecciones de transacción completa y reglas de respuesta. Las detecciones evalúan cada petición HTTP junto con su respuesta para identificar evidencia de explotación, como el acceso a un archivo de configuración privado, y las reglas de respuesta pueden bloquear la respuesta del origen antes de que llegue al solicitante. Cloudflare hace estas capacidades disponibles de forma gratuita para todos los clientes, incluidos los planes gratuitos.",
+        "en": "Cloudflare expanded its web application firewall with two new capabilities: full transaction detections and response rules. Detections evaluate each HTTP request alongside its response to identify evidence of exploitation, such as access to a private configuration file, and response rules can block the origin's response before it reaches the requester. Cloudflare is making these capabilities generally available to all customers, including Free plans."
+      },
+      "newsId": "evt_ee6d5ea456c5ecfa",
+      "storyKey": "evt_ee6d5ea456c5ecfa",
+      "topic": "tech",
+      "source": "Cloudflare Blog",
+      "link": "https://blog.cloudflare.com/full-transaction-waf",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5E1HV25GV2PKJHWP2MM8HGH.png",
+      "score": 7.65,
+      "publishedAt": "2026-10-21T14:10:42.000Z",
+      "evidence": [
+        {
+          "claim": "Cloudflare WAF is expanding with full transaction detections and response rules.",
+          "source": "baab60ea43f3b6e4"
+        },
+        {
+          "claim": "Full transaction detections evaluate each HTTP request alongside its response to identify evidence of exploitation.",
+          "source": "baab60ea43f3b6e4"
+        },
+        {
+          "claim": "Response rules can block the origin’s response before it reaches the requester.",
+          "source": "baab60ea43f3b6e4"
+        },
+        {
+          "claim": "Cloudflare is making these new capabilities generally available to all Cloudflare customers, including Free plans.",
+          "source": "baab60ea43f3b6e4"
+        },
+        {
+          "claim": "Full transaction detection provides a missing piece by correlating the attempted file access with response content characteristic of a private configuration file.",
+          "source": "baab60ea43f3b6e4"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "link": "https://blog.cloudflare.com/full-transaction-waf"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_3d7b7deec3ce74e6",
+      "title": {
+        "es": "Spotify lanza su primera app nativa para coches, libre de CarPlay",
+        "en": "Spotify launches its first native car app, free of CarPlay"
+      },
+      "body": {
+        "es": "Spotify lanzó su primera aplicación nativa para coches, que se ejecuta directamente sobre el hardware de infoentretenimiento del vehículo en lugar de depender de la vinculación con el teléfono, Bluetooth o cables. La app, construida sobre Android Automotive de Google, comenzó a desplegarse en modelos seleccionados de Audi, eliminando esperas de arranque frío y la necesidad de conectar el teléfono.",
+        "en": "Spotify launched its first native car app, running directly on the vehicle's infotainment hardware instead of relying on phone tethering, Bluetooth, or cables. Built on Google's Android Automotive, the app began rolling out in select Audi models, eliminating cold-start waits and the need to plug in a phone."
+      },
+      "newsId": "evt_3d7b7deec3ce74e6",
+      "storyKey": "evt_3d7b7deec3ce74e6",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/entertainment/1014261/spotify-native-car-app-audi-android-automotive-carplay",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Spotify-x-Audi-Image-2.jpg?crop=0%2C3.4613147178592%2C100%2C93.077370564282&quality=90&strip=all&w=1200",
+      "score": 7.65,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Spotify has launched its first native car app.",
+          "source": "c1ef511c04bdfe2a"
+        },
+        {
+          "claim": "The new app runs directly on the vehicle’s infotainment hardware.",
+          "source": "c1ef511c04bdfe2a"
+        },
+        {
+          "claim": "The app is built directly on Google’s Android Automotive operating system.",
+          "source": "c1ef511c04bdfe2a"
+        },
+        {
+          "claim": "The app aims to reduce the tradeoffs of wireless connection, such as a cold start in the morning.",
+          "source": "c1ef511c04bdfe2a"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/entertainment/1014261/spotify-native-car-app-audi-android-automotive-carplay"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "evt_c4ed59c30dcca563",
+      "title": {
+        "es": "Cómo los editores de Wikipedia mantienen la enciclopedia escrita por humanos",
+        "en": "How Wikipedia's editors keep the encyclopedia human-written"
+      },
+      "text": {
+        "es": "El texto generado por IA es cada vez más difícil de detectar, pero eso no ha disuadido a los editores de Wikipedia de seguir vigilando el contenido de la enciclopedia.",
+        "en": "AI-generated text is harder to spot, but that hasn't deterred Wikipedia's editors from staying vigilant about the encyclopedia's content."
+      },
+      "newsId": "evt_c4ed59c30dcca563",
+      "storyKey": "evt_c4ed59c30dcca563",
+      "topic": "ai_general",
+      "source": "IEEE Spectrum AI",
+      "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?coordinates=0%2C167%2C0%2C168&height=600&id=68486571&width=1200",
+      "score": 7.65,
+      "publishedAt": "2026-10-21T13:00:02.000Z",
+      "evidence": [
+        {
+          "claim": "AI-generated text is harder to spot but Wikipedia editors are still vigilant.",
+          "source": "c2ffe7fac2487790"
+        }
+      ],
+      "sources": [
+        {
+          "name": "IEEE Spectrum AI",
+          "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_1a18f993d4300e5b",
+      "title": {
+        "es": "¿Tratar a la IA como consciente podría hacerla más peligrosa?",
+        "en": "Could treating AI as conscious make it more dangerous?"
+      },
+      "text": {
+        "es": "Los investigadores discrepan sobre qué deben decirse a los modelos de IA respecto a su propia identidad, un debate con implicaciones sobre cómo se comportan estos sistemas.",
+        "en": "Researchers disagree on what AI models should be told about their own identities, a debate with implications for how these systems behave."
+      },
+      "newsId": "evt_1a18f993d4300e5b",
+      "storyKey": "evt_1a18f993d4300e5b",
+      "topic": "ai_general",
+      "source": "IEEE Spectrum AI",
+      "link": "https://spectrum.ieee.org/ai-model-welfare",
+      "image": "https://spectrum.ieee.org/media-library/image.jpg?coordinates=0%2C312%2C0%2C313&height=600&id=68442432&width=1200",
+      "score": 7.65,
+      "publishedAt": "2026-10-21T12:00:02.000Z",
+      "evidence": [
+        {
+          "claim": "Researchers disagree on what to tell AI models about their own identities.",
+          "source": "7b96b05d00b31c31"
+        }
+      ],
+      "sources": [
+        {
+          "name": "IEEE Spectrum AI",
+          "link": "https://spectrum.ieee.org/ai-model-welfare"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_50e99606b04bc438",
+      "title": {
+        "es": "Perplexity Computer apuesta por un enfoque local-first para agentes",
+        "en": "Perplexity Computer bets on a local-first approach for agents"
+      },
+      "text": {
+        "es": "Perplexity anunció un modo local-first para Computer en el que el modelo y el agente funcionan enteramente en el Mac del usuario, estén o no conectados, enviando datos a la nube solo con aprobación del usuario.",
+        "en": "Perplexity announced a local-first mode for Computer where the model and agent work entirely on the user's Mac, whether online or not, sending data to the cloud only with the user's approval."
+      },
+      "newsId": "evt_50e99606b04bc438",
+      "storyKey": "evt_50e99606b04bc438",
+      "topic": "tech",
+      "source": "MacStories",
+      "link": "https://www.macstories.net/news/perplexity-computers-local-first-approach-to-agents",
+      "image": "https://cdn.macstories.net/images/uploads/2026/10/20/f1a61df4d8a457f8dee90c42e98b486dafd51324-1920x1080-1792512207578-6eb16d55e2.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-20T15:00:01.000Z",
+      "evidence": [
+        {
+          "claim": "Perplexity announced a local-first mode for their Computer where the model and agent work entirely on your Mac.",
+          "source": "1eb3c7a517dddb39"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacStories",
+          "link": "https://www.macstories.net/news/perplexity-computers-local-first-approach-to-agents"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "1jehuang/jcode",
+      "repoKey": "1jehuang/jcode",
+      "name": "jcode",
+      "full_name": "1jehuang/jcode",
+      "link": "https://github.com/1jehuang/jcode",
+      "description": "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows",
+      "language": "Rust",
+      "stars": 21097,
+      "stars_today": null,
+      "stars_per_day_estimate": 27.112557358239023,
+      "trend_basis": "normalized_35.4h",
+      "trend_score": 7.812976069896772,
+      "default_branch": "master",
+      "created_at": "2026-01-05T09:43:36Z",
+      "pushed_at": "2026-10-21T21:59:40Z",
+      "why_it_matters": {
+        "es": "jcode es un harness de agentes de codificación escrito en Rust que, según sus propios benchmarks, usa drásticamente menos RAM por sesión adicional y reduce el tiempo hasta la primera entrada frente a herramientas como Claude Code, Codex CLI y OpenCode, lo que resulta relevante para quien ejecuta muchos agentes en paralelo.",
+        "en": "jcode is a coding-agent harness written in Rust that, per its own benchmarks, uses dramatically less RAM per additional session and reduces time-to-first-input compared to tools like Claude Code, Codex CLI, and OpenCode, which matters for developers running many agents in parallel."
+      }
+    },
+    {
+      "id": "RoversX/ThinkTerm",
+      "repoKey": "RoversX/ThinkTerm",
+      "name": "ThinkTerm",
+      "full_name": "RoversX/ThinkTerm",
+      "link": "https://github.com/RoversX/ThinkTerm",
+      "description": "A modern terminal with a built-in multiplexer: close it and your sessions keep running. Run shells and tons of AI agents across your machines, then pick them up from desktop, browser, TUI and more. Written in Rust with no UI framework: interface drawn straight on the GPU. No Electron, GPUI or webview.",
+      "language": "Rust",
+      "stars": 179,
+      "stars_today": null,
+      "stars_per_day_estimate": 21.690045886591218,
+      "trend_basis": "normalized_35.4h",
+      "trend_score": 7.436438952513781,
+      "default_branch": "main",
+      "created_at": "2026-10-01T13:32:20Z",
+      "pushed_at": "2026-10-21T13:54:31Z",
+      "why_it_matters": {
+        "es": "ThinkTerm es un terminal de código abierto escrito en Rust con un multiplexor integrado que mantiene las sesiones (shells y agentes de IA) ejecutándose aunque se cierre el cliente, permitiendo reconectarse desde escritorio, navegador o TUI en distintas máquinas sin usar Electron ni webview.",
+        "en": "ThinkTerm is an open-source terminal written in Rust with a built-in multiplexer that keeps sessions (shells and AI agents) running even after the client closes, allowing reconnection from desktop, browser, or TUI across machines without using Electron or a webview."
+      }
+    },
+    {
+      "id": "openspline/openspline",
+      "repoKey": "openspline/openspline",
+      "name": "openspline",
+      "full_name": "openspline/openspline",
+      "link": "https://github.com/openspline/openspline",
+      "description": "Give a face to your voice AI in 5 lines of code. Generate realtime avatar video connected to your voice AI locally",
+      "language": "Python",
+      "stars": 282,
+      "stars_today": null,
+      "stars_per_day_estimate": 37.27976636757866,
+      "trend_basis": "normalized_35.4h",
+      "trend_score": 8.205510061685125,
+      "default_branch": "main",
+      "created_at": "2026-09-29T18:34:01Z",
+      "pushed_at": "2026-10-21T15:39:16Z",
+      "why_it_matters": {
+        "es": "OpenSpline permite añadir una cara animada en tiempo real a cualquier agente de voz con solo cinco líneas de código Python, generando vídeo sincronizado con el audio en la nube o en GPU propia, útil para quienes construyen asistentes de voz con interfaz visual.",
+        "en": "OpenSpline lets developers add a live, real-time face to any voice AI agent in five lines of Python code, generating synchronized video from audio on the cloud or on a local GPU, useful for anyone building voice assistants with a visual interface."
+      }
+    },
+    {
+      "id": "ydflow/Trail",
+      "repoKey": "ydflow/Trail",
+      "name": "Trail",
+      "full_name": "ydflow/Trail",
+      "link": "https://github.com/ydflow/Trail",
+      "description": "研迹 Trail｜本地优先的 AI 投资研究工作台。连接行情、K 线与深度研究，让判断可追溯、风险可复核。Local-first AI investment research desktop with an evidence-grounded copilot.",
+      "language": "TypeScript",
+      "stars": 181,
+      "stars_today": null,
+      "stars_per_day_estimate": 58.2919983202139,
+      "trend_basis": "normalized_35.4h",
+      "trend_score": 8.384156661467298,
+      "default_branch": "main",
+      "created_at": "2026-10-16T01:51:24Z",
+      "pushed_at": "2026-10-19T09:20:29Z",
+      "why_it_matters": {
+        "es": "Trail es un escritorio de investigación de inversión local-first que conecta cotizaciones, gráficos y un copiloto de IA con evidencia verificable, dejando trazabilidad de cada dato y juicio para que las conclusiones puedan revisarse y auditarse después.",
+        "en": "Trail is a local-first investment research desktop that connects market data, charts, and an evidence-grounded AI copilot, keeping traceability for every data point and judgment so conclusions can be reviewed and audited later."
+      }
+    }
+  ],
+  "developer_signals": [],
+  "editorial_stats": {
+    "topics": {
+      "apple": 3,
+      "ai_software": 2,
+      "ai_general": 0,
+      "tech": 2
+    }
+  }
+}
