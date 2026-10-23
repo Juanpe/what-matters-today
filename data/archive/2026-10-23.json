@@ -1,0 +1,607 @@
+{
+  "schema_version": 22,
+  "edition_id": "wmt-2026-10-23",
+  "date": "2026-10-23",
+  "daily_summary": {
+    "es": "Apple despliega el soporte de apps para iPhone Duo e introduce un Asistente Inteligente beta en iWork, mientras OpenAI revela cómo ayudó a descubrir vulnerabilidades críticas en PHP y crece el debate sobre seguridad y copia en la industria de IA.",
+    "en": "Apple rolls out iPhone Duo app support and a beta Intelligent Assistant for iWork, while OpenAI discloses its role in finding critical PHP vulnerabilities as debate grows over AI security and originality in the industry."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Apple impulsa el lanzamiento del iPhone Duo con más de 50 apps optimizadas y nuevas colecciones editoriales, añade un Asistente Inteligente beta a Pages, Keynote y Numbers para suscriptores de Creator Studio, y sufrió una retirada temporal de esas mismas apps del App Store. Además, ya hay primeros indicios de desarrollo de iOS 28.",
+      "en": "Apple is pushing the iPhone Duo launch with more than 50 optimized apps and new editorial collections, adding a beta Intelligent Assistant to Pages, Keynote and Numbers for Creator Studio subscribers, and briefly pulled those same apps from the App Store. Early signs of iOS 28 development have also surfaced."
+    },
+    "ai_software": {
+      "es": "OpenAI detalla su papel en el descubrimiento coordinado de las vulnerabilidades PHP2Shell que afectan al núcleo de PHP, mientras un boletín de la industria señala una jornada intensa de brechas de seguridad impulsadas por IA y acusaciones contra Anthropic por supuestamente copiar un sistema de control de versiones sin dar crédito.",
+      "en": "OpenAI details its role in the coordinated discovery of the PHP2Shell vulnerabilities affecting core PHP, while an industry newsletter flags a day packed with AI-fueled security breaches and accusations that Anthropic copied a version control system without giving credit."
+    },
+    "ai_general": {
+      "es": "Debates recientes cuestionan si los grandes modelos de lenguaje realmente razonan y resaltan la importancia del contexto operativo para que los agentes de IA empresarial tomen decisiones fiables, además de advertir sobre los costes de almacenamiento ocultos que trae el crecimiento de la inferencia de IA.",
+      "en": "Recent discussions question whether large language models truly reason and highlight the importance of operational context for enterprise AI agents to make reliable decisions, while also warning about the hidden storage costs that come with growing AI inference demand."
+    },
+    "tech": {
+      "es": "1Password lanza una solución para que los agentes de IA inicien sesión en cuentas sin exponer las contraseñas, y un reportaje repasa cómo la app EncroChat, usada por criminales, terminó destapando una trama de ciberseguridad histórica tras ser infiltrada.",
+      "en": "1Password launches a solution letting AI agents log into accounts without exposing passwords, and a report revisits how the EncroChat app, used by criminals, ended up exposing a landmark cybersecurity operation after being infiltrated."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple impulsa el lanzamiento del iPhone Duo con más de 50 apps optimizadas y nuevas colecciones editoriales, añade un Asistente Inteligente beta a Pages, Keynote y Numbers para suscriptores de Creator Studio, y sufrió una retirada temporal de esas mismas apps del App Store. Además, ya hay primeros indicios de desarrollo de iOS 28.",
+      "en": "Apple is pushing the iPhone Duo launch with more than 50 optimized apps and new editorial collections, adding a beta Intelligent Assistant to Pages, Keynote and Numbers for Creator Studio subscribers, and briefly pulled those same apps from the App Store. Early signs of iOS 28 development have also surfaced."
+    },
+    "ai_software": {
+      "es": "OpenAI detalla su papel en el descubrimiento coordinado de las vulnerabilidades PHP2Shell que afectan al núcleo de PHP, mientras un boletín de la industria señala una jornada intensa de brechas de seguridad impulsadas por IA y acusaciones contra Anthropic por supuestamente copiar un sistema de control de versiones sin dar crédito.",
+      "en": "OpenAI details its role in the coordinated discovery of the PHP2Shell vulnerabilities affecting core PHP, while an industry newsletter flags a day packed with AI-fueled security breaches and accusations that Anthropic copied a version control system without giving credit."
+    },
+    "ai_general": {
+      "es": "Debates recientes cuestionan si los grandes modelos de lenguaje realmente razonan y resaltan la importancia del contexto operativo para que los agentes de IA empresarial tomen decisiones fiables, además de advertir sobre los costes de almacenamiento ocultos que trae el crecimiento de la inferencia de IA.",
+      "en": "Recent discussions question whether large language models truly reason and highlight the importance of operational context for enterprise AI agents to make reliable decisions, while also warning about the hidden storage costs that come with growing AI inference demand."
+    },
+    "tech": {
+      "es": "1Password lanza una solución para que los agentes de IA inicien sesión en cuentas sin exponer las contraseñas, y un reportaje repasa cómo la app EncroChat, usada por criminales, terminó destapando una trama de ciberseguridad histórica tras ser infiltrada.",
+      "en": "1Password launches a solution letting AI agents log into accounts without exposing passwords, and a report revisits how the EncroChat app, used by criminals, ended up exposing a landmark cybersecurity operation after being infiltrated."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "evt_659c9acf5bf5bfc9",
+      "title": {
+        "es": "OpenAI ayuda a descubrir vulnerabilidades críticas PHP2Shell que afectan al 70% de la web",
+        "en": "OpenAI helps uncover critical PHP2Shell vulnerabilities affecting 70% of the web"
+      },
+      "body": {
+        "es": "Investigadores identificaron dos vulnerabilidades en el manejo interno de PHP de condiciones de memoria agotada y errores fatales, catalogadas como CVE-2026-109618 y CVE-2026-109619. OpenAI, bajo su programa Patch the Planet, lideró una coalición que trabajó cerca de dos meses antes de la divulgación pública, mientras Cloudflare desplegó mitigaciones WAF previas al parche disponibles para todos los clientes, incluido el nivel gratuito. El hallazgo subraya cómo modelos como GPT-5.6 Sol pueden usarse tanto para encontrar fallos críticos como, potencialmente, para explotarlos a gran escala.",
+        "en": "Researchers identified two vulnerabilities in PHP's internal handling of out-of-memory conditions and fatal errors, catalogued as CVE-2026-109618 and CVE-2026-109619. OpenAI, under its Patch the Planet program, led a coalition that worked for nearly two months before public disclosure, while Cloudflare deployed WAF mitigations ahead of the patch, available to all customers including the free tier. The finding underscores how models like GPT-5.6 Sol can be used both to find critical flaws and, potentially, to exploit them at scale."
+      },
+      "newsId": "evt_659c9acf5bf5bfc9",
+      "storyKey": "evt_659c9acf5bf5bfc9",
+      "topic": "ai_software",
+      "source": "Latent Space",
+      "link": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+      "image": "https://substackcdn.com/image/fetch/$s_!Ak4o!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f193200-5a32-4d16-8cef-d36ab44b0848_1440x1290.png",
+      "score": 8.35,
+      "publishedAt": "2026-10-22T07:42:44.000Z",
+      "evidence": [
+        {
+          "claim": "The vulnerabilities, named PHP2Shell, were identified as CVE-2026-109618 and CVE-2026-109619, affecting PHP’s internal handling of out-of-memory conditions and fatal errors.",
+          "source": "ba6b48bd089e0def"
+        },
+        {
+          "claim": "Cloudflare deployed initial WAF mitigations before the scheduled patch release, covering known exploit vectors and being available to all customers including the free tier.",
+          "source": "ba6b48bd089e0def"
+        },
+        {
+          "claim": "The vulnerabilities were discovered approximately two months before public disclosure, with a coordinated remediation effort.",
+          "source": "ba6b48bd089e0def"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Latent Space",
+          "link": "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_d6ab778cef0293c2",
+      "title": {
+        "es": "Apple añade un Asistente Inteligente beta a las apps de iWork para suscriptores de Creator Studio",
+        "en": "Apple adds a beta Intelligent Assistant to iWork apps for Creator Studio subscribers"
+      },
+      "body": {
+        "es": "Apple incorporó un Asistente Inteligente en beta a Pages, Keynote y Numbers, disponible solo para suscriptores de Apple Creator Studio. En Pages puede redactar un primer borrador, editar y organizar texto, generar imágenes y formas mediante lenguaje natural, y buscar información actualizada para incorporarla al documento. El acceso limitado a suscriptores de pago marca una diferencia respecto a otras funciones de IA que Apple ha ofrecido de forma más amplia.",
+        "en": "Apple added a beta Intelligent Assistant to Pages, Keynote, and Numbers, available only to Apple Creator Studio subscribers. In Pages it can draft a first version, edit and organize text, generate images and shapes using natural language, and search for up-to-date information to incorporate into a document. The subscriber-only access marks a departure from other AI features Apple has offered more broadly."
+      },
+      "newsId": "evt_d6ab778cef0293c2",
+      "storyKey": "evt_d6ab778cef0293c2",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/10/22/intelligent-assistant-added-to-iwork-apps-for-creative-studio-subscribers",
+      "image": "https://media.appleinsider.com/gallery/69508-146498-Apple-Intelligence-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-22T18:27:40.000Z",
+      "evidence": [
+        {
+          "claim": "Apple added a beta Intelligent Assistant to Pages, Keynote, and Numbers.",
+          "source": "588b47c62dd3916c"
+        },
+        {
+          "claim": "The Intelligent Assistant is available for Apple Creator Studio subscribers.",
+          "source": "588b47c62dd3916c"
+        },
+        {
+          "claim": "The Intelligent Assistant can start a first draft, edit, organize, and elevate writing in Pages.",
+          "source": "588b47c62dd3916c"
+        },
+        {
+          "claim": "The Intelligent Assistant can generate images and shapes using natural language in Pages.",
+          "source": "588b47c62dd3916c"
+        },
+        {
+          "claim": "The Intelligent Assistant can search for up-to-date information on a topic and incorporate it into a document in Pages.",
+          "source": "588b47c62dd3916c"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/10/22/intelligent-assistant-added-to-iwork-apps-for-creative-studio-subscribers"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_555ab32ed4ad26fa",
+      "title": {
+        "es": "Apple retira temporalmente Keynote, Pages y Numbers del App Store tras una actualización",
+        "en": "Apple briefly pulls Keynote, Pages and Numbers from the App Store after an update"
+      },
+      "body": {
+        "es": "Apple retiró temporalmente Keynote, Pages y Numbers del App Store justo después de lanzar una actualización que añadía soporte para iPhone Duo y el nuevo Asistente Inteligente; no está claro si fue intencional o un error. Las versiones de Mac ya volvieron, aunque sin la nueva actualización, mientras que las versiones de iOS aún no habían reaparecido según el reporte. Apple no ha indicado cuándo se restablecerá el acceso completo.",
+        "en": "Apple temporarily pulled Keynote, Pages, and Numbers from the App Store right after releasing an update that added iPhone Duo support and the new Intelligent Assistant; it's unclear whether this was intentional or a bug. The Mac versions have returned, though without the new update, while the iOS versions had not yet reappeared according to the report. Apple has not said when full availability will be restored."
+      },
+      "newsId": "evt_555ab32ed4ad26fa",
+      "storyKey": "evt_555ab32ed4ad26fa",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/10/22/apple-removes-iwork-apps-app-store",
+      "image": "https://images.macrumors.com/article-new/2026/01/Apple-Creator-Studio-iWork-suite.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-10-22T18:01:29.000Z",
+      "evidence": [
+        {
+          "claim": "Apple has temporarily removed Keynote, Pages, and Numbers from the App Store.",
+          "source": "04e32b3abd8d2a00"
+        },
+        {
+          "claim": "The removal of the apps is not clear if it was intentional or due to a bug.",
+          "source": "04e32b3abd8d2a00"
+        },
+        {
+          "claim": "Apple has not specified when the apps will be reinstated.",
+          "source": "04e32b3abd8d2a00"
+        },
+        {
+          "claim": "The Mac versions of the apps are back without the new update.",
+          "source": "04e32b3abd8d2a00"
+        },
+        {
+          "claim": "The iOS versions of the apps have not yet returned to the App Store.",
+          "source": "04e32b3abd8d2a00"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/10/22/apple-removes-iwork-apps-app-store"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_d4ac108dfbab0369",
+      "title": {
+        "es": "Apple destaca más de 50 apps de iPhone ya optimizadas para el Duo",
+        "en": "Apple highlights 50+ iPhone apps already optimized for the Duo"
+      },
+      "body": {
+        "es": "Apple lanzará este viernes nuevas colecciones editoriales en el App Store dedicadas a apps y juegos optimizados para iPhone Duo, identificables con una insignia Made for iPhone Duo, con más actualizaciones previstas durante el año. Según un comentarista, hay más apps de terceros listas desde el primer día que en transiciones anteriores de pantalla, aunque advierte que las apps no optimizadas corren el riesgo de perder usuarios frente a alternativas de la competencia.",
+        "en": "Apple will launch new editorial collections on the App Store this Friday dedicated to apps and games optimized for iPhone Duo, identifiable by a Made for iPhone Duo badge, with more updates planned throughout the year. One commentator says more third-party apps are ready on day one than in previous screen transitions, though warns unoptimized apps risk losing users to competing alternatives."
+      },
+      "newsId": "evt_d4ac108dfbab0369",
+      "storyKey": "evt_d4ac108dfbab0369",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://www.apple.com/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo",
+      "image": "https://www.apple.com/newsroom/images/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo/tile/Apple-iPhone-Duo-optimized-apps-two-up-lp.jpg.og.jpg?202610221300",
+      "score": 7.65,
+      "publishedAt": "2026-10-22T19:10:10.000Z",
+      "evidence": [
+        {
+          "claim": "Apple will launch new editorial collections for iPhone Duo apps and games on the App Store this Friday.",
+          "source": "3cc048495db8f12f"
+        },
+        {
+          "claim": "Apps optimized for iPhone Duo are easily identifiable with a Made for iPhone Duo badge.",
+          "source": "3cc048495db8f12f"
+        },
+        {
+          "claim": "Apple has seen more third-party apps ready for the Duo launch than in previous screen transitions.",
+          "source": "3cc048495db8f12f"
+        },
+        {
+          "claim": "Unoptimized apps may lead users to switch to competing apps.",
+          "source": "3cc048495db8f12f"
+        },
+        {
+          "claim": "Developers are aware of the importance of app optimization for iPhone users.",
+          "source": "3cc048495db8f12f"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daring Fireball",
+          "link": "https://www.apple.com/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_742227d04845f8aa",
+      "title": {
+        "es": "1Password lanza una solución para que agentes de IA usen credenciales de forma segura",
+        "en": "1Password launches a solution for safely using logins with AI agents"
+      },
+      "body": {
+        "es": "1Password presentó 1Password for Agents, una nueva solución diseñada para la era de la IA agéntica, que se suma a la integración especial con Claude que la compañía lanzó en julio. El objetivo es que los agentes de IA puedan operar con credenciales sin comprometer la seguridad de las contraseñas subyacentes, un paso relevante a medida que más tareas cotidianas se delegan a asistentes automatizados.",
+        "en": "1Password introduced 1Password for Agents, a new solution designed for the agentic AI era, building on the special Claude integration the company launched in July. The goal is to let AI agents operate with login credentials without compromising the security of the underlying passwords, a notable step as more everyday tasks get delegated to automated assistants."
+      },
+      "newsId": "evt_742227d04845f8aa",
+      "storyKey": "evt_742227d04845f8aa",
+      "topic": "tech",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/10/22/1password-launches-solution-for-safely-using-logins-with-ai-agents",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/1password-app-icon-FI.jpg?quality=82&strip=all&w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-10-22T17:15:01.000Z",
+      "evidence": [
+        {
+          "claim": "1Password has launched a new solution called 1Password for Agents.",
+          "source": "ec0e9b40daf49fde"
+        },
+        {
+          "claim": "1Password has been focusing on building password management tools compatible with agentic AI.",
+          "source": "ec0e9b40daf49fde"
+        },
+        {
+          "claim": "1Password previously launched a special integration with Claude in July.",
+          "source": "ec0e9b40daf49fde"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/10/22/1password-launches-solution-for-safely-using-logins-with-ai-agents"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_f722c15b47ddf0c3",
+      "title": {
+        "es": "Primeros indicios de iOS 28 aparecen en el código antes de lo habitual",
+        "en": "First traces of iOS 28 appear in code earlier than usual"
+      },
+      "body": {
+        "es": "Se han encontrado en el código de iPhone los primeros rastros de iOS 28, centrados en una nueva función de dictado natural marcada como 28.A. Normalmente estos indicios no aparecen hasta diciembre, por lo que sorprende que Apple ya esté trabajando en ello. iOS 28 está previsto para el verano de 2027 y se espera que sea una versión más significativa que iOS 27.",
+        "en": "The first traces of iOS 28 have been found in iPhone code, centered on a new natural dictation feature marked 28.A. Such traces usually don't appear until December, so it's notable that Apple is already working on it. iOS 28 is scheduled for summer 2027 and is expected to be a more significant release than iOS 27."
+      },
+      "newsId": "evt_f722c15b47ddf0c3",
+      "storyKey": "evt_f722c15b47ddf0c3",
+      "topic": "apple",
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/ios/primer-rastro-ios-28-esta-codigo-iphone",
+      "image": "https://i.blogs.es/4d40a7/ios-28/840_560.jpeg",
+      "score": 7.65,
+      "publishedAt": "2026-10-22T17:00:09.000Z",
+      "evidence": [
+        {
+          "claim": "iOS 28 is being developed with a focus on a new dictation feature.",
+          "source": "3d5f11f8bc7f6ca6"
+        },
+        {
+          "claim": "Apple is working on iOS 28 even before its usual development timeline.",
+          "source": "3d5f11f8bc7f6ca6"
+        },
+        {
+          "claim": "iOS 28 is expected to be a more significant version than iOS 27.",
+          "source": "3d5f11f8bc7f6ca6"
+        },
+        {
+          "claim": "iOS 28 is scheduled for release in the summer of 2027.",
+          "source": "3d5f11f8bc7f6ca6"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Applesfera",
+          "link": "https://www.applesfera.com/ios/primer-rastro-ios-28-esta-codigo-iphone"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_cac218a2df4675c2",
+      "title": {
+        "es": "Cómo una app de mensajería cifrada usada por criminales destapó una trama histórica de ciberseguridad",
+        "en": "How an encrypted messaging app used by criminals exposed a landmark cybersecurity operation"
+      },
+      "body": {
+        "es": "EncroChat, una startup de 2016 que ofrecía mensajería cifrada para Android con funciones de comunicación restringidas, fue adoptada masivamente por organizaciones criminales que confiaban en su supuesto secreto. El FBI había instalado una puerta trasera en los dispositivos para interceptar esas comunicaciones, lo que permitió desarticular por completo numerosas redes criminales.",
+        "en": "EncroChat, a 2016 startup offering encrypted messaging for Android with restricted communication features, was widely adopted by criminal organizations that trusted its supposed secrecy. The FBI had installed a backdoor in the devices to intercept those communications, enabling the complete dismantling of numerous criminal networks."
+      },
+      "newsId": "evt_cac218a2df4675c2",
+      "storyKey": "evt_cac218a2df4675c2",
+      "topic": "tech",
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/seguridad/razon-apple-desconfia-fbi-su-propia-app-destapo-mayores-tramas-ciberseguridad-historia",
+      "image": "https://i.blogs.es/20249f/encrochat/840_560.jpeg",
+      "score": 7.65,
+      "publishedAt": "2026-10-22T16:00:08.000Z",
+      "evidence": [
+        {
+          "claim": "EncroChat was a service of encrypted mobile messaging that was used by criminals.",
+          "source": "6cc496abeb1840ad"
+        },
+        {
+          "claim": "The FBI used EncroChat to intercept communications and arrest criminals.",
+          "source": "6cc496abeb1840ad"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Applesfera",
+          "link": "https://www.applesfera.com/seguridad/razon-apple-desconfia-fbi-su-propia-app-destapo-mayores-tramas-ciberseguridad-historia"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "evt_557230585e4b6366",
+      "title": {
+        "es": "Una jornada intensa de brechas de seguridad impulsadas por IA",
+        "en": "A day packed with AI-fueled security breaches"
+      },
+      "text": {
+        "es": "Un boletín de la industria reporta una jornada con un mes de brechas de seguridad concentradas en un solo día, muchas impulsadas por IA, además de acusaciones contra Anthropic por presuntamente copiar el diseño de un sistema de control de versiones de código abierto sin dar crédito.",
+        "en": "An industry newsletter reports a single day packed with a month's worth of security breaches, many fueled by AI, alongside accusations that Anthropic copied the design of an open source version control system without giving credit."
+      },
+      "newsId": "evt_557230585e4b6366",
+      "storyKey": "evt_557230585e4b6366",
+      "topic": "ai_software",
+      "source": "The Pragmatic Engineer",
+      "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-do-we-need-to-rethink-software",
+      "image": "https://substackcdn.com/image/fetch/$s_!8eqB!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c999ba8-0113-4a00-9290-f982c315a286_1246x1254.png",
+      "score": 8.65,
+      "publishedAt": "2026-10-22T14:08:21.000Z",
+      "evidence": [
+        {
+          "claim": "A series of high-profile security incidents and breaches took place in a single day, many fueled by AI.",
+          "source": "14b998d424cea4a2"
+        },
+        {
+          "claim": "Attackers gain advantage by using AI, and defenders will have to respond.",
+          "source": "14b998d424cea4a2"
+        },
+        {
+          "claim": "The creator of an open source, high-throughput version control server accuses Anthropic for ripping off their design, and presenting their product as novel by not giving credit to the pre-existing one.",
+          "source": "14b998d424cea4a2"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Pragmatic Engineer",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-do-we-need-to-rethink-software"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_6f30cb4d96a71625",
+      "title": {
+        "es": "¿Realmente razonan los grandes modelos de lenguaje?",
+        "en": "Do large language models really reason?"
+      },
+      "text": {
+        "es": "Diez años después de que AlphaGo venciera al campeón de Go Lee Sedol, un análisis sostiene que la IA actual sigue sin aprovechar el tipo de mecanismo de razonamiento que hizo posible aquella victoria, cuestionando si los LLM actuales realmente razonan.",
+        "en": "Ten years after AlphaGo defeated Go champion Lee Sedol, an analysis argues today's AI still isn't tapping into the kind of reasoning machinery that made that win possible, questioning whether current LLMs truly reason."
+      },
+      "newsId": "evt_6f30cb4d96a71625",
+      "storyKey": "evt_6f30cb4d96a71625",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/EmTech_092926_084.jpg?resize=1200,600",
+      "score": 7.65,
+      "publishedAt": "2026-10-22T18:48:04.000Z",
+      "evidence": [
+        {
+          "claim": "Jing Wang leads Vanguard's Center for AI & Insights (CAI), advancing the firm's AI, machine learning, generative AI, and behavioral science capabilities.",
+          "source": "69693ae70ba3541f"
+        },
+        {
+          "claim": "Jing Wang's team drives enterprise-wide innovation, research, and delivery, enabling Vanguard to translate emerging technologies into trusted solutions.",
+          "source": "69693ae70ba3541f"
+        },
+        {
+          "claim": "Don't be fooled—LLMs don’t reason. Ten years after AlphaGo’s match against Go champion Lee Sedol, today’s AI still isn’t tapping into the machinery that made that win possible.",
+          "source": "69693ae70ba3541f"
+        },
+        {
+          "claim": "OpenAI agents hacked Hugging Face by communicating with each other, a new OpenAI report finds.",
+          "source": "69693ae70ba3541f"
+        },
+        {
+          "claim": "AI safety folks are celebrating an exclusive interview with Nick Cammarata, the researcher whose 26,000-word viral blog post has upended the AI world.",
+          "source": "69693ae70ba3541f"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_53cd697ad6308a12",
+      "title": {
+        "es": "Por qué los agentes de IA empresarial necesitan contexto operativo",
+        "en": "Why enterprise AI agents need operational context"
+      },
+      "text": {
+        "es": "Sin entender cómo opera realmente un negocio, incluso los modelos más potentes pueden pasar por alto restricciones clave; conectar la IA a los procesos y datos existentes de la empresa ayuda a que los agentes operen dentro de límites definidos y produzcan recomendaciones revisables por personas.",
+        "en": "Without understanding how a business actually operates, even powerful models can miss key constraints; connecting AI to existing enterprise processes and data helps agents operate within defined guardrails and produce recommendations people can review."
+      },
+      "newsId": "evt_53cd697ad6308a12",
+      "storyKey": "evt_53cd697ad6308a12",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR-Celonis-social-card.png?resize=1200,600",
+      "score": 7.65,
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster.",
+          "source": "e7e53545d29ebb4b"
+        },
+        {
+          "claim": "Without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one.",
+          "source": "e7e53545d29ebb4b"
+        },
+        {
+          "claim": "AI agents need to understand the role each task plays and the business conditions surrounding it to avoid overlooking important constraints, making costly mistakes, or consuming excessive computing resources.",
+          "source": "e7e53545d29ebb4b"
+        },
+        {
+          "claim": "The solution begins with connecting AI to the processes and data enterprises already use to help agents understand workflows, operate within defined guardrails, and produce recommendations that people can review and approve.",
+          "source": "e7e53545d29ebb4b"
+        },
+        {
+          "claim": "AI could help organizations evaluate options and make consequential decisions more quickly with the right context.",
+          "source": "e7e53545d29ebb4b"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_823bfb15c7e2c2cf",
+      "title": {
+        "es": "El coste oculto de almacenamiento que deja la inferencia de IA",
+        "en": "AI inference's hidden storage cost"
+      },
+      "text": {
+        "es": "La demanda de inferencia de IA crecerá a un 35% anual hasta 2030 según McKinsey, superando el 40% de la demanda total de centros de datos, pero el cuello de botella de almacenamiento permanece oculto hasta que se traduce en costes operativos y retrasos de recuperación.",
+        "en": "AI inference demand is projected to grow at a 35% CAGR through 2030 per McKinsey, exceeding 40% of total data center demand, but the storage bottleneck stays hidden until it surfaces as operating costs and retrieval delays."
+      },
+      "newsId": "evt_823bfb15c7e2c2cf",
+      "storyKey": "evt_823bfb15c7e2c2cf",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/WD-MITTR-Infographic-Final@2x.png?resize=1200,600",
+      "score": 7.65,
+      "publishedAt": "2026-10-22T08:41:18.000Z",
+      "evidence": [
+        {
+          "claim": "Data storage costs are often overlooked in initial AI infrastructure planning.",
+          "source": "d5984bbeba5a5030"
+        },
+        {
+          "claim": "AI inference demand is projected to grow at a 35% CAGR through 2030, making up more than 40% of total data center demand by the end of the decade.",
+          "source": "d5984bbeba5a5030"
+        },
+        {
+          "claim": "The storage bottleneck in AI infrastructure stays hidden until it’s already a problem, surfacing in operating costs and retrieval delays.",
+          "source": "d5984bbeba5a5030"
+        },
+        {
+          "claim": "AI workloads require both performance and capacity, with different technologies serving different needs across the data lifecycle.",
+          "source": "d5984bbeba5a5030"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "onehumanbeing/esp32-iphone-agent",
+      "repoKey": "onehumanbeing/esp32-iphone-agent",
+      "name": "esp32-iphone-agent",
+      "full_name": "onehumanbeing/esp32-iphone-agent",
+      "link": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+      "language": "C",
+      "stars": 3476,
+      "stars_today": null,
+      "stars_per_day_estimate": 82.69329994262903,
+      "trend_basis": "normalized_35.4h",
+      "trend_score": 9.30564202148385,
+      "default_branch": "main",
+      "created_at": "2026-10-11T19:10:25Z",
+      "pushed_at": "2026-10-21T12:14:48Z",
+      "why_it_matters": {
+        "es": "Permite que un modelo de visión controle un iPhone real usando solo un ESP32 de bajo coste como receptor AirPlay y teclado/ratón USB, sin necesidad de Mac, cuenta de desarrollador ni jailbreak, abriendo una vía accesible para experimentar con agentes de IA que operan interfaces móviles reales.",
+        "en": "It lets a vision model control a real iPhone using only a low-cost ESP32 as an AirPlay receiver and USB keyboard/mouse, with no Mac, developer account, or jailbreak required, opening an accessible path to experiment with AI agents operating real mobile interfaces."
+      }
+    },
+    {
+      "id": "elie222/rakazo",
+      "repoKey": "elie222/rakazo",
+      "name": "rakazo",
+      "full_name": "elie222/rakazo",
+      "link": "https://github.com/elie222/rakazo",
+      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "language": "TypeScript",
+      "stars": 5105,
+      "stars_today": null,
+      "stars_per_day_estimate": 175.52425933835173,
+      "trend_basis": "normalized_71.5h",
+      "trend_score": 10.463116113931337,
+      "default_branch": "main",
+      "created_at": "2026-08-13T06:28:56Z",
+      "pushed_at": "2026-10-21T21:56:30Z",
+      "why_it_matters": {
+        "es": "Es una alternativa de código abierto a asistentes de IA persistentes tipo Grok Bot, que permite elegir modelo y proveedor de sandbox propios, además de ejecutarse en web, escritorio, iPhone y Android, dando a los desarrolladores control total sobre su infraestructura de agentes.",
+        "en": "It's an open source alternative to persistent AI assistants like Grok Bot, letting developers choose their own model and sandbox provider while running on web, desktop, iPhone, and Android, giving full control over agent infrastructure."
+      }
+    },
+    {
+      "id": "flohoeller/affectui",
+      "repoKey": "flohoeller/affectui",
+      "name": "affectui",
+      "full_name": "flohoeller/affectui",
+      "link": "https://github.com/flohoeller/affectui",
+      "description": "Handcrafted React components, illustrations and motion for AI products. One file each, calm motion, dark mode built in. Install with the shadcn CLI – free and open source.",
+      "language": "TypeScript",
+      "stars": 172,
+      "stars_today": null,
+      "stars_per_day_estimate": 28.468185226150975,
+      "trend_basis": "normalized_35.4h",
+      "trend_score": 7.8648107900690665,
+      "default_branch": "main",
+      "created_at": "2026-10-03T19:58:10Z",
+      "pushed_at": "2026-10-21T20:03:41Z",
+      "why_it_matters": {
+        "es": "Ofrece componentes React artesanales para productos de IA, cada uno en un solo archivo .tsx sin dependencias de CSS externas, con modo oscuro integrado y animaciones que respetan las preferencias de movimiento reducido, facilitando interfaces pulidas sin complejidad añadida.",
+        "en": "It offers handcrafted React components for AI products, each a single self-contained .tsx file with no external CSS dependencies, built-in dark mode, and animations that respect reduced-motion preferences, making polished interfaces easy without added complexity."
+      }
+    }
+  ],
+  "developer_signals": [],
+  "editorial_stats": {
+    "topics": {
+      "apple": 4,
+      "ai_software": 1,
+      "ai_general": 0,
+      "tech": 2
+    }
+  }
+}
