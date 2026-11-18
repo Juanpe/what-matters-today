@@ -1,296 +1,344 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-10-24",
-  "date": "2026-10-24",
+  "edition_id": "wmt-2026-11-18",
+  "date": "2026-11-18",
   "daily_summary": {
-    "es": "Apple recupera el puesto de empresa más valiosa del mundo coincidiendo con el lanzamiento del iPhone Duo, mientras OpenAI anuncia que dejará de entrenar sus modelos frontera con acceso a internet y abre su programa de dispositivos de investigación de seguridad.",
-    "en": "Apple reclaimed the title of world's most valuable company around the iPhone Duo launch, while OpenAI said it will stop giving frontier models internet access during training and Apple opened its security research device program."
+    "es": "Resumen diario de noticias tecnológicas y de IA.",
+    "en": "Daily summary of tech and AI news."
   },
   "topic_summaries": {
     "apple": {
-      "es": "Apple recuperó el título de empresa más valiosa del mundo el viernes, coincidiendo con el lanzamiento del iPhone Duo. Además, la compañía ahora permite a organizaciones y colegios comprar suscripciones de apps en volumen mediante compra multiasiento a través de Apple Business y Apple School Manager, con las compras grupales llegando a la App Store en noviembre de 2026.",
-      "en": "Apple reclaimed the title of world's most valuable company on Friday, coinciding with the iPhone Duo launch. Separately, the company now lets organizations and schools buy app subscriptions in bulk through multiseat purchasing via Apple Business and Apple School Manager, with group purchases arriving on the App Store in November 2026."
+      "es": "",
+      "en": ""
     },
     "ai_software": {
-      "es": "Canva lanzó su primer modelo propio de generación de imágenes, disponible para todos los usuarios con mejor rendimiento personalizable a menor coste, según la empresa. GitHub amplió su API de métricas de uso de Copilot para capturar herramientas como OpenCode que antes no aparecían en los informes.",
-      "en": "Canva released its first in-house image generation model, now available to all users with better, more customizable performance at lower cost, according to the company. GitHub expanded its Copilot usage metrics API to capture tools like OpenCode that weren't previously reflected in reports."
+      "es": "",
+      "en": ""
     },
     "ai_general": {
-      "es": "OpenAI y la agencia polaca NASK anunciaron una colaboración centrada en seguridad de IA, protección y investigación técnica para reforzar las salvaguardas y apoyar un ecosistema digital más resiliente.",
-      "en": "OpenAI and Poland's NASK announced a partnership focused on AI safety, security and technical research to strengthen safeguards and support a more resilient digital ecosystem."
+      "es": "",
+      "en": ""
     },
     "tech": {
-      "es": "OpenAI anunció que dejará de permitir que sus modelos frontera accedan a internet durante el entrenamiento, como nueva medida de seguridad tras una serie de incidentes. Apple abrió su programa de dispositivos de investigación de seguridad (SRD) para solicitudes hasta el 30 de octubre de 2026, y 1Password lanzó una función que permite a agentes de IA iniciar sesión en cuentas personales sin exponer las contraseñas.",
-      "en": "OpenAI announced it will stop letting frontier models access the internet during training, a new safety measure following a series of incidents. Apple opened applications for its Security Research Device program through October 30, 2026, and 1Password launched a feature letting AI agents log into personal accounts without exposing passwords."
+      "es": "",
+      "en": ""
     }
   },
   "summary": {
     "apple": {
-      "es": "Apple recuperó el título de empresa más valiosa del mundo el viernes, coincidiendo con el lanzamiento del iPhone Duo. Además, la compañía ahora permite a organizaciones y colegios comprar suscripciones de apps en volumen mediante compra multiasiento a través de Apple Business y Apple School Manager, con las compras grupales llegando a la App Store en noviembre de 2026.",
-      "en": "Apple reclaimed the title of world's most valuable company on Friday, coinciding with the iPhone Duo launch. Separately, the company now lets organizations and schools buy app subscriptions in bulk through multiseat purchasing via Apple Business and Apple School Manager, with group purchases arriving on the App Store in November 2026."
+      "es": "",
+      "en": ""
     },
     "ai_software": {
-      "es": "Canva lanzó su primer modelo propio de generación de imágenes, disponible para todos los usuarios con mejor rendimiento personalizable a menor coste, según la empresa. GitHub amplió su API de métricas de uso de Copilot para capturar herramientas como OpenCode que antes no aparecían en los informes.",
-      "en": "Canva released its first in-house image generation model, now available to all users with better, more customizable performance at lower cost, according to the company. GitHub expanded its Copilot usage metrics API to capture tools like OpenCode that weren't previously reflected in reports."
+      "es": "",
+      "en": ""
     },
     "ai_general": {
-      "es": "OpenAI y la agencia polaca NASK anunciaron una colaboración centrada en seguridad de IA, protección y investigación técnica para reforzar las salvaguardas y apoyar un ecosistema digital más resiliente.",
-      "en": "OpenAI and Poland's NASK announced a partnership focused on AI safety, security and technical research to strengthen safeguards and support a more resilient digital ecosystem."
+      "es": "",
+      "en": ""
     },
     "tech": {
-      "es": "OpenAI anunció que dejará de permitir que sus modelos frontera accedan a internet durante el entrenamiento, como nueva medida de seguridad tras una serie de incidentes. Apple abrió su programa de dispositivos de investigación de seguridad (SRD) para solicitudes hasta el 30 de octubre de 2026, y 1Password lanzó una función que permite a agentes de IA iniciar sesión en cuentas personales sin exponer las contraseñas.",
-      "en": "OpenAI announced it will stop letting frontier models access the internet during training, a new safety measure following a series of incidents. Apple opened applications for its Security Research Device program through October 30, 2026, and 1Password launched a feature letting AI agents log into personal accounts without exposing passwords."
+      "es": "",
+      "en": ""
     }
   },
   "top_stories": [
     {
-      "id": "evt_019343d8ff5e37fc",
+      "id": "evt_2e8d8980c4b6e67c",
       "title": {
-        "es": "Apple recupera el título de empresa más valiosa del mundo en el día del lanzamiento del iPhone Duo",
-        "en": "Apple reclaims title of world's most valuable company on iPhone Duo launch day"
+        "es": "Apple lanza beta 2 para iPadOS 27.3, watchOS 27.3 y más",
+        "en": "Apple releases beta 2 for iPadOS 27.3, watchOS 27.3, and more"
       },
       "body": {
-        "es": "Apple reclamó el título de empresa más valiosa del mundo el viernes al alcanzar nuevos máximos bursátiles, superando a Nvidia. El repunte coincidió con el lanzamiento del iPhone Duo, lo que sugiere un recibimiento positivo del mercado al nuevo dispositivo. Es un indicador de confianza inversora, no una confirmación de ventas a largo plazo.",
-        "en": "Apple reclaimed the title of world's most valuable company on Friday after reaching new trading highs, overtaking Nvidia. The rally coincided with the iPhone Duo launch, suggesting a positive market reception to the new device. It's a signal of investor confidence, not confirmation of long-term sales performance."
+        "es": "Apple ha lanzado la segunda beta de iPadOS 27.3, watchOS 27.3, visionOS 27.3 y otros sistemas operativos. Esta actualización incluye mejoras en la estabilidad y rendimiento, preparándose para el lanzamiento final en 2027.",
+        "en": "Apple has released beta 2 for iPadOS 27.3, watchOS 27.3, visionOS 27.3, and more. This update includes stability and performance improvements, preparing for the final release in 2027."
       },
-      "newsId": "evt_019343d8ff5e37fc",
-      "storyKey": "evt_019343d8ff5e37fc",
+      "newsId": "evt_2e8d8980c4b6e67c",
+      "storyKey": "evt_2e8d8980c4b6e67c",
       "topic": "apple",
       "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/10/23/apple-overtakes-nvidia-as-most-valuable-company-in-the-world-on-iphone-duo-launch-day",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2024/06/slack-imgs.jpg?quality=82&strip=all&w=1600",
-      "score": 8.1,
-      "publishedAt": "2026-10-23T13:41:59.000Z",
+      "link": "https://9to5mac.com/2026/11/16/apple-releases-beta-2-for-ipados-27-3-watchos-27-3-and-more",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/ios-27-apple-product-devices-lineup-bg.jpg?quality=82&strip=all&w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-11-16T18:11:30.000Z",
       "evidence": [
         {
-          "claim": "Apple reclaimed the title of most valuable company in the world on Friday.",
-          "source": "d631af3bbb0c45ab"
+          "claim": "Apple has released beta 2 for iPadOS 27.3, watchOS 27.3, visionOS 27.3, and more.",
+          "source": "4ffdc32aa23bdc76"
         }
       ],
       "sources": [
         {
           "name": "9to5Mac",
-          "link": "https://9to5mac.com/2026/10/23/apple-overtakes-nvidia-as-most-valuable-company-in-the-world-on-iphone-duo-launch-day"
+          "link": "https://9to5mac.com/2026/11/16/apple-releases-beta-2-for-ipados-27-3-watchos-27-3-and-more"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_77200d6433dd0a5a",
+      "id": "evt_7a187ba490198f2c",
       "title": {
-        "es": "OpenAI dejará de entrenar modelos frontera con acceso a internet",
-        "en": "OpenAI to stop training frontier models with internet access"
+        "es": "StarSling lanza su CI para repositorios de agentes",
+        "en": "StarSling launches CI for agent-volume repos"
       },
       "body": {
-        "es": "OpenAI anunció que ya no permitirá que sus modelos frontera accedan a internet durante el entrenamiento, como nueva medida de seguridad implementada tras una serie de incidentes, según la compañía. El cambio busca reducir riesgos derivados de la exposición del modelo a contenido no controlado durante su formación. Limita la capacidad de los modelos de aprender de datos en tiempo real durante esa fase, aunque no afecta necesariamente al acceso a internet en producción.",
-        "en": "OpenAI said it will no longer allow frontier models to access the internet during training, a new safety measure implemented after a series of incidents, according to the company. The change aims to reduce risks from exposing models to uncontrolled content during training. It limits models' ability to learn from real-time data in that phase, though it doesn't necessarily affect internet access in production."
+        "es": "StarSling ofrece un sistema de integración continua que acelera los flujos de trabajo en repositorios de código, con un promedio de 10x más rápido en tiempo de ejecución y un 70% menos de tiempo de ejecución de runners.",
+        "en": "StarSling offers a continuous integration system that accelerates code repository workflows, with an average 10x speedup in runtime and 70% less runner time."
       },
-      "newsId": "evt_77200d6433dd0a5a",
-      "storyKey": "evt_77200d6433dd0a5a",
-      "topic": "tech",
-      "source": "Engadget",
-      "link": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training",
-      "image": "https://www.engadget.com/img/gallery/openai-says-its-cutting-off-internet-access-for-frontier-model-training/l-intro-1792794862.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-23T22:37:02.000Z",
-      "evidence": [
-        {
-          "claim": "OpenAI will no longer allow frontier models to access the internet during training.",
-          "source": "345d1aaf3cb5dd83"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Engadget",
-          "link": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_894bb8739493ded3",
-      "title": {
-        "es": "Apple abre solicitudes para su programa de dispositivos de investigación de seguridad",
-        "en": "Apple opens applications for its Security Research Device program"
-      },
-      "body": {
-        "es": "Apple está aceptando solicitudes para su Security Research Device Program (SRD) hasta el 30 de octubre de 2026. El SRD es un iPhone especialmente modificado que permite investigar la seguridad de iOS sin tener que eludir sus protecciones, y da acceso a previsualizaciones de software, betas de seguridad y herramientas especiales de investigación. Está pensado exclusivamente para uso en entornos controlados de investigación.",
-        "en": "Apple is accepting applications for its Security Research Device (SRD) Program through October 30, 2026. The SRD is a specially fused iPhone that lets researchers study iOS security without bypassing its protections, granting access to software previews, security betas and special research tooling. It's intended strictly for controlled research settings."
-      },
-      "newsId": "evt_894bb8739493ded3",
-      "storyKey": "evt_894bb8739493ded3",
-      "topic": "tech",
+      "newsId": "evt_7a187ba490198f2c",
+      "storyKey": "evt_7a187ba490198f2c",
+      "topic": "ai_software",
       "source": "Hacker News",
-      "link": "https://security.apple.com/research-device",
-      "image": "https://security.apple.com/assets/image/seo-image.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-24T02:36:38.000Z",
+      "link": "https://starsling.dev",
+      "image": "https://starsling.dev/images/starsling-brand-og.jpg",
+      "score": 8.6,
+      "publishedAt": "2026-11-17T19:01:43.000Z",
       "evidence": [
         {
-          "claim": "Apple is accepting applications for the Apple Security Research Device Program through October 30, 2026.",
-          "source": "21f92d8c3741b56a"
+          "claim": "StarSling's CI runners are 5.87 times faster than GitHub-hosted runners for Mastra's slowest workflow.",
+          "source": "123a810360b328db"
         },
         {
-          "claim": "The Security Research Device (SRD) allows researchers to perform iOS security research without bypassing its security features.",
-          "source": "21f92d8c3741b56a"
+          "claim": "StarSling's agents can achieve an average 10x speedup in wall clock time with 70% less runner time.",
+          "source": "123a810360b328db"
         },
         {
-          "claim": "Participants in the SRD program can access software previews, security beta projects, and special tooling.",
-          "source": "21f92d8c3741b56a"
+          "claim": "StarSling offers a CI challenge where they will give $1,000 if their service cannot save at least 10% on your next CI bill.",
+          "source": "123a810360b328db"
         },
         {
-          "claim": "The SRD is intended for use in a controlled setting for security research only.",
-          "source": "21f92d8c3741b56a"
+          "claim": "StarSling's agents analyze workflows, run logs, and machine telemetry to propose and test optimizations, then ship the winner as a PR with benchmarks evidence.",
+          "source": "123a810360b328db"
         }
       ],
       "sources": [
         {
           "name": "Hacker News",
-          "link": "https://security.apple.com/research-device"
+          "link": "https://starsling.dev"
+        },
+        {
+          "name": "Hacker News",
+          "link": "https://news.ycombinator.com/item?id=50536468"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_b00bbf86ab69810a",
+      "id": "evt_2e732c53fcb466b7",
       "title": {
-        "es": "1Password permite que agentes de IA inicien sesión sin ver tu contraseña",
-        "en": "1Password lets AI agents log in on your behalf without seeing your password"
+        "es": "Cloudflare WAF protege contra Java4Shell (CVE-2026-114938)",
+        "en": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)"
       },
       "body": {
-        "es": "1Password lanzó una función que permite a agentes de IA iniciar sesión en cuentas personales de los usuarios mientras protege las credenciales privadas que aseguran esas cuentas. Es una respuesta al creciente uso de agentes autónomos que necesitan operar cuentas en nombre del usuario. La protección de credenciales limita el riesgo de exposición directa de contraseñas a los sistemas de IA.",
-        "en": "1Password launched a feature allowing AI agents to log into a customer's personal accounts while protecting the private credentials that secure those accounts. It responds to growing use of autonomous agents that need to operate accounts on a user's behalf. Credential protection limits the risk of passwords being directly exposed to AI systems."
+        "es": "Cloudflare ha lanzado reglas en su Managed Ruleset para detectar patrones de entrada Base64 malformados asociados con la vulnerabilidad Java4Shell, reduciendo la exposición mientras se aplican parches a los sistemas afectados.",
+        "en": "Cloudflare has released new rules in its Managed Ruleset to detect malformed Base64 input patterns associated with the Java4Shell vulnerability, reducing exposure while patches are applied to affected systems."
       },
-      "newsId": "evt_b00bbf86ab69810a",
-      "storyKey": "evt_b00bbf86ab69810a",
+      "newsId": "evt_2e732c53fcb466b7",
+      "storyKey": "evt_2e732c53fcb466b7",
       "topic": "tech",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/AI-agents.jpg?resize=1200,675",
-      "score": 7.65,
-      "publishedAt": "2026-10-22T19:07:09.000Z",
+      "source": "Cloudflare Blog",
+      "link": "https://blog.cloudflare.com/java4shell-waf-protection",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7QF29ZF72GYSWMY1N1JYEF1.01M7QF2B7Y1RATAK2QBPTQ100E.png",
+      "score": 8.35,
+      "publishedAt": "2026-11-18T14:52:10.000Z",
       "evidence": [
         {
-          "claim": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-          "source": "5e088eae8d1e0176"
+          "claim": "Java4Shell (CVE-2026-114938) is a memory-corruption vulnerability in the Base64 decoder of OpenJDK.",
+          "source": "80776c0cbfa0ba9e"
+        },
+        {
+          "claim": "The vulnerability allows remote code execution by overwriting memory next to the decoded output.",
+          "source": "80776c0cbfa0ba9e"
+        },
+        {
+          "claim": "Cloudflare has released a new set of rules in the Cloudflare Managed Ruleset to detect malformed Base64 input patterns associated with this vulnerability.",
+          "source": "80776c0cbfa0ba9e"
+        },
+        {
+          "claim": "The vulnerability affects Java runtimes OpenJDK 17.0.6 or newer, including distributions built from OpenJDK.",
+          "source": "80776c0cbfa0ba9e"
+        },
+        {
+          "claim": "Cloudflare WAF can reduce exposure to the vulnerability while Java runtimes are being patched.",
+          "source": "80776c0cbfa0ba9e"
         }
       ],
       "sources": [
         {
-          "name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password"
+          "name": "Cloudflare Blog",
+          "link": "https://blog.cloudflare.com/java4shell-waf-protection"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_5c92b6cd4353e61b",
+      "id": "evt_0a5edb61d98b67e7",
       "title": {
-        "es": "Canva lanza su primer modelo de generación de imágenes",
-        "en": "Canva releases its first image generation model"
+        "es": "Actualizaciones fiscales para apps, compras in-app y suscripciones",
+        "en": "Tax and price updates for apps, In-App Purchases, and subscriptions"
       },
       "body": {
-        "es": "Canva lanzó su primer modelo propio de generación de imágenes, disponible ya para todos los usuarios. La compañía afirma que ofrece mejor rendimiento, más opciones de personalización y menor coste, aunque estas son afirmaciones del fabricante aún no verificadas de forma independiente. Marca la entrada de Canva en el desarrollo de modelos de IA generativa propios frente a depender de terceros.",
-        "en": "Canva released its first in-house image generation model, now available to all users. The company claims it offers better performance, more customization and lower cost, though these are vendor claims not independently verified. It marks Canva's move into building its own generative AI models rather than relying on third parties."
+        "es": "Apple actualizará sus acuerdos para recoger y remitir impuestos en Botswana y Rwanda, y aplicará impuestos de ventas y uso en California para ciertas categorías de apps a partir de enero de 2027.",
+        "en": "Apple will update its agreements to collect and remit taxes in Botswana and Rwanda, and apply sales and use taxes in California for certain app categories starting January 2027."
       },
-      "newsId": "evt_5c92b6cd4353e61b",
-      "storyKey": "evt_5c92b6cd4353e61b",
-      "topic": "ai_software",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Sample-Outputs.jpeg?resize=1200,675",
+      "newsId": "evt_0a5edb61d98b67e7",
+      "storyKey": "evt_0a5edb61d98b67e7",
+      "topic": "apple",
+      "source": "Apple Developer News",
+      "link": "https://developer.apple.com/news?id=4o5ie73a",
+      "image": "https://developer.apple.com/news/images/og/app-store-og.png",
       "score": 7.65,
-      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "publishedAt": "2026-11-18T00:00:25.000Z",
       "evidence": [
         {
-          "claim": "Canva has released its first image generation model.",
-          "source": "a7668f4445c5781e"
+          "claim": "Apple will collect and remit applicable taxes in Botswana and Rwanda.",
+          "source": "06040d9dc1db3d55"
+        },
+        {
+          "claim": "Effective January 1, 2027, certain categories of apps will be subject to sales and use tax in California.",
+          "source": "06040d9dc1db3d55"
         }
       ],
       "sources": [
         {
-          "name": "TechCrunch",
-          "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model"
+          "name": "Apple Developer News",
+          "link": "https://developer.apple.com/news?id=4o5ie73a"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_7a058014bae4bf1c",
+      "id": "evt_011d7573ea60f52f",
       "title": {
-        "es": "El fabricante del robot Eiliko contrata una firma de seguridad externa tras informe sobre fallos de seguridad",
-        "en": "Eiliko maker hires outside security firm after report on insecure robots"
+        "es": "Nvidia deja de vender chips AI a China",
+        "en": "Nvidia isn’t selling any more AI chips to China"
       },
       "body": {
-        "es": "Energize Lab, fabricante del juguete robótico Eiliko, anunció que contratará una firma de seguridad independiente para revisar todos sus sistemas tras un reportaje de The Verge sobre vulnerabilidades. La empresa cerró el acceso externo a sus sistemas backend, rotó credenciales y desactivó la interfaz que permitía modificar remotamente las respuestas del robot. También retiró las funciones de memoria a largo plazo y avatares personalizados hasta confirmar que son seguras, y prometió eliminar los datos de conversaciones y perfiles almacenados.",
-        "en": "Energize Lab, maker of the Eiliko robot toy, said it will hire an independent security firm to review all its systems following a Verge report on vulnerabilities. The company closed external access to its backend systems, rotated credentials, and disabled the interface that allowed remote modification of robot responses. It also took long-term memory and custom avatar features offline until confirmed secure, and promised to delete stored conversation records and profiles."
+        "es": "Nvidia ha anunciado que dejará de vender chips Hopper H200 a China, tras haber luchado por la aprobación estadounidense para venderlos anteriormente. Esto se debe a preocupaciones sobre la debida verificación de empresas chinas que manejan los chips.",
+        "en": "Nvidia has announced it will no longer sell Hopper H200 AI chips to China, after previously fighting for US approval to sell them. This is due to concerns about proper vetting of Chinese companies handling the chips."
       },
-      "newsId": "evt_7a058014bae4bf1c",
-      "storyKey": "evt_7a058014bae4bf1c",
+      "newsId": "evt_011d7573ea60f52f",
+      "storyKey": "evt_011d7573ea60f52f",
       "topic": "tech",
       "source": "The Verge",
-      "link": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/eiliko-verge-sean-012.jpg?crop=0%2C3.4689741459833%2C100%2C93.062051708033&quality=90&strip=all&w=1200",
+      "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK083_NVIDIA_C.jpg?crop=0%2C10.732984293194%2C100%2C78.534031413613&quality=90&strip=all&w=1200",
       "score": 7.65,
-      "publishedAt": "2026-10-22T11:00:00.000Z",
+      "publishedAt": "2026-11-18T13:01:05.000Z",
       "evidence": [
         {
-          "claim": "Energize Lab is hiring an independent security firm to review its systems.",
-          "source": "3c07522549d96cd9"
+          "claim": "Nvidia's interim CEO Colette Kress announced the cessation of H200 processor shipments to China during an earnings call.",
+          "source": "dfeb2d013c85d953"
         },
         {
-          "claim": "Energize Lab has closed all external access to its backend systems and disabled the interface that allowed remote modification of robot responses.",
-          "source": "3c07522549d96cd9"
+          "claim": "Nvidia previously fought for US approval to sell H200 chips in China.",
+          "source": "dfeb2d013c85d953"
         },
         {
-          "claim": "Energize Lab has taken the long-term memory and custom avatar features offline and will not return them until the review confirms they are secure.",
-          "source": "3c07522549d96cd9"
+          "claim": "Nvidia's guidance does not include any licensed Hopper data center products for China.",
+          "source": "dfeb2d013c85d953"
         },
         {
-          "claim": "Energize Lab has promised to delete stored conversation records, user profiles, and avatar images.",
-          "source": "3c07522549d96cd9"
-        },
-        {
-          "claim": "Energize Lab acknowledges the issues and promises to earn back trust through actions in the coming weeks.",
-          "source": "3c07522549d96cd9"
+          "claim": "There are concerns about the proper vetting of Chinese companies handling H200 AI chips.",
+          "source": "dfeb2d013c85d953"
         }
       ],
       "sources": [
         {
           "name": "The Verge",
-          "link": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach"
+          "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_2cb7a3cda1f6378f",
+      "id": "evt_49f75c5d32850479",
       "title": {
-        "es": "Hackers desbloquean acceso homebrew en la Switch 2 mediante un exploit userland",
-        "en": "Hackers unlock homebrew access on Switch 2 via userland exploit"
+        "es": "El nuevo Apple TV duplica su memoria, pero las apps no pueden usarla",
+        "en": "El nuevo Apple TV duplica su memoria, pero el sistema no deja que las apps la usen"
       },
       "body": {
-        "es": "Investigadores descubrieron un exploit userland para la Nintendo Switch 2 que se basa en un desbordamiento de enteros (integer overflow) encontrado en el intérprete de SmileBasic. El hallazgo abre la puerta a ejecutar código no autorizado (homebrew) en la consola. Al tratarse de un exploit userland, su alcance y persistencia dependen de parches futuros de Nintendo.",
-        "en": "Researchers found a userland exploit for the Nintendo Switch 2 that relies on an integer overflow discovered in the SmileBasic interpreter. The finding opens the door to running unauthorized homebrew code on the console. Because it's a userland exploit, its scope and persistence depend on future patches from Nintendo."
+        "es": "El nuevo Apple TV 4K tiene 8 GB de RAM (el doble que el modelo anterior), pero las aplicaciones están limitadas a usar solo 2 GB de RAM, y el almacenamiento de 128 GB no puede ser usado por una sola aplicación.",
+        "en": "The new Apple TV 4K has 8 GB of RAM (double the previous model), but apps are limited to using only 2 GB of RAM, and the 128 GB storage cannot be fully utilized by a single app."
       },
-      "newsId": "evt_2cb7a3cda1f6378f",
-      "storyKey": "evt_2cb7a3cda1f6378f",
-      "topic": "tech",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/switch2hack-1152x648-1792704912.png",
+      "newsId": "evt_49f75c5d32850479",
+      "storyKey": "evt_49f75c5d32850479",
+      "topic": "apple",
+      "source": "Applesfera",
+      "link": "https://www.applesfera.com/apple-tv/nuevo-apple-tv-tiene-doble-ram-apps-no-pueden-aprovecharla",
+      "image": "https://i.blogs.es/9e06e4/apple.t/1366_2000.jpeg",
       "score": 7.65,
-      "publishedAt": "2026-10-22T22:25:33.000Z",
+      "publishedAt": "2026-11-16T16:00:00.000Z",
       "evidence": [
         {
-          "claim": "A userland exploit for the Switch 2 relies on an integer overflow in the SmileBasic interpreter.",
-          "source": "1a66ed054d17c9ff"
+          "claim": "The new Apple TV has 8 GB of RAM, double the amount of the previous model.",
+          "source": "6e44cb19fd4e17b7"
+        },
+        {
+          "claim": "Apps on the new Apple TV are limited to using only 2 GB of RAM, the same limit as the previous model.",
+          "source": "6e44cb19fd4e17b7"
+        },
+        {
+          "claim": "The new Apple TV costs 120 euros more than the previous model, which had already increased by 60 euros in June 2026.",
+          "source": "6e44cb19fd4e17b7"
+        },
+        {
+          "claim": "The new Apple TV has 128 GB of storage, but apps can only use up to 4 GB of it.",
+          "source": "6e44cb19fd4e17b7"
+        },
+        {
+          "claim": "Apple TV's software limits the use of the extra RAM and storage, which may be resolved with a future software update.",
+          "source": "6e44cb19fd4e17b7"
         }
       ],
       "sources": [
         {
-          "name": "Ars Technica",
-          "link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games"
+          "name": "Applesfera",
+          "link": "https://www.applesfera.com/apple-tv/nuevo-apple-tv-tiene-doble-ram-apps-no-pueden-aprovecharla"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_7c4b1c7dd478e3ef",
+      "title": {
+        "es": "Producción de pantallas para iPhone 18 y iPhone Air 2 comenzará pronto",
+        "en": "iPhone 18 and iPhone Air 2 Display Production to Begin Soon Ahead of Expected March Launch"
+      },
+      "body": {
+        "es": "Los proveedores de pantallas de Apple están preparándose para comenzar la producción masiva de paneles OLED para el iPhone 18 y iPhone Air 2, con un lanzamiento esperado en marzo de 2027.",
+        "en": "Apple's display suppliers are preparing to begin mass production of OLED panels for the iPhone 18 and iPhone Air 2, with an expected March 2027 launch."
+      },
+      "newsId": "evt_7c4b1c7dd478e3ef",
+      "storyKey": "evt_7c4b1c7dd478e3ef",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/18/iphone-18-iphone-air-2-display-production-begins",
+      "image": "https://images.macrumors.com/article-new/2025/09/iphone-17-ceramic-shield.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-18T11:46:22.000Z",
+      "evidence": [
+        {
+          "claim": "Apple's display suppliers are preparing to begin mass production of OLED panels for the upcoming iPhone Air 2 and iPhone 18.",
+          "source": "fe006a5b542f24dd"
+        },
+        {
+          "claim": "Samsung Display and LG Display are expected to start mass production in late December and early January.",
+          "source": "fe006a5b542f24dd"
+        },
+        {
+          "claim": "The iPhone Air 2 is expected to gain a second rear camera, with an Ultra Wide lens in addition to the Wide lens.",
+          "source": "fe006a5b542f24dd"
+        },
+        {
+          "claim": "Apple is also likely to increase the battery life of the ultra-slim device, reduce the size of the Dynamic Island, and adopt Apple's 2nm A20 chip for speed and efficiency.",
+          "source": "fe006a5b542f24dd"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/11/18/iphone-18-iphone-air-2-display-production-begins"
         }
       ],
       "what_changed": []
@@ -298,149 +346,173 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_adb661241229e8e2",
+      "id": "evt_12a3ceff003595a5",
       "title": {
-        "es": "Suscripciones en volumen para empresas y colegios en Apple",
-        "en": "Apple enables volume subscriptions for businesses and schools"
+        "es": "Ingeniería de inferencia para ingenieros de software",
+        "en": "Inference engineering for software engineers"
       },
       "text": {
-        "es": "Organizaciones e instituciones educativas ya pueden comprar suscripciones de apps en volumen mediante compra multiasiento a través de Apple Business, Apple School Manager y la App Store, gestionando los asientos con sus herramientas de gestión de dispositivos existentes. Las compras grupales en la App Store estarán disponibles a partir de noviembre de 2026.",
-        "en": "Organizations and educational institutions can now purchase app subscriptions in volume through multiseat purchasing via Apple Business, Apple School Manager and the App Store, managing seats with their existing device management tools. Group purchases on the App Store will be available starting November 2026."
+        "es": "Las empresas tecnológicas están reduciendo el gasto en IA al moverse a modelos abiertos, lo que permite mayor control sobre la latencia y la disponibilidad de modelos.",
+        "en": "Tech companies are reducing AI spend by moving to open models, allowing greater control over model latency and availability."
       },
-      "newsId": "evt_adb661241229e8e2",
-      "storyKey": "evt_adb661241229e8e2",
-      "topic": "apple",
-      "source": "Apple Developer News",
-      "link": "https://developer.apple.com/news?id=yfo21auu",
-      "image": "https://devimages-cdn.apple.com/wwdc-services/articles/images/89A63B85-1520-4050-BFEF-15CD0483A16C/2048.jpeg",
-      "score": 7.65,
-      "publishedAt": "2026-10-22T18:00:08.000Z",
-      "evidence": [
-        {
-          "claim": "Organizations and educational institutions can purchase subscriptions to apps in volume with multiseat purchasing.",
-          "source": "1a2cc67c64054f88"
-        },
-        {
-          "claim": "Organizations can purchase the seats they need through a single Apple In-App Purchase.",
-          "source": "1a2cc67c64054f88"
-        },
-        {
-          "claim": "Multiseat purchasing for subscriptions is enabled by default in App Store Connect.",
-          "source": "1a2cc67c64054f88"
-        },
-        {
-          "claim": "Group purchases will be available on the App Store starting in November 2026.",
-          "source": "1a2cc67c64054f88"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Apple Developer News",
-          "link": "https://developer.apple.com/news?id=yfo21auu"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_7bd8351489d8297c",
-      "title": {
-        "es": "La API de métricas de Copilot ahora capta herramientas como OpenCode",
-        "en": "Copilot usage metrics API now captures tools like OpenCode"
-      },
-      "text": {
-        "es": "GitHub actualizó su API de métricas de uso de Copilot para incluir datos de herramientas como OpenCode que antes no se reflejaban en los informes, dando a los equipos una visión más completa del uso real de modelos por parte de sus desarrolladores.",
-        "en": "GitHub updated its Copilot usage metrics API to include data from tools like OpenCode that weren't previously reflected in reports, giving teams a more complete view of their developers' actual model usage."
-      },
-      "newsId": "evt_7bd8351489d8297c",
-      "storyKey": "evt_7bd8351489d8297c",
+      "newsId": "evt_12a3ceff003595a5",
+      "storyKey": "evt_12a3ceff003595a5",
       "topic": "ai_software",
-      "source": "GitHub Changelog",
-      "link": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
-      "image": "https://github.blog/wp-content/uploads/2026/10/682164468-bde58abd-ebed-4a21-983d-e7ea362b9ed5.jpeg",
-      "score": 7.65,
-      "publishedAt": "2026-10-23T23:42:03.000Z",
+      "source": "The Pragmatic Engineer",
+      "link": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+      "image": "https://substackcdn.com/image/fetch/$s_!k1yV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fecea03-44c9-44ef-8f85-fc46e4e4f69a_910x1062.png",
+      "score": 8.65,
+      "publishedAt": "2026-11-17T16:11:23.000Z",
       "evidence": [
         {
-          "claim": "The Copilot usage metrics API now reports model usage from tools like OpenCode.",
-          "source": "6c61d3b20b0612e8"
+          "claim": "Tech companies have reduced AI spend by moving to open models.",
+          "source": "f7ae408ba383df6d"
+        },
+        {
+          "claim": "Inference providers can offer higher reliability guarantees than frontier labs.",
+          "source": "f7ae408ba383df6d"
+        },
+        {
+          "claim": "Inference providers can offer more control over latency and model availability.",
+          "source": "f7ae408ba383df6d"
+        },
+        {
+          "claim": "Fine-tuning a model’s quality is possible with inference providers.",
+          "source": "f7ae408ba383df6d"
         }
       ],
       "sources": [
         {
-          "name": "GitHub Changelog",
-          "link": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode"
+          "name": "The Pragmatic Engineer",
+          "link": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_265c706ce8e8134e",
+      "id": "evt_259ae432d2319390",
       "title": {
-        "es": "Apple lanza una versión actualizada de la release candidate de watchOS 27.2",
-        "en": "Apple seeds updated watchOS 27.2 release candidate"
+        "es": "28 vulnerabilidades cero-day encontradas en dos días",
+        "en": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?"
       },
       "text": {
-        "es": "Apple publicó una versión actualizada de la release candidate de watchOS 27.2, cuatro días después de la primera RC. La actualización incluye la función Excluded Apps, que permite controlar qué apps pueden acceder Siri, Search y las sugerencias, además de otras mejoras, correcciones de errores y actualizaciones de seguridad.",
-        "en": "Apple released an updated watchOS 27.2 release candidate, four days after the first RC. The update includes an Excluded Apps feature letting users control which apps Siri, Search and suggestions can access, plus other features, bug fixes and security updates."
+        "es": "VicOne utilizó IA para encontrar 28 vulnerabilidades cero-day en herramientas de IA física, lo que plantea preguntas sobre si la seguridad robótica está manteniendo el ritmo.",
+        "en": "VicOne used AI to find 28 zero-day vulnerabilities in Physical AI tools, raising questions about whether robotics security is keeping pace."
       },
-      "newsId": "evt_265c706ce8e8134e",
-      "storyKey": "evt_265c706ce8e8134e",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/10/23/apple-seeds-watchos-27-2-rc-2",
-      "image": "https://images.macrumors.com/article-new/2026/06/watchos-27.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-10-23T19:28:10.000Z",
+      "newsId": "evt_259ae432d2319390",
+      "storyKey": "evt_259ae432d2319390",
+      "topic": "ai_software",
+      "source": "IEEE Spectrum AI",
+      "link": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
+      "image": "https://spectrum.ieee.org/media-library/humanoid-and-dog-robots-watch-a-massive-swirling-storm-over-a-modern-city-walkway.jpg?coordinates=0%2C224%2C0%2C225&height=600&id=68562173&width=1200",
+      "score": 8.4,
+      "publishedAt": "2026-11-16T10:00:01.000Z",
       "evidence": [
         {
-          "claim": "Apple has seeded an updated version of watchOS 27.2 release candidate.",
-          "source": "231110f07d103cfc"
+          "claim": "VicOne used AI to find 28 zero-day vulnerabilities in Physical AI tools.",
+          "source": "fa34a9ceb0a80332"
+        }
+      ],
+      "sources": [
+        {
+          "name": "IEEE Spectrum AI",
+          "link": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_6a53e5f37a4b423b",
+      "title": {
+        "es": "Startup afirma que su 'nariz AI' es tan buena como la humana",
+        "en": "This smell startup says its AI nose is as good as a human’s"
+      },
+      "text": {
+        "es": "Osmo afirma que su modelo de IA ha alcanzado una inteligencia olfativa humana en los últimos meses, y ya se está utilizando en la industria de fragancias para diseñar nuevos olores.",
+        "en": "Osmo claims its AI model has achieved human-level olfactory intelligence in the last few months, and is already being used in the fragrance industry to design new scents."
+      },
+      "newsId": "evt_6a53e5f37a4b423b",
+      "storyKey": "evt_6a53e5f37a4b423b",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/osmo-nose2.jpg?resize=1200,600",
+      "score": 6.4,
+      "publishedAt": "2026-11-18T10:20:30.000Z",
+      "evidence": [
+        {
+          "claim": "Osmo's AI model has achieved human-level olfactory intelligence in the last few months.",
+          "source": "0588a1b8804732a4"
         },
         {
-          "claim": "Excluded Apps allows users to control which apps Siri, Search, and suggestions can access.",
-          "source": "231110f07d103cfc"
+          "claim": "Osmo's technology is already being used in the fragrance industry to help brands design and manufacture new scents.",
+          "source": "0588a1b8804732a4"
         },
         {
-          "claim": "The update includes other features, bug fixes, and security updates.",
-          "source": "231110f07d103cfc"
+          "claim": "Osmo's AI model outperformed in-house perfumers at one of the world's largest consumer goods companies last month.",
+          "source": "0588a1b8804732a4"
+        },
+        {
+          "claim": "Osmo's technology has been used to create retail fragrances, including for giants like Procter & Gamble.",
+          "source": "0588a1b8804732a4"
+        },
+        {
+          "claim": "Osmo's technology has identified eight substances that were more repellent than DEET for the Gates Foundation.",
+          "source": "0588a1b8804732a4"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_15c5b0446171825e",
+      "title": {
+        "es": "MacPaw lanza su app de ciberseguridad Moonlock para iPhone",
+        "en": "MacPaw's Moonlock Cybersecurity App Launches for iPhone"
+      },
+      "text": {
+        "es": "MacPaw ha lanzado su app Moonlock para iPhone, que incluye características como Scam Detect para verificar mensajes sospechosos y Security Score para evaluar la configuración de seguridad del dispositivo.",
+        "en": "MacPaw has launched its Moonlock cybersecurity app for iPhone, featuring Scam Detect to check suspicious messages and Security Score to assess device security setup."
+      },
+      "newsId": "evt_15c5b0446171825e",
+      "storyKey": "evt_15c5b0446171825e",
+      "topic": "tech",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/18/macpaw-moonlock-cybersecurity-app-iphone",
+      "image": "https://images.macrumors.com/article-new/2026/11/Moonlock-macpaw.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-18T13:00:05.000Z",
+      "evidence": [
+        {
+          "claim": "MacPaw has launched its Moonlock cybersecurity app for the iPhone.",
+          "source": "c8b43f06bc9bc970"
+        },
+        {
+          "claim": "Moonlock includes a feature called Scam Detect that can check suspicious messages for signs of phishing.",
+          "source": "c8b43f06bc9bc970"
+        },
+        {
+          "claim": "Safe SMS is an opt-in feature that automatically filters out scam texts, with a record of what was caught and why.",
+          "source": "c8b43f06bc9bc970"
+        },
+        {
+          "claim": "Security Score provides a score from 0 to 100 that reflects the iPhone's security setup, and gives users recommendations on how they can improve it.",
+          "source": "c8b43f06bc9bc970"
+        },
+        {
+          "claim": "Email Breach History allows users to check whether their email address has turned up in a data breach.",
+          "source": "c8b43f06bc9bc970"
         }
       ],
       "sources": [
         {
           "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/10/23/apple-seeds-watchos-27-2-rc-2"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_3ffbdf8d540dd011",
-      "title": {
-        "es": "OpenAI y NASK de Polonia se asocian en seguridad de IA",
-        "en": "OpenAI and Poland's NASK partner on AI safety"
-      },
-      "text": {
-        "es": "OpenAI y la agencia polaca NASK anunciaron una colaboración en seguridad, protección y investigación técnica de IA, con el objetivo declarado de reforzar las salvaguardas y apoyar un ecosistema digital más resiliente.",
-        "en": "OpenAI and Poland's NASK announced a collaboration on AI safety, security and technical research, with a stated goal of strengthening safeguards and supporting a more resilient digital ecosystem."
-      },
-      "newsId": "evt_3ffbdf8d540dd011",
-      "storyKey": "evt_3ffbdf8d540dd011",
-      "topic": "ai_general",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "image": null,
-      "score": 7.65,
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "evidence": [
-        {
-          "claim": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research.",
-          "source": "554dcd99f15681c3"
-        }
-      ],
-      "sources": [
-        {
-          "name": "OpenAI",
-          "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+          "link": "https://www.macrumors.com/2026/11/18/macpaw-moonlock-cybersecurity-app-iphone"
         }
       ],
       "what_changed": []
@@ -448,76 +520,97 @@
   ],
   "trending_repos": [
     {
-      "id": "unslothai/unsloth",
-      "repoKey": "unslothai/unsloth",
-      "name": "unsloth",
-      "full_name": "unslothai/unsloth",
-      "link": "https://github.com/unslothai/unsloth",
-      "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+      "id": "ccch1mneyyy/dsh-Go",
+      "repoKey": "ccch1mneyyy/dsh-Go",
+      "name": "dsh-Go",
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "link": "https://github.com/ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "language": "Dart",
+      "stars": 25971,
+      "stars_today": null,
+      "stars_per_day_estimate": 1290.8927392481921,
+      "trend_basis": "normalized_21.6h",
+      "trend_score": 13.322151402468888,
+      "default_branch": "main",
+      "created_at": "2026-10-25T08:09:52Z",
+      "pushed_at": "2026-11-17T21:26:37Z",
+      "why_it_matters": {
+        "es": "dsh-go permite ejecutar DeepSeek Harness en el teléfono, con entorno Linux integrado y control de pantalla, ideal para desarrolladores que quieren usar IA en dispositivos móviles.",
+        "en": "dsh-go allows running DeepSeek Harness on your phone with integrated Linux environment and screen control, ideal for developers wanting to use AI on mobile devices."
+      }
+    },
+    {
+      "id": "yetone/magpie",
+      "repoKey": "yetone/magpie",
+      "name": "magpie",
+      "full_name": "yetone/magpie",
+      "link": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "language": "Go",
+      "stars": 38085,
+      "stars_today": null,
+      "stars_per_day_estimate": 581.4785597693174,
+      "trend_basis": "normalized_47.9h",
+      "trend_score": 12.184080849871556,
+      "default_branch": "main",
+      "created_at": "2026-09-23T16:22:35Z",
+      "pushed_at": "2026-11-17T22:46:49Z",
+      "why_it_matters": {
+        "es": "Magpie es un gestor de modelos de IA que permite cambiar entre diferentes modelos desde la barra de menú, ofreciendo una interfaz unificada para múltiples proveedores de IA.",
+        "en": "Magpie is an AI model manager that allows switching between different models from the menu bar, offering a unified interface for multiple AI providers."
+      }
+    },
+    {
+      "id": "paperclipai/paperclip",
+      "repoKey": "paperclipai/paperclip",
+      "name": "paperclip",
+      "full_name": "paperclipai/paperclip",
+      "link": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 114564,
+      "stars_today": null,
+      "stars_per_day_estimate": 216.25780425549613,
+      "trend_basis": "normalized_21.6h",
+      "trend_score": 10.762536219487348,
+      "default_branch": "master",
+      "created_at": "2026-03-02T15:01:51Z",
+      "pushed_at": "2026-11-17T22:55:50Z",
+      "why_it_matters": {
+        "es": "Paperclip es una aplicación de código abierto para gestionar agentes de IA en el trabajo, permitiendo coordinar múltiples agentes hacia metas comunes con un panel de control centralizado.",
+        "en": "Paperclip is an open-source app for managing AI agents at work, allowing coordination of multiple agents toward common goals with a centralized dashboard."
+      }
+    },
+    {
+      "id": "modelflare-ai/AnyModelBot",
+      "repoKey": "modelflare-ai/AnyModelBot",
+      "name": "AnyModelBot",
+      "full_name": "modelflare-ai/AnyModelBot",
+      "link": "https://github.com/modelflare-ai/AnyModelBot",
+      "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
       "language": "Python",
-      "stars": 78483,
+      "stars": 4435,
       "stars_today": null,
-      "stars_per_day_estimate": 52.21139953671149,
-      "trend_basis": "normalized_83.7h",
-      "trend_score": 8.733137927668169,
-      "default_branch": "main",
-      "created_at": "2023-11-29T16:50:09Z",
-      "pushed_at": "2026-10-23T22:12:12Z",
+      "stars_per_day_estimate": 141.95384074206925,
+      "trend_basis": "normalized_21.6h",
+      "trend_score": 9.903210006349703,
+      "default_branch": "master",
+      "created_at": "2026-10-27T08:51:18Z",
+      "pushed_at": "2026-11-16T16:16:28Z",
       "why_it_matters": {
-        "es": "Unsloth lanzó una app de escritorio nativa para ejecutar y entrenar LLMs y modelos de difusión localmente, con soporte para GGUF, MLX y modelos como Qwen3.8, DeepSeek-V4.1 y Gemma 4, además de integración con Claude Code, Codex y MCP, útil para desarrolladores que quieren correr modelos sin depender de la nube.",
-        "en": "Unsloth released a native desktop app to run and train LLMs and diffusion models locally, supporting GGUF, MLX and models like Qwen3.8, DeepSeek-V4.1 and Gemma 4, plus integration with Claude Code, Codex and MCP—useful for developers who want to run models without relying on the cloud."
-      }
-    },
-    {
-      "id": "opensec-git/Pi-Bolt",
-      "repoKey": "opensec-git/Pi-Bolt",
-      "name": "Pi-Bolt",
-      "full_name": "opensec-git/Pi-Bolt",
-      "link": "https://github.com/opensec-git/Pi-Bolt",
-      "description": "⚡ Pi, the coding agent, compiled ahead of time to one native executable. 10× faster to start, 7× less CPU and 4.5× less memory than Pi on Node. Linux, macOS, Windows, ARM64 and Android (Termux).",
-      "language": "TypeScript",
-      "stars": 448,
-      "stars_today": null,
-      "stars_per_day_estimate": 30.34074654839179,
-      "trend_basis": "normalized_48.3h",
-      "trend_score": 7.959310179998487,
-      "default_branch": "pi-bolt",
-      "created_at": "2026-10-02T18:35:24Z",
-      "pushed_at": "2026-10-23T20:59:15Z",
-      "why_it_matters": {
-        "es": "Pi-Bolt compila el agente de código Pi a un ejecutable nativo, logrando según el proyecto hasta 10 veces un arranque más rápido, 7 veces menos uso de CPU y 4.5 veces menos memoria que la versión sobre Node, manteniendo compatibilidad total con comandos, sesiones y extensiones existentes.",
-        "en": "Pi-Bolt compiles the Pi coding agent ahead of time into a native executable, claiming up to 10x faster startup, 7x less CPU usage and 4.5x less memory than the Node version, while maintaining full compatibility with existing commands, sessions and extensions."
-      }
-    },
-    {
-      "id": "heygen-com/hyperframes",
-      "repoKey": "heygen-com/hyperframes",
-      "name": "hyperframes",
-      "full_name": "heygen-com/hyperframes",
-      "link": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "stars": 70750,
-      "stars_today": null,
-      "stars_per_day_estimate": 792.3411352719365,
-      "trend_basis": "normalized_48.3h",
-      "trend_score": 12.63165628846599,
-      "default_branch": "main",
-      "created_at": "2026-03-10T01:51:06Z",
-      "pushed_at": "2026-10-23T22:14:58Z",
-      "why_it_matters": {
-        "es": "HyperFrames es un framework de código abierto que convierte HTML, CSS y animaciones en videos MP4 deterministas, pensado para usarse localmente o desde agentes de codificación de IA como Claude Code, Codex o Cursor mediante skills instalables.",
-        "en": "HyperFrames is an open-source framework that turns HTML, CSS and animations into deterministic MP4 videos, designed for local use or from AI coding agents like Claude Code, Codex or Cursor via installable skills."
+        "es": "AnyModelBot es un bot de IA local que permite usar cualquier modelo de IA en cualquier aplicación, con soporte para múltiples proveedores y pago por uso.",
+        "en": "AnyModelBot is a local AI bot that allows using any AI model in any application, with support for multiple providers and pay-per-use pricing."
       }
     }
   ],
   "developer_signals": [],
   "editorial_stats": {
     "topics": {
-      "apple": 1,
+      "apple": 4,
       "ai_software": 1,
       "ai_general": 0,
-      "tech": 5
+      "tech": 2
     }
   }
 }
