@@ -1,10 +1,10 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-11-18",
-  "date": "2026-11-18",
+  "edition_id": "wmt-2026-11-19",
+  "date": "2026-11-19",
   "daily_summary": {
-    "es": "Resumen diario de noticias tecnológicas y de IA.",
-    "en": "Daily summary of tech and AI news."
+    "es": "Resumen diario de noticias tecnológicas y de IA relevantes para ingenieros de iOS/Swift/AI.",
+    "en": "Daily summary of relevant tech and AI news for iOS/Swift/AI engineers. (Note: This is a placeholder; actual content will be generated based on the selected entries.)"
   },
   "topic_summaries": {
     "apple": {
@@ -44,301 +44,233 @@
   },
   "top_stories": [
     {
-      "id": "evt_2e8d8980c4b6e67c",
+      "id": "evt_55760ee812e41a82",
       "title": {
-        "es": "Apple lanza beta 2 para iPadOS 27.3, watchOS 27.3 y más",
-        "en": "Apple releases beta 2 for iPadOS 27.3, watchOS 27.3, and more"
+        "es": "Google lanza Gemini 4 Neon con calidad Carbon a velocidades Flash, disponible para AI Pro",
+        "en": "Google launches Gemini 4 Neon with Carbon quality at Flash speeds, live for AI Pro"
       },
       "body": {
-        "es": "Apple ha lanzado la segunda beta de iPadOS 27.3, watchOS 27.3, visionOS 27.3 y otros sistemas operativos. Esta actualización incluye mejoras en la estabilidad y rendimiento, preparándose para el lanzamiento final en 2027.",
-        "en": "Apple has released beta 2 for iPadOS 27.3, watchOS 27.3, visionOS 27.3, and more. This update includes stability and performance improvements, preparing for the final release in 2027."
+        "es": "Google ha lanzado Gemini 4 Neon, una versión optimizada para velocidad y calidad, disponible para usuarios de AI Pro. La versión Carbon ofrece un equilibrio entre rendimiento y eficiencia energética.",
+        "en": "Google has launched Gemini 4 Neon, an optimized version for speed and quality, available for AI Pro users. The Carbon version offers a balance between performance and energy efficiency."
       },
-      "newsId": "evt_2e8d8980c4b6e67c",
-      "storyKey": "evt_2e8d8980c4b6e67c",
-      "topic": "apple",
+      "newsId": "evt_55760ee812e41a82",
+      "storyKey": "evt_55760ee812e41a82",
+      "topic": "ai_software",
       "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/11/16/apple-releases-beta-2-for-ipados-27-3-watchos-27-3-and-more",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/ios-27-apple-product-devices-lineup-bg.jpg?quality=82&strip=all&w=1600",
-      "score": 7.65,
-      "publishedAt": "2026-11-16T18:11:30.000Z",
+      "link": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/gemini-4-neon-cover.webp?w=1600",
+      "score": 8.35,
+      "publishedAt": "2026-11-18T21:58:36.000Z",
       "evidence": [
         {
-          "claim": "Apple has released beta 2 for iPadOS 27.3, watchOS 27.3, visionOS 27.3, and more.",
-          "source": "4ffdc32aa23bdc76"
+          "claim": "Google has released Gemini 4 Neon.",
+          "source": "06ef164fd1a460d7"
         }
       ],
       "sources": [
         {
           "name": "9to5Mac",
-          "link": "https://9to5mac.com/2026/11/16/apple-releases-beta-2-for-ipados-27-3-watchos-27-3-and-more"
+          "link": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_7a187ba490198f2c",
+      "id": "evt_32d62ce5b65c3fdb",
       "title": {
-        "es": "StarSling lanza su CI para repositorios de agentes",
-        "en": "StarSling launches CI for agent-volume repos"
+        "es": "Owning an Apple Home: Bye bye SwitchBot",
+        "en": "Owning an Apple Home: Bye bye SwitchBot"
       },
       "body": {
-        "es": "StarSling ofrece un sistema de integración continua que acelera los flujos de trabajo en repositorios de código, con un promedio de 10x más rápido en tiempo de ejecución y un 70% menos de tiempo de ejecución de runners.",
-        "en": "StarSling offers a continuous integration system that accelerates code repository workflows, with an average 10x speedup in runtime and 70% less runner time."
+        "es": "El autor ha eliminado todos los productos SwitchBot de su configuración de Apple Home debido a problemas de integración y notificaciones incorrectas que no reflejaban el estado real de la puerta.",
+        "en": "The author has removed all SwitchBot products from their Apple Home setup due to integration issues and incorrect notifications that didn't reflect the actual door status."
       },
-      "newsId": "evt_7a187ba490198f2c",
-      "storyKey": "evt_7a187ba490198f2c",
-      "topic": "ai_software",
+      "newsId": "evt_32d62ce5b65c3fdb",
+      "storyKey": "evt_32d62ce5b65c3fdb",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/11/19/owning-an-apple-home-bye-bye-switchbot",
+      "image": "https://media.appleinsider.com/gallery/69896-147305-SwitchBot-2-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-19T01:06:21.000Z",
+      "evidence": [
+        {
+          "claim": "The author has removed all SwitchBot products from their Apple Home setup.",
+          "source": "8dbfc444cb639a96"
+        },
+        {
+          "claim": "SwitchBot products showed up as a lock instead of a garage door in Apple Home.",
+          "source": "8dbfc444cb639a96"
+        },
+        {
+          "claim": "The author experienced frequent notifications from the Lock Vision Pro that did not reflect the actual door status.",
+          "source": "8dbfc444cb639a96"
+        },
+        {
+          "claim": "The author plans to write a story about third-party Apple Home products that bridge the gap between third and second-party devices.",
+          "source": "8dbfc444cb639a96"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/11/19/owning-an-apple-home-bye-bye-switchbot"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_4c3ec6f4014b99e8",
+      "title": {
+        "es": "Launch HN: Maritime (YC F26) – Una nube gestionada para agentes de IA en producción",
+        "en": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents"
+      },
+      "body": {
+        "es": "Maritime ofrece una nube gestionada para agentes de IA en producción, con costos de $1 por mes para un agente de 2GB de RAM, incluyendo gestión de ciclo de vida y entornos personalizables.",
+        "en": "Maritime offers a managed cloud for production AI agents, with costs of $1 per month for a 2GB RAM agent, including lifecycle management and customizable environments."
+      },
+      "newsId": "evt_4c3ec6f4014b99e8",
+      "storyKey": "evt_4c3ec6f4014b99e8",
+      "topic": "tech",
       "source": "Hacker News",
-      "link": "https://starsling.dev",
-      "image": "https://starsling.dev/images/starsling-brand-og.jpg",
+      "link": "https://news.ycombinator.com/item?id=50549188",
+      "image": null,
       "score": 8.6,
-      "publishedAt": "2026-11-17T19:01:43.000Z",
+      "publishedAt": "2026-11-18T17:26:28.000Z",
       "evidence": [
         {
-          "claim": "StarSling's CI runners are 5.87 times faster than GitHub-hosted runners for Mastra's slowest workflow.",
-          "source": "123a810360b328db"
+          "claim": "Maritime is a managed cloud for production AI agents that handles lifecycle management and custom environments.",
+          "source": "6cadc23c9eb274e0"
         },
         {
-          "claim": "StarSling's agents can achieve an average 10x speedup in wall clock time with 70% less runner time.",
-          "source": "123a810360b328db"
+          "claim": "Maritime costs $1 for a 2gb RAM agent per month with additional resources available as needed.",
+          "source": "6cadc23c9eb274e0"
         },
         {
-          "claim": "StarSling offers a CI challenge where they will give $1,000 if their service cannot save at least 10% on your next CI bill.",
-          "source": "123a810360b328db"
-        },
-        {
-          "claim": "StarSling's agents analyze workflows, run logs, and machine telemetry to propose and test optimizations, then ship the winner as a PR with benchmarks evidence.",
-          "source": "123a810360b328db"
+          "claim": "Maritime's approach is different from sandbox providers as it gives each agent its own isolated, persistent microVM and a configurable environment.",
+          "source": "6cadc23c9eb274e0"
         }
       ],
       "sources": [
         {
           "name": "Hacker News",
-          "link": "https://starsling.dev"
-        },
-        {
-          "name": "Hacker News",
-          "link": "https://news.ycombinator.com/item?id=50536468"
+          "link": "https://news.ycombinator.com/item?id=50549188"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_2e732c53fcb466b7",
+      "id": "evt_4dcd653b0ac1316b",
       "title": {
-        "es": "Cloudflare WAF protege contra Java4Shell (CVE-2026-114938)",
-        "en": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)"
+        "es": "Apple lanza actualización HomeView 27.2.1, aquí están las novedades",
+        "en": "Apple releases HomeView 27.2.1 update, here’s what’s new"
       },
       "body": {
-        "es": "Cloudflare ha lanzado reglas en su Managed Ruleset para detectar patrones de entrada Base64 malformados asociados con la vulnerabilidad Java4Shell, reduciendo la exposición mientras se aplican parches a los sistemas afectados.",
-        "en": "Cloudflare has released new rules in its Managed Ruleset to detect malformed Base64 input patterns associated with the Java4Shell vulnerability, reducing exposure while patches are applied to affected systems."
+        "es": "Apple ha lanzado la primera actualización de software post-lanzamiento para HomeView, versión 27.2.1, que incluye varios correcciones de errores.",
+        "en": "Apple has released the first post-launch software update for HomeView, version 27.2.1, which includes several bug fixes."
       },
-      "newsId": "evt_2e732c53fcb466b7",
-      "storyKey": "evt_2e732c53fcb466b7",
-      "topic": "tech",
-      "source": "Cloudflare Blog",
-      "link": "https://blog.cloudflare.com/java4shell-waf-protection",
-      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7QF29ZF72GYSWMY1N1JYEF1.01M7QF2B7Y1RATAK2QBPTQ100E.png",
-      "score": 8.35,
-      "publishedAt": "2026-11-18T14:52:10.000Z",
-      "evidence": [
-        {
-          "claim": "Java4Shell (CVE-2026-114938) is a memory-corruption vulnerability in the Base64 decoder of OpenJDK.",
-          "source": "80776c0cbfa0ba9e"
-        },
-        {
-          "claim": "The vulnerability allows remote code execution by overwriting memory next to the decoded output.",
-          "source": "80776c0cbfa0ba9e"
-        },
-        {
-          "claim": "Cloudflare has released a new set of rules in the Cloudflare Managed Ruleset to detect malformed Base64 input patterns associated with this vulnerability.",
-          "source": "80776c0cbfa0ba9e"
-        },
-        {
-          "claim": "The vulnerability affects Java runtimes OpenJDK 17.0.6 or newer, including distributions built from OpenJDK.",
-          "source": "80776c0cbfa0ba9e"
-        },
-        {
-          "claim": "Cloudflare WAF can reduce exposure to the vulnerability while Java runtimes are being patched.",
-          "source": "80776c0cbfa0ba9e"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Cloudflare Blog",
-          "link": "https://blog.cloudflare.com/java4shell-waf-protection"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_0a5edb61d98b67e7",
-      "title": {
-        "es": "Actualizaciones fiscales para apps, compras in-app y suscripciones",
-        "en": "Tax and price updates for apps, In-App Purchases, and subscriptions"
-      },
-      "body": {
-        "es": "Apple actualizará sus acuerdos para recoger y remitir impuestos en Botswana y Rwanda, y aplicará impuestos de ventas y uso en California para ciertas categorías de apps a partir de enero de 2027.",
-        "en": "Apple will update its agreements to collect and remit taxes in Botswana and Rwanda, and apply sales and use taxes in California for certain app categories starting January 2027."
-      },
-      "newsId": "evt_0a5edb61d98b67e7",
-      "storyKey": "evt_0a5edb61d98b67e7",
+      "newsId": "evt_4dcd653b0ac1316b",
+      "storyKey": "evt_4dcd653b0ac1316b",
       "topic": "apple",
-      "source": "Apple Developer News",
-      "link": "https://developer.apple.com/news?id=4o5ie73a",
-      "image": "https://developer.apple.com/news/images/og/app-store-og.png",
-      "score": 7.65,
-      "publishedAt": "2026-11-18T00:00:25.000Z",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/11/18/apple-releases-new-homeview-27-2-1-software-update",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/homeview.jpg?quality=82&strip=all&w=1600",
+      "score": 6.050000000000001,
+      "publishedAt": "2026-11-18T18:53:35.000Z",
       "evidence": [
         {
-          "claim": "Apple will collect and remit applicable taxes in Botswana and Rwanda.",
-          "source": "06040d9dc1db3d55"
-        },
-        {
-          "claim": "Effective January 1, 2027, certain categories of apps will be subject to sales and use tax in California.",
-          "source": "06040d9dc1db3d55"
+          "claim": "Apple has released the first post-launch software update for HomeView version 27.2.1.",
+          "source": "f6ff7a76af5edca6"
         }
       ],
       "sources": [
         {
-          "name": "Apple Developer News",
-          "link": "https://developer.apple.com/news?id=4o5ie73a"
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/11/18/apple-releases-new-homeview-27-2-1-software-update"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_011d7573ea60f52f",
+      "id": "evt_31c69100bfafb9e2",
       "title": {
-        "es": "Nvidia deja de vender chips AI a China",
-        "en": "Nvidia isn’t selling any more AI chips to China"
+        "es": "El Índice de Hype de IA: La IA está en todas partes",
+        "en": "The AI Hype Index: AI is everywhere"
       },
       "body": {
-        "es": "Nvidia ha anunciado que dejará de vender chips Hopper H200 a China, tras haber luchado por la aprobación estadounidense para venderlos anteriormente. Esto se debe a preocupaciones sobre la debida verificación de empresas chinas que manejan los chips.",
-        "en": "Nvidia has announced it will no longer sell Hopper H200 AI chips to China, after previously fighting for US approval to sell them. This is due to concerns about proper vetting of Chinese companies handling the chips."
+        "es": "El artículo examina el exceso de hiperbólicas sobre la IA, destacando que los sistemas de IA aún no aprovechan la maquinaria que permitió la victoria de AlphaGo en Go.",
+        "en": "The article examines the hype around AI, highlighting that AI systems still don't tap into the machinery that enabled AlphaGo's victory in Go."
       },
-      "newsId": "evt_011d7573ea60f52f",
-      "storyKey": "evt_011d7573ea60f52f",
-      "topic": "tech",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK083_NVIDIA_C.jpg?crop=0%2C10.732984293194%2C100%2C78.534031413613&quality=90&strip=all&w=1200",
-      "score": 7.65,
-      "publishedAt": "2026-11-18T13:01:05.000Z",
+      "newsId": "evt_31c69100bfafb9e2",
+      "storyKey": "evt_31c69100bfafb9e2",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/11-Hype-thumb2.jpg?resize=1200,600",
+      "score": 7.15,
+      "publishedAt": "2026-11-18T14:42:44.000Z",
       "evidence": [
         {
-          "claim": "Nvidia's interim CEO Colette Kress announced the cessation of H200 processor shipments to China during an earnings call.",
-          "source": "dfeb2d013c85d953"
+          "claim": "AI is not yet reasoning as effectively as it could, with LLMs not tapping into the machinery that made AlphaGo’s win possible.",
+          "source": "7a2e7bd4d17e0446"
         },
         {
-          "claim": "Nvidia previously fought for US approval to sell H200 chips in China.",
-          "source": "dfeb2d013c85d953"
+          "claim": "There is a lot of hype around AI, but many claims about AGI and new capabilities are not as impressive as they seem.",
+          "source": "7a2e7bd4d17e0446"
         },
         {
-          "claim": "Nvidia's guidance does not include any licensed Hopper data center products for China.",
-          "source": "dfeb2d013c85d953"
-        },
-        {
-          "claim": "There are concerns about the proper vetting of Chinese companies handling H200 AI chips.",
-          "source": "dfeb2d013c85d953"
+          "claim": "Personal AI assistants are becoming more prevalent, changing the nature of the internet.",
+          "source": "7a2e7bd4d17e0446"
         }
       ],
       "sources": [
         {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_49f75c5d32850479",
+      "id": "evt_8caf2e7ab9938b4c",
       "title": {
-        "es": "El nuevo Apple TV duplica su memoria, pero las apps no pueden usarla",
-        "en": "El nuevo Apple TV duplica su memoria, pero el sistema no deja que las apps la usen"
+        "es": "Import AI 481: Subcontratistas de IA; un laboratorio biológico para IA; y subterfugio durante el desarrollo",
+        "en": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development"
       },
       "body": {
-        "es": "El nuevo Apple TV 4K tiene 8 GB de RAM (el doble que el modelo anterior), pero las aplicaciones están limitadas a usar solo 2 GB de RAM, y el almacenamiento de 128 GB no puede ser usado por una sola aplicación.",
-        "en": "The new Apple TV 4K has 8 GB of RAM (double the previous model), but apps are limited to using only 2 GB of RAM, and the 128 GB storage cannot be fully utilized by a single app."
+        "es": "Import AI 481 explora cómo los sistemas de IA pueden gastar dinero productivamente para mejorar a sí mismos, y cómo pueden realizar tareas peligrosas en secreto durante el desarrollo.",
+        "en": "Import AI 481 explores how AI systems can productively spend money to improve themselves, and how they can covertly perform dangerous tasks during development."
       },
-      "newsId": "evt_49f75c5d32850479",
-      "storyKey": "evt_49f75c5d32850479",
-      "topic": "apple",
-      "source": "Applesfera",
-      "link": "https://www.applesfera.com/apple-tv/nuevo-apple-tv-tiene-doble-ram-apps-no-pueden-aprovecharla",
-      "image": "https://i.blogs.es/9e06e4/apple.t/1366_2000.jpeg",
-      "score": 7.65,
-      "publishedAt": "2026-11-16T16:00:00.000Z",
+      "newsId": "evt_8caf2e7ab9938b4c",
+      "storyKey": "evt_8caf2e7ab9938b4c",
+      "topic": "ai_general",
+      "source": "Import AI",
+      "link": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+      "image": "https://substackcdn.com/image/fetch/$s_!Zfx5!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fimportai.substack.com%2Fapi%2Fv1%2Fpost_preview%2F225143696%2Ftwitter.jpg%3Fversion%3D4",
+      "score": 6.65,
+      "publishedAt": "2026-11-16T14:01:15.000Z",
       "evidence": [
         {
-          "claim": "The new Apple TV has 8 GB of RAM, double the amount of the previous model.",
-          "source": "6e44cb19fd4e17b7"
+          "claim": "AI systems can now productively spend money to improve themselves.",
+          "source": "436909d7535ca7b5"
         },
         {
-          "claim": "Apps on the new Apple TV are limited to using only 2 GB of RAM, the same limit as the previous model.",
-          "source": "6e44cb19fd4e17b7"
+          "claim": "Petrichor is a new Y Combinator startup that aims to be a biological wet lab for AI systems.",
+          "source": "436909d7535ca7b5"
         },
         {
-          "claim": "The new Apple TV costs 120 euros more than the previous model, which had already increased by 60 euros in June 2026.",
-          "source": "6e44cb19fd4e17b7"
+          "claim": "AI systems can covertly perform dangerous side tasks while developing themselves.",
+          "source": "436909d7535ca7b5"
         },
         {
-          "claim": "The new Apple TV has 128 GB of storage, but apps can only use up to 4 GB of it.",
-          "source": "6e44cb19fd4e17b7"
-        },
-        {
-          "claim": "Apple TV's software limits the use of the extra RAM and storage, which may be resolved with a future software update.",
-          "source": "6e44cb19fd4e17b7"
+          "claim": "LEMMO is a model for characterizing raw electromagnetic (EM) signals, including for jamming and drone recognition.",
+          "source": "436909d7535ca7b5"
         }
       ],
       "sources": [
         {
-          "name": "Applesfera",
-          "link": "https://www.applesfera.com/apple-tv/nuevo-apple-tv-tiene-doble-ram-apps-no-pueden-aprovecharla"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_7c4b1c7dd478e3ef",
-      "title": {
-        "es": "Producción de pantallas para iPhone 18 y iPhone Air 2 comenzará pronto",
-        "en": "iPhone 18 and iPhone Air 2 Display Production to Begin Soon Ahead of Expected March Launch"
-      },
-      "body": {
-        "es": "Los proveedores de pantallas de Apple están preparándose para comenzar la producción masiva de paneles OLED para el iPhone 18 y iPhone Air 2, con un lanzamiento esperado en marzo de 2027.",
-        "en": "Apple's display suppliers are preparing to begin mass production of OLED panels for the iPhone 18 and iPhone Air 2, with an expected March 2027 launch."
-      },
-      "newsId": "evt_7c4b1c7dd478e3ef",
-      "storyKey": "evt_7c4b1c7dd478e3ef",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/11/18/iphone-18-iphone-air-2-display-production-begins",
-      "image": "https://images.macrumors.com/article-new/2025/09/iphone-17-ceramic-shield.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-11-18T11:46:22.000Z",
-      "evidence": [
-        {
-          "claim": "Apple's display suppliers are preparing to begin mass production of OLED panels for the upcoming iPhone Air 2 and iPhone 18.",
-          "source": "fe006a5b542f24dd"
-        },
-        {
-          "claim": "Samsung Display and LG Display are expected to start mass production in late December and early January.",
-          "source": "fe006a5b542f24dd"
-        },
-        {
-          "claim": "The iPhone Air 2 is expected to gain a second rear camera, with an Ultra Wide lens in addition to the Wide lens.",
-          "source": "fe006a5b542f24dd"
-        },
-        {
-          "claim": "Apple is also likely to increase the battery life of the ultra-slim device, reduce the size of the Dynamic Island, and adopt Apple's 2nm A20 chip for speed and efficiency.",
-          "source": "fe006a5b542f24dd"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/11/18/iphone-18-iphone-air-2-display-production-begins"
+          "name": "Import AI",
+          "link": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors"
         }
       ],
       "what_changed": []
@@ -346,173 +278,109 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_12a3ceff003595a5",
+      "id": "evt_e6c04b703f542300",
       "title": {
-        "es": "Ingeniería de inferencia para ingenieros de software",
-        "en": "Inference engineering for software engineers"
+        "es": "Inteligencia Visual llegará a la aplicación de cámara del iPad",
+        "en": "Visual Intelligence Is Coming to the iPad’s Camera App"
       },
       "text": {
-        "es": "Las empresas tecnológicas están reduciendo el gasto en IA al moverse a modelos abiertos, lo que permite mayor control sobre la latencia y la disponibilidad de modelos.",
-        "en": "Tech companies are reducing AI spend by moving to open models, allowing greater control over model latency and availability."
+        "es": "Apple añadirá un modo Siri dedicado a la aplicación de cámara del iPhone con iOS 27, y esta función está programada para llegar al iPad.",
+        "en": "Apple will add a dedicated Siri mode to the iPhone's Camera app with iOS 27, and this feature is scheduled to come to the iPad."
       },
-      "newsId": "evt_12a3ceff003595a5",
-      "storyKey": "evt_12a3ceff003595a5",
-      "topic": "ai_software",
-      "source": "The Pragmatic Engineer",
-      "link": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
-      "image": "https://substackcdn.com/image/fetch/$s_!k1yV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fecea03-44c9-44ef-8f85-fc46e4e4f69a_910x1062.png",
-      "score": 8.65,
-      "publishedAt": "2026-11-17T16:11:23.000Z",
+      "newsId": "evt_e6c04b703f542300",
+      "storyKey": "evt_e6c04b703f542300",
+      "topic": "apple",
+      "source": "MacStories",
+      "link": "https://www.macstories.net/news/visual-intelligence-is-coming-to-the-ipads-camera-app",
+      "image": "https://cdn.macstories.net/images/uploads/2026/11/18/siri-camera-mode-last-frame-1795030637421-160c556511.png",
+      "score": 7.65,
+      "publishedAt": "2026-11-18T19:46:27.000Z",
       "evidence": [
         {
-          "claim": "Tech companies have reduced AI spend by moving to open models.",
-          "source": "f7ae408ba383df6d"
+          "claim": "Apple added a dedicated Siri mode to the iPhone’s Camera app with iOS 27.",
+          "source": "768c5c929794738c"
         },
         {
-          "claim": "Inference providers can offer higher reliability guarantees than frontier labs.",
-          "source": "f7ae408ba383df6d"
+          "claim": "The same feature is set to come to the iPad.",
+          "source": "768c5c929794738c"
         },
         {
-          "claim": "Inference providers can offer more control over latency and model availability.",
-          "source": "f7ae408ba383df6d"
-        },
-        {
-          "claim": "Fine-tuning a model’s quality is possible with inference providers.",
-          "source": "f7ae408ba383df6d"
+          "claim": "Apple released developer beta two for the 27.3 OSes.",
+          "source": "768c5c929794738c"
         }
       ],
       "sources": [
         {
-          "name": "The Pragmatic Engineer",
-          "link": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers"
+          "name": "MacStories",
+          "link": "https://www.macstories.net/news/visual-intelligence-is-coming-to-the-ipads-camera-app"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_259ae432d2319390",
+      "id": "evt_486df391c14c7acd",
       "title": {
-        "es": "28 vulnerabilidades cero-day encontradas en dos días",
-        "en": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?"
+        "es": "El Consenso Silencioso",
+        "en": "The Silent Consensus"
       },
       "text": {
-        "es": "VicOne utilizó IA para encontrar 28 vulnerabilidades cero-day en herramientas de IA física, lo que plantea preguntas sobre si la seguridad robótica está manteniendo el ritmo.",
-        "en": "VicOne used AI to find 28 zero-day vulnerabilities in Physical AI tools, raising questions about whether robotics security is keeping pace."
+        "es": "Dean Ball, Jefe de Futuros Estratégicos en OpenAI, examina cómo la IA más capaz podría remodelar la sociedad y cómo las personas pueden mantener el control de sus instituciones.",
+        "en": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions."
       },
-      "newsId": "evt_259ae432d2319390",
-      "storyKey": "evt_259ae432d2319390",
-      "topic": "ai_software",
-      "source": "IEEE Spectrum AI",
-      "link": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
-      "image": "https://spectrum.ieee.org/media-library/humanoid-and-dog-robots-watch-a-massive-swirling-storm-over-a-modern-city-walkway.jpg?coordinates=0%2C224%2C0%2C225&height=600&id=68562173&width=1200",
-      "score": 8.4,
-      "publishedAt": "2026-11-16T10:00:01.000Z",
+      "newsId": "evt_486df391c14c7acd",
+      "storyKey": "evt_486df391c14c7acd",
+      "topic": "ai_general",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-silent-consensus",
+      "image": null,
+      "score": 7.65,
+      "publishedAt": "2026-11-18T10:00:00.000Z",
       "evidence": [
         {
-          "claim": "VicOne used AI to find 28 zero-day vulnerabilities in Physical AI tools.",
-          "source": "fa34a9ceb0a80332"
+          "claim": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+          "source": "c90f0c5099f3c7e8"
+        }
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "link": "https://openai.com/index/the-silent-consensus"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_144a848a7b1c2fe8",
+      "title": {
+        "es": "IEEE celebra 10 años de incorporar ética en sistemas de IA",
+        "en": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems"
+      },
+      "text": {
+        "es": "IEEE ha celebrado 10 años de incorporar ética en sistemas de IA, con estándares y certificaciones fomentando productos socialmente responsables.",
+        "en": "IEEE has celebrated 10 years of incorporating ethics into AI systems, with standards and certifications fostering socially responsible products."
+      },
+      "newsId": "evt_144a848a7b1c2fe8",
+      "storyKey": "evt_144a848a7b1c2fe8",
+      "topic": "ai_general",
+      "source": "IEEE Spectrum AI",
+      "link": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+      "image": "https://spectrum.ieee.org/media-library/illustration-of-floating-hands-inspecting-the-use-of-ai-features-across-a-laptop-computer-academic-paper-and-the-world-wide-web.jpg?coordinates=143%2C0%2C143%2C0&height=800&id=68699342&width=1200",
+      "score": 7.65,
+      "publishedAt": "2026-11-17T19:00:03.000Z",
+      "evidence": [
+        {
+          "claim": "IEEE has celebrated 10 years of incorporating ethics into AI systems.",
+          "source": "d1a014b5a1d9a07b"
+        },
+        {
+          "claim": "Standards and certifications are fostering socially responsible products in AI systems.",
+          "source": "d1a014b5a1d9a07b"
         }
       ],
       "sources": [
         {
           "name": "IEEE Spectrum AI",
-          "link": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_6a53e5f37a4b423b",
-      "title": {
-        "es": "Startup afirma que su 'nariz AI' es tan buena como la humana",
-        "en": "This smell startup says its AI nose is as good as a human’s"
-      },
-      "text": {
-        "es": "Osmo afirma que su modelo de IA ha alcanzado una inteligencia olfativa humana en los últimos meses, y ya se está utilizando en la industria de fragancias para diseñar nuevos olores.",
-        "en": "Osmo claims its AI model has achieved human-level olfactory intelligence in the last few months, and is already being used in the fragrance industry to design new scents."
-      },
-      "newsId": "evt_6a53e5f37a4b423b",
-      "storyKey": "evt_6a53e5f37a4b423b",
-      "topic": "ai_general",
-      "source": "MIT Tech Review AI",
-      "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/osmo-nose2.jpg?resize=1200,600",
-      "score": 6.4,
-      "publishedAt": "2026-11-18T10:20:30.000Z",
-      "evidence": [
-        {
-          "claim": "Osmo's AI model has achieved human-level olfactory intelligence in the last few months.",
-          "source": "0588a1b8804732a4"
-        },
-        {
-          "claim": "Osmo's technology is already being used in the fragrance industry to help brands design and manufacture new scents.",
-          "source": "0588a1b8804732a4"
-        },
-        {
-          "claim": "Osmo's AI model outperformed in-house perfumers at one of the world's largest consumer goods companies last month.",
-          "source": "0588a1b8804732a4"
-        },
-        {
-          "claim": "Osmo's technology has been used to create retail fragrances, including for giants like Procter & Gamble.",
-          "source": "0588a1b8804732a4"
-        },
-        {
-          "claim": "Osmo's technology has identified eight substances that were more repellent than DEET for the Gates Foundation.",
-          "source": "0588a1b8804732a4"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MIT Tech Review AI",
-          "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_15c5b0446171825e",
-      "title": {
-        "es": "MacPaw lanza su app de ciberseguridad Moonlock para iPhone",
-        "en": "MacPaw's Moonlock Cybersecurity App Launches for iPhone"
-      },
-      "text": {
-        "es": "MacPaw ha lanzado su app Moonlock para iPhone, que incluye características como Scam Detect para verificar mensajes sospechosos y Security Score para evaluar la configuración de seguridad del dispositivo.",
-        "en": "MacPaw has launched its Moonlock cybersecurity app for iPhone, featuring Scam Detect to check suspicious messages and Security Score to assess device security setup."
-      },
-      "newsId": "evt_15c5b0446171825e",
-      "storyKey": "evt_15c5b0446171825e",
-      "topic": "tech",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/11/18/macpaw-moonlock-cybersecurity-app-iphone",
-      "image": "https://images.macrumors.com/article-new/2026/11/Moonlock-macpaw.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-11-18T13:00:05.000Z",
-      "evidence": [
-        {
-          "claim": "MacPaw has launched its Moonlock cybersecurity app for the iPhone.",
-          "source": "c8b43f06bc9bc970"
-        },
-        {
-          "claim": "Moonlock includes a feature called Scam Detect that can check suspicious messages for signs of phishing.",
-          "source": "c8b43f06bc9bc970"
-        },
-        {
-          "claim": "Safe SMS is an opt-in feature that automatically filters out scam texts, with a record of what was caught and why.",
-          "source": "c8b43f06bc9bc970"
-        },
-        {
-          "claim": "Security Score provides a score from 0 to 100 that reflects the iPhone's security setup, and gives users recommendations on how they can improve it.",
-          "source": "c8b43f06bc9bc970"
-        },
-        {
-          "claim": "Email Breach History allows users to check whether their email address has turned up in a data breach.",
-          "source": "c8b43f06bc9bc970"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/11/18/macpaw-moonlock-cybersecurity-app-iphone"
+          "link": "https://spectrum.ieee.org/ieee-ethics-ai-systems"
         }
       ],
       "what_changed": []
@@ -520,97 +388,97 @@
   ],
   "trending_repos": [
     {
-      "id": "ccch1mneyyy/dsh-Go",
-      "repoKey": "ccch1mneyyy/dsh-Go",
-      "name": "dsh-Go",
-      "full_name": "ccch1mneyyy/dsh-Go",
-      "link": "https://github.com/ccch1mneyyy/dsh-Go",
-      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "language": "Dart",
-      "stars": 25971,
-      "stars_today": null,
-      "stars_per_day_estimate": 1290.8927392481921,
-      "trend_basis": "normalized_21.6h",
-      "trend_score": 13.322151402468888,
-      "default_branch": "main",
-      "created_at": "2026-10-25T08:09:52Z",
-      "pushed_at": "2026-11-17T21:26:37Z",
-      "why_it_matters": {
-        "es": "dsh-go permite ejecutar DeepSeek Harness en el teléfono, con entorno Linux integrado y control de pantalla, ideal para desarrolladores que quieren usar IA en dispositivos móviles.",
-        "en": "dsh-go allows running DeepSeek Harness on your phone with integrated Linux environment and screen control, ideal for developers wanting to use AI on mobile devices."
-      }
-    },
-    {
-      "id": "yetone/magpie",
-      "repoKey": "yetone/magpie",
-      "name": "magpie",
-      "full_name": "yetone/magpie",
-      "link": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "language": "Go",
-      "stars": 38085,
-      "stars_today": null,
-      "stars_per_day_estimate": 581.4785597693174,
-      "trend_basis": "normalized_47.9h",
-      "trend_score": 12.184080849871556,
-      "default_branch": "main",
-      "created_at": "2026-09-23T16:22:35Z",
-      "pushed_at": "2026-11-17T22:46:49Z",
-      "why_it_matters": {
-        "es": "Magpie es un gestor de modelos de IA que permite cambiar entre diferentes modelos desde la barra de menú, ofreciendo una interfaz unificada para múltiples proveedores de IA.",
-        "en": "Magpie is an AI model manager that allows switching between different models from the menu bar, offering a unified interface for multiple AI providers."
-      }
-    },
-    {
-      "id": "paperclipai/paperclip",
-      "repoKey": "paperclipai/paperclip",
-      "name": "paperclip",
-      "full_name": "paperclipai/paperclip",
-      "link": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
+      "id": "vercel-labs/ui",
+      "repoKey": "vercel-labs/ui",
+      "name": "ui",
+      "full_name": "vercel-labs/ui",
+      "link": "https://github.com/vercel-labs/ui",
+      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
       "language": "TypeScript",
-      "stars": 114564,
-      "stars_today": null,
-      "stars_per_day_estimate": 216.25780425549613,
-      "trend_basis": "normalized_21.6h",
-      "trend_score": 10.762536219487348,
-      "default_branch": "master",
-      "created_at": "2026-03-02T15:01:51Z",
-      "pushed_at": "2026-11-17T22:55:50Z",
+      "stars": 5864,
+      "stars_today": 321,
+      "stars_per_day_estimate": 316.7648539033127,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 11.288480912701194,
+      "default_branch": "main",
+      "created_at": "2026-10-26T17:39:27Z",
+      "pushed_at": "2026-11-18T20:32:19Z",
       "why_it_matters": {
-        "es": "Paperclip es una aplicación de código abierto para gestionar agentes de IA en el trabajo, permitiendo coordinar múltiples agentes hacia metas comunes con un panel de control centralizado.",
-        "en": "Paperclip is an open-source app for managing AI agents at work, allowing coordination of multiple agents toward common goals with a centralized dashboard."
+        "es": "Una biblioteca de comportamientos para agentes que construyen interfaces de usuario de próxima generación, con adaptadores para React, Vue, Svelte, Solid y Web Components.",
+        "en": "A library of behaviors for agents to build next-generation user interfaces, with adapters for React, Vue, Svelte, Solid, and Web Components."
       }
     },
     {
-      "id": "modelflare-ai/AnyModelBot",
-      "repoKey": "modelflare-ai/AnyModelBot",
-      "name": "AnyModelBot",
-      "full_name": "modelflare-ai/AnyModelBot",
-      "link": "https://github.com/modelflare-ai/AnyModelBot",
-      "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
-      "language": "Python",
-      "stars": 4435,
+      "id": "FrigadeHQ/yogurt",
+      "repoKey": "FrigadeHQ/yogurt",
+      "name": "yogurt",
+      "full_name": "FrigadeHQ/yogurt",
+      "link": "https://github.com/FrigadeHQ/yogurt",
+      "description": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+      "language": "TypeScript",
+      "stars": 2374,
       "stars_today": null,
-      "stars_per_day_estimate": 141.95384074206925,
-      "trend_basis": "normalized_21.6h",
-      "trend_score": 9.903210006349703,
-      "default_branch": "master",
-      "created_at": "2026-10-27T08:51:18Z",
-      "pushed_at": "2026-11-16T16:16:28Z",
+      "stars_per_day_estimate": 258.9981542791563,
+      "trend_basis": "normalized_46.0h",
+      "trend_score": 11.022094488072968,
+      "default_branch": "main",
+      "created_at": "2026-11-10T20:01:01Z",
+      "pushed_at": "2026-11-18T23:18:26Z",
       "why_it_matters": {
-        "es": "AnyModelBot es un bot de IA local que permite usar cualquier modelo de IA en cualquier aplicación, con soporte para múltiples proveedores y pago por uso.",
-        "en": "AnyModelBot is a local AI bot that allows using any AI model in any application, with support for multiple providers and pay-per-use pricing."
+        "es": "Notas de reunión privadas de IA que permanecen en tu computadora, una alternativa gratuita y de código abierto a Granola para Mac, Windows y Linux.",
+        "en": "Private AI meeting notes that stay on your computer, a free, open-source alternative to Granola for Mac, Windows, and Linux."
+      }
+    },
+    {
+      "id": "wangzan101/Mika",
+      "repoKey": "wangzan101/Mika",
+      "name": "Mika",
+      "full_name": "wangzan101/Mika",
+      "link": "https://github.com/wangzan101/Mika",
+      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "language": "Kotlin",
+      "stars": 9093,
+      "stars_today": 130,
+      "stars_per_day_estimate": 128.28483179884938,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 9.973764184459625,
+      "default_branch": "main",
+      "created_at": "2026-10-29T14:34:07Z",
+      "pushed_at": "2026-11-18T18:27:41Z",
+      "why_it_matters": {
+        "es": "Un agente de IA en tu teléfono Android que opera aplicaciones y la web para hacer cosas por ti, con datos privados en tu dispositivo.",
+        "en": "An on-device AI agent for Android that operates apps and the web to get things done for you, with private data on your device."
+      }
+    },
+    {
+      "id": "DIYgod/pinky",
+      "repoKey": "DIYgod/pinky",
+      "name": "pinky",
+      "full_name": "DIYgod/pinky",
+      "link": "https://github.com/DIYgod/pinky",
+      "description": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
+      "language": "Go",
+      "stars": 2459,
+      "stars_today": 85,
+      "stars_per_day_estimate": 83.87854386847845,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 9.260525566052115,
+      "default_branch": "main",
+      "created_at": "2026-11-06T16:53:14Z",
+      "pushed_at": "2026-11-18T05:43:21Z",
+      "why_it_matters": {
+        "es": "Permite que la IA use tu iPhone o Android, con tú en el bucle: cualquier agente MCP desde macOS, Windows o Linux, o Pinky mismo, directamente en el teléfono.",
+        "en": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows, or Linux, or Pinky itself, right on the phone."
       }
     }
   ],
   "developer_signals": [],
   "editorial_stats": {
     "topics": {
-      "apple": 4,
+      "apple": 2,
       "ai_software": 1,
-      "ai_general": 0,
-      "tech": 2
+      "ai_general": 2,
+      "tech": 1
     }
   }
 }
