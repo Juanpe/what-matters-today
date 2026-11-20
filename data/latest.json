@@ -1,276 +1,272 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-11-19",
-  "date": "2026-11-19",
+  "edition_id": "wmt-2026-11-20",
+  "date": "2026-11-20",
   "daily_summary": {
-    "es": "Resumen diario de noticias tecnológicas y de IA relevantes para ingenieros de iOS/Swift/AI.",
-    "en": "Daily summary of relevant tech and AI news for iOS/Swift/AI engineers. (Note: This is a placeholder; actual content will be generated based on the selected entries.)"
+    "es": "Apple publica la beta pública 2 de iOS 27.3 con la nueva app de Salud, mientras Meta y Axiom Math avanzan en agentes de IA y verificación matemática, y Cloudflare detalla cómo protege sus orígenes de nuevas vulnerabilidades de nginx.",
+    "en": "Apple releases iOS 27.3 public beta 2 with the new Health app, while Meta and Axiom Math advance AI agents and mathematical verification, and Cloudflare details how it protects origins from new nginx vulnerabilities."
   },
   "topic_summaries": {
     "apple": {
-      "es": "",
-      "en": ""
+      "es": "Apple ha lanzado la beta pública 2 de iOS 27.3, que incluye la nueva aplicación de Salud en español, más capacidades de Siri y controles de Calendario. Además, Jon McCormack, responsable de las apps de Cámara y Fotos, se retira de la empresa.",
+      "en": "Apple has released iOS 27.3 public beta 2, which includes the new Health app in Spanish, more Siri capabilities, and Calendar controls. Additionally, Jon McCormack, head of the Camera and Photos apps, is retiring from the company."
     },
     "ai_software": {
-      "es": "",
-      "en": ""
+      "es": "Meta detalla cómo utiliza agentes de IA para escalar innovaciones en modelos de clasificación de anuncios, mientras que Shepherd ofrece una herramienta para gestionar agentes de IA mediante control de versiones y sandboxing. OpenBot se presenta como una alternativa autoalojable para bots de IA empresariales.",
+      "en": "Meta details how it uses AI agents to scale innovations in ads ranking models, while Shepherd offers a tool to manage AI agents using version control and sandboxing. OpenBot is presented as a self-hostable alternative for enterprise AI bots."
     },
     "ai_general": {
-      "es": "",
-      "en": ""
+      "es": "Axiom Math anuncia resultados que demuestran la profundidad de la verificación asistida por IA en matemáticas, y un científico de la computación argumenta que la superinteligencia no llegará debido a limitaciones fundamentales en los datos de entrenamiento.",
+      "en": "Axiom Math announces results demonstrating the depth of AI-assisted verification in mathematics, and a computer scientist argues that superintelligence will not happen due to fundamental limitations in training data."
     },
     "tech": {
-      "es": "",
-      "en": ""
+      "es": "Cloudflare explica cómo su infraestructura de borde, basada en Rust, no se ve afectada por las nuevas vulnerabilidades de nginx, y Blue Origin confirmará el lanzamiento de satélites de servidores de IA de Google en 2029.",
+      "en": "Cloudflare explains how its Rust-based edge infrastructure is unaffected by the new nginx vulnerabilities, and Blue Origin will launch Google's AI server satellites in 2029."
     }
   },
   "summary": {
     "apple": {
-      "es": "",
-      "en": ""
+      "es": "Apple ha lanzado la beta pública 2 de iOS 27.3, que incluye la nueva aplicación de Salud en español, más capacidades de Siri y controles de Calendario. Además, Jon McCormack, responsable de las apps de Cámara y Fotos, se retira de la empresa.",
+      "en": "Apple has released iOS 27.3 public beta 2, which includes the new Health app in Spanish, more Siri capabilities, and Calendar controls. Additionally, Jon McCormack, head of the Camera and Photos apps, is retiring from the company."
     },
     "ai_software": {
-      "es": "",
-      "en": ""
+      "es": "Meta detalla cómo utiliza agentes de IA para escalar innovaciones en modelos de clasificación de anuncios, mientras que Shepherd ofrece una herramienta para gestionar agentes de IA mediante control de versiones y sandboxing. OpenBot se presenta como una alternativa autoalojable para bots de IA empresariales.",
+      "en": "Meta details how it uses AI agents to scale innovations in ads ranking models, while Shepherd offers a tool to manage AI agents using version control and sandboxing. OpenBot is presented as a self-hostable alternative for enterprise AI bots."
     },
     "ai_general": {
-      "es": "",
-      "en": ""
+      "es": "Axiom Math anuncia resultados que demuestran la profundidad de la verificación asistida por IA en matemáticas, y un científico de la computación argumenta que la superinteligencia no llegará debido a limitaciones fundamentales en los datos de entrenamiento.",
+      "en": "Axiom Math announces results demonstrating the depth of AI-assisted verification in mathematics, and a computer scientist argues that superintelligence will not happen due to fundamental limitations in training data."
     },
     "tech": {
-      "es": "",
-      "en": ""
+      "es": "Cloudflare explica cómo su infraestructura de borde, basada en Rust, no se ve afectada por las nuevas vulnerabilidades de nginx, y Blue Origin confirmará el lanzamiento de satélites de servidores de IA de Google en 2029.",
+      "en": "Cloudflare explains how its Rust-based edge infrastructure is unaffected by the new nginx vulnerabilities, and Blue Origin will launch Google's AI server satellites in 2029."
     }
   },
   "top_stories": [
     {
-      "id": "evt_55760ee812e41a82",
+      "id": "evt_8f696bde6665b2b0",
       "title": {
-        "es": "Google lanza Gemini 4 Neon con calidad Carbon a velocidades Flash, disponible para AI Pro",
-        "en": "Google launches Gemini 4 Neon with Carbon quality at Flash speeds, live for AI Pro"
+        "es": "Apple publica la beta pública 2 de iOS 27.3 con la nueva app de Salud",
+        "en": "Apple releases iOS 27.3 public beta 2 with the new Health app"
       },
       "body": {
-        "es": "Google ha lanzado Gemini 4 Neon, una versión optimizada para velocidad y calidad, disponible para usuarios de AI Pro. La versión Carbon ofrece un equilibrio entre rendimiento y eficiencia energética.",
-        "en": "Google has launched Gemini 4 Neon, an optimized version for speed and quality, available for AI Pro users. The Carbon version offers a balance between performance and energy efficiency."
+        "es": "Apple ha lanzado la segunda beta pública de iOS 27.3 para iPhone, que incluye una nueva aplicación de Salud rediseñada, más capacidades de IA para Siri y nuevos controles en Calendario. La actualización también incorpora funciones para iPhone Duo y cambios introducidos anteriormente este mes. Para los desarrolladores, se ha publicado una nueva compilación de la beta 2.",
+        "en": "Apple has released the second public beta of iOS 27.3 for iPhone, which includes a redesigned Health app, more AI capabilities for Siri, and new Calendar controls. The update also incorporates features for iPhone Duo and changes introduced earlier this month. For developers, a new build of beta 2 has been published."
       },
-      "newsId": "evt_55760ee812e41a82",
-      "storyKey": "evt_55760ee812e41a82",
-      "topic": "ai_software",
-      "source": "9to5Mac",
-      "link": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/gemini-4-neon-cover.webp?w=1600",
-      "score": 8.35,
-      "publishedAt": "2026-11-18T21:58:36.000Z",
-      "evidence": [
-        {
-          "claim": "Google has released Gemini 4 Neon.",
-          "source": "06ef164fd1a460d7"
-        }
-      ],
-      "sources": [
-        {
-          "name": "9to5Mac",
-          "link": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_32d62ce5b65c3fdb",
-      "title": {
-        "es": "Owning an Apple Home: Bye bye SwitchBot",
-        "en": "Owning an Apple Home: Bye bye SwitchBot"
-      },
-      "body": {
-        "es": "El autor ha eliminado todos los productos SwitchBot de su configuración de Apple Home debido a problemas de integración y notificaciones incorrectas que no reflejaban el estado real de la puerta.",
-        "en": "The author has removed all SwitchBot products from their Apple Home setup due to integration issues and incorrect notifications that didn't reflect the actual door status."
-      },
-      "newsId": "evt_32d62ce5b65c3fdb",
-      "storyKey": "evt_32d62ce5b65c3fdb",
+      "newsId": "evt_8f696bde6665b2b0",
+      "storyKey": "evt_8f696bde6665b2b0",
       "topic": "apple",
-      "source": "AppleInsider",
-      "link": "https://appleinsider.com/articles/26/11/19/owning-an-apple-home-bye-bye-switchbot",
-      "image": "https://media.appleinsider.com/gallery/69896-147305-SwitchBot-2-xl.jpg",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/11/19/apple-releases-ios-27-3-public-beta-2-heres-whats-new",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/iOS-27.3-public.jpg?quality=82&strip=all&w=1600",
       "score": 7.65,
-      "publishedAt": "2026-11-19T01:06:21.000Z",
+      "publishedAt": "2026-11-19T21:37:58.000Z",
       "evidence": [
         {
-          "claim": "The author has removed all SwitchBot products from their Apple Home setup.",
-          "source": "8dbfc444cb639a96"
+          "claim": "Apple has released iOS 27.3 public beta 2 for iPhone.",
+          "source": "3113097d6fae0ac3"
         },
         {
-          "claim": "SwitchBot products showed up as a lock instead of a garage door in Apple Home.",
-          "source": "8dbfc444cb639a96"
+          "claim": "Today’s release also includes a new build for iOS 27.3 beta 2 for developers.",
+          "source": "3113097d6fae0ac3"
         },
         {
-          "claim": "The author experienced frequent notifications from the Lock Vision Pro that did not reflect the actual door status.",
-          "source": "8dbfc444cb639a96"
+          "claim": "The update brings new Calendar controls, more Siri AI capabilities, and new features for iPhone Duo.",
+          "source": "3113097d6fae0ac3"
         },
         {
-          "claim": "The author plans to write a story about third-party Apple Home products that bridge the gap between third and second-party devices.",
-          "source": "8dbfc444cb639a96"
-        }
-      ],
-      "sources": [
-        {
-          "name": "AppleInsider",
-          "link": "https://appleinsider.com/articles/26/11/19/owning-an-apple-home-bye-bye-switchbot"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_4c3ec6f4014b99e8",
-      "title": {
-        "es": "Launch HN: Maritime (YC F26) – Una nube gestionada para agentes de IA en producción",
-        "en": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents"
-      },
-      "body": {
-        "es": "Maritime ofrece una nube gestionada para agentes de IA en producción, con costos de $1 por mes para un agente de 2GB de RAM, incluyendo gestión de ciclo de vida y entornos personalizables.",
-        "en": "Maritime offers a managed cloud for production AI agents, with costs of $1 per month for a 2GB RAM agent, including lifecycle management and customizable environments."
-      },
-      "newsId": "evt_4c3ec6f4014b99e8",
-      "storyKey": "evt_4c3ec6f4014b99e8",
-      "topic": "tech",
-      "source": "Hacker News",
-      "link": "https://news.ycombinator.com/item?id=50549188",
-      "image": null,
-      "score": 8.6,
-      "publishedAt": "2026-11-18T17:26:28.000Z",
-      "evidence": [
-        {
-          "claim": "Maritime is a managed cloud for production AI agents that handles lifecycle management and custom environments.",
-          "source": "6cadc23c9eb274e0"
-        },
-        {
-          "claim": "Maritime costs $1 for a 2gb RAM agent per month with additional resources available as needed.",
-          "source": "6cadc23c9eb274e0"
-        },
-        {
-          "claim": "Maritime's approach is different from sandbox providers as it gives each agent its own isolated, persistent microVM and a configurable environment.",
-          "source": "6cadc23c9eb274e0"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Hacker News",
-          "link": "https://news.ycombinator.com/item?id=50549188"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_4dcd653b0ac1316b",
-      "title": {
-        "es": "Apple lanza actualización HomeView 27.2.1, aquí están las novedades",
-        "en": "Apple releases HomeView 27.2.1 update, here’s what’s new"
-      },
-      "body": {
-        "es": "Apple ha lanzado la primera actualización de software post-lanzamiento para HomeView, versión 27.2.1, que incluye varios correcciones de errores.",
-        "en": "Apple has released the first post-launch software update for HomeView, version 27.2.1, which includes several bug fixes."
-      },
-      "newsId": "evt_4dcd653b0ac1316b",
-      "storyKey": "evt_4dcd653b0ac1316b",
-      "topic": "apple",
-      "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/11/18/apple-releases-new-homeview-27-2-1-software-update",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/homeview.jpg?quality=82&strip=all&w=1600",
-      "score": 6.050000000000001,
-      "publishedAt": "2026-11-18T18:53:35.000Z",
-      "evidence": [
-        {
-          "claim": "Apple has released the first post-launch software update for HomeView version 27.2.1.",
-          "source": "f6ff7a76af5edca6"
+          "claim": "It also includes the redesigned Health app and other changes introduced earlier this month.",
+          "source": "3113097d6fae0ac3"
         }
       ],
       "sources": [
         {
           "name": "9to5Mac",
-          "link": "https://9to5mac.com/2026/11/18/apple-releases-new-homeview-27-2-1-software-update"
+          "link": "https://9to5mac.com/2026/11/19/apple-releases-ios-27-3-public-beta-2-heres-whats-new"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_31c69100bfafb9e2",
+      "id": "evt_cc2890aed1b719dc",
       "title": {
-        "es": "El Índice de Hype de IA: La IA está en todas partes",
-        "en": "The AI Hype Index: AI is everywhere"
+        "es": "Meta escala innovaciones en IA para modelos de clasificación de anuncios",
+        "en": "Meta scales AI innovations for ads ranking models"
       },
       "body": {
-        "es": "El artículo examina el exceso de hiperbólicas sobre la IA, destacando que los sistemas de IA aún no aprovechan la maquinaria que permitió la victoria de AlphaGo en Go.",
-        "en": "The article examines the hype around AI, highlighting that AI systems still don't tap into the machinery that enabled AlphaGo's victory in Go."
+        "es": "Meta ha publicado detalles sobre cómo utiliza agentes de IA autónomos para generar hipótesis, diseñar experimentos y demostrar nuevas técnicas de aprendizaje automático en sus modelos de clasificación de anuncios. Este enfoque, conocido como Ranking Engineer Agent, permite a la empresa escalar la innovación en su infraestructura publicitaria. La iniciativa destaca el uso de agentes de IA para optimizar procesos complejos de ingeniería de ML.",
+        "en": "Meta has published details on how it uses autonomous AI agents to generate hypotheses, design experiments, and prove new machine learning techniques in its ads ranking models. This approach, known as the Ranking Engineer Agent, allows the company to scale innovation in its advertising infrastructure. The initiative highlights the use of AI agents to optimize complex ML engineering processes."
       },
-      "newsId": "evt_31c69100bfafb9e2",
-      "storyKey": "evt_31c69100bfafb9e2",
-      "topic": "ai_general",
-      "source": "MIT Tech Review AI",
-      "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/11-Hype-thumb2.jpg?resize=1200,600",
-      "score": 7.15,
-      "publishedAt": "2026-11-18T14:42:44.000Z",
+      "newsId": "evt_cc2890aed1b719dc",
+      "storyKey": "evt_cc2890aed1b719dc",
+      "topic": "ai_software",
+      "source": "Meta Engineering",
+      "link": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models",
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-Scaling-Techniques-image-2-3.png",
+      "score": 8.35,
+      "publishedAt": "2026-11-18T17:00:00.000Z",
       "evidence": [
         {
-          "claim": "AI is not yet reasoning as effectively as it could, with LLMs not tapping into the machinery that made AlphaGo’s win possible.",
-          "source": "7a2e7bd4d17e0446"
-        },
-        {
-          "claim": "There is a lot of hype around AI, but many claims about AGI and new capabilities are not as impressive as they seem.",
-          "source": "7a2e7bd4d17e0446"
-        },
-        {
-          "claim": "Personal AI assistants are becoming more prevalent, changing the nature of the internet.",
-          "source": "7a2e7bd4d17e0446"
+          "claim": "Meta uses AI agents to generate hypotheses, design experiments, and prove new ML techniques on ads ranking models.",
+          "source": "1e3dd25741d3163b"
         }
       ],
       "sources": [
         {
-          "name": "MIT Tech Review AI",
-          "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere"
+          "name": "Meta Engineering",
+          "link": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_8caf2e7ab9938b4c",
+      "id": "evt_f307f327dff4f27d",
       "title": {
-        "es": "Import AI 481: Subcontratistas de IA; un laboratorio biológico para IA; y subterfugio durante el desarrollo",
-        "en": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development"
+        "es": "Axiom Math avanza en la formalización de las matemáticas con IA",
+        "en": "Axiom Math advances in formalizing mathematics with AI"
       },
       "body": {
-        "es": "Import AI 481 explora cómo los sistemas de IA pueden gastar dinero productivamente para mejorar a sí mismos, y cómo pueden realizar tareas peligrosas en secreto durante el desarrollo.",
-        "en": "Import AI 481 explores how AI systems can productively spend money to improve themselves, and how they can covertly perform dangerous tasks during development."
+        "es": "Axiom Math ha anunciado dos resultados que demuestran la amplitud y profundidad de la verificación matemática asistida por IA. La startup trabaja en formalizar áreas de las matemáticas utilizando enjambres de IA, lo que podría tener implicaciones significativas para la verificación de teoremas y la investigación matemática. Estos avances muestran el potencial de la IA para abordar problemas de alta complejidad en campos formales.",
+        "en": "Axiom Math has announced two results demonstrating the breadth and depth of AI-assisted mathematical verification. The startup is working on formalizing areas of mathematics using AI swarms, which could have significant implications for theorem verification and mathematical research. These advances show the potential of AI to tackle high-complexity problems in formal fields."
       },
-      "newsId": "evt_8caf2e7ab9938b4c",
-      "storyKey": "evt_8caf2e7ab9938b4c",
+      "newsId": "evt_f307f327dff4f27d",
+      "storyKey": "evt_f307f327dff4f27d",
       "topic": "ai_general",
-      "source": "Import AI",
-      "link": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
-      "image": "https://substackcdn.com/image/fetch/$s_!Zfx5!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fimportai.substack.com%2Fapi%2Fv1%2Fpost_preview%2F225143696%2Ftwitter.jpg%3Fversion%3D4",
-      "score": 6.65,
-      "publishedAt": "2026-11-16T14:01:15.000Z",
+      "source": "IEEE Spectrum AI",
+      "link": "https://spectrum.ieee.org/enormous-theorem-ai",
+      "image": "https://spectrum.ieee.org/media-library/a-dot-with-thousands-of-plotted-points-radiating-from-its-center.jpg?coordinates=0%2C150%2C0%2C151&height=700&id=68692858&width=1245",
+      "score": 8.35,
+      "publishedAt": "2026-11-18T13:00:03.000Z",
       "evidence": [
         {
-          "claim": "AI systems can now productively spend money to improve themselves.",
-          "source": "436909d7535ca7b5"
-        },
-        {
-          "claim": "Petrichor is a new Y Combinator startup that aims to be a biological wet lab for AI systems.",
-          "source": "436909d7535ca7b5"
-        },
-        {
-          "claim": "AI systems can covertly perform dangerous side tasks while developing themselves.",
-          "source": "436909d7535ca7b5"
-        },
-        {
-          "claim": "LEMMO is a model for characterizing raw electromagnetic (EM) signals, including for jamming and drone recognition.",
-          "source": "436909d7535ca7b5"
+          "claim": "Axiom Math announces two results demonstrating the breadth and depth of AI-assisted verification.",
+          "source": "f6da94121325760e"
         }
       ],
       "sources": [
         {
-          "name": "Import AI",
-          "link": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors"
+          "name": "IEEE Spectrum AI",
+          "link": "https://spectrum.ieee.org/enormous-theorem-ai"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_bf0f5c47084f4b65",
+      "title": {
+        "es": "Cloudflare detalla cómo protege sus orígenes de vulnerabilidades de nginx",
+        "en": "Cloudflare details how it protects origins from nginx vulnerabilities"
+      },
+      "body": {
+        "es": "Cloudflare ha explicado que su infraestructura de borde no se ve afectada por las nuevas vulnerabilidades de nginx, ya que gran parte del proxy que maneja el tráfico de clientes ahora se ejecuta en FL2, escrito en Rust. La empresa ha detallado cómo estas vulnerabilidades podrían afectar a los orígenes y cómo su arquitectura actual mitiga los riesgos. Esta información es relevante para los equipos que dependen de nginx en sus orígenes y buscan entender las implicaciones de seguridad.",
+        "en": "Cloudflare has explained that its edge infrastructure is not affected by the new nginx vulnerabilities, as much of the proxy handling customer traffic now runs on FL2, written in Rust. The company has detailed how these vulnerabilities could affect origins and how its current architecture mitigates the risks. This information is relevant for teams relying on nginx in their origins and seeking to understand the security implications."
+      },
+      "newsId": "evt_bf0f5c47084f4b65",
+      "storyKey": "evt_bf0f5c47084f4b65",
+      "topic": "tech",
+      "source": "Cloudflare Blog",
+      "link": "https://blog.cloudflare.com/nginx2root",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7V6N9XSHCT1GMC5KHVYE692.01M7V6NAA3FDH1YV1552W4P5P7.png",
+      "score": 8.35,
+      "publishedAt": "2026-11-20T01:58:29.000Z",
+      "evidence": [
+        {
+          "claim": "Cloudflare's edge is not affected by the nginx2root vulnerabilities, as the proxy that handles customer traffic at the edge now runs on FL2, written in Rust.",
+          "source": "03ad7e27eaa24189"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "link": "https://blog.cloudflare.com/nginx2root"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_47f35fbc883b3e02",
+      "title": {
+        "es": "Blue Origin lanzará satélites de servidores de IA de Google en 2029",
+        "en": "Blue Origin will launch Google's AI server satellites in 2029"
+      },
+      "body": {
+        "es": "Blue Origin ha confirmado que lanzará satélites equipados con unidades de procesamiento tensorial (TPU) de Google en el primer trimestre de 2029. Este lanzamiento, que será el primer lanzamiento pesado dedicado para el Proyecto Suncatcher de Google, colocará satélites con capacidad de cómputo a escala de un rack de centro de datos en órbita heliosíncrona. La iniciativa marca un paso significativo en la expansión de la infraestructura de IA al espacio.",
+        "en": "Blue Origin has confirmed it will launch satellites equipped with Google's Tensor Processing Units (TPUs) in the first quarter of 2029. This launch, which will be the first dedicated heavy-lift launch for Google's Project Suncatcher, will place satellites with data center rack-scale computing capacity into sun-synchronous orbit. The initiative marks a significant step in expanding AI infrastructure to space."
+      },
+      "newsId": "evt_47f35fbc883b3e02",
+      "storyKey": "evt_47f35fbc883b3e02",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/project-suncatcher-logo.png?crop=0,0,100,100&quality=90&strip=all",
+      "score": 7.65,
+      "publishedAt": "2026-11-19T13:53:38.000Z",
+      "evidence": [
+        {
+          "claim": "Blue Origin will launch Google’s AI server satellites in 2029.",
+          "source": "c4bb5acbbb7c5969"
+        },
+        {
+          "claim": "The launch will be the first dedicated heavy-lift launch for Google’s Project Suncatcher.",
+          "source": "c4bb5acbbb7c5969"
+        },
+        {
+          "claim": "Google’s AI server satellite previously launched aboard SpaceX’s Falcon 9 rocket as part of a “rideshare” launch.",
+          "source": "c4bb5acbbb7c5969"
+        },
+        {
+          "claim": "The satellites will have the computing capacity at roughly the scale of a data center rack.",
+          "source": "c4bb5acbbb7c5969"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_20cec132964cb91c",
+      "title": {
+        "es": "Jon McCormack se retira de Apple",
+        "en": "Jon McCormack retires from Apple"
+      },
+      "body": {
+        "es": "Jon McCormack, responsable de las aplicaciones de Cámara y Fotos en Apple, se ha retirado de la empresa. McCormack fue la cara pública de la función Center Stage para la cámara selfie introducida con la línea iPhone 17 y fue conocido por mantener ideas poco prácticas fuera de la app de Cámara. Recientemente publicó un libro de fotografía de naturaleza y viajes titulado 'Patterns: Art of the Natural World'.",
+        "en": "Jon McCormack, head of the Camera and Photos apps at Apple, has retired from the company. McCormack was the public face of the Center Stage selfie camera feature introduced with the iPhone 17 lineup and was known for keeping impractical ideas out of the Camera app. He recently published a nature and travel photography book titled 'Patterns: Art of the Natural World'."
+      },
+      "newsId": "evt_20cec132964cb91c",
+      "storyKey": "evt_20cec132964cb91c",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://daringfireball.net/2026/11/mccormack_retires_from_apple",
+      "image": "https://daringfireball.net/graphics/df-wide-card.png",
+      "score": 7.05,
+      "publishedAt": "2026-11-19T22:25:12.000Z",
+      "evidence": [
+        {
+          "claim": "Jon McCormack was responsible for the Camera and Photos apps and the underlying technology that determines how users capture, view and edit their pictures and video.",
+          "source": "d71d47992e5137ed"
+        },
+        {
+          "claim": "Jon McCormack was the public face for the Center Stage selfie camera feature introduced with the iPhone 17 lineup.",
+          "source": "d71d47992e5137ed"
+        },
+        {
+          "claim": "Jon McCormack was known for keeping stupid ideas out of the Camera app, which is considered a more important management skill than adding good new features.",
+          "source": "d71d47992e5137ed"
+        },
+        {
+          "claim": "Jon McCormack recently published a book titled 'Patterns: Art of the Natural World'.",
+          "source": "d71d47992e5137ed"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daring Fireball",
+          "link": "https://daringfireball.net/2026/11/mccormack_retires_from_apple"
         }
       ],
       "what_changed": []
@@ -278,109 +274,153 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_e6c04b703f542300",
+      "id": "evt_fa3327622758d70a",
       "title": {
-        "es": "Inteligencia Visual llegará a la aplicación de cámara del iPad",
-        "en": "Visual Intelligence Is Coming to the iPad’s Camera App"
+        "es": "Shepherd: una herramienta para gestionar agentes de IA",
+        "en": "Shepherd: a tool to manage AI agents"
       },
       "text": {
-        "es": "Apple añadirá un modo Siri dedicado a la aplicación de cámara del iPhone con iOS 27, y esta función está programada para llegar al iPad.",
-        "en": "Apple will add a dedicated Siri mode to the iPhone's Camera app with iOS 27, and this feature is scheduled to come to the iPad."
+        "es": "Shepherd es una herramienta que utiliza control de versiones y sandboxing para recuperarse de errores de IA y 'gestionar' agentes. Esta aproximación podría ser útil para equipos que trabajan con agentes autónomos y necesitan mecanismos de recuperación y control.",
+        "en": "Shepherd is a tool that uses version control and sandboxing to recover from AI missteps and 'manage' agents. This approach could be useful for teams working with autonomous agents and needing recovery and control mechanisms."
       },
-      "newsId": "evt_e6c04b703f542300",
-      "storyKey": "evt_e6c04b703f542300",
-      "topic": "apple",
-      "source": "MacStories",
-      "link": "https://www.macstories.net/news/visual-intelligence-is-coming-to-the-ipads-camera-app",
-      "image": "https://cdn.macstories.net/images/uploads/2026/11/18/siri-camera-mode-last-frame-1795030637421-160c556511.png",
-      "score": 7.65,
-      "publishedAt": "2026-11-18T19:46:27.000Z",
-      "evidence": [
-        {
-          "claim": "Apple added a dedicated Siri mode to the iPhone’s Camera app with iOS 27.",
-          "source": "768c5c929794738c"
-        },
-        {
-          "claim": "The same feature is set to come to the iPad.",
-          "source": "768c5c929794738c"
-        },
-        {
-          "claim": "Apple released developer beta two for the 27.3 OSes.",
-          "source": "768c5c929794738c"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacStories",
-          "link": "https://www.macstories.net/news/visual-intelligence-is-coming-to-the-ipads-camera-app"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_486df391c14c7acd",
-      "title": {
-        "es": "El Consenso Silencioso",
-        "en": "The Silent Consensus"
-      },
-      "text": {
-        "es": "Dean Ball, Jefe de Futuros Estratégicos en OpenAI, examina cómo la IA más capaz podría remodelar la sociedad y cómo las personas pueden mantener el control de sus instituciones.",
-        "en": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions."
-      },
-      "newsId": "evt_486df391c14c7acd",
-      "storyKey": "evt_486df391c14c7acd",
-      "topic": "ai_general",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/the-silent-consensus",
-      "image": null,
-      "score": 7.65,
-      "publishedAt": "2026-11-18T10:00:00.000Z",
-      "evidence": [
-        {
-          "claim": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-          "source": "c90f0c5099f3c7e8"
-        }
-      ],
-      "sources": [
-        {
-          "name": "OpenAI",
-          "link": "https://openai.com/index/the-silent-consensus"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_144a848a7b1c2fe8",
-      "title": {
-        "es": "IEEE celebra 10 años de incorporar ética en sistemas de IA",
-        "en": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems"
-      },
-      "text": {
-        "es": "IEEE ha celebrado 10 años de incorporar ética en sistemas de IA, con estándares y certificaciones fomentando productos socialmente responsables.",
-        "en": "IEEE has celebrated 10 years of incorporating ethics into AI systems, with standards and certifications fostering socially responsible products."
-      },
-      "newsId": "evt_144a848a7b1c2fe8",
-      "storyKey": "evt_144a848a7b1c2fe8",
-      "topic": "ai_general",
+      "newsId": "evt_fa3327622758d70a",
+      "storyKey": "evt_fa3327622758d70a",
+      "topic": "ai_software",
       "source": "IEEE Spectrum AI",
-      "link": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
-      "image": "https://spectrum.ieee.org/media-library/illustration-of-floating-hands-inspecting-the-use-of-ai-features-across-a-laptop-computer-academic-paper-and-the-world-wide-web.jpg?coordinates=143%2C0%2C143%2C0&height=800&id=68699342&width=1200",
-      "score": 7.65,
-      "publishedAt": "2026-11-17T19:00:03.000Z",
+      "link": "https://spectrum.ieee.org/ai-agent-manager",
+      "image": "https://spectrum.ieee.org/media-library/illustration-of-an-ai-agent-supervising-and-designating-tasks-to-smaller-ai-agents.jpg?coordinates=0%2C156%2C0%2C157&height=700&id=68511562&width=1245",
+      "score": 8.35,
+      "publishedAt": "2026-11-19T15:00:03.000Z",
       "evidence": [
         {
-          "claim": "IEEE has celebrated 10 years of incorporating ethics into AI systems.",
-          "source": "d1a014b5a1d9a07b"
-        },
-        {
-          "claim": "Standards and certifications are fostering socially responsible products in AI systems.",
-          "source": "d1a014b5a1d9a07b"
+          "claim": "Shepherd is a tool that uses version control and sandboxing to recover from AI missteps.",
+          "source": "73ffe286682afe82"
         }
       ],
       "sources": [
         {
           "name": "IEEE Spectrum AI",
-          "link": "https://spectrum.ieee.org/ieee-ethics-ai-systems"
+          "link": "https://spectrum.ieee.org/ai-agent-manager"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_f394da8b159a71cd",
+      "title": {
+        "es": "Por qué un científico de la computación cree que la superinteligencia no llegará",
+        "en": "Why a computer scientist thinks superintelligence won't happen"
+      },
+      "text": {
+        "es": "Un artículo argumenta que la idea de una explosión de inteligencia debido a la investigación de IA autónoma (RSI) es altamente especulativa y se basa en suposiciones no probadas. El autor señala que el progreso de la IA en áreas con acceso limitado a datos de entrenamiento ha sido menos dramático, lo que sugiere limitaciones fundamentales en el camino hacia la superinteligencia.",
+        "en": "An article argues that the idea of an intelligence explosion due to autonomous AI research (RSI) is highly speculative and based on unproven assumptions. The author notes that AI progress in areas with limited access to training data has been less dramatic, suggesting fundamental limitations in the path to superintelligence."
+      },
+      "newsId": "evt_f394da8b159a71cd",
+      "storyKey": "evt_f394da8b159a71cd",
+      "topic": "ai_general",
+      "source": "IEEE Spectrum AI",
+      "link": "https://spectrum.ieee.org/ai-superintelligence-debate",
+      "image": "https://spectrum.ieee.org/media-library/pop-art-robot-head-wired-to-colorful-neural-network-nodes-on-patterned-background.png?coordinates=0%2C124%2C0%2C124&height=700&id=68699683&width=1245",
+      "score": 7.65,
+      "publishedAt": "2026-11-19T12:00:03.000Z",
+      "evidence": [
+        {
+          "claim": "AI systems are already accelerating AI development, and labs are working on automated researchers.",
+          "source": "45da66611c9dcf9b"
+        },
+        {
+          "claim": "The idea of RSI leading to an intelligence explosion is highly speculative and based on many unproven assumptions.",
+          "source": "45da66611c9dcf9b"
+        },
+        {
+          "claim": "AI progress in areas that lack easy access to training data has been less dramatic.",
+          "source": "45da66611c9dcf9b"
+        },
+        {
+          "claim": "The deployment of automated coding agents and LLM-powered researchers won’t overcome the fundamental limitation of relying on human-generated data.",
+          "source": "45da66611c9dcf9b"
+        },
+        {
+          "claim": "The next intelligence level requires double the resources, and then the next level requires double again, making it impossible to keep advancing toward ASI.",
+          "source": "45da66611c9dcf9b"
+        }
+      ],
+      "sources": [
+        {
+          "name": "IEEE Spectrum AI",
+          "link": "https://spectrum.ieee.org/ai-superintelligence-debate"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_00d38857c719fd13",
+      "title": {
+        "es": "Canva introduce controles para ocultar funciones de IA generativa",
+        "en": "Canva introduces controls to hide generative AI features"
+      },
+      "text": {
+        "es": "Canva está introduciendo nuevos ajustes que permiten a los usuarios ocultar funciones de IA generativa y ver menos contenido generado por IA. Esta función responde a las preferencias de usuarios que buscan un entorno de diseño más centrado en herramientas tradicionales.",
+        "en": "Canva is introducing new settings that allow users to hide generative AI features and see less AI-generated content. This feature responds to the preferences of users seeking a design environment more focused on traditional tools."
+      },
+      "newsId": "evt_00d38857c719fd13",
+      "storyKey": "evt_00d38857c719fd13",
+      "topic": "tech",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/11/19/canva-introduces-new-controls-to-hide-generative-ai-features",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/canva-ai.jpg?quality=82&strip=all&w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-11-19T12:30:00.000Z",
+      "evidence": [
+        {
+          "claim": "Canva is introducing new settings that let users hide generative AI features.",
+          "source": "43552bf2110614b2"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/11/19/canva-introduces-new-controls-to-hide-generative-ai-features"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_b6ae229cde8a44fa",
+      "title": {
+        "es": "Apple HomeView: un dispositivo fijo que puede ser portátil con una batería",
+        "en": "Apple HomeView: a stationary device that can be portable with a battery"
+      },
+      "text": {
+        "es": "Apple HomeView es un dispositivo diseñado para ser fijo, pero puede moverse desconectando el cable USB-C. El modelo base de altavoz requiere 30W, mientras que la opción de pared requiere 20W. Una batería MagSafe pequeña para iPhone fue capaz de alimentar el HomeView sin problemas, ofreciendo cierta flexibilidad de ubicación.",
+        "en": "Apple HomeView is a device designed to be stationary, but it can be moved by unplugging the USB-C cable. The base speaker model requires 30W, while the wall-mounted option requires 20W. A small MagSafe battery for iPhone was able to power the HomeView without issues, offering some location flexibility."
+      },
+      "newsId": "evt_b6ae229cde8a44fa",
+      "storyKey": "evt_b6ae229cde8a44fa",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/11/20/apple-homeview-doesnt-need-to-be-portable-but-it-can-be-with-a-battery",
+      "image": "https://media.appleinsider.com/gallery/69897-147347-Apple-HomeView-speaker-base-kitchen-table-photo-face-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-20T03:57:52.000Z",
+      "evidence": [
+        {
+          "claim": "Apple HomeView can be moved by unplugging the USB-C cable.",
+          "source": "2f6257992488f2cf"
+        },
+        {
+          "claim": "Apple HomeView has a stationary design.",
+          "source": "2f6257992488f2cf"
+        },
+        {
+          "claim": "Apple HomeView has a simple power requirement.",
+          "source": "2f6257992488f2cf"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/11/20/apple-homeview-doesnt-need-to-be-portable-but-it-can-be-with-a-battery"
         }
       ],
       "what_changed": []
@@ -388,87 +428,87 @@
   ],
   "trending_repos": [
     {
-      "id": "vercel-labs/ui",
-      "repoKey": "vercel-labs/ui",
-      "name": "ui",
-      "full_name": "vercel-labs/ui",
-      "link": "https://github.com/vercel-labs/ui",
-      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+      "id": "interfere-inc/landmines",
+      "repoKey": "interfere-inc/landmines",
+      "name": "landmines",
+      "full_name": "interfere-inc/landmines",
+      "link": "https://github.com/interfere-inc/landmines",
+      "description": "Oxlint rules that keep AI-written code honest: real implementations, real signals, no flake masking.",
       "language": "TypeScript",
-      "stars": 5864,
-      "stars_today": 321,
-      "stars_per_day_estimate": 316.7648539033127,
+      "stars": 680,
+      "stars_today": 92,
+      "stars_per_day_estimate": 93.25160162687723,
       "trend_basis": "observed_about_24h",
-      "trend_score": 11.288480912701194,
+      "trend_score": 9.355845666837846,
       "default_branch": "main",
-      "created_at": "2026-10-26T17:39:27Z",
-      "pushed_at": "2026-11-18T20:32:19Z",
+      "created_at": "2026-10-28T16:10:27Z",
+      "pushed_at": "2026-11-18T22:42:17Z",
       "why_it_matters": {
-        "es": "Una biblioteca de comportamientos para agentes que construyen interfaces de usuario de próxima generación, con adaptadores para React, Vue, Svelte, Solid y Web Components.",
-        "en": "A library of behaviors for agents to build next-generation user interfaces, with adapters for React, Vue, Svelte, Solid, and Web Components."
+        "es": "Landmines es un conjunto de reglas de Oxlint que mantienen honesto el código escrito por IA, evitando prácticas como mocks innecesarios, sleeps fijos y enmascarado de flake. Es útil para equipos que integran agentes de IA en sus flujos de CI y buscan garantizar la calidad del código generado.",
+        "en": "Landmines is a set of Oxlint rules that keep AI-written code honest, preventing practices like unnecessary mocks, fixed sleeps, and flake masking. It is useful for teams integrating AI agents into their CI pipelines and seeking to ensure the quality of generated code."
       }
     },
     {
-      "id": "FrigadeHQ/yogurt",
-      "repoKey": "FrigadeHQ/yogurt",
-      "name": "yogurt",
-      "full_name": "FrigadeHQ/yogurt",
-      "link": "https://github.com/FrigadeHQ/yogurt",
-      "description": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+      "id": "n8n-io/nod",
+      "repoKey": "n8n-io/nod",
+      "name": "nod",
+      "full_name": "n8n-io/nod",
+      "link": "https://github.com/n8n-io/nod",
+      "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
       "language": "TypeScript",
-      "stars": 2374,
+      "stars": 2679,
       "stars_today": null,
-      "stars_per_day_estimate": 258.9981542791563,
-      "trend_basis": "normalized_46.0h",
-      "trend_score": 11.022094488072968,
+      "stars_per_day_estimate": 173.0044782930058,
+      "trend_basis": "normalized_48.0h",
+      "trend_score": 10.44217967508036,
       "default_branch": "main",
-      "created_at": "2026-11-10T20:01:01Z",
-      "pushed_at": "2026-11-18T23:18:26Z",
+      "created_at": "2026-09-25T13:46:42Z",
+      "pushed_at": "2026-11-19T22:55:14Z",
       "why_it_matters": {
-        "es": "Notas de reunión privadas de IA que permanecen en tu computadora, una alternativa gratuita y de código abierto a Granola para Mac, Windows y Linux.",
-        "en": "Private AI meeting notes that stay on your computer, a free, open-source alternative to Granola for Mac, Windows, and Linux."
+        "es": "Nod es un agente personal de código abierto con su propio ordenador que puede perseguir facturas, preparar llamadas y cancelar pruebas en sitios web reales. Se ejecuta en tu máquina con el modelo que elijas y pide confirmación antes de actuar, lo que lo hace relevante para automatización de tareas personales y empresariales.",
+        "en": "Nod is an open-source personal agent with its own computer that can chase invoices, prep calls, and cancel trials on real websites. It runs on your machine with the model you choose and asks for confirmation before acting, making it relevant for personal and business task automation."
       }
     },
     {
-      "id": "wangzan101/Mika",
-      "repoKey": "wangzan101/Mika",
-      "name": "Mika",
-      "full_name": "wangzan101/Mika",
-      "link": "https://github.com/wangzan101/Mika",
-      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "language": "Kotlin",
-      "stars": 9093,
-      "stars_today": 130,
-      "stars_per_day_estimate": 128.28483179884938,
-      "trend_basis": "observed_about_24h",
-      "trend_score": 9.973764184459625,
+      "id": "CopilotKit/OpenBot",
+      "repoKey": "CopilotKit/OpenBot",
+      "name": "OpenBot",
+      "full_name": "CopilotKit/OpenBot",
+      "link": "https://github.com/CopilotKit/OpenBot",
+      "description": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
+      "language": "TypeScript",
+      "stars": 12960,
+      "stars_today": null,
+      "stars_per_day_estimate": 122.6888237934181,
+      "trend_basis": "normalized_69.6h",
+      "trend_score": 9.950196312271597,
       "default_branch": "main",
-      "created_at": "2026-10-29T14:34:07Z",
-      "pushed_at": "2026-11-18T18:27:41Z",
+      "created_at": "2026-08-17T00:44:59Z",
+      "pushed_at": "2026-11-19T22:58:18Z",
       "why_it_matters": {
-        "es": "Un agente de IA en tu teléfono Android que opera aplicaciones y la web para hacer cosas por ti, con datos privados en tu dispositivo.",
-        "en": "An on-device AI agent for Android that operates apps and the web to get things done for you, with private data on your device."
+        "es": "OpenBot es una alternativa autoalojable y de código abierto a los bots de IA cerrados, lista para producción y totalmente personalizable. Se integra con cualquier agente, modelo y herramienta, lo que la hace atractiva para empresas que buscan controlar su infraestructura de IA.",
+        "en": "OpenBot is a self-hostable, open-source alternative to closed AI bots, production-ready and fully customizable. It plugs into any agent, model, and tool, making it attractive for enterprises seeking to control their AI infrastructure."
       }
     },
     {
-      "id": "DIYgod/pinky",
-      "repoKey": "DIYgod/pinky",
-      "name": "pinky",
-      "full_name": "DIYgod/pinky",
-      "link": "https://github.com/DIYgod/pinky",
-      "description": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
-      "language": "Go",
-      "stars": 2459,
-      "stars_today": 85,
-      "stars_per_day_estimate": 83.87854386847845,
+      "id": "ysunyang4/Nexus",
+      "repoKey": "ysunyang4/Nexus",
+      "name": "Nexus",
+      "full_name": "ysunyang4/Nexus",
+      "link": "https://github.com/ysunyang4/Nexus",
+      "description": "Connect web AI assistants to local files, terminals, Git, and desktop tools through MCP, with user-controlled permissions.",
+      "language": "TypeScript",
+      "stars": 431,
+      "stars_today": 25,
+      "stars_per_day_estimate": 25.34010913773838,
       "trend_basis": "observed_about_24h",
-      "trend_score": 9.260525566052115,
+      "trend_score": 7.648650040849121,
       "default_branch": "main",
-      "created_at": "2026-11-06T16:53:14Z",
-      "pushed_at": "2026-11-18T05:43:21Z",
+      "created_at": "2026-11-13T13:46:21Z",
+      "pushed_at": "2026-11-19T14:33:07Z",
       "why_it_matters": {
-        "es": "Permite que la IA use tu iPhone o Android, con tú en el bucle: cualquier agente MCP desde macOS, Windows o Linux, o Pinky mismo, directamente en el teléfono.",
-        "en": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows, or Linux, or Pinky itself, right on the phone."
+        "es": "Nexus conecta asistentes de IA web con archivos locales, terminales, Git y herramientas de escritorio a través de MCP, con permisos controlados por el usuario. Ofrece un plano de control local seguro para agentes de IA, lo que es útil para desarrolladores que trabajan con asistentes de IA en su entorno local.",
+        "en": "Nexus connects web AI assistants to local files, terminals, Git, and desktop tools through MCP, with user-controlled permissions. It provides a secure local control plane for AI agents, which is useful for developers working with AI assistants in their local environment."
       }
     }
   ],
@@ -477,8 +517,8 @@
     "topics": {
       "apple": 2,
       "ai_software": 1,
-      "ai_general": 2,
-      "tech": 1
+      "ai_general": 1,
+      "tech": 2
     }
   }
 }
