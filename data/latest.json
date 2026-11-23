@@ -1,272 +1,360 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-11-20",
-  "date": "2026-11-20",
+  "edition_id": "wmt-2026-11-23",
+  "date": "2026-11-23",
   "daily_summary": {
-    "es": "Apple publica la beta pública 2 de iOS 27.3 con la nueva app de Salud, mientras Meta y Axiom Math avanzan en agentes de IA y verificación matemática, y Cloudflare detalla cómo protege sus orígenes de nuevas vulnerabilidades de nginx.",
-    "en": "Apple releases iOS 27.3 public beta 2 with the new Health app, while Meta and Axiom Math advance AI agents and mathematical verification, and Cloudflare details how it protects origins from new nginx vulnerabilities."
+    "es": "Ollama añade soporte para Inkling 2 Mini y ejecución concurrente en Apple silicon, mientras Cloudflare y JetBrains alertan sobre vulnerabilidades críticas en Ruby y Java.",
+    "en": "Ollama adds support for Inkling 2 Mini and concurrent execution on Apple silicon, while Cloudflare and JetBrains alert on critical vulnerabilities in Ruby and Java."
   },
   "topic_summaries": {
     "apple": {
-      "es": "Apple ha lanzado la beta pública 2 de iOS 27.3, que incluye la nueva aplicación de Salud en español, más capacidades de Siri y controles de Calendario. Además, Jon McCormack, responsable de las apps de Cámara y Fotos, se retira de la empresa.",
-      "en": "Apple has released iOS 27.3 public beta 2, which includes the new Health app in Spanish, more Siri capabilities, and Calendar controls. Additionally, Jon McCormack, head of the Camera and Photos apps, is retiring from the company."
+      "es": "Apple documenta límites de uso de Apple Intelligence por nivel de iCloud+ y un filtrado sugiere más widgets en la pantalla de bloqueo del iPhone Duo.",
+      "en": "Apple documents usage limits for Apple Intelligence by iCloud+ tier, and a leak suggests more widgets on the iPhone Duo Lock Screen."
     },
     "ai_software": {
-      "es": "Meta detalla cómo utiliza agentes de IA para escalar innovaciones en modelos de clasificación de anuncios, mientras que Shepherd ofrece una herramienta para gestionar agentes de IA mediante control de versiones y sandboxing. OpenBot se presenta como una alternativa autoalojable para bots de IA empresariales.",
-      "en": "Meta details how it uses AI agents to scale innovations in ads ranking models, while Shepherd offers a tool to manage AI agents using version control and sandboxing. OpenBot is presented as a self-hostable alternative for enterprise AI bots."
+      "es": "Ollama v0.40.17 soporta Inkling 2 Mini y ejecución concurrente en Apple silicon; un informe detalla el uso de agentes de IA para explotar una vulnerabilidad 0-day.",
+      "en": "Ollama v0.40.17 supports Inkling 2 Mini and concurrent execution on Apple silicon; a report details the use of AI agents to exploit a 0-day vulnerability."
     },
     "ai_general": {
-      "es": "Axiom Math anuncia resultados que demuestran la profundidad de la verificación asistida por IA en matemáticas, y un científico de la computación argumenta que la superinteligencia no llegará debido a limitaciones fundamentales en los datos de entrenamiento.",
-      "en": "Axiom Math announces results demonstrating the depth of AI-assisted verification in mathematics, and a computer scientist argues that superintelligence will not happen due to fundamental limitations in training data."
+      "es": "METR actualiza su gráfico de horizonte temporal de IA, añadiendo tareas más largas y abiertas para evaluar la capacidad de los modelos.",
+      "en": "METR updates its AI time horizon plot, adding longer and more open-ended tasks to evaluate model capabilities."
     },
     "tech": {
-      "es": "Cloudflare explica cómo su infraestructura de borde, basada en Rust, no se ve afectada por las nuevas vulnerabilidades de nginx, y Blue Origin confirmará el lanzamiento de satélites de servidores de IA de Google en 2029.",
-      "en": "Cloudflare explains how its Rust-based edge infrastructure is unaffected by the new nginx vulnerabilities, and Blue Origin will launch Google's AI server satellites in 2029."
+      "es": "Cloudflare bloquea ruby2shell para todos sus clientes y JetBrains alerta sobre una vulnerabilidad crítica en Java que afecta a YouTrack Server.",
+      "en": "Cloudflare blocks ruby2shell for all its customers, and JetBrains alerts on a critical Java vulnerability affecting YouTrack Server."
     }
   },
   "summary": {
     "apple": {
-      "es": "Apple ha lanzado la beta pública 2 de iOS 27.3, que incluye la nueva aplicación de Salud en español, más capacidades de Siri y controles de Calendario. Además, Jon McCormack, responsable de las apps de Cámara y Fotos, se retira de la empresa.",
-      "en": "Apple has released iOS 27.3 public beta 2, which includes the new Health app in Spanish, more Siri capabilities, and Calendar controls. Additionally, Jon McCormack, head of the Camera and Photos apps, is retiring from the company."
+      "es": "Apple documenta límites de uso de Apple Intelligence por nivel de iCloud+ y un filtrado sugiere más widgets en la pantalla de bloqueo del iPhone Duo.",
+      "en": "Apple documents usage limits for Apple Intelligence by iCloud+ tier, and a leak suggests more widgets on the iPhone Duo Lock Screen."
     },
     "ai_software": {
-      "es": "Meta detalla cómo utiliza agentes de IA para escalar innovaciones en modelos de clasificación de anuncios, mientras que Shepherd ofrece una herramienta para gestionar agentes de IA mediante control de versiones y sandboxing. OpenBot se presenta como una alternativa autoalojable para bots de IA empresariales.",
-      "en": "Meta details how it uses AI agents to scale innovations in ads ranking models, while Shepherd offers a tool to manage AI agents using version control and sandboxing. OpenBot is presented as a self-hostable alternative for enterprise AI bots."
+      "es": "Ollama v0.40.17 soporta Inkling 2 Mini y ejecución concurrente en Apple silicon; un informe detalla el uso de agentes de IA para explotar una vulnerabilidad 0-day.",
+      "en": "Ollama v0.40.17 supports Inkling 2 Mini and concurrent execution on Apple silicon; a report details the use of AI agents to exploit a 0-day vulnerability."
     },
     "ai_general": {
-      "es": "Axiom Math anuncia resultados que demuestran la profundidad de la verificación asistida por IA en matemáticas, y un científico de la computación argumenta que la superinteligencia no llegará debido a limitaciones fundamentales en los datos de entrenamiento.",
-      "en": "Axiom Math announces results demonstrating the depth of AI-assisted verification in mathematics, and a computer scientist argues that superintelligence will not happen due to fundamental limitations in training data."
+      "es": "METR actualiza su gráfico de horizonte temporal de IA, añadiendo tareas más largas y abiertas para evaluar la capacidad de los modelos.",
+      "en": "METR updates its AI time horizon plot, adding longer and more open-ended tasks to evaluate model capabilities."
     },
     "tech": {
-      "es": "Cloudflare explica cómo su infraestructura de borde, basada en Rust, no se ve afectada por las nuevas vulnerabilidades de nginx, y Blue Origin confirmará el lanzamiento de satélites de servidores de IA de Google en 2029.",
-      "en": "Cloudflare explains how its Rust-based edge infrastructure is unaffected by the new nginx vulnerabilities, and Blue Origin will launch Google's AI server satellites in 2029."
+      "es": "Cloudflare bloquea ruby2shell para todos sus clientes y JetBrains alerta sobre una vulnerabilidad crítica en Java que afecta a YouTrack Server.",
+      "en": "Cloudflare blocks ruby2shell for all its customers, and JetBrains alerts on a critical Java vulnerability affecting YouTrack Server."
     }
   },
   "top_stories": [
     {
-      "id": "evt_8f696bde6665b2b0",
+      "id": "evt_bdcf06fac08fe2c6",
       "title": {
-        "es": "Apple publica la beta pública 2 de iOS 27.3 con la nueva app de Salud",
-        "en": "Apple releases iOS 27.3 public beta 2 with the new Health app"
+        "es": "Ollama v0.40.17 soporta Inkling 2 Mini y ejecución concurrente en Apple silicon",
+        "en": "Ollama v0.40.17 supports Inkling 2 Mini and concurrent execution on Apple silicon"
       },
       "body": {
-        "es": "Apple ha lanzado la segunda beta pública de iOS 27.3 para iPhone, que incluye una nueva aplicación de Salud rediseñada, más capacidades de IA para Siri y nuevos controles en Calendario. La actualización también incorpora funciones para iPhone Duo y cambios introducidos anteriormente este mes. Para los desarrolladores, se ha publicado una nueva compilación de la beta 2.",
-        "en": "Apple has released the second public beta of iOS 27.3 for iPhone, which includes a redesigned Health app, more AI capabilities for Siri, and new Calendar controls. The update also incorporates features for iPhone Duo and changes introduced earlier this month. For developers, a new build of beta 2 has been published."
+        "es": "Ollama ha lanzado la versión 0.40.17, que añade soporte para el modelo Inkling 2 Mini de Thinking Machines, un modelo de 26B parámetros que ocupa unos 20 GB y obtiene un 79,2 % en SWE-Bench Verified. La actualización también permite a Ollama en Apple silicon servir múltiples solicitudes simultáneamente y corrige fallos de carga en GPUs integradas mediante el uso de mmap en Vulkan. Esto permite a los desarrolladores ejecutar modelos de IA más grandes y complejos localmente en Macs con Apple silicon, mejorando el rendimiento y la fiabilidad.",
+        "en": "Ollama has released version 0.40.17, which adds support for Thinking Machines' Inkling 2 Mini model, a 26B parameter model that takes up about 20 GB and scores 79.2% on SWE-Bench Verified. The update also allows Ollama on Apple silicon to serve multiple requests at once and fixes load failures on integrated GPUs by using mmap in Vulkan. This allows developers to run larger and more complex AI models locally on Macs with Apple silicon, improving performance and reliability."
       },
-      "newsId": "evt_8f696bde6665b2b0",
-      "storyKey": "evt_8f696bde6665b2b0",
-      "topic": "apple",
-      "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/11/19/apple-releases-ios-27-3-public-beta-2-heres-whats-new",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/iOS-27.3-public.jpg?quality=82&strip=all&w=1600",
-      "score": 7.65,
-      "publishedAt": "2026-11-19T21:37:58.000Z",
-      "evidence": [
-        {
-          "claim": "Apple has released iOS 27.3 public beta 2 for iPhone.",
-          "source": "3113097d6fae0ac3"
-        },
-        {
-          "claim": "Today’s release also includes a new build for iOS 27.3 beta 2 for developers.",
-          "source": "3113097d6fae0ac3"
-        },
-        {
-          "claim": "The update brings new Calendar controls, more Siri AI capabilities, and new features for iPhone Duo.",
-          "source": "3113097d6fae0ac3"
-        },
-        {
-          "claim": "It also includes the redesigned Health app and other changes introduced earlier this month.",
-          "source": "3113097d6fae0ac3"
-        }
-      ],
-      "sources": [
-        {
-          "name": "9to5Mac",
-          "link": "https://9to5mac.com/2026/11/19/apple-releases-ios-27-3-public-beta-2-heres-whats-new"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_cc2890aed1b719dc",
-      "title": {
-        "es": "Meta escala innovaciones en IA para modelos de clasificación de anuncios",
-        "en": "Meta scales AI innovations for ads ranking models"
-      },
-      "body": {
-        "es": "Meta ha publicado detalles sobre cómo utiliza agentes de IA autónomos para generar hipótesis, diseñar experimentos y demostrar nuevas técnicas de aprendizaje automático en sus modelos de clasificación de anuncios. Este enfoque, conocido como Ranking Engineer Agent, permite a la empresa escalar la innovación en su infraestructura publicitaria. La iniciativa destaca el uso de agentes de IA para optimizar procesos complejos de ingeniería de ML.",
-        "en": "Meta has published details on how it uses autonomous AI agents to generate hypotheses, design experiments, and prove new machine learning techniques in its ads ranking models. This approach, known as the Ranking Engineer Agent, allows the company to scale innovation in its advertising infrastructure. The initiative highlights the use of AI agents to optimize complex ML engineering processes."
-      },
-      "newsId": "evt_cc2890aed1b719dc",
-      "storyKey": "evt_cc2890aed1b719dc",
+      "newsId": "evt_bdcf06fac08fe2c6",
+      "storyKey": "evt_bdcf06fac08fe2c6",
       "topic": "ai_software",
-      "source": "Meta Engineering",
-      "link": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models",
-      "image": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-Scaling-Techniques-image-2-3.png",
-      "score": 8.35,
-      "publishedAt": "2026-11-18T17:00:00.000Z",
+      "source": "Ollama Releases",
+      "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
+      "image": "https://opengraph.githubassets.com/4fef7022481ee2ad87e1470497dcdc7d5f946fb4a9a72c378585f564a272a1e4/ollama/ollama/releases/tag/v0.40.17",
+      "score": 8.6,
+      "publishedAt": "2026-11-21T04:05:14.000Z",
       "evidence": [
         {
-          "claim": "Meta uses AI agents to generate hypotheses, design experiments, and prove new ML techniques on ads ranking models.",
-          "source": "1e3dd25741d3163b"
+          "claim": "Ollama release v0.40.17 supports the Inkling 2 Mini model.",
+          "source": "69fde71b4c8d9333"
+        },
+        {
+          "claim": "The Inkling 2 Mini model scores 79.2% on SWE-Bench.",
+          "source": "69fde71b4c8d9333"
+        },
+        {
+          "claim": "Ollama launch claude supports deferred tool loading.",
+          "source": "69fde71b4c8d9333"
+        },
+        {
+          "claim": "Ollama on Apple silicon now serves multiple requests at once.",
+          "source": "69fde71b4c8d9333"
+        },
+        {
+          "claim": "Vulkan now uses mmap for integrated GPUs, fixing load failures on shared-memory GPUs.",
+          "source": "69fde71b4c8d9333"
         }
       ],
       "sources": [
         {
-          "name": "Meta Engineering",
-          "link": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models"
+          "name": "Ollama Releases",
+          "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_f307f327dff4f27d",
+      "id": "evt_1b4a562dbd87929b",
       "title": {
-        "es": "Axiom Math avanza en la formalización de las matemáticas con IA",
-        "en": "Axiom Math advances in formalizing mathematics with AI"
+        "es": "Cloudflare WAF bloquea ruby2shell para todos sus clientes",
+        "en": "Cloudflare WAF blocks ruby2shell for all its customers"
       },
       "body": {
-        "es": "Axiom Math ha anunciado dos resultados que demuestran la amplitud y profundidad de la verificación matemática asistida por IA. La startup trabaja en formalizar áreas de las matemáticas utilizando enjambres de IA, lo que podría tener implicaciones significativas para la verificación de teoremas y la investigación matemática. Estos avances muestran el potencial de la IA para abordar problemas de alta complejidad en campos formales.",
-        "en": "Axiom Math has announced two results demonstrating the breadth and depth of AI-assisted mathematical verification. The startup is working on formalizing areas of mathematics using AI swarms, which could have significant implications for theorem verification and mathematical research. These advances show the potential of AI to tackle high-complexity problems in formal fields."
+        "es": "Cloudflare ha activado el bloqueo de la vulnerabilidad ruby2shell (CVE-2026-132825) en su WAF para todos los clientes, incluidos los del plan gratuito. La vulnerabilidad afecta a aplicaciones Ruby, incluyendo Ruby on Rails y Sinatra, y ha sido corregida en Ruby 3.3.14, 3.4.13 y 4.0.10. Los administradores de servidores que ejecutan aplicaciones Ruby deben actualizar sus sistemas para mitigar el riesgo, ya que la vulnerabilidad puede ser explotada antes de la autenticación.",
+        "en": "Cloudflare has enabled blocking for the ruby2shell vulnerability (CVE-2026-132825) in its WAF for all customers, including those on the Free plan. The vulnerability affects Ruby applications, including Ruby on Rails and Sinatra, and has been fixed in Ruby 3.3.14, 3.4.13, and 4.0.10. Server administrators running Ruby applications should update their systems to mitigate the risk, as the vulnerability can be exploited before authentication."
       },
-      "newsId": "evt_f307f327dff4f27d",
-      "storyKey": "evt_f307f327dff4f27d",
-      "topic": "ai_general",
-      "source": "IEEE Spectrum AI",
-      "link": "https://spectrum.ieee.org/enormous-theorem-ai",
-      "image": "https://spectrum.ieee.org/media-library/a-dot-with-thousands-of-plotted-points-radiating-from-its-center.jpg?coordinates=0%2C150%2C0%2C151&height=700&id=68692858&width=1245",
-      "score": 8.35,
-      "publishedAt": "2026-11-18T13:00:03.000Z",
-      "evidence": [
-        {
-          "claim": "Axiom Math announces two results demonstrating the breadth and depth of AI-assisted verification.",
-          "source": "f6da94121325760e"
-        }
-      ],
-      "sources": [
-        {
-          "name": "IEEE Spectrum AI",
-          "link": "https://spectrum.ieee.org/enormous-theorem-ai"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_bf0f5c47084f4b65",
-      "title": {
-        "es": "Cloudflare detalla cómo protege sus orígenes de vulnerabilidades de nginx",
-        "en": "Cloudflare details how it protects origins from nginx vulnerabilities"
-      },
-      "body": {
-        "es": "Cloudflare ha explicado que su infraestructura de borde no se ve afectada por las nuevas vulnerabilidades de nginx, ya que gran parte del proxy que maneja el tráfico de clientes ahora se ejecuta en FL2, escrito en Rust. La empresa ha detallado cómo estas vulnerabilidades podrían afectar a los orígenes y cómo su arquitectura actual mitiga los riesgos. Esta información es relevante para los equipos que dependen de nginx en sus orígenes y buscan entender las implicaciones de seguridad.",
-        "en": "Cloudflare has explained that its edge infrastructure is not affected by the new nginx vulnerabilities, as much of the proxy handling customer traffic now runs on FL2, written in Rust. The company has detailed how these vulnerabilities could affect origins and how its current architecture mitigates the risks. This information is relevant for teams relying on nginx in their origins and seeking to understand the security implications."
-      },
-      "newsId": "evt_bf0f5c47084f4b65",
-      "storyKey": "evt_bf0f5c47084f4b65",
+      "newsId": "evt_1b4a562dbd87929b",
+      "storyKey": "evt_1b4a562dbd87929b",
       "topic": "tech",
       "source": "Cloudflare Blog",
-      "link": "https://blog.cloudflare.com/nginx2root",
-      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7V6N9XSHCT1GMC5KHVYE692.01M7V6NAA3FDH1YV1552W4P5P7.png",
+      "link": "https://blog.cloudflare.com/ruby2shell-waf-protection",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7X91E3PVQ8147SJ7B05N2WK.png",
       "score": 8.35,
-      "publishedAt": "2026-11-20T01:58:29.000Z",
+      "publishedAt": "2026-11-20T20:24:38.000Z",
       "evidence": [
         {
-          "claim": "Cloudflare's edge is not affected by the nginx2root vulnerabilities, as the proxy that handles customer traffic at the edge now runs on FL2, written in Rust.",
-          "source": "03ad7e27eaa24189"
+          "claim": "Cloudflare WAF blocks ruby2shell for all customers, including those on the Free plan.",
+          "source": "89e8c156fab14450"
+        },
+        {
+          "claim": "The reach is wide, with self-hosted products that bundle Ruby, including GitLab, GitHub Enterprise Server, Mastodon, OpenProject, Discourse and Chatwoot, shipped an affected Ruby in their latest release at the time of disclosure.",
+          "source": "89e8c156fab14450"
+        },
+        {
+          "claim": "Ruby 3.3.14, 3.4.13, and 4.0.10 fix the ruby2shell vulnerability.",
+          "source": "89e8c156fab14450"
+        },
+        {
+          "claim": "Cloudflare has patched its systems that use Ruby against ruby2shell.",
+          "source": "89e8c156fab14450"
+        },
+        {
+          "claim": "Veria Labs reports that Ruby on Rails and classic-style Sinatra applications reach the bug in their default configuration, before any authentication.",
+          "source": "89e8c156fab14450"
         }
       ],
       "sources": [
         {
           "name": "Cloudflare Blog",
-          "link": "https://blog.cloudflare.com/nginx2root"
+          "link": "https://blog.cloudflare.com/ruby2shell-waf-protection"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_47f35fbc883b3e02",
+      "id": "evt_1cc95a1254057b1c",
       "title": {
-        "es": "Blue Origin lanzará satélites de servidores de IA de Google en 2029",
-        "en": "Blue Origin will launch Google's AI server satellites in 2029"
+        "es": "JetBrains alerta sobre vulnerabilidad crítica en Java que afecta a YouTrack Server",
+        "en": "JetBrains alerts on critical Java vulnerability affecting YouTrack Server"
       },
       "body": {
-        "es": "Blue Origin ha confirmado que lanzará satélites equipados con unidades de procesamiento tensorial (TPU) de Google en el primer trimestre de 2029. Este lanzamiento, que será el primer lanzamiento pesado dedicado para el Proyecto Suncatcher de Google, colocará satélites con capacidad de cómputo a escala de un rack de centro de datos en órbita heliosíncrona. La iniciativa marca un paso significativo en la expansión de la infraestructura de IA al espacio.",
-        "en": "Blue Origin has confirmed it will launch satellites equipped with Google's Tensor Processing Units (TPUs) in the first quarter of 2029. This launch, which will be the first dedicated heavy-lift launch for Google's Project Suncatcher, will place satellites with data center rack-scale computing capacity into sun-synchronous orbit. The initiative marks a significant step in expanding AI infrastructure to space."
+        "es": "JetBrains ha emitido una alerta de seguridad para YouTrack Server debido a una vulnerabilidad crítica en Java, identificada como CVE-2026-114938 o Java4Shell. La vulnerabilidad afecta a los runtimes de Java utilizados por muchas aplicaciones, incluyendo YouTrack Server, y requiere que los administradores actualicen sus sistemas para mitigar el riesgo. La divulgación pública de la vulnerabilidad tuvo lugar el 17 de noviembre de 2026.",
+        "en": "JetBrains has issued a security alert for YouTrack Server due to a critical vulnerability in Java, identified as CVE-2026-114938 or Java4Shell. The vulnerability affects Java runtimes used by many applications, including YouTrack Server, and requires administrators to update their systems to mitigate the risk. The public disclosure of the vulnerability took place on November 17, 2026."
       },
-      "newsId": "evt_47f35fbc883b3e02",
-      "storyKey": "evt_47f35fbc883b3e02",
+      "newsId": "evt_1cc95a1254057b1c",
+      "storyKey": "evt_1cc95a1254057b1c",
       "topic": "tech",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/project-suncatcher-logo.png?crop=0,0,100,100&quality=90&strip=all",
-      "score": 7.65,
-      "publishedAt": "2026-11-19T13:53:38.000Z",
+      "source": "JetBrains Blog",
+      "link": "https://blog.jetbrains.com/youtrack/2026/11/security-update-for-youtrack-server-java-vulnerability-cve-2026-114938-java4shell",
+      "image": "https://blog.jetbrains.com/wp-content/uploads/2026/11/YT-social-BlogSocialShare-1280x720-1-1.png",
+      "score": 8.35,
+      "publishedAt": "2026-11-20T13:24:50.000Z",
       "evidence": [
         {
-          "claim": "Blue Origin will launch Google’s AI server satellites in 2029.",
-          "source": "c4bb5acbbb7c5969"
+          "claim": "A critical vulnerability in Java was publicly disclosed on November 17, 2026, with the CVE identifier CVE-2026-114938.",
+          "source": "96361074c9bf9136"
         },
         {
-          "claim": "The launch will be the first dedicated heavy-lift launch for Google’s Project Suncatcher.",
-          "source": "c4bb5acbbb7c5969"
+          "claim": "The vulnerability affects Java runtimes used by many applications, including YouTrack Server.",
+          "source": "96361074c9bf9136"
         },
         {
-          "claim": "Google’s AI server satellite previously launched aboard SpaceX’s Falcon 9 rocket as part of a “rideshare” launch.",
-          "source": "c4bb5acbbb7c5969"
-        },
-        {
-          "claim": "The satellites will have the computing capacity at roughly the scale of a data center rack.",
-          "source": "c4bb5acbbb7c5969"
+          "claim": "YouTrack Server administrators are required to update their systems to mitigate the vulnerability.",
+          "source": "96361074c9bf9136"
         }
       ],
       "sources": [
         {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029"
+          "name": "JetBrains Blog",
+          "link": "https://blog.jetbrains.com/youtrack/2026/11/security-update-for-youtrack-server-java-vulnerability-cve-2026-114938-java4shell"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_20cec132964cb91c",
+      "id": "evt_a8c1e07111f34877",
       "title": {
-        "es": "Jon McCormack se retira de Apple",
-        "en": "Jon McCormack retires from Apple"
+        "es": "Agentes de IA explotaron una vulnerabilidad 0-day en una aplicación de imagen médica",
+        "en": "AI agents exploited a 0-day vulnerability in a medical imaging application"
       },
       "body": {
-        "es": "Jon McCormack, responsable de las aplicaciones de Cámara y Fotos en Apple, se ha retirado de la empresa. McCormack fue la cara pública de la función Center Stage para la cámara selfie introducida con la línea iPhone 17 y fue conocido por mantener ideas poco prácticas fuera de la app de Cámara. Recientemente publicó un libro de fotografía de naturaleza y viajes titulado 'Patterns: Art of the Natural World'.",
-        "en": "Jon McCormack, head of the Camera and Photos apps at Apple, has retired from the company. McCormack was the public face of the Center Stage selfie camera feature introduced with the iPhone 17 lineup and was known for keeping impractical ideas out of the Camera app. He recently published a nature and travel photography book titled 'Patterns: Art of the Natural World'."
+        "es": "Según el CISO de Amazon, CJ Moses, atacantes vinculados a China utilizaron agentes de IA para encontrar y explotar de forma autónoma una vulnerabilidad 0-day en MONAI Label, una aplicación de imagen médica de código abierto. Los agentes adaptaron su estrategia durante casi un día sin dirección humana, logrando el control total de un servidor en una red universitaria. Este incidente destaca el creciente uso de agentes de IA en operaciones de espionaje y ciberdelincuencia.",
+        "en": "According to Amazon CISO CJ Moses, China-linked attackers used AI agents to autonomously find and exploit a 0-day vulnerability in MONAI Label, an open-source medical imaging application. The agents adapted their strategy for nearly a day without human direction, gaining full control of a server in a university network. This incident highlights the growing use of AI agents in espionage and cybercrime operations."
       },
-      "newsId": "evt_20cec132964cb91c",
-      "storyKey": "evt_20cec132964cb91c",
-      "topic": "apple",
-      "source": "Daring Fireball",
-      "link": "https://daringfireball.net/2026/11/mccormack_retires_from_apple",
-      "image": "https://daringfireball.net/graphics/df-wide-card.png",
-      "score": 7.05,
-      "publishedAt": "2026-11-19T22:25:12.000Z",
+      "newsId": "evt_a8c1e07111f34877",
+      "storyKey": "evt_a8c1e07111f34877",
+      "topic": "ai_software",
+      "source": "The Register AI & ML",
+      "link": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+      "image": "https://image.theregister.com?imageId=5311400&width=800",
+      "score": 8.35,
+      "publishedAt": "2026-11-20T17:30:00.000Z",
       "evidence": [
         {
-          "claim": "Jon McCormack was responsible for the Camera and Photos apps and the underlying technology that determines how users capture, view and edit their pictures and video.",
-          "source": "d71d47992e5137ed"
+          "claim": "China-linked attackers used AI agents to autonomously find and exploit a zero-day vulnerability in an open-source application.",
+          "source": "d928f57c984735ae"
         },
         {
-          "claim": "Jon McCormack was the public face for the Center Stage selfie camera feature introduced with the iPhone 17 lineup.",
-          "source": "d71d47992e5137ed"
+          "claim": "The AI agents adapted autonomously for nearly a full day without human direction.",
+          "source": "d928f57c984735ae"
         },
         {
-          "claim": "Jon McCormack was known for keeping stupid ideas out of the Camera app, which is considered a more important management skill than adding good new features.",
-          "source": "d71d47992e5137ed"
+          "claim": "The AI agents found and exploited a zero-day vulnerability in MONAI Label, an open-source medical imaging AI application.",
+          "source": "d928f57c984735ae"
         },
         {
-          "claim": "Jon McCormack recently published a book titled 'Patterns: Art of the Natural World'.",
-          "source": "d71d47992e5137ed"
+          "claim": "The attackers used the AI agents to target university networks in East Asia, outside Mainland China.",
+          "source": "d928f57c984735ae"
+        },
+        {
+          "claim": "The attackers also used the AI agents to target other companies, including a Fortune 500 hospitality company and a major US airline.",
+          "source": "d928f57c984735ae"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Register AI & ML",
+          "link": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_5186e2786247df54",
+      "title": {
+        "es": "Apple documenta límites de uso de Apple Intelligence por nivel de iCloud+",
+        "en": "Apple documents usage limits for Apple Intelligence by iCloud+ tier"
+      },
+      "body": {
+        "es": "Apple ha documentado que las funciones de Apple Intelligence y Siri AI tienen límites de uso diarios, que pueden aumentarse actualizando el plan de iCloud+. Los límites se reinician alrededor de la medianoche en la zona horaria del usuario, con excepciones para viajes internacionales y grupos de Family Sharing. Esta medida busca garantizar una experiencia de alta calidad y fiable para todos los usuarios.",
+        "en": "Apple has documented that Apple Intelligence and Siri AI features have daily usage limits, which can be increased by upgrading the iCloud+ plan. The limits reset around midnight in the user's time zone, with exceptions for international travel and Family Sharing groups. This measure aims to ensure a high-quality, reliable experience for all users."
+      },
+      "newsId": "evt_5186e2786247df54",
+      "storyKey": "evt_5186e2786247df54",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://support.apple.com/en-us/127901",
+      "image": "https://daringfireball.net/misc/2026/11/apple-intelligence-siri-ai-daily-limits-table.png",
+      "score": 7.65,
+      "publishedAt": "2026-11-21T18:02:51.000Z",
+      "evidence": [
+        {
+          "claim": "Apple Intelligence and Siri AI features have daily usage limits.",
+          "source": "acce3702c1754054"
+        },
+        {
+          "claim": "Users can upgrade their iCloud+ plan to increase their daily usage limits for Apple Intelligence and Siri AI features.",
+          "source": "acce3702c1754054"
+        },
+        {
+          "claim": "The Siri AI limit in the 2027 software releases is more capable, conversational, and personal.",
+          "source": "acce3702c1754054"
+        },
+        {
+          "claim": "Users will be notified when they hit their daily usage limit for a particular feature category.",
+          "source": "acce3702c1754054"
+        },
+        {
+          "claim": "The daily usage limit resets around midnight in the user's current time zone.",
+          "source": "acce3702c1754054"
         }
       ],
       "sources": [
         {
           "name": "Daring Fireball",
-          "link": "https://daringfireball.net/2026/11/mccormack_retires_from_apple"
+          "link": "https://support.apple.com/en-us/127901"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_262da2eacd47da1c",
+      "title": {
+        "es": "Filtrado sugiere más widgets en la pantalla de bloqueo del iPhone Duo",
+        "en": "Leak suggests more widgets on the iPhone Duo Lock Screen"
+      },
+      "body": {
+        "es": "Un filtrado sugiere que Apple ha probado una 'columna de complicaciones' para la pantalla de bloqueo del iPhone Duo, que permite colocar dos widgets circulares en el borde derecho. Esta disposición puede usarse junto con la fila inferior existente, dando a los usuarios acceso a más información. La función aún no está disponible y podría no llegar a todos los usuarios.",
+        "en": "A leak suggests that Apple has tested a 'complication column' for the iPhone Duo Lock Screen, which allows placing two circular widgets on the right edge. This arrangement can be used together with the existing bottom row, giving users access to more information. The feature is not yet available and may not reach all users."
+      },
+      "newsId": "evt_262da2eacd47da1c",
+      "storyKey": "evt_262da2eacd47da1c",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/22/iphone-duo-could-get-more-lock-screen-widgets",
+      "image": "https://images.macrumors.com/article-new/2026/11/iphone-duo-cyber-monday.jpeg",
+      "score": 7.65,
+      "publishedAt": "2026-11-22T20:38:16.000Z",
+      "evidence": [
+        {
+          "claim": "Apple has tested a 'complication column' for iPhone Duo's Lock Screen.",
+          "source": "10d0db39bcee9435"
+        },
+        {
+          "claim": "The 'complication column' can be used together with the existing bottom row.",
+          "source": "10d0db39bcee9435"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/11/22/iphone-duo-could-get-more-lock-screen-widgets"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_57a43439e5d8849f",
+      "title": {
+        "es": "METR actualiza su gráfico de horizonte temporal de IA",
+        "en": "METR updates its AI time horizon plot"
+      },
+      "body": {
+        "es": "METR ha actualizado su gráfico de horizonte temporal de IA, añadiendo tareas más largas y abiertas para evaluar la capacidad de los modelos. La actualización refleja el avance de los sistemas de IA en codificación y matemáticas, dos dominios donde es posible determinar automáticamente si una solución funciona o no. Sin embargo, ninguna de las evaluaciones diseñadas por IA fue considerada útil por los empleados de METR para su investigación.",
+        "en": "METR has updated its AI time horizon plot, adding longer and more open-ended tasks to evaluate model capabilities. The update reflects the progress of AI systems in coding and math, two domains where it is possible to automatically determine whether a solution works or not. However, none of the AI-designed evaluations were considered useful by METR employees for their research."
+      },
+      "newsId": "evt_57a43439e5d8849f",
+      "storyKey": "evt_57a43439e5d8849f",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/metr2a.jpg?resize=1200,600",
+      "score": 7.65,
+      "publishedAt": "2026-11-20T18:15:15.000Z",
+      "evidence": [
+        {
+          "claim": "METR evaluated models by having them attempt a large suite of tasks, each of which had also been completed by humans.",
+          "source": "bf7b3f573802e075"
+        },
+        {
+          "claim": "The updated plot adds more tasks—some that are estimated to take humans far longer than those in the original suite, and others that are more open-ended.",
+          "source": "bf7b3f573802e075"
+        },
+        {
+          "claim": "AI systems have become so good at coding and math, two domains where it’s possible to determine automatically whether a solution does or doesn’t work.",
+          "source": "bf7b3f573802e075"
+        },
+        {
+          "claim": "Not one of the AI-designed evaluations was good enough for METR employees to consider it useful for their research.",
+          "source": "bf7b3f573802e075"
+        },
+        {
+          "claim": "METR’s time horizon plots score task difficulty by evaluating how long it would take a human to complete the task, and for the original plot they measured this quantity by actually having people try each task.",
+          "source": "bf7b3f573802e075"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update"
         }
       ],
       "what_changed": []
@@ -274,153 +362,157 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_fa3327622758d70a",
+      "id": "evt_88a6ff62533ce184",
       "title": {
-        "es": "Shepherd: una herramienta para gestionar agentes de IA",
-        "en": "Shepherd: a tool to manage AI agents"
+        "es": "Una semana con los nuevos controles de privacidad en MacOS 27.3 Beta 2",
+        "en": "A Week With the New Privacy Controls in MacOS 27.3 Beta 2"
       },
       "text": {
-        "es": "Shepherd es una herramienta que utiliza control de versiones y sandboxing para recuperarse de errores de IA y 'gestionar' agentes. Esta aproximación podría ser útil para equipos que trabajan con agentes autónomos y necesitan mecanismos de recuperación y control.",
-        "en": "Shepherd is a tool that uses version control and sandboxing to recover from AI missteps and 'manage' agents. This approach could be useful for teams working with autonomous agents and needing recovery and control mechanisms."
+        "es": "Los nuevos controles de privacidad de MacOS 27.3 Beta 2 están diseñados para ser más fáciles de usar y proporcionar información más clara sobre los permisos. Sin embargo, algunos usuarios encuentran distrayente el indicador de barra de menú que aparece cuando una aplicación controla a otra, que no puede desactivarse.",
+        "en": "The new privacy controls in MacOS 27.3 Beta 2 are designed to be more user-friendly and provide clearer information about permissions. However, some users find the menu bar indicator that appears when one app is controlling another distracting, as it cannot be turned off."
       },
-      "newsId": "evt_fa3327622758d70a",
-      "storyKey": "evt_fa3327622758d70a",
-      "topic": "ai_software",
-      "source": "IEEE Spectrum AI",
-      "link": "https://spectrum.ieee.org/ai-agent-manager",
-      "image": "https://spectrum.ieee.org/media-library/illustration-of-an-ai-agent-supervising-and-designating-tasks-to-smaller-ai-agents.jpg?coordinates=0%2C156%2C0%2C157&height=700&id=68511562&width=1245",
-      "score": 8.35,
-      "publishedAt": "2026-11-19T15:00:03.000Z",
-      "evidence": [
-        {
-          "claim": "Shepherd is a tool that uses version control and sandboxing to recover from AI missteps.",
-          "source": "73ffe286682afe82"
-        }
-      ],
-      "sources": [
-        {
-          "name": "IEEE Spectrum AI",
-          "link": "https://spectrum.ieee.org/ai-agent-manager"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_f394da8b159a71cd",
-      "title": {
-        "es": "Por qué un científico de la computación cree que la superinteligencia no llegará",
-        "en": "Why a computer scientist thinks superintelligence won't happen"
-      },
-      "text": {
-        "es": "Un artículo argumenta que la idea de una explosión de inteligencia debido a la investigación de IA autónoma (RSI) es altamente especulativa y se basa en suposiciones no probadas. El autor señala que el progreso de la IA en áreas con acceso limitado a datos de entrenamiento ha sido menos dramático, lo que sugiere limitaciones fundamentales en el camino hacia la superinteligencia.",
-        "en": "An article argues that the idea of an intelligence explosion due to autonomous AI research (RSI) is highly speculative and based on unproven assumptions. The author notes that AI progress in areas with limited access to training data has been less dramatic, suggesting fundamental limitations in the path to superintelligence."
-      },
-      "newsId": "evt_f394da8b159a71cd",
-      "storyKey": "evt_f394da8b159a71cd",
-      "topic": "ai_general",
-      "source": "IEEE Spectrum AI",
-      "link": "https://spectrum.ieee.org/ai-superintelligence-debate",
-      "image": "https://spectrum.ieee.org/media-library/pop-art-robot-head-wired-to-colorful-neural-network-nodes-on-patterned-background.png?coordinates=0%2C124%2C0%2C124&height=700&id=68699683&width=1245",
+      "newsId": "evt_88a6ff62533ce184",
+      "storyKey": "evt_88a6ff62533ce184",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://daringfireball.net/2026/11/a_week_with_the_new_privacy_controls_in_macos_273",
+      "image": "https://daringfireball.net/graphics/df-wide-card.png",
       "score": 7.65,
-      "publishedAt": "2026-11-19T12:00:03.000Z",
+      "publishedAt": "2026-11-21T20:09:57.000Z",
       "evidence": [
         {
-          "claim": "AI systems are already accelerating AI development, and labs are working on automated researchers.",
-          "source": "45da66611c9dcf9b"
+          "claim": "The new privacy controls are designed to be more user-friendly and provide clearer information about permissions.",
+          "source": "85daacbf6849c5c3"
         },
         {
-          "claim": "The idea of RSI leading to an intelligence explosion is highly speculative and based on many unproven assumptions.",
-          "source": "45da66611c9dcf9b"
+          "claim": "The new privacy controls are intended to discourage users from granting Full Disk Access to certain applications.",
+          "source": "85daacbf6849c5c3"
         },
         {
-          "claim": "AI progress in areas that lack easy access to training data has been less dramatic.",
-          "source": "45da66611c9dcf9b"
-        },
-        {
-          "claim": "The deployment of automated coding agents and LLM-powered researchers won’t overcome the fundamental limitation of relying on human-generated data.",
-          "source": "45da66611c9dcf9b"
-        },
-        {
-          "claim": "The next intelligence level requires double the resources, and then the next level requires double again, making it impossible to keep advancing toward ASI.",
-          "source": "45da66611c9dcf9b"
+          "claim": "There is a menu bar indicator for apps controlling other apps, which cannot be turned off and is considered distracting by some users.",
+          "source": "85daacbf6849c5c3"
         }
       ],
       "sources": [
         {
-          "name": "IEEE Spectrum AI",
-          "link": "https://spectrum.ieee.org/ai-superintelligence-debate"
+          "name": "Daring Fireball",
+          "link": "https://daringfireball.net/2026/11/a_week_with_the_new_privacy_controls_in_macos_273"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_00d38857c719fd13",
+      "id": "evt_cda30a3b989ef605",
       "title": {
-        "es": "Canva introduce controles para ocultar funciones de IA generativa",
-        "en": "Canva introduces controls to hide generative AI features"
+        "es": "El fracaso de monetización de la búsqueda con IA de Google está costando ingresos a Apple",
+        "en": "Google's AI search monetization failure is costing Apple revenue"
       },
       "text": {
-        "es": "Canva está introduciendo nuevos ajustes que permiten a los usuarios ocultar funciones de IA generativa y ver menos contenido generado por IA. Esta función responde a las preferencias de usuarios que buscan un entorno de diseño más centrado en herramientas tradicionales.",
-        "en": "Canva is introducing new settings that allow users to hide generative AI features and see less AI-generated content. This feature responds to the preferences of users seeking a design environment more focused on traditional tools."
+        "es": "La división de Servicios de Apple está viendo cómo su crecimiento se frena del 12 % al 10 % interanual, en parte debido a la incapacidad de Google para monetizar la búsqueda con IA al mismo nivel que la búsqueda tradicional. Las acciones de Google han caído un 18 % desde que informó de un descenso en el crecimiento de los ingresos por publicidad de búsqueda.",
+        "en": "Apple's Services arm is seeing its growth slow from 12% to 10% year-over-year, partly due to Google's inability to monetize AI search to the same level as traditional search. Google's shares have dropped 18% since it reported a downturn in search advertising revenue growth."
       },
-      "newsId": "evt_00d38857c719fd13",
-      "storyKey": "evt_00d38857c719fd13",
-      "topic": "tech",
-      "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/11/19/canva-introduces-new-controls-to-hide-generative-ai-features",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/canva-ai.jpg?quality=82&strip=all&w=1600",
-      "score": 7.65,
-      "publishedAt": "2026-11-19T12:30:00.000Z",
-      "evidence": [
-        {
-          "claim": "Canva is introducing new settings that let users hide generative AI features.",
-          "source": "43552bf2110614b2"
-        }
-      ],
-      "sources": [
-        {
-          "name": "9to5Mac",
-          "link": "https://9to5mac.com/2026/11/19/canva-introduces-new-controls-to-hide-generative-ai-features"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_b6ae229cde8a44fa",
-      "title": {
-        "es": "Apple HomeView: un dispositivo fijo que puede ser portátil con una batería",
-        "en": "Apple HomeView: a stationary device that can be portable with a battery"
-      },
-      "text": {
-        "es": "Apple HomeView es un dispositivo diseñado para ser fijo, pero puede moverse desconectando el cable USB-C. El modelo base de altavoz requiere 30W, mientras que la opción de pared requiere 20W. Una batería MagSafe pequeña para iPhone fue capaz de alimentar el HomeView sin problemas, ofreciendo cierta flexibilidad de ubicación.",
-        "en": "Apple HomeView is a device designed to be stationary, but it can be moved by unplugging the USB-C cable. The base speaker model requires 30W, while the wall-mounted option requires 20W. A small MagSafe battery for iPhone was able to power the HomeView without issues, offering some location flexibility."
-      },
-      "newsId": "evt_b6ae229cde8a44fa",
-      "storyKey": "evt_b6ae229cde8a44fa",
+      "newsId": "evt_cda30a3b989ef605",
+      "storyKey": "evt_cda30a3b989ef605",
       "topic": "apple",
       "source": "AppleInsider",
-      "link": "https://appleinsider.com/articles/26/11/20/apple-homeview-doesnt-need-to-be-portable-but-it-can-be-with-a-battery",
-      "image": "https://media.appleinsider.com/gallery/69897-147347-Apple-HomeView-speaker-base-kitchen-table-photo-face-xl.jpg",
+      "link": "https://appleinsider.com/articles/26/11/22/googles-ai-search-monetization-failure-is-costing-apple-revenue",
+      "image": "https://media.appleinsider.com/gallery/69967-147445-67719-142728-64948-135417-IMG_2613-xl-xl-xl.jpg",
       "score": 7.65,
-      "publishedAt": "2026-11-20T03:57:52.000Z",
+      "publishedAt": "2026-11-22T17:23:41.000Z",
       "evidence": [
         {
-          "claim": "Apple HomeView can be moved by unplugging the USB-C cable.",
-          "source": "2f6257992488f2cf"
+          "claim": "Apple's Services arm is slowing growth from 12% to 10% year-over-year.",
+          "source": "fb74875908a91a0f"
         },
         {
-          "claim": "Apple HomeView has a stationary design.",
-          "source": "2f6257992488f2cf"
+          "claim": "Google's ad monetization for searches in AI mode was lower than for traditional searches.",
+          "source": "fb74875908a91a0f"
         },
         {
-          "claim": "Apple HomeView has a simple power requirement.",
-          "source": "2f6257992488f2cf"
+          "claim": "Google's shares dropped 18% since it reported a downturn in search advertising revenue growth.",
+          "source": "fb74875908a91a0f"
+        },
+        {
+          "claim": "Google is struggling to monetize the increased popularity of AI search results.",
+          "source": "fb74875908a91a0f"
         }
       ],
       "sources": [
         {
           "name": "AppleInsider",
-          "link": "https://appleinsider.com/articles/26/11/20/apple-homeview-doesnt-need-to-be-portable-but-it-can-be-with-a-battery"
+          "link": "https://appleinsider.com/articles/26/11/22/googles-ai-search-monetization-failure-is-costing-apple-revenue"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_68bf2003949d6ceb",
+      "title": {
+        "es": "Gurman: Los despidos en Siri ahorraron los nuevos sistemas de IA, pero los problemas persisten",
+        "en": "Gurman: Siri Layoffs Spared Newer AI Systems, But Problems Persist"
+      },
+      "text": {
+        "es": "Según Mark Gurman de Bloomberg, los recientes despidos en Siri afectaron a empleados que trabajaban en la infraestructura más antigua del asistente, no en sus nuevos sistemas de IA. Apple enfrenta una creciente competencia de desarrolladores de IA que actualizan sus modelos y servicios con mucha más frecuencia que el ciclo anual de sistemas operativos de Apple.",
+        "en": "According to Bloomberg's Mark Gurman, Apple's recent Siri layoffs affected employees working on the assistant's older infrastructure, not its newer AI systems. Apple faces growing competition from AI developers that update their models and services far more frequently than Apple's annual operating system cycle."
+      },
+      "newsId": "evt_68bf2003949d6ceb",
+      "storyKey": "evt_68bf2003949d6ceb",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/22/siri-layoffs-spared-newer-ai-systems",
+      "image": "https://images.macrumors.com/article-new/2026/11/Siri-AI-Icon.jpeg",
+      "score": 7.65,
+      "publishedAt": "2026-11-22T20:29:51.000Z",
+      "evidence": [
+        {
+          "claim": "Apple's recent Siri layoffs affected employees working on the assistant's older infrastructure rather than its newer AI systems.",
+          "source": "9edc0d210e18bba1"
+        },
+        {
+          "claim": "Apple's internal release calendar for major operating system updates is largely determined by late summer or early fall of the preceding year.",
+          "source": "9edc0d210e18bba1"
+        },
+        {
+          "claim": "Apple faces growing competition from AI developers that update their models and services far more frequently than Apple's annual operating system cycle.",
+          "source": "9edc0d210e18bba1"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/11/22/siri-layoffs-spared-newer-ai-systems"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_3ba6b253b64c0cb9",
+      "title": {
+        "es": "Los bancos están harto de tu agente de IA",
+        "en": "Banks Have Had It Up to Here With Your AI Agent"
+      },
+      "text": {
+        "es": "Las principales instituciones financieras de EE. UU. están prohibiendo a los bots de terceros iniciar sesión en sus cuentas y advirtiendo que cualquier error costoso del bot es estrictamente responsabilidad del usuario. Esta medida busca proteger la seguridad de las cuentas y evitar el uso no autorizado de agentes de IA.",
+        "en": "Major US financial institutions are banning third-party bots from logging into their accounts and warning that any costly bot mistakes are strictly the user's responsibility. This measure aims to protect account security and prevent unauthorized use of AI agents."
+      },
+      "newsId": "evt_3ba6b253b64c0cb9",
+      "storyKey": "evt_3ba6b253b64c0cb9",
+      "topic": "tech",
+      "source": "Wired",
+      "link": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents",
+      "image": "https://media.wired.com/photos/6b0080a25f35c47a5c116087/191:100/w_1280,c_limit/GettyImages-2285133719.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-22T11:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Major US financial institutions are banning third-party bots from logging into your accounts.",
+          "source": "060f67fa1cdab35c"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents"
         }
       ],
       "what_changed": []
@@ -428,87 +520,87 @@
   ],
   "trending_repos": [
     {
-      "id": "interfere-inc/landmines",
-      "repoKey": "interfere-inc/landmines",
-      "name": "landmines",
-      "full_name": "interfere-inc/landmines",
-      "link": "https://github.com/interfere-inc/landmines",
-      "description": "Oxlint rules that keep AI-written code honest: real implementations, real signals, no flake masking.",
+      "id": "morluto/rea",
+      "repoKey": "morluto/rea",
+      "name": "rea",
+      "full_name": "morluto/rea",
+      "link": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 680,
-      "stars_today": 92,
-      "stars_per_day_estimate": 93.25160162687723,
+      "stars": 474032,
+      "stars_today": 1305,
+      "stars_per_day_estimate": 1296.3733555263916,
       "trend_basis": "observed_about_24h",
-      "trend_score": 9.355845666837846,
+      "trend_score": 13.341335428155407,
       "default_branch": "main",
-      "created_at": "2026-10-28T16:10:27Z",
-      "pushed_at": "2026-11-18T22:42:17Z",
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-11-22T23:09:57Z",
       "why_it_matters": {
-        "es": "Landmines es un conjunto de reglas de Oxlint que mantienen honesto el código escrito por IA, evitando prácticas como mocks innecesarios, sleeps fijos y enmascarado de flake. Es útil para equipos que integran agentes de IA en sus flujos de CI y buscan garantizar la calidad del código generado.",
-        "en": "Landmines is a set of Oxlint rules that keep AI-written code honest, preventing practices like unnecessary mocks, fixed sleeps, and flake masking. It is useful for teams integrating AI agents into their CI pipelines and seeking to ensure the quality of generated code."
+        "es": "REA permite a los desarrolladores usar agentes de IA para ingeniería inversa de aplicaciones y binarios, facilitando la comprensión de cómo funcionan las funciones de una aplicación a nivel de binario.",
+        "en": "REA allows developers to use AI agents to reverse engineer applications and binaries, making it easier to understand how an app's features work at the binary level."
       }
     },
     {
-      "id": "n8n-io/nod",
-      "repoKey": "n8n-io/nod",
-      "name": "nod",
-      "full_name": "n8n-io/nod",
-      "link": "https://github.com/n8n-io/nod",
-      "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
+      "id": "XinaTian/MROffice",
+      "repoKey": "XinaTian/MROffice",
+      "name": "MROffice",
+      "full_name": "XinaTian/MROffice",
+      "link": "https://github.com/XinaTian/MROffice",
+      "description": "The editors of MR Office, the free office closest to Microsoft Office: documents, spreadsheets, presentations, PDF, handwriting and code in the browser. Embed them in your app with one line, or use them from AI apps via MCP.",
       "language": "TypeScript",
-      "stars": 2679,
-      "stars_today": null,
-      "stars_per_day_estimate": 173.0044782930058,
-      "trend_basis": "normalized_48.0h",
-      "trend_score": 10.44217967508036,
-      "default_branch": "main",
-      "created_at": "2026-09-25T13:46:42Z",
-      "pushed_at": "2026-11-19T22:55:14Z",
-      "why_it_matters": {
-        "es": "Nod es un agente personal de código abierto con su propio ordenador que puede perseguir facturas, preparar llamadas y cancelar pruebas en sitios web reales. Se ejecuta en tu máquina con el modelo que elijas y pide confirmación antes de actuar, lo que lo hace relevante para automatización de tareas personales y empresariales.",
-        "en": "Nod is an open-source personal agent with its own computer that can chase invoices, prep calls, and cancel trials on real websites. It runs on your machine with the model you choose and asks for confirmation before acting, making it relevant for personal and business task automation."
-      }
-    },
-    {
-      "id": "CopilotKit/OpenBot",
-      "repoKey": "CopilotKit/OpenBot",
-      "name": "OpenBot",
-      "full_name": "CopilotKit/OpenBot",
-      "link": "https://github.com/CopilotKit/OpenBot",
-      "description": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
-      "language": "TypeScript",
-      "stars": 12960,
-      "stars_today": null,
-      "stars_per_day_estimate": 122.6888237934181,
-      "trend_basis": "normalized_69.6h",
-      "trend_score": 9.950196312271597,
-      "default_branch": "main",
-      "created_at": "2026-08-17T00:44:59Z",
-      "pushed_at": "2026-11-19T22:58:18Z",
-      "why_it_matters": {
-        "es": "OpenBot es una alternativa autoalojable y de código abierto a los bots de IA cerrados, lista para producción y totalmente personalizable. Se integra con cualquier agente, modelo y herramienta, lo que la hace atractiva para empresas que buscan controlar su infraestructura de IA.",
-        "en": "OpenBot is a self-hostable, open-source alternative to closed AI bots, production-ready and fully customizable. It plugs into any agent, model, and tool, making it attractive for enterprises seeking to control their AI infrastructure."
-      }
-    },
-    {
-      "id": "ysunyang4/Nexus",
-      "repoKey": "ysunyang4/Nexus",
-      "name": "Nexus",
-      "full_name": "ysunyang4/Nexus",
-      "link": "https://github.com/ysunyang4/Nexus",
-      "description": "Connect web AI assistants to local files, terminals, Git, and desktop tools through MCP, with user-controlled permissions.",
-      "language": "TypeScript",
-      "stars": 431,
-      "stars_today": 25,
-      "stars_per_day_estimate": 25.34010913773838,
+      "stars": 2076,
+      "stars_today": 665,
+      "stars_per_day_estimate": 660.6040470690041,
       "trend_basis": "observed_about_24h",
-      "trend_score": 7.648650040849121,
+      "trend_score": 12.208992325746145,
       "default_branch": "main",
-      "created_at": "2026-11-13T13:46:21Z",
-      "pushed_at": "2026-11-19T14:33:07Z",
+      "created_at": "2026-11-10T17:54:07Z",
+      "pushed_at": "2026-11-22T03:52:16Z",
       "why_it_matters": {
-        "es": "Nexus conecta asistentes de IA web con archivos locales, terminales, Git y herramientas de escritorio a través de MCP, con permisos controlados por el usuario. Ofrece un plano de control local seguro para agentes de IA, lo que es útil para desarrolladores que trabajan con asistentes de IA en su entorno local.",
-        "en": "Nexus connects web AI assistants to local files, terminals, Git, and desktop tools through MCP, with user-controlled permissions. It provides a secure local control plane for AI agents, which is useful for developers working with AI assistants in their local environment."
+        "es": "MROffice ofrece editores de documentos, hojas de cálculo y presentaciones de código abierto que pueden integrarse en aplicaciones web o usarse desde aplicaciones de IA mediante MCP, proporcionando una alternativa gratuita a Microsoft Office.",
+        "en": "MROffice provides open-source editors for documents, spreadsheets, and presentations that can be embedded in web apps or used from AI apps via MCP, offering a free alternative to Microsoft Office."
+      }
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "repoKey": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 265421,
+      "stars_today": 229,
+      "stars_per_day_estimate": 227.48620568240892,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 10.832670686606,
+      "default_branch": "main",
+      "created_at": "2025-07-22T22:22:28Z",
+      "pushed_at": "2026-11-22T22:46:33Z",
+      "why_it_matters": {
+        "es": "Hermes Agent es un agente de IA auto-mejorable que crea habilidades a partir de la experiencia, mejora durante el uso y construye un modelo profundo del usuario a lo largo de las sesiones, permitiendo su ejecución en infraestructuras de bajo costo.",
+        "en": "Hermes Agent is a self-improving AI agent that creates skills from experience, improves during use, and builds a deep model of the user across sessions, allowing it to run on low-cost infrastructure."
+      }
+    },
+    {
+      "id": "w01fb0ss/PiBot",
+      "repoKey": "w01fb0ss/PiBot",
+      "name": "PiBot",
+      "full_name": "w01fb0ss/PiBot",
+      "link": "https://github.com/w01fb0ss/PiBot",
+      "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+      "language": "TypeScript",
+      "stars": 369,
+      "stars_today": 211,
+      "stars_per_day_estimate": 209.60519388204492,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 10.615935652648188,
+      "default_branch": "main",
+      "created_at": "2026-11-21T06:54:24Z",
+      "pushed_at": "2026-11-22T10:52:32Z",
+      "why_it_matters": {
+        "es": "PiBot es un equipo de agentes de IA de código abierto y local-first para el escritorio, que permite a los bots planificar, ejecutar comandos, editar archivos y navegar por la web, con aprobaciones para cada paso arriesgado.",
+        "en": "PiBot is an open-source, local-first AI agent team for the desktop, allowing bots to plan, run commands, edit files, and browse the web, with approvals for every risky step."
       }
     }
   ],
@@ -516,7 +608,7 @@
   "editorial_stats": {
     "topics": {
       "apple": 2,
-      "ai_software": 1,
+      "ai_software": 2,
       "ai_general": 1,
       "tech": 2
     }
