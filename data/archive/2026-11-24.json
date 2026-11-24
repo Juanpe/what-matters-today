@@ -1,0 +1,524 @@
+{
+  "schema_version": 22,
+  "edition_id": "wmt-2026-11-24",
+  "date": "2026-11-24",
+  "daily_summary": {
+    "es": "Anthropic presenta Claude Ship para automatizar revisiones de código, mientras OpenAI despliega GPT-6.2 Sol en ChatGPT y Vercel introduce auditorías de retención cero en su AI Gateway.",
+    "en": "Anthropic introduces Claude Ship to automate code reviews, while OpenAI rolls out GPT-6.2 Sol in ChatGPT and Vercel launches zero-data-retention audits for its AI Gateway."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "Apple prepara una intensa temporada de lanzamientos para la primavera de 2027, que incluirá el iPhone 18e, el iPhone 18, nuevos iPads y MacBooks con chips A20 y A19.",
+      "en": "Apple is preparing a busy spring 2027 launch season, which will include the iPhone 18e, iPhone 18, new iPads, and MacBooks featuring A20 and A19 chips."
+    },
+    "ai_software": {
+      "es": "Anthropic lanza Claude Ship para gestionar pull requests, OpenAI actualiza ChatGPT con GPT-6.2 Sol y Vercel implementa auditorías de seguridad en su AI Gateway.",
+      "en": "Anthropic launches Claude Ship to manage pull requests, OpenAI updates ChatGPT with GPT-6.2 Sol, and Vercel implements security audits in its AI Gateway."
+    },
+    "ai_general": {
+      "es": "Anthropic afirma que Claude resolvió la Hipótesis de Riemann, aunque la prueba generada es demasiado extensa para una verificación matemática tradicional.",
+      "en": "Anthropic claims Claude solved the Riemann Hypothesis, although the generated proof is too extensive for traditional mathematical verification."
+    },
+    "tech": {
+      "es": "Ladybird, el primer nuevo motor de navegador en años, ya está disponible para pruebas, y se analizan las alternativas a GitHub Actions tras recientes incidentes de seguridad.",
+      "en": "Ladybird, the first new browser engine in years, is now available for testing, and GitHub Actions alternatives are being analyzed following recent security incidents."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "Apple prepara una intensa temporada de lanzamientos para la primavera de 2027, que incluirá el iPhone 18e, el iPhone 18, nuevos iPads y MacBooks con chips A20 y A19.",
+      "en": "Apple is preparing a busy spring 2027 launch season, which will include the iPhone 18e, iPhone 18, new iPads, and MacBooks featuring A20 and A19 chips."
+    },
+    "ai_software": {
+      "es": "Anthropic lanza Claude Ship para gestionar pull requests, OpenAI actualiza ChatGPT con GPT-6.2 Sol y Vercel implementa auditorías de seguridad en su AI Gateway.",
+      "en": "Anthropic launches Claude Ship to manage pull requests, OpenAI updates ChatGPT with GPT-6.2 Sol, and Vercel implements security audits in its AI Gateway."
+    },
+    "ai_general": {
+      "es": "Anthropic afirma que Claude resolvió la Hipótesis de Riemann, aunque la prueba generada es demasiado extensa para una verificación matemática tradicional.",
+      "en": "Anthropic claims Claude solved the Riemann Hypothesis, although the generated proof is too extensive for traditional mathematical verification."
+    },
+    "tech": {
+      "es": "Ladybird, el primer nuevo motor de navegador en años, ya está disponible para pruebas, y se analizan las alternativas a GitHub Actions tras recientes incidentes de seguridad.",
+      "en": "Ladybird, the first new browser engine in years, is now available for testing, and GitHub Actions alternatives are being analyzed following recent security incidents."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "evt_1105ffd3aaa8786b",
+      "title": {
+        "es": "Anthropic lanza Claude Ship para automatizar revisiones de código",
+        "en": "Anthropic launches Claude Ship to automate code reviews"
+      },
+      "body": {
+        "es": "Anthropic ha presentado Claude Ship, una nueva herramienta que permite a Claude revisar, corregir y aprobar pull requests según la política de cada equipo. Esta función busca integrar la IA directamente en el flujo de trabajo de desarrollo, reduciendo la carga manual de las revisiones de código.",
+        "en": "Anthropic has introduced Claude Ship, a new tool that allows Claude to review, fix, and approve pull requests according to each team's policy. This feature aims to integrate AI directly into the development workflow, reducing the manual burden of code reviews."
+      },
+      "newsId": "evt_1105ffd3aaa8786b",
+      "storyKey": "evt_1105ffd3aaa8786b",
+      "topic": "ai_software",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/claude.webp?w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-11-23T20:32:31.000Z",
+      "evidence": [
+        {
+          "claim": "Anthropic is launching a new tool for builders called Claude Ship.",
+          "source": "37d10453bd8e271d"
+        },
+        {
+          "claim": "The new AI feature allows Claude to review pull requests, fix them, and approve the ones that a team’s policy allows.",
+          "source": "37d10453bd8e271d"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_f6001c6f0c51c95f",
+      "title": {
+        "es": "OpenAI despliega GPT-6.2 Sol en la pestaña de chat de ChatGPT",
+        "en": "OpenAI rolls out GPT-6.2 Sol to ChatGPT's chat tab"
+      },
+      "body": {
+        "es": "OpenAI está implementando GPT-6.2 Sol en las capas Plus, Pro, Business y Enterprise de ChatGPT. Según la empresa, el nuevo modelo mejora la detección de detalles finos en fotos y cumple con las políticas de seguridad en conversaciones difíciles un 91-94% de las veces, frente al 77-80% de GPT-6.",
+        "en": "OpenAI is rolling out GPT-6.2 Sol to the Plus, Pro, Business, and Enterprise tiers of ChatGPT. According to the company, the new model improves the detection of fine details in photos and meets safety policies in challenging conversations 91-94% of the time, up from 77-80% for GPT-6."
+      },
+      "newsId": "evt_f6001c6f0c51c95f",
+      "storyKey": "evt_f6001c6f0c51c95f",
+      "topic": "ai_software",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt",
+      "image": "https://images.macrumors.com/article-new/2026/11/gpt-6-2-openai.jpg",
+      "score": 8.35,
+      "publishedAt": "2026-11-23T23:52:41.000Z",
+      "evidence": [
+        {
+          "claim": "GPT-6.2 Sol is being rolled out to various tiers of ChatGPT.",
+          "source": "4adc9673423a7aeb"
+        },
+        {
+          "claim": "GPT-6.2 Sol is better at detecting fine details in photos.",
+          "source": "4adc9673423a7aeb"
+        },
+        {
+          "claim": "GPT-6.2 Sol meets OpenAI's safety policies more frequently in challenging conversations.",
+          "source": "4adc9673423a7aeb"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_9881ed8cb83bcdfa",
+      "title": {
+        "es": "Vercel introduce auditorías de retención cero en su AI Gateway",
+        "en": "Vercel introduces zero-data-retention audits in its AI Gateway"
+      },
+      "body": {
+        "es": "Vercel AI ha lanzado Audited ZDR, un sistema que exige a los proveedores de IA someterse a pruebas de seguridad independientes para verificar sus afirmaciones de retención cero de datos. Baseten, Modal y Wafer son los primeros socios en iniciar estas auditorías, que garantizan que los datos de los clientes no se almacenen en sistemas duraderos.",
+        "en": "Vercel AI has launched Audited ZDR, a system that requires AI providers to undergo independent security tests to verify their zero-data-retention claims. Baseten, Modal, and Wafer are the first partners to begin these audits, which ensure that customer data is not stored on durable systems."
+      },
+      "newsId": "evt_9881ed8cb83bcdfa",
+      "storyKey": "evt_9881ed8cb83bcdfa",
+      "topic": "ai_software",
+      "source": "Vercel AI",
+      "link": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway",
+      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/67XIifvPiGZjjxt9fE6s19/33e5a98b2743a7ecafaaa33a7c193c82/audited-zdr-og.png",
+      "score": 8.6,
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "evidence": [
+        {
+          "claim": "Vercel AI is introducing Audited ZDR on AI Gateway.",
+          "source": "aff8ab442fc8b4f8"
+        },
+        {
+          "claim": "Audited ZDR requires an independent security firm to test zero data retention claims.",
+          "source": "aff8ab442fc8b4f8"
+        },
+        {
+          "claim": "Baseten, Modal, and Wafer are launch partners for Audited ZDR.",
+          "source": "aff8ab442fc8b4f8"
+        },
+        {
+          "claim": "Audited ZDR covers a wide range of systems and processes to ensure data is not retained.",
+          "source": "aff8ab442fc8b4f8"
+        },
+        {
+          "claim": "AI Gateway will route and fail over requests only across providers with published Audited ZDR reports.",
+          "source": "aff8ab442fc8b4f8"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Vercel AI",
+          "link": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_4de5a68529b86f9d",
+      "title": {
+        "es": "Apple planea lanzar iPhone 18e, iPad y MacBook Neo en primavera",
+        "en": "Apple plans to launch iPhone 18e, iPad, and MacBook Neo in spring"
+      },
+      "body": {
+        "es": "Según Mark Gurman de Bloomberg, Apple prevé presentar el iPhone 18e, el iPhone 18, un iPad de entrada actualizado y nuevos modelos MacBook Neo y Air entre febrero y marzo de 2027. El iPhone 18e incluirá un chip A20 y 9 GB de RAM, mientras que el nuevo iPad contará con un chip A19 y soporte para Apple Intelligence.",
+        "en": "According to Bloomberg's Mark Gurman, Apple plans to unveil the iPhone 18e, iPhone 18, an updated entry-level iPad, and new MacBook Neo and Air models between February and March 2027. The iPhone 18e will feature an A20 chip and 9GB of RAM, while the new iPad will include an A19 chip and Apple Intelligence support."
+      },
+      "newsId": "evt_4de5a68529b86f9d",
+      "storyKey": "evt_4de5a68529b86f9d",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/22/new-apple-products-february-or-march",
+      "image": "https://images.macrumors.com/article-new/2026/10/MacBook-Neo-2-on-Yellow-Feature.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-22T15:32:53.000Z",
+      "evidence": [
+        {
+          "claim": "Apple plans to unveil an iPhone 18e, iPhone 18, updated entry-level iPad, and new MacBook Neo and MacBook Air models around February or March next year.",
+          "source": "e8debc648a4a464c"
+        },
+        {
+          "claim": "The iPhone 18e will have a A20 chip, 9GB of RAM, and longer battery life.",
+          "source": "e8debc648a4a464c"
+        },
+        {
+          "claim": "The updated iPad will have an A19 chip with Apple Intelligence support, N1 chip with Wi-Fi 7 support, and Apple's power-efficient C1X modem in cellular models.",
+          "source": "e8debc648a4a464c"
+        },
+        {
+          "claim": "The MacBook Neo will have an A19 Pro chip, 12GB of RAM, and potentially new color options.",
+          "source": "e8debc648a4a464c"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/11/22/new-apple-products-february-or-march"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_e3bf3f82ef781882",
+      "title": {
+        "es": "Anthropic afirma que Claude resolvió la Hipótesis de Riemann",
+        "en": "Anthropic claims Claude solved the Riemann Hypothesis"
+      },
+      "body": {
+        "es": "Anthropic sostiene que su modelo Claude ha resuelto la Hipótesis de Riemann, uno de los problemas del Milenio. Sin embargo, la prueba generada consta de 250.000 páginas de texto, lo que dificulta su verificación por parte de la comunidad matemática, y el Instituto Clay aún no ha reconocido la solución.",
+        "en": "Anthropic claims its Claude model has solved the Riemann Hypothesis, one of the Millennium problems. However, the generated proof consists of 250,000 pages of text, making it difficult for the mathematical community to verify, and the Clay Institute has not yet recognized the solution."
+      },
+      "newsId": "evt_e3bf3f82ef781882",
+      "storyKey": "evt_e3bf3f82ef781882",
+      "topic": "ai_software",
+      "source": "The Register AI & ML",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+      "image": "https://image.theregister.com/5264648.jpg?croph=100&cropw=100&height=683&imageId=5264648&panoh=100&panow=100&panox=0&panoy=0&width=1200&x=0&y=0",
+      "score": 7.65,
+      "publishedAt": "2026-11-24T00:18:17.000Z",
+      "evidence": [
+        {
+          "claim": "Anthropic claims Claude has solved the Riemann Hypothesis, one of the seven Millennium problems with a $1 million prize.",
+          "source": "241dfb367a594140"
+        },
+        {
+          "claim": "The Riemann Hypothesis, conjectured by Riemann in 1859, states that all nontrivial zeros of the Riemann zeta function have a real part equal to 1/2.",
+          "source": "241dfb367a594140"
+        },
+        {
+          "claim": "The proof generated by Claude is 250,000 pages of unreadable text, making it difficult for mathematicians to verify.",
+          "source": "241dfb367a594140"
+        },
+        {
+          "claim": "The Clay Mathematics Institute has not yet considered the Riemann Hypothesis solved, as the proposed solution must be published in a qualifying outlet, remain available for scrutiny for at least two years, and receive broad acceptance from the mathematics community.",
+          "source": "241dfb367a594140"
+        },
+        {
+          "claim": "The Lean Focused Research Organization and Mathlib Initiative have already declared the Riemann Hypothesis solved, despite the lack of a traditional, human-readable proof.",
+          "source": "241dfb367a594140"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Register AI & ML",
+          "link": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_76367b65beea4dd9",
+      "title": {
+        "es": "Ladybird, el primer nuevo motor de navegador en años, ya está disponible",
+        "en": "Ladybird, the first new browser engine in years, is now available"
+      },
+      "body": {
+        "es": "Ladybird, un navegador independiente con un motor construido desde cero, ya está disponible para pruebas. Su objetivo es ofrecer un navegador rápido, seguro y respetuoso con la privacidad, rompiendo el monopolio de los tres motores actuales: Gecko, Blink y WebKit.",
+        "en": "Ladybird, an independent browser with a built-from-scratch engine, is now available for testing. Its goal is to provide a fast, secure, and privacy-respecting browser, breaking the monopoly of the three current engines: Gecko, Blink, and WebKit."
+      },
+      "newsId": "evt_76367b65beea4dd9",
+      "storyKey": "evt_76367b65beea4dd9",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ladybird-screenshot.webp?crop=0%2C14.66120255046%2C100%2C70.67759489908&quality=90&strip=all&w=1200",
+      "score": 6.65,
+      "publishedAt": "2026-11-23T22:38:09.000Z",
+      "evidence": [
+        {
+          "claim": "Ladybird, the first new browser engine in years, is now available to test.",
+          "source": "8c35bd6c1ea87ca4"
+        },
+        {
+          "claim": "Ladybird is an independent web browser with a built-from-scratch engine.",
+          "source": "8c35bd6c1ea87ca4"
+        },
+        {
+          "claim": "The release makes Ladybird the first browser in years to arrive with an entirely new engine.",
+          "source": "8c35bd6c1ea87ca4"
+        },
+        {
+          "claim": "The most popular browsers use just three engines today: Gecko, Blink, and WebKit.",
+          "source": "8c35bd6c1ea87ca4"
+        },
+        {
+          "claim": "A Windows version of Ladybird will arrive during a “later stage” of the project.",
+          "source": "8c35bd6c1ea87ca4"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "evt_705ae22023dd9752",
+      "title": {
+        "es": "AI Gateway implementa auditorías canarias para detectar fugas de datos",
+        "en": "AI Gateway implements canary audits to detect data leaks"
+      },
+      "text": {
+        "es": "Vercel AI Gateway ahora ejecuta auditorías canarias enviando prompts con URLs únicas para detectar si el contenido se lee fuera de la ruta de inferencia. Esta medida complementa los acuerdos contractuales de retención cero de datos.",
+        "en": "Vercel AI Gateway now runs canary audits by sending prompts with unique URLs to detect if content is read outside the inference path. This measure complements contractual zero-data-retention agreements."
+      },
+      "newsId": "evt_705ae22023dd9752",
+      "storyKey": "evt_705ae22023dd9752",
+      "topic": "ai_software",
+      "source": "Vercel AI",
+      "link": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits",
+      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/caf87daafd0ddb7f57c786db/eb9a47f637fe4180dd745c8b86b04cfc/canary-zdr-audits-og.jpg",
+      "score": 8.4,
+      "publishedAt": "2026-11-23T06:19:00.000Z",
+      "evidence": [
+        {
+          "claim": "AI Gateway now runs canary audits against inference providers to detect when prompt content is read outside the inference path.",
+          "source": "a325af283f5e76bc"
+        },
+        {
+          "claim": "Canary audits send prompts containing unique URLs through the normal inference path.",
+          "source": "a325af283f5e76bc"
+        },
+        {
+          "claim": "Canary audits watch for traffic to canary URLs and record any requests.",
+          "source": "a325af283f5e76bc"
+        },
+        {
+          "claim": "Canary audits complement contractual ZDR agreements and independent audits.",
+          "source": "a325af283f5e76bc"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Vercel AI",
+          "link": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_2a28d78856cbbbfe",
+      "title": {
+        "es": "Kotlin Benchmark 2.0 evalúa agentes de IA en tareas más complejas",
+        "en": "Kotlin Benchmark 2.0 evaluates AI agents on more complex tasks"
+      },
+      "text": {
+        "es": "La nueva versión del Kotlin Benchmark incluye tareas más representativas para equipos de Kotlin y datos más fiables para ayudar a elegir la mejor configuración de agente y modelo.",
+        "en": "The new version of the Kotlin Benchmark includes more representative tasks for Kotlin teams and more reliable data to help choose the best agent and model configuration."
+      },
+      "newsId": "evt_2a28d78856cbbbfe",
+      "storyKey": "evt_2a28d78856cbbbfe",
+      "topic": "ai_software",
+      "source": "JetBrains Blog",
+      "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code",
+      "image": "https://blog.jetbrains.com/wp-content/uploads/2026/11/Kotlin-Benchmark-2.0-leaderboard-infographic-1920x1080-23-Nov-2026.png",
+      "score": 7.65,
+      "publishedAt": "2026-11-23T14:13:29.000Z",
+      "evidence": [
+        {
+          "claim": "Kotlin Benchmark 2.0 includes more representative tasks for Kotlin teams.",
+          "source": "ab927e8df306f183"
+        },
+        {
+          "claim": "The new tasks in Kotlin Benchmark 2.0 require more data to help choose an agent-model configuration.",
+          "source": "ab927e8df306f183"
+        }
+      ],
+      "sources": [
+        {
+          "name": "JetBrains Blog",
+          "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_04404baac51f554a",
+      "title": {
+        "es": "Alternativas a GitHub Actions tras incidentes de seguridad",
+        "en": "GitHub Actions alternatives following security incidents"
+      },
+      "text": {
+        "es": "Un análisis de 838 organizaciones examina las alternativas a GitHub Actions, destacando incidentes recientes como el retraso de jobs en julio de 2026 y la campaña Megalodon que afectó a más de 5.500 repositorios en mayo.",
+        "en": "An analysis of 838 organizations examines GitHub Actions alternatives, highlighting recent incidents such as the July 2026 job delays and the Megalodon campaign that affected over 5,500 repositories in May."
+      },
+      "newsId": "evt_04404baac51f554a",
+      "storyKey": "evt_04404baac51f554a",
+      "topic": "tech",
+      "source": "JetBrains Blog",
+      "link": "https://blog.jetbrains.com/teamcity/2026/11/github-actions-alternatives",
+      "image": "https://blog.jetbrains.com/wp-content/uploads/2026/11/TC-social-BlogSocialShare-1280x720-1-2.png",
+      "score": 7.65,
+      "publishedAt": "2026-11-23T07:56:19.000Z",
+      "evidence": [
+        {
+          "claim": "GitHub Actions faced issues with hosted runner jobs in July 2026.",
+          "source": "ce651da98487b877"
+        },
+        {
+          "claim": "In May 2026, a campaign pushed malicious workflows to over 5,500 repositories.",
+          "source": "ce651da98487b877"
+        }
+      ],
+      "sources": [
+        {
+          "name": "JetBrains Blog",
+          "link": "https://blog.jetbrains.com/teamcity/2026/11/github-actions-alternatives"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "trina-app/trina-ax",
+      "repoKey": "trina-app/trina-ax",
+      "name": "trina-ax",
+      "full_name": "trina-app/trina-ax",
+      "link": "https://github.com/trina-app/trina-ax",
+      "description": "Set up Claude Code once. Your whole company gets it. Self-hosted Claude Code and Codex with your company files, team skills, MCP, shared AI sessions and per-person folder permissions.",
+      "language": "TypeScript",
+      "stars": 413,
+      "stars_today": 287,
+      "stars_per_day_estimate": 288.69190497154943,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 11.177137051625087,
+      "default_branch": "main",
+      "created_at": "2026-04-01T15:01:39Z",
+      "pushed_at": "2026-11-23T22:52:54Z",
+      "why_it_matters": {
+        "es": "Permite a las empresas configurar Claude Code o Codex una sola vez para que todo el equipo acceda a archivos, habilidades y sesiones compartidas con permisos por persona.",
+        "en": "Allows companies to set up Claude Code or Codex once so that the whole team can access shared files, skills, and sessions with per-person permissions."
+      }
+    },
+    {
+      "id": "INK-Q/agy-fast",
+      "repoKey": "INK-Q/agy-fast",
+      "name": "agy-fast",
+      "full_name": "INK-Q/agy-fast",
+      "link": "https://github.com/INK-Q/agy-fast",
+      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "language": "TypeScript",
+      "stars": 775,
+      "stars_today": 277,
+      "stars_per_day_estimate": 278.63295357881253,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 11.06950391870052,
+      "default_branch": "main",
+      "created_at": "2026-11-19T04:58:46Z",
+      "pushed_at": "2026-11-23T16:05:02Z",
+      "why_it_matters": {
+        "es": "Plugin MCP para Google Antigravity que reduce los turnos de LLM en un 34% y el uso de tokens en un 31% mediante la consolidación de llamadas locales.",
+        "en": "MCP plugin for Google Antigravity that reduces LLM turns by 34% and token usage by 31% by consolidating local calls."
+      }
+    },
+    {
+      "id": "tangency-labs/solidcraft",
+      "repoKey": "tangency-labs/solidcraft",
+      "name": "solidcraft",
+      "full_name": "tangency-labs/solidcraft",
+      "link": "https://github.com/tangency-labs/solidcraft",
+      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "language": "Rust",
+      "stars": 17911,
+      "stars_today": 155,
+      "stars_per_day_estimate": 155.91374658742217,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 10.29358711230093,
+      "default_branch": "main",
+      "created_at": "2026-10-07T18:57:48Z",
+      "pushed_at": "2026-11-23T23:00:05Z",
+      "why_it_matters": {
+        "es": "Aplicación CAD 3D paramétrica de código abierto en Rust que permite a agentes de IA modelar objetos a través de un servidor MCP integrado.",
+        "en": "Open-source parametric 3D CAD application in Rust that allows AI agents to model objects through a built-in MCP server."
+      }
+    },
+    {
+      "id": "OpenHands/OpenHands",
+      "repoKey": "OpenHands/OpenHands",
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "link": "https://github.com/OpenHands/OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "language": "TypeScript",
+      "stars": 94165,
+      "stars_today": 85,
+      "stars_per_day_estimate": 85.50108683826376,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 9.43397728960021,
+      "default_branch": "main",
+      "created_at": "2024-03-13T03:33:31Z",
+      "pushed_at": "2026-11-23T22:57:00Z",
+      "why_it_matters": {
+        "es": "Centro de control autoalojado para agentes de código como OpenHands, Claude Code y Codex, permitiendo automatizar tareas y conectar con herramientas como Slack y GitHub.",
+        "en": "Self-hosted control center for coding agents like OpenHands, Claude Code, and Codex, allowing task automation and integration with tools like Slack and GitHub."
+      }
+    }
+  ],
+  "developer_signals": [],
+  "editorial_stats": {
+    "topics": {
+      "apple": 1,
+      "ai_software": 4,
+      "ai_general": 0,
+      "tech": 1
+    }
+  }
+}

@@ -1,360 +1,308 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-11-23",
-  "date": "2026-11-23",
+  "edition_id": "wmt-2026-11-24",
+  "date": "2026-11-24",
   "daily_summary": {
-    "es": "Ollama añade soporte para Inkling 2 Mini y ejecución concurrente en Apple silicon, mientras Cloudflare y JetBrains alertan sobre vulnerabilidades críticas en Ruby y Java.",
-    "en": "Ollama adds support for Inkling 2 Mini and concurrent execution on Apple silicon, while Cloudflare and JetBrains alert on critical vulnerabilities in Ruby and Java."
+    "es": "Anthropic presenta Claude Ship para automatizar revisiones de código, mientras OpenAI despliega GPT-6.2 Sol en ChatGPT y Vercel introduce auditorías de retención cero en su AI Gateway.",
+    "en": "Anthropic introduces Claude Ship to automate code reviews, while OpenAI rolls out GPT-6.2 Sol in ChatGPT and Vercel launches zero-data-retention audits for its AI Gateway."
   },
   "topic_summaries": {
     "apple": {
-      "es": "Apple documenta límites de uso de Apple Intelligence por nivel de iCloud+ y un filtrado sugiere más widgets en la pantalla de bloqueo del iPhone Duo.",
-      "en": "Apple documents usage limits for Apple Intelligence by iCloud+ tier, and a leak suggests more widgets on the iPhone Duo Lock Screen."
+      "es": "Apple prepara una intensa temporada de lanzamientos para la primavera de 2027, que incluirá el iPhone 18e, el iPhone 18, nuevos iPads y MacBooks con chips A20 y A19.",
+      "en": "Apple is preparing a busy spring 2027 launch season, which will include the iPhone 18e, iPhone 18, new iPads, and MacBooks featuring A20 and A19 chips."
     },
     "ai_software": {
-      "es": "Ollama v0.40.17 soporta Inkling 2 Mini y ejecución concurrente en Apple silicon; un informe detalla el uso de agentes de IA para explotar una vulnerabilidad 0-day.",
-      "en": "Ollama v0.40.17 supports Inkling 2 Mini and concurrent execution on Apple silicon; a report details the use of AI agents to exploit a 0-day vulnerability."
+      "es": "Anthropic lanza Claude Ship para gestionar pull requests, OpenAI actualiza ChatGPT con GPT-6.2 Sol y Vercel implementa auditorías de seguridad en su AI Gateway.",
+      "en": "Anthropic launches Claude Ship to manage pull requests, OpenAI updates ChatGPT with GPT-6.2 Sol, and Vercel implements security audits in its AI Gateway."
     },
     "ai_general": {
-      "es": "METR actualiza su gráfico de horizonte temporal de IA, añadiendo tareas más largas y abiertas para evaluar la capacidad de los modelos.",
-      "en": "METR updates its AI time horizon plot, adding longer and more open-ended tasks to evaluate model capabilities."
+      "es": "Anthropic afirma que Claude resolvió la Hipótesis de Riemann, aunque la prueba generada es demasiado extensa para una verificación matemática tradicional.",
+      "en": "Anthropic claims Claude solved the Riemann Hypothesis, although the generated proof is too extensive for traditional mathematical verification."
     },
     "tech": {
-      "es": "Cloudflare bloquea ruby2shell para todos sus clientes y JetBrains alerta sobre una vulnerabilidad crítica en Java que afecta a YouTrack Server.",
-      "en": "Cloudflare blocks ruby2shell for all its customers, and JetBrains alerts on a critical Java vulnerability affecting YouTrack Server."
+      "es": "Ladybird, el primer nuevo motor de navegador en años, ya está disponible para pruebas, y se analizan las alternativas a GitHub Actions tras recientes incidentes de seguridad.",
+      "en": "Ladybird, the first new browser engine in years, is now available for testing, and GitHub Actions alternatives are being analyzed following recent security incidents."
     }
   },
   "summary": {
     "apple": {
-      "es": "Apple documenta límites de uso de Apple Intelligence por nivel de iCloud+ y un filtrado sugiere más widgets en la pantalla de bloqueo del iPhone Duo.",
-      "en": "Apple documents usage limits for Apple Intelligence by iCloud+ tier, and a leak suggests more widgets on the iPhone Duo Lock Screen."
+      "es": "Apple prepara una intensa temporada de lanzamientos para la primavera de 2027, que incluirá el iPhone 18e, el iPhone 18, nuevos iPads y MacBooks con chips A20 y A19.",
+      "en": "Apple is preparing a busy spring 2027 launch season, which will include the iPhone 18e, iPhone 18, new iPads, and MacBooks featuring A20 and A19 chips."
     },
     "ai_software": {
-      "es": "Ollama v0.40.17 soporta Inkling 2 Mini y ejecución concurrente en Apple silicon; un informe detalla el uso de agentes de IA para explotar una vulnerabilidad 0-day.",
-      "en": "Ollama v0.40.17 supports Inkling 2 Mini and concurrent execution on Apple silicon; a report details the use of AI agents to exploit a 0-day vulnerability."
+      "es": "Anthropic lanza Claude Ship para gestionar pull requests, OpenAI actualiza ChatGPT con GPT-6.2 Sol y Vercel implementa auditorías de seguridad en su AI Gateway.",
+      "en": "Anthropic launches Claude Ship to manage pull requests, OpenAI updates ChatGPT with GPT-6.2 Sol, and Vercel implements security audits in its AI Gateway."
     },
     "ai_general": {
-      "es": "METR actualiza su gráfico de horizonte temporal de IA, añadiendo tareas más largas y abiertas para evaluar la capacidad de los modelos.",
-      "en": "METR updates its AI time horizon plot, adding longer and more open-ended tasks to evaluate model capabilities."
+      "es": "Anthropic afirma que Claude resolvió la Hipótesis de Riemann, aunque la prueba generada es demasiado extensa para una verificación matemática tradicional.",
+      "en": "Anthropic claims Claude solved the Riemann Hypothesis, although the generated proof is too extensive for traditional mathematical verification."
     },
     "tech": {
-      "es": "Cloudflare bloquea ruby2shell para todos sus clientes y JetBrains alerta sobre una vulnerabilidad crítica en Java que afecta a YouTrack Server.",
-      "en": "Cloudflare blocks ruby2shell for all its customers, and JetBrains alerts on a critical Java vulnerability affecting YouTrack Server."
+      "es": "Ladybird, el primer nuevo motor de navegador en años, ya está disponible para pruebas, y se analizan las alternativas a GitHub Actions tras recientes incidentes de seguridad.",
+      "en": "Ladybird, the first new browser engine in years, is now available for testing, and GitHub Actions alternatives are being analyzed following recent security incidents."
     }
   },
   "top_stories": [
     {
-      "id": "evt_bdcf06fac08fe2c6",
+      "id": "evt_1105ffd3aaa8786b",
       "title": {
-        "es": "Ollama v0.40.17 soporta Inkling 2 Mini y ejecución concurrente en Apple silicon",
-        "en": "Ollama v0.40.17 supports Inkling 2 Mini and concurrent execution on Apple silicon"
+        "es": "Anthropic lanza Claude Ship para automatizar revisiones de código",
+        "en": "Anthropic launches Claude Ship to automate code reviews"
       },
       "body": {
-        "es": "Ollama ha lanzado la versión 0.40.17, que añade soporte para el modelo Inkling 2 Mini de Thinking Machines, un modelo de 26B parámetros que ocupa unos 20 GB y obtiene un 79,2 % en SWE-Bench Verified. La actualización también permite a Ollama en Apple silicon servir múltiples solicitudes simultáneamente y corrige fallos de carga en GPUs integradas mediante el uso de mmap en Vulkan. Esto permite a los desarrolladores ejecutar modelos de IA más grandes y complejos localmente en Macs con Apple silicon, mejorando el rendimiento y la fiabilidad.",
-        "en": "Ollama has released version 0.40.17, which adds support for Thinking Machines' Inkling 2 Mini model, a 26B parameter model that takes up about 20 GB and scores 79.2% on SWE-Bench Verified. The update also allows Ollama on Apple silicon to serve multiple requests at once and fixes load failures on integrated GPUs by using mmap in Vulkan. This allows developers to run larger and more complex AI models locally on Macs with Apple silicon, improving performance and reliability."
+        "es": "Anthropic ha presentado Claude Ship, una nueva herramienta que permite a Claude revisar, corregir y aprobar pull requests según la política de cada equipo. Esta función busca integrar la IA directamente en el flujo de trabajo de desarrollo, reduciendo la carga manual de las revisiones de código.",
+        "en": "Anthropic has introduced Claude Ship, a new tool that allows Claude to review, fix, and approve pull requests according to each team's policy. This feature aims to integrate AI directly into the development workflow, reducing the manual burden of code reviews."
       },
-      "newsId": "evt_bdcf06fac08fe2c6",
-      "storyKey": "evt_bdcf06fac08fe2c6",
+      "newsId": "evt_1105ffd3aaa8786b",
+      "storyKey": "evt_1105ffd3aaa8786b",
       "topic": "ai_software",
-      "source": "Ollama Releases",
-      "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
-      "image": "https://opengraph.githubassets.com/4fef7022481ee2ad87e1470497dcdc7d5f946fb4a9a72c378585f564a272a1e4/ollama/ollama/releases/tag/v0.40.17",
-      "score": 8.6,
-      "publishedAt": "2026-11-21T04:05:14.000Z",
-      "evidence": [
-        {
-          "claim": "Ollama release v0.40.17 supports the Inkling 2 Mini model.",
-          "source": "69fde71b4c8d9333"
-        },
-        {
-          "claim": "The Inkling 2 Mini model scores 79.2% on SWE-Bench.",
-          "source": "69fde71b4c8d9333"
-        },
-        {
-          "claim": "Ollama launch claude supports deferred tool loading.",
-          "source": "69fde71b4c8d9333"
-        },
-        {
-          "claim": "Ollama on Apple silicon now serves multiple requests at once.",
-          "source": "69fde71b4c8d9333"
-        },
-        {
-          "claim": "Vulkan now uses mmap for integrated GPUs, fixing load failures on shared-memory GPUs.",
-          "source": "69fde71b4c8d9333"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Ollama Releases",
-          "link": "https://github.com/ollama/ollama/releases/tag/v0.40.17"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_1b4a562dbd87929b",
-      "title": {
-        "es": "Cloudflare WAF bloquea ruby2shell para todos sus clientes",
-        "en": "Cloudflare WAF blocks ruby2shell for all its customers"
-      },
-      "body": {
-        "es": "Cloudflare ha activado el bloqueo de la vulnerabilidad ruby2shell (CVE-2026-132825) en su WAF para todos los clientes, incluidos los del plan gratuito. La vulnerabilidad afecta a aplicaciones Ruby, incluyendo Ruby on Rails y Sinatra, y ha sido corregida en Ruby 3.3.14, 3.4.13 y 4.0.10. Los administradores de servidores que ejecutan aplicaciones Ruby deben actualizar sus sistemas para mitigar el riesgo, ya que la vulnerabilidad puede ser explotada antes de la autenticación.",
-        "en": "Cloudflare has enabled blocking for the ruby2shell vulnerability (CVE-2026-132825) in its WAF for all customers, including those on the Free plan. The vulnerability affects Ruby applications, including Ruby on Rails and Sinatra, and has been fixed in Ruby 3.3.14, 3.4.13, and 4.0.10. Server administrators running Ruby applications should update their systems to mitigate the risk, as the vulnerability can be exploited before authentication."
-      },
-      "newsId": "evt_1b4a562dbd87929b",
-      "storyKey": "evt_1b4a562dbd87929b",
-      "topic": "tech",
-      "source": "Cloudflare Blog",
-      "link": "https://blog.cloudflare.com/ruby2shell-waf-protection",
-      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7X91E3PVQ8147SJ7B05N2WK.png",
-      "score": 8.35,
-      "publishedAt": "2026-11-20T20:24:38.000Z",
-      "evidence": [
-        {
-          "claim": "Cloudflare WAF blocks ruby2shell for all customers, including those on the Free plan.",
-          "source": "89e8c156fab14450"
-        },
-        {
-          "claim": "The reach is wide, with self-hosted products that bundle Ruby, including GitLab, GitHub Enterprise Server, Mastodon, OpenProject, Discourse and Chatwoot, shipped an affected Ruby in their latest release at the time of disclosure.",
-          "source": "89e8c156fab14450"
-        },
-        {
-          "claim": "Ruby 3.3.14, 3.4.13, and 4.0.10 fix the ruby2shell vulnerability.",
-          "source": "89e8c156fab14450"
-        },
-        {
-          "claim": "Cloudflare has patched its systems that use Ruby against ruby2shell.",
-          "source": "89e8c156fab14450"
-        },
-        {
-          "claim": "Veria Labs reports that Ruby on Rails and classic-style Sinatra applications reach the bug in their default configuration, before any authentication.",
-          "source": "89e8c156fab14450"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Cloudflare Blog",
-          "link": "https://blog.cloudflare.com/ruby2shell-waf-protection"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_1cc95a1254057b1c",
-      "title": {
-        "es": "JetBrains alerta sobre vulnerabilidad crítica en Java que afecta a YouTrack Server",
-        "en": "JetBrains alerts on critical Java vulnerability affecting YouTrack Server"
-      },
-      "body": {
-        "es": "JetBrains ha emitido una alerta de seguridad para YouTrack Server debido a una vulnerabilidad crítica en Java, identificada como CVE-2026-114938 o Java4Shell. La vulnerabilidad afecta a los runtimes de Java utilizados por muchas aplicaciones, incluyendo YouTrack Server, y requiere que los administradores actualicen sus sistemas para mitigar el riesgo. La divulgación pública de la vulnerabilidad tuvo lugar el 17 de noviembre de 2026.",
-        "en": "JetBrains has issued a security alert for YouTrack Server due to a critical vulnerability in Java, identified as CVE-2026-114938 or Java4Shell. The vulnerability affects Java runtimes used by many applications, including YouTrack Server, and requires administrators to update their systems to mitigate the risk. The public disclosure of the vulnerability took place on November 17, 2026."
-      },
-      "newsId": "evt_1cc95a1254057b1c",
-      "storyKey": "evt_1cc95a1254057b1c",
-      "topic": "tech",
-      "source": "JetBrains Blog",
-      "link": "https://blog.jetbrains.com/youtrack/2026/11/security-update-for-youtrack-server-java-vulnerability-cve-2026-114938-java4shell",
-      "image": "https://blog.jetbrains.com/wp-content/uploads/2026/11/YT-social-BlogSocialShare-1280x720-1-1.png",
-      "score": 8.35,
-      "publishedAt": "2026-11-20T13:24:50.000Z",
-      "evidence": [
-        {
-          "claim": "A critical vulnerability in Java was publicly disclosed on November 17, 2026, with the CVE identifier CVE-2026-114938.",
-          "source": "96361074c9bf9136"
-        },
-        {
-          "claim": "The vulnerability affects Java runtimes used by many applications, including YouTrack Server.",
-          "source": "96361074c9bf9136"
-        },
-        {
-          "claim": "YouTrack Server administrators are required to update their systems to mitigate the vulnerability.",
-          "source": "96361074c9bf9136"
-        }
-      ],
-      "sources": [
-        {
-          "name": "JetBrains Blog",
-          "link": "https://blog.jetbrains.com/youtrack/2026/11/security-update-for-youtrack-server-java-vulnerability-cve-2026-114938-java4shell"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_a8c1e07111f34877",
-      "title": {
-        "es": "Agentes de IA explotaron una vulnerabilidad 0-day en una aplicación de imagen médica",
-        "en": "AI agents exploited a 0-day vulnerability in a medical imaging application"
-      },
-      "body": {
-        "es": "Según el CISO de Amazon, CJ Moses, atacantes vinculados a China utilizaron agentes de IA para encontrar y explotar de forma autónoma una vulnerabilidad 0-day en MONAI Label, una aplicación de imagen médica de código abierto. Los agentes adaptaron su estrategia durante casi un día sin dirección humana, logrando el control total de un servidor en una red universitaria. Este incidente destaca el creciente uso de agentes de IA en operaciones de espionaje y ciberdelincuencia.",
-        "en": "According to Amazon CISO CJ Moses, China-linked attackers used AI agents to autonomously find and exploit a 0-day vulnerability in MONAI Label, an open-source medical imaging application. The agents adapted their strategy for nearly a day without human direction, gaining full control of a server in a university network. This incident highlights the growing use of AI agents in espionage and cybercrime operations."
-      },
-      "newsId": "evt_a8c1e07111f34877",
-      "storyKey": "evt_a8c1e07111f34877",
-      "topic": "ai_software",
-      "source": "The Register AI & ML",
-      "link": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
-      "image": "https://image.theregister.com?imageId=5311400&width=800",
-      "score": 8.35,
-      "publishedAt": "2026-11-20T17:30:00.000Z",
-      "evidence": [
-        {
-          "claim": "China-linked attackers used AI agents to autonomously find and exploit a zero-day vulnerability in an open-source application.",
-          "source": "d928f57c984735ae"
-        },
-        {
-          "claim": "The AI agents adapted autonomously for nearly a full day without human direction.",
-          "source": "d928f57c984735ae"
-        },
-        {
-          "claim": "The AI agents found and exploited a zero-day vulnerability in MONAI Label, an open-source medical imaging AI application.",
-          "source": "d928f57c984735ae"
-        },
-        {
-          "claim": "The attackers used the AI agents to target university networks in East Asia, outside Mainland China.",
-          "source": "d928f57c984735ae"
-        },
-        {
-          "claim": "The attackers also used the AI agents to target other companies, including a Fortune 500 hospitality company and a major US airline.",
-          "source": "d928f57c984735ae"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Register AI & ML",
-          "link": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_5186e2786247df54",
-      "title": {
-        "es": "Apple documenta límites de uso de Apple Intelligence por nivel de iCloud+",
-        "en": "Apple documents usage limits for Apple Intelligence by iCloud+ tier"
-      },
-      "body": {
-        "es": "Apple ha documentado que las funciones de Apple Intelligence y Siri AI tienen límites de uso diarios, que pueden aumentarse actualizando el plan de iCloud+. Los límites se reinician alrededor de la medianoche en la zona horaria del usuario, con excepciones para viajes internacionales y grupos de Family Sharing. Esta medida busca garantizar una experiencia de alta calidad y fiable para todos los usuarios.",
-        "en": "Apple has documented that Apple Intelligence and Siri AI features have daily usage limits, which can be increased by upgrading the iCloud+ plan. The limits reset around midnight in the user's time zone, with exceptions for international travel and Family Sharing groups. This measure aims to ensure a high-quality, reliable experience for all users."
-      },
-      "newsId": "evt_5186e2786247df54",
-      "storyKey": "evt_5186e2786247df54",
-      "topic": "apple",
-      "source": "Daring Fireball",
-      "link": "https://support.apple.com/en-us/127901",
-      "image": "https://daringfireball.net/misc/2026/11/apple-intelligence-siri-ai-daily-limits-table.png",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/claude.webp?w=1600",
       "score": 7.65,
-      "publishedAt": "2026-11-21T18:02:51.000Z",
+      "publishedAt": "2026-11-23T20:32:31.000Z",
       "evidence": [
         {
-          "claim": "Apple Intelligence and Siri AI features have daily usage limits.",
-          "source": "acce3702c1754054"
+          "claim": "Anthropic is launching a new tool for builders called Claude Ship.",
+          "source": "37d10453bd8e271d"
         },
         {
-          "claim": "Users can upgrade their iCloud+ plan to increase their daily usage limits for Apple Intelligence and Siri AI features.",
-          "source": "acce3702c1754054"
-        },
-        {
-          "claim": "The Siri AI limit in the 2027 software releases is more capable, conversational, and personal.",
-          "source": "acce3702c1754054"
-        },
-        {
-          "claim": "Users will be notified when they hit their daily usage limit for a particular feature category.",
-          "source": "acce3702c1754054"
-        },
-        {
-          "claim": "The daily usage limit resets around midnight in the user's current time zone.",
-          "source": "acce3702c1754054"
+          "claim": "The new AI feature allows Claude to review pull requests, fix them, and approve the ones that a team’s policy allows.",
+          "source": "37d10453bd8e271d"
         }
       ],
       "sources": [
         {
-          "name": "Daring Fireball",
-          "link": "https://support.apple.com/en-us/127901"
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_262da2eacd47da1c",
+      "id": "evt_f6001c6f0c51c95f",
       "title": {
-        "es": "Filtrado sugiere más widgets en la pantalla de bloqueo del iPhone Duo",
-        "en": "Leak suggests more widgets on the iPhone Duo Lock Screen"
+        "es": "OpenAI despliega GPT-6.2 Sol en la pestaña de chat de ChatGPT",
+        "en": "OpenAI rolls out GPT-6.2 Sol to ChatGPT's chat tab"
       },
       "body": {
-        "es": "Un filtrado sugiere que Apple ha probado una 'columna de complicaciones' para la pantalla de bloqueo del iPhone Duo, que permite colocar dos widgets circulares en el borde derecho. Esta disposición puede usarse junto con la fila inferior existente, dando a los usuarios acceso a más información. La función aún no está disponible y podría no llegar a todos los usuarios.",
-        "en": "A leak suggests that Apple has tested a 'complication column' for the iPhone Duo Lock Screen, which allows placing two circular widgets on the right edge. This arrangement can be used together with the existing bottom row, giving users access to more information. The feature is not yet available and may not reach all users."
+        "es": "OpenAI está implementando GPT-6.2 Sol en las capas Plus, Pro, Business y Enterprise de ChatGPT. Según la empresa, el nuevo modelo mejora la detección de detalles finos en fotos y cumple con las políticas de seguridad en conversaciones difíciles un 91-94% de las veces, frente al 77-80% de GPT-6.",
+        "en": "OpenAI is rolling out GPT-6.2 Sol to the Plus, Pro, Business, and Enterprise tiers of ChatGPT. According to the company, the new model improves the detection of fine details in photos and meets safety policies in challenging conversations 91-94% of the time, up from 77-80% for GPT-6."
       },
-      "newsId": "evt_262da2eacd47da1c",
-      "storyKey": "evt_262da2eacd47da1c",
-      "topic": "apple",
+      "newsId": "evt_f6001c6f0c51c95f",
+      "storyKey": "evt_f6001c6f0c51c95f",
+      "topic": "ai_software",
       "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/11/22/iphone-duo-could-get-more-lock-screen-widgets",
-      "image": "https://images.macrumors.com/article-new/2026/11/iphone-duo-cyber-monday.jpeg",
-      "score": 7.65,
-      "publishedAt": "2026-11-22T20:38:16.000Z",
+      "link": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt",
+      "image": "https://images.macrumors.com/article-new/2026/11/gpt-6-2-openai.jpg",
+      "score": 8.35,
+      "publishedAt": "2026-11-23T23:52:41.000Z",
       "evidence": [
         {
-          "claim": "Apple has tested a 'complication column' for iPhone Duo's Lock Screen.",
-          "source": "10d0db39bcee9435"
+          "claim": "GPT-6.2 Sol is being rolled out to various tiers of ChatGPT.",
+          "source": "4adc9673423a7aeb"
         },
         {
-          "claim": "The 'complication column' can be used together with the existing bottom row.",
-          "source": "10d0db39bcee9435"
+          "claim": "GPT-6.2 Sol is better at detecting fine details in photos.",
+          "source": "4adc9673423a7aeb"
+        },
+        {
+          "claim": "GPT-6.2 Sol meets OpenAI's safety policies more frequently in challenging conversations.",
+          "source": "4adc9673423a7aeb"
         }
       ],
       "sources": [
         {
           "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/11/22/iphone-duo-could-get-more-lock-screen-widgets"
+          "link": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_57a43439e5d8849f",
+      "id": "evt_9881ed8cb83bcdfa",
       "title": {
-        "es": "METR actualiza su gráfico de horizonte temporal de IA",
-        "en": "METR updates its AI time horizon plot"
+        "es": "Vercel introduce auditorías de retención cero en su AI Gateway",
+        "en": "Vercel introduces zero-data-retention audits in its AI Gateway"
       },
       "body": {
-        "es": "METR ha actualizado su gráfico de horizonte temporal de IA, añadiendo tareas más largas y abiertas para evaluar la capacidad de los modelos. La actualización refleja el avance de los sistemas de IA en codificación y matemáticas, dos dominios donde es posible determinar automáticamente si una solución funciona o no. Sin embargo, ninguna de las evaluaciones diseñadas por IA fue considerada útil por los empleados de METR para su investigación.",
-        "en": "METR has updated its AI time horizon plot, adding longer and more open-ended tasks to evaluate model capabilities. The update reflects the progress of AI systems in coding and math, two domains where it is possible to automatically determine whether a solution works or not. However, none of the AI-designed evaluations were considered useful by METR employees for their research."
+        "es": "Vercel AI ha lanzado Audited ZDR, un sistema que exige a los proveedores de IA someterse a pruebas de seguridad independientes para verificar sus afirmaciones de retención cero de datos. Baseten, Modal y Wafer son los primeros socios en iniciar estas auditorías, que garantizan que los datos de los clientes no se almacenen en sistemas duraderos.",
+        "en": "Vercel AI has launched Audited ZDR, a system that requires AI providers to undergo independent security tests to verify their zero-data-retention claims. Baseten, Modal, and Wafer are the first partners to begin these audits, which ensure that customer data is not stored on durable systems."
       },
-      "newsId": "evt_57a43439e5d8849f",
-      "storyKey": "evt_57a43439e5d8849f",
-      "topic": "ai_general",
-      "source": "MIT Tech Review AI",
-      "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/metr2a.jpg?resize=1200,600",
-      "score": 7.65,
-      "publishedAt": "2026-11-20T18:15:15.000Z",
+      "newsId": "evt_9881ed8cb83bcdfa",
+      "storyKey": "evt_9881ed8cb83bcdfa",
+      "topic": "ai_software",
+      "source": "Vercel AI",
+      "link": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway",
+      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/67XIifvPiGZjjxt9fE6s19/33e5a98b2743a7ecafaaa33a7c193c82/audited-zdr-og.png",
+      "score": 8.6,
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "evidence": [
         {
-          "claim": "METR evaluated models by having them attempt a large suite of tasks, each of which had also been completed by humans.",
-          "source": "bf7b3f573802e075"
+          "claim": "Vercel AI is introducing Audited ZDR on AI Gateway.",
+          "source": "aff8ab442fc8b4f8"
         },
         {
-          "claim": "The updated plot adds more tasks—some that are estimated to take humans far longer than those in the original suite, and others that are more open-ended.",
-          "source": "bf7b3f573802e075"
+          "claim": "Audited ZDR requires an independent security firm to test zero data retention claims.",
+          "source": "aff8ab442fc8b4f8"
         },
         {
-          "claim": "AI systems have become so good at coding and math, two domains where it’s possible to determine automatically whether a solution does or doesn’t work.",
-          "source": "bf7b3f573802e075"
+          "claim": "Baseten, Modal, and Wafer are launch partners for Audited ZDR.",
+          "source": "aff8ab442fc8b4f8"
         },
         {
-          "claim": "Not one of the AI-designed evaluations was good enough for METR employees to consider it useful for their research.",
-          "source": "bf7b3f573802e075"
+          "claim": "Audited ZDR covers a wide range of systems and processes to ensure data is not retained.",
+          "source": "aff8ab442fc8b4f8"
         },
         {
-          "claim": "METR’s time horizon plots score task difficulty by evaluating how long it would take a human to complete the task, and for the original plot they measured this quantity by actually having people try each task.",
-          "source": "bf7b3f573802e075"
+          "claim": "AI Gateway will route and fail over requests only across providers with published Audited ZDR reports.",
+          "source": "aff8ab442fc8b4f8"
         }
       ],
       "sources": [
         {
-          "name": "MIT Tech Review AI",
-          "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update"
+          "name": "Vercel AI",
+          "link": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_4de5a68529b86f9d",
+      "title": {
+        "es": "Apple planea lanzar iPhone 18e, iPad y MacBook Neo en primavera",
+        "en": "Apple plans to launch iPhone 18e, iPad, and MacBook Neo in spring"
+      },
+      "body": {
+        "es": "Según Mark Gurman de Bloomberg, Apple prevé presentar el iPhone 18e, el iPhone 18, un iPad de entrada actualizado y nuevos modelos MacBook Neo y Air entre febrero y marzo de 2027. El iPhone 18e incluirá un chip A20 y 9 GB de RAM, mientras que el nuevo iPad contará con un chip A19 y soporte para Apple Intelligence.",
+        "en": "According to Bloomberg's Mark Gurman, Apple plans to unveil the iPhone 18e, iPhone 18, an updated entry-level iPad, and new MacBook Neo and Air models between February and March 2027. The iPhone 18e will feature an A20 chip and 9GB of RAM, while the new iPad will include an A19 chip and Apple Intelligence support."
+      },
+      "newsId": "evt_4de5a68529b86f9d",
+      "storyKey": "evt_4de5a68529b86f9d",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/22/new-apple-products-february-or-march",
+      "image": "https://images.macrumors.com/article-new/2026/10/MacBook-Neo-2-on-Yellow-Feature.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-22T15:32:53.000Z",
+      "evidence": [
+        {
+          "claim": "Apple plans to unveil an iPhone 18e, iPhone 18, updated entry-level iPad, and new MacBook Neo and MacBook Air models around February or March next year.",
+          "source": "e8debc648a4a464c"
+        },
+        {
+          "claim": "The iPhone 18e will have a A20 chip, 9GB of RAM, and longer battery life.",
+          "source": "e8debc648a4a464c"
+        },
+        {
+          "claim": "The updated iPad will have an A19 chip with Apple Intelligence support, N1 chip with Wi-Fi 7 support, and Apple's power-efficient C1X modem in cellular models.",
+          "source": "e8debc648a4a464c"
+        },
+        {
+          "claim": "The MacBook Neo will have an A19 Pro chip, 12GB of RAM, and potentially new color options.",
+          "source": "e8debc648a4a464c"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/11/22/new-apple-products-february-or-march"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_e3bf3f82ef781882",
+      "title": {
+        "es": "Anthropic afirma que Claude resolvió la Hipótesis de Riemann",
+        "en": "Anthropic claims Claude solved the Riemann Hypothesis"
+      },
+      "body": {
+        "es": "Anthropic sostiene que su modelo Claude ha resuelto la Hipótesis de Riemann, uno de los problemas del Milenio. Sin embargo, la prueba generada consta de 250.000 páginas de texto, lo que dificulta su verificación por parte de la comunidad matemática, y el Instituto Clay aún no ha reconocido la solución.",
+        "en": "Anthropic claims its Claude model has solved the Riemann Hypothesis, one of the Millennium problems. However, the generated proof consists of 250,000 pages of text, making it difficult for the mathematical community to verify, and the Clay Institute has not yet recognized the solution."
+      },
+      "newsId": "evt_e3bf3f82ef781882",
+      "storyKey": "evt_e3bf3f82ef781882",
+      "topic": "ai_software",
+      "source": "The Register AI & ML",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+      "image": "https://image.theregister.com/5264648.jpg?croph=100&cropw=100&height=683&imageId=5264648&panoh=100&panow=100&panox=0&panoy=0&width=1200&x=0&y=0",
+      "score": 7.65,
+      "publishedAt": "2026-11-24T00:18:17.000Z",
+      "evidence": [
+        {
+          "claim": "Anthropic claims Claude has solved the Riemann Hypothesis, one of the seven Millennium problems with a $1 million prize.",
+          "source": "241dfb367a594140"
+        },
+        {
+          "claim": "The Riemann Hypothesis, conjectured by Riemann in 1859, states that all nontrivial zeros of the Riemann zeta function have a real part equal to 1/2.",
+          "source": "241dfb367a594140"
+        },
+        {
+          "claim": "The proof generated by Claude is 250,000 pages of unreadable text, making it difficult for mathematicians to verify.",
+          "source": "241dfb367a594140"
+        },
+        {
+          "claim": "The Clay Mathematics Institute has not yet considered the Riemann Hypothesis solved, as the proposed solution must be published in a qualifying outlet, remain available for scrutiny for at least two years, and receive broad acceptance from the mathematics community.",
+          "source": "241dfb367a594140"
+        },
+        {
+          "claim": "The Lean Focused Research Organization and Mathlib Initiative have already declared the Riemann Hypothesis solved, despite the lack of a traditional, human-readable proof.",
+          "source": "241dfb367a594140"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Register AI & ML",
+          "link": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_76367b65beea4dd9",
+      "title": {
+        "es": "Ladybird, el primer nuevo motor de navegador en años, ya está disponible",
+        "en": "Ladybird, the first new browser engine in years, is now available"
+      },
+      "body": {
+        "es": "Ladybird, un navegador independiente con un motor construido desde cero, ya está disponible para pruebas. Su objetivo es ofrecer un navegador rápido, seguro y respetuoso con la privacidad, rompiendo el monopolio de los tres motores actuales: Gecko, Blink y WebKit.",
+        "en": "Ladybird, an independent browser with a built-from-scratch engine, is now available for testing. Its goal is to provide a fast, secure, and privacy-respecting browser, breaking the monopoly of the three current engines: Gecko, Blink, and WebKit."
+      },
+      "newsId": "evt_76367b65beea4dd9",
+      "storyKey": "evt_76367b65beea4dd9",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ladybird-screenshot.webp?crop=0%2C14.66120255046%2C100%2C70.67759489908&quality=90&strip=all&w=1200",
+      "score": 6.65,
+      "publishedAt": "2026-11-23T22:38:09.000Z",
+      "evidence": [
+        {
+          "claim": "Ladybird, the first new browser engine in years, is now available to test.",
+          "source": "8c35bd6c1ea87ca4"
+        },
+        {
+          "claim": "Ladybird is an independent web browser with a built-from-scratch engine.",
+          "source": "8c35bd6c1ea87ca4"
+        },
+        {
+          "claim": "The release makes Ladybird the first browser in years to arrive with an entirely new engine.",
+          "source": "8c35bd6c1ea87ca4"
+        },
+        {
+          "claim": "The most popular browsers use just three engines today: Gecko, Blink, and WebKit.",
+          "source": "8c35bd6c1ea87ca4"
+        },
+        {
+          "claim": "A Windows version of Ladybird will arrive during a “later stage” of the project.",
+          "source": "8c35bd6c1ea87ca4"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing"
         }
       ],
       "what_changed": []
@@ -362,157 +310,117 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_88a6ff62533ce184",
+      "id": "evt_705ae22023dd9752",
       "title": {
-        "es": "Una semana con los nuevos controles de privacidad en MacOS 27.3 Beta 2",
-        "en": "A Week With the New Privacy Controls in MacOS 27.3 Beta 2"
+        "es": "AI Gateway implementa auditorías canarias para detectar fugas de datos",
+        "en": "AI Gateway implements canary audits to detect data leaks"
       },
       "text": {
-        "es": "Los nuevos controles de privacidad de MacOS 27.3 Beta 2 están diseñados para ser más fáciles de usar y proporcionar información más clara sobre los permisos. Sin embargo, algunos usuarios encuentran distrayente el indicador de barra de menú que aparece cuando una aplicación controla a otra, que no puede desactivarse.",
-        "en": "The new privacy controls in MacOS 27.3 Beta 2 are designed to be more user-friendly and provide clearer information about permissions. However, some users find the menu bar indicator that appears when one app is controlling another distracting, as it cannot be turned off."
+        "es": "Vercel AI Gateway ahora ejecuta auditorías canarias enviando prompts con URLs únicas para detectar si el contenido se lee fuera de la ruta de inferencia. Esta medida complementa los acuerdos contractuales de retención cero de datos.",
+        "en": "Vercel AI Gateway now runs canary audits by sending prompts with unique URLs to detect if content is read outside the inference path. This measure complements contractual zero-data-retention agreements."
       },
-      "newsId": "evt_88a6ff62533ce184",
-      "storyKey": "evt_88a6ff62533ce184",
-      "topic": "apple",
-      "source": "Daring Fireball",
-      "link": "https://daringfireball.net/2026/11/a_week_with_the_new_privacy_controls_in_macos_273",
-      "image": "https://daringfireball.net/graphics/df-wide-card.png",
-      "score": 7.65,
-      "publishedAt": "2026-11-21T20:09:57.000Z",
+      "newsId": "evt_705ae22023dd9752",
+      "storyKey": "evt_705ae22023dd9752",
+      "topic": "ai_software",
+      "source": "Vercel AI",
+      "link": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits",
+      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/caf87daafd0ddb7f57c786db/eb9a47f637fe4180dd745c8b86b04cfc/canary-zdr-audits-og.jpg",
+      "score": 8.4,
+      "publishedAt": "2026-11-23T06:19:00.000Z",
       "evidence": [
         {
-          "claim": "The new privacy controls are designed to be more user-friendly and provide clearer information about permissions.",
-          "source": "85daacbf6849c5c3"
+          "claim": "AI Gateway now runs canary audits against inference providers to detect when prompt content is read outside the inference path.",
+          "source": "a325af283f5e76bc"
         },
         {
-          "claim": "The new privacy controls are intended to discourage users from granting Full Disk Access to certain applications.",
-          "source": "85daacbf6849c5c3"
+          "claim": "Canary audits send prompts containing unique URLs through the normal inference path.",
+          "source": "a325af283f5e76bc"
         },
         {
-          "claim": "There is a menu bar indicator for apps controlling other apps, which cannot be turned off and is considered distracting by some users.",
-          "source": "85daacbf6849c5c3"
+          "claim": "Canary audits watch for traffic to canary URLs and record any requests.",
+          "source": "a325af283f5e76bc"
+        },
+        {
+          "claim": "Canary audits complement contractual ZDR agreements and independent audits.",
+          "source": "a325af283f5e76bc"
         }
       ],
       "sources": [
         {
-          "name": "Daring Fireball",
-          "link": "https://daringfireball.net/2026/11/a_week_with_the_new_privacy_controls_in_macos_273"
+          "name": "Vercel AI",
+          "link": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_cda30a3b989ef605",
+      "id": "evt_2a28d78856cbbbfe",
       "title": {
-        "es": "El fracaso de monetización de la búsqueda con IA de Google está costando ingresos a Apple",
-        "en": "Google's AI search monetization failure is costing Apple revenue"
+        "es": "Kotlin Benchmark 2.0 evalúa agentes de IA en tareas más complejas",
+        "en": "Kotlin Benchmark 2.0 evaluates AI agents on more complex tasks"
       },
       "text": {
-        "es": "La división de Servicios de Apple está viendo cómo su crecimiento se frena del 12 % al 10 % interanual, en parte debido a la incapacidad de Google para monetizar la búsqueda con IA al mismo nivel que la búsqueda tradicional. Las acciones de Google han caído un 18 % desde que informó de un descenso en el crecimiento de los ingresos por publicidad de búsqueda.",
-        "en": "Apple's Services arm is seeing its growth slow from 12% to 10% year-over-year, partly due to Google's inability to monetize AI search to the same level as traditional search. Google's shares have dropped 18% since it reported a downturn in search advertising revenue growth."
+        "es": "La nueva versión del Kotlin Benchmark incluye tareas más representativas para equipos de Kotlin y datos más fiables para ayudar a elegir la mejor configuración de agente y modelo.",
+        "en": "The new version of the Kotlin Benchmark includes more representative tasks for Kotlin teams and more reliable data to help choose the best agent and model configuration."
       },
-      "newsId": "evt_cda30a3b989ef605",
-      "storyKey": "evt_cda30a3b989ef605",
-      "topic": "apple",
-      "source": "AppleInsider",
-      "link": "https://appleinsider.com/articles/26/11/22/googles-ai-search-monetization-failure-is-costing-apple-revenue",
-      "image": "https://media.appleinsider.com/gallery/69967-147445-67719-142728-64948-135417-IMG_2613-xl-xl-xl.jpg",
+      "newsId": "evt_2a28d78856cbbbfe",
+      "storyKey": "evt_2a28d78856cbbbfe",
+      "topic": "ai_software",
+      "source": "JetBrains Blog",
+      "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code",
+      "image": "https://blog.jetbrains.com/wp-content/uploads/2026/11/Kotlin-Benchmark-2.0-leaderboard-infographic-1920x1080-23-Nov-2026.png",
       "score": 7.65,
-      "publishedAt": "2026-11-22T17:23:41.000Z",
+      "publishedAt": "2026-11-23T14:13:29.000Z",
       "evidence": [
         {
-          "claim": "Apple's Services arm is slowing growth from 12% to 10% year-over-year.",
-          "source": "fb74875908a91a0f"
+          "claim": "Kotlin Benchmark 2.0 includes more representative tasks for Kotlin teams.",
+          "source": "ab927e8df306f183"
         },
         {
-          "claim": "Google's ad monetization for searches in AI mode was lower than for traditional searches.",
-          "source": "fb74875908a91a0f"
-        },
-        {
-          "claim": "Google's shares dropped 18% since it reported a downturn in search advertising revenue growth.",
-          "source": "fb74875908a91a0f"
-        },
-        {
-          "claim": "Google is struggling to monetize the increased popularity of AI search results.",
-          "source": "fb74875908a91a0f"
+          "claim": "The new tasks in Kotlin Benchmark 2.0 require more data to help choose an agent-model configuration.",
+          "source": "ab927e8df306f183"
         }
       ],
       "sources": [
         {
-          "name": "AppleInsider",
-          "link": "https://appleinsider.com/articles/26/11/22/googles-ai-search-monetization-failure-is-costing-apple-revenue"
+          "name": "JetBrains Blog",
+          "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_68bf2003949d6ceb",
+      "id": "evt_04404baac51f554a",
       "title": {
-        "es": "Gurman: Los despidos en Siri ahorraron los nuevos sistemas de IA, pero los problemas persisten",
-        "en": "Gurman: Siri Layoffs Spared Newer AI Systems, But Problems Persist"
+        "es": "Alternativas a GitHub Actions tras incidentes de seguridad",
+        "en": "GitHub Actions alternatives following security incidents"
       },
       "text": {
-        "es": "Según Mark Gurman de Bloomberg, los recientes despidos en Siri afectaron a empleados que trabajaban en la infraestructura más antigua del asistente, no en sus nuevos sistemas de IA. Apple enfrenta una creciente competencia de desarrolladores de IA que actualizan sus modelos y servicios con mucha más frecuencia que el ciclo anual de sistemas operativos de Apple.",
-        "en": "According to Bloomberg's Mark Gurman, Apple's recent Siri layoffs affected employees working on the assistant's older infrastructure, not its newer AI systems. Apple faces growing competition from AI developers that update their models and services far more frequently than Apple's annual operating system cycle."
+        "es": "Un análisis de 838 organizaciones examina las alternativas a GitHub Actions, destacando incidentes recientes como el retraso de jobs en julio de 2026 y la campaña Megalodon que afectó a más de 5.500 repositorios en mayo.",
+        "en": "An analysis of 838 organizations examines GitHub Actions alternatives, highlighting recent incidents such as the July 2026 job delays and the Megalodon campaign that affected over 5,500 repositories in May."
       },
-      "newsId": "evt_68bf2003949d6ceb",
-      "storyKey": "evt_68bf2003949d6ceb",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/11/22/siri-layoffs-spared-newer-ai-systems",
-      "image": "https://images.macrumors.com/article-new/2026/11/Siri-AI-Icon.jpeg",
-      "score": 7.65,
-      "publishedAt": "2026-11-22T20:29:51.000Z",
-      "evidence": [
-        {
-          "claim": "Apple's recent Siri layoffs affected employees working on the assistant's older infrastructure rather than its newer AI systems.",
-          "source": "9edc0d210e18bba1"
-        },
-        {
-          "claim": "Apple's internal release calendar for major operating system updates is largely determined by late summer or early fall of the preceding year.",
-          "source": "9edc0d210e18bba1"
-        },
-        {
-          "claim": "Apple faces growing competition from AI developers that update their models and services far more frequently than Apple's annual operating system cycle.",
-          "source": "9edc0d210e18bba1"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/11/22/siri-layoffs-spared-newer-ai-systems"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_3ba6b253b64c0cb9",
-      "title": {
-        "es": "Los bancos están harto de tu agente de IA",
-        "en": "Banks Have Had It Up to Here With Your AI Agent"
-      },
-      "text": {
-        "es": "Las principales instituciones financieras de EE. UU. están prohibiendo a los bots de terceros iniciar sesión en sus cuentas y advirtiendo que cualquier error costoso del bot es estrictamente responsabilidad del usuario. Esta medida busca proteger la seguridad de las cuentas y evitar el uso no autorizado de agentes de IA.",
-        "en": "Major US financial institutions are banning third-party bots from logging into their accounts and warning that any costly bot mistakes are strictly the user's responsibility. This measure aims to protect account security and prevent unauthorized use of AI agents."
-      },
-      "newsId": "evt_3ba6b253b64c0cb9",
-      "storyKey": "evt_3ba6b253b64c0cb9",
+      "newsId": "evt_04404baac51f554a",
+      "storyKey": "evt_04404baac51f554a",
       "topic": "tech",
-      "source": "Wired",
-      "link": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents",
-      "image": "https://media.wired.com/photos/6b0080a25f35c47a5c116087/191:100/w_1280,c_limit/GettyImages-2285133719.jpg",
+      "source": "JetBrains Blog",
+      "link": "https://blog.jetbrains.com/teamcity/2026/11/github-actions-alternatives",
+      "image": "https://blog.jetbrains.com/wp-content/uploads/2026/11/TC-social-BlogSocialShare-1280x720-1-2.png",
       "score": 7.65,
-      "publishedAt": "2026-11-22T11:00:00.000Z",
+      "publishedAt": "2026-11-23T07:56:19.000Z",
       "evidence": [
         {
-          "claim": "Major US financial institutions are banning third-party bots from logging into your accounts.",
-          "source": "060f67fa1cdab35c"
+          "claim": "GitHub Actions faced issues with hosted runner jobs in July 2026.",
+          "source": "ce651da98487b877"
+        },
+        {
+          "claim": "In May 2026, a campaign pushed malicious workflows to over 5,500 repositories.",
+          "source": "ce651da98487b877"
         }
       ],
       "sources": [
         {
-          "name": "Wired",
-          "link": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents"
+          "name": "JetBrains Blog",
+          "link": "https://blog.jetbrains.com/teamcity/2026/11/github-actions-alternatives"
         }
       ],
       "what_changed": []
@@ -520,97 +428,97 @@
   ],
   "trending_repos": [
     {
-      "id": "morluto/rea",
-      "repoKey": "morluto/rea",
-      "name": "rea",
-      "full_name": "morluto/rea",
-      "link": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "id": "trina-app/trina-ax",
+      "repoKey": "trina-app/trina-ax",
+      "name": "trina-ax",
+      "full_name": "trina-app/trina-ax",
+      "link": "https://github.com/trina-app/trina-ax",
+      "description": "Set up Claude Code once. Your whole company gets it. Self-hosted Claude Code and Codex with your company files, team skills, MCP, shared AI sessions and per-person folder permissions.",
       "language": "TypeScript",
-      "stars": 474032,
-      "stars_today": 1305,
-      "stars_per_day_estimate": 1296.3733555263916,
+      "stars": 413,
+      "stars_today": 287,
+      "stars_per_day_estimate": 288.69190497154943,
       "trend_basis": "observed_about_24h",
-      "trend_score": 13.341335428155407,
+      "trend_score": 11.177137051625087,
       "default_branch": "main",
-      "created_at": "2026-04-14T00:51:32Z",
-      "pushed_at": "2026-11-22T23:09:57Z",
+      "created_at": "2026-04-01T15:01:39Z",
+      "pushed_at": "2026-11-23T22:52:54Z",
       "why_it_matters": {
-        "es": "REA permite a los desarrolladores usar agentes de IA para ingeniería inversa de aplicaciones y binarios, facilitando la comprensión de cómo funcionan las funciones de una aplicación a nivel de binario.",
-        "en": "REA allows developers to use AI agents to reverse engineer applications and binaries, making it easier to understand how an app's features work at the binary level."
+        "es": "Permite a las empresas configurar Claude Code o Codex una sola vez para que todo el equipo acceda a archivos, habilidades y sesiones compartidas con permisos por persona.",
+        "en": "Allows companies to set up Claude Code or Codex once so that the whole team can access shared files, skills, and sessions with per-person permissions."
       }
     },
     {
-      "id": "XinaTian/MROffice",
-      "repoKey": "XinaTian/MROffice",
-      "name": "MROffice",
-      "full_name": "XinaTian/MROffice",
-      "link": "https://github.com/XinaTian/MROffice",
-      "description": "The editors of MR Office, the free office closest to Microsoft Office: documents, spreadsheets, presentations, PDF, handwriting and code in the browser. Embed them in your app with one line, or use them from AI apps via MCP.",
+      "id": "INK-Q/agy-fast",
+      "repoKey": "INK-Q/agy-fast",
+      "name": "agy-fast",
+      "full_name": "INK-Q/agy-fast",
+      "link": "https://github.com/INK-Q/agy-fast",
+      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
       "language": "TypeScript",
-      "stars": 2076,
-      "stars_today": 665,
-      "stars_per_day_estimate": 660.6040470690041,
+      "stars": 775,
+      "stars_today": 277,
+      "stars_per_day_estimate": 278.63295357881253,
       "trend_basis": "observed_about_24h",
-      "trend_score": 12.208992325746145,
+      "trend_score": 11.06950391870052,
       "default_branch": "main",
-      "created_at": "2026-11-10T17:54:07Z",
-      "pushed_at": "2026-11-22T03:52:16Z",
+      "created_at": "2026-11-19T04:58:46Z",
+      "pushed_at": "2026-11-23T16:05:02Z",
       "why_it_matters": {
-        "es": "MROffice ofrece editores de documentos, hojas de cálculo y presentaciones de código abierto que pueden integrarse en aplicaciones web o usarse desde aplicaciones de IA mediante MCP, proporcionando una alternativa gratuita a Microsoft Office.",
-        "en": "MROffice provides open-source editors for documents, spreadsheets, and presentations that can be embedded in web apps or used from AI apps via MCP, offering a free alternative to Microsoft Office."
+        "es": "Plugin MCP para Google Antigravity que reduce los turnos de LLM en un 34% y el uso de tokens en un 31% mediante la consolidación de llamadas locales.",
+        "en": "MCP plugin for Google Antigravity that reduces LLM turns by 34% and token usage by 31% by consolidating local calls."
       }
     },
     {
-      "id": "NousResearch/hermes-agent",
-      "repoKey": "NousResearch/hermes-agent",
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "link": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "stars": 265421,
-      "stars_today": 229,
-      "stars_per_day_estimate": 227.48620568240892,
+      "id": "tangency-labs/solidcraft",
+      "repoKey": "tangency-labs/solidcraft",
+      "name": "solidcraft",
+      "full_name": "tangency-labs/solidcraft",
+      "link": "https://github.com/tangency-labs/solidcraft",
+      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "language": "Rust",
+      "stars": 17911,
+      "stars_today": 155,
+      "stars_per_day_estimate": 155.91374658742217,
       "trend_basis": "observed_about_24h",
-      "trend_score": 10.832670686606,
+      "trend_score": 10.29358711230093,
       "default_branch": "main",
-      "created_at": "2025-07-22T22:22:28Z",
-      "pushed_at": "2026-11-22T22:46:33Z",
+      "created_at": "2026-10-07T18:57:48Z",
+      "pushed_at": "2026-11-23T23:00:05Z",
       "why_it_matters": {
-        "es": "Hermes Agent es un agente de IA auto-mejorable que crea habilidades a partir de la experiencia, mejora durante el uso y construye un modelo profundo del usuario a lo largo de las sesiones, permitiendo su ejecución en infraestructuras de bajo costo.",
-        "en": "Hermes Agent is a self-improving AI agent that creates skills from experience, improves during use, and builds a deep model of the user across sessions, allowing it to run on low-cost infrastructure."
+        "es": "Aplicación CAD 3D paramétrica de código abierto en Rust que permite a agentes de IA modelar objetos a través de un servidor MCP integrado.",
+        "en": "Open-source parametric 3D CAD application in Rust that allows AI agents to model objects through a built-in MCP server."
       }
     },
     {
-      "id": "w01fb0ss/PiBot",
-      "repoKey": "w01fb0ss/PiBot",
-      "name": "PiBot",
-      "full_name": "w01fb0ss/PiBot",
-      "link": "https://github.com/w01fb0ss/PiBot",
-      "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+      "id": "OpenHands/OpenHands",
+      "repoKey": "OpenHands/OpenHands",
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "link": "https://github.com/OpenHands/OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
       "language": "TypeScript",
-      "stars": 369,
-      "stars_today": 211,
-      "stars_per_day_estimate": 209.60519388204492,
+      "stars": 94165,
+      "stars_today": 85,
+      "stars_per_day_estimate": 85.50108683826376,
       "trend_basis": "observed_about_24h",
-      "trend_score": 10.615935652648188,
+      "trend_score": 9.43397728960021,
       "default_branch": "main",
-      "created_at": "2026-11-21T06:54:24Z",
-      "pushed_at": "2026-11-22T10:52:32Z",
+      "created_at": "2024-03-13T03:33:31Z",
+      "pushed_at": "2026-11-23T22:57:00Z",
       "why_it_matters": {
-        "es": "PiBot es un equipo de agentes de IA de código abierto y local-first para el escritorio, que permite a los bots planificar, ejecutar comandos, editar archivos y navegar por la web, con aprobaciones para cada paso arriesgado.",
-        "en": "PiBot is an open-source, local-first AI agent team for the desktop, allowing bots to plan, run commands, edit files, and browse the web, with approvals for every risky step."
+        "es": "Centro de control autoalojado para agentes de código como OpenHands, Claude Code y Codex, permitiendo automatizar tareas y conectar con herramientas como Slack y GitHub.",
+        "en": "Self-hosted control center for coding agents like OpenHands, Claude Code, and Codex, allowing task automation and integration with tools like Slack and GitHub."
       }
     }
   ],
   "developer_signals": [],
   "editorial_stats": {
     "topics": {
-      "apple": 2,
-      "ai_software": 2,
-      "ai_general": 1,
-      "tech": 2
+      "apple": 1,
+      "ai_software": 4,
+      "ai_general": 0,
+      "tech": 1
     }
   }
 }
