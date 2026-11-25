@@ -1,308 +1,344 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-11-24",
-  "date": "2026-11-24",
+  "edition_id": "wmt-2026-11-25",
+  "date": "2026-11-25",
   "daily_summary": {
-    "es": "Anthropic presenta Claude Ship para automatizar revisiones de código, mientras OpenAI despliega GPT-6.2 Sol en ChatGPT y Vercel introduce auditorías de retención cero en su AI Gateway.",
-    "en": "Anthropic introduces Claude Ship to automate code reviews, while OpenAI rolls out GPT-6.2 Sol in ChatGPT and Vercel launches zero-data-retention audits for its AI Gateway."
+    "es": "Apple prepara el regreso de (PRODUCT)RED, Tidal bloqueará la música generada por IA y Meta amplía su agente Muse al Reino Unido.",
+    "en": "Apple prepares the return of (PRODUCT)RED, Tidal will block AI-generated music, and Meta expands its Muse agent to the UK."
   },
   "topic_summaries": {
     "apple": {
-      "es": "Apple prepara una intensa temporada de lanzamientos para la primavera de 2027, que incluirá el iPhone 18e, el iPhone 18, nuevos iPads y MacBooks con chips A20 y A19.",
-      "en": "Apple is preparing a busy spring 2027 launch season, which will include the iPhone 18e, iPhone 18, new iPads, and MacBooks featuring A20 and A19 chips."
+      "es": "Apple lanzará versiones (PRODUCT)RED del HomePod mini 2 y AirPods Max 2 el 1 de diciembre, coincidiendo con el Día Mundial del Sida. Además, Engadget informa de que el iPhone 18e podría incorporar un módulo de cámara elevado, rompiendo con el diseño plano del 17e.",
+      "en": "Apple will launch (PRODUCT)RED versions of the HomePod mini 2 and AirPods Max 2 on December 1st, coinciding with World AIDS Day. Additionally, Engadget reports that the iPhone 18e may feature a raised camera module, breaking from the flat design of the 17e."
     },
     "ai_software": {
-      "es": "Anthropic lanza Claude Ship para gestionar pull requests, OpenAI actualiza ChatGPT con GPT-6.2 Sol y Vercel implementa auditorías de seguridad en su AI Gateway.",
-      "en": "Anthropic launches Claude Ship to manage pull requests, OpenAI updates ChatGPT with GPT-6.2 Sol, and Vercel implements security audits in its AI Gateway."
+      "es": "Meta despliega su agente personal Muse en el Reino Unido, permitiendo completar tareas y realizar pagos a través de Stripe Link. PrismML lanza Bonsai 2.5, un modelo ternario de 27B optimizado para uso en dispositivo con mejoras en codificación.",
+      "en": "Meta rolls out its Muse personal agent in the UK, allowing users to complete tasks and make payments via Stripe Link. PrismML releases Bonsai 2.5, a 27B ternary model optimized for on-device use with improved coding capabilities."
     },
     "ai_general": {
-      "es": "Anthropic afirma que Claude resolvió la Hipótesis de Riemann, aunque la prueba generada es demasiado extensa para una verificación matemática tradicional.",
-      "en": "Anthropic claims Claude solved the Riemann Hypothesis, although the generated proof is too extensive for traditional mathematical verification."
+      "es": "Un análisis destaca que los agentes de IA generan un 450% más de tráfico de red que los humanos, impulsando el retorno de la inferencia a infraestructuras locales o soberanas. Tidal anunciará el bloqueo de canciones generadas por IA el 9 de diciembre, citando que el 96% de estas no reciben reproducciones.",
+      "en": "An analysis highlights that AI agents generate 450% more network traffic than humans, driving inference back to on-premises or sovereign infrastructure. Tidal will announce the blocking of AI-generated songs on December 9th, citing that 96% of these receive zero plays."
     },
     "tech": {
-      "es": "Ladybird, el primer nuevo motor de navegador en años, ya está disponible para pruebas, y se analizan las alternativas a GitHub Actions tras recientes incidentes de seguridad.",
-      "en": "Ladybird, the first new browser engine in years, is now available for testing, and GitHub Actions alternatives are being analyzed following recent security incidents."
+      "es": "Versine, una startup de YC F26, lanza una plataforma MCP que permite enviar y solicitar dinero mediante asistentes de IA, utilizando wallets de stablecoins auto-custodiadas en Base.",
+      "en": "Versine, a YC F26 startup, launches an MCP platform that allows users to send and request money via AI assistants, using self-custodial stablecoin wallets on Base."
     }
   },
   "summary": {
     "apple": {
-      "es": "Apple prepara una intensa temporada de lanzamientos para la primavera de 2027, que incluirá el iPhone 18e, el iPhone 18, nuevos iPads y MacBooks con chips A20 y A19.",
-      "en": "Apple is preparing a busy spring 2027 launch season, which will include the iPhone 18e, iPhone 18, new iPads, and MacBooks featuring A20 and A19 chips."
+      "es": "Apple lanzará versiones (PRODUCT)RED del HomePod mini 2 y AirPods Max 2 el 1 de diciembre, coincidiendo con el Día Mundial del Sida. Además, Engadget informa de que el iPhone 18e podría incorporar un módulo de cámara elevado, rompiendo con el diseño plano del 17e.",
+      "en": "Apple will launch (PRODUCT)RED versions of the HomePod mini 2 and AirPods Max 2 on December 1st, coinciding with World AIDS Day. Additionally, Engadget reports that the iPhone 18e may feature a raised camera module, breaking from the flat design of the 17e."
     },
     "ai_software": {
-      "es": "Anthropic lanza Claude Ship para gestionar pull requests, OpenAI actualiza ChatGPT con GPT-6.2 Sol y Vercel implementa auditorías de seguridad en su AI Gateway.",
-      "en": "Anthropic launches Claude Ship to manage pull requests, OpenAI updates ChatGPT with GPT-6.2 Sol, and Vercel implements security audits in its AI Gateway."
+      "es": "Meta despliega su agente personal Muse en el Reino Unido, permitiendo completar tareas y realizar pagos a través de Stripe Link. PrismML lanza Bonsai 2.5, un modelo ternario de 27B optimizado para uso en dispositivo con mejoras en codificación.",
+      "en": "Meta rolls out its Muse personal agent in the UK, allowing users to complete tasks and make payments via Stripe Link. PrismML releases Bonsai 2.5, a 27B ternary model optimized for on-device use with improved coding capabilities."
     },
     "ai_general": {
-      "es": "Anthropic afirma que Claude resolvió la Hipótesis de Riemann, aunque la prueba generada es demasiado extensa para una verificación matemática tradicional.",
-      "en": "Anthropic claims Claude solved the Riemann Hypothesis, although the generated proof is too extensive for traditional mathematical verification."
+      "es": "Un análisis destaca que los agentes de IA generan un 450% más de tráfico de red que los humanos, impulsando el retorno de la inferencia a infraestructuras locales o soberanas. Tidal anunciará el bloqueo de canciones generadas por IA el 9 de diciembre, citando que el 96% de estas no reciben reproducciones.",
+      "en": "An analysis highlights that AI agents generate 450% more network traffic than humans, driving inference back to on-premises or sovereign infrastructure. Tidal will announce the blocking of AI-generated songs on December 9th, citing that 96% of these receive zero plays."
     },
     "tech": {
-      "es": "Ladybird, el primer nuevo motor de navegador en años, ya está disponible para pruebas, y se analizan las alternativas a GitHub Actions tras recientes incidentes de seguridad.",
-      "en": "Ladybird, the first new browser engine in years, is now available for testing, and GitHub Actions alternatives are being analyzed following recent security incidents."
+      "es": "Versine, una startup de YC F26, lanza una plataforma MCP que permite enviar y solicitar dinero mediante asistentes de IA, utilizando wallets de stablecoins auto-custodiadas en Base.",
+      "en": "Versine, a YC F26 startup, launches an MCP platform that allows users to send and request money via AI assistants, using self-custodial stablecoin wallets on Base."
     }
   },
   "top_stories": [
     {
-      "id": "evt_1105ffd3aaa8786b",
+      "id": "evt_237d1a0f58134c87",
       "title": {
-        "es": "Anthropic lanza Claude Ship para automatizar revisiones de código",
-        "en": "Anthropic launches Claude Ship to automate code reviews"
+        "es": "Apple lanzará cuatro productos (PRODUCT)RED la próxima semana",
+        "en": "Apple to Release Four (PRODUCT)RED Products Next Week"
       },
       "body": {
-        "es": "Anthropic ha presentado Claude Ship, una nueva herramienta que permite a Claude revisar, corregir y aprobar pull requests según la política de cada equipo. Esta función busca integrar la IA directamente en el flujo de trabajo de desarrollo, reduciendo la carga manual de las revisiones de código.",
-        "en": "Anthropic has introduced Claude Ship, a new tool that allows Claude to review, fix, and approve pull requests according to each team's policy. This feature aims to integrate AI directly into the development workflow, reducing the manual burden of code reviews."
+        "es": "Apple planea lanzar versiones (PRODUCT)RED del HomePod mini 2 y AirPods Max 2 el 1 de diciembre, coincidiendo con el Día Mundial del Sida y el 20.º aniversario de la organización RED. Según Mark Gurman, también se incluirán una correa de muñeca para AirPods Pro y una banda deportiva para Apple Watch en este color. El regreso de la línea roja busca capitalizar la temporada de compras navideñas tras un periodo sin nuevas ediciones especiales.",
+        "en": "Apple plans to release (PRODUCT)RED versions of the HomePod mini 2 and AirPods Max 2 on December 1st, coinciding with World AIDS Day and the 20th anniversary of the RED organization. According to Mark Gurman, a Wrist Strap for AirPods Pro and a Sport Band for the Apple Watch will also be included in this color. The return of the red line aims to capitalize on the holiday shopping season after a period without new special editions."
       },
-      "newsId": "evt_1105ffd3aaa8786b",
-      "storyKey": "evt_1105ffd3aaa8786b",
-      "topic": "ai_software",
-      "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders",
-      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/claude.webp?w=1600",
-      "score": 7.65,
-      "publishedAt": "2026-11-23T20:32:31.000Z",
+      "newsId": "evt_237d1a0f58134c87",
+      "storyKey": "evt_237d1a0f58134c87",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/24/apple-to-release-four-red-products",
+      "image": "https://images.macrumors.com/article-new/2026/11/AirPods-Max-and-HomePod-mini-Red-Mock-2.jpg",
+      "score": 7.05,
+      "publishedAt": "2026-11-24T14:33:26.000Z",
       "evidence": [
         {
-          "claim": "Anthropic is launching a new tool for builders called Claude Ship.",
-          "source": "37d10453bd8e271d"
+          "claim": "Apple plans to release (PRODUCT)RED versions of the AirPods Max 2 and HomePod mini 2 on or around Tuesday, December 1.",
+          "source": "567f55118c77c57d"
         },
         {
-          "claim": "The new AI feature allows Claude to review pull requests, fix them, and approve the ones that a team’s policy allows.",
-          "source": "37d10453bd8e271d"
+          "claim": "Apple is planning to release an additional two accessories in the (PRODUCT)RED color: a Wrist Strap for AirPods Pro and a Sport Band for the Apple Watch.",
+          "source": "567f55118c77c57d"
+        },
+        {
+          "claim": "The (PRODUCT)RED version of the HomePod mini 2 will have a red mesh exterior.",
+          "source": "567f55118c77c57d"
+        },
+        {
+          "claim": "Apple has partnered with the (RED) brand to raise money for The Global Fund since 2006.",
+          "source": "567f55118c77c57d"
+        },
+        {
+          "claim": "Apple had not offered the (PRODUCT)RED option for some products for a while now.",
+          "source": "567f55118c77c57d"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/11/24/apple-to-release-four-red-products"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_2a5ddec561d6699b",
+      "title": {
+        "es": "Tidal bloqueará la música generada por IA a partir del 9 de diciembre",
+        "en": "Tidal to Block AI-Generated Music Starting December 9"
+      },
+      "body": {
+        "es": "Tidal ha anunciado que comenzará a bloquear la música generada por IA el 9 de diciembre, esperando rechazar entre 80.000 y 85.000 canciones al día. La plataforma justifica la medida señalando que el 96% de las canciones de IA no reciben ninguna reproducción. A diferencia de Apple Music, que introdujo etiquetas de transparencia para la IA, Tidal opta por una prohibición directa para proteger a los artistas y oyentes.",
+        "en": "Tidal has announced it will start blocking AI-generated music on December 9, expecting to reject between 80,000 and 85,000 songs per day. The platform justifies the move by noting that 96% of AI songs receive zero plays. Unlike Apple Music, which introduced AI Transparency Tags, Tidal opts for a direct ban to protect artists and listeners."
+      },
+      "newsId": "evt_2a5ddec561d6699b",
+      "storyKey": "evt_2a5ddec561d6699b",
+      "topic": "tech",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/24/tidal-ai-music-ban",
+      "image": "https://images.macrumors.com/article-new/2026/11/tidal-logo.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-24T23:44:43.000Z",
+      "evidence": [
+        {
+          "claim": "Tidal plans to start blocking AI music on December 9.",
+          "source": "3023dcb012618dfe"
+        },
+        {
+          "claim": "Tidal expects 80,000 to 85,000 songs to be rejected per day.",
+          "source": "3023dcb012618dfe"
+        },
+        {
+          "claim": "96 percent of AI songs get zero plays, according to Tidal.",
+          "source": "3023dcb012618dfe"
+        },
+        {
+          "claim": "Apple Music introduced AI Transparency Tags earlier this year.",
+          "source": "3023dcb012618dfe"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/11/24/tidal-ai-music-ban"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_04ebde18a1ba774a",
+      "title": {
+        "es": "Meta lanza su agente personal Muse en el Reino Unido",
+        "en": "Meta Launches Its Personal AI Agent Muse in the UK"
+      },
+      "body": {
+        "es": "Meta ha desplegado su agente personal Muse en el Reino Unido, permitiendo a los usuarios completar tareas como enviar correos o reservar viajes. El agente puede utilizar credenciales de pago en el checkout a través de Link, una cartera segura para agentes desarrollada por Stripe. Muse está disponible solo para mayores de 18 años y se integra con marcas británicas como Marks & Spencer y ASOS.",
+        "en": "Meta has rolled out its Muse personal agent in the UK, allowing users to complete tasks such as sending emails or booking travel. The agent can use payment credentials at checkout via Link, a secure wallet for agents built by Stripe. Muse is available only for those over 18 and integrates with British brands like Marks & Spencer and ASOS."
+      },
+      "newsId": "evt_04ebde18a1ba774a",
+      "storyKey": "evt_04ebde18a1ba774a",
+      "topic": "ai_software",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/24/metas-muse-personal-ai-agent-launches-in-the-uk",
+      "image": "https://images.macrumors.com/article-new/2026/11/meta-muse-uk@2x-scaled.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-24T11:15:54.000Z",
+      "evidence": [
+        {
+          "claim": "Meta has rolled out its Muse personal AI agent to users in the United Kingdom.",
+          "source": "e934309d6f0b12d5"
+        },
+        {
+          "claim": "Muse can complete tasks for users on their behalf, like sending an email or booking travel.",
+          "source": "e934309d6f0b12d5"
+        },
+        {
+          "claim": "Muse can use payment credentials at checkout with Link, a secure wallet for agents built by Stripe.",
+          "source": "e934309d6f0b12d5"
+        },
+        {
+          "claim": "Muse can only be used by people aged 18 and over.",
+          "source": "e934309d6f0b12d5"
+        },
+        {
+          "claim": "Meta says Muse is launching in the U.K. with popular global Connectors, and it also partners with British brands and retailers.",
+          "source": "e934309d6f0b12d5"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/11/24/metas-muse-personal-ai-agent-launches-in-the-uk"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_adc302cb31f5a909",
+      "title": {
+        "es": "Engadget: El iPhone 18e podría tener un módulo de cámara elevado",
+        "en": "Engadget: iPhone 18e May Feature a Raised Camera Module"
+      },
+      "body": {
+        "es": "Según imágenes CAD vistas por Engadget, Apple está considerando un rediseño del módulo de cámara para el iPhone 18e. Los renders muestran un bump casi cuadrado de unos 28 mm por 35 mm que aloja la cámara trasera, el flash LED y el micrófono. Esto marcaría un cambio respecto al iPhone 17e actual, cuyo lente tiene una pequeña protuberancia pero se mantiene plano contra la parte trasera del teléfono.",
+        "en": "According to CAD images seen by Engadget, Apple is considering a redesign of the camera module for the iPhone 18e. The renders show an almost square bump measuring about 28 mm by 35 mm that houses the rear camera, LED flash, and microphone. This would mark a change from the current iPhone 17e, whose lens has a small protrusion but sits flush against the back of the phone."
+      },
+      "newsId": "evt_adc302cb31f5a909",
+      "storyKey": "evt_adc302cb31f5a909",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://www.engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau",
+      "image": "https://www.engadget.com/img/gallery/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/l-intro-1795466976.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-24T23:41:23.000Z",
+      "evidence": [
+        {
+          "claim": "The iPhone 18e is expected to have a redesigned camera module with a camera bump.",
+          "source": "0e9a85bb7856e447"
+        },
+        {
+          "claim": "The current iPhone 17e does not have a camera bump, but the lens has a small protrusion and sits flush against the back of the phone.",
+          "source": "0e9a85bb7856e447"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daring Fireball",
+          "link": "https://www.engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_e0b43b60b66d576a",
+      "title": {
+        "es": "PrismML lanza Bonsai 2.5 para IA en dispositivo",
+        "en": "PrismML Releases Bonsai 2.5 for On-Device AI"
+      },
+      "body": {
+        "es": "PrismML ha publicado Ternary Bonsai 2.5 27B, una actualización del modelo introducido en septiembre. Esta versión mejora las capacidades de codificación y el uso de herramientas para modelos que se ejecutan localmente en el dispositivo. El enfoque en modelos ternarios busca optimizar el rendimiento y la eficiencia energética en hardware de consumo.",
+        "en": "PrismML has released Ternary Bonsai 2.5 27B, an update to the model introduced in September. This version improves coding capabilities and tool use for models running locally on-device. The focus on ternary models aims to optimize performance and energy efficiency on consumer hardware."
+      },
+      "newsId": "evt_e0b43b60b66d576a",
+      "storyKey": "evt_e0b43b60b66d576a",
+      "topic": "ai_software",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/11/24/prismmls-bonsai-2-5-brings-better-coding-and-tool-use-to-on-device-ai",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/PrismML.png?w=1508",
+      "score": 7.65,
+      "publishedAt": "2026-11-25T01:08:37.000Z",
+      "evidence": [
+        {
+          "claim": "PrismML has released Ternary Bonsai 2.5 27B, an update to the model it introduced in September.",
+          "source": "eb67609f0c3f0bbd"
         }
       ],
       "sources": [
         {
           "name": "9to5Mac",
-          "link": "https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders"
+          "link": "https://9to5mac.com/2026/11/24/prismmls-bonsai-2-5-brings-better-coding-and-tool-use-to-on-device-ai"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_f6001c6f0c51c95f",
+      "id": "evt_035030697c3d9519",
       "title": {
-        "es": "OpenAI despliega GPT-6.2 Sol en la pestaña de chat de ChatGPT",
-        "en": "OpenAI rolls out GPT-6.2 Sol to ChatGPT's chat tab"
+        "es": "Los agentes de IA generan un 450% más de tráfico de red",
+        "en": "AI Agents Generate 450% More Network Traffic"
       },
       "body": {
-        "es": "OpenAI está implementando GPT-6.2 Sol en las capas Plus, Pro, Business y Enterprise de ChatGPT. Según la empresa, el nuevo modelo mejora la detección de detalles finos en fotos y cumple con las políticas de seguridad en conversaciones difíciles un 91-94% de las veces, frente al 77-80% de GPT-6.",
-        "en": "OpenAI is rolling out GPT-6.2 Sol to the Plus, Pro, Business, and Enterprise tiers of ChatGPT. According to the company, the new model improves the detection of fine details in photos and meets safety policies in challenging conversations 91-94% of the time, up from 77-80% for GPT-6."
+        "es": "Un análisis indica que las tareas realizadas por agentes de IA generan un 450% más de tráfico de red que las mismas tareas hechas por humanos. Esta demanda está impulsando el retorno de la inferencia a infraestructuras locales o cercanas, ya que el procesamiento en tiempo real es sensible a la latencia. Las empresas globales enfrentan nuevos desafíos para cumplir con las leyes de soberanía de datos que requieren el procesamiento dentro de fronteras nacionales.",
+        "en": "An analysis indicates that tasks performed by AI agents generate 450% more network traffic than the same tasks done by humans. This demand is driving inference back to on-premises or near-premises infrastructure, as real-time processing is sensitive to latency. Global enterprises face new challenges in complying with data sovereignty laws that require processing within national borders."
       },
-      "newsId": "evt_f6001c6f0c51c95f",
-      "storyKey": "evt_f6001c6f0c51c95f",
-      "topic": "ai_software",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt",
-      "image": "https://images.macrumors.com/article-new/2026/11/gpt-6-2-openai.jpg",
+      "newsId": "evt_035030697c3d9519",
+      "storyKey": "evt_035030697c3d9519",
+      "topic": "ai_general",
+      "source": "MIT Tech Review AI",
+      "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/TataSocialCard-1200v3.png?resize=1200,600",
       "score": 8.35,
-      "publishedAt": "2026-11-23T23:52:41.000Z",
+      "publishedAt": "2026-11-24T15:15:16.000Z",
       "evidence": [
         {
-          "claim": "GPT-6.2 Sol is being rolled out to various tiers of ChatGPT.",
-          "source": "4adc9673423a7aeb"
+          "claim": "AI agents generate an estimated 450% more network traffic than the same tasks done by human workers.",
+          "source": "14f90a8a1ea02924"
         },
         {
-          "claim": "GPT-6.2 Sol is better at detecting fine details in photos.",
-          "source": "4adc9673423a7aeb"
+          "claim": "AI inference is pushing infrastructure back on premises.",
+          "source": "14f90a8a1ea02924"
         },
         {
-          "claim": "GPT-6.2 Sol meets OpenAI's safety policies more frequently in challenging conversations.",
-          "source": "4adc9673423a7aeb"
+          "claim": "Network modernization is an ongoing project that requires a holistic approach.",
+          "source": "14f90a8a1ea02924"
+        },
+        {
+          "claim": "Large enterprises may need on-premises or near-premises inference, which reverses years of cloud-first consolidation.",
+          "source": "14f90a8a1ea02924"
+        },
+        {
+          "claim": "Data sovereignty and sovereign AI will create infrastructure challenges for global enterprises.",
+          "source": "14f90a8a1ea02924"
         }
       ],
       "sources": [
         {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt"
+          "name": "MIT Tech Review AI",
+          "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_9881ed8cb83bcdfa",
+      "id": "evt_e5b0047fa7e3c0c3",
       "title": {
-        "es": "Vercel introduce auditorías de retención cero en su AI Gateway",
-        "en": "Vercel introduces zero-data-retention audits in its AI Gateway"
+        "es": "Versine lanza MCP para enviar dinero con IA",
+        "en": "Versine Launches MCP for Sending Money with AI"
       },
       "body": {
-        "es": "Vercel AI ha lanzado Audited ZDR, un sistema que exige a los proveedores de IA someterse a pruebas de seguridad independientes para verificar sus afirmaciones de retención cero de datos. Baseten, Modal y Wafer son los primeros socios en iniciar estas auditorías, que garantizan que los datos de los clientes no se almacenen en sistemas duraderos.",
-        "en": "Vercel AI has launched Audited ZDR, a system that requires AI providers to undergo independent security tests to verify their zero-data-retention claims. Baseten, Modal, and Wafer are the first partners to begin these audits, which ensure that customer data is not stored on durable systems."
+        "es": "Versine, una startup de YC F26, ha lanzado una plataforma MCP que permite enviar y solicitar dinero hablando con asistentes de IA. Cada usuario tiene una wallet de stablecoins auto-custodiada que almacena USDC en Base. Los pagos requieren la aprobación del usuario mediante passkey, creando un permiso de un solo uso para la transacción.",
+        "en": "Versine, a YC F26 startup, has launched an MCP platform that allows users to send and request money by talking to AI assistants. Each user has a self-custodial stablecoin wallet storing USDC on Base. Payments require user approval via passkey, creating a one-time permission for the transaction."
       },
-      "newsId": "evt_9881ed8cb83bcdfa",
-      "storyKey": "evt_9881ed8cb83bcdfa",
-      "topic": "ai_software",
-      "source": "Vercel AI",
-      "link": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway",
-      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/67XIifvPiGZjjxt9fE6s19/33e5a98b2743a7ecafaaa33a7c193c82/audited-zdr-og.png",
-      "score": 8.6,
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "evidence": [
-        {
-          "claim": "Vercel AI is introducing Audited ZDR on AI Gateway.",
-          "source": "aff8ab442fc8b4f8"
-        },
-        {
-          "claim": "Audited ZDR requires an independent security firm to test zero data retention claims.",
-          "source": "aff8ab442fc8b4f8"
-        },
-        {
-          "claim": "Baseten, Modal, and Wafer are launch partners for Audited ZDR.",
-          "source": "aff8ab442fc8b4f8"
-        },
-        {
-          "claim": "Audited ZDR covers a wide range of systems and processes to ensure data is not retained.",
-          "source": "aff8ab442fc8b4f8"
-        },
-        {
-          "claim": "AI Gateway will route and fail over requests only across providers with published Audited ZDR reports.",
-          "source": "aff8ab442fc8b4f8"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Vercel AI",
-          "link": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_4de5a68529b86f9d",
-      "title": {
-        "es": "Apple planea lanzar iPhone 18e, iPad y MacBook Neo en primavera",
-        "en": "Apple plans to launch iPhone 18e, iPad, and MacBook Neo in spring"
-      },
-      "body": {
-        "es": "Según Mark Gurman de Bloomberg, Apple prevé presentar el iPhone 18e, el iPhone 18, un iPad de entrada actualizado y nuevos modelos MacBook Neo y Air entre febrero y marzo de 2027. El iPhone 18e incluirá un chip A20 y 9 GB de RAM, mientras que el nuevo iPad contará con un chip A19 y soporte para Apple Intelligence.",
-        "en": "According to Bloomberg's Mark Gurman, Apple plans to unveil the iPhone 18e, iPhone 18, an updated entry-level iPad, and new MacBook Neo and Air models between February and March 2027. The iPhone 18e will feature an A20 chip and 9GB of RAM, while the new iPad will include an A19 chip and Apple Intelligence support."
-      },
-      "newsId": "evt_4de5a68529b86f9d",
-      "storyKey": "evt_4de5a68529b86f9d",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/11/22/new-apple-products-february-or-march",
-      "image": "https://images.macrumors.com/article-new/2026/10/MacBook-Neo-2-on-Yellow-Feature.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-11-22T15:32:53.000Z",
-      "evidence": [
-        {
-          "claim": "Apple plans to unveil an iPhone 18e, iPhone 18, updated entry-level iPad, and new MacBook Neo and MacBook Air models around February or March next year.",
-          "source": "e8debc648a4a464c"
-        },
-        {
-          "claim": "The iPhone 18e will have a A20 chip, 9GB of RAM, and longer battery life.",
-          "source": "e8debc648a4a464c"
-        },
-        {
-          "claim": "The updated iPad will have an A19 chip with Apple Intelligence support, N1 chip with Wi-Fi 7 support, and Apple's power-efficient C1X modem in cellular models.",
-          "source": "e8debc648a4a464c"
-        },
-        {
-          "claim": "The MacBook Neo will have an A19 Pro chip, 12GB of RAM, and potentially new color options.",
-          "source": "e8debc648a4a464c"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/11/22/new-apple-products-february-or-march"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_e3bf3f82ef781882",
-      "title": {
-        "es": "Anthropic afirma que Claude resolvió la Hipótesis de Riemann",
-        "en": "Anthropic claims Claude solved the Riemann Hypothesis"
-      },
-      "body": {
-        "es": "Anthropic sostiene que su modelo Claude ha resuelto la Hipótesis de Riemann, uno de los problemas del Milenio. Sin embargo, la prueba generada consta de 250.000 páginas de texto, lo que dificulta su verificación por parte de la comunidad matemática, y el Instituto Clay aún no ha reconocido la solución.",
-        "en": "Anthropic claims its Claude model has solved the Riemann Hypothesis, one of the Millennium problems. However, the generated proof consists of 250,000 pages of text, making it difficult for the mathematical community to verify, and the Clay Institute has not yet recognized the solution."
-      },
-      "newsId": "evt_e3bf3f82ef781882",
-      "storyKey": "evt_e3bf3f82ef781882",
-      "topic": "ai_software",
-      "source": "The Register AI & ML",
-      "link": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
-      "image": "https://image.theregister.com/5264648.jpg?croph=100&cropw=100&height=683&imageId=5264648&panoh=100&panow=100&panox=0&panoy=0&width=1200&x=0&y=0",
-      "score": 7.65,
-      "publishedAt": "2026-11-24T00:18:17.000Z",
-      "evidence": [
-        {
-          "claim": "Anthropic claims Claude has solved the Riemann Hypothesis, one of the seven Millennium problems with a $1 million prize.",
-          "source": "241dfb367a594140"
-        },
-        {
-          "claim": "The Riemann Hypothesis, conjectured by Riemann in 1859, states that all nontrivial zeros of the Riemann zeta function have a real part equal to 1/2.",
-          "source": "241dfb367a594140"
-        },
-        {
-          "claim": "The proof generated by Claude is 250,000 pages of unreadable text, making it difficult for mathematicians to verify.",
-          "source": "241dfb367a594140"
-        },
-        {
-          "claim": "The Clay Mathematics Institute has not yet considered the Riemann Hypothesis solved, as the proposed solution must be published in a qualifying outlet, remain available for scrutiny for at least two years, and receive broad acceptance from the mathematics community.",
-          "source": "241dfb367a594140"
-        },
-        {
-          "claim": "The Lean Focused Research Organization and Mathlib Initiative have already declared the Riemann Hypothesis solved, despite the lack of a traditional, human-readable proof.",
-          "source": "241dfb367a594140"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Register AI & ML",
-          "link": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_76367b65beea4dd9",
-      "title": {
-        "es": "Ladybird, el primer nuevo motor de navegador en años, ya está disponible",
-        "en": "Ladybird, the first new browser engine in years, is now available"
-      },
-      "body": {
-        "es": "Ladybird, un navegador independiente con un motor construido desde cero, ya está disponible para pruebas. Su objetivo es ofrecer un navegador rápido, seguro y respetuoso con la privacidad, rompiendo el monopolio de los tres motores actuales: Gecko, Blink y WebKit.",
-        "en": "Ladybird, an independent browser with a built-from-scratch engine, is now available for testing. Its goal is to provide a fast, secure, and privacy-respecting browser, breaking the monopoly of the three current engines: Gecko, Blink, and WebKit."
-      },
-      "newsId": "evt_76367b65beea4dd9",
-      "storyKey": "evt_76367b65beea4dd9",
+      "newsId": "evt_e5b0047fa7e3c0c3",
+      "storyKey": "evt_e5b0047fa7e3c0c3",
       "topic": "tech",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ladybird-screenshot.webp?crop=0%2C14.66120255046%2C100%2C70.67759489908&quality=90&strip=all&w=1200",
-      "score": 6.65,
-      "publishedAt": "2026-11-23T22:38:09.000Z",
+      "source": "Hacker News",
+      "link": "https://news.ycombinator.com/item?id=50634426",
+      "image": null,
+      "score": 7.65,
+      "publishedAt": "2026-11-24T20:44:15.000Z",
       "evidence": [
         {
-          "claim": "Ladybird, the first new browser engine in years, is now available to test.",
-          "source": "8c35bd6c1ea87ca4"
+          "claim": "Versine is an MCP that allows users to send and request money through AI assistants.",
+          "source": "d996f680451a3220"
         },
         {
-          "claim": "Ladybird is an independent web browser with a built-from-scratch engine.",
-          "source": "8c35bd6c1ea87ca4"
+          "claim": "Each user has a self-custodial stablecoin wallet storing USDC on Base.",
+          "source": "d996f680451a3220"
         },
         {
-          "claim": "The release makes Ladybird the first browser in years to arrive with an entirely new engine.",
-          "source": "8c35bd6c1ea87ca4"
+          "claim": "Users can send money to people without a Versine account, and the recipient can cash out to their bank in 2 minutes.",
+          "source": "d996f680451a3220"
         },
         {
-          "claim": "The most popular browsers use just three engines today: Gecko, Blink, and WebKit.",
-          "source": "8c35bd6c1ea87ca4"
-        },
-        {
-          "claim": "A Windows version of Ladybird will arrive during a “later stage” of the project.",
-          "source": "8c35bd6c1ea87ca4"
+          "claim": "Versine requires user passkey approval for one-time payments.",
+          "source": "d996f680451a3220"
         }
       ],
       "sources": [
         {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing"
+          "name": "Hacker News",
+          "link": "https://news.ycombinator.com/item?id=50634426"
         }
       ],
       "what_changed": []
@@ -310,117 +346,165 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_705ae22023dd9752",
+      "id": "evt_4aed1ae012024eb8",
       "title": {
-        "es": "AI Gateway implementa auditorías canarias para detectar fugas de datos",
-        "en": "AI Gateway implements canary audits to detect data leaks"
+        "es": "Gemini 4 Neon lidera en LiveBench",
+        "en": "Gemini 4 Neon Leads on LiveBench"
       },
       "text": {
-        "es": "Vercel AI Gateway ahora ejecuta auditorías canarias enviando prompts con URLs únicas para detectar si el contenido se lee fuera de la ruta de inferencia. Esta medida complementa los acuerdos contractuales de retención cero de datos.",
-        "en": "Vercel AI Gateway now runs canary audits by sending prompts with unique URLs to detect if content is read outside the inference path. This measure complements contractual zero-data-retention agreements."
+        "es": "Gemini 4 Neon supera a Astra y Fable en LiveBench y reduce el tiempo de ejecución del benchmark TS Rust de Theo en un 48,6%, marcando el regreso completo de GDM como laboratorio de frontera.",
+        "en": "Gemini 4 Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%, marking GDM's full return as a Frontier Lab."
       },
-      "newsId": "evt_705ae22023dd9752",
-      "storyKey": "evt_705ae22023dd9752",
+      "newsId": "evt_4aed1ae012024eb8",
+      "storyKey": "evt_4aed1ae012024eb8",
       "topic": "ai_software",
-      "source": "Vercel AI",
-      "link": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits",
-      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/caf87daafd0ddb7f57c786db/eb9a47f637fe4180dd745c8b86b04cfc/canary-zdr-audits-og.jpg",
-      "score": 8.4,
-      "publishedAt": "2026-11-23T06:19:00.000Z",
+      "source": "Latent Space",
+      "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab",
+      "image": "https://latent.space/og/card/post/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/cbe347eb1fb1cb87c986d8fbe2e2206521e0bdecbfd20fbb16e0c4595e118daa.png",
+      "score": 7.65,
+      "publishedAt": "2026-11-25T04:29:07.000Z",
       "evidence": [
         {
-          "claim": "AI Gateway now runs canary audits against inference providers to detect when prompt content is read outside the inference path.",
-          "source": "a325af283f5e76bc"
+          "claim": "Neon beats Astra and Fable on LiveBench.",
+          "source": "5426dd25de44318b"
         },
         {
-          "claim": "Canary audits send prompts containing unique URLs through the normal inference path.",
-          "source": "a325af283f5e76bc"
+          "claim": "Neon cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+          "source": "5426dd25de44318b"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Latent Space",
+          "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_46c9322b6b604477",
+      "title": {
+        "es": "AWS PrivateLink disponible en Vercel Secure Compute",
+        "en": "AWS PrivateLink Available on Vercel Secure Compute"
+      },
+      "text": {
+        "es": "Los equipos empresariales pueden crear y gestionar endpoints de AWS PrivateLink directamente desde el dashboard de Vercel. Cada red Secure Compute incluye un endpoint, con adicionales a $30/mes y transferencia de datos a $0,04/GB.",
+        "en": "Enterprise teams can create and manage AWS PrivateLink endpoints directly from the Vercel dashboard. Each Secure Compute network includes one endpoint, with additional ones costing $30/month and data transfer at $0.04/GB."
+      },
+      "newsId": "evt_46c9322b6b604477",
+      "storyKey": "evt_46c9322b6b604477",
+      "topic": "tech",
+      "source": "Vercel AI",
+      "link": "https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute",
+      "image": "https://assets.vercel.com/image/upload/contentful/image/e5382hct74si/5CRJ6FfiOuKiCLKFQYYg4n/dc78d62fd5595089b8c39758414e377d/download__3_.jpeg",
+      "score": 7.65,
+      "publishedAt": "2026-11-24T09:54:00.000Z",
+      "evidence": [
+        {
+          "claim": "Enterprise teams can now create and manage AWS PrivateLink endpoints directly from the Vercel dashboard.",
+          "source": "0014763800f91dc2"
         },
         {
-          "claim": "Canary audits watch for traffic to canary URLs and record any requests.",
-          "source": "a325af283f5e76bc"
+          "claim": "Endpoints on Secure Compute live in your team's dedicated VPC and use the network's AWS region.",
+          "source": "0014763800f91dc2"
         },
         {
-          "claim": "Canary audits complement contractual ZDR agreements and independent audits.",
-          "source": "a325af283f5e76bc"
+          "claim": "Vercel Functions, Vercel Sandbox, and builds connected to the network can reach AWS-hosted backends over the AWS private network.",
+          "source": "0014763800f91dc2"
+        },
+        {
+          "claim": "Each Secure Compute network includes one AWS PrivateLink endpoint, with additional endpoints costing $30 per month each.",
+          "source": "0014763800f91dc2"
+        },
+        {
+          "claim": "PrivateLink data transfer costs $0.04 per GB.",
+          "source": "0014763800f91dc2"
         }
       ],
       "sources": [
         {
           "name": "Vercel AI",
-          "link": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits"
+          "link": "https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_2a28d78856cbbbfe",
+      "id": "evt_b0692edb6fcc0701",
       "title": {
-        "es": "Kotlin Benchmark 2.0 evalúa agentes de IA en tareas más complejas",
-        "en": "Kotlin Benchmark 2.0 evaluates AI agents on more complex tasks"
+        "es": "Yann LeCun critica la postura de Anthropic sobre modelos abiertos",
+        "en": "Yann LeCun Criticizes Anthropic's Stance on Open Models"
       },
       "text": {
-        "es": "La nueva versión del Kotlin Benchmark incluye tareas más representativas para equipos de Kotlin y datos más fiables para ayudar a elegir la mejor configuración de agente y modelo.",
-        "en": "The new version of the Kotlin Benchmark includes more representative tasks for Kotlin teams and more reliable data to help choose the best agent and model configuration."
+        "es": "Yann LeCun, defensor del desarrollo de IA de código abierto, ha criticado la posición hostil de Anthropic contra la adopción de modelos de pesos abiertos, destacando el debate sobre el gatekeeping en la industria.",
+        "en": "Yann LeCun, a proponent of open-source AI development, has criticized Anthropic's hostile position against the adoption of open-weights models, highlighting the debate on gatekeeping in the industry."
       },
-      "newsId": "evt_2a28d78856cbbbfe",
-      "storyKey": "evt_2a28d78856cbbbfe",
+      "newsId": "evt_b0692edb6fcc0701",
+      "storyKey": "evt_b0692edb6fcc0701",
       "topic": "ai_software",
-      "source": "JetBrains Blog",
-      "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code",
-      "image": "https://blog.jetbrains.com/wp-content/uploads/2026/11/Kotlin-Benchmark-2.0-leaderboard-infographic-1920x1080-23-Nov-2026.png",
+      "source": "The Register AI & ML",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/24/ai-godfather-yann-lecun-torches-anthropic-ceo-over-ai-gatekeeping/5311986",
+      "image": "https://image.theregister.com/5310808.jpg?croph=100&cropw=100&height=683&imageId=5310808&panoh=100&panow=100&panox=0&panoy=0&width=1200&x=0&y=0",
       "score": 7.65,
-      "publishedAt": "2026-11-23T14:13:29.000Z",
+      "publishedAt": "2026-11-24T20:57:08.000Z",
       "evidence": [
         {
-          "claim": "Kotlin Benchmark 2.0 includes more representative tasks for Kotlin teams.",
-          "source": "ab927e8df306f183"
+          "claim": "Anthropic has taken a hostile position against the adoption of open-weights models.",
+          "source": "811ed988d3dd88a0"
         },
         {
-          "claim": "The new tasks in Kotlin Benchmark 2.0 require more data to help choose an agent-model configuration.",
-          "source": "ab927e8df306f183"
+          "claim": "Yann LeCun has been a strong proponent of open source AI development and open models.",
+          "source": "811ed988d3dd88a0"
         }
       ],
       "sources": [
         {
-          "name": "JetBrains Blog",
-          "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code"
+          "name": "The Register AI & ML",
+          "link": "https://www.theregister.com/ai-and-ml/2026/11/24/ai-godfather-yann-lecun-torches-anthropic-ceo-over-ai-gatekeeping/5311986"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_04404baac51f554a",
+      "id": "evt_0cb11ac7a5c2d7c7",
       "title": {
-        "es": "Alternativas a GitHub Actions tras incidentes de seguridad",
-        "en": "GitHub Actions alternatives following security incidents"
+        "es": "AirPods Pro 3 vuelven a su precio más bajo en Amazon",
+        "en": "AirPods Pro 3 Return to All-Time Low Price on Amazon"
       },
       "text": {
-        "es": "Un análisis de 838 organizaciones examina las alternativas a GitHub Actions, destacando incidentes recientes como el retraso de jobs en julio de 2026 y la campaña Megalodon que afectó a más de 5.500 repositorios en mayo.",
-        "en": "An analysis of 838 organizations examines GitHub Actions alternatives, highlighting recent incidents such as the July 2026 job delays and the Megalodon campaign that affected over 5,500 repositories in May."
+        "es": "Los AirPods Pro 3 han vuelto a su precio histórico más bajo de $149 en Amazon, una oferta que desapareció temporalmente pero que está de vuelta durante la temporada de Black Friday. También hay un descuento de $130 en los AirPods Max 2.",
+        "en": "AirPods Pro 3 have returned to their all-time low price of $149 on Amazon, a deal that temporarily disappeared but is back during the Black Friday season. There is also a $130 markdown on the AirPods Max 2."
       },
-      "newsId": "evt_04404baac51f554a",
-      "storyKey": "evt_04404baac51f554a",
-      "topic": "tech",
-      "source": "JetBrains Blog",
-      "link": "https://blog.jetbrains.com/teamcity/2026/11/github-actions-alternatives",
-      "image": "https://blog.jetbrains.com/wp-content/uploads/2026/11/TC-social-BlogSocialShare-1280x720-1-2.png",
-      "score": 7.65,
-      "publishedAt": "2026-11-23T07:56:19.000Z",
+      "newsId": "evt_0cb11ac7a5c2d7c7",
+      "storyKey": "evt_0cb11ac7a5c2d7c7",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/24/amazon-airpods-pro-3-deal-back",
+      "image": "https://images.macrumors.com/article-new/2026/11/airpods-pro-3-green-.jpeg",
+      "score": 7.05,
+      "publishedAt": "2026-11-24T23:45:00.000Z",
       "evidence": [
         {
-          "claim": "GitHub Actions faced issues with hosted runner jobs in July 2026.",
-          "source": "ce651da98487b877"
+          "claim": "Apple's AirPods Pro 3 have returned to their all-time low price of $149.00 on Amazon.",
+          "source": "9ba139071d66ecf7"
         },
         {
-          "claim": "In May 2026, a campaign pushed malicious workflows to over 5,500 repositories.",
-          "source": "ce651da98487b877"
+          "claim": "The deal appeared yesterday morning, then disappeared overnight, but it's back now.",
+          "source": "9ba139071d66ecf7"
+        },
+        {
+          "claim": "The deal is still one of the best deals this Black Friday season.",
+          "source": "9ba139071d66ecf7"
+        },
+        {
+          "claim": "A $130 markdown is also happening on the AirPods Max 2.",
+          "source": "9ba139071d66ecf7"
         }
       ],
       "sources": [
         {
-          "name": "JetBrains Blog",
-          "link": "https://blog.jetbrains.com/teamcity/2026/11/github-actions-alternatives"
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/11/24/amazon-airpods-pro-3-deal-back"
         }
       ],
       "what_changed": []
@@ -428,97 +512,313 @@
   ],
   "trending_repos": [
     {
-      "id": "trina-app/trina-ax",
-      "repoKey": "trina-app/trina-ax",
-      "name": "trina-ax",
-      "full_name": "trina-app/trina-ax",
-      "link": "https://github.com/trina-app/trina-ax",
-      "description": "Set up Claude Code once. Your whole company gets it. Self-hosted Claude Code and Codex with your company files, team skills, MCP, shared AI sessions and per-person folder permissions.",
-      "language": "TypeScript",
-      "stars": 413,
-      "stars_today": 287,
-      "stars_per_day_estimate": 288.69190497154943,
+      "id": "sous-labs/songe",
+      "repoKey": "sous-labs/songe",
+      "name": "songe",
+      "full_name": "sous-labs/songe",
+      "link": "https://github.com/sous-labs/songe",
+      "description": "A training engine for your local model, using your idle compute",
+      "language": "Python",
+      "stars": 655,
+      "stars_today": 358,
+      "stars_per_day_estimate": 344.2533386353488,
       "trend_basis": "observed_about_24h",
-      "trend_score": 11.177137051625087,
+      "trend_score": 11.431085293761088,
       "default_branch": "main",
-      "created_at": "2026-04-01T15:01:39Z",
-      "pushed_at": "2026-11-23T22:52:54Z",
+      "created_at": "2026-11-20T11:01:20Z",
+      "pushed_at": "2026-11-24T23:56:15Z",
       "why_it_matters": {
-        "es": "Permite a las empresas configurar Claude Code o Codex una sola vez para que todo el equipo acceda a archivos, habilidades y sesiones compartidas con permisos por persona.",
-        "en": "Allows companies to set up Claude Code or Codex once so that the whole team can access shared files, skills, and sessions with per-person permissions."
+        "es": "Songe es un motor de entrenamiento que utiliza el cómputo inactivo para mejorar modelos locales basándose en las correcciones y errores del usuario, manteniendo todo el proceso privado y local.",
+        "en": "Songe is a training engine that uses idle compute to improve local models based on user corrections and errors, keeping the entire process private and local."
       }
     },
     {
-      "id": "INK-Q/agy-fast",
-      "repoKey": "INK-Q/agy-fast",
-      "name": "agy-fast",
-      "full_name": "INK-Q/agy-fast",
-      "link": "https://github.com/INK-Q/agy-fast",
-      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "id": "makecindy/cindy",
+      "repoKey": "makecindy/cindy",
+      "name": "cindy",
+      "full_name": "makecindy/cindy",
+      "link": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "language": "TypeScript",
-      "stars": 775,
-      "stars_today": 277,
-      "stars_per_day_estimate": 278.63295357881253,
-      "trend_basis": "observed_about_24h",
-      "trend_score": 11.06950391870052,
+      "stars": 10556,
+      "stars_today": null,
+      "stars_per_day_estimate": 72.76048058015193,
+      "trend_basis": "normalized_48.8h",
+      "trend_score": 9.201417018497903,
       "default_branch": "main",
-      "created_at": "2026-11-19T04:58:46Z",
-      "pushed_at": "2026-11-23T16:05:02Z",
+      "created_at": "2026-07-22T17:49:34Z",
+      "pushed_at": "2026-11-24T23:35:08Z",
       "why_it_matters": {
-        "es": "Plugin MCP para Google Antigravity que reduce los turnos de LLM en un 34% y el uso de tokens en un 31% mediante la consolidación de llamadas locales.",
-        "en": "MCP plugin for Google Antigravity that reduces LLM turns by 34% and token usage by 31% by consolidating local calls."
+        "es": "Cindy es un agente de IA de código abierto que unifica dispositivos y permite continuar sesiones de trabajo desde el teléfono o la computadora, integrando con herramientas como Claude Code y Codex.",
+        "en": "Cindy is an open-source AI agent that unifies devices and allows continuing work sessions from phone or computer, integrating with tools like Claude Code and Codex."
       }
     },
     {
-      "id": "tangency-labs/solidcraft",
-      "repoKey": "tangency-labs/solidcraft",
-      "name": "solidcraft",
-      "full_name": "tangency-labs/solidcraft",
-      "link": "https://github.com/tangency-labs/solidcraft",
-      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "id": "agent-of-empires/agent-of-empires",
+      "repoKey": "agent-of-empires/agent-of-empires",
+      "name": "agent-of-empires",
+      "full_name": "agent-of-empires/agent-of-empires",
+      "link": "https://github.com/agent-of-empires/agent-of-empires",
+      "description": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.",
       "language": "Rust",
-      "stars": 17911,
-      "stars_today": 155,
-      "stars_per_day_estimate": 155.91374658742217,
-      "trend_basis": "observed_about_24h",
-      "trend_score": 10.29358711230093,
+      "stars": 4846,
+      "stars_today": null,
+      "stars_per_day_estimate": 69.81073136744308,
+      "trend_basis": "normalized_48.8h",
+      "trend_score": 9.144321702498516,
       "default_branch": "main",
-      "created_at": "2026-10-07T18:57:48Z",
-      "pushed_at": "2026-11-23T23:00:05Z",
+      "created_at": "2026-01-09T17:23:31Z",
+      "pushed_at": "2026-11-24T23:47:59Z",
       "why_it_matters": {
-        "es": "Aplicación CAD 3D paramétrica de código abierto en Rust que permite a agentes de IA modelar objetos a través de un servidor MCP integrado.",
-        "en": "Open-source parametric 3D CAD application in Rust that allows AI agents to model objects through a built-in MCP server."
+        "es": "Agent of Empires permite gestionar múltiples agentes de codificación (Claude Code, Codex, etc.) en paralelo desde una TUI o web, con aislamiento mediante worktrees y contenedores.",
+        "en": "Agent of Empires allows managing multiple coding agents (Claude Code, Codex, etc.) in parallel from a TUI or web, with isolation via worktrees and containers."
       }
     },
     {
-      "id": "OpenHands/OpenHands",
-      "repoKey": "OpenHands/OpenHands",
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "link": "https://github.com/OpenHands/OpenHands",
-      "description": "🙌 OpenHands: AI-Driven Development",
-      "language": "TypeScript",
-      "stars": 94165,
-      "stars_today": 85,
-      "stars_per_day_estimate": 85.50108683826376,
+      "id": "ClickHouse/loom",
+      "repoKey": "ClickHouse/loom",
+      "name": "loom",
+      "full_name": "ClickHouse/loom",
+      "link": "https://github.com/ClickHouse/loom",
+      "description": "Shared long-term memory, document search and a code index for AI agents, linked to your code. Memories point at the files and symbols they're about and surface when an agent edits them. MCP server, Claude Code and Codex plugins, SDKs. Self-hosted on ClickHouse.",
+      "language": "Python",
+      "stars": 216,
+      "stars_today": 19,
+      "stars_per_day_estimate": 18.270428586792253,
       "trend_basis": "observed_about_24h",
-      "trend_score": 9.43397728960021,
+      "trend_score": 7.267672899181719,
       "default_branch": "main",
-      "created_at": "2024-03-13T03:33:31Z",
-      "pushed_at": "2026-11-23T22:57:00Z",
+      "created_at": "2026-10-08T12:50:03Z",
+      "pushed_at": "2026-11-24T23:54:41Z",
       "why_it_matters": {
-        "es": "Centro de control autoalojado para agentes de código como OpenHands, Claude Code y Codex, permitiendo automatizar tareas y conectar con herramientas como Slack y GitHub.",
-        "en": "Self-hosted control center for coding agents like OpenHands, Claude Code, and Codex, allowing task automation and integration with tools like Slack and GitHub."
+        "es": "Loom proporciona memoria a largo plazo compartida y un índice de código para agentes de IA, vinculando recuerdos con archivos y símbolos para mejorar la coherencia entre sesiones.",
+        "en": "Loom provides shared long-term memory and a code index for AI agents, linking memories to files and symbols to improve coherence across sessions."
       }
     }
   ],
-  "developer_signals": [],
+  "developer_signals": [
+    {
+      "id": "2125482861033824410",
+      "newsId": "2125482861033824410",
+      "author": "rauchg",
+      "source": "X · @rauchg",
+      "link": "https://x.com/rauchg/status/2125482861033824410",
+      "publishedAt": "2026-11-25T06:52:58.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "𝚕𝚜𝚡: Finder in the terminal.\n\nOne-shotted with fx and Gemini Neon + DeepSeek subagents⁰.\n\nI instructed fx to use the Kitty graphics protocol¹ and build inline and interactive modes. It implemented CLI Quick Look of its own volition 😁\n\n⁰ DS actually did all the heavy lifting. This was very cheap! I just told it to use DS 1017 fast subagents.\n¹ This allows a CLI to essentially render anything! A full OS, if you will. I will.",
+      "linkedUrls": [
+        "https://x.com/rauchg/status/2125482861033824410/video/1"
+      ],
+      "public_metrics": {
+        "bookmark_count": 43,
+        "impression_count": 5672,
+        "like_count": 88,
+        "quote_count": 1,
+        "reply_count": 42,
+        "retweet_count": 2
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "Guillermo Rauch muestra cómo construir una interfaz tipo Finder en la terminal usando el protocolo gráfico de Kitty y agentes de IA, destacando la capacidad de los CLIs para renderizar interfaces interactivas complejas.",
+        "en": "Guillermo Rauch shows how to build a Finder-like interface in the terminal using the Kitty graphics protocol and AI agents, highlighting the ability of CLIs to render complex interactive interfaces."
+      }
+    },
+    {
+      "id": "2125433860460843443",
+      "newsId": "2125433860460843443",
+      "author": "zachlloydtweets",
+      "source": "X · @zachlloydtweets",
+      "link": "https://x.com/zachlloydtweets/status/2125433860460843443",
+      "publishedAt": "2026-11-25T03:38:15.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "Here are the problems that I see happening if you let AI assistants or other agent systems like factories assume your own identity when they act on your behalf, from least problematic to most.\n\n1/ They send slop on your behalf that folks think is yours (ok, fine)\n2/ They “accidentally” do dumb stuff you might not want (my Instinct responded to a password reset email that I didn’t request, not good).\n3/ They are prompt-injected by a malicious actor (e.g. someone sends you a gmail telling your agent to send you a bunch of sensitive data from other tools in your google workspace. very bad, as this can be the basis of a much wider attack)\n4/ Nothing happens for a while, but then there is a skynet type moment and a very smart AI all of a sudden has the ability to impersonate everyone, spread disinformation, etc (i’m not fully there on this one, but calling it out regardless)\n\nFor Software Factories, the solution at least in part is to sandbox agents and have them use service accounts rather than human identity.\n\nFor AI assistants, the issue is that a lot of the stuff making them useful doesn’t support any kind of bot identity. \n\nIt feels irresponsible to roll them out so quickly with such obvious security issues.",
+      "linkedUrls": [],
+      "public_metrics": {
+        "bookmark_count": 13,
+        "impression_count": 1581,
+        "like_count": 14,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 0
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "Zach Lloyd analiza los riesgos de seguridad cuando los agentes de IA actúan con la identidad del usuario, recomendando el uso de cuentas de servicio y sandboxing para evitar inyecciones de prompts y acciones no deseadas.",
+        "en": "Zach Lloyd analyzes the security risks when AI agents act with the user's identity, recommending the use of service accounts and sandboxing to prevent prompt injections and unwanted actions."
+      }
+    },
+    {
+      "id": "2125433546659729900",
+      "newsId": "2125433546659729900",
+      "author": "HamelHusain",
+      "source": "X · @HamelHusain",
+      "link": "https://x.com/HamelHusain/status/2125433546659729900",
+      "publishedAt": "2026-11-25T03:37:00.000Z",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "original_text": "I’m glad that more people are scrutinizing popular AI benchmarks.  \n\nEugene did a deep dive into 12 benchmarks and writes about the surprising things he found like:\n\n1. Erroneous graders \n2. Misconfigured harnesses \n3. Unrealistic specifications that don’t resemble how people use AI \n4. Problems with environments \n\nHe also makes a good arguments about cost per task and metrics that have been Goodhart-nerfed \n\nHighly recommended reading!",
+      "linkedUrls": [
+        "https://twitter.com/eugeneyan/status/2125418696248095188"
+      ],
+      "public_metrics": {
+        "bookmark_count": 51,
+        "impression_count": 5148,
+        "like_count": 84,
+        "quote_count": 0,
+        "reply_count": 15,
+        "retweet_count": 5
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "Hamel Husain recomienda un análisis de Eugene Yan sobre 12 benchmarks de IA, destacando errores en los evaluadores, configuraciones incorrectas y métricas que no reflejan el uso real de los modelos.",
+        "en": "Hamel Husain recommends Eugene Yan's analysis of 12 AI benchmarks, highlighting errors in graders, misconfigured harnesses, and metrics that do not reflect real-world model usage."
+      }
+    },
+    {
+      "id": "2125371136943022423",
+      "newsId": "2125371136943022423",
+      "author": "swyx",
+      "source": "X · @swyx",
+      "link": "https://x.com/swyx/status/2125371136943022423",
+      "publishedAt": "2026-11-24T23:29:01.000Z",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "original_text": "notable that a lot of the recent anthropic (and ant-alum) talks have been very specific about how much there is still left to do for human engineers, and if you are feeling depressed/anxious you need only look here / point your efforts towards AGI-aligned problems*:\n\n- assume multiagent systems 1000x, from spawning subagents to being llm grader to advisor/sidekick pattern to dreaming/memory formation to collaborating peer to peer on a board. what breaks?\n- Infra: unbundle Kubernetes to new filesystems, sandboxing, stateful, fast workflow orchestration (see @temporalio) at crazy scale. it's actors on steroids.\n- Agent Authorization: EVERYONE agrees that having Instinct/Claude etc saving your password is bad (aka taking action On-Behalf-Of you instead of you delegating to an agent's own identity). (see @KeycardAI @okta etc) Then: how do agents trust another agent? \n- Security (hardening/patching core software), and Isolation (assuming compromise, limit blast radius)\n- Monitoring (write-only OTel tracing across agents, linked to kill switches that dont fire false positives confusing agent persistence for malice)\n\nactually an incomplete list! you can work at the harness level (https://t.co/mfsPv7KVv4) or solve Fermat's last theorem (https://t.co/MQO3JlDqkj) but who's counting anymore\n\n*all of which katelyn happens to be hiring for haha",
+      "linkedUrls": [
+        "https://ai.engineer/talks/vlfCjWuv4es-rethinking-claude-code-best-practices",
+        "https://youtu.be/wrfbI5eyLAI"
+      ],
+      "public_metrics": {
+        "bookmark_count": 1014,
+        "impression_count": 43990,
+        "like_count": 688,
+        "quote_count": 15,
+        "reply_count": 112,
+        "retweet_count": 44
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "swyx destaca las áreas donde los ingenieros humanos aún son cruciales en la era de los agentes: infraestructura, autorización de agentes, seguridad y monitoreo, citando charlas recientes de Anthropic.",
+        "en": "swyx highlights areas where human engineers are still crucial in the agent era: infrastructure, agent authorization, security, and monitoring, citing recent talks from Anthropic."
+      }
+    },
+    {
+      "id": "2125249956495953973",
+      "newsId": "2125249956495953973",
+      "author": "rasbt",
+      "source": "X · @rasbt",
+      "link": "https://x.com/rasbt/status/2125249956495953973",
+      "publishedAt": "2026-11-24T15:27:29.000Z",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "original_text": "With yesterday’s GLM-5.4 release, there are 5 looped transformers in my LLM Architecture Gallery now.\n\nI see a trend :) https://t.co/reO28tzqJC",
+      "linkedUrls": [
+        "https://x.com/rasbt/status/2125249956495953973/photo/1"
+      ],
+      "public_metrics": {
+        "bookmark_count": 1189,
+        "impression_count": 90553,
+        "like_count": 2323,
+        "quote_count": 27,
+        "reply_count": 102,
+        "retweet_count": 226
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "Sebastian Raschka señala la tendencia creciente de arquitecturas de transformers con bucles (looped transformers) en modelos recientes como GLM-5.4, sugiriendo un cambio en el diseño de LLMs.",
+        "en": "Sebastian Raschka points out the growing trend of looped transformer architectures in recent models like GLM-5.4, suggesting a shift in LLM design."
+      }
+    },
+    {
+      "id": "2125246815884984398",
+      "newsId": "2125246815884984398",
+      "author": "petergyang",
+      "source": "X · @petergyang",
+      "link": "https://x.com/petergyang/status/2125246815884984398",
+      "publishedAt": "2026-11-24T15:15:00.000Z",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "original_text": "I've been using Gemini 4 Neon and @antigravity all weekend and made a free video course on how you can get the most out of this combo.\n\nSome takeaways:\n\n1. Orchestrator and /swarm are very useful for planning and building with multiple agents. At one point, I had 42 agents running at once.\n\n2. /grill-me is a great built-in skill that gets Antigravity to ask clarifying questions to help you flesh out the plan first.\n\n3. Remote control is better than Claude Code's because every thread is active by default. I show you how to add Antigravity to your phone home screen to run this in the video.\n\n📌 Watch my full 17-minute Antigravity course here: https://t.co/lmfSTiVBsm",
+      "linkedUrls": [
+        "https://youtu.be/7I8B7CQky0Y"
+      ],
+      "public_metrics": {
+        "bookmark_count": 723,
+        "impression_count": 57413,
+        "like_count": 633,
+        "quote_count": 3,
+        "reply_count": 46,
+        "retweet_count": 45
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "Peter Yang comparte un curso gratuito sobre cómo maximizar el uso de Gemini 4 Neon y Antigravity, destacando el uso de orquestadores, subagentes y el control remoto desde el teléfono.",
+        "en": "Peter Yang shares a free course on how to maximize the use of Gemini 4 Neon and Antigravity, highlighting the use of orchestrators, subagents, and remote control from the phone."
+      }
+    },
+    {
+      "id": "2125488970213523859",
+      "newsId": "2125488970213523859",
+      "author": "alvarombt",
+      "source": "X · @alvarombt",
+      "link": "https://x.com/alvarombt/status/2125488970213523859",
+      "publishedAt": "2026-11-25T07:17:14.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "OpenAI acaba de publicar un paper de 111 páginas afirmando resolver un problema abierto desde hace 57 años\n\nDicen haber demostrado que la complejidad óptima de multiplicar matrices es Θ(n^2.25) (nunca se podrá bajar hasta n^2)\n\nFalta confirmación pero llevamos una semana que parece ciencia ficción",
+      "linkedUrls": [
+        "https://x.com/alvarombt/status/2125488970213523859/photo/1"
+      ],
+      "public_metrics": {
+        "bookmark_count": 2,
+        "impression_count": 636,
+        "like_count": 12,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1
+      },
+      "utilityHint": 0,
+      "text": {
+        "es": "Alvaro comparte un paper de OpenAI que afirma resolver un problema abierto de 57 años sobre la complejidad óptima de la multiplicación de matrices, demostrando que es Θ(n^2.25).",
+        "en": "Alvaro shares an OpenAI paper claiming to solve a 57-year-old open problem about the optimal complexity of matrix multiplication, proving it is Θ(n^2.25)."
+      }
+    },
+    {
+      "id": "2125369126877286662",
+      "newsId": "2125369126877286662",
+      "author": "simonw",
+      "source": "X · @simonw",
+      "link": "https://x.com/simonw/status/2125369126877286662",
+      "publishedAt": "2026-11-24T23:21:01.000Z",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "original_text": "To accompany the video from my recent talk at @aiDotEngineer, here's an expanded version of my argument that we've seen three key inflection points with LLM over the past twelve months https://t.co/lcq6fyK3LT",
+      "linkedUrls": [
+        "https://simonwillison.net/2026/Nov/24/llm-inflection-points"
+      ],
+      "public_metrics": {
+        "bookmark_count": 128,
+        "impression_count": 15255,
+        "like_count": 159,
+        "quote_count": 4,
+        "reply_count": 61,
+        "retweet_count": 15
+      },
+      "utilityHint": 0,
+      "text": {
+        "es": "Simon Willison publica una versión ampliada de su argumento sobre tres puntos de inflexión clave en el desarrollo de LLMs durante los últimos doce meses, acompañando su charla en AI Engineer.",
+        "en": "Simon Willison publishes an expanded version of his argument about three key inflection points in LLM development over the past twelve months, accompanying his talk at AI Engineer."
+      }
+    }
+  ],
   "editorial_stats": {
     "topics": {
-      "apple": 1,
-      "ai_software": 4,
-      "ai_general": 0,
-      "tech": 1
+      "apple": 2,
+      "ai_software": 2,
+      "ai_general": 1,
+      "tech": 2
     }
   }
 }
