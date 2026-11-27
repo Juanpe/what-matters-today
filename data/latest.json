@@ -1,372 +1,240 @@
 {
   "schema_version": 22,
-  "edition_id": "wmt-2026-11-26",
-  "date": "2026-11-26",
+  "edition_id": "wmt-2026-11-27",
+  "date": "2026-11-27",
   "daily_summary": {
-    "es": "Anthropic y OpenCode publican avances en agentes de código, Google restringe el acceso de agentes a Workspace y 1Password detalla una brecha de seguridad.",
-    "en": "Anthropic and OpenCode ship agent coding updates, Google restricts agent access to Workspace, and 1Password details a security breach."
+    "es": "Apple prepara cuatro lanzamientos (PRODUCT)RED para el 1 de diciembre y un posible rediseño del MacBook Air para 2027, mientras 1Password confirma un compromiso de sus sistemas de backend sin acceso a las bóvedas de los usuarios.",
+    "en": "Apple is preparing four (PRODUCT)RED launches for December 1st and a potential MacBook Air overhaul for 2027, while 1Password confirms a backend systems compromise with no access to user vaults."
   },
   "topic_summaries": {
     "apple": {
-      "es": "Gurman anticipa una renovación del MacBook Air con OLED para 2027 o 2028, y Apple prepara el lanzamiento de un HomePod mini 2 y AirPods Max 2 en color rojo para el 1 de diciembre.",
-      "en": "Gurman anticipates an OLED MacBook Air redesign for 2027 or 2028, and Apple prepares to launch a red HomePod mini 2 and AirPods Max 2 on December 1."
+      "es": "Apple planea lanzar cuatro productos (PRODUCT)RED, incluyendo el HomePod mini 2 y AirPods Max 2, alrededor del 1 de diciembre. Además, Mark Gurman informa sobre un posible rediseño significativo del MacBook Air para 2027.",
+      "en": "Apple plans to launch four (PRODUCT)RED products, including the HomePod mini 2 and AirPods Max 2, around December 1st. Additionally, Mark Gurman reports on a potential major MacBook Air overhaul for 2027."
     },
     "ai_software": {
-      "es": "Anthropic detalla cómo su equipo reescribió su API en Rust con ayuda de Claude, OpenCode publica la versión 2.4.2 con mejoras en automatizaciones y Zed Agent añade opciones de velocidad Ultrafast.",
-      "en": "Anthropic details how its team rewrote its API in Rust with Claude's help, OpenCode releases v2.4.2 with automation improvements, and Zed Agent adds an Ultrafast speed option."
+      "es": "MacRemote se lanza como una app de Mac gratuita y de código abierto para conectar herramientas locales y MCPs a cualquier agente de IA. El repositorio openset-llm permite inferencia de LLMs de 27B en CPUs sin GPU, y HyperFrames ofrece edición de video con IA mediante HTML.",
+      "en": "MacRemote launches as a free, open-source Mac app to connect local tools and MCPs to any AI agent. The openset-llm repo enables 27B LLM inference on CPUs without a GPU, and HyperFrames offers AI video editing via HTML."
     },
     "ai_general": {
-      "es": "Un estudio de la Universidad de Maseno analiza los desafíos de la variación lingüística para los sistemas de reconocimiento de voz en Kenia.",
-      "en": "A study from Maseno University analyzes the challenges of linguistic variation for speech recognition systems in Kenya."
+      "es": "Un análisis de la Universidad de Maseno destaca los desafíos de la variación lingüística para los sistemas de reconocimiento de voz en Kenia. Zach Lloyd argumenta que el control de las herramientas y permisos de los agentes es tan crítico como el alineamiento para la seguridad de la IA.",
+      "en": "An analysis from Maseno University highlights the challenges of linguistic variation for speech recognition systems in Kenya. Zach Lloyd argues that controlling agents' tools and permissions is as critical as alignment for AI security."
     },
     "tech": {
-      "es": "1Password confirma una brecha que expuso metadatos de cuentas pero no los bóvedas, Cloudflare lanza Search for Agents y Google extiende Familiar Faces a cámaras de Walmart.",
-      "en": "1Password confirms a breach that exposed account metadata but not vaults, Cloudflare launches Search for Agents, and Google extends Familiar Faces to Walmart cameras."
+      "es": "1Password confirma que sus sistemas de backend fueron comprometidos, aunque el contenido de las bóvedas de los clientes no fue accedido; la empresa rotó credenciales y endureció sus controles.",
+      "en": "1Password confirms its backend systems were compromised, though customer vault contents were not accessed; the company rotated credentials and tightened controls."
     }
   },
   "summary": {
     "apple": {
-      "es": "Gurman anticipa una renovación del MacBook Air con OLED para 2027 o 2028, y Apple prepara el lanzamiento de un HomePod mini 2 y AirPods Max 2 en color rojo para el 1 de diciembre.",
-      "en": "Gurman anticipates an OLED MacBook Air redesign for 2027 or 2028, and Apple prepares to launch a red HomePod mini 2 and AirPods Max 2 on December 1."
+      "es": "Apple planea lanzar cuatro productos (PRODUCT)RED, incluyendo el HomePod mini 2 y AirPods Max 2, alrededor del 1 de diciembre. Además, Mark Gurman informa sobre un posible rediseño significativo del MacBook Air para 2027.",
+      "en": "Apple plans to launch four (PRODUCT)RED products, including the HomePod mini 2 and AirPods Max 2, around December 1st. Additionally, Mark Gurman reports on a potential major MacBook Air overhaul for 2027."
     },
     "ai_software": {
-      "es": "Anthropic detalla cómo su equipo reescribió su API en Rust con ayuda de Claude, OpenCode publica la versión 2.4.2 con mejoras en automatizaciones y Zed Agent añade opciones de velocidad Ultrafast.",
-      "en": "Anthropic details how its team rewrote its API in Rust with Claude's help, OpenCode releases v2.4.2 with automation improvements, and Zed Agent adds an Ultrafast speed option."
+      "es": "MacRemote se lanza como una app de Mac gratuita y de código abierto para conectar herramientas locales y MCPs a cualquier agente de IA. El repositorio openset-llm permite inferencia de LLMs de 27B en CPUs sin GPU, y HyperFrames ofrece edición de video con IA mediante HTML.",
+      "en": "MacRemote launches as a free, open-source Mac app to connect local tools and MCPs to any AI agent. The openset-llm repo enables 27B LLM inference on CPUs without a GPU, and HyperFrames offers AI video editing via HTML."
     },
     "ai_general": {
-      "es": "Un estudio de la Universidad de Maseno analiza los desafíos de la variación lingüística para los sistemas de reconocimiento de voz en Kenia.",
-      "en": "A study from Maseno University analyzes the challenges of linguistic variation for speech recognition systems in Kenya."
+      "es": "Un análisis de la Universidad de Maseno destaca los desafíos de la variación lingüística para los sistemas de reconocimiento de voz en Kenia. Zach Lloyd argumenta que el control de las herramientas y permisos de los agentes es tan crítico como el alineamiento para la seguridad de la IA.",
+      "en": "An analysis from Maseno University highlights the challenges of linguistic variation for speech recognition systems in Kenya. Zach Lloyd argues that controlling agents' tools and permissions is as critical as alignment for AI security."
     },
     "tech": {
-      "es": "1Password confirma una brecha que expuso metadatos de cuentas pero no los bóvedas, Cloudflare lanza Search for Agents y Google extiende Familiar Faces a cámaras de Walmart.",
-      "en": "1Password confirms a breach that exposed account metadata but not vaults, Cloudflare launches Search for Agents, and Google extends Familiar Faces to Walmart cameras."
+      "es": "1Password confirma que sus sistemas de backend fueron comprometidos, aunque el contenido de las bóvedas de los clientes no fue accedido; la empresa rotó credenciales y endureció sus controles.",
+      "en": "1Password confirms its backend systems were compromised, though customer vault contents were not accessed; the company rotated credentials and tightened controls."
     }
   },
   "top_stories": [
     {
-      "id": "evt_68fc2d014f825543",
+      "id": "evt_be16c72b4f93f3a5",
       "title": {
-        "es": "Cómo Anthropic construye software en 2026 con Katelyn Lesse",
-        "en": "How Anthropic builds software in 2026 with Katelyn Lesse"
+        "es": "Apple prepara cuatro lanzamientos (PRODUCT)RED para el 1 de diciembre",
+        "en": "Apple prepares four (PRODUCT)RED launches for December 1st"
       },
       "body": {
-        "es": "Anthropic reescribió su API de Python a Rust en unos cinco meses, sin expertos en Rust en el equipo ni revisiones de código estrictas, apoyándose en Claude para aprender el lenguaje. La empresa utiliza un agente de revisión de código que decide si los cambios mecánicos requieren revisión humana, permitiendo que Claude gestione y despliegue correcciones de pruebas inestables. Este enfoque reduce la fricción en el ciclo de desarrollo, aunque depende de la capacidad del modelo para validar cambios de bajo riesgo.",
-        "en": "Anthropic rewrote its API from Python to Rust in about five months, without Rust experts on the team or strict code reviews, relying on Claude to help engineers learn the language. The company uses a code review agent that decides if mechanical changes need human review, allowing Claude to handle and deploy fixes for flaky tests. This approach reduces friction in the development cycle, though it relies on the model's ability to validate low-risk changes."
+        "es": "Según los rumores, Apple lanzará cuatro productos (PRODUCT)RED alrededor del 1 de diciembre, coincidiendo con el vigésimo aniversario de (RED). El HomePod mini 2 tendrá una malla exterior roja y los AirPods Max 2 un cuerpo plateado con la Digital Crown roja. También circulan rumores de un AirTag rojo, aunque su procedencia es menos fiable.",
+        "en": "According to rumors, Apple will launch four (PRODUCT)RED products around December 1st, coinciding with the 20th anniversary of (RED). The HomePod mini 2 will feature a red mesh exterior, and the AirPods Max 2 will have a silver body with a red Digital Crown. Rumors of a red AirTag are also circulating, though their source is less reliable."
       },
-      "newsId": "evt_68fc2d014f825543",
-      "storyKey": "evt_68fc2d014f825543",
-      "topic": "ai_software",
-      "source": "The Pragmatic Engineer",
-      "link": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
-      "image": "https://substackcdn.com/image/fetch/$s_!MUG0!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f42984-2bb8-4041-bee8-3c81b2fa48ab_1280x720.png",
-      "score": 8.65,
-      "publishedAt": "2026-11-25T17:31:32.000Z",
-      "evidence": [
-        {
-          "claim": "Anthropic rewrote its API from Python to Rust in around five months.",
-          "source": "e6fe13f6a82c2e10"
-        },
-        {
-          "claim": "The rewrite was done without Rust experts on the team or strict code reviews.",
-          "source": "e6fe13f6a82c2e10"
-        },
-        {
-          "claim": "Anthropic has its own code review agent running at all times.",
-          "source": "e6fe13f6a82c2e10"
-        },
-        {
-          "claim": "Engineers at Anthropic spend a lot more time building tooling than before.",
-          "source": "e6fe13f6a82c2e10"
-        },
-        {
-          "claim": "Knowing a programming language well is starting to not matter.",
-          "source": "e6fe13f6a82c2e10"
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Pragmatic Engineer",
-          "link": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_b8f97017be11b689",
-      "title": {
-        "es": "OpenCode publica la versión 2.4.2 con mejoras en automatizaciones",
-        "en": "OpenCode releases v2.4.2 with automation improvements"
-      },
-      "body": {
-        "es": "La versión 2.4.2 de OpenCode permite a las automatizaciones continuar ejecutándose tras un fallo, registrando el error y programando la siguiente ejecución. También introduce la tecla Esc para recuperar el último mensaje del compositor si la respuesta se detiene antes de que el modelo genere contenido. Estas mejoras aumentan la resiliencia de los flujos de trabajo de agentes y facilitan la edición de comandos fallidos.",
-        "en": "OpenCode v2.4.2 allows automations to continue running after a failure, logging the error and scheduling the next run. It also introduces the Esc key to retrieve the last composer message if a response is stopped before the model generates content. These improvements increase the resilience of agent workflows and make it easier to edit failed commands."
-      },
-      "newsId": "evt_b8f97017be11b689",
-      "storyKey": "evt_b8f97017be11b689",
-      "topic": "ai_software",
-      "source": "OpenCode Releases",
-      "link": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2",
-      "image": "https://opengraph.githubassets.com/14d2936661542f7b9bb9da08f5ad1a4e694b8d60181d07b12d8024b76d8a4dff/anomalyco/opencode/releases/tag/v2.4.2",
-      "score": 8.6,
-      "publishedAt": "2026-11-26T01:00:12.000Z",
-      "evidence": [
-        {
-          "claim": "v2.4.2 is an immutable release with only the title and notes modifiable.",
-          "source": "231a6271455bd979"
-        },
-        {
-          "claim": "GPT-6.2 system prompt is used for GPT-6.2 Sol and Astra, and their aliases.",
-          "source": "231a6271455bd979"
-        },
-        {
-          "claim": "Esc key can be used to take back the last message in the composer.",
-          "source": "231a6271455bd979"
-        },
-        {
-          "claim": "Automations continue to run even after a failed run, but still pause when the session or directory is gone.",
-          "source": "231a6271455bd979"
-        },
-        {
-          "claim": "Moving a session also moves its subagents.",
-          "source": "231a6271455bd979"
-        }
-      ],
-      "sources": [
-        {
-          "name": "OpenCode Releases",
-          "link": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_48de63b9af98dd67",
-      "title": {
-        "es": "Brecha de seguridad en 1Password: qué se accedió y qué no",
-        "en": "1Password Security Breach: What Was Accessed and What Wasn't"
-      },
-      "body": {
-        "es": "1Password confirmó una brecha de seguridad que permitió a un atacante acceder a nombres, correos electrónicos y metadatos de cuentas de un subconjunto de usuarios, pero no a los contenidos de las bóvedas. La cuenta de GitHub comprometida se usó para acceder al código fuente y empujar código malicioso a los servicios de backend. La empresa ha rotado las credenciales internas y ampliado los códigos de recuperación de seis a diez dígitos alfanuméricos para dificultar los intentos de adivinación.",
-        "en": "1Password confirmed a security breach that allowed an attacker to access names, email addresses, and account metadata for a subset of users, but not vault contents. The compromised GitHub account was used to access source code and push malicious code to backend services. The company has rotated internal credentials and expanded recovery codes from six to ten alphanumeric digits to hinder guessing attempts."
-      },
-      "newsId": "evt_48de63b9af98dd67",
-      "storyKey": "evt_48de63b9af98dd67",
-      "topic": "tech",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/11/25/1password-security-breach",
-      "image": "https://images.macrumors.com/article-new/2022/05/1password-deal-blue.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-11-25T21:32:02.000Z",
-      "evidence": [
-        {
-          "claim": "1Password experienced a security breach earlier this month.",
-          "source": "590f19f1d7d95dc9"
-        },
-        {
-          "claim": "Some customer names and email addresses were accessed during the breach.",
-          "source": "590f19f1d7d95dc9"
-        },
-        {
-          "claim": "The breached GitHub account was used to access source code and push malicious code to backend services.",
-          "source": "590f19f1d7d95dc9"
-        },
-        {
-          "claim": "Customer vaults and the items in them were not accessed during the breach.",
-          "source": "590f19f1d7d95dc9"
-        },
-        {
-          "claim": "There is no impact to 1Password's services, availability, or product security.",
-          "source": "590f19f1d7d95dc9"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/11/25/1password-security-breach"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_9093cb9ff849202b",
-      "title": {
-        "es": "Un MacBook Air rediseñado con OLED podría lanzarse en 2027 o 2028",
-        "en": "Redesigned OLED MacBook Air Could Launch in 2027 or 2028"
-      },
-      "body": {
-        "es": "Según Mark Gurman de Bloomberg, Apple planea actualizar el MacBook Air con chips M6 a principios de 2027, pero sin un nuevo diseño. Una renovación más extensa, que podría incluir una pantalla OLED, está prevista para finales de 2027 o 2028. Dado que el MacBook Air es el ordenador más popular de Apple, esta actualización busca mantener el producto fresco tras la última rediseño en 2022.",
-        "en": "According to Bloomberg's Mark Gurman, Apple plans to refresh the MacBook Air with M6 chips in early 2027, but without a new design. A more extensive overhaul, which could include an OLED display, is expected for late 2027 or 2028. Given that the MacBook Air is Apple's most popular computer, this update aims to keep the product fresh following the last redesign in 2022."
-      },
-      "newsId": "evt_9093cb9ff849202b",
-      "storyKey": "evt_9093cb9ff849202b",
-      "topic": "apple",
-      "source": "MacRumors",
-      "link": "https://www.macrumors.com/2026/11/25/oled-macbook-air-2027-2028",
-      "image": "https://images.macrumors.com/article-new/2026/11/m5-macbook-air-pink.jpeg",
-      "score": 7.65,
-      "publishedAt": "2026-11-25T23:30:14.000Z",
-      "evidence": [
-        {
-          "claim": "A MacBook Air with a new look could launch in late 2027 or 2028.",
-          "source": "ef572cd3b718ede7"
-        },
-        {
-          "claim": "Apple plans to refresh the MacBook Air with M6 chips in early 2027.",
-          "source": "ef572cd3b718ede7"
-        },
-        {
-          "claim": "A more extensive overhaul could follow later in 2027 or in 2028, and the MacBook Air could get an OLED display at that time.",
-          "source": "ef572cd3b718ede7"
-        },
-        {
-          "claim": "Apple last overhauled the MacBook Air's design in 2022.",
-          "source": "ef572cd3b718ede7"
-        },
-        {
-          "claim": "The MacBook Air is Apple's most popular computer, and they need to keep it very fresh.",
-          "source": "ef572cd3b718ede7"
-        }
-      ],
-      "sources": [
-        {
-          "name": "MacRumors",
-          "link": "https://www.macrumors.com/2026/11/25/oled-macbook-air-2027-2028"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_87d2a717790cb7fd",
-      "title": {
-        "es": "Cloudflare presenta Search for Agents",
-        "en": "Introducing Search for Agents"
-      },
-      "body": {
-        "es": "Cloudflare ha lanzado Search for Agents, un servicio que crea automáticamente una instancia de búsqueda de IA e indexa el contenido de un sitio web para hacerlo accesible a agentes. La función está disponible para todos los clientes, incluido el plan gratuito, y anuncia el punto de acceso de búsqueda en cada página. Soporta el nuevo método HTTP QUERY para consultas de búsqueda en texto plano o JSON.",
-        "en": "Cloudflare has launched Search for Agents, a service that automatically creates an AI search instance and indexes a website's content to make it accessible to agents. The feature is available to all customers, including the Free plan, and advertises the search endpoint on every page. It supports the new HTTP QUERY method for search queries in plain text or JSON."
-      },
-      "newsId": "evt_87d2a717790cb7fd",
-      "storyKey": "evt_87d2a717790cb7fd",
-      "topic": "tech",
-      "source": "Cloudflare Blog",
-      "link": "https://blog.cloudflare.com/search-for-agents",
-      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M87EHBMCJY691A3ADBXCMG6A.png",
-      "score": 7.65,
-      "publishedAt": "2026-11-25T14:00:00.000Z",
-      "evidence": [
-        {
-          "claim": "Search for Agents automatically creates an AI Search instance and starts indexing content.",
-          "source": "fabe4640ef03b970"
-        },
-        {
-          "claim": "Search for Agents is available to all Cloudflare customers, including the Free plan.",
-          "source": "fabe4640ef03b970"
-        },
-        {
-          "claim": "Search for Agents automatically advertises the search endpoint on every page of the site.",
-          "source": "fabe4640ef03b970"
-        },
-        {
-          "claim": "Search for Agents supports the new HTTP QUERY method for search queries.",
-          "source": "fabe4640ef03b970"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Cloudflare Blog",
-          "link": "https://blog.cloudflare.com/search-for-agents"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_4c00dcc7ee5f3f7f",
-      "title": {
-        "es": "Apple lanzará dos productos nuevos la semana que viene",
-        "en": "Apple to Launch Two New Products Next Week"
-      },
-      "body": {
-        "es": "Apple prepara el lanzamiento de un HomePod mini 2 con malla exterior roja y unos AirPods Max 2 en color plata con almohadillas blancas y Digital Crown roja para el 1 de diciembre. La fecha coincide con el Día Mundial del Sida y el 20.º aniversario de la organización RED, lo que sugiere que los productos llevarán la etiqueta (PRODUCT)RED. Parte del precio de cada unidad se destinará al Fondo Mundial para luchar contra el sida.",
-        "en": "Apple is preparing to launch a HomePod mini 2 with a red exterior mesh and silver AirPods Max 2 with white earpads and a red Digital Crown on December 1. The date coincides with World AIDS Day and the 20th anniversary of the RED organization, suggesting the products will carry the (PRODUCT)RED label. Part of the price of each unit will go to the Global Fund to fight AIDS."
-      },
-      "newsId": "evt_4c00dcc7ee5f3f7f",
-      "storyKey": "evt_4c00dcc7ee5f3f7f",
+      "newsId": "evt_be16c72b4f93f3a5",
+      "storyKey": "evt_be16c72b4f93f3a5",
       "topic": "apple",
       "source": "Applesfera",
-      "link": "https://www.applesfera.com/rumores/se-filtra-que-apple-lanzara-dos-productos-nuevos-semana-que-viene",
-      "image": "https://i.blogs.es/e97d57/apple-lanzamiento/1024_2000.jpeg",
+      "link": "https://www.applesfera.com/apple-1/madera-apple-tiene-preparados-cuatro-lanzamientos-para-semana-que-viene",
+      "image": "https://i.blogs.es/2150c5/logo-apple-rojo/1366_2000.jpeg",
       "score": 7.65,
-      "publishedAt": "2026-11-24T09:26:34.000Z",
+      "publishedAt": "2026-11-25T13:00:00.000Z",
       "evidence": [
         {
-          "claim": "Apple is set to launch two new products on December 1st.",
-          "source": "23f803e021cfcb20"
+          "claim": "Apple has four (PRODUCT)RED launches scheduled for around December 1st.",
+          "source": "f9b17f004e26f1e0"
         },
         {
-          "claim": "The HomePod mini 2 will have a red exterior.",
-          "source": "23f803e021cfcb20"
+          "claim": "The HomePod mini 2 will have a red mesh exterior.",
+          "source": "f9b17f004e26f1e0"
         },
         {
-          "claim": "The AirPods Max 2 will be silver with white earpads and a red Digital Crown.",
-          "source": "23f803e021cfcb20"
+          "claim": "The AirPods Max 2 will have a silver body with a red Digital Crown.",
+          "source": "f9b17f004e26f1e0"
         },
         {
-          "claim": "The launch date of the new products coincides with the World AIDS Day and the 20th anniversary of (PRODUCT)RED.",
-          "source": "23f803e021cfcb20"
-        },
-        {
-          "claim": "The new products are expected to be launched to support the (PRODUCT)RED campaign.",
-          "source": "23f803e021cfcb20"
+          "claim": "There are rumors of a red AirTag being launched.",
+          "source": "f9b17f004e26f1e0"
         }
       ],
       "sources": [
         {
           "name": "Applesfera",
-          "link": "https://www.applesfera.com/rumores/se-filtra-que-apple-lanzara-dos-productos-nuevos-semana-que-viene"
+          "link": "https://www.applesfera.com/apple-1/madera-apple-tiene-preparados-cuatro-lanzamientos-para-semana-que-viene"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_63557c03d4ddd2a7",
+      "id": "evt_1cb1a1e42477a206",
       "title": {
-        "es": "La guerra de precios de Black Friday baja el Mac Studio M5 Max a 2.299 dólares",
-        "en": "Black Friday Mac Studio price war drives M5 Max desktop down to $2,299"
+        "es": "1Password confirma compromiso de sus sistemas de backend sin acceso a bóvedas",
+        "en": "1Password confirms backend systems compromise with no vault access"
       },
       "body": {
-        "es": "El Mac Studio con chip M5 Max ha bajado a 2.299 dólares en Black Friday, con descuentos de hasta 300 dólares en configuraciones mejoradas por parte de minoristas rivales. Expercom iguala el descuento, llevando el precio al nivel de la oferta educativa de Apple sin requisitos de elegibilidad. El equipo incluye un CPU de 18 núcleos, GPU de 32 núcleos, 36 GB de memoria unificada y un SSD de 512 GB.",
-        "en": "The M5 Max Mac Studio has dropped to $2,299 on Black Friday, with discounts of up to $300 on upgraded configurations from rival retailers. Expercom is matching the discount, bringing the price down to Apple's education pricing without eligibility requirements. The desktop features an 18-core CPU, 32-core GPU, 36GB of unified memory, and a 512GB SSD."
+        "es": "1Password informa que un atacante accedió a sus sistemas de backend y descargó metadatos de cuenta de un subconjunto de usuarios, pero no accedió al contenido de las bóvedas. La empresa ha rotado credenciales internas, ampliado los códigos de recuperación a 10 dígitos alfanuméricos y endurecido los controles de GitHub y CI/CD.",
+        "en": "1Password reports that an attacker accessed its backend systems and downloaded account metadata for a subset of users, but did not access vault contents. The company has rotated internal credentials, expanded recovery codes to 10 alphanumeric digits, and tightened GitHub and CI/CD controls."
       },
-      "newsId": "evt_63557c03d4ddd2a7",
-      "storyKey": "evt_63557c03d4ddd2a7",
-      "topic": "apple",
-      "source": "AppleInsider",
-      "link": "https://appleinsider.com/articles/26/11/26/black-friday-mac-studio-price-war-drives-m5-max-desktop-down-to-2299",
-      "image": "https://media.appleinsider.com/gallery/70015-147588-Mac-Studio-M5-desk-xl.jpg",
+      "newsId": "evt_1cb1a1e42477a206",
+      "storyKey": "evt_1cb1a1e42477a206",
+      "topic": "tech",
+      "source": "Daring Fireball",
+      "link": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "image": "https://images.ctfassets.net/3091ajzcmzlr/3yu0DTU3edoU7HK8MxkW54/c5e7801fb8c0d7d52295da96af7e8013/business_2x.webp",
       "score": 7.65,
-      "publishedAt": "2026-11-26T03:15:58.000Z",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
       "evidence": [
         {
-          "claim": "The M5 Max Mac Studio is priced at $2,299 on Black Friday.",
-          "source": "6064e95707750edb"
+          "claim": "1Password's backend systems were compromised, but customer vault contents were not accessed.",
+          "source": "3dfddfcf72b594a5"
         },
         {
-          "claim": "Expercom is matching the discount, bringing the desktop down to Apple's education pricing.",
-          "source": "6064e95707750edb"
+          "claim": "The attacker downloaded account records for a subset of users, including names, email addresses, and non-secret metadata.",
+          "source": "3dfddfcf72b594a5"
         },
         {
-          "claim": "The M5 Max Mac Studio features an 18-core CPU, 32-core GPU, 36GB of unified memory, and a 512GB SSD.",
-          "source": "6064e95707750edb"
+          "claim": "1Password has triggered a rotation of all credentials which may have been exposed.",
+          "source": "3dfddfcf72b594a5"
         },
         {
-          "claim": "The M5 Max Mac Studio earned five stars in our hands-on review for its professional performance and value.",
-          "source": "6064e95707750edb"
+          "claim": "The codes used in invitation and recovery emails have been expanded from six digits to ten alphanumeric digits.",
+          "source": "3dfddfcf72b594a5"
+        },
+        {
+          "claim": "1Password has tightened internal GitHub, CI/CD, and endpoint controls, and added new detections for this kind of attack.",
+          "source": "3dfddfcf72b594a5"
         }
       ],
       "sources": [
         {
-          "name": "AppleInsider",
-          "link": "https://appleinsider.com/articles/26/11/26/black-friday-mac-studio-price-war-drives-m5-max-desktop-down-to-2299"
+          "name": "Daring Fireball",
+          "link": "https://1password.com/blog/update-on-nov-2026-security-incident"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_8503be891d227919",
+      "title": {
+        "es": "Gurman: un gran rediseño del MacBook Air podría llegar en 2027",
+        "en": "Gurman: major MacBook Air overhaul could arrive in 2027"
+      },
+      "body": {
+        "es": "Mark Gurman informa que Apple podría lanzar un «gran rediseño» del MacBook Air tan pronto como en 2027. Este cambio significativo en la línea de portátiles de Apple podría marcar una actualización importante en su diseño y especificaciones.",
+        "en": "Mark Gurman reports that Apple could launch a “big MacBook Air overhaul” as early as 2027. This significant change to Apple's laptop lineup could mark a major update in its design and specifications."
+      },
+      "newsId": "evt_8503be891d227919",
+      "storyKey": "evt_8503be891d227919",
+      "topic": "apple",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/11/25/major-macbook-air-overhaul-could-launch-next-year-per-gurman",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2023/06/15-macbook-air-vs-13-air.jpg?quality=82&strip=all&w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-11-25T16:34:01.000Z",
+      "evidence": [
+        {
+          "claim": "A 'big MacBook Air overhaul' could launch as early as 2027.",
+          "source": "59d212c377158df5"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/11/25/major-macbook-air-overhaul-could-launch-next-year-per-gurman"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_ee7662a84f5bb59a",
+      "title": {
+        "es": "MacRemote: conecta herramientas de Mac a cualquier agente de IA",
+        "en": "MacRemote: connect Mac tools to any AI agent"
+      },
+      "body": {
+        "es": "MacRemote es una nueva app de Mac gratuita y de código abierto que permite conectar de forma segura las herramientas y MCPs locales de tu Mac a cualquier agente de IA. El proyecto, desarrollado durante seis meses, facilita la integración de capacidades locales en flujos de trabajo de agentes.",
+        "en": "MacRemote is a new free, open-source Mac app that lets you securely connect your Mac's tools and local MCPs to any AI agent. The project, developed over six months, facilitates integrating local capabilities into agent workflows."
+      },
+      "newsId": "evt_ee7662a84f5bb59a",
+      "storyKey": "evt_ee7662a84f5bb59a",
+      "topic": "tech",
+      "source": "MacStories",
+      "link": "https://www.macstories.net/stories/macremote-connect-any-agent-to-your-macs-tools-now-free-and-open-source",
+      "image": "https://cdn.macstories.net/images/uploads/2026/11/26/shortcut-upload-1795709781796-e3766cf95e.png",
+      "score": 7.65,
+      "publishedAt": "2026-11-26T16:35:02.000Z",
+      "evidence": [
+        {
+          "claim": "MacRemote is a free and open-source Mac app.",
+          "source": "acf9619c6c473066"
+        },
+        {
+          "claim": "MacRemote allows users to connect their Mac’s tools and local MCPs to any AI agent.",
+          "source": "acf9619c6c473066"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacStories",
+          "link": "https://www.macstories.net/stories/macremote-connect-any-agent-to-your-macs-tools-now-free-and-open-source"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_af9139fc7f71e5ea",
+      "title": {
+        "es": "El desafío de la variación lingüística para la IA de voz en Kenia",
+        "en": "The challenge of linguistic variation for voice AI in Kenya"
+      },
+      "body": {
+        "es": "Estudiantes del Centre for Applied AI de la Universidad de Maseno comparan palabras en inglés, suajili y varias variedades de Sheng para abordar los desafíos del reconocimiento de voz. La variación lingüística sigue siendo un obstáculo significativo para sistemas como Siri, ChatGPT, Gemini y Claude en contextos multilingües.",
+        "en": "Students at Maseno University’s Centre for Applied AI compare words in English, Swahili, and several varieties of Sheng to address speech recognition challenges. Linguistic variation remains a significant hurdle for systems like Siri, ChatGPT, Gemini, and Claude in multilingual contexts."
+      },
+      "newsId": "evt_af9139fc7f71e5ea",
+      "storyKey": "evt_af9139fc7f71e5ea",
+      "topic": "ai_general",
+      "source": "IEEE Spectrum AI",
+      "link": "https://spectrum.ieee.org/swahili-speech-recognition",
+      "image": "https://spectrum.ieee.org/media-library/three-college-students-posing-together-in-front-of-a-whiteboard-covered-in-writing-from-various-sheng-dialects.jpg?coordinates=0%2C73%2C0%2C573&height=600&id=68751313&width=1200",
+      "score": 7.65,
+      "publishedAt": "2026-11-24T12:00:03.000Z",
+      "evidence": [
+        {
+          "claim": "Linguistic variation poses a challenge for speech-recognition systems.",
+          "source": "c8c501ae9a15d44e"
+        },
+        {
+          "claim": "Students at Maseno University’s Centre for Applied AI compare words in English, Swahili, and several varieties of Sheng.",
+          "source": "c8c501ae9a15d44e"
+        }
+      ],
+      "sources": [
+        {
+          "name": "IEEE Spectrum AI",
+          "link": "https://spectrum.ieee.org/swahili-speech-recognition"
         }
       ],
       "what_changed": []
@@ -374,161 +242,81 @@
   ],
   "quick_reads": [
     {
-      "id": "evt_683d6ba5fdaabdc9",
+      "id": "evt_a2b6f249e3078cdb",
       "title": {
-        "es": "Zed Agent publica la versión 1.31.0-pre",
-        "en": "Zed Agent releases v1.31.0-pre"
+        "es": "iOS 27.3: nuevas funciones para iPhone en camino",
+        "en": "iOS 27.3: new iPhone features on the way"
       },
       "text": {
-        "es": "La pre-versión 1.31.0 de Zed Agent añade opciones de solo hilo para modelos, perfiles y esfuerzo de pensamiento, así como una opción de velocidad de respuesta Ultrafast para modelos compatibles de OpenAI y ChatGPT. También soporta habilidades globales en proyectos remotos y mejora el rendimiento de la terminal.",
-        "en": "Zed Agent v1.31.0-pre adds thread-only choices for models, profiles, and thinking effort, as well as an Ultrafast response speed option for supported OpenAI and ChatGPT models. It also supports global skills in remote projects and improves terminal rendering performance."
+        "es": "iOS 27.3 se acerca con nuevas funciones para los usuarios de iPhone.",
+        "en": "iOS 27.3 is coming soon, packed with new features for iPhone users."
       },
-      "newsId": "evt_683d6ba5fdaabdc9",
-      "storyKey": "evt_683d6ba5fdaabdc9",
-      "topic": "ai_software",
-      "source": "Zed Releases",
-      "link": "https://github.com/zed-industries/zed/releases/tag/v1.31.0-pre",
-      "image": null,
-      "score": 8.4,
-      "publishedAt": "2026-11-25T18:02:11.000Z",
-      "evidence": [
-        {
-          "claim": "v1.31.0-pre is a pre-release version.",
-          "source": "80d6edf9f1654a69"
-        },
-        {
-          "claim": "Thread-only choices have been added for agent models, profiles, and thinking effort.",
-          "source": "80d6edf9f1654a69"
-        },
-        {
-          "claim": "An Ultrafast response speed option has been added for supported OpenAI and ChatGPT Subscription models.",
-          "source": "80d6edf9f1654a69"
-        },
-        {
-          "claim": "Global agent skills can now be supported in remote projects.",
-          "source": "80d6edf9f1654a69"
-        },
-        {
-          "claim": "Performance improvements have been made to the app layout and terminal rendering.",
-          "source": "80d6edf9f1654a69"
-        }
-      ],
-      "sources": [
-        {
-          "name": "Zed Releases",
-          "link": "https://github.com/zed-industries/zed/releases/tag/v1.31.0-pre"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_f51b9b9de91188af",
-      "title": {
-        "es": "Un vistazo a las 'apps' de Mac de Claude",
-        "en": "A Closer Look at Claude’s Mac “Apps”"
-      },
-      "text": {
-        "es": "Anthropic ha introducido una función que permite a los usuarios convertir artefactos de Claude en aplicaciones de escritorio, que pueden crearse, ejecutarse y compartirse. Esta capacidad amplía el uso de Claude más allá del chat, permitiendo la creación de herramientas interactivas locales.",
-        "en": "Anthropic has introduced a feature allowing users to turn Claude artifacts into desktop apps, which can be created, run, and shared. This capability expands Claude's use beyond chat, enabling the creation of local interactive tools."
-      },
-      "newsId": "evt_f51b9b9de91188af",
-      "storyKey": "evt_f51b9b9de91188af",
-      "topic": "ai_software",
-      "source": "MacStories",
-      "link": "https://www.macstories.net/stories/a-closer-look-at-claudes-mac-apps",
-      "image": "https://cdn.macstories.net/images/uploads/2026/11/25/shortcut-upload-1795625565922-e54ce57825.png",
+      "newsId": "evt_a2b6f249e3078cdb",
+      "storyKey": "evt_a2b6f249e3078cdb",
+      "topic": "apple",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/11/25/ios-27-3-release-date-heres-when-to-expect-new-iphone-features",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/ios-27-3-iphone-fi.jpg?quality=82&strip=all&w=1600",
       "score": 7.65,
-      "publishedAt": "2026-11-25T17:25:49.000Z",
+      "publishedAt": "2026-11-25T19:38:33.000Z",
       "evidence": [
         {
-          "claim": "Anthropic has introduced a new feature allowing users to turn artifacts into desktop apps.",
-          "source": "06b989f440b1e352"
+          "claim": "iOS 27.3 is coming soon, packed with new features for iPhone users.",
+          "source": "1b417b9824cee210"
         }
       ],
       "sources": [
         {
-          "name": "MacStories",
-          "link": "https://www.macstories.net/stories/a-closer-look-at-claudes-mac-apps"
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/11/25/ios-27-3-release-date-heres-when-to-expect-new-iphone-features"
         }
       ],
       "what_changed": []
     },
     {
-      "id": "evt_1e532e0c6be42074",
+      "id": "evt_d3ea8275466318ff",
       "title": {
-        "es": "La función Familiar Faces de Google ahora funciona en la cámara de 35 dólares de Walmart",
-        "en": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too"
+        "es": "Crítica al diseño de la marca de tiempo en Apple Notes",
+        "en": "Critique of the timestamp design in Apple Notes"
       },
       "text": {
-        "es": "Una actualización de Google Home lleva el soporte de Familiar Faces a la cámara exterior Onn de 35 dólares y la cámara de inundación Onn de 77 dólares de Walmart. Se requiere una suscripción a Google Home Premium para acceder a la función. Además, Gemini Live recibirá una mejora en su arquitectura de voz a voz para tiempos de respuesta más rápidos.",
-        "en": "A Google Home update brings Familiar Faces support to Walmart's $35 Onn Outdoor Camera and $77 Onn Floodlight Camera. A Google Home Premium subscription is still required to access the feature. Additionally, Gemini Live is getting an upgrade to its speech-to-speech architecture for faster response times."
+        "es": "Un análisis señala que la marca de tiempo en Apple Notes alterna entre fecha de creación y edición al hacer clic, pero el estado inicial no tiene etiqueta y no hay forma de volver a él. El autor critica la falta de affordances claras en la interfaz de Apple.",
+        "en": "An analysis notes that the timestamp in Apple Notes toggles between created and edited dates when clicked, but the initial state is unlabeled and there is no way to return to it. The author criticizes the lack of clear affordances in Apple's interface."
       },
-      "newsId": "evt_1e532e0c6be42074",
-      "storyKey": "evt_1e532e0c6be42074",
-      "topic": "tech",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23451196/acastro_220510_STK123_0002.jpg?crop=0%2C10.732984293194%2C100%2C78.534031413613&quality=90&strip=all&w=1200",
-      "score": 6.65,
-      "publishedAt": "2026-11-26T00:04:34.000Z",
+      "newsId": "evt_d3ea8275466318ff",
+      "storyKey": "evt_d3ea8275466318ff",
+      "topic": "apple",
+      "source": "Daring Fireball",
+      "link": "https://daringfireball.net/2026/11/obvious_affordances_are_due_for_a_comeback",
+      "image": "https://daringfireball.net/graphics/df-wide-card.png",
+      "score": 7.05,
+      "publishedAt": "2026-11-26T15:11:46.000Z",
       "evidence": [
         {
-          "claim": "Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too.",
-          "source": "2f88d23bacfdfe07"
+          "claim": "Clicking on the timestamp in Apple Notes toggles between the created and edited dates.",
+          "source": "2bfb17e021afafd8"
         },
         {
-          "claim": "Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired.",
-          "source": "2f88d23bacfdfe07"
+          "claim": "The initial state of the timestamp in Apple Notes does not show the label for the date.",
+          "source": "2bfb17e021afafd8"
         },
         {
-          "claim": "A Google Home Premium subscription is still required to access the Familiar Faces feature.",
-          "source": "2f88d23bacfdfe07"
+          "claim": "Apple Notes does not provide a way to return to the initial unlabeled timestamp after toggling between created and edited dates.",
+          "source": "2bfb17e021afafd8"
         },
         {
-          "claim": "Gemini Live is getting an upgrade to its speech-to-speech architecture.",
-          "source": "2f88d23bacfdfe07"
+          "claim": "The timestamp in Apple Notes should always be labeled to avoid ambiguity.",
+          "source": "2bfb17e021afafd8"
         },
         {
-          "claim": "Gemini Live now supports all your daily actions, from setting timers to turning off the lights.",
-          "source": "2f88d23bacfdfe07"
+          "claim": "Apple’s UI design in Notes is criticized for not making clickable elements look clickable.",
+          "source": "2bfb17e021afafd8"
         }
       ],
       "sources": [
         {
-          "name": "The Verge",
-          "link": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras"
-        }
-      ],
-      "what_changed": []
-    },
-    {
-      "id": "evt_8165aa1317fa3bfb",
-      "title": {
-        "es": "La facturación de la revisión de código de Copilot pasará a la organización",
-        "en": "Copilot code review billing will default to the organization"
-      },
-      "text": {
-        "es": "A partir del 30 de diciembre de 2026, las revisiones de código de Copilot se facturarán a la organización por defecto. Este cambio afecta a las organizaciones que utilizan la función y requiere una revisión de las políticas de facturación actuales.",
-        "en": "Starting December 30, 2026, Copilot code review billing will default to the organization. This change affects organizations using the feature and requires a review of current billing policies."
-      },
-      "newsId": "evt_8165aa1317fa3bfb",
-      "storyKey": "evt_8165aa1317fa3bfb",
-      "topic": "ai_software",
-      "source": "GitHub Changelog",
-      "link": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
-      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg",
-      "score": 7.65,
-      "publishedAt": "2026-11-25T22:18:03.000Z",
-      "evidence": [
-        {
-          "claim": "Copilot code review billing will default to the organization starting December 30, 2026.",
-          "source": "f67003575a66505b"
-        }
-      ],
-      "sources": [
-        {
-          "name": "GitHub Changelog",
-          "link": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization"
+          "name": "Daring Fireball",
+          "link": "https://daringfireball.net/2026/11/obvious_affordances_are_due_for_a_comeback"
         }
       ],
       "what_changed": []
@@ -536,285 +324,257 @@
   ],
   "trending_repos": [
     {
-      "id": "firecrawl/firecrawl",
-      "repoKey": "firecrawl/firecrawl",
-      "name": "firecrawl",
-      "full_name": "firecrawl/firecrawl",
-      "link": "https://github.com/firecrawl/firecrawl",
-      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-      "language": "TypeScript",
-      "stars": 209985,
-      "stars_today": 1070,
-      "stars_per_day_estimate": 1115.3896052102573,
-      "trend_basis": "observed_about_24h",
-      "trend_score": 13.12267768675197,
-      "default_branch": "main",
-      "created_at": "2024-04-15T21:02:29Z",
-      "pushed_at": "2026-11-25T22:46:42Z",
-      "why_it_matters": {
-        "es": "Firecrawl ofrece una infraestructura de conocimiento para agentes de IA, permitiendo buscar, raspar y acceder a más de 550 proveedores de datos a través de una única API. Su versión local se integra como servidor MCP en herramientas como Claude Code y Cursor.",
-        "en": "Firecrawl provides knowledge infrastructure for AI agents, allowing search, scraping, and access to 550+ data providers through a single API. Its local version integrates as an MCP server into tools like Claude Code and Cursor."
-      }
-    },
-    {
-      "id": "cheaper-inference/OmniRoute",
-      "repoKey": "cheaper-inference/OmniRoute",
-      "name": "OmniRoute",
-      "full_name": "cheaper-inference/OmniRoute",
-      "link": "https://github.com/cheaper-inference/OmniRoute",
-      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
-      "language": "TypeScript",
-      "stars": 90328,
-      "stars_today": null,
-      "stars_per_day_estimate": 229.58748771348934,
-      "trend_basis": "normalized_48.0h",
-      "trend_score": 10.848167670442427,
-      "default_branch": "release/v3.8.55",
-      "created_at": "2026-02-13T12:38:31Z",
-      "pushed_at": "2026-11-25T22:53:30Z",
-      "why_it_matters": {
-        "es": "OmniRoute es una puerta de enlace de IA gratuita que unifica 375 proveedores y más de 1.400 modelos en un solo endpoint. Ofrece conmutación automática consciente de cuotas y compresión de tokens, compatible con Claude Code, Codex y Cursor.",
-        "en": "OmniRoute is a free AI gateway that unifies 375 providers and 1,400+ models into a single endpoint. It offers quota-aware auto-fallback and token compression, compatible with Claude Code, Codex, and Cursor."
-      }
-    },
-    {
-      "id": "vercel-labs/screen-relay",
-      "repoKey": "vercel-labs/screen-relay",
-      "name": "screen-relay",
-      "full_name": "vercel-labs/screen-relay",
-      "link": "https://github.com/vercel-labs/screen-relay",
-      "description": "Upto 120 fps, low latency desktop streaming for humans and AI agents",
+      "id": "opensetlabs/openset-llm",
+      "repoKey": "opensetlabs/openset-llm",
+      "name": "openset-llm",
+      "full_name": "opensetlabs/openset-llm",
+      "link": "https://github.com/opensetlabs/openset-llm",
+      "description": "Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.",
       "language": "C++",
-      "stars": 428,
-      "stars_today": 26,
-      "stars_per_day_estimate": 27.10292498641747,
+      "stars": 1726,
+      "stars_today": 982,
+      "stars_per_day_estimate": 982.0606172369412,
       "trend_basis": "observed_about_24h",
-      "trend_score": 7.7789373072595644,
+      "trend_score": 12.915553570497558,
       "default_branch": "main",
-      "created_at": "2026-10-28T02:23:49Z",
-      "pushed_at": "2026-11-25T18:58:00Z",
+      "created_at": "2026-11-13T12:45:59Z",
+      "pushed_at": "2026-11-26T19:56:26Z",
       "why_it_matters": {
-        "es": "screen-relay permite transmitir y controlar escritorios a 120 fps con baja latencia para humanos y agentes de IA. Los agentes pueden tomar capturas de pantalla, hacer clic y escribir desde la línea de comandos, facilitando la automatización de tareas visuales.",
-        "en": "screen-relay enables 120 fps, low-latency desktop streaming and control for humans and AI agents. Agents can take screenshots, click, and type from the shell, facilitating visual task automation."
+        "es": "Permite ejecutar un LLM de 27B a 17-20 tokens/segundo en CPUs sin GPU y con solo 8 GB de RAM, ofreciendo una alternativa local y económica para inferencia de IA.",
+        "en": "Enables running a 27B LLM at 17-20 tokens/second on CPUs without a GPU and with only 8 GB of RAM, offering a local and cost-effective alternative for AI inference."
       }
     },
     {
-      "id": "ashhart/TensorFold",
-      "repoKey": "ashhart/TensorFold",
-      "name": "TensorFold",
-      "full_name": "ashhart/TensorFold",
-      "link": "https://github.com/ashhart/TensorFold",
-      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "language": "Zig",
-      "stars": 2431,
-      "stars_today": 23,
-      "stars_per_day_estimate": 23.975664411061608,
+      "id": "heygen-com/hyperframes",
+      "repoKey": "heygen-com/hyperframes",
+      "name": "hyperframes",
+      "full_name": "heygen-com/hyperframes",
+      "link": "https://github.com/heygen-com/hyperframes",
+      "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
+      "language": "TypeScript",
+      "stars": 90828,
+      "stars_today": 702,
+      "stars_per_day_estimate": 702.0433332997278,
       "trend_basis": "observed_about_24h",
-      "trend_score": 7.6423442358097144,
+      "trend_score": 12.45567152937048,
       "default_branch": "main",
-      "created_at": "2026-06-19T20:27:39Z",
-      "pushed_at": "2026-11-25T22:59:57Z",
+      "created_at": "2026-03-10T01:51:06Z",
+      "pushed_at": "2026-11-26T22:47:41Z",
       "why_it_matters": {
-        "es": "TensorFold es un motor de inferencia de LLM escrito en Zig que sirve modelos en Apple Silicon y GPUs NVIDIA sin necesidad de Python o MLX. Ejecuta kernels de Metal o CUDA directamente, ofreciendo una alternativa ligera para el despliegue local.",
-        "en": "TensorFold is an LLM inference engine written in Zig that serves models on Apple Silicon and NVIDIA GPUs without requiring Python or MLX. It runs Metal or CUDA kernels directly, offering a lightweight alternative for local deployment."
+        "es": "Editor de video de IA de código abierto que convierte HTML, CSS y JavaScript en videos MP4 deterministas, integrado con agentes como Claude Code y Codex.",
+        "en": "Open-source AI video editor that converts HTML, CSS, and JavaScript into deterministic MP4 videos, integrated with agents like Claude Code and Codex."
+      }
+    },
+    {
+      "id": "superdesigndev/treg",
+      "repoKey": "superdesigndev/treg",
+      "name": "treg",
+      "full_name": "superdesigndev/treg",
+      "link": "https://github.com/superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "stars": 9554,
+      "stars_today": 558,
+      "stars_per_day_estimate": 558.0344444177324,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 12.12589786828811,
+      "default_branch": "main",
+      "created_at": "2026-07-15T13:38:07Z",
+      "pushed_at": "2026-11-26T22:54:11Z",
+      "why_it_matters": {
+        "es": "Actúa como un catálogo de herramientas para agentes, permitiendo acceder a miles de endpoints externos con un solo token y precios por llamada, sin necesidad de suscripciones individuales.",
+        "en": "Acts as a tool catalog for agents, allowing access to thousands of external endpoints with a single token and per-call pricing, without the need for individual subscriptions."
+      }
+    },
+    {
+      "id": "elie222/rakazo",
+      "repoKey": "elie222/rakazo",
+      "name": "rakazo",
+      "full_name": "elie222/rakazo",
+      "link": "https://github.com/elie222/rakazo",
+      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "language": "TypeScript",
+      "stars": 9879,
+      "stars_today": 89,
+      "stars_per_day_estimate": 89.00549382289996,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 9.49191371719065,
+      "default_branch": "main",
+      "created_at": "2026-08-13T06:28:56Z",
+      "pushed_at": "2026-11-26T23:00:26Z",
+      "why_it_matters": {
+        "es": "Alternativa autoalojada y de código abierto a Grok Bot, con compañeros de IA persistentes que tienen su propia memoria, rutinas y acceso a un entorno de escritorio completo.",
+        "en": "Self-hosted, open-source alternative to Grok Bot, featuring persistent AI teammates with their own memory, routines, and access to a full desktop environment."
       }
     }
   ],
   "developer_signals": [
     {
-      "id": "2125784147889393806",
-      "newsId": "2125784147889393806",
-      "author": "thsottiaux",
-      "source": "X · @thsottiaux",
-      "link": "https://x.com/thsottiaux/status/2125784147889393806",
-      "publishedAt": "2026-11-26T02:50:10.000Z",
+      "id": "2126122883743358991",
+      "newsId": "2126122883743358991",
+      "author": "zachlloydtweets",
+      "source": "X · @zachlloydtweets",
+      "link": "https://x.com/zachlloydtweets/status/2126122883743358991",
+      "publishedAt": "2026-11-27T01:16:11.000Z",
       "topic": "ai_software",
       "contentType": "developer_signal",
-      "original_text": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. \n\nWe’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2 Astra and 25% faster on Sol. You should still see these go further in usage compared to 6 Astra and 6.1 Sol. Other models weren’t affected, and we won’t charge you for the difference on past usage.\n\nAs a small token to apologize for the mistake, we’ll be adding one banked reset for everyone on Go, Plus, Pro, and Business.",
+      "original_text": "I keep thinking that alignment is only half the story of AI security and the other big piece that I don't hear spoken about as much is what I think of as \"power:\" what's the toolset you give to your agents, what permissions do they have to use it.\n\nFor example, an agent that has access to the open internet is much more dangerous than one that doesn't. It's got a wider toolset and can expand it's knowledge, attack foreign systems, etc. Ditto for an agent that can read and write files, because that's effectively how agents extend their own context.\n\nI could be conceiving of things wrong (and would love to hear if I am), but you could have the most intelligent, but not fully aligned, model in the world running in a machine with no tools that purely does next token prediction, and that feels relatively benign to me.\n\nOn the flip side, when we give these very powerful agents broader, uncontrolled toolsets, we increase their power and associated risk when things go wrong. Allowing open internet access to the world's most powerful models is dangerous. Even more dangerous is allowing them to \"act as\" humans by delegating account access (what muse, instinct, grokbot do).\n\nI think there needs to be more work around not just aligning intelligence so agents aren't motivated to take bad actions, but controlling the power and execution environment (broadly speaking) that agents run in. We need to think beyond sandboxing to how agents are granted digital power, how we trace their actions, what identities they assume, what steps we can take to shut them down, and so on.",
       "linkedUrls": [],
       "public_metrics": {
-        "bookmark_count": 1415,
-        "impression_count": 1870153,
-        "like_count": 10550,
-        "quote_count": 1592,
-        "reply_count": 3981,
-        "retweet_count": 598
-      },
-      "utilityHint": 2,
-      "text": {
-        "es": "Thibault Sottiaux de OpenAI admite un error de facturación en el lanzamiento de GPT-6.2 que descontaba incorrectamente el uso de Astra y Sol. El uso alcanzará los límites un 40% más rápido en Astra y un 25% más rápido en Sol, aunque se mantendrá por debajo de las versiones anteriores. OpenAI ofrecerá un reinicio bancario a todos los usuarios de Go, Plus, Pro y Business como disculpa.",
-        "en": "OpenAI's Thibault Sottiaux admits a billing mistake at the launch of GPT-6.2 that incorrectly discounted Astra and Sol usage. Usage will reach limits 40% faster on Astra and 25% faster on Sol, though it will still go further than previous versions. OpenAI will offer a banked reset to all Go, Plus, Pro, and Business users as an apology."
-      }
-    },
-    {
-      "id": "2125650675665432995",
-      "newsId": "2125650675665432995",
-      "author": "rauchg",
-      "source": "X · @rauchg",
-      "link": "https://x.com/rauchg/status/2125650675665432995",
-      "publishedAt": "2026-11-25T17:59:48.000Z",
-      "topic": "ai_software",
-      "contentType": "developer_signal",
-      "original_text": "As AI gets smarter, implementation details blur away: permissions, code diffs, commands, tool calls…\n\nThe harness itself blurs away. It's a high-performance vehicle for code and command execution, and a durable storage engine.\n\nAll of fx still fits in 6mb: subagents, MCP, skills, sessions, durability, ACP, TUI, network transport…",
-      "linkedUrls": [
-        "https://twitter.com/vercel_dev/status/2125647701211816343"
-      ],
-      "public_metrics": {
-        "bookmark_count": 84,
-        "impression_count": 19812,
-        "like_count": 210,
-        "quote_count": 5,
-        "reply_count": 74,
-        "retweet_count": 3
-      },
-      "utilityHint": 2,
-      "text": {
-        "es": "Guillermo Rauch de Vercel señala que a medida que la IA se vuelve más inteligente, los detalles de implementación como permisos y llamadas a herramientas se difuminan. El 'harness' se convierte en un vehículo de alto rendimiento para la ejecución de código y un motor de almacenamiento duradero, con toda la funcionalidad de fx cabiendo en 6 MB.",
-        "en": "Vercel's Guillermo Rauch notes that as AI gets smarter, implementation details like permissions and tool calls blur away. The 'harness' becomes a high-performance vehicle for code execution and a durable storage engine, with all of fx's functionality fitting in 6MB."
-      }
-    },
-    {
-      "id": "2125816311284674905",
-      "newsId": "2125816311284674905",
-      "author": "simonw",
-      "source": "X · @simonw",
-      "link": "https://x.com/simonw/status/2125816311284674905",
-      "publishedAt": "2026-11-26T04:57:59.000Z",
-      "topic": "ai_general",
-      "contentType": "developer_signal",
-      "original_text": "Today's new feature for datasette-charts is chart annotations! You can now add custom lines, shaded areas, labels, or a combination of the three - or Datasette Agent can annotate charts for you https://t.co/B129lPxGLV https://t.co/TuMtRi8Wi5",
-      "linkedUrls": [
-        "https://simonwillison.net/2026/Nov/25/datasette-charts",
-        "https://x.com/simonw/status/2125816311284674905/photo/1"
-      ],
-      "public_metrics": {
-        "bookmark_count": 1,
-        "impression_count": 2692,
-        "like_count": 5,
+        "bookmark_count": 3,
+        "impression_count": 1494,
+        "like_count": 15,
         "quote_count": 0,
-        "reply_count": 3,
+        "reply_count": 13,
         "retweet_count": 0
       },
       "utilityHint": 2,
       "text": {
-        "es": "Simon Willison presenta una nueva función para datasette-charts: anotaciones de gráficos. Los usuarios pueden añadir líneas personalizadas, áreas sombreadas o etiquetas, o el Agente de Datasette puede anotar los gráficos automáticamente. Esto facilita la visualización de datos con contexto adicional.",
-        "en": "Simon Willison introduces a new feature for datasette-charts: chart annotations. Users can add custom lines, shaded areas, or labels, or the Datasette Agent can annotate charts automatically. This facilitates data visualization with additional context."
+        "es": "Zach Lloyd argumenta que la seguridad de la IA depende tanto del control de las herramientas y permisos de los agentes como del alineamiento. Un agente con acceso a internet abierto o a archivos tiene un mayor potencial de riesgo que uno sin herramientas, incluso si el modelo es inteligente.",
+        "en": "Zach Lloyd argues that AI security depends as much on controlling agents' tools and permissions as on alignment. An agent with open internet or file access has a higher risk potential than one without tools, even if the model is intelligent."
       }
     },
     {
-      "id": "2125779541952246039",
-      "newsId": "2125779541952246039",
-      "author": "karpathy",
-      "source": "X · @karpathy",
-      "link": "https://x.com/karpathy/status/2125779541952246039",
-      "publishedAt": "2026-11-26T02:31:52.000Z",
-      "topic": "ai_general",
-      "contentType": "developer_signal",
-      "original_text": "I asked Claude to populate a Civilization-style game map with real data from the US. Opus 5.5 downloaded and parse a ton of public data and 7 hours and 45K lines of code later... it works :)\n\n- 31 real data sources including Census, BEA, BLS, EIA, NOAA, USGS, DoD, NPS, FAA, FEMA, CDC...\n- Real elevation, land cover, GDP, jobs, power plants, mines, ports, airports, bases, parks, universities, freight flows, disasters; all reconciled onto one 25 km hex grid.\n- The data is converted into Civilization language, e.g. Gold yield is GDP. A city's districts are its real industry specializations: San Jose gets a Campus, Detroit is \"Motor city\". Its citizens are its real workforce: 1 in 4 San Jose workers are engineers, coders or scientists, against 1 in 14 nationally. Wonders are chosen by published rules, such as national parks by visitor numbers and universities by R&D spending, etc etc.\n- 19 lenses (income, degrees, faith, disasters…), a City View for 524 metros, and nine advisors plus an Explorer. The Explorer turns any column for any of 3,100+ counties into a table and scatter plot, linked to the map.\n- Claude decided to skip a few states and territories sry\n- Built using Claude Code desktop app, Opus 5.5 on medium and turning on ultracode.\n\nIt's deployed here: https://t.co/QMhmafXMj5 and the \"?\" has the source link too. I don't exactly know where I was going with this but it's really fun to browse and play with. Possibly it can be expanded or built into a game. I only have half of my weekly Claude quote left though so someone else will have to take over :D. Claude also made a trailer:",
-      "linkedUrls": [
-        "https://karpathy.ai/usaciv"
-      ],
-      "public_metrics": {
-        "bookmark_count": 5592,
-        "impression_count": 603028,
-        "like_count": 10403,
-        "quote_count": 277,
-        "reply_count": 630,
-        "retweet_count": 864
-      },
-      "utilityHint": 2,
-      "text": {
-        "es": "Andrej Karpathy comparte un proyecto donde Claude Opus 5.5 descargó y analizó datos públicos de EE. UU. para poblar un mapa de juego estilo Civilization. El resultado incluye 31 fuentes de datos reales, 45.000 líneas de código y 19 lentes de visualización, demostrando la capacidad de los agentes para integrar datos complejos en aplicaciones interactivas.",
-        "en": "Andrej Karpathy shares a project where Claude Opus 5.5 downloaded and parsed US public data to populate a Civilization-style game map. The result includes 31 real data sources, 45,000 lines of code, and 19 visualization lenses, demonstrating agents' ability to integrate complex data into interactive applications."
-      }
-    },
-    {
-      "id": "2125701624320680214",
-      "newsId": "2125701624320680214",
-      "author": "HamelHusain",
-      "source": "X · @HamelHusain",
-      "link": "https://x.com/HamelHusain/status/2125701624320680214",
-      "publishedAt": "2026-11-25T21:22:15.000Z",
-      "topic": "ai_general",
-      "contentType": "developer_signal",
-      "original_text": "Looking at the decision index benchmarks and wow pervasive overfitting of models!!! \n\nI'm more likely to use a model that has a high & consistent public + private score vs. those with a huge drift\n\nAlso, beware - the models are sorted by public scores in the individual benchmark cards\n\nhttps://t.co/iZYaTRaiD9",
-      "linkedUrls": [
-        "https://huggingface.co/spaces/multimodalart/jev-decision-index"
-      ],
-      "public_metrics": {
-        "bookmark_count": 32,
-        "impression_count": 23008,
-        "like_count": 97,
-        "quote_count": 4,
-        "reply_count": 35,
-        "retweet_count": 5
-      },
-      "utilityHint": 2,
-      "text": {
-        "es": "Hamel Husain analiza los benchmarks de decisión y señala un sobreajuste generalizado en los modelos. Prefiere usar modelos con puntuaciones públicas y privadas altas y consistentes frente a aquellos con una gran deriva, advirtiendo sobre la importancia de la generalización en la evaluación de modelos.",
-        "en": "Hamel Husain analyzes decision benchmarks and points out pervasive overfitting in models. He prefers using models with high and consistent public and private scores over those with huge drift, warning about the importance of generalization in model evaluation."
-      }
-    },
-    {
-      "id": "2125685667833520237",
-      "newsId": "2125685667833520237",
-      "author": "rauchg",
-      "source": "X · @rauchg",
-      "link": "https://x.com/rauchg/status/2125685667833520237",
-      "publishedAt": "2026-11-25T20:18:51.000Z",
+      "id": "2126054694003024241",
+      "newsId": "2126054694003024241",
+      "author": "jxnlco",
+      "source": "X · @jxnlco",
+      "link": "https://x.com/jxnlco/status/2126054694003024241",
+      "publishedAt": "2026-11-26T20:45:13.000Z",
       "topic": "ai_software",
       "contentType": "developer_signal",
-      "original_text": "We made workflows 10x faster again. Generally speaking, workflows were plenty fast already!\n\nFor harness durability (@eve, libfx, pi, opencode…), this is a big deal, as it crushes latency in between turns.\n\nUpgrade to 𝚠𝚘𝚛𝚔𝚏𝚕𝚘𝚠@𝚕𝚊𝚝𝚎𝚜𝚝. No code changes. https://t.co/GmvGi7Ryh9",
+      "original_text": "going to release instructor 1.18 soon\n\nit'll bring fixes for streaming, retries, batch jobs, and provider integrations. raw response logging will be opt-in.\n\nthanks to everyone who sent in an issue or PR\n\nhttps://t.co/tP0V5A37IL",
       "linkedUrls": [
-        "https://twitter.com/vercel_dev/status/2125684404764705271"
+        "https://github.com/567-labs/instructor/releases/tag/v1.18.0"
       ],
       "public_metrics": {
-        "bookmark_count": 111,
-        "impression_count": 22175,
-        "like_count": 294,
+        "bookmark_count": 18,
+        "impression_count": 6386,
+        "like_count": 44,
         "quote_count": 0,
-        "reply_count": 54,
-        "retweet_count": 8
+        "reply_count": 19,
+        "retweet_count": 0
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "jxnlco anuncia la próxima liberación de instructor 1.18, que incluye correcciones para streaming, reintentos, trabajos por lotes e integraciones de proveedores, con registro de respuestas crudas opcional.",
+        "en": "jxnlco announces the upcoming release of instructor 1.18, which includes fixes for streaming, retries, batch jobs, and provider integrations, with opt-in raw response logging."
+      }
+    },
+    {
+      "id": "2126012727059775935",
+      "newsId": "2126012727059775935",
+      "author": "alvarombt",
+      "source": "X · @alvarombt",
+      "link": "https://x.com/alvarombt/status/2126012727059775935",
+      "publishedAt": "2026-11-26T17:58:28.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "Esto que acaba de montar Karpathy con Claude está chulísimo \n\nLe pidió un mapa estilo Civilization con datos reales de EE.UU. y en 7 horas el agente descargó 31 fuentes públicas, escribió 45.000 líneas de código, lo desplegó y hasta le hizo el tráiler\n\nEl oro es el PIB, los distritos son la industria real de cada ciudad y las maravillas son parques nacionales y universidades según su gasto en I+D\n\nFor fun",
+      "linkedUrls": [
+        "https://twitter.com/karpathy/status/2125779541952246039"
+      ],
+      "public_metrics": {
+        "bookmark_count": 40,
+        "impression_count": 6583,
+        "like_count": 65,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 2
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "Alvaro Mbt comparte un proyecto de Karpathy donde Claude generó un mapa estilo Civilization con datos reales de EE.UU., descargando 31 fuentes públicas y escribiendo 45.000 líneas de código en 7 horas.",
+        "en": "Alvaro Mbt shares a Karpathy project where Claude generated a Civilization-style map with real US data, downloading 31 public sources and writing 45,000 lines of code in 7 hours."
+      }
+    },
+    {
+      "id": "2125996533384724981",
+      "newsId": "2125996533384724981",
+      "author": "GergelyOrosz",
+      "source": "X · @GergelyOrosz",
+      "link": "https://x.com/GergelyOrosz/status/2125996533384724981",
+      "publishedAt": "2026-11-26T16:54:07.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "In case you’re wondering how massive of a change AI is: tech billion-dollar companies that had massive product-market fit and v profitable business models are under threat if they don’t respond to agents.\n\nZapier: one of many\n\nSo many other all-digital co’s with the same problem https://t.co/LkIxHrSg8g",
+      "linkedUrls": [
+        "https://twitter.com/wadefoster/status/2125590135227957619"
+      ],
+      "public_metrics": {
+        "bookmark_count": 162,
+        "impression_count": 53167,
+        "like_count": 493,
+        "quote_count": 7,
+        "reply_count": 82,
+        "retweet_count": 14
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "Gergely Orosz señala que empresas tecnológicas con modelos de negocio rentables, como Zapier, están bajo amenaza si no se adaptan a los agentes de IA, destacando el cambio en la automatización de flujos de trabajo.",
+        "en": "Gergely Orosz notes that tech companies with profitable business models, like Zapier, are under threat if they do not adapt to AI agents, highlighting the shift in workflow automation."
+      }
+    },
+    {
+      "id": "2126058949631955426",
+      "newsId": "2126058949631955426",
+      "author": "lateinteraction",
+      "source": "X · @lateinteraction",
+      "link": "https://x.com/lateinteraction/status/2126058949631955426",
+      "publishedAt": "2026-11-26T21:02:08.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "my odd little analogy from a while back still holds:\n\nhttps://t.co/0Fh2BWRcjZ",
+      "linkedUrls": [
+        "https://x.com/lateinteraction/status/2101433590248837568"
+      ],
+      "public_metrics": {
+        "bookmark_count": 7,
+        "impression_count": 5700,
+        "like_count": 26,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1
       },
       "utilityHint": 0,
       "text": {
-        "es": "Guillermo Rauch anuncia que Vercel ha vuelto a hacer los workflows 10 veces más rápidos, reduciendo la latencia entre pasos y acelerando los turnos de agentes duraderos. Esta mejora es crucial para la durabilidad de los harnesses de agentes, ya que elimina la latencia entre turnos sin requerir cambios de código.",
-        "en": "Guillermo Rauch announces that Vercel has made workflows 10x faster again, reducing step-to-step latency and speeding up durable agent turns. This improvement is crucial for agent harness durability, as it crushes latency between turns without requiring code changes."
+        "es": "Omar Khattab utiliza una analogía de una catapulta pre-apuntada para describir la «jaggedness» de los modelos de IA en 2026: impresionantes en velocidad pero incapaces de llegar al destino exacto requerido.",
+        "en": "Omar Khattab uses a pre-aimed catapult analogy to describe the “jaggedness” of AI models in 2026: impressive in speed but unable to reach the exact required destination."
       }
     },
     {
-      "id": "2125699120300163185",
-      "newsId": "2125699120300163185",
+      "id": "2126185240565866769",
+      "newsId": "2126185240565866769",
       "author": "steveruizok",
       "source": "X · @steveruizok",
-      "link": "https://x.com/steveruizok/status/2125699120300163185",
-      "publishedAt": "2026-11-25T21:12:18.000Z",
+      "link": "https://x.com/steveruizok/status/2126185240565866769",
+      "publishedAt": "2026-11-27T05:23:58.000Z",
       "topic": "ai_general",
       "contentType": "developer_signal",
-      "original_text": "https://t.co/32slOlZ2Zd",
+      "original_text": "Welcome @steren https://t.co/aj1icwXQEr",
       "linkedUrls": [
-        "https://x.com/steveruizok/status/2125678410647151103?a=JcQ3wNz3VAl74r_e3Wk&s=46"
+        "https://twitter.com/steren/status/2126130025678406100"
       ],
       "public_metrics": {
-        "bookmark_count": 2,
-        "impression_count": 739,
-        "like_count": 4,
+        "bookmark_count": 0,
+        "impression_count": 363,
+        "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 0
       },
       "utilityHint": 0,
       "text": {
-        "es": "Steve Ruiz comparte una prueba formal en Lean de una propiedad geométrica de rectángulos redondeados, demostrando que el radio exterior R debe ser r + d si un rectángulo redondeado con radio r está dentro de otro con un huego uniforme d. El proyecto ilustra el uso de asistentes de prueba para validar propiedades de diseño.",
-        "en": "Steve Ruiz shares a formal Lean proof of a geometric property of rounded rectangles, demonstrating that the outer radius R must be r + d if a rounded rectangle with radius r sits inside another with a uniform gap d. The project illustrates the use of proof assistants to validate design properties."
+        "es": "Steren presenta un juego de puzles estilo The Witness creado con «vibe coding» para dispositivos ESP32, destacando la posibilidad de crear hardware dedicado y personalizable por un costo bajo.",
+        "en": "Steren presents a The Witness-style puzzle game created with “vibe coding” for ESP32 devices, highlighting the possibility of creating dedicated, customizable hardware at a low cost."
       }
     }
   ],
   "editorial_stats": {
     "topics": {
-      "apple": 3,
-      "ai_software": 2,
-      "ai_general": 0,
+      "apple": 2,
+      "ai_software": 0,
+      "ai_general": 1,
       "tech": 2
     }
   }
