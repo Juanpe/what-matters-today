@@ -1,0 +1,591 @@
+{
+  "schema_version": 22,
+  "edition_id": "wmt-2026-11-28",
+  "date": "2026-11-28",
+  "daily_summary": {
+    "es": "Apple retrasa la producción del iPhone 18, Google publica una skill para migrar a Rust y un nuevo motor local de inferencia LLM gana tracción.",
+    "en": "Apple delays iPhone 18 production, Google publishes a Rust migration skill, and a new local LLM inference engine gains traction."
+  },
+  "topic_summaries": {
+    "apple": {
+      "es": "La producción del iPhone 18 se retrasa hasta enero de 2027, mientras que la versión (RED) del HomePod mini 2 aparece en tiendas antes de su anuncio.",
+      "en": "iPhone 18 production is delayed until January 2027, while the (RED) HomePod mini 2 appears in stores ahead of its announcement."
+    },
+    "ai_software": {
+      "es": "Un motor de inferencia local de ~57 MB ofrece hasta 6 veces más velocidad con decodificación especulativa, y Google publica una skill oficial para migrar código a Rust.",
+      "en": "A ~57 MB local inference engine offers up to 6x speed with speculative decoding, and Google publishes an official skill for migrating code to Rust."
+    },
+    "ai_general": {
+      "es": "Los laboratorios de frontera están comprando datos de entrenamiento a gran escala, y Uber visualiza su 'context graph' para conectar servicios y agentes.",
+      "en": "Frontier labs are buying training data at scale, and Uber visualizes its 'context graph' to connect services and agents."
+    },
+    "tech": {
+      "es": "El MacBook Air M5 alcanza su mayor descuento desde el aumento de precio, y un distrito escolar de LA bloquea las funciones de búsqueda con IA de Google.",
+      "en": "The M5 MacBook Air hits its biggest discount since the price hike, and an LA school district blocks Google's AI search features."
+    }
+  },
+  "summary": {
+    "apple": {
+      "es": "La producción del iPhone 18 se retrasa hasta enero de 2027, mientras que la versión (RED) del HomePod mini 2 aparece en tiendas antes de su anuncio.",
+      "en": "iPhone 18 production is delayed until January 2027, while the (RED) HomePod mini 2 appears in stores ahead of its announcement."
+    },
+    "ai_software": {
+      "es": "Un motor de inferencia local de ~57 MB ofrece hasta 6 veces más velocidad con decodificación especulativa, y Google publica una skill oficial para migrar código a Rust.",
+      "en": "A ~57 MB local inference engine offers up to 6x speed with speculative decoding, and Google publishes an official skill for migrating code to Rust."
+    },
+    "ai_general": {
+      "es": "Los laboratorios de frontera están comprando datos de entrenamiento a gran escala, y Uber visualiza su 'context graph' para conectar servicios y agentes.",
+      "en": "Frontier labs are buying training data at scale, and Uber visualizes its 'context graph' to connect services and agents."
+    },
+    "tech": {
+      "es": "El MacBook Air M5 alcanza su mayor descuento desde el aumento de precio, y un distrito escolar de LA bloquea las funciones de búsqueda con IA de Google.",
+      "en": "The M5 MacBook Air hits its biggest discount since the price hike, and an LA school district blocks Google's AI search features."
+    }
+  },
+  "top_stories": [
+    {
+      "id": "evt_a85479d037bb41fe",
+      "title": {
+        "es": "La producción del iPhone 18 se retrasa meses para el lanzamiento de primavera de 2027",
+        "en": "iPhone 18 production delayed months for spring 2027 launch"
+      },
+      "body": {
+        "es": "Según filtraciones, la producción en masa del iPhone 18 y el 18e no comenzará hasta el 1 de enero de 2027, meses después del calendario previsto de octubre. Este retraso reduce el tiempo disponible para acumular inventario antes del lanzamiento, que se rumorea para febrero o marzo de 2027.",
+        "en": "According to leaks, mass production of the iPhone 18 and 18e will not begin until January 1, 2027, months behind the expected October schedule. This delay reduces the time available to accumulate inventory before the launch, rumored for February or March 2027."
+      },
+      "newsId": "evt_a85479d037bb41fe",
+      "storyKey": "evt_a85479d037bb41fe",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/11/27/iphone-18-production-will-start-months-behind-schedule-for-spring-2027-launch",
+      "image": "https://photos5.appleinsider.com/gallery/67410-141897-Screenshot-2026-04-20-at-81044-PM-Cropped-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-27T15:34:32.000Z",
+      "evidence": [
+        {
+          "claim": "Apple's iPhone 18 and iPhone 18e are set to begin mass production in January 2027.",
+          "source": "3bd7213804eb6a4c"
+        },
+        {
+          "claim": "This is months behind the expected October schedule.",
+          "source": "3bd7213804eb6a4c"
+        },
+        {
+          "claim": "Production of the iPhone 18 and iPhone 18e won't begin until New Year's Day, 2027.",
+          "source": "3bd7213804eb6a4c"
+        },
+        {
+          "claim": "Apple doesn't need to produce the same volume of iPhone 18 and iPhone 18e handsets for launch day as it would for its more popular models.",
+          "source": "3bd7213804eb6a4c"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/11/27/iphone-18-production-will-start-months-behind-schedule-for-spring-2027-launch"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_d6cf6dc59e9b822f",
+      "title": {
+        "es": "El HomePod mini 2 en color (RED) aparece en tiendas antes de su anuncio",
+        "en": "HomePod mini 2 in (RED) spotted in stores ahead of announcement"
+      },
+      "body": {
+        "es": "La versión (PRODUCT)RED del HomePod mini 2 ha sido avistada en varias tiendas con una malla roja y una etiqueta (RED) en la caja. Apple revivirá su línea (PRODUCT)RED la próxima semana, coincidiendo con el 20.º aniversario de (RED) y el Día Mundial del SIDA el 1 de diciembre.",
+        "en": "The (PRODUCT)RED version of the HomePod mini 2 has been spotted in several stores with a red mesh and a (RED) label on the box. Apple will revive its (PRODUCT)RED line next week, coinciding with (RED)'s 20th anniversary and World AIDS Day on December 1."
+      },
+      "newsId": "evt_d6cf6dc59e9b822f",
+      "storyKey": "evt_d6cf6dc59e9b822f",
+      "topic": "apple",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/11/27/red-homepod-mini-2-seemingly-spotted",
+      "image": "https://images.macrumors.com/article-new/2026/11/HomePod-Mini-2-RED-Photos.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-28T03:50:55.000Z",
+      "evidence": [
+        {
+          "claim": "The (PRODUCT)RED version of the HomePod mini 2 has been spotted on display at a few stores.",
+          "source": "7ff5710bba379d8d"
+        },
+        {
+          "claim": "The HomePod mini 2 is expected to be released by Tuesday, December 1, which is World AIDS Day.",
+          "source": "7ff5710bba379d8d"
+        },
+        {
+          "claim": "This HomePod mini has a red mesh, and there appears to be a (RED) label on the box.",
+          "source": "7ff5710bba379d8d"
+        },
+        {
+          "claim": "Apple is reviving its (PRODUCT)RED line next week in time for (RED)'s 20th anniversary this year.",
+          "source": "7ff5710bba379d8d"
+        },
+        {
+          "claim": "Apple has partnered with (RED) to raise money for The Global Fund, an organization that aims to combat diseases such as HIV/AIDS, tuberculosis, and malaria in Africa.",
+          "source": "7ff5710bba379d8d"
+        }
+      ],
+      "sources": [
+        {
+          "name": "MacRumors",
+          "link": "https://www.macrumors.com/2026/11/27/red-homepod-mini-2-seemingly-spotted"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_f9113677ef41decb",
+      "title": {
+        "es": "El mercado de datos para coding se dispara con la compra de datos por parte de laboratorios de frontera",
+        "en": "Coding data market explodes as frontier labs buy training data"
+      },
+      "body": {
+        "es": "Un análisis reciente detalla cómo los laboratorios de IA de frontera están adquiriendo grandes volúmenes de datos de entrenamiento para mejorar sus capacidades de coding. Esta tendencia refleja la creciente importancia de los datos de alta calidad en el desarrollo de modelos de código.",
+        "en": "A recent analysis details how frontier AI labs are acquiring large volumes of training data to improve their coding capabilities. This trend reflects the growing importance of high-quality data in code model development."
+      },
+      "newsId": "evt_f9113677ef41decb",
+      "storyKey": "evt_f9113677ef41decb",
+      "topic": "ai_software",
+      "source": "Latent Space",
+      "link": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market",
+      "image": "https://latent.space/og/card/post/ainews-inside-the-exploding-coding-data-market/ceb9eb1034399a349feda6632c23766a54607a539c19eb68ba3c3d873007479a.png",
+      "score": 7.65,
+      "publishedAt": "2026-11-28T03:45:59.000Z",
+      "evidence": [
+        {
+          "claim": "Frontier labs are buying training data.",
+          "source": "9ed8183c6e85a5e6"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Latent Space",
+          "link": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_42323ce604df8aa4",
+      "title": {
+        "es": "Un distrito escolar de LA bloquea las funciones de búsqueda con IA de Google",
+        "en": "LA school district blocks Google's AI search features"
+      },
+      "body": {
+        "es": "Un distrito escolar de Los Ángeles ha decidido bloquear las funciones de búsqueda con IA de Google en sus dispositivos. Google sostiene que las 'AI overviews' y la búsqueda son un paquete indivisible, lo que complica la adopción parcial de sus servicios en entornos educativos.",
+        "en": "A Los Angeles school district has decided to block Google's AI search features on its devices. Google insists that 'AI overviews' and search are a package deal, complicating the partial adoption of its services in educational environments."
+      },
+      "newsId": "evt_42323ce604df8aa4",
+      "storyKey": "evt_42323ce604df8aa4",
+      "topic": "tech",
+      "source": "Engadget",
+      "link": "https://www.engadget.com/2329851/la-school-district-blocks-google-ai-search-features",
+      "image": "https://www.engadget.com/img/gallery/la-school-district-blocks-googles-ai-search-features/l-intro-1795816633.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-27T22:00:08.000Z",
+      "evidence": [
+        {
+          "claim": "Google insists that AI overviews and search are a package deal.",
+          "source": "8aefcebd0597fe45"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Engadget",
+          "link": "https://www.engadget.com/2329851/la-school-district-blocks-google-ai-search-features"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_640935fdad48af27",
+      "title": {
+        "es": "El MacBook Air M5 alcanza su mayor descuento desde el aumento de precio",
+        "en": "M5 MacBook Air hits its biggest discount since the price hike"
+      },
+      "body": {
+        "es": "El MacBook Air con chip M5 está disponible con un descuento de 300 dólares en ambas configuraciones de tamaño para el Black Friday. El modelo de 13 pulgadas con 16 GB de RAM y 512 GB de almacenamiento baja a 999 dólares, su precio más bajo desde el reciente aumento.",
+        "en": "The M5-powered MacBook Air is available with a $300 discount in both size configurations for Black Friday. The 13-inch model with 16GB of RAM and 512GB of storage drops to $999, its lowest price since the recent hike."
+      },
+      "newsId": "evt_640935fdad48af27",
+      "storyKey": "evt_640935fdad48af27",
+      "topic": "tech",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268408_Apple_MacBook_Air_15_M5_laptop_ADiBenedetto_0010.jpg?crop=0%2C10.732984293194%2C100%2C78.534031413613&quality=90&strip=all&w=1200",
+      "score": 7.05,
+      "publishedAt": "2026-11-28T03:30:00.000Z",
+      "evidence": [
+        {
+          "claim": "The M5 MacBook Air is $300 off in both size configurations for Black Friday.",
+          "source": "074bd8a23f961dbc"
+        },
+        {
+          "claim": "The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512GB of storage starting at $999.",
+          "source": "074bd8a23f961dbc"
+        },
+        {
+          "claim": "The 15-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512GB of storage starting at $1,199.",
+          "source": "074bd8a23f961dbc"
+        },
+        {
+          "claim": "The M5 MacBook Air is a good middle ground if you need more power than the MacBook Neo but don’t want to splurge on a MacBook Pro.",
+          "source": "074bd8a23f961dbc"
+        },
+        {
+          "claim": "The M5 MacBook Air has a higher-resolution display, better speakers, a backlit keyboard, and faster ports.",
+          "source": "074bd8a23f961dbc"
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "link": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "quick_reads": [
+    {
+      "id": "evt_2184c5011e2b43cb",
+      "title": {
+        "es": "Tres nuevos iPhones llegarán a principios de 2027",
+        "en": "Three new iPhones to arrive in early 2027"
+      },
+      "text": {
+        "es": "Apple lanzará tres nuevos modelos de iPhone a principios de 2027, según reportes recientes.",
+        "en": "Apple will launch three new iPhone models in early 2027, according to recent reports."
+      },
+      "newsId": "evt_2184c5011e2b43cb",
+      "storyKey": "evt_2184c5011e2b43cb",
+      "topic": "apple",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/11/27/three-new-iphones-will-launch-early-next-year-heres-whats-coming",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2025/11/iphone-air-2-camera-concept-yellow.jpg?quality=82&strip=all&w=1600",
+      "score": 7.65,
+      "publishedAt": "2026-11-27T17:57:23.000Z",
+      "evidence": [
+        {
+          "claim": "Apple will launch three new iPhone models in early 2027.",
+          "source": "db675dbd03a2a2af"
+        }
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "link": "https://9to5mac.com/2026/11/27/three-new-iphones-will-launch-early-next-year-heres-whats-coming"
+        }
+      ],
+      "what_changed": []
+    },
+    {
+      "id": "evt_de651fd6fe1b3f68",
+      "title": {
+        "es": "AppleInsider Podcast: lanzamientos de 2027 y más allá",
+        "en": "AppleInsider Podcast: 2027 launches and beyond"
+      },
+      "text": {
+        "es": "El podcast de AppleInsider discute el futuro de Apple, incluyendo el iPhone 18, iPhone 18e, iPhone Air 2, iPad Air con OLED y un nuevo MacBook Air, además del papel de los agentes de IA en 2027.",
+        "en": "The AppleInsider podcast discusses Apple's future, including the iPhone 18, iPhone 18e, iPhone Air 2, OLED iPad Air, and a new MacBook Air, plus the role of AI agents in 2027."
+      },
+      "newsId": "evt_de651fd6fe1b3f68",
+      "storyKey": "evt_de651fd6fe1b3f68",
+      "topic": "apple",
+      "source": "AppleInsider",
+      "link": "https://appleinsider.com/articles/26/11/27/2027-product-launches-and-beyond-on-the-appleinsider-podcast",
+      "image": "https://media.appleinsider.com/gallery/70020-147599-IMG_5559-xl.jpg",
+      "score": 7.65,
+      "publishedAt": "2026-11-27T12:04:04.000Z",
+      "evidence": [
+        {
+          "claim": "Apple's future is bright as it embraces a near-constant product release schedule.",
+          "source": "793991771e24f249"
+        },
+        {
+          "claim": "The iPhone 18, iPhone 18e, and iPhone Air 2 are coming in early 2027.",
+          "source": "793991771e24f249"
+        },
+        {
+          "claim": "Apple Music Radio has 50 million daily active users.",
+          "source": "793991771e24f249"
+        },
+        {
+          "claim": "AI agents could play a role in 2027.",
+          "source": "793991771e24f249"
+        },
+        {
+          "claim": "The new iPhones will get their own release event.",
+          "source": "793991771e24f249"
+        }
+      ],
+      "sources": [
+        {
+          "name": "AppleInsider",
+          "link": "https://appleinsider.com/articles/26/11/27/2027-product-launches-and-beyond-on-the-appleinsider-podcast"
+        }
+      ],
+      "what_changed": []
+    }
+  ],
+  "trending_repos": [
+    {
+      "id": "enwove/flyx",
+      "repoKey": "enwove/flyx",
+      "name": "flyx",
+      "full_name": "enwove/flyx",
+      "link": "https://github.com/enwove/flyx",
+      "description": "Zero-dependency local LLM inference engine in a ~50 MB binary — native long context, tuned per GPU, built-in speculative decoding and web dashboard.",
+      "language": "C++",
+      "stars": 111,
+      "stars_today": 56,
+      "stars_per_day_estimate": 55.95556519347813,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 8.830923554610811,
+      "default_branch": "main",
+      "created_at": "2026-11-23T08:48:17Z",
+      "pushed_at": "2026-11-27T22:55:43Z",
+      "why_it_matters": {
+        "es": "Motor de inferencia LLM local sin dependencias en un binario de ~57 MB, con decodificación especulativa integrada y contexto largo nativo, ideal para desarrollo local sin nube.",
+        "en": "Zero-dependency local LLM inference engine in a ~57 MB binary, with built-in speculative decoding and native long context, ideal for local development without the cloud."
+      }
+    },
+    {
+      "id": "kajisho5/ffmpeg-skill",
+      "repoKey": "kajisho5/ffmpeg-skill",
+      "name": "ffmpeg-skill",
+      "full_name": "kajisho5/ffmpeg-skill",
+      "link": "https://github.com/kajisho5/ffmpeg-skill",
+      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+      "language": "Python",
+      "stars": 11878,
+      "stars_today": 383,
+      "stars_per_day_estimate": 382.69609766253797,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 11.581802999617032,
+      "default_branch": "main",
+      "created_at": "2026-09-03T14:33:38Z",
+      "pushed_at": "2026-11-27T22:47:15Z",
+      "why_it_matters": {
+        "es": "Editor de video local para agentes de coding: 42 herramientas FFmpeg con un contrato legible por máquina y un servidor MCP, permitiendo a agentes como Claude Code o Codex editar video sin nube ni claves API.",
+        "en": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, allowing agents like Claude Code or Codex to edit video without cloud or API keys."
+      }
+    },
+    {
+      "id": "google-deepmind/robotics-antigravity-plugin",
+      "repoKey": "google-deepmind/robotics-antigravity-plugin",
+      "name": "robotics-antigravity-plugin",
+      "full_name": "google-deepmind/robotics-antigravity-plugin",
+      "link": "https://github.com/google-deepmind/robotics-antigravity-plugin",
+      "description": "GDM Robotics Skills for agentic robotics workflows across simulation and real robots.",
+      "language": "Python",
+      "stars": 416,
+      "stars_today": 36,
+      "stars_per_day_estimate": 35.97143476723594,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 7.640088048115935,
+      "default_branch": "main",
+      "created_at": "2026-11-16T18:50:28Z",
+      "pushed_at": "2026-11-25T02:50:22Z",
+      "why_it_matters": {
+        "es": "Plugin de Google DeepMind para flujos de trabajo robóticos agénticos, permitiendo a agentes escribir controladores, probarlos en simulación MuJoCo y ejecutar el mismo código en robots reales.",
+        "en": "Google DeepMind plugin for agentic robotics workflows, allowing agents to write controllers, test them in MuJoCo simulation, and run the same code on real robots."
+      }
+    },
+    {
+      "id": "vstorm-co/agenticos",
+      "repoKey": "vstorm-co/agenticos",
+      "name": "agenticos",
+      "full_name": "vstorm-co/agenticos",
+      "link": "https://github.com/vstorm-co/agenticos",
+      "description": "Open-source, self-hosted AI agent platform for your company's AI teammates. Build, run and govern agents on your own servers and models: shared chat, RAG, skills, a real browser, 4,700+ MCP servers, budgets, approvals and an audit trail. An alternative to ChatGPT Enterprise and Grok Bot. Apache-2.0, built on Pydantic AI.",
+      "language": "Python",
+      "stars": 915,
+      "stars_today": 19,
+      "stars_per_day_estimate": 18.98492390493008,
+      "trend_basis": "observed_about_24h",
+      "trend_score": 7.319674743860794,
+      "default_branch": "main",
+      "created_at": "2026-07-31T09:53:01Z",
+      "pushed_at": "2026-11-27T22:53:23Z",
+      "why_it_matters": {
+        "es": "Plataforma de agentes de IA autoalojada y de código abierto para equipos empresariales, con chat compartido, RAG, navegador real, más de 4.700 servidores MCP, presupuestos y auditoría, construida sobre Pydantic AI.",
+        "en": "Open-source, self-hosted AI agent platform for enterprise teams, with shared chat, RAG, a real browser, 4,700+ MCP servers, budgets, and audit trail, built on Pydantic AI."
+      }
+    }
+  ],
+  "developer_signals": [
+    {
+      "id": "2126440485128454338",
+      "newsId": "2126440485128454338",
+      "author": "midudev",
+      "source": "X · @midudev",
+      "link": "https://x.com/midudev/status/2126440485128454338",
+      "publishedAt": "2026-11-27T22:18:13.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "Google tiene una skill oficial llamada /migrate-to-rust, que te ayuda a pasar sistemas legacy a Rust.\n\nhttps://t.co/IgrR8Kr60B https://t.co/Ifi8PMtrDV",
+      "linkedUrls": [
+        "https://github.com/google/skills/tree/main/skills/developers/migrate-to-rust",
+        "https://x.com/midudev/status/2126440485128454338/photo/1"
+      ],
+      "public_metrics": {
+        "bookmark_count": 1349,
+        "impression_count": 55167,
+        "like_count": 1899,
+        "quote_count": 4,
+        "reply_count": 19,
+        "retweet_count": 120
+      },
+      "utilityHint": 0,
+      "text": {
+        "es": "Google tiene una skill oficial llamada /migrate-to-rust que ayuda a pasar sistemas legacy a Rust, disponible en su repositorio de skills.",
+        "en": "Google has an official skill called /migrate-to-rust that helps migrate legacy systems to Rust, available in its skills repository."
+      }
+    },
+    {
+      "id": "2126345630045884719",
+      "newsId": "2126345630045884719",
+      "author": "GergelyOrosz",
+      "source": "X · @GergelyOrosz",
+      "link": "https://x.com/GergelyOrosz/status/2126345630045884719",
+      "publishedAt": "2026-11-27T16:01:18.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "So many people and companies talk about \"context graph.\" Uber built it and makes it dead simple to visualize how services, people and other entities are connected, super cool\n\nUber tends to be well ahead of internal infra vs the rest of the indsutry IME https://t.co/h9DH4etjGX https://t.co/sRzhMQUwgj",
+      "linkedUrls": [
+        "https://x.com/GergelyOrosz/status/2126345630045884719/photo/1",
+        "https://twitter.com/i/status/2126321143585874109"
+      ],
+      "public_metrics": {
+        "bookmark_count": 394,
+        "impression_count": 31045,
+        "like_count": 354,
+        "quote_count": 2,
+        "reply_count": 38,
+        "retweet_count": 20
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "Uber ha construido un 'context graph' que visualiza de forma sencilla cómo se conectan servicios, personas y otras entidades, una infraestructura interna que destaca por su avance.",
+        "en": "Uber has built a 'context graph' that simply visualizes how services, people, and other entities are connected, an internal infrastructure that stands out for its advancement."
+      }
+    },
+    {
+      "id": "2126331345177579671",
+      "newsId": "2126331345177579671",
+      "author": "GergelyOrosz",
+      "source": "X · @GergelyOrosz",
+      "link": "https://x.com/GergelyOrosz/status/2126331345177579671",
+      "publishedAt": "2026-11-27T15:04:32.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "Yes, don’t forget that those tools helped create a new category of games, the indie game! Lots of them would have never been made w/o game engines\n\nAlso small studios can now also make epic hits (think: Expedition 33) https://t.co/22d9xfDTZJ",
+      "linkedUrls": [
+        "https://twitter.com/ben_throop/status/2126321141862019124"
+      ],
+      "public_metrics": {
+        "bookmark_count": 13,
+        "impression_count": 8129,
+        "like_count": 80,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 0
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "Gergely Orosz señala que los motores de juego como Unity y Godot crearon la categoría de juegos indie, y que algo similar podría pasar con SaaS e IA, pero de forma más intensa.",
+        "en": "Gergely Orosz notes that game engines like Unity and Godot created the indie game category, and something similar could happen with SaaS and AI, but more intensely."
+      }
+    },
+    {
+      "id": "2126371481609474147",
+      "newsId": "2126371481609474147",
+      "author": "HamelHusain",
+      "source": "X · @HamelHusain",
+      "link": "https://x.com/HamelHusain/status/2126371481609474147",
+      "publishedAt": "2026-11-27T17:44:01.000Z",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "original_text": "1. Don't make decisions based on benchmarks.  They have too many flaws. \n\n2. Use your own evals \n\n3. If you must use benchmarks, look at the data.  Looking at just one failed task is often enough to uncover major issues.  TBH, you'll be convinced not to trust benchmarks if you do this",
+      "linkedUrls": [
+        "https://twitter.com/HamelHusain/status/2125701624320680214"
+      ],
+      "public_metrics": {
+        "bookmark_count": 69,
+        "impression_count": 8081,
+        "like_count": 146,
+        "quote_count": 6,
+        "reply_count": 59,
+        "retweet_count": 15
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "Hamel Husain aconseja no tomar decisiones basadas en benchmarks debido a sus defectos, y recomienda usar evaluaciones propias o examinar los datos de tareas fallidas para detectar problemas.",
+        "en": "Hamel Husain advises against making decisions based on benchmarks due to their flaws, and recommends using your own evals or examining failed task data to uncover issues."
+      }
+    },
+    {
+      "id": "2126405256124981317",
+      "newsId": "2126405256124981317",
+      "author": "steveruizok",
+      "source": "X · @steveruizok",
+      "link": "https://x.com/steveruizok/status/2126405256124981317",
+      "publishedAt": "2026-11-27T19:58:14.000Z",
+      "topic": "ai_general",
+      "contentType": "developer_signal",
+      "original_text": "Nice micro feature in the new Claude iOS design: long press the + for a quick photo picker. gg @RobertJBye @DanHollick https://t.co/2MUZRohkP8",
+      "linkedUrls": [
+        "https://x.com/steveruizok/status/2126405256124981317/video/1"
+      ],
+      "public_metrics": {
+        "bookmark_count": 79,
+        "impression_count": 8120,
+        "like_count": 156,
+        "quote_count": 0,
+        "reply_count": 8,
+        "retweet_count": 2
+      },
+      "utilityHint": 0,
+      "text": {
+        "es": "Steve Ruiz destaca una microfunción en el nuevo diseño de Claude para iOS: mantener pulsado el botón + abre un selector de fotos rápido.",
+        "en": "Steve Ruiz highlights a micro feature in the new Claude iOS design: long-pressing the + button opens a quick photo picker."
+      }
+    },
+    {
+      "id": "2126360429379354897",
+      "newsId": "2126360429379354897",
+      "author": "zachlloydtweets",
+      "source": "X · @zachlloydtweets",
+      "link": "https://x.com/zachlloydtweets/status/2126360429379354897",
+      "publishedAt": "2026-11-27T17:00:06.000Z",
+      "topic": "ai_software",
+      "contentType": "developer_signal",
+      "original_text": "An unexpectedly big change when using software factories is working in public.\n\nFor folks working in the old devtools paradigm, the first moment your work goes from being private to public is when you open a PR. Until then, you iterate locally, in private, using your own \"cockpit\" to produce code that will eventually get reviewed by a peer, pushed through CI, and then shipped out to the world.\n\nIn a software factory world, this changes; by default, you work in public, using standardized skills and tools as the default (but with the ability to tweak).\n\nI'd argue this is good. You get more visibility into what everyone is working on. You get the ability to collaborate with teammates at the creation stage, pre-PR. You get to see how the best developers on your team use agents.\n\nIt can be uncomfortable at first, but in the long run I think it's actually a better way to work.",
+      "linkedUrls": [],
+      "public_metrics": {
+        "bookmark_count": 36,
+        "impression_count": 6109,
+        "like_count": 55,
+        "quote_count": 2,
+        "reply_count": 28,
+        "retweet_count": 1
+      },
+      "utilityHint": 2,
+      "text": {
+        "es": "Zach Lloyd reflexiona sobre cómo trabajar en público es un cambio significativo al usar fábricas de software, permitiendo más visibilidad y colaboración antes de abrir un PR.",
+        "en": "Zach Lloyd reflects on how working in public is a significant change when using software factories, allowing more visibility and collaboration before opening a PR."
+      }
+    }
+  ],
+  "editorial_stats": {
+    "topics": {
+      "apple": 2,
+      "ai_software": 1,
+      "ai_general": 0,
+      "tech": 2
+    }
+  }
+}
